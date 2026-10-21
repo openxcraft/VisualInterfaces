@@ -1,0 +1,54 @@
+{
+  "version": "0.1.0",
+  "updated": "2026-10-21",
+  "sources": [
+    {
+      "title": "Design trends overview for 2026",
+      "url": "https://www.uxpin.com/studio/blog/ui-ux-design-trends/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Trend directions: conversational interfaces, adaptive personalisation, functional motion, spatial interfaces, design tokens, inclusive design."
+    },
+    {
+      "title": "Interface design trend roundup for 2026",
+      "url": "https://www.sanjaydey.com/ui-ux-design-trends-2026/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Trend directions: personalised interfaces, modular grid layouts, accessibility-first systems, voice and multimodal input, purposeful micro-interactions."
+    },
+    {
+      "title": "Frontend design patterns overview",
+      "url": "https://www.netguru.com/blog/frontend-design-patterns",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Component-driven structure, grid for page structure and flexible rows for components, container queries, fluid type, dark theme via variables."
+    },
+    {
+      "title": "Component library listing",
+      "url": "http://Resource.fyi/category/ui-libraries",
+      "category": "resources",
+      "type": "listing",
+      "accessed": "2026-10-21",
+      "notes": "Shortlist of free, maintained component libraries by use case."
+    },
+    {
+      "title": "Responsive landing page construction",
+      "url": "https://reintech.io/blog/creating-a-responsive-landing-page-with-css",
+      "category": "layouts",
+      "type": "tutorial",
+      "accessed": "2026-10-21",
+      "notes": "Fluid type with clamp, grid with auto-fit and minmax, mobile-first breakpoints."
+    },
+    {
+      "title": "Commerce landing page practices",
+      "url": "https://constructor.com/blog/ecommerce-landing-page-best-practices-with-examples",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Trust elements, clear calls to action, multiple product views, mobile-first layout."
+    }
+  ]
+}
