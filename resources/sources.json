@@ -81,6 +81,14 @@
       "type": "release-notes",
       "accessed": "2026-10-21",
       "notes": "New web component: a drag-and-drop form designer with more than 20 built-in form components, available across multiple web frameworks. Pattern: a field palette feeds a canvas; settings sit beside the selected field; a live preview precedes saving."
+    },
+    {
+      "title": "App UI kit changelog: October 2026 carousel focus and layering fixes",
+      "url": "https://www.canva.dev/docs/apps/app-ui-kit/changelog/",
+      "category": "states",
+      "type": "release-notes",
+      "accessed": "2026-10-21",
+      "notes": "A carousel scroll button returns focus to the pressed button after scrolling completes; paging never moves keyboard focus outside the carousel; styles use cascade layers where the browser supports them with a fallback otherwise."
     }
   ]
 }

@@ -7,6 +7,13 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- States catalogue: focus retention rule for scrollable composite controls —
+  after a scroll button is activated, focus returns to that button, and
+  paging keeps keyboard focus inside the control (October 2026 UI kit
+  release notes: carousel focus fixes).
+- Source record for the October 2026 UI kit changelog in
+  resources/sources.json.
+
 - Primitives catalogue: form builder entry with anatomy (field palette,
   drag canvas, settings panel, live preview), builder variants, and rules
   (palette matches runtime fields; preview before saving; keyboard path for

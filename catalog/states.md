@@ -37,6 +37,7 @@ not replace any of the seven above.
 - Loading longer than about 10 seconds needs a progress statement or a cancel action.
 - Empty and error states keep the page structure: navigation, title, and search stay in place.
 - On touch devices there is no hover; every hover affordance has a tap equivalent.
+- In a scrollable composite control such as a carousel, activating a scroll button returns focus to that button once scrolling completes, and paging never moves keyboard focus outside the control.
 - Reduced-motion settings replace animated indicators with static ones.
 
 ## States
