@@ -73,6 +73,14 @@
       "type": "article",
       "accessed": "2026-10-21",
       "notes": "Interface programs composed from registered components render progressively as they stream; the registered set controls what can appear; syntax instructions must match the client runtime version; cut-off streams render blank rather than a partial tree."
+    },
+    {
+      "title": "October 2026 release: drag-and-drop form builder component",
+      "url": "https://www.globenewswire.com/news-release/2026/10/07/3376560/0/en/syncfusion-releases-essential-studio-2026-volume-3.html",
+      "category": "primitives",
+      "type": "release-notes",
+      "accessed": "2026-10-21",
+      "notes": "New web component: a drag-and-drop form designer with more than 20 built-in form components, available across multiple web frameworks. Pattern: a field palette feeds a canvas; settings sit beside the selected field; a live preview precedes saving."
     }
   ]
 }

@@ -7,6 +7,14 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Primitives catalogue: form builder entry with anatomy (field palette,
+  drag canvas, settings panel, live preview), builder variants, and rules
+  (palette matches runtime fields; preview before saving; keyboard path for
+  arranging fields). Based on October 2026 release notes for a drag-and-drop
+  form-designing component with more than 20 built-in field types.
+- Source record for the October 2026 form builder release notes in
+  resources/sources.json.
+
 - Primitives catalogue: leaderboard entry with anatomy, start/middle/end
   slot composition, and rules for ranked lists (October 2026 release notes:
   bar-list component retired in favour of composed leaderboard entries).
