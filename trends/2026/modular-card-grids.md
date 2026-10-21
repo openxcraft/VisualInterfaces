@@ -23,6 +23,7 @@ Cards in two or three fixed sizes; a grid with consistent gaps; card header with
 - Cards keep a fixed internal order: title, summary, action.
 - The grid reflows by moving whole cards, never by resizing text inside a card.
 - Compact: one card per row, ordered by importance.
+- Tile markup is written in priority order; named placement areas rearrange tiles at each breakpoint without changing source order, so assistive technology and keyboard focus follow the same sequence at every size.
 - Empty cards are replaced by a single placeholder card with one next action, not a blank space.
 
 ## States

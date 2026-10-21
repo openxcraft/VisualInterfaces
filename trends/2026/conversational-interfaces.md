@@ -40,6 +40,34 @@ which the client renders progressively as it streams.
 - Long answers are chunked with headings; actions sit with the chunk they affect.
 - Compact and expanded layouts keep the composer fixed at the bottom of the view.
 
+## When chat is the wrong surface
+
+Chat is linear and ephemeral; it fails for multi-step workflows where context
+gets lost, precise structured input and output, high-frequency repetitive
+actions, and persistent collaborative context. Use this decision rule:
+
+- Open-ended exploration and lookup: chat.
+- Well-defined tasks with fixed fields: structured forms or wizards.
+- Spatial or comparative work: visual surfaces.
+- Frequent repeat actions: shortcuts, not another conversation.
+- Hybrids let the person switch mode without losing context; a conversational
+  layer beside a conventional interface routes each request to words, to the
+  right screen, or to both, and states which one was chosen.
+
+## Voice interaction states
+
+Design the voice flow as if no screen existed, then add a visual layer that
+confirms what was heard and shows what speech handles poorly, such as lists
+and comparisons.
+
+- One step at a time: confirm each step before moving on; state every change
+  explicitly, since there is no visual to glance at.
+- Offer at most about three spoken options at a time; keep responses short.
+- Repair asks only for the missing piece, never restarts the whole exchange.
+- Support barge-in: the person can interrupt and be understood.
+- When recognition fails, say what was heard and what is needed, then retry
+  the single step.
+
 ## States
 
 Every element and page in this group defines all seven states. Missing states are treated as incomplete work.

@@ -25,6 +25,8 @@ Top bar with title, search, and account actions; side navigation on expanded scr
 - Compact: navigation collapses to a top bar with a menu; cards stack; charts become single-column and tables become card lists or gain horizontal scroll with a sticky first column.
 - Filters stay visible while results update; the result area shows loading in place.
 - Numbers use tabular figures; units and time ranges are always labelled.
+- Synthesis over widgets: alongside static charts, offer narrative summaries
+  and "what changed" reports that explain the movement, not only the numbers.
 
 ## States
 

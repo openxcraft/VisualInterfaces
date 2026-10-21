@@ -24,6 +24,22 @@ Preference controls for density, theme, and text size; a rules layer that reorde
 - Adaptation changes order and emphasis of secondary content only.
 - Every adaptation can be inspected and undone from settings.
 - Compact and expanded variants follow the same adaptation rules.
+- Small-surface variants, such as wearables, reduce to one glance per screen with at most two actions; see the wearable rules in `catalog/interfaces.md`.
+
+## Style variants
+
+A kit may ship its whole block set in two complete visual styles: a compact,
+precise monochrome style and a roomy, warm, tactile one. Both styles share
+the same layout, data, states, keyboard handling, and motion; only density,
+type, surface treatment, and radius change.
+
+- Every block ships in every style. A switch that leaves some blocks behind
+  breaks the promise.
+- One theme panel switches every preview at once; accent, base, font, and
+  radius compose on top of either style.
+- Blocks are installed per style, keeping a project to the style it uses.
+- Choose the compact style where operators and consoles need precision;
+  choose the warm style for consumer products that invite touch.
 
 ## States
 

@@ -31,10 +31,18 @@ Supporting states worth defining where relevant: focused, selected, expanded,
 read-only, offline, and permission-denied. They extend this scheme; they do
 not replace any of the seven above.
 
+| Supporting state | Appearance | Behaviour and recovery |
+| --- | --- | --- |
+| Offline | A persistent banner or badge states that the connection is lost; the layout does not rearrange. | Cached content stays usable; actions that need the network queue visibly and sync when the connection returns; nothing silently fails. |
+| Read-only | Controls are replaced or dimmed with a short reason, for example "View only". | Data is fully legible; the reason for read-only is stated once; the path to request access sits next to it. |
+| Permission-denied | The blocked area explains which access is missing and why it is needed. | Offer a retry after granting, or an alternative path that works without the permission; never show a dead end. |
+
 ## Layout and responsive rules
 
 - State changes never move surrounding content; reserve space in the layout.
 - Loading longer than about 10 seconds needs a progress statement or a cancel action.
+- Long operations name their steps, for example "Searching your documents", instead of a generic spinner.
+- Optimistic updates apply the change at once and revert quietly on failure, with a clear undo path.
 - Empty and error states keep the page structure: navigation, title, and search stay in place.
 - On touch devices there is no hover; every hover affordance has a tap equivalent.
 - In a scrollable composite control such as a carousel, activating a scroll button returns focus to that button once scrolling completes, and paging never moves keyboard focus outside the control.

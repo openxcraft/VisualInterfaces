@@ -46,34 +46,33 @@ defined without an example; gap = named but not yet defined.
 
 | Dimension | Full | Partial | Gap |
 | --- | --- | --- | --- |
-| Platform | Web, mobile | Tablet, desktop | Kiosk, wearable, television, embedded |
+| Platform | Web, mobile, kiosk | Tablet, desktop, wearable, television, embedded | — |
 | Device input | Touch, pointer, keyboard | Voice, remote | Gesture-only |
-| Interface type | Web app, mobile app | Conversational, spatial | Embedded, kiosk |
-| Page pattern | Dashboard, mobile navigation | Landing, authentication, commerce, settings | Checkout variants, onboarding |
-| State | All seven in catalog | Loading variants | Offline, read-only, permission-denied |
+| Interface type | Web app, mobile app, kiosk | Conversational, spatial | Embedded |
+| Page pattern | Dashboard, mobile navigation, data table | Landing, authentication, commerce, settings, onboarding | Checkout variants |
+| State | All seven in catalog; offline, read-only, permission-denied | Loading variants | — |
 
 ## Improvement actions
 
-1. Add a kiosk layout file with large targets, idle timeout, and session reset
-   rules. Done when `layouts/kiosk.md` passes all quality gates and is linked
-   from the index.
-2. Add an onboarding pattern with step states, skip rules, and progress
-   persistence. Done when `catalog/patterns.md` gains the section and
-   `catalog/states.md` covers its loading and error cases.
-3. Add a wearable pattern note covering glanceable content, two-action screens,
-   and voice fallback. Done when `catalog/interfaces.md` and
-   `trends/2026/adaptive-interfaces.md` are updated and cross-linked.
-4. Add data-table variants for density, sticky headers, and bulk selection.
-   Done when `catalog/patterns.md` includes the variants with all seven states.
-5. Add an offline state note. Done when `catalog/states.md` defines offline,
-   read-only, and permission-denied behaviour and recovery.
+1. Add a television layout file with focus-based navigation, 10-foot
+   legibility rules, and overscan margins. Done when `layouts/tv.md` passes
+   all quality gates.
+2. Add an embedded display layout note covering fixed-size canvases, offline
+   operation, and high-contrast rules for bright light. Done when a new
+   section or `layouts/embedded.md` passes all quality gates and is referenced
+   from `catalog/interfaces.md`.
+3. Consolidate the duplicated seven-state tables: replace the full table in
+   each layout and trend file with a short pointer to `catalog/states.md`
+   plus file-specific state notes. Done when `check_quality.py` no longer
+   reports the duplicate-paragraph warning.
 
 ## Review notes
 
-- Most duplicated area: state descriptions repeated across layout files.
-  Consolidation target: keep the full wording in `catalog/states.md` and short
-  rows elsewhere.
-- Least covered area: non-screen and small-screen interfaces.
+- Most duplicated area: state descriptions repeated across layout and trend
+  files. Consolidation target: keep the full wording in `catalog/states.md`
+  and short rows plus a pointer elsewhere (now a numbered action).
+- Least covered area: television and embedded display interfaces; gesture-only
+  input remains a gap.
 
 ## Pre-publish checklist
 

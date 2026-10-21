@@ -38,6 +38,9 @@ When to avoid:
 - Compact screens show one task per view; expanded screens may combine a list and a detail view.
 - Every interface type defines keyboard or focus order, even when touch is primary.
 - Respect safe areas, overscan margins, and physical control placement on fixed devices.
+- Wearable surfaces follow glanceable rules: one glance per screen, at most two actions, text short enough to read in seconds; design ambient (always-on) and active display states separately. Where hands are busy, a voice action covers the same two options; every voice action states what it understood before confirming.
+- Design for states, not devices, on folding surfaces: closed, half-open, fully open, and tent. The fold is a seam, not a wall — content flows across it while interactive elements reposition away from the hinge; transitions never reload and restore scroll and focus exactly.
+- Across surfaces, one task continues where it stopped: navigation migrates from bottom bars on compact surfaces to side rails on expanded ones without changing order, and components morph from terse to detailed while the underlying action stays the same.
 
 ## States
 

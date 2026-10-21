@@ -25,6 +25,25 @@ Short transitions of 100 to 300 ms; shared-element moves between list and detail
 - Reduced-motion settings replace movement with fades or instant change.
 - Looping motion is limited to loading indicators.
 
+## Motion values
+
+Three production durations cover most needs: about 115 ms for quick,
+responsive feedback (menus, popovers, panels); about 165 ms for more
+expressive change (form-field error shakes, link transitions); about 250 ms
+for complex attention-drawing moves (notification banners). Pair each with a
+matching easing curve: a responsive decelerating curve for feedback, a
+"sticky" curve for state retention, an expressive curve for drawing attention.
+
+- Scale draws attention to incoming items; slide signals a structural move,
+  such as a panel entering from its trigger. Keep transform patterns unified
+  across the product.
+- Never flash more than three times per second.
+- Never rely on motion alone: the change must be perceivable without it, and
+  the operating system's reduced-motion setting deactivates all non-essential
+  animation.
+- Ship motion tokens (durations, easings, keyframes) so custom components
+  reuse the same values instead of inventing their own.
+
 ## States
 
 Every element and page in this group defines all seven states. Missing states are treated as incomplete work.

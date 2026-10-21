@@ -26,6 +26,19 @@ Category navigation; filter and sort controls; product grid with image area, nam
 - Checkout is a short wizard with a visible step indicator and an order summary that stays reachable.
 - Filters collapse behind a clearly labelled control on compact screens; active filters remain visible as tags.
 
+## Checkout variants
+
+- One-page checkout suits low-cost impulse purchases; multi-step with a clear
+  progress indicator suits high-cost or business purchases, where
+  micro-commitments give a sense of control.
+- Always show the total step count, for example "Step 2 of 3".
+- A running order total stays visible through every step; instalment options
+  appear under the total as a standard choice, never as a surprise.
+- Guest checkout is offered; wallet-driven accelerated checkout sits beside
+  the manual path.
+- The order summary persists across steps; payment failures get an explicit
+  retry state that keeps the order intact.
+
 ## States
 
 Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
