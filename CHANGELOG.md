@@ -3,6 +3,16 @@
 All notable changes are recorded here. Format: newest first, grouped by
 version, with Added, Changed, and Fixed sections where they apply.
 
+## [Unreleased]
+
+### Added
+
+- Primitives catalogue: step trace and code block entries with anatomy,
+  variants, and rules for interfaces that show the steps of an automated
+  task and its code, terminal output, logs, or diffs.
+- Source record for the October 2026 component release notes in
+  resources/sources.json.
+
 ## [0.1.0] - 2026-10-21
 
 ### Added
