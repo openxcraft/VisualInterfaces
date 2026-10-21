@@ -89,6 +89,14 @@
       "type": "release-notes",
       "accessed": "2026-10-21",
       "notes": "A carousel scroll button returns focus to the pressed button after scrolling completes; paging never moves keyboard focus outside the carousel; styles use cascade layers where the browser supports them with a fallback otherwise."
+    },
+    {
+      "title": "October 2026 component release: Markdown content block",
+      "url": "https://www.stimulsoft.com/en/blog/news/stimulsoft-reports-and-dashboards-2026-4-is-now-available",
+      "category": "primitives",
+      "type": "release-notes",
+      "accessed": "2026-10-21",
+      "notes": "New reporting component for rendering Markdown content (headers, lists, tables, images, links, code blocks) with CommonMark 0.31.2 and GFM support; content is editable directly in the component editor."
     }
   ]
 }

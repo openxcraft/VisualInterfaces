@@ -38,6 +38,7 @@ When to avoid:
 | Code block | Header with title and actions, line numbers, content body | Code, terminal output, log, diff; compact | Line numbers aid reference; wrap or scroll long lines without clipping; diff highlights stay text-readable |
 | Leaderboard | Ranked entries; each entry has a start slot, a middle slot, and an end slot | Top-N lists, scores, rankings; compact and full | One entry per ranked item; keep the ranking signal (position, score, delta) separate from the identity in the middle; sort by the same key the rank claims; never reorder without re-ranking |
 | Form builder | Field palette, drag canvas, field settings panel, live preview | Inline builder, wizard-step builder | The palette shows only fields the runtime can render; settings sit beside the selected field; always offer a preview before saving; provide a keyboard path for adding and reordering fields |
+| Markdown block | Rendered content surface: headings, paragraphs, lists, tables, images, links, code blocks | Read-only, editable source | Follows a standard Markdown specification; sanitise untrusted source input; images scale to the container; tables stay readable on narrow widths |
 
 ## Layout and responsive rules
 

@@ -7,6 +7,14 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Primitives catalogue: Markdown block entry with anatomy (headings,
+  paragraphs, lists, tables, images, links, code blocks), read-only and
+  editable-source variants, and rules (standard specification, sanitised
+  input, responsive images, readable tables on narrow widths). Based on
+  October 2026 release notes for a new Markdown content component.
+- Source record for the October 2026 Markdown component release notes in
+  resources/sources.json.
+
 - States catalogue: focus retention rule for scrollable composite controls —
   after a scroll button is activated, focus returns to that button, and
   paging keeps keyboard focus inside the control (October 2026 UI kit
