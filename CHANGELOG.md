@@ -7,6 +7,10 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Primitives catalogue: leaderboard entry with anatomy, start/middle/end
+  slot composition, and rules for ranked lists (October 2026 release notes:
+  bar-list component retired in favour of composed leaderboard entries).
+
 - Conversational interfaces trend: rendered interface answers section —
   compact interface programs from registered components, streamed rendering,
   version-matched syntax instructions, and blank-on-cut-off behaviour.
