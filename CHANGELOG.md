@@ -7,6 +7,12 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Conversational interfaces trend: rendered interface answers section —
+  compact interface programs from registered components, streamed rendering,
+  version-matched syntax instructions, and blank-on-cut-off behaviour.
+- Source record for the October 2026 streaming interface rendering release
+  analysis in resources/sources.json.
+
 - Primitives catalogue: sheet entry with anatomy, edge variants, and overlay
   composition rules (trigger wrapper, opening edge, composed parts).
 - Source record for the October 2026 overlay composition release notes in

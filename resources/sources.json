@@ -65,6 +65,14 @@
       "type": "release-notes",
       "accessed": "2026-10-21",
       "notes": "Overlay pattern: trigger wrapper manages the interaction, a control opens it, and the component renders the content. Sheets choose the opening edge by position; drawers and modals are unified under sheet and dialog with header, body, footer, and close parts."
+    },
+    {
+      "title": "Streaming interface rendering: 1.0 release notes and version analysis",
+      "url": "https://ibl.ai/blog/openui-lang-1-0-what-shipped-version-coupling",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Interface programs composed from registered components render progressively as they stream; the registered set controls what can appear; syntax instructions must match the client runtime version; cut-off streams render blank rather than a partial tree."
     }
   ]
 }

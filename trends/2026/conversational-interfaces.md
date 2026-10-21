@@ -18,6 +18,21 @@ When to avoid:
 
 Message list with clear turn order; composer with send action; suggestion chips for common replies; structured cards for choices and confirmations; a visible way to restart or switch to a form.
 
+## Rendered interface answers
+
+A newer direction: instead of answering with text, the system answers with a
+compact interface program composed from the product's registered components,
+which the client renders progressively as it streams.
+
+- Only components in the registered set can appear; anything outside the set
+  never renders, so the registered set is the effective control on the answer.
+- The instruction set that teaches the syntax must match the client runtime
+  version; mismatched versions render nothing.
+- A cut-off stream renders blank rather than a partial tree, so an incomplete
+  answer is never presented as finished.
+- Rendered programs remain inspectable: they are built from the product's own
+  components and run on the shipped client.
+
 ## Layout and responsive rules
 
 - Every conversational step offers a structured fallback: buttons, a list, or a form.
