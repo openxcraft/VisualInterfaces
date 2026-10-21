@@ -57,6 +57,14 @@
       "type": "release-notes",
       "accessed": "2026-10-21",
       "notes": "New primitives: a step-trace list for automated task runs (icon, title, description, status per line; running, error, pending states; expandable and nested lines) and a code block for code, terminal output, logs, and diffs (header with actions, line numbers, wrapping, highlighted lines)."
+    },
+    {
+      "title": "Overlay composition update: trigger wrappers, sheet positions, dialog parts",
+      "url": "https://intentui.com/blog/release-v4",
+      "category": "primitives",
+      "type": "release-notes",
+      "accessed": "2026-10-21",
+      "notes": "Overlay pattern: trigger wrapper manages the interaction, a control opens it, and the component renders the content. Sheets choose the opening edge by position; drawers and modals are unified under sheet and dialog with header, body, footer, and close parts."
     }
   ]
 }

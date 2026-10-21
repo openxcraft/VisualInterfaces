@@ -30,6 +30,7 @@ When to avoid:
 | Tag | Label, optional remove control | Removable, selectable | Removable tags are reachable by keyboard |
 | Tooltip | Short text, pointer | Top, bottom, left, right | Supplementary only; never the sole source of essential information |
 | Dialog | Title, body, actions, close control | Confirm, form, full-screen on compact | Traps focus, returns focus to the trigger, closes on escape where safe |
+| Sheet | Trigger wrapper, content surface, optional header, body, footer, close parts | Slide-in from left, right, top, or bottom edge; inline panel | One overlay family covers drawers and modals; the trigger wrapper manages the interaction, a control opens it, and the component renders the content; choose the opening edge by position; compose with header, body, footer, and close parts; do not nest sheets |
 | Toast | Short message, optional action | Neutral, success, warning, error | Auto-dismiss except errors; action allows undo where possible |
 | Progress | Bar or ring, label | Determinate, indeterminate | Label states what is loading or progressing |
 | Skeleton | Abstract blocks matching final layout | Text line, card, list row | Same dimensions as final content to prevent layout shift |

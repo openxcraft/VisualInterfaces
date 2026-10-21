@@ -7,6 +7,10 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Primitives catalogue: sheet entry with anatomy, edge variants, and overlay
+  composition rules (trigger wrapper, opening edge, composed parts).
+- Source record for the October 2026 overlay composition release notes in
+  resources/sources.json.
 - Primitives catalogue: step trace and code block entries with anatomy,
   variants, and rules for interfaces that show the steps of an automated
   task and its code, terminal output, logs, or diffs.
