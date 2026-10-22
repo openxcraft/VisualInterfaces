@@ -7,6 +7,13 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Interfaces catalogue: new extension interfaces section — the inline
+  overlay replaces the classic click-icon dropdown flow: anchor the
+  floating panel to the cursor or the target element, show results next
+  to their source, dismiss cheaply returning focus to the anchor, build
+  with a web component and closed shadow root (not iframes), defend
+  against host pages on shadow DOM/z-index/scroll, size to content, full
+  keyboard access.
 - Functional motion trend: scroll-triggered animation rule — content
   revealed by scroll position stays available to screen-reader and keyboard
   users; scroll position never gates content alone.

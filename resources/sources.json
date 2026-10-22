@@ -433,6 +433,14 @@
       "type": "reading-list",
       "accessed": "2026-10-22",
       "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+    },
+    {
+      "title": "Design Trends That Will Influence Extensions in 2026",
+      "url": "https://www.wiredlabz.com/article/design-trends-that-will-influence-extensions-in-2026",
+      "category": "interfaces",
+      "type": "article",
+      "accessed": "2026-10-22",
+      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
     }
   ]
 }

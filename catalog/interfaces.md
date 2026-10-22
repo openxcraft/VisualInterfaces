@@ -138,6 +138,32 @@ For fixed panels in appliances, machinery, and wall-mounted controls,
 see `layouts/embedded.md`: fixed-size canvases, bright-light contrast
 rules, offline-first operation, and refresh constraints.
 
+## Extension interfaces
+
+For browser extensions and other add-on surfaces that act on host pages:
+the classic click-the-icon, see-a-dropdown, interact, click-away flow is
+giving way to the inline overlay: a floating panel anchored to the cursor
+or to the page element being acted on, behaving as part of the page's own
+interface rather than a separate layer.
+
+- Anchor the overlay to the cursor position or the target element, not to
+  the toolbar; keep the user inside their current task and context.
+- Show results next to their source: translated text beside the original
+  sentence, highlights on the text they annotate, previews where the change
+  will apply. Closing the overlay never forces reorientation — the
+  underlying page stays exactly where it was.
+- Dismissal is cheap: one action closes the overlay and returns focus to
+  the anchor; focus never leaks into the host page underneath.
+- Build the overlay as a web component with a closed shadow root for style
+  isolation. Avoid iframes: they complicate focus management and keyboard
+  navigation.
+- Defend against the host page deliberately: handle shadow DOM, z-index
+  conflicts, and scroll events so the overlay behaves on arbitrary pages.
+- Size to content, not to the toolbar: the old narrow dropdown panels
+  forced squinting; give the overlay room up to sensible maximum bounds.
+- Full keyboard access to every overlay control, in a documented order;
+  never require pointer-only interaction.
+
 ## States
 
 Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
