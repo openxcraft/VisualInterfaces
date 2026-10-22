@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mobile Navigation Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="appbar">
+  <h1>Home</h1>
+  <button type="button">Search</button>
+</header>
+<main class="content">
+  <article class="card"><h2>Section summary</h2><p>Short summary text for the first section.</p><button type="button">Open section</button></article>
+  <article class="card"><h2>Updates</h2><p>Three updates need attention.</p><button type="button">Review updates</button></article>
+  <article class="card"><h2>Empty example</h2><p>No saved items yet.</p><button type="button">Add an item</button></article>
+  <article class="card"><h2>Error example</h2><p role="alert">Content could not be loaded.</p><button type="button">Retry</button></article>
+  <article class="card loading" aria-label="Loading example"><span></span><span></span></article>
+</main>
+<nav class="tabbar" aria-label="Primary">
+  <a href="#" aria-current="page"><span class="mark square"></span>Home</a>
+  <a href="#"><span class="mark circle"></span>Browse</a>
+  <a href="#"><span class="mark triangle"></span>Activity <span class="badge">3</span></a>
+  <a href="#"><span class="mark diamond"></span>Profile</a>
+</nav>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand">Overview</span>
+  <label class="search">Search <input type="search" name="q" placeholder="Search items"></label>
+  <button type="button">Account</button>
+</header>
+<div class="shell">
+  <nav class="sidenav" aria-label="Sections">
+    <a href="#" aria-current="page">Overview</a>
+    <a href="#">Reports</a>
+    <a href="#">Items</a>
+    <a href="#">Settings</a>
+  </nav>
+  <main class="content">
+    <div class="filters" role="group" aria-label="Filters">
+      <button type="button" aria-pressed="true">Last 7 days</button>
+      <button type="button" aria-pressed="false">Last 30 days</button>
+      <button type="button" disabled>Export (unavailable)</button>
+    </div>
+    <section class="cards" aria-label="Summary">
+      <article class="card"><h2>Active items</h2><p class="value">1,248</p><p>Up 4% vs prior period</p></article>
+      <article class="card"><h2>Completed</h2><p class="value">312</p><p>Up 9% vs prior period</p></article>
+      <article class="card"><h2>Pending</h2><p class="value">47</p><p>Down 2% vs prior period</p></article>
+      <article class="card"><h2>Failed</h2><p class="value">3</p><p>No change vs prior period</p></article>
+    </section>
+    <section class="panel" aria-label="Activity chart">
+      <h2>Activity by day</h2>
+      <div class="bars">
+        <div class="bar" style="--h:40%"><span>Mon</span><strong>40</strong></div>
+        <div class="bar" style="--h:65%"><span>Tue</span><strong>65</strong></div>
+        <div class="bar" style="--h:52%"><span>Wed</span><strong>52</strong></div>
+        <div class="bar" style="--h:80%"><span>Thu</span><strong>80</strong></div>
+        <div class="bar" style="--h:58%"><span>Fri</span><strong>58</strong></div>
+      </div>
+    </section>
+    <section class="panel" aria-label="Recent items">
+      <h2>Recent items</h2>
+      <table>
+        <thead><tr><th>Name</th><th>Status</th><th>Updated</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>Item A</td><td>Active</td><td>Today</td><td><button type="button">Open</button></td></tr>
+          <tr><td>Item B</td><td>Pending</td><td>Yesterday</td><td><button type="button">Open</button></td></tr>
+          <tr><td>Item C</td><td>Complete</td><td>2 days ago</td><td><button type="button">Open</button></td></tr>
+        </tbody>
+      </table>
+      <div class="skeleton" aria-label="Loading example"><span></span><span></span><span></span></div>
+      <p class="empty-note">Empty example: No items match the current filters. <button type="button">Clear filters</button></p>
+      <p class="error-note" role="alert">Error example: Items could not be loaded. <button type="button">Retry</button></p>
+    </section>
+  </main>
+</div>
+</body>
+</html>

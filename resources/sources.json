@@ -1,0 +1,230 @@
+{
+  "version": "0.1.0",
+  "updated": "2026-10-21",
+  "sources": [
+    {
+      "title": "Design trends overview for 2026",
+      "url": "https://www.uxpin.com/studio/blog/ui-ux-design-trends/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Trend directions: conversational interfaces, adaptive personalisation, functional motion, spatial interfaces, design tokens, inclusive design."
+    },
+    {
+      "title": "Interface design trend roundup for 2026",
+      "url": "https://www.sanjaydey.com/ui-ux-design-trends-2026/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Trend directions: personalised interfaces, modular grid layouts, accessibility-first systems, voice and multimodal input, purposeful micro-interactions."
+    },
+    {
+      "title": "Frontend design patterns overview",
+      "url": "https://www.netguru.com/blog/frontend-design-patterns",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Component-driven structure, grid for page structure and flexible rows for components, container queries, fluid type, dark theme via variables."
+    },
+    {
+      "title": "Component library listing",
+      "url": "http://Resource.fyi/category/ui-libraries",
+      "category": "resources",
+      "type": "listing",
+      "accessed": "2026-10-21",
+      "notes": "Shortlist of free, maintained component libraries by use case."
+    },
+    {
+      "title": "Responsive landing page construction",
+      "url": "https://reintech.io/blog/creating-a-responsive-landing-page-with-css",
+      "category": "layouts",
+      "type": "tutorial",
+      "accessed": "2026-10-21",
+      "notes": "Fluid type with clamp, grid with auto-fit and minmax, mobile-first breakpoints."
+    },
+    {
+      "title": "Commerce landing page practices",
+      "url": "https://constructor.com/blog/ecommerce-landing-page-best-practices-with-examples",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Trust elements, clear calls to action, multiple product views, mobile-first layout."
+    },
+    {
+      "title": "October 2026 component release: step trace and code block",
+      "url": "https://ui.shadcn.com/docs/changelog/2026-10-ai-elements",
+      "category": "primitives",
+      "type": "release-notes",
+      "accessed": "2026-10-21",
+      "notes": "New primitives: a step-trace list for automated task runs (icon, title, description, status per line; running, error, pending states; expandable and nested lines) and a code block for code, terminal output, logs, and diffs (header with actions, line numbers, wrapping, highlighted lines)."
+    },
+    {
+      "title": "Overlay composition update: trigger wrappers, sheet positions, dialog parts",
+      "url": "https://intentui.com/blog/release-v4",
+      "category": "primitives",
+      "type": "release-notes",
+      "accessed": "2026-10-21",
+      "notes": "Overlay pattern: trigger wrapper manages the interaction, a control opens it, and the component renders the content. Sheets choose the opening edge by position; drawers and modals are unified under sheet and dialog with header, body, footer, and close parts."
+    },
+    {
+      "title": "Streaming interface rendering: 1.0 release notes and version analysis",
+      "url": "https://ibl.ai/blog/openui-lang-1-0-what-shipped-version-coupling",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Interface programs composed from registered components render progressively as they stream; the registered set controls what can appear; syntax instructions must match the client runtime version; cut-off streams render blank rather than a partial tree."
+    },
+    {
+      "title": "October 2026 release: drag-and-drop form builder component",
+      "url": "https://www.globenewswire.com/news-release/2026/10/07/3376560/0/en/syncfusion-releases-essential-studio-2026-volume-3.html",
+      "category": "primitives",
+      "type": "release-notes",
+      "accessed": "2026-10-21",
+      "notes": "New web component: a drag-and-drop form designer with more than 20 built-in form components, available across multiple web frameworks. Pattern: a field palette feeds a canvas; settings sit beside the selected field; a live preview precedes saving."
+    },
+    {
+      "title": "App UI kit changelog: October 2026 carousel focus and layering fixes",
+      "url": "https://www.canva.dev/docs/apps/app-ui-kit/changelog/",
+      "category": "states",
+      "type": "release-notes",
+      "accessed": "2026-10-21",
+      "notes": "A carousel scroll button returns focus to the pressed button after scrolling completes; paging never moves keyboard focus outside the carousel; styles use cascade layers where the browser supports them with a fallback otherwise."
+    },
+    {
+      "title": "October 2026 component release: Markdown content block",
+      "url": "https://www.stimulsoft.com/en/blog/news/stimulsoft-reports-and-dashboards-2026-4-is-now-available",
+      "category": "primitives",
+      "type": "release-notes",
+      "accessed": "2026-10-21",
+      "notes": "New reporting component for rendering Markdown content (headers, lists, tables, images, links, code blocks) with CommonMark 0.31.2 and GFM support; content is editable directly in the component editor."
+    },
+    {
+      "title": "October 2026 changelog: dual-style App UI blocks",
+      "url": "https://pro.reactbits.dev/changelog",
+      "category": "trends",
+      "type": "changelog",
+      "accessed": "2026-10-21",
+      "notes": "Component library update shipping its App UI block set in two complete styles: a precise monochrome default and a roomy, warm, tactile variant (larger controls and rows, raised tiles, inset fields). Styles switch from the theme panel; every block keeps the same layout, data, states, keyboard handling, and motion; blocks install per style with a suffixed name."
+    },
+    {
+      "title": "Web design trend roundup: modular tile layouts and accessibility guardrails",
+      "url": "https://www.netguru.com/blog/modern-web-design-trends",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Modular tile (bento) layouts and barely-there styling: failure modes include poor small-screen collapse and grid reordering breaking reading order for screen readers and keyboard focus; recommended fix is to write the markup in priority order and use named grid areas to rearrange tiles at breakpoints; thin lightweight text risks contrast failures."
+    },
+    {
+      "title": "Design-system motion specification",
+      "url": "https://cloudscape.design/foundation/visual-foundation/motion/",
+      "category": "trends",
+      "type": "documentation",
+      "accessed": "2026-10-21",
+      "notes": "Motion values: 115/165/250 ms durations, responsive/sticky/expressive easing curves, scale for incoming items, slide for structural moves, no flash beyond three per second, reduced-motion honoured, motion tokens for custom components."
+    },
+    {
+      "title": "Design-system release notes, October 2026",
+      "url": "https://designsystem.ontario.ca/docs/documentation/explore/release-notes.html",
+      "category": "primitives",
+      "type": "release-notes",
+      "accessed": "2026-10-21",
+      "notes": "New combobox guidance (design only), refreshed guidance for back button, back-to-top, in-page navigation, links, critical and page alerts, loading indicator, and search box; hotfix correcting broken global styles."
+    },
+    {
+      "title": "Skeleton component changelog v18.0.0",
+      "url": "https://developer.semrush.com/intergalactic/components/skeleton/skeleton-changelog",
+      "category": "states",
+      "type": "changelog",
+      "accessed": "2026-10-21",
+      "notes": "Breaking theme change (default/invert only); chart placeholders moved to masks with theme-dependent colours."
+    },
+    {
+      "title": "Standards-body design system update, September 2026",
+      "url": "https://www.w3.org/blog/2026/whats-new-in-the-w3c-design-system-september-2026/",
+      "category": "primitives",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "CSS reset replaced, typography rebuilt around a new type scale, simplified space management, wrapper elements removed to simplify page markup."
+    },
+    {
+      "title": "Agent-to-UI interface playbook",
+      "url": "https://www.aisquadx.tech/blog/ai-agent-ux-design-playbook-2026",
+      "category": "interfaces",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Streaming-rendered interfaces in conversational surfaces; agent-mediated purchase pattern; reversibility-tiered approval gates (free/confirm/gate); calibrated confidence states with source citations."
+    },
+    {
+      "title": "Voice interface design guide, 2026",
+      "url": "https://fuselabcreative.com/voice-user-interface-design-guide-2026/",
+      "category": "states",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Voice as a first-class control surface: one-breath steps with per-step confirmation, about three spoken options at a time, repair paths asking only for the missing piece, barge-in support, multimodal pairing of voice summary with screen detail."
+    },
+    {
+      "title": "Ecommerce checkout optimisation guide, 2026",
+      "url": "https://www.digitalapplied.com/blog/ecommerce-checkout-optimization-2026-ux-guide",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Checkout variants: one-page for low-cost impulse purchases, multi-step with total step count for high-cost purchases; running order total visible, instalment options under the total, guest and wallet-accelerated checkout, explicit payment-retry states."
+    },
+    {
+      "title": "Multi-surface app guide",
+      "url": "https://www.synergylabs.co/blog/beyond-the-screen-the-2026-guide-to-building-multi-surface-apps-for-mobile-and-spatial-computing",
+      "category": "interfaces",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Anticipatory design across surfaces: task continuity (start on watch, continue on phone, finish in spatial); navigation migrates bottom bar to side rail; components morph from terse to detailed; companion-app pattern for spatial sessions."
+    },
+    {
+      "title": "Foldable app UI considerations",
+      "url": "https://zignuts.com/blog/what-should-you-consider-for-developing-foldable-apps",
+      "category": "interfaces",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Canonical foldable layouts (list-detail, supporting pane, feed); design for postures (closed, half-open, fully open, tent); fold treated as a seam; warm transitions with exact scroll and focus restoration; critical elements kept away from the hinge."
+    },
+    {
+      "title": "Micro-interaction examples and skeleton screens",
+      "url": "https://enstacked.com/best-micro-interactions-examples/",
+      "category": "states",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Skeleton screens replace spinners; stream long output progressively; name the steps of longer operations; optimistic updates with quiet revert on failure; inline validation on blur."
+    },
+    {
+      "title": "UI and UX trends shaping 2026",
+      "url": "https://www.orizon.co/blog/10-ui-ux-trends-that-will-shape-2026",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Post-dashboard narrative interfaces (synthesis, what-changed reports); adaptive interfaces reordering in real time; calm interfaces; ultra-contextual navigation that shrinks itself."
+    },
+    {
+      "title": "UI and UX design trends (slug reads 2025, content covers 2026)",
+      "url": "https://unicoconnect.com/blogs/ui-ux-design-trends-2025",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Conversational layer beside a conventional interface: route each request to words, to the right screen, or to both; the handoff is the design challenge."
+    },
+    {
+      "title": "Wearable app complete guide",
+      "url": "https://weelorum.com/wp-content/themes/weelorum-theme/assets/pdf/generated-web/Wearable-App-Complete-Guide.pdf",
+      "category": "interfaces",
+      "type": "guide",
+      "accessed": "2026-10-21",
+      "notes": "Glance layouts: 3-5 second interactions, single most important datum, no scrolling, rotational input as primary scroll, separate ambient and active display states."
+    },
+    {
+      "title": "SaaS onboarding UX patterns",
+      "url": "https://www.designstudiouiux.com/blog/saas-onboarding-ux/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-21",
+      "notes": "Onboarding mechanics: interactive checklists with progress indicators, contextual micro-learning, value-first signup, personalisation routing, per-area confirmations."
+    }
+  ]
+}
