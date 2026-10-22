@@ -7,6 +7,12 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Primitives catalogue: target-size audit rules — audits separate the 44 px
+  aspiration from the 24 px requirement; a finding records page, viewport,
+  target, clickable dimensions, nearby controls, exception analysis, and user
+  consequence; remediation enlarges the hit area, increases spacing, or
+  changes the shared component; retesting happens after the change ships,
+  including responsive states.
 - States catalogue: grouped action-state rule — one component owns an
   action's idle, loading, and success presentations and the transitions
   between them, instead of scattering state logic across icons, labels,

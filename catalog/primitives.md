@@ -49,6 +49,9 @@ When to avoid:
 
 - Keep a 4 px spacing scale: 4, 8, 12, 16, 24, 32, 48.
 - Minimum touch target: 44 px. Minimum pointer target: 24 px with clear spacing.
+- Target-size audits separate the 44 px aspiration from the 24 px requirement; a finding against the requirement never presents the aspiration as the bar.
+- A target-size finding records the page, viewport, target, and clickable dimensions, states the nearby controls and the exception analysis, and describes the user consequence.
+- Remediation picks one path: enlarge the hit area, increase spacing, or change the shared component. Retesting happens after the change ships, including responsive states.
 - Focus ring is always visible on keyboard focus and never removed without a replacement.
 - Text scales to 200% without loss of content or function.
 - Colour is never the only signal; pair it with text, shape, or position.
