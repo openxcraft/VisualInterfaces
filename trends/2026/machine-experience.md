@@ -1,0 +1,55 @@
+# Machine Experience Design
+
+Pages structured so automated agents can read, compare, and complete tasks accurately. The machine reader is treated as a real audience alongside the human one, without weakening the human experience.
+
+## Classification
+
+- Category: trends / 2026 / machine-experience
+
+When to use:
+
+- Pages where automated agents look up facts or complete tasks for a person: prices, availability, schedules, bookings, purchases, comparisons.
+
+When to avoid:
+
+- Applying the direction as decoration without the behaviour and guardrails described here.
+- Treating machine readability as a replacement for human usability; the human page comes first.
+
+## Elements and components
+
+Semantic sections whose source order matches the visual order; headings that describe the content below them; key facts — price, availability, primary action, contact — as real text, never image-only; labels tied to every input, an explicit submit action, and error messages placed next to the field they concern.
+
+## Layout and responsive rules
+
+- The source sequence reads the same as the visual sequence at every breakpoint; reordering by sight alone breaks machine reading.
+- Critical information never lives only in scripts, canvas, gesture-only controls, or hover-only reveals.
+- Headings, lists, tables, and forms use native structures so every part keeps its role.
+- The first useful content is available without completing any interaction.
+- Keyboard focus order matches the reading order everywhere.
+- Compact variants keep the same source order; nothing important drops out of the sequence at small sizes.
+
+## States
+
+Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
+
+| State | Appearance | Behaviour |
+| --- | --- | --- |
+| Default | The page at rest; machine-readable structure invisible to the eye, human layout unchanged. | Ready for reading or input; key facts present as text. |
+| Hover | Pointer-only highlight: subtle background or border change. | No change on touch devices; hover never carries essential information alone. |
+| Active | Pressed or selected appearance while interaction is in progress. | Feedback appears within 100 ms of input. |
+| Disabled | Reduced contrast, no pointer response, still readable as text. | Explain why it is unavailable nearby when the reason is not obvious. |
+| Loading | Skeleton blocks or a progress indicator with labelled roles, not empty containers. | Keep layout dimensions stable so content does not shift; progress remains legible. |
+| Empty | Show a neutral starting prompt or placeholder with one example action. | Offer one clear next action and, where relevant, a reset for filters. |
+| Error | State in plain words what could not be completed, next to the field it concerns, with the structured fallback or a retry. | Keep entered data, place the message next to the problem, and offer a retry. |
+
+## Pre-publish checklist
+
+- [ ] Title and short description are present and accurate.
+- [ ] Classification and when-to-use guidance are present.
+- [ ] Elements, layout, and responsive rules are complete.
+- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
+- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
+- [ ] No references appear outside the resources files.
+- [ ] No secrets, contact details, local filenames, or system paths are present.
+- [ ] Visuals, if any, are abstract shapes only.
+- [ ] Internal links resolve and headings follow a consistent order.

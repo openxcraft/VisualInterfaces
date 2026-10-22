@@ -46,33 +46,54 @@ defined without an example; gap = named but not yet defined.
 
 | Dimension | Full | Partial | Gap |
 | --- | --- | --- | --- |
-| Platform | Web, mobile, kiosk | Tablet, desktop, wearable, television, embedded | — |
-| Device input | Touch, pointer, keyboard | Voice, remote | Gesture-only |
-| Interface type | Web app, mobile app, kiosk | Conversational, spatial | Embedded |
-| Page pattern | Dashboard, mobile navigation, data table | Landing, authentication, commerce, settings, onboarding | Checkout variants |
+| Platform | Web, mobile, kiosk, television, embedded | Tablet, desktop, wearable | — |
+| Device input | Touch, pointer, keyboard, voice, gesture-only | Remote | — |
+| Interface type | Web app, mobile app, kiosk, conversational, embedded | Spatial | — |
+| Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding | Landing, authentication, commerce, settings | — |
 | State | All seven in catalog; offline, read-only, permission-denied | Loading variants | — |
 
 ## Improvement actions
 
-1. Add a television layout file with focus-based navigation, 10-foot
-   legibility rules, and overscan margins. Done when `layouts/tv.md` passes
-   all quality gates.
-2. Add an embedded display layout note covering fixed-size canvases, offline
-   operation, and high-contrast rules for bright light. Done when a new
-   section or `layouts/embedded.md` passes all quality gates and is referenced
-   from `catalog/interfaces.md`.
-3. Consolidate the duplicated seven-state tables: replace the full table in
+1. Consolidate the duplicated seven-state tables: replace the full table in
    each layout and trend file with a short pointer to `catalog/states.md`
    plus file-specific state notes. Done when `check_quality.py` no longer
    reports the duplicate-paragraph warning.
+2. Add a comparison pattern to `catalog/patterns.md`: side-by-side comparison
+   for plans, products, or options — comparison columns with a fixed
+   criterion order, difference-only toggle, honest marking of best value,
+   and clear call-to-action per option — with all seven states defined.
+   Done when the new pattern passes all quality gates.
+3. Add a permission-request flow pattern to `catalog/patterns.md`:
+   pre-permission rationale screen stating what is needed and why, a
+   graceful denial path that keeps the rest of the product usable,
+   re-request timing rules (ask once, then only in context), with all
+   seven states defined and a cross-link from the permission-denied row in
+   `catalog/states.md`. Done when the new pattern passes all quality gates.
+4. Add tablet middle-zone layout guidance: the rules for switching from
+   compact to expanded layouts in the tablet zone — column counts, the
+   width at which navigation becomes a rail, two-pane thresholds, and
+   orientation-change behaviour — as a new `layouts/tablet.md` or a shared
+   note referenced by the layouts. Done when the note passes all quality
+   gates.
 
 ## Review notes
 
 - Most duplicated area: state descriptions repeated across layout and trend
   files. Consolidation target: keep the full wording in `catalog/states.md`
-  and short rows plus a pointer elsewhere (now a numbered action).
-- Least covered area: television and embedded display interfaces; gesture-only
-  input remains a gap.
+  and short rows plus a pointer elsewhere (now action 1).
+- Least covered area: the tablet middle-zone between compact and expanded
+  layouts; remote-control input beyond the television rules; spatial
+  interfaces remain partial pending a full page-pattern treatment.
+- Completed this review: embedded display layout (`layouts/embedded.md`,
+  referenced from `catalog/interfaces.md`); gesture-only worked example
+  with thresholds and recovery; voice state matrix extended with
+  per-state timeouts, barge-in timing, and backchannel rules; spatial
+  interface note with depth arrangements, comfort zone, and flat-view exit;
+  empty-state taxonomy (already recorded in `CHANGELOG.md`); inline
+  assistant-action pattern cross-linked from
+  `trends/2026/agentic-ux.md`; multimodal voice-plus-screen pairing
+  cross-linked from `catalog/interfaces.md`; onboarding prefill and
+  default rules.
 
 ## Pre-publish checklist
 

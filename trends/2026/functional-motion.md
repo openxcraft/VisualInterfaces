@@ -24,6 +24,9 @@ Short transitions of 100 to 300 ms; shared-element moves between list and detail
 - No animation blocks input for longer than its own duration.
 - Reduced-motion settings replace movement with fades or instant change.
 - Looping motion is limited to loading indicators.
+- Content revealed by scroll-triggered animation stays available to
+  screen-reader and keyboard users; scroll position never gates content
+  alone.
 
 ## Motion values
 

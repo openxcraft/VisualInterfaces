@@ -65,8 +65,57 @@ and comparisons.
 - Offer at most about three spoken options at a time; keep responses short.
 - Repair asks only for the missing piece, never restarts the whole exchange.
 - Support barge-in: the person can interrupt and be understood.
+- Interruption works the same everywhere: cut-ins are accepted at any point,
+  including mid-prompt, and the flow resumes from the last confirmed step
+  when no meaningful speech followed the interruption.
+- Keep system utterances short enough to be interrupted safely at any point;
+  long readings are broken into chunks with pauses.
+- Timeouts are generous and adjustable: the person can ask for more time,
+  and a silent response earns a simpler, more explanatory reprompt rather
+  than a restart of the whole exchange.
+- In noisy settings, confirm costly actions explicitly and offer a
+  structured alternative, such as buttons or a keypad path, that works
+  without speech.
+- Set a loop limit: after repeated failures to understand, the system hands
+  off or ends safely instead of asking the same question again.
 - When recognition fails, say what was heard and what is needed, then retry
   the single step.
+- Give every state its own timeout: silence after a question earns one
+  re-prompt, then an alternative input such as a keypad, then a polite end;
+  a system that is thinking too long speaks a short filler and gives up at
+  a hard limit; a whole-conversation limit caps stuck loops and cost.
+- Barge-in responds fast: aim to stop output within about 300 ms of speech
+  start; on interruption, cancel playback, clear the audio buffer, and mark
+  the context as interrupted so the system knows its answer was incomplete.
+- Ignore backchannel words: "mm-hm" and "right" during system speech do not
+  count as interruptions; require a minimum word count before a cut-in
+  counts as one.
+- Let the person interrupt routine speech, but never let an interruption
+  block a mandatory disclosure from completing; a stop request always wins
+  over whatever the system planned to do next.
+
+## Voice-plus-screen pairing
+
+When voice is paired with a screen, the voice flow must complete on its
+own and the screen carries what speech handles poorly. No information
+exists in one channel only.
+
+- Channel assignment: voice carries commands, navigation, and quick
+  answers; the screen carries lists, maps, and comparisons — anything the
+  person needs to compare, review, edit, or confirm in detail.
+- The visual layer confirms what was heard, shows detail that would take
+  too long to read aloud, and highlights the field the system is
+  currently asking about.
+- The voice response never repeats the screen and never depends on
+  screen-only information: the voice says "I found three nearby", while
+  the screen shows the photos, ratings, and distances.
+- A synchronised transcript of spoken output is always available; there
+  is no fixed limit on response time, and the person can switch input
+  methods mid-dialogue.
+- After two failed understanding attempts, the third turn offers an exit —
+  a handoff or a screen fallback — instead of repeating the same apology.
+- When intent is uncertain, ask one focused clarification question rather
+  than guessing.
 
 ## States
 

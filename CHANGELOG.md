@@ -7,6 +7,95 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Functional motion trend: scroll-triggered animation rule — content
+  revealed by scroll position stays available to screen-reader and keyboard
+  users; scroll position never gates content alone.
+- Primitives catalogue: citation card primitive — source label, excerpt,
+  open-source link, optional page or timestamp reference; one card per
+  source, evidence placed beside the claim it supports, excerpts never
+  invented, long excerpts collapsed behind an expand control.
+- Layouts: new embedded display layout file (`layouts/embedded.md`) —
+  fixed-size canvases, bright-light contrast rules (800-1500+ nit panels
+  paired with anti-reflection treatment, readability starting at the glass
+  layer), offline-first operation, single-touch and button-based navigation
+  rules, resistive-versus-capacitive matching, and e-paper refresh
+  constraints; referenced from `catalog/interfaces.md`. Completes roadmap
+  action 1.
+- Interfaces catalogue: gesture-only worked example (swipe-to-archive) —
+  discoverability cues, progressive teaching, tap/drag thresholds,
+  continuous tracking feedback, lift-off commit with cancel, and an
+  inline undo; plus a spatial interfaces note (flat/layered/deep depth
+  arrangements, 1.25-5 m comfort zone, home zone, flat-view exit), each with
+  all seven states defined. Completes roadmap actions 3 and 5.
+- Conversational interfaces trend: voice state matrix extended with
+  per-state timeouts (re-prompt once, then alternative input, then polite
+  end), ~300 ms barge-in target, backchannel-word handling, and mandatory
+  disclosure protection; new voice-plus-screen pairing section with
+  channel-assignment rules, synchronised transcript, and third-turn exit;
+  cross-linked from `catalog/interfaces.md`. Completes roadmap actions 4
+  and 8.
+- Agentic interfaces trend: trust gradient and partial-work rules —
+  preview to supervised to autonomous graduation, first-class rollback,
+  honest per-step status, and inline overrides.
+- Patterns catalogue: new inline assistant-action pattern (commands as
+  verbs on the existing surface, inline-beats-chat rule,
+  reversibility-graded scope) cross-linked from
+  `trends/2026/agentic-ux.md`; onboarding extended with language and
+  region prefill, one-tap correction, no pre-selected sensitive fields,
+  and one question at a time. Completes roadmap actions 7 and 9.
+- roadmap.md: coverage matrix refreshed (embedded, voice, gesture-only,
+  conversational, and onboarding promoted; spatial partially defined);
+  exactly three new improvement actions (comparison pattern,
+  permission-request flow pattern, tablet middle-zone layout guidance);
+  state-table consolidation remains open.
+- 10 new source records in resources/sources.json (embedded displays,
+  gesture thresholds, spatial design, voice states, multimodal pairing,
+  agentic patterns).
+
+### Added
+
+- trends/2026: "Machine Experience Design" — designing pages so automated
+  agents can read, compare, and complete tasks accurately: source order
+  matching visual order at every breakpoint, key facts as real text, native
+  structures for headings/lists/tables/forms, critical content never
+  hidden in scripts, canvas, gesture-only controls, or hover-only reveals.
+- 1 new source record in resources/sources.json (machine-readable page
+  structure for automated agents).
+- States catalogue: "Empty-state variants" section — first-use, naturally
+  empty, and restricted-or-failed variants with copy rules, one clear next
+  action each, and an explicit status value that never infers state from an
+  item count. Completes roadmap action 6.
+- roadmap.md: four new improvement actions (empty-state taxonomy done;
+  inline assistant-action pattern; multimodal voice-plus-screen pairing;
+  onboarding prefill and default rules), ordered by coverage impact.
+- 4 new source records in resources/sources.json (empty-state design,
+  assistant surface patterns, onboarding defaults).
+
+### Added
+
+- Layouts: new television layout file (`layouts/tv.md`) — focus-based
+  navigation as the whole scheme, 10-foot legibility rules (large
+  high-contrast type, short lines, safe margins), shelf-and-hero content
+  structure, spoken-query text entry, second-device handoff for complex
+  flows, dedicated playback screen, and light-motion rules for slower
+  hardware. Completes roadmap action 1.
+- Interfaces catalogue: gesture-only input section — small consistent
+  gesture set, teach-without-manual hints, variation tolerance thresholds,
+  immediate recognition feedback, cheap reversible errors, and a
+  non-gesture alternative for every essential task.
+- Conversational interfaces trend: voice dialogue state rules — consistent
+  interruption handling with resume from the last confirmed step, short
+  interruptible utterances, generous adjustable timeouts with tapered
+  reprompts, noisy-environment fallbacks, and loop limits with safe
+  handoff.
+- roadmap.md: television completed; exactly three new improvement actions
+  (gesture-only worked example, full voice state matrix, spatial page
+  patterns); coverage matrix refreshed — television and checkout variants
+  promoted to full, gesture-only promoted to partial.
+- 7 new source records in resources/sources.json.
+
+### Added
+
 - Primitives catalogue: new "Media effect" primitive — cursor-reactive
   layered effects (ripple, pixel blocks, lens dispersion) over media on one
   shared full-page canvas; the DOM element stays the source of truth, each

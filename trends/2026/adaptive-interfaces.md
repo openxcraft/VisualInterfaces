@@ -55,6 +55,31 @@ Every element and page in this group defines all seven states. Missing states ar
 | Empty | Show a neutral starting prompt or placeholder with one example action. | Offer one clear next action and, where relevant, a reset for filters. |
 | Error | State what could not be completed and offer the structured fallback or a retry. | Keep entered data, place the message next to the problem, and offer a retry. |
 
+## Machine experience
+
+Pages increasingly serve a second audience: automated software that reads,
+interprets, and acts on a page on someone's behalf. This direction, sometimes
+called machine experience, asks whether a page is as legible to a parser as
+it is to a person.
+
+- Use real semantic markup: headings in genuine order, real buttons, real
+  lists, real form labels. An element built from generic containers forces
+  every reader to guess.
+- Write the document order to match the visual order; whatever comes first
+  in the source is reported first.
+- Publish structured data for the key facts a page asserts: products, prices,
+  dates, locations, contact details. It states what the page offers without
+  requiring prose to be parsed.
+- Server-render the content that matters. Copy that exists only after
+  client-side execution may never reach a reader that does not run it.
+- Keep key facts in extractable form: tables, lists, and concise definitions
+  rather than facts trapped inside images or animated sequences.
+- Make the main content distinguishable from surrounding furniture —
+  headers, navigation, footers, promotional panels — so a summary captures
+  the page's substance.
+- Declare the machine-access policy plainly: which parts may be read and
+  which may not. It is a publishing decision, not an afterthought.
+
 ## Pre-publish checklist
 
 - [ ] Title and short description are present and accurate.

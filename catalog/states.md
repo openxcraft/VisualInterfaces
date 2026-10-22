@@ -71,6 +71,32 @@ Every element and page in this group defines all seven states. Missing states ar
 - Disabled: where the reason is not obvious, place it in helper text beside
   the element, not only in a tooltip.
 
+## Empty-state variants
+
+Three kinds of "empty" need different words and different next steps. Do
+not infer the state from an item count; the data layer returns an explicit
+status alongside the items.
+
+- First-use. Nothing has been created yet. Goal: teach and start. Copy
+  states the situation and the one action that begins, for example "No
+  projects yet. Create your first project."
+- Naturally empty. The user is caught up, cleared the list, or nothing is
+  scheduled right now. Goal: confirm, not alarm. Say so plainly and, when
+  known, say when to come back, for example "You are all caught up. New
+  items appear here as they arrive."
+- Restricted or failed. Content exists but cannot be shown, or loading
+  failed. Goal: explain and recover. Name the cause honestly and give the
+  matching next step: a permission request for restricted content, a retry
+  for a failure. Never show a blank area that reads as broken.
+
+Rules:
+
+- One short sentence of explanation, then one clear action; a second link
+  (help, settings) is allowed but never a second action of equal weight.
+- Keep the visual treatment calm: no error styling for first-use or
+  natural empty states; error styling only for failures.
+- Keep layout dimensions stable so the populated view does not shift.
+
 ## Pre-publish checklist
 
 - [ ] Title and short description are present and accurate.
