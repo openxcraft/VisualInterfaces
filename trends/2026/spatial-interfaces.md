@@ -1,0 +1,84 @@
+# Spatial Interfaces
+
+Interfaces placed in three-dimensional space around the viewer: panels at
+arm's length or across the room, arranged by depth as well as by plane. The
+viewer is treated as a body with a neck and a gaze, not as a cursor.
+
+## Classification
+
+- Category: trends / 2026 / spatial-interfaces
+
+When to use:
+
+- Head-worn or room-scale experiences where content lives at distance and
+  depth: dashboards around the viewer, object-anchored information,
+  multi-window workspaces.
+
+When to avoid:
+
+- Adding depth to a task that a flat panel does better; precision data,
+  forms, and keyboards stay on flat panels.
+- Assuming a window always gets a spatial panel; every component ships a
+  documented two-dimensional fallback.
+
+## Elements and components
+
+Comfort zones by gaze angle; distance placement tiers; flat, layered, and
+deep arrangements; capability tiers per component with two-dimensional
+fallbacks; high-contrast opaque alternatives to translucent panels.
+
+## Layout and responsive rules
+
+- Keep critical elements within the primary zone: roughly a 40-degree cone
+  around the centre gaze (about ±20° horizontal, ±15° vertical, with the
+  critical core within ~30° of forward gaze). Use the secondary zone,
+  20–40° off-axis, for contextual or ambient content — larger and simpler.
+- Place content at 1.2–1.5 m height for standing or sitting neutral gaze;
+  never force upward neck tilt beyond about 15°.
+- Tier by distance: arm's length for detailed interactive work, 1–3 m for
+  general viewing, beyond 3 m for ambient information only; let content
+  clarity adapt automatically by zone.
+- Choose the panel by task: flat panels for precision data, forms, and
+  keyboards (less distortion, easier ray or poke hits); curved panels for
+  panoramic dashboards with the radius matched to the focal distance
+  (2–3 m); never over-curve past about a 90° arc, which distorts edges.
+- Define capability tiers per component (full spatial, basic, 2D fallback)
+  and document which tier each component supports. Ordinary 2D surfaces run
+  by default as 2D panels inside 3D space; spatial dialogs fall back to
+  standard 2D dialogs.
+- In multi-window spatial systems, cap promoted panels and give each
+  window a fallback mode: inline (content stays in the main layout, nothing
+  disappears) or drop (renders nothing until a panel is available), with
+  priority ordering when slots run out.
+- Translucent multi-layer panels are the current spatial look, but they
+  fail legibility routinely: test all text on translucent backgrounds to a
+  minimum AA contrast, provide a user toggle to a high-contrast opaque
+  version, and profile blur effects for frame rate and power. Prefer
+  progressive disclosure (gaze-triggered detail) over filling the space
+  with panels.
+
+## States
+
+Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
+
+| State | Appearance | Behaviour |
+| --- | --- | --- |
+| Default | A spatial layout at rest, with full contrast and a clear label. | Ready for input or selection. |
+| Hover | Pointer-only highlight: subtle background or border change; gaze hover needs a dwell threshold before it counts. | No change on touch devices; hover never carries essential information alone. |
+| Active | Pressed or selected appearance while interaction is in progress. | Feedback appears within 100 ms of input. |
+| Disabled | Reduced contrast, no pointer response, still readable. | Explain why it is unavailable nearby when the reason is not obvious. |
+| Loading | Skeleton blocks or a progress indicator replace live content. | Keep layout dimensions stable so content does not shift. |
+| Empty | Show the layout structure with an explanation and one action that adds or finds content. | Offer one clear next action and, where relevant, a reset for filters. |
+| Error | Keep navigation in place, show the failure in the content area, and offer retry. | Keep entered data, place the message next to the problem, and offer a retry. |
+
+## Pre-publish checklist
+
+- [ ] Title and short description are present and accurate.
+- [ ] Classification and when-to-use guidance are present.
+- [ ] Elements, layout, and responsive rules are complete.
+- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
+- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
+- [ ] No references appear outside the resources files.
+- [ ] No secrets, contact details, local filenames, or system paths are present.
+- [ ] Visuals, if any, are abstract shapes only.
+- [ ] Internal links resolve and headings follow a consistent order.

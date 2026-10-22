@@ -99,7 +99,10 @@ One surface, one worked example, to show how the rules compose.
 ## Spatial interfaces
 
 For head-worn and room-scale surfaces: content placed in depth, read at
-room distances, and always escapable back to a flat view.
+room distances, and always escapable back to a flat view. For the full
+treatment — comfort zones by gaze angle, distance tiers, panel choice, and
+capability tiers with two-dimensional fallbacks — see
+`trends/2026/spatial-interfaces.md`.
 
 - Three depth arrangements cover most surfaces: flat (all content on one plane
   at a comfortable distance — dashboards and reference panels), layered
@@ -163,6 +166,31 @@ interface rather than a separate layer.
   forced squinting; give the overlay room up to sensible maximum bounds.
 - Full keyboard access to every overlay control, in a documented order;
   never require pointer-only interaction.
+
+## Wearable interfaces
+
+For wrist-worn and other tiny screens: glanceable, single-action surfaces
+with the phone app as the overflow.
+
+- Glanceability is a structural constraint, not a style choice: design for
+  a 2–5 second task window; put one primary piece of information per
+  screen; move anything requiring more than two taps to the paired phone
+  app.
+- Treat information surfaces such as tiles as non-scrollable: they are
+  meant to be read in a glance, with a tap leading to more detail on
+  another surface.
+- Size touch targets and gestures to the finger: minimum targets around
+  38–48dp spaced at least 8pt apart; favour full-screen swipes for
+  navigation, long-press for context menus, edge-based gestures, and
+  rotating bezels or crowns as the primary scroll mechanism over fine
+  swipe scrolling.
+- Confirm actions with haptic feedback first, so the person gets
+  confirmation without needing to look at the screen.
+- Design for the round case first with larger margins: round displays
+  offer roughly 22% less usable space than square ones.
+- Ship a simplified ambient, always-on state alongside the active state:
+  low brightness, no animation, critical data visible; prefer dark
+  interfaces and minimal background work to protect battery life.
 
 ## States
 

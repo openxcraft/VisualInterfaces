@@ -25,6 +25,11 @@ Identifier field; credential field with show and hide control; primary submit ac
 - Labels stay visible; autocomplete attributes are set for identifier and credential fields.
 - Verification uses separate fields or a single field with clear grouping; paste is allowed.
 - Session and lockout messages state the wait time and the next step; they never reveal whether an account exists.
+- Prefer passkey-first sign-in: put passkeys in the username autofill dropdown via conditional mediation so the browser offers them inline, rather than building a standalone sign-in-with-passkey button.
+- Keep a visible fallback chain and never hide options: after the primary passkey step, keep app push, email magic link, email one-time code, and SMS fallbacks immediately visible below the primary action; hiding fallbacks raises frustration when passkey sign-in fails without raising passkey use.
+- Time the passkey enrollment once: repeated enrollment prompts are linked to authentication abandonment; a workable hybrid is first visit via magic link, then one immediate passkey-creation prompt, with return visits authenticating single-tap via autofill.
+- For cross-device sign-in via QR, label the context explicitly ("use your phone to sign in on this new device") before the code appears; a bare code reads as something broken.
+- Offer a credential management page: name each passkey with device metadata, let the person rename and revoke them, and issue one-time recovery codes at setup.
 
 ## States
 

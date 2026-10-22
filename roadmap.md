@@ -46,11 +46,11 @@ defined without an example; gap = named but not yet defined.
 
 | Dimension | Full | Partial | Gap |
 | --- | --- | --- | --- |
-| Platform | Web, mobile, kiosk, television, embedded | Tablet, desktop, wearable | — |
+| Platform | Web, mobile, tablet, kiosk, television, embedded, wearable | Desktop | — |
 | Device input | Touch, pointer, keyboard, voice, gesture-only | Remote | — |
 | Interface type | Web app, mobile app, kiosk, conversational, embedded | Spatial | — |
-| Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding | Landing, authentication, commerce, settings | — |
-| State | All seven in catalog; offline, read-only, permission-denied | Loading variants | — |
+| Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, landing, authentication, settings, commerce | — | — |
+| State | All seven in catalog; offline, read-only, permission-denied; loading variants | — | — |
 
 ## Improvement actions
 
@@ -58,32 +58,51 @@ defined without an example; gap = named but not yet defined.
    each layout and trend file with a short pointer to `catalog/states.md`
    plus file-specific state notes. Done when `check_quality.py` no longer
    reports the duplicate-paragraph warning.
-2. Add a comparison pattern to `catalog/patterns.md`: side-by-side comparison
-   for plans, products, or options — comparison columns with a fixed
-   criterion order, difference-only toggle, honest marking of best value,
-   and clear call-to-action per option — with all seven states defined.
-   Done when the new pattern passes all quality gates.
-3. Add a permission-request flow pattern to `catalog/patterns.md`:
-   pre-permission rationale screen stating what is needed and why, a
-   graceful denial path that keeps the rest of the product usable,
-   re-request timing rules (ask once, then only in context), with all
-   seven states defined and a cross-link from the permission-denied row in
-   `catalog/states.md`. Done when the new pattern passes all quality gates.
-4. Add tablet middle-zone layout guidance: the rules for switching from
-   compact to expanded layouts in the tablet zone — column counts, the
-   width at which navigation becomes a rail, two-pane thresholds, and
-   orientation-change behaviour — as a new `layouts/tablet.md` or a shared
-   note referenced by the layouts. Done when the note passes all quality
-   gates.
+2. Add spatial page patterns: multi-window spatial layouts with per-window
+   fallback modes (inline versus drop) and priority ordering when panel
+   slots run out, building on `trends/2026/spatial-interfaces.md`; promote
+   Spatial from partial to full in the matrix. Done when the new section
+   passes all quality gates.
+3. Add remote-control input guidance beyond the television layout: pointer,
+   touch-surface, and scroll-wheel remote variants as an input section in
+   `catalog/interfaces.md`, with focus behaviour per variant. Done when the
+   new section passes all quality gates.
+4. Add a wearable layout file (`layouts/watch.md`): glanceable surfaces,
+   the ambient always-on state, round-display margins, and the two-tap
+   overflow rule to the phone app. Done when the new file passes all
+   quality gates.
 
 ## Review notes
 
 - Most duplicated area: state descriptions repeated across layout and trend
   files. Consolidation target: keep the full wording in `catalog/states.md`
   and short rows plus a pointer elsewhere (now action 1).
-- Least covered area: the tablet middle-zone between compact and expanded
-  layouts; remote-control input beyond the television rules; spatial
-  interfaces remain partial pending a full page-pattern treatment.
+- Least covered area: remote-control input beyond the television rules
+  (pointer, touch-surface, and scroll-wheel remote variants); spatial
+  interfaces remain partial pending a full page-pattern treatment (now
+  actions 2 and 3); a dedicated wearable layout file is still open
+  (action 4).
+- Completed this review: comparison pattern, permission-request flow
+  pattern, and search-results pattern in `catalog/patterns.md` (with a
+  cross-link from the permission-denied row in `catalog/states.md`);
+  data-table grouped-loading and cell-action rules; new
+  `layouts/tablet.md` (window size bands, navigation switching, two-pane
+  thresholds, foldable postures); television layout deepened (type
+  minimums, safe-area margins, spatial focus, remote input variants,
+  real-distance testing); landing layout deepened (outcome-first hero,
+  section order, form friction); authentication layout deepened
+  (passkey-first flow, visible fallback chain, one-time enrollment,
+  QR context, credential management); settings layout deepened (sidebar
+  navigation, settings search design, danger zone); wearable interfaces
+  section in `catalog/interfaces.md` with a cross-link to the spatial
+  trend file; conversational trend gained an interruption-budget section;
+  functional-motion trend gained reduced-motion swap rules; agentic trend
+  gained the six trust patterns and the orchestration surface; new
+  `trends/2026/spatial-interfaces.md`; headless behaviour primitive and
+  form-builder confirmation rules in `catalog/primitives.md`; 55 new
+  source records (115 total); coverage matrix refreshed (tablet, wearable,
+  landing, authentication, settings, comparison, permission request,
+  search results, and loading variants promoted to full).
 - Completed this review: embedded display layout (`layouts/embedded.md`,
   referenced from `catalog/interfaces.md`); gesture-only worked example
   with thresholds and recovery; voice state matrix extended with

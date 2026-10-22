@@ -35,7 +35,7 @@ not replace any of the seven above.
 | --- | --- | --- |
 | Offline | A persistent banner or badge states that the connection is lost; the layout does not rearrange. | Cached content stays usable; actions that need the network queue visibly and sync when the connection returns; nothing silently fails. |
 | Read-only | Controls are replaced or dimmed with a short reason, for example "View only". | Data is fully legible; the reason for read-only is stated once; the path to request access sits next to it. |
-| Permission-denied | The blocked area explains which access is missing and why it is needed. | Offer a retry after granting, or an alternative path that works without the permission; never show a dead end. |
+| Permission-denied | The blocked area explains which access is missing and why it is needed. | Offer a retry after granting, or an alternative path that works without the permission; never show a dead end. For the flow that earns the permission in the first place, see the permission-request pattern in `catalog/patterns.md`. |
 
 ## Layout and responsive rules
 
@@ -76,6 +76,28 @@ Every element and page in this group defines all seven states. Missing states ar
   be loaded. Check the connection and try again."
 - Disabled: where the reason is not obvious, place it in helper text beside
   the element, not only in a tooltip.
+
+## Loading-state rules
+
+A skeleton previews the shape of arriving content; it is not decoration.
+Pick the indicator from the wait, not the layout.
+
+- Reserve skeletons for waits of roughly 1 to 10 seconds. Under 1 second
+  show nothing — a flickering skeleton reads as noise. Past 10 seconds
+  switch to a percent-done indicator.
+- Match the final layout box for box. When the post-loading layout cannot
+  be predicted, use a spinner instead to avoid layout whiplash.
+- Replace each placeholder the instant its content arrives; never hold
+  finished content hostage to the slowest element on the page.
+- Never show an empty state during a fetch — users read "no data" as
+  final. Zero results after loading completes is an empty state; a
+  failure is an error state with retry. Never leave the skeleton visible
+  after an error.
+- Skeleton shape communicates loading without motion. Ship a static
+  reduced-motion variant, keep skeleton fills at readable contrast, and
+  announce loading status to assistive technology: mark loading regions
+  busy and announce with a polite live region when content replaces the
+  skeleton.
 
 ## Empty-state variants
 

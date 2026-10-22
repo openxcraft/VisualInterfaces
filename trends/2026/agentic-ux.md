@@ -44,6 +44,40 @@ range of text, an item on a canvas — use the inline assistant-action
 pattern from `catalog/patterns.md`: the command appears as a verb on the
 selection itself rather than in a separate conversation surface.
 
+## Six trust patterns across the action lifecycle
+
+Structure every agent-driven flow around the same six patterns; treat them
+as structural, not optional:
+
+- **Pre-action: intent preview.** Show the plan before acting, with
+  approve, edit, and do-it-myself options on the table.
+- **Pre-action: autonomy dial.** Offer a per-context spectrum of
+  independence with progressive authorisation, not a binary on/off switch.
+- **In-action: explainable rationale.** State the plain-language why plus
+  the confidence behind the current step.
+- **In-action: confidence signal.** Carry badges, percentages, or
+  qualitative labels that travel with the work.
+- **Post-action: action audit and undo.** Keep a chronological log with
+  per-action reversal as a first-class surface, not a hidden page.
+- **Post-action: escalation pathway.** Defer to a person on low confidence
+  or high stakes.
+
+## Orchestration surface and post-action receipts
+
+- The plan lives on screen with editable steps and a choice of approving
+  the full sequence or each step; tool-use disclosure shows which external
+  system was called and what it returned at the decision moment, not in a
+  collapsed log.
+- Memory corrections are surfaced visibly: "you changed the suggested time
+  from 9am to 2pm — afternoons will be preferred for this contact going
+  forward."
+- After completion, issue a post-action receipt: what changed, which
+  systems were touched, what assumptions were used, and what can still be
+  undone.
+- Scale the surface to the stakes: the full orchestration surface for
+  multi-step, high-stakes tasks; lighter disclosure (a confidence signal
+  only) for low-stakes single steps.
+
 ## Trust gradient and partial work
 
 Graduate autonomy with evidence, and report partial results honestly:

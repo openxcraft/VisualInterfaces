@@ -29,7 +29,10 @@ voice-search entry point beside a step-through on-screen keyboard.
 
 - Focus is the whole navigation scheme: exactly one element is focused at a
   time, drawn larger, brighter, or lifted off the surface; each direction
-  press moves focus to the obvious neighbour in that direction.
+  press moves focus to the obvious neighbour in that direction. With no
+  cursor, focus must be visibly highlighted at all times; grid arrangements
+  make the next element in each direction predictable, and the layout lets
+  a viewer glance away and return while still knowing their position.
 - Arrange content as a grid or a stack of rows so every element has a clear
   neighbour in each direction; there are no focus traps anywhere.
 - Set a default focus on every screen and restore it when returning; focus
@@ -37,9 +40,24 @@ voice-search entry point beside a step-through on-screen keyboard.
 - Design for 10-foot legibility: large high-contrast type, short lines of
   about 40 characters, generous spacing, no thin strokes or single-pixel
   details, and keep critical content inside safe margins that survive
-  overscan.
+  overscan. Type minimums are stricter than on nearer screens: roughly 12sp
+  is an absolute minimum and 18sp the default, with about 24pt as the
+  practical floor at a 3-metre viewing distance; avoid thin or light
+  typefaces, which jag and flicker on television panels; prefer light text
+  on dark backgrounds; break copy into short scannable chunks.
+- Keep a margin of about 5% from every edge: legacy overscan crops edges,
+  and a commonly used overscan-safe margin on 1080p is 27px top and bottom
+  and 48px left and right. Gaze concentrates in the centre of the screen,
+  so place primary content centrally and keep all critical content and
+  controls inside the safe area.
 - Actual viewing distance varies between households, so test type and focus
-  indicators at several real distances rather than one nominal distance.
+  indicators at several real distances rather than one nominal distance:
+  test on a real set from around 3 metres and from several angles in the
+  room. Avoid pure white surfaces and over-saturated reds; near-white
+  values around #f1f1f1 reduce flicker and halation.
+- Different remotes add pointer, touch-surface, or scroll-wheel behaviour
+  on top of the directional pad, so plan navigation per input variant
+  rather than assuming a plain directional remote.
 - Text entry is the weakest point: prefer spoken queries; complex flows such
   as account creation or payment hand off to a second device via a displayed
   code.

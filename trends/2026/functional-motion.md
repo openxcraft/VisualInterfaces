@@ -47,6 +47,45 @@ matching easing curve: a responsive decelerating curve for feedback, a
 - Ship motion tokens (durations, easings, keyframes) so custom components
   reuse the same values instead of inventing their own.
 
+## Native platform capabilities
+
+Three platform capabilities are converging toward cross-browser parity, so
+design systems can drop scripted equivalents:
+
+- Anchor overlays to their trigger (tooltips, menus, popovers) with anchor
+  positioning instead of a scripted positioning library; keep a static
+  placement behind a support check so the overlay stays visible and aligned
+  where anchors are unsupported.
+- Default anchored popups to the trigger's width; widen only when the
+  content genuinely needs the room, and re-anchor after resize so the
+  overlay stays aligned with its trigger.
+- Drive scroll-linked motion with scroll-driven animation timelines, not
+  scroll listeners; animate transform and opacity only, so the motion stays
+  off the main thread; content starts visible and readable, with the
+  enhancement added only where supported.
+- Run document-to-document transitions with view transitions instead of
+  scripted page fades; navigation works identically without them.
+- Use native dialog and popover semantics for overlays: a dismiss-on-outside
+  action, a subordinate hint popover for tooltips, and keyboard handling that
+  ships with the platform.
+
+## Reduced motion: swap, do not delete
+
+Reduced motion is a substitution, not a removal: every effect ships a
+deliberate final static state.
+
+- Guard every effect with the operating system's reduced-motion setting and
+  ship the resting state per effect: progress bars at full, reveals at full
+  opacity, parallax removed.
+- Swap movement for calm: keep the fade, drop the travel; keep state
+  changes, remove bounce.
+- Keep essential feedback: spinners run slower (around 1.5 s) rather than
+  vanishing; remove parallax backgrounds, scroll reveals, and infinite
+  pulsing; retain small contained motion such as icon rotations and button
+  presses.
+- Offer a visible "pause animations" control alongside the system setting,
+  so the choice is discoverable in the product itself.
+
 ## States
 
 Every element and page in this group defines all seven states. Missing states are treated as incomplete work.

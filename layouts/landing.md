@@ -21,7 +21,11 @@ Header with navigation and primary action; hero with headline, short supporting 
 ## Layout and responsive rules
 
 - Hero fits the first viewport on expanded screens without hiding the next section's start.
+- Compose the hero outcome-first: the headline names the audience and a measurable outcome, carries exactly one primary action, and places supporting microcopy plus a risk reducer (for example "no card required") beside the action; include a proof point before the first scroll.
+- Show the product in motion above the fold where possible: looping motion, an interactive demo, or a live preview reduces ambiguity faster than illustration; pick the hero variant by page type — left text with right visual, centred text over image, or an embedded form for lead generation.
 - One primary action repeats at natural stopping points; wording stays identical.
+- Order sections to mirror the decision: hero, then a social-proof strip, three to five outcome-led benefit blocks, how it works, deeper proof, objection handling (pricing transparency, security, questions), and a closing action; place social proof where doubt appears — adjacent to actions and forms — not only in a testimonials section.
+- Ruthless form friction: keep lead forms to three fields where possible, since each added field costs conversions; for longer asks, multi-step forms that break the request into small stages beat a single wall of fields.
 - Compact: single column in reading order — headline, action, features, evidence, questions.
 - Sticky action bar on compact screens appears only after the hero action scrolls away.
 - Media is abstract or product-focused; decorative media never pushes the headline below the fold on compact screens.

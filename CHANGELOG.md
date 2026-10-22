@@ -7,6 +7,99 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Trends: anchored-popup sizing rule — popups default to the trigger's
+  width; widen only when the content needs the room; re-anchor after
+  resize so the overlay stays aligned with its trigger.
+- Patterns catalogue: comparison pattern — fixed criterion order, three to
+  four option columns, plain audience labels, "everything in the previous
+  tier, plus" summaries, differences-only toggle, gentle winner marking
+  with shading plus a text cue (never colour alone), computed deltas,
+  explicit metric direction, sticky labels and decision row, annual saving
+  spelled out. Completes roadmap action 2.
+- Patterns catalogue: permission-request flow pattern — two-stage flow
+  (custom pre-permission rationale stating the concrete value, system
+  dialog only after a positive response), asked in context and never on
+  first launch, one permission at a time, graceful denial into a
+  feature-limited experience, plain explanation and settings route on
+  permanent denial; cross-linked from the permission-denied row in the
+  states catalogue. Completes roadmap action 3.
+- Patterns catalogue: search-results pattern — search narrows by intent and
+  filters by attribute; ordered no-results recovery (spelling suggestion,
+  scope broadening, removable carried filters, create action); exact
+  query-and-filter echo with no silent clearing; mirrored filter chips;
+  reset clears filters but keeps the query; facet placement with live
+  result counts.
+- Patterns catalogue: data-table grouped-loading and cell-action rules —
+  loading state per section rather than whole-table only, expanded rows
+  aligned to the visible viewport, cell-level actions combining one link
+  with one or two adjacent actions.
+- Layouts: new tablet layout file (`layouts/tablet.md`) — window size
+  bands (compact under ~600dp, medium 600–840dp, expanded 840–1200dp),
+  navigation switching with width (bottom bar, rail around 600dp,
+  permanent drawer around 840dp), two-pane list-detail threshold,
+  supporting-pane splits, orientation-change continuity, and
+  posture-aware foldable rules (tabletop, book, no interactive elements
+  across the fold, in-progress state preserved). Completes roadmap
+  action 4.
+- Television layout: deepened 10-foot rules — type minimums (~12sp minimum,
+  18sp default, ~24pt practical floor at 3 m), no thin typefaces, light
+  text on dark backgrounds, ~5% safe-area margin (27 px top/bottom,
+  48 px left/right on 1080p), centre-weighted content, real-distance
+  testing from ~3 m, near-white #f1f1f1 to reduce flicker, per-variant
+  remote input planning.
+- Landing layout: outcome-first hero rules — named audience and measurable
+  outcome headline, one primary action with a risk reducer, proof before
+  first scroll, product shown in motion, decision-mirroring section order,
+  three-field form discipline with multi-step forms for longer asks.
+- Authentication layout: passkey-first flow — passkeys in the username
+  autofill dropdown via conditional mediation, visible fallback chain
+  (passkey, app push, email magic link, email code, SMS last), one-time
+  enrollment timing, labelled QR cross-device context, credential
+  management page with rename and revoke.
+- Settings layout: sidebar-over-icon-grid navigation, edit chrome matched
+  to stakes, settings-search design rules (20+ field heuristic, synonym
+  matching, section and current-value results, zero-result logging), and
+  a danger-zone pattern with effort-graded confirmation.
+- Interfaces catalogue: wearable interfaces section — 2–5 second task
+  window, one primary item per screen, two-tap overflow to the phone app,
+  non-scrollable glanceable tiles, 38–48dp targets, swipe and crown
+  navigation, haptic-first confirmation, round-first margins, ambient
+  always-on state.
+- Conversational interfaces trend: interruption-budget section — the
+  interruption budget is separate from the response-latency budget;
+  200–300 ms stop pipeline with an explicit interrupted state; learned
+  turn-taking over bare silence thresholds; chunked turn-taking rhythm;
+  voice-plus-screen channel fusion; spoken fallbacks in voice-only
+  contexts.
+- Functional motion trend: reduced-motion swap rules — ship a deliberate
+  final static state per effect, swap movement for calm (keep the fade,
+  drop the travel), slower essential spinners (~1.5 s), visible
+  pause-animations control.
+- Agentic interfaces trend: six trust patterns across the action lifecycle
+  (intent preview, autonomy dial, explainable rationale, confidence
+  signal, action audit and undo, escalation pathway) and the
+  orchestration surface with post-action receipts.
+- Trends: new spatial interfaces file (`trends/2026/spatial-interfaces.md`)
+  — comfort zones by gaze angle, distance placement tiers, flat versus
+  curved panel choice, per-component capability tiers with 2D fallbacks,
+  translucent-panel contrast testing and battery discipline; cross-linked
+  from `catalog/interfaces.md`.
+- Primitives catalogue: headless behaviour primitive — behavioural
+  guarantees listed separately from visual styling; and form-builder
+  confirmation rule — per-part keyboard coverage with an explicit
+  confirmation step for high-stakes popovers.
+- States catalogue: loading-state rules — skeletons reserved for waits of
+  roughly 1 to 10 seconds, layout-matched placeholders with a spinner
+  fallback when layout is unknown, per-placeholder replacement as content
+  arrives, empty states never shown during fetch, static reduced-motion
+  variants, and assistive-technology announcements for loading status.
+
+- Functional motion trend: native platform capability convergence section —
+  anchor positioning for tethering tooltips, menus, and popovers to their
+  trigger with a static-placement fallback; scroll-driven animation
+  timelines animating transform and opacity only so motion stays off the
+  main thread; view transitions for document-to-document navigation;
+  native dialog and popover semantics for overlays.
 - Primitives catalogue: target-size audit rules — audits separate the 44 px
   aspiration from the 24 px requirement; a finding records page, viewport,
   target, clickable dimensions, nearby controls, exception analysis, and user

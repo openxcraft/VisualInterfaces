@@ -100,6 +100,31 @@ and comparisons.
   block a mandatory disclosure from completing; a stop request always wins
   over whatever the system planned to do next.
 
+## Interruption budget and turn-taking rhythm
+
+The interruption budget is separate from the response-latency budget:
+people forgive a slow answer but not an assistant that keeps talking after
+being cut off. Treat continued speech after an interruption as rudeness,
+not slowness.
+
+- Budget the stop pipeline, not just the answer: detect user speech, stop
+  audio output, cancel in-progress generation, re-enter listening — target
+  200–300 ms total; design an explicit "interrupted" state with an abort
+  visual under 300 ms.
+- Prefer learned turn-taking (acoustic plus semantic plus conversational
+  context, landing end-of-turn around 200–250 ms) over bare silence
+  thresholds; distinguish backchannel ("mm-hm") from true barge-in through
+  turn classification, not word counts alone.
+- Keep a turn-taking rhythm: break responses into digestible chunks, pause
+  intentionally, and never fire long paragraphs at once.
+- Fuse channels in voice-plus-screen contexts: speech with visual context,
+  gestures, and camera input (look at an object, ask about it, receive an
+  overlay); confirmations can arrive as haptic pulses and spatial audio,
+  not only speech.
+- Recover from errors by rephrasing the prompt, offering tappable options,
+  or handing to support; in voice-only contexts never rely on buttons —
+  design spoken fallbacks.
+
 ## Voice-plus-screen pairing
 
 When voice is paired with a screen, the voice flow must complete on its
