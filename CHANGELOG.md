@@ -7,6 +7,12 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Primitives catalogue: new "Media effect" primitive — cursor-reactive
+  layered effects (ripple, pixel blocks, lens dispersion) over media on one
+  shared full-page canvas; the DOM element stays the source of truth, each
+  element opts out of global effects explicitly, effects are disabled under
+  a reduced-motion preference, and position sync rules cover scroll, resize,
+  and transformed elements.
 - Layouts: new kiosk layout file (`layouts/kiosk.md`) — fixed-size screens,
   one task per screen, idle countdown with session reset, no personal data
   carried between sessions, accessibility controls on the first screen.
