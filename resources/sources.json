@@ -441,6 +441,22 @@
       "type": "article",
       "accessed": "2026-10-22",
       "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+    },
+    {
+      "title": "Validation gate for generated interface trees",
+      "url": "https://dev.to/bobbyhalljr/your-model-just-invented-a-form-build-a-tiny-ui-component-gate-in-typescript-h80",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-22",
+      "notes": "Author-side gate: check a generated interface tree against the registered component set before rendering; invented components and unapproved form destinations are caught at authoring time; keep the check cheap enough to run on every tree."
+    },
+    {
+      "title": "Design tools and UI component libraries for designers and developers, October 2026",
+      "url": "https://www.somewhatcreative.net/design/whats-new-for-designers-developers-october-2026/",
+      "category": "states",
+      "type": "article",
+      "accessed": "2026-10-22",
+      "notes": "Action-state grouping: one typed, accessible component that holds the visual states of an interface action (idle, loading, success) and transitions between them, removing scattered icon and label logic across the codebase."
     }
   ]
 }

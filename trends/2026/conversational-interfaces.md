@@ -32,6 +32,12 @@ which the client renders progressively as it streams.
   answer is never presented as finished.
 - Rendered programs remain inspectable: they are built from the product's own
   components and run on the shipped client.
+- Add an author-side gate: validate each interface tree against the
+  registered set before it ships, so unknown components are caught when
+  the tree is produced, not when it renders.
+- Gate rules: every node must resolve to a registered component; a form
+  may submit only to an approved destination; the check stays cheap
+  enough to run on every tree.
 
 ## Layout and responsive rules
 

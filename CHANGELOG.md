@@ -7,6 +7,17 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- States catalogue: grouped action-state rule — one component owns an
+  action's idle, loading, and success presentations and the transitions
+  between them, instead of scattering state logic across icons, labels,
+  and handlers; transitions announce to assistive technology, dimensions
+  stay fixed while loading, and focus returns when the success
+  presentation clears.
+- Conversational interfaces trend: author-side validation gate for rendered
+  interface answers — validate each interface tree against the registered
+  component set before shipping; unknown components are caught when the
+  tree is produced, not at render time; forms may submit only to approved
+  destinations; the check stays cheap enough to run on every tree.
 - Interfaces catalogue: new extension interfaces section — the inline
   overlay replaces the classic click-icon dropdown flow: anchor the
   floating panel to the cursor or the target element, show results next
