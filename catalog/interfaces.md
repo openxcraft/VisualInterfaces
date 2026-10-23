@@ -22,7 +22,7 @@ When to avoid:
 | Web application | Pointer, keyboard | Arm's length | Medium to high | Browser chrome, variable window sizes |
 | Mobile application | Touch | Handheld | Low to medium | One-handed reach, interruptions, variable connectivity |
 | Tablet application | Touch, pointer | Handheld to arm's length | Medium | Split views, orientation change |
-| Desktop application | Pointer, keyboard | Arm's length | High | Multiple windows, shortcuts, context menus |
+| Desktop application | Pointer, keyboard | Arm's length | High | Multiple windows, shortcuts, context menus — see `layouts/desktop.md` |
 | Kiosk | Touch | Standing distance | Low | Large targets, idle timeout, session reset, no personal data retained |
 | Wearable | Touch, voice, crown or bezel | Glanceable | Very low | Two actions per screen at most, short text |
 | Television | Remote, voice | Room distance | Low | Focus-based navigation, 10-foot legibility, overscan margins |
@@ -96,6 +96,25 @@ One surface, one worked example, to show how the rules compose.
   state from `catalog/states.md` with the first-use variant; error keeps
   the item in place and states what failed with a retry.
 
+## Remote-control input
+
+For room-distance screens where a remote is the primary control: design
+directional-pad first, then enhance. For display-side television rules —
+type minimums, safe margins, and focus drawing — see `layouts/tv.md`.
+
+- Treat the directional pad (up, down, left, right, select, back) as the
+  common denominator: every task must be completable with it alone.
+- Pointer remotes add a cursor on top of focus order; never require a
+  precise pointer action that the directional pad cannot perform.
+- Touch-surface remotes send velocity, not position: keep the underlying
+  focus behaviour so the same navigation works, and keep focus movement
+  predictable per flick rather than per pixel.
+- Scroll-wheel remotes map to one-dimensional focus movement; horizontal
+  wheels move within the current row, vertical wheels move between rows.
+- Keep remote fatigue low: predictable focus order, short paths to the
+  most-used content, no focus traps, and focus memory that survives
+  back-and-forth navigation.
+
 ## Spatial interfaces
 
 For head-worn and room-scale surfaces: content placed in depth, read at
@@ -167,6 +186,32 @@ interface rather than a separate layer.
 - Full keyboard access to every overlay control, in a documented order;
   never require pointer-only interaction.
 
+## Assistant-rendered interactive components
+
+Conversational interfaces increasingly answer with interactive components
+rendered in place — buttons that act, calculators tuned to the question,
+charts the reader can adjust, forms that capture the structured reply —
+instead of flat text alone. The component is the answer, not a decoration.
+
+- Render one component per idea; never stack several competing widgets in
+  a single response.
+- Match the component to the task: a diagram for how a mechanism works, a
+  calculator for a planning question, a map for a route — never a widget
+  for a question plain text already answers.
+- Keep every rendered component fully operable by keyboard and by
+  assistive technology: named controls, exposed states, documented focus
+  order.
+- Supply a text equivalent for anything shown only inside a widget — chart
+  values, calculator inputs and results — so the response still reads on
+  a screen reader or a text-only surface.
+- Announce the arrival of a component politely; never steal focus
+  mid-conversation.
+- Prefer platform-native controls over bespoke widgets; when a custom
+  control is unavoidable, own its focus behaviour on activation and
+  dismissal.
+- Size the component to the task, not to spectacle: it must earn its space
+  by shortening the path to the answer.
+
 ## Wearable interfaces
 
 For wrist-worn and other tiny screens: glanceable, single-action surfaces
@@ -208,12 +253,9 @@ Every element and page in this group defines all seven states. Missing states ar
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Every interface type in the table has a primary input, viewing distance, density, and constraints.
+- [ ] The remote-control input section covers directional-pad, pointer, touch-surface, and scroll-wheel variants.
+- [ ] Wearable, spatial, and embedded sections link to their full treatments.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

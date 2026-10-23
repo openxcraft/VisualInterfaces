@@ -55,12 +55,8 @@ Every element and page in this group defines all seven states. Missing states ar
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Checkout variants and product-page structure are documented.
+- [ ] Trust elements and call-to-action placement rules are present.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

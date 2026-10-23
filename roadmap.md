@@ -46,42 +46,54 @@ defined without an example; gap = named but not yet defined.
 
 | Dimension | Full | Partial | Gap |
 | --- | --- | --- | --- |
-| Platform | Web, mobile, tablet, kiosk, television, embedded, wearable | Desktop | — |
-| Device input | Touch, pointer, keyboard, voice, gesture-only | Remote | — |
-| Interface type | Web app, mobile app, kiosk, conversational, embedded | Spatial | — |
+| Platform | Web, mobile, tablet, kiosk, television, embedded, wearable, desktop | — | — |
+| Device input | Touch, pointer, keyboard, voice, gesture-only, remote | — | — |
+| Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial | — | — |
 | Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, landing, authentication, settings, commerce | — | — |
-| State | All seven in catalog; offline, read-only, permission-denied; loading variants | — | — |
+| State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 
 ## Improvement actions
 
-1. Consolidate the duplicated seven-state tables: replace the full table in
-   each layout and trend file with a short pointer to `catalog/states.md`
-   plus file-specific state notes. Done when `check_quality.py` no longer
-   reports the duplicate-paragraph warning.
-2. Add spatial page patterns: multi-window spatial layouts with per-window
-   fallback modes (inline versus drop) and priority ordering when panel
-   slots run out, building on `trends/2026/spatial-interfaces.md`; promote
-   Spatial from partial to full in the matrix. Done when the new section
-   passes all quality gates.
-3. Add remote-control input guidance beyond the television layout: pointer,
-   touch-surface, and scroll-wheel remote variants as an input section in
-   `catalog/interfaces.md`, with focus behaviour per variant. Done when the
-   new section passes all quality gates.
-4. Add a wearable layout file (`layouts/watch.md`): glanceable surfaces,
-   the ambient always-on state, round-display margins, and the two-tap
-   overflow rule to the phone app. Done when the new file passes all
-   quality gates.
+1. Add internationalization rules to `catalog/primitives.md`:
+   right-to-left mirroring, text-expansion budgets, locale-aware
+   date/number/currency formatting, and locale-aware sorting. Done
+   when the new section passes all quality gates.
+2. Add a third worked example (`examples/onboarding/`): the onboarding
+   layout's step sequence, skip-and-return, and compact-screen rules
+   demonstrated with all seven states. Done when the example builds
+   and passes all quality gates.
+3. Deepen `trends/2026/modular-card-grids.md` (the thinnest trend
+   file): tile sizing, density, and reordering rules consolidated with
+   the priority-order and named-grid-area rules already recorded.
+   Done when the expanded file passes all quality gates.
 
 ## Review notes
 
-- Most duplicated area: state descriptions repeated across layout and trend
-  files. Consolidation target: keep the full wording in `catalog/states.md`
-  and short rows plus a pointer elsewhere (now action 1).
-- Least covered area: remote-control input beyond the television rules
-  (pointer, touch-surface, and scroll-wheel remote variants); spatial
-  interfaces remain partial pending a full page-pattern treatment (now
-  actions 2 and 3); a dedicated wearable layout file is still open
-  (action 4).
+- Completed actions 1–4 from the previous review: the duplicated
+  seven-state tables and pre-publish checklists are consolidated (one
+  canonical states file, per-file notes and checklists, canonical
+  checklist kept in `CONTRIBUTING.md`; `check_quality.py` reports zero
+  duplicate paragraphs); spatial page patterns with per-window fallback
+  modes, priority ordering, proxemic rings, and the 1.25–5 m comfort band
+  in `trends/2026/spatial-interfaces.md`; remote-control input guidance
+  (directional-pad, pointer, touch-surface, scroll-wheel) in
+  `catalog/interfaces.md` cross-linked from `layouts/tv.md`; new
+  `layouts/watch.md` with glance-first rules, the two-tap rule,
+  percentage-based round-display margins, and a separate ambient variant.
+- Most duplicated area: none remaining; the duplicate-paragraph warning
+  is cleared.
+- Least covered area: internationalization rules (no coverage), a third
+  worked example (only two exist), and the modular-card-grids trend
+  file (thinnest file); now actions 1, 2, and 3.
+- Completed this review: responsive data-table strategies in
+  `layouts/dashboard.md` (four strategies with shared rules); new
+  `layouts/onboarding.md` (success action, smart defaults, prefill,
+  skip-and-return, measurable activation); new `layouts/desktop.md`
+  (menu bars, mnemonics, shortcuts, context menus, drag-and-drop as
+  progressive enhancement, multi-window rules); desktop interface row
+  cross-linked in `catalog/interfaces.md`; Desktop promoted from
+  partial to full in the coverage matrix; 7 new source records (141
+  total).
 - Completed this review: comparison pattern, permission-request flow
   pattern, and search-results pattern in `catalog/patterns.md` (with a
   cross-link from the permission-denied row in `catalog/states.md`);
@@ -116,12 +128,9 @@ defined without an example; gap = named but not yet defined.
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] The coverage matrix matches the actual files and directories.
+- [ ] Only open improvement actions remain listed; completed ones moved to CHANGELOG.md.
+- [ ] Exactly three new actions were added at the last deep review.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

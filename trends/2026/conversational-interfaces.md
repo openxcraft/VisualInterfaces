@@ -99,6 +99,17 @@ and comparisons.
 - Let the person interrupt routine speech, but never let an interruption
   block a mandatory disclosure from completing; a stop request always wins
   over whatever the system planned to do next.
+- Disclose automation before collecting anything sensitive: at the start
+  of the interaction, in the caller's own language, state that they are
+  speaking with an automated assistant — before any sensitive or
+  decision-relevant information is collected. The disclosure covers
+  identity, purpose, recording or transcription notice, an opt-out, and a
+  path to a person. Repeat it after any transfer. Never claim to be human
+  when asked.
+- Recover from false interruptions cleanly: a cough, noise, or short
+  non-speech sound is recorded as a candidate and the flow resumes from
+  the last confirmed-played boundary instead of restarting; stale
+  in-progress results are discarded, not spoken.
 
 ## Interruption budget and turn-taking rhythm
 
@@ -150,26 +161,22 @@ exists in one channel only.
 
 ## States
 
-Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
+Canonical state definitions live in `../../catalog/states.md`. Notes specific to conversational interfaces:
 
-| State | Appearance | Behaviour |
-| --- | --- | --- |
-| Default | The pattern in use at rest, with full contrast and a clear label. | Ready for input or selection. |
-| Hover | Pointer-only highlight: subtle background or border change. | No change on touch devices; hover never carries essential information alone. |
-| Active | Pressed or selected appearance while interaction is in progress. | Feedback appears within 100 ms of input. |
-| Disabled | Reduced contrast, no pointer response, still readable. | Explain why it is unavailable nearby when the reason is not obvious. |
-| Loading | Skeleton blocks or a progress indicator replace live content. | Keep layout dimensions stable so content does not shift. |
-| Empty | Show a neutral starting prompt or placeholder with one example action. | Offer one clear next action and, where relevant, a reset for filters. |
-| Error | State what could not be completed and offer the structured fallback or a retry. | Keep entered data, place the message next to the problem, and offer a retry. |
+| State | Conversational note |
+| --- | --- |
+| Default | The conversation surface at rest; input ready, history readable. |
+| Hover | Pointer-only highlight on tappable turns and suggestions. |
+| Active | The turn in progress; typing, speaking, or waiting shown within 100 ms. |
+| Disabled | Input unavailable with the reason stated; history stays readable. |
+| Loading | A named-step indicator, for example "Searching your documents"; no silent waits. |
+| Empty | First-use prompt with one example request. |
+| Error | Say what failed, keep the conversation intact, offer retry or another channel. |
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Interruption budget, barge-in, backchannel, and disclosure rules are current.
+- [ ] Voice-plus-screen pairing cross-links to catalog/interfaces.md.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

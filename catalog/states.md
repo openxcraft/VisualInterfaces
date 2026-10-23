@@ -35,7 +35,7 @@ not replace any of the seven above.
 | --- | --- | --- |
 | Offline | A persistent banner or badge states that the connection is lost; the layout does not rearrange. | Cached content stays usable; actions that need the network queue visibly and sync when the connection returns; nothing silently fails. |
 | Read-only | Controls are replaced or dimmed with a short reason, for example "View only". | Data is fully legible; the reason for read-only is stated once; the path to request access sits next to it. |
-| Permission-denied | The blocked area explains which access is missing and why it is needed. | Offer a retry after granting, or an alternative path that works without the permission; never show a dead end. For the flow that earns the permission in the first place, see the permission-request pattern in `catalog/patterns.md`. |
+| Permission-denied | The blocked area explains which access is missing, why it is needed, and who can grant it. | Offer a retry after granting, or an alternative path that works without the permission; never show a dead end. For the flow that earns the permission in the first place, see the permission-request pattern in `catalog/patterns.md`. |
 
 ## Layout and responsive rules
 
@@ -53,6 +53,10 @@ not replace any of the seven above.
   fixed while loading, and focus returns to the action once its success
   presentation clears.
 - Reduced-motion settings replace animated indicators with static ones.
+- Keyboard focus is never hidden behind page chrome: sticky headers,
+  consent controls, chat launchers, and banners must not cover the focused
+  control. When scrolling brings a control into focus, it lands fully clear
+  of any fixed overlay.
 
 ## States
 
@@ -67,6 +71,25 @@ Every element and page in this group defines all seven states. Missing states ar
 | Loading | Skeleton blocks or a progress indicator replace live content. | Keep layout dimensions stable so content does not shift. |
 | Empty | Explain the absence in one short sentence and offer one action. | Offer one clear next action and, where relevant, a reset for filters. |
 | Error | Name the failure in plain language, preserve input, and place retry next to the message. | Keep entered data, place the message next to the problem, and offer a retry. |
+
+## Error-state groups
+
+Group error presentations by what the person can do next, not by the
+failure's cause.
+
+- Input rejected: an inline message at the field, other values kept, and
+  focus moved to the first error.
+- Session or permission lost: re-authenticate in place and resend, so the
+  work survives; explain who can grant the access when permission is the
+  blocker.
+- Conflict or gone: show both versions, or say plainly where to go
+  instead.
+- Rate-limited or overloaded: show the wait, count it down, and retry
+  automatically.
+- Server error: retry once, then show a reference identifier.
+- Offline or timeout: keep the action visibly queued, say it will be sent
+  when the connection returns, and never present it as saved until the
+  save is confirmed.
 
 ## Copy rules for states
 
@@ -127,12 +150,8 @@ Rules:
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] The seven-state table and the supporting-state table are complete and consistent.
+- [ ] Loading-state, empty-state, and error-state-group sections agree on wording.
+- [ ] Copy-rule examples read naturally in one line each.

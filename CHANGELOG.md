@@ -7,6 +7,95 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Layouts: responsive data-table strategies in `layouts/dashboard.md` —
+  horizontal scroll with a frozen leading column, column dropping by
+  priority, priority-plus disclosure, and card transformation, with
+  shared rules for state stability, focus order, labelled card values,
+  and truncation. Completes roadmap action 1.
+- Layouts: new `layouts/onboarding.md` — success action first, welcome
+  modal removed, one question per step, deferred sign-in, skip-and-return
+  with persisted progress, smart-default and prefill rules consolidated
+  from `catalog/patterns.md`, sample data over blank slates, progressive
+  disclosure with intent, mechanism-agnostic guidance, measurable
+  activation, and compact-screen rules. Completes roadmap action 2.
+- Layouts: new `layouts/desktop.md` — menu bars with keyboard patterns,
+  mnemonics, shortcut rules, context-menu rules, drag and drop as a
+  progressive enhancement with a required non-drag path, multi-window
+  management, density rules, and narrow-window bands. Promotes Desktop
+  from partial to full in the coverage matrix. Completes roadmap action
+  3.
+- Interface catalogue: desktop application row now cross-links
+  `layouts/desktop.md`.
+- Seven new source records in `resources/sources.json` (141 total).
+
+- States catalogue: focus-obscurity rule — keyboard focus must stay
+  visible above fixed overlays such as sticky headers, consent controls,
+  chat launchers, and banners; scrolling a control into focus lands it
+  fully clear of any fixed chrome.
+- Source record for the October 2026 web design trends roundup in
+  resources/sources.json.
+- Functional motion: expressive shape-morph reduced-motion rule — variants
+  must disable spring and bounce physics intensity and component shape
+  morphing themselves, since zeroing the duration leaves the physics alive;
+  the reduced state ships the static resting shape.
+- Layouts: new `layouts/watch.md` — glance-first rule (one datum or
+  decision per screen, 2–5 second tasks), two-tap rule with phone
+  companion overflow, percentage-based round-display margins, finger-size
+  targets with crown or bezel as the primary scroll mechanism, explicit
+  overflow button, haptic-first confirmation, and an independent ambient
+  always-on variant. Completes roadmap action 4.
+- Spatial trend: spatial page patterns — multi-window contract with
+  per-window fallback modes (inline versus drop), priority ordering when
+  panel slots run out, tiered viewing modes, proxemic rings
+  (intimate 0–0.5 m, personal 0.5–1.2 m, social 1.2–3.7 m), and the
+  1.25–5 m comfort band. Completes roadmap action 2.
+- Interface catalogue: remote-control input section — directional-pad
+  first as the common denominator, pointer remotes without pad-exclusive
+  actions, touch-surface remotes on the focus behaviour, scroll-wheel mapping,
+  low-fatigue focus order; display-side television rules stay in
+  `layouts/tv.md`. Completes roadmap action 3.
+- States catalogue: error-state groups — presentations grouped by the
+  next action (input rejected, session or permission lost, conflict or
+  gone, rate-limited, server error, offline or timeout with visible
+  queuing); permission-denied now names who can grant the access.
+- Dashboard layout: data-table rules — grouped loading (headers
+  immediate, body skeleton rows, 50–100 ms stagger) and row actions under
+  a single overflow menu with destructive actions guarded and separate.
+- Conversational trend: mandatory automation disclosure — identity,
+  purpose, recording notice, opt-out, and path to a person stated up
+  front in the caller's language, repeated after transfer, never claiming
+  to be human; false-interruption recovery from the last confirmed-played
+  boundary with stale results discarded.
+- Patterns catalogue: permission-request row — never nag within the same
+  session after a denial; a single in-app screen listing all permissions
+  with one-tap revocation. Comparison row — cards when few real
+  differences, tabs, accordions, or a collapsible matrix when the feature
+  list is long. Onboarding row — smart defaults from location, common
+  choice, or past behaviour; editable, validation deferred, standard
+  autocomplete tokens, no defaults for decisions needing deliberation.
+- Roadmap: actions 1–4 completed and three new actions added (responsive
+  data-table strategies, onboarding layout file, desktop application
+  layout file); coverage matrix promotes remote input and spatial to
+  full.
+
+### Changed
+
+- Consolidated the duplicated seven-state tables and pre-publish
+  checklists across 27 files: each file now points to
+  `catalog/states.md` for canonical state definitions and keeps
+  file-specific state notes; the canonical publishing checklist lives in
+  `CONTRIBUTING.md` with per-file checks tailored to each file's subject.
+  Completes roadmap action 1; `check_quality.py` reports zero duplicate
+  paragraphs.
+
+- Layouts: barely-there restraint direction for dashboards — on data-and-trust surfaces, extreme restraint signals seriousness: one typeface doing most of the work, hairline low-opacity borders, structure from white space and typographic weight instead of boxes and shadows; a two-to-three-tone palette; treated as a fit decision that suits operational overviews and fits poorly where warmth or character must come through.
+
+- Patterns catalogue: simplified-view pattern — an on-demand simplified
+  version that hides non-essential features and shortens text, easy to
+  enter and easy to leave; content on critical paths is marked for
+  simplification (data-simplification attribute) so personalization tools
+  can reduce it; extra features stay discoverable, never permanently
+  removed.
 - Trends: anchored-popup sizing rule — popups default to the trigger's
   width; widen only when the content needs the room; re-anchor after
   resize so the overlay stays aligned with its trigger.

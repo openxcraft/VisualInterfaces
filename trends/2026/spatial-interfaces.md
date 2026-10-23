@@ -56,6 +56,32 @@ fallbacks; high-contrast opaque alternatives to translucent panels.
   version, and profile blur effects for frame rate and power. Prefer
   progressive disclosure (gaze-triggered detail) over filling the space
   with panels.
+- Map content to proxemic rings around the viewer: intimate (0–0.5 m) for
+  highly personal lean-in items; personal (0.5–1.2 m, within arm's reach)
+  for objects the viewer manipulates; social (1.2–3.7 m) for lean-out and
+  shared content.
+- Keep interactive content inside the comfortable depth band of about
+  1.25–5 m: detailed frequent work near arm's length, general viewing at
+  1–3 m, ambient information only beyond 3 m.
+
+## Spatial page patterns
+
+Multi-window spatial workspaces need an explicit panel contract.
+
+- Give every window a declared fallback mode: inline (the window's
+  content stays in the main layout, nothing disappears) or drop (renders
+  nothing until a panel is available).
+- Order windows by priority for when panel slots run out: centre the
+  primary window at natural eye level, push supplementary windows to the
+  periphery, and never let a secondary window occlude the full environment
+  or cover critical space.
+- Offer tiered viewing modes per window: a calm regular window for
+  everyday tasks, full immersion only for experiences that genuinely need
+  it, so the viewer can always step a window back instead of abandoning
+  it.
+- Reserve the peripheral field for larger, simpler, ambient elements;
+  keep critical controls and fine text within about 30 degrees of forward
+  gaze so they stay legible without eye strain.
 
 ## States
 
@@ -73,12 +99,8 @@ Every element and page in this group defines all seven states. Missing states ar
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Spatial page patterns, proxemic rings, and the comfort-zone band are documented.
+- [ ] Fallback modes and panel priority ordering are stated.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.
