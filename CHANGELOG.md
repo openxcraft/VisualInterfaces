@@ -7,6 +7,19 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Primitives catalogue: new `Shape` row in `catalog/primitives.md` —
+  native geometric shape control (path coordinates, border geometry,
+  corner presets such as bevel, notch, scoop, and squircle) as a
+  first-class primitive, with rules that keep shape decorative
+  (hit target, reading order, and focus order unchanged), prefer
+  system corner presets, and require a rectangular fallback on
+  platforms without native shape support. New source record
+  (164 total).
+- Component libraries: new `Accessible Components Library` listing in
+  `resources/libraries.md` — a small v1.0.0 accessibility-documented
+  component set whose per-component requirements are mapped to WCAG 2.2
+  success criteria and grouped into ten themes, with test scenarios and
+  assistive-technology compatibility notes. New source record (163 total).
 - Patterns catalogue: three new pattern rows in `catalog/patterns.md` —
   notification escalation (urgency-to-pattern-and-channel scale: badge,
   toast, banner, notification centre, modal, full-screen dialog;

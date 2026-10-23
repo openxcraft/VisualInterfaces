@@ -33,6 +33,7 @@ When to avoid:
 | Flowbite | Utility-class component set | Components for several frameworks built on utility styling. |
 | Bootstrap | Styled framework set | A long-standing responsive grid and component set for plain markup and server-rendered pages. |
 | Web Awesome | Web-component library | A current web-components set succeeding an earlier one: dozens of components, multiple colour palettes, native element styles, cascade layers, and server-side rendering support, with commercial additions such as combobox, file input, date picker, video, sparklines, charts, and a data grid on the way. |
+| Accessible Components Library | Accessibility-documented component set | A small v1.0.0 set (accordion, breadcrumbs, dialog, disclosure, pagination, tabs, text input, textarea) where each component ships with documented accessibility requirements mapped to WCAG 2.2 success criteria at levels A, AA, and AAA, plus working examples, test scenarios, assistive-technology compatibility notes, and usability recommendations the standard does not cover, such as high-contrast theme behaviour. Requirements are grouped into ten themes (adaptability, animation and movement, assistive technologies and semantics, colour and contrast, consistency and predictability, images and media, input assistance, keyboard, navigation, pointer and touch). Test it in your product before relying on it; it is a reference, not a production-ready design system. |
 
 ## Layout and responsive rules
 
