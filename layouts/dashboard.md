@@ -27,6 +27,22 @@ Top bar with title, search, and account actions; side navigation on expanded scr
 - Numbers use tabular figures; units and time ranges are always labelled.
 - Synthesis over widgets: alongside static charts, offer narrative summaries
   and "what changed" reports that explain the movement, not only the numbers.
+- Every key-figure tile carries three slots: the headline number, the
+  change with its direction, and the comparison window it is measured
+  against; change beats snapshots, and numbers round aggressively.
+- Colour encodes meaning only: reserve hue for status, a small set of
+  chart categories, and one accent per screen; everything else stays
+  grayscale, and the dashboard must still read with colour removed.
+- Density follows information value: pack the lead figure strip densely
+  and leave secondary zones quiet, roughly a 3:1 density ratio between
+  the primary and secondary zones.
+- Active filters are always visible as removable chips with a one-click
+  clear-all; hidden filter state is the most common cause of a dashboard
+  reading wrong.
+- Update cadence follows the decision cycle — seconds for operations,
+  hourly or daily for analysis, weekly or monthly for strategy — and
+  every dashboard states its last-updated time; real-time-everything
+  creates anxiety rather than trust.
 
 ## Data-table rules
 

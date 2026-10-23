@@ -19,6 +19,8 @@ When to avoid:
 
 Semantic sections whose source order matches the visual order; headings that describe the content below them; key facts — price, availability, primary action, contact — as real text, never image-only; labels tied to every input, an explicit submit action, and error messages placed next to the field they concern.
 
+Components that ship in shared libraries carry machine-readable intent metadata alongside their styling tokens: each component is marked as a required safety control or as removable convenience, and required safety controls — confirmations, dependent-selection steps, consent and disclosure checks — may never be stripped out by tooling that assembles or restyles screens automatically. Accessibility constraints travel with the component in the same metadata, so restyling cannot quietly drop keyboard support or visible focus.
+
 ## Layout and responsive rules
 
 - The source sequence reads the same as the visual sequence at every breakpoint; reordering by sight alone breaks machine reading.

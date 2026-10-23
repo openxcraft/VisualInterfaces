@@ -23,7 +23,10 @@ Cards in two or three fixed sizes; a grid with consistent gaps; card header with
 - Cards keep a fixed internal order: title, summary, action.
 - The grid reflows by moving whole cards, never by resizing text inside a card.
 - Compact: one card per row, ordered by importance.
+- Offer cards in two or three fixed size tiers (for example 1×1, 2×1, 2×2); the tier follows the card's importance and content, never decoration — a large tile must carry proportionally more value, not just more air.
+- Density is a grid property, not a per-card choice: cards per row change at breakpoints, while every card keeps its internal proportions. Never shrink tiles to fit more in; overflow goes to a "view all" surface with the same card treatment.
 - Tile markup is written in priority order; named placement areas rearrange tiles at each breakpoint without changing source order, so assistive technology and keyboard focus follow the same sequence at every size.
+- When people can reorder tiles, dragging gives immediate position feedback and the move is announced as plain text ("Weather moved to position 2 of 8"); the new order persists across sessions and breakpoints.
 - Empty cards are replaced by a single placeholder card with one next action, not a blank space.
 
 ## States

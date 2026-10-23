@@ -7,6 +7,91 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Maz-UI listing in `resources/libraries.md`: a component set shipping logical
+  direction by default (`start`/`end` instead of `left`/`right` for props,
+  slots, and style hooks) so layouts mirror correctly under right-to-left
+  settings, plus a theming overhaul on a perceptually uniform colour scale
+  with per-component token overrides. Source already recorded.
+
+- Worked-example rule for the pre-populated empty-state variant in
+  `catalog/states.md`: a pre-filled sample, clearly marked as an example
+  with one action to adopt it, teaches the shape of the result before
+  commitment; where a sample is impossible, show a faded preview of the
+  populated state behind the call to action. New source record.
+
+- Pre-populated empty-state variant in `catalog/states.md`: a fourth
+  variant alongside first-use, naturally empty, and restricted-or-failed
+  — when available context suggests what the user is likely to want, the
+  area offers suggestions instead of a blank screen; suggestions stay
+  visually distinct from real items, are easy to dismiss, and are never
+  stored as user data. Two new source records.
+
+- Machine-experience trend: machine-readable intent metadata in
+  `trends/2026/machine-experience.md` — components marked as required
+  safety controls or removable convenience, so automated screen assembly
+  cannot strip confirmations, dependent-selection steps, or disclosure
+  checks; accessibility constraints travel with the component. New
+  source record.
+
+- Translucency content-layer rule in `trends/2026/spatial-interfaces.md`:
+  keep translucent materials on navigation and controls, not the content
+  layer — contrast shifts as content scrolls beneath translucent
+  surfaces, so text- and number-dense screens stay opaque, with opaque
+  variants under the reduce-transparency preference. New source record.
+
+- Deep editorial review: new `layouts/automotive.md` — glance-budget
+  layout for driving interfaces (two-second glance and twelve-second
+  task budgets, one question per glance, stable information positions,
+  0.25 s input response, 76x76 dp targets, 32/24 dp text, physical
+  controls for essential functions, day/night modes, distraction
+  suppression while moving, one-handed gestures), with all seven
+  states. New source records (findings 1–2).
+- Patterns catalogue: three new pattern rows in `catalog/patterns.md` —
+  map comparison (hover notes, visited markers, small multiples,
+  peel-back swipe, pop-up versus panel, rich markers), chat and
+  messaging (capabilities stated up front, quick actions, progressive
+  streaming with stop control, inline error on the failed bubble,
+  offline queue with visible banner, live regions, 44 px targets),
+  and list navigation (infinite scroll for exploration, pagination
+  for goal-oriented tasks, load-more as the safe default,
+  place-restoring URL handling, paginated crawler fallback); the
+  Wizard row strengthened with total step count up front,
+  non-interactive future steps, contextual forward labels,
+  data-preserving back, vertical steppers on narrow screens, and
+  save-and-resume. New source records (findings 5–8).
+- Primitives catalogue: new `Date picker` row in
+  `catalog/primitives.md` — lightest control per intent, seven
+  day-cell states distinguishable without colour alone, typed entry
+  as a first-class path, ranges as their own pattern with explicit
+  commit, timezone-explicit times, presets, and a full keyboard
+  contract. New source records (findings 10–11).
+- Layout deepening: dashboard KPI rules in `layouts/dashboard.md`
+  (three-slot tiles, grayscale readability, 3:1 density ratio,
+  always-visible filter chips, cadence matched to the decision cycle,
+  stated last-updated time); kiosk accessibility rules in
+  `layouts/kiosk.md` (assistive entry point usable without vision,
+  multi-sense time alerts with extension, 800–1600 mm reach bounds,
+  one-tap session reset, offline fallback, speech-available
+  receipts). New source records (findings 3–4, 9).
+- Trends: new `trends/2026/dark-mode.md` — dark greys over pure black,
+  type adjustments, elevation over shadows, redesigned accents,
+  semantic token contract, system default with user override,
+  200–300 ms switch honouring reduced motion; APCA
+  perceptual-contrast note in `trends/2026/standards-outlook.md`
+  (0–120 lightness score, polarity-aware, 90/75/60/45 thresholds,
+  test new palettes against both systems) plus the assistive
+  entry-point principle. New source records (findings 12–13).
+- Roadmap: exactly three new improvement actions (deepen the
+  machine-experience trend file, add a media-controls primitive row,
+  extend the chat pattern with group-conversation rules); coverage
+  matrix refreshed (chat and messaging, map comparison, list
+  navigation, stepper promoted to full); completed actions 3–6 moved
+  here: search-health evaluation checklist in the Search pattern row,
+  focused/selected/expanded/warning supporting-state rows in
+  `catalog/states.md`, the WCAG 3.0 standards-outlook horizon note,
+  and the modular-card-grids deepening (fixed size tiers by
+  importance, density as a grid property, reorder feedback with
+  plain-text announcements).
 - Primitives catalogue: new `Shape` row in `catalog/primitives.md` —
   native geometric shape control (path coordinates, border geometry,
   corner presets such as bevel, notch, scoop, and squircle) as a

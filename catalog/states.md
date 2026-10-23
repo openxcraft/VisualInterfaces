@@ -36,6 +36,10 @@ not replace any of the seven above.
 | Offline | A persistent banner or badge states that the connection is lost; the layout does not rearrange. | Cached content stays usable; actions that need the network queue visibly and sync when the connection returns; nothing silently fails. |
 | Read-only | Controls are replaced or dimmed with a short reason, for example "View only". | Data is fully legible; the reason for read-only is stated once; the path to request access sits next to it. |
 | Permission-denied | The blocked area explains which access is missing, why it is needed, and who can grant it. | Offer a retry after granting, or an alternative path that works without the permission; never show a dead end. For the flow that earns the permission in the first place, see the permission-request pattern in `catalog/patterns.md`. |
+| Focused | A visible indicator marks the focused element — an outline, a background shift, or both — distinct from hover and selection. | Never remove the platform default without a designed replacement that stays visible in every theme; closing a dialog returns focus to the control that opened it; scrolling keeps the focused control clear of fixed chrome. |
+| Selected | Selection is marked in text or shape as well as colour: a check, a label, or a persistent highlight. | State the selection count where multiple selection is possible; selection survives sorting, filtering, and paging; a clear-all action is always reachable. |
+| Expanded | Disclosed content appears directly below or beside the trigger; the trigger label names the state, for example "Show more" and "Show less". | Expanded content holds its place when the layout reflows; collapsing returns focus to the trigger; the expanded region keeps its heading level in the page outline. |
+| Warning | A caution presentation distinct from error: it signals a consequence to consider, not a failure that happened. | State the consequence in plain words before the irreversible step; require an explicit confirm action; never pre-check the confirmation or auto-advance past it. |
 
 ## Layout and responsive rules
 
@@ -133,7 +137,7 @@ Pick the indicator from the wait, not the layout.
 
 ## Empty-state variants
 
-Three kinds of "empty" need different words and different next steps. Do
+Four kinds of "empty" need different words and different next steps. Do
 not infer the state from an item count; the data layer returns an explicit
 status alongside the items.
 
@@ -148,6 +152,16 @@ status alongside the items.
   failed. Goal: explain and recover. Name the cause honestly and give the
   matching next step: a permission request for restricted content, a retry
   for a failure. Never show a blank area that reads as broken.
+- Pre-populated. The area is technically empty, but available context
+  suggests what the user is likely to want. Goal: offer a starting point
+  instead of a blank screen. Show suggestions as suggestions — visually
+  distinct from real items, easy to dismiss, and never stored as the user's
+  data. Never present suggested content as if it already existed; a user
+  must be able to tell suggestion from fact at a glance. A worked example —
+  a pre-filled sample clearly marked as an example, with one action to make
+  it real — teaches the shape of the result before the user commits; where a
+  sample is impossible, show a faded preview of the populated state behind
+  the call to action.
 
 Rules:
 

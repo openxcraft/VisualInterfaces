@@ -62,6 +62,12 @@ fallbacks; high-contrast opaque alternatives to translucent panels.
 - Translucency is conditional, not cosmetic: it disables automatically
   under high-contrast settings, with a high-contrast opaque variant as
   the default for that mode.
+- Keep translucent materials on navigation and controls, out of the
+  content layer: contrast shifts as content scrolls beneath a translucent
+  surface, so translucent chrome is acceptable for navigation bars and
+  controls, but text- and number-dense screens stay opaque. Respect the
+  user's reduce-transparency preference by swapping to opaque variants
+  there too.
 - Treat default translucency values as accessibility-tested: opacities and
   blur radii measured for legibility stay fixed, and anyone overriding
   them owns the resulting contrast evaluation.

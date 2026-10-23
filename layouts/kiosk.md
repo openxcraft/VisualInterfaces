@@ -37,6 +37,19 @@ confirmation that states what was done and that the session is closed.
   receipts, and loyalty entries are cleared on completion or timeout.
 - Accessibility controls (text size, contrast, audio guidance) sit on the
   first screen, not in a settings page.
+- The way into assistive features must itself be usable without vision:
+  a spoken mode hidden behind an on-screen button fails the people who
+  need it, because they cannot find the button.
+- Time-limit alerts arrive through more than one sense, and the person
+  can extend the time; a countdown alone is not enough.
+- Keep operating controls within reach: nothing essential below about
+  800 mm or above about 1600 mm from the floor; keep sensitive input
+  out of sight lines to prevent shoulder-surfing.
+- One-tap session reset is always available; the terminal moves between
+  steps in under about two seconds and ships an offline fallback mode
+  rather than a dead end.
+- Printed information needed to verify the transaction — receipts,
+  tickets, confirmation codes — is also available through speech.
 
 ## States
 

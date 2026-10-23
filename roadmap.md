@@ -49,7 +49,7 @@ defined without an example; gap = named but not yet defined.
 | Platform | Web, mobile, tablet, kiosk, television, embedded, wearable, desktop | — | — |
 | Device input | Touch, pointer, keyboard, voice, gesture-only, remote | — | — |
 | Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
-| Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, file upload, landing, authentication, settings, commerce | — | — |
+| Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, file upload, chat and messaging, map comparison, list navigation, stepper, landing, authentication, settings, commerce | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 
 ## Improvement actions
@@ -62,31 +62,76 @@ defined without an example; gap = named but not yet defined.
    layout's step sequence, skip-and-return, and compact-screen rules
    demonstrated with all seven states. Done when the example builds
    and passes all quality gates.
-3. Deepen `trends/2026/modular-card-grids.md` (the thinnest trend
-   file): tile sizing, density, and reordering rules consolidated with
-   the priority-order and named-grid-area rules already recorded.
+3. Deepen `trends/2026/machine-experience.md` (the thinnest trend file
+   after this review's modular-card-grids work): structured-data
+   summaries for agent readers, explicit task affordances, consent
+   signals for automated access, and human-first ordering guarantees.
    Done when the expanded file passes all quality gates.
-4. Add a search-health evaluation checklist to the Search pattern row in
-   `catalog/patterns.md`: success rate (searches ending in a click or
-   completed action), time-to-result, zero-result rate, click position,
-   and refinement rate. Done when the checklist reads as practical rules
-   and passes all quality gates.
-5. Add a standards-outlook note on the WCAG 3.0 draft: Working Draft
-   status with final recommendation not expected before 2028,
-   outcomes-based Bronze/Silver/Gold scoring with Bronze mapping
-   approximately to current 2.2 AA, and no deprecation of WCAG 2.x —
-   as a short section in `catalog/states.md` or a new
-   `trends/2026/standards-outlook.md`. Done when the note passes all
-   quality gates.
-6. Add table rows for the remaining named supporting states in
-   `catalog/states.md` (focused, selected, expanded, and warning):
-   appearance, behaviour, and recovery for each, cross-linked from the
-   patterns that use them. Done when each named state has a row and the
-   gates pass.
+4. Add a media-controls primitive row to `catalog/primitives.md`: the
+   expected control set (play/pause, seek, volume, captions, speed,
+   settings), placement conventions, feedback confirming every control
+   responds, full keyboard operation with named controls, captions
+   always available, and no auto-playing sound. Done when the row
+   passes all quality gates.
+5. Extend the chat and messaging pattern row in `catalog/patterns.md`
+   with group-conversation rules: per-participant read indicators,
+   reply threading, presence states, and mention handling —
+   cross-checked against `trends/2026/conversational-interfaces.md`.
+   Done when the extended row passes all quality gates.
 
 ## Review notes
 
-- Completed this review: command-palette pattern in `catalog/patterns.md`
+- Completed this review: new `layouts/automotive.md` (two-second
+  glance budget, 12-second task budget, one question per glance, stable
+  information positions, 0.25 s input response, 76x76 dp targets,
+  32/24 dp text, physical controls for essential functions, day/night
+  modes, distraction suppression while moving, one-handed gestures);
+  three new pattern rows in `catalog/patterns.md` — map comparison
+  (hover notes, visited markers, small multiples, peel-back swipe,
+  pop-up versus panel, rich markers), chat and messaging (capabilities
+  up front, quick actions, progressive streaming with stop, inline
+  error on the failed bubble, offline queue with visible banner, live
+  regions, 44 px targets), and list navigation (infinite scroll for
+  exploration, pagination for goal-oriented tasks, load-more as the
+  safe default, place-restoring URL handling) — plus the Wizard row
+  strengthened with total step count up front, non-interactive future
+  steps, contextual forward labels, data-preserving back, vertical
+  steppers on narrow screens, and save-and-resume; new Date picker
+  primitive row in `catalog/primitives.md` (lightest control per
+  intent, seven day-cell states, typed entry as a first-class path,
+  explicit ranges, timezone-explicit times, presets, keyboard
+  contract); dashboard KPI rules in `layouts/dashboard.md`
+  (three-slot tiles, grayscale readability, 3:1 density ratio,
+  always-visible filter chips, cadence matched to the decision cycle,
+  stated last-updated time); kiosk accessibility deepening in
+  `layouts/kiosk.md` (assistive entry point usable without vision,
+  multi-sense time alerts with extension, 800–1600 mm reach bounds,
+  one-tap reset, offline fallback, speech-available receipts); APCA
+  perceptual-contrast note in `trends/2026/standards-outlook.md`
+  (0–120 lightness score, polarity-aware, 90/75/60/45 thresholds,
+  test against both systems) plus the assistive-entry-point
+  principle; new `trends/2026/dark-mode.md` (dark greys not black,
+  type adjustments, elevation over shadows, redesigned accents,
+  semantic token contract, system default with user override,
+  200–300 ms switch honouring reduced motion, OLED/LCD/e-ink
+  testing); 13 new source records (177 total). Completes roadmap
+  actions 3, 4, 5, and 6 from the previous review.
+- Completed this review: search-health evaluation checklist in the
+  Search pattern row of `catalog/patterns.md` (success rate,
+  time-to-result, zero-result rate, click position, refinement rate;
+  rising zero-result or refinement rates point at vocabulary or scope
+  design, and zero-result queries are logged as free research);
+  supporting-state rows for focused, selected, expanded, and warning in
+  `catalog/states.md` with appearance, behaviour, and recovery for
+  each; new `trends/2026/standards-outlook.md` horizon note on the
+  WCAG 3.0 draft (Working Draft status, final recommendation not
+  expected before 2028, outcomes-based Bronze/Silver/Gold scoring
+  with Bronze mapping approximately to 2.2 AA, no deprecation of
+  2.x, build to 2.2 AA today and instrument outcomes); deepened
+  `trends/2026/modular-card-grids.md` (fixed size tiers by importance,
+  density as a grid property, overflow to a "view all" surface,
+  reorder feedback with plain-text announcements and persistence).
+  Completes roadmap actions 3, 4, 5, and 6.
   (subsequence matching, synonyms, grouped typed results, stable selection,
   safe execution) with a cross-link from the shortcut rules in
   `layouts/desktop.md`; notification-escalation pattern (urgency-to-channel
@@ -121,7 +166,7 @@ defined without an example; gap = named but not yet defined.
 - Most duplicated area: none remaining; the duplicate-paragraph warning
   is cleared.
 - Least covered area: internationalization rules (no coverage), a third
-  worked example (only two exist), and the modular-card-grids trend
+  worked example (only two exist), and the machine-experience trend
   file (thinnest file); now actions 1, 2, and 3.
 - Completed this review: responsive data-table strategies in
   `layouts/dashboard.md` (four strategies with shared rules); new

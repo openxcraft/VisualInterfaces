@@ -1313,6 +1313,150 @@
       "type": "article",
       "accessed": "2026-10-23",
       "notes": "Native CSS geometric shape control: corner-shape presets (bevel, notch, scoop, squircle) available in Chromium, border-shape and shape() function in the borders/shapes specifications; practical guidance for progressive enhancement with rectangular fallbacks."
+    },
+    {
+      "title": "Driving-task interface design principles",
+      "url": "https://docs.partner.android.com/drivingux/foundations/design-principles?authuser=09",
+      "category": "layouts",
+      "type": "documentation",
+      "accessed": "2026-10-23",
+      "notes": "Two-second glance budget with 0.25 s input response; one-handed gestures; 76x76 dp targets with 23 dp spacing; 32/24 dp text; day/night modes; distraction suppression while moving; interruption and resumption of non-driving tasks."
+    },
+    {
+      "title": "Automotive glance budgets and interaction economics",
+      "url": "https://www.anoda.mobi/ux-blog/future-car-dashboard-ui-trends-design-user-experience",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Glance budget of about 2 s per glance and 12 s per task; design for glances not taps with one question answered per glance; stable information positions; physical controls required for essential functions; shallow fast touch flows can outperform button-heavy ones."
+    },
+    {
+      "title": "Self-service kiosk UX checklist",
+      "url": "https://www.avixa.org/explore/articles/kiosk-ux-ui-design-checklist",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "One task per screen with always-visible back, home, and cancel controls; 9-12 mm touch targets; error recovery without staff help; timeout warnings with countdown and one-tap session reset; 15-48 inch control reach; offline fallback; multilingual entry points."
+    },
+    {
+      "title": "Accessibility requirements for self-service terminals",
+      "url": "https://wcagc.com/blog/eaa-self-service-terminals",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "The accessibility entry point must itself be usable without vision; multi-sense time-limit alerts with extension; 800-1600 mm placement bounds; printed information also available through speech; speech output, tactile keys, and headset support need hands-on testing with speech-output users."
+    },
+    {
+      "title": "Map interaction patterns",
+      "url": "https://mapuipatterns.com/category/interacting-with-the-map/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-10-23",
+      "notes": "MapTip hover notes; visited markers mirroring visited links; small multiples for comparing change over time; peel-back swipe to reveal the layer underneath; info pop-up for short detail versus info panel for long or interactive content; rich markers with a key metric."
+    },
+    {
+      "title": "Chat and messaging interface patterns",
+      "url": "https://www.uxpin.com/studio/blog/chat-user-interface-design/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Element set: multi-line input, visible send, distinguished bubbles, grouped timestamps, typing and read indicators; errors belong on the failed message bubble with inline resend; offline messages queue and send on reconnect; capabilities stated up front; quick actions and suggested prompts; streamed responses with a stop option; live-region announcements."
+    },
+    {
+      "title": "Infinite scroll versus pagination",
+      "url": "https://www.thealien.design/insights/infinite-scroll-vs-pagination",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Infinite scroll for exploratory browsing, pagination for goal-oriented tasks; pagination gives structure, sense of place, and reliable back-button behaviour; load-more button as the safe default; infinite scroll needs loading indicators, place-restoring URL updates, back-to-top, live-region announcements, and a paginated fallback for crawlers."
+    },
+    {
+      "title": "Multi-step process design: wizards and stepped flows",
+      "url": "https://timgraf.com/ux-design/the-ux-of-multi-step-processes-a-practical-guide-to-designing-wizards-stepped-flows-and-multi-page-tasks-users-actually-complete/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Total step count shown up front; completed/current/future steps distinctly marked with future steps visible but non-interactive; short specific step labels; vertical stepper on narrow screens; contextual forward labels; data-preserving back; save-and-resume for flows longer than a few minutes."
+    },
+    {
+      "title": "Dashboard design principles",
+      "url": "https://www.setproduct.com/blog/effective-dashboard-design-principles",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Three-slot key-figure tiles (number, delta with direction, comparison window); colour encodes meaning only with grayscale readability; roughly 3:1 density ratio between primary and secondary zones; always-visible removable filter chips; update cadence matched to the decision cycle with a stated last-updated time."
+    },
+    {
+      "title": "Date picker design: anatomy to accessibility",
+      "url": "https://www.setproduct.com/blog/date-picker-ui-design",
+      "category": "primitives",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Lightest control for the intent: typed field, picker, or full calendar; ranges as their own pattern with two-month view and hover preview; seven mutually-distinguishable day-cell states; typed entry as a first-class path; full keyboard contract with focus management and announced day cells."
+    },
+    {
+      "title": "Date and time picker patterns for reporting and scheduling tools",
+      "url": "https://www.saasui.design/blog/saas-date-time-picker-ux-patterns",
+      "category": "primitives",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Each intent gets its own control (single date, date-and-time with timezone, linked range, relative/recurring); time values state timezone unambiguously; presets put common intents one tap away; unavailable dates are unpickable and explained in place; ranges commit explicitly."
+    },
+    {
+      "title": "APCA: the perceptual contrast algorithm",
+      "url": "https://www.colorcontrast.org/blog/what-is-apca/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Lightness-contrast score roughly 0-120 replacing fixed ratios; polarity-aware with size and weight factored in; proposed thresholds near 90 body, 75 large/bold, 60 floor, 45 non-text; practical stance: keep the 2.x AA baseline and test new palettes against both systems."
+    },
+    {
+      "title": "Dark mode design rules",
+      "url": "https://www.fallingbrick.co.uk/dark-mode-design/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Dark greys not pure black, off-white not pure white; typography adjustments (weight, size, line height, spacing); elevation by lighter surface tones instead of shadows; redesigned accents; semantic token contract across themes; system preference default with user override; 200-300 ms switch honouring reduced motion; test on OLED, LCD, and e-ink."
+    },
+    {
+      "title": "UI/UX Design Trends 2026: 10 Verdicts for Product Teams",
+      "url": "https://fuselabcreative.com/ui-ux-design-trends-2026-modern-ui-trends-ux-trends-guide/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Translucent materials acceptable on navigation and controls, risky on text/number-dense content screens: contrast shifts as content scrolls beneath; keep translucency out of the content layer and honour reduce-transparency and increase-contrast settings."
+    },
+    {
+      "title": "Inside a Design System That Teaches Automated Tooling What It Is Not Allowed to Change",
+      "url": "https://www.analyticsinsight.net/artificial-intelligence/inside-a-design-system-that-teaches-ai-what-it-is-not-allowed-to-change?utm_source=website&utm_medium=related-stories",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Components carry machine-readable metadata marking required safety controls versus removable convenience; automated assembly may rearrange and restyle but cannot delete a protected check. Accessibility rules written in machine-readable form travel with the component."
+    },
+    {
+      "title": "Design Systems in October 2026: Built for Machines. Still Governed by Humans.",
+      "url": "https://medium.com/@lex.konovalov/design-systems-in-october-2026-built-for-machines-still-governed-by-humans-6fc02a45e755",
+      "category": "states",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Empty-state evolution: interfaces pre-populating from available context before the user acts, replacing a static blank empty screen; suggestions must stay visually distinct from real items and remain dismissible, never stored as user data."
+    },
+    {
+      "title": "12 UI/UX Design Trends for AI Apps (2026 + Examples)",
+      "url": "https://www.groovyweb.co/blog/ui-ux-design-trends-ai-apps-2026",
+      "category": "states",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
+    },
+    {
+      "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
+      "url": "https://medium.com/@leannacerise8495/the-empty-state-is-your-best-growth-surface-and-nobody-designs-it-4cb628a70d01",
+      "category": "states",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Worked-example empty states: a pre-filled sample marked as an example with an adopt action; faded preview of the populated state where sampling is impossible."
     }
   ]
 }
