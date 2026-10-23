@@ -148,6 +148,22 @@ Rules:
   natural empty states; error styling only for failures.
 - Keep layout dimensions stable so the populated view does not shift.
 
+## Theme preference states
+
+Appearance mode (light, dark, automatic) is a persistent state, not a
+one-time read. Resolve it carefully at every load.
+
+- In automatic mode, re-read the live system preference on every page
+  load. Never store the resolved value as if the user had chosen it —
+  a frozen snapshot stops tracking the system setting.
+- The configured theme is authoritative over stored leftovers. A value
+  from an older version, another app on the same host, or a stale cookie
+  must not override the theme the app declares; ignore or repair foreign
+  and outdated values instead of applying them.
+- Keep the visible label, the stored value, and the applied theme in
+  agreement before the first paint, so the page never flashes the wrong
+  mode while the preference resolves.
+
 ## Pre-publish checklist
 
 The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.

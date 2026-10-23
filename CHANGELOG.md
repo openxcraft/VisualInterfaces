@@ -7,6 +7,34 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: new data-visualisation pattern in
+  `catalog/patterns.md` — match the chart type to the story, takeaway
+  titles, direct data labelling, colour never alone, a text alternative
+  stating the key insight, the underlying data offered as a table,
+  keyboard-operable interactive charts, and charts not mirrored in
+  right-to-left layouts. Completes roadmap action 4 (added this run).
+- Roadmap: three new improvement actions ordered by coverage impact —
+  the data-visualisation pattern (implemented this run), a
+  command-palette pattern for `catalog/patterns.md` with a cross-link
+  from `layouts/desktop.md`, and a merge of the two identical Media
+  effect rows in `catalog/primitives.md`; both left to the deep cycle.
+- Five new source records in `resources/sources.json` (147 total):
+  interface internationalization guide, bidirectionality mirroring
+  guidance, card grid density guidance, CSS grid layout reference, and
+  accessible data-visualisation guidance.
+
+- States catalogue: new theme-preference state rules in
+  `catalog/states.md` — automatic mode re-reads the live system
+  preference on every load instead of freezing a resolved value; the
+  configured theme is authoritative over stale or foreign stored values;
+  label, stored value, and applied theme agree before first paint.
+
+- Primitives: new button-group entry in `catalog/primitives.md` —
+  shared container for related buttons with a single connected shape,
+  grouped and segmented variants, rules for related actions only, visible
+  and announced selection state, subtle shape changes, and a reduced-motion
+  cross-fade instead of spring or morph motion.
+
 - Layouts: responsive data-table strategies in `layouts/dashboard.md` —
   horizontal scroll with a frozen leading column, column dropping by
   priority, priority-plus disclosure, and card transformation, with

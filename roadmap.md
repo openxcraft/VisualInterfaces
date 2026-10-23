@@ -66,6 +66,22 @@ defined without an example; gap = named but not yet defined.
    file): tile sizing, density, and reordering rules consolidated with
    the priority-order and named-grid-area rules already recorded.
    Done when the expanded file passes all quality gates.
+4. Add a data-visualisation pattern to `catalog/patterns.md`: match the
+   chart type to the story, takeaway titles, direct data labelling
+   instead of legend-only reading, colour never alone, a text
+   alternative stating the key insight plus the underlying data as a
+   table, keyboard operability for interactive charts, and no mirroring
+   in right-to-left layouts. Done when the new row passes all quality
+   gates. Implemented in this run.
+5. Add a command-palette pattern to `catalog/patterns.md`: a
+   keyboard-first command surface with fuzzy matching, recent and
+   suggested commands, scope labels, keyboard open and close, and a
+   cross-link from the shortcut rules in `layouts/desktop.md`. Done when
+   the new row passes all quality gates. Left to the deep cycle.
+6. Merge the two identical Media effect rows in `catalog/primitives.md`
+   into one canonical row; the quality check catches duplicated
+   paragraphs but not duplicated table rows. Done when one Media effect
+   row remains and the gates pass. Left to the deep cycle.
 
 ## Review notes
 

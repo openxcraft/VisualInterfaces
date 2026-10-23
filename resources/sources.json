@@ -1129,6 +1129,54 @@
    "type": "article",
    "accessed": "2026-10-23",
    "notes": "Menu keyboard models: tab to each item for flat nav, arrow-key navigation inside menubar composites; roving tab index; escape returns focus to the trigger"
+  },
+  {
+   "title": "Component library changelog: theme resolution and accessible-label translations",
+   "url": "https://maz-ui.com/changelog",
+   "category": "states",
+   "type": "changelog",
+   "accessed": "2026-10-23",
+   "notes": "October 2026: automatic color mode follows the live system preference on every reload; configured theme preset authoritative over stale cookie; aria.* translation namespace for accessible labels across components."
+  },
+  {
+   "title": "Developer's guide to interface internationalization (2026)",
+   "url": "https://intlpull.com/blog/complete-developers-guide-to-internationalization-2026",
+   "category": "primitives",
+   "type": "guide",
+   "accessed": "2026-10-23",
+   "notes": "Locale-specific formatting for dates, numbers, currency, time; right-to-left layout mirroring via logical CSS properties and the dir attribute; runtime language switching without restart."
+  },
+  {
+   "title": "Bidirectionality usability guidance",
+   "url": "https://m1.material.io/usability/bidirectionality.html",
+   "category": "primitives",
+   "type": "guideline",
+   "accessed": "2026-10-23",
+   "notes": "RTL mirroring rules: layouts flip, directional icons mirror, text keeps its own language direction; not mirrored: numbers, charts and graphs, non-directional icons, media playback controls and progress direction."
+  },
+  {
+   "title": "UI card design: grid layouts, spacing and density (2026)",
+   "url": "https://www.alfdesigngroup.com/post/best-practices-to-design-ui-cards-for-your-website",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Card grid density by breakpoint: fewer columns when each choice is a decision, more for browsing; 12-16px minimum gutter floor; density trades breathing room for comparability; infinite scroll vs pagination vs load-more for long grids."
+  },
+  {
+   "title": "Realizing common layouts using CSS grid",
+   "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids",
+   "category": "trends",
+   "type": "reference",
+   "accessed": "2026-10-23",
+   "notes": "Flexible card grids via repeat(auto-fit, minmax()); spanning tiles backfill gaps with grid-auto-flow: dense only when items have no set order, since display order then diverges from source and tab order."
+  },
+  {
+   "title": "Accessible data visualizations",
+   "url": "https://accessibility.ua.edu/accessibilityresources/accessible-data-visualizations/",
+   "category": "patterns",
+   "type": "guideline",
+   "accessed": "2026-10-23",
+   "notes": "Charts highlight trends and outliers while tables carry precise values; descriptive takeaway titles, text alternatives with key insights, colour never alone, keyboard and screen-reader compatible, underlying data offered as a table."
   }
  ]
 }

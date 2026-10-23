@@ -20,6 +20,7 @@ When to avoid:
 | Primitive | Anatomy | Variants | Rules |
 | --- | --- | --- | --- |
 | Button | Label, optional leading shape, focus ring | Primary, secondary, quiet, destructive; small, medium, large | One primary action per view; verb-first labels |
+| Button group | Shared container holding related buttons in one connected shape | Segmented single-select, grouped actions; horizontal, vertical | Group only related actions; one selection state visible and announced; adjacent buttons share a container edge rather than repeating borders; shape changes stay subtle enough that every target stays identifiable; under reduced motion use a simple cross-fade instead of spring or morph motion |
 | Text input | Label, field, helper text, error text | Single line, multi-line, search, numeric | Label is always visible; placeholder is not a label |
 | Select | Trigger, list, option, check mark | Single, multiple, searchable | Keep the list within the viewport; type-ahead for long lists |
 | Checkbox | Box, label | Checked, unchecked, indeterminate | Use for independent options; apply on submit or explicitly |
