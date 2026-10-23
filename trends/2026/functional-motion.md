@@ -90,6 +90,17 @@ deliberate final static state.
   presses.
 - Offer a visible "pause animations" control alongside the system setting,
   so the choice is discoverable in the product itself.
+- Split motion into informational and decorative: a spinner that reports
+  work in progress, a progress bar, or a focus indicator keeps moving;
+  parallax, swooping transitions, and autoplay decoration stop. Where
+  informational motion is kept, remove the large transforms — translate,
+  scale, and 3D moves — that trigger vestibular reactions.
+- Fail closed: gate decorative motion behind a no-preference check, so
+  when the preference is unknown the static or fading alternative ships
+  by default.
+- Auto-playing or looping content longer than five seconds always gets a
+  visible pause control on the page; the system reduced-motion setting
+  alone does not satisfy this.
 
 ## States
 
@@ -111,4 +122,5 @@ The canonical publishing checklist lives in `../../CONTRIBUTING.md`; the checks 
 
 - [ ] Functional-motion purposes and reduced-motion swap rules are documented.
 - [ ] Scroll-triggered animation availability rules are present.
+- [ ] Informational-versus-decorative motion rules, the fail-closed pattern, and the pause-control requirement are documented.
 - [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

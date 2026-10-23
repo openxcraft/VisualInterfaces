@@ -57,6 +57,15 @@ not replace any of the seven above.
   consent controls, chat launchers, and banners must not cover the focused
   control. When scrolling brings a control into focus, it lands fully clear
   of any fixed overlay.
+- Focus indicators carry at least 3:1 contrast against adjacent colours;
+  never suppress the platform default without a designed replacement that
+  stays visible and themeable.
+- In forced-colours mode the author palette is replaced by user colours,
+  so the indicator rides on an outline in system colours rather than a
+  shadow, which gets suppressed.
+- Set scroll padding on the root element to match fixed chrome, so a
+  focused control is never entirely hidden behind a sticky header, banner,
+  or launcher when it scrolls into view.
 
 ## States
 

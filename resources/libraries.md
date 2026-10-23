@@ -25,13 +25,14 @@ When to avoid:
 | Radix UI | Unstyled accessible primitives | Dialogs, menus, popovers, and form controls with keyboard and focus behaviour included; styling is supplied by the project. |
 | Headless UI | Unstyled accessible components | Interactive components for common interface patterns, designed to be styled by the project. |
 | shadcn/ui | Copy-in component set | Components copied into the project codebase and owned there; built on unstyled primitives and utility styling. |
-| MUI | Styled component set | A comprehensive styled set for application interfaces with dense data components. |
+| MUI | Styled component set | A comprehensive styled set for application interfaces with dense data components. The current direction pairs a stable unstyled-primitives layer — focus, keyboard, and role behaviour without styling — with token-based theming; new form controls such as a number field are built on those primitives, and the advanced data line adds grid-chart integration and server-side pivoting. Compare with the headless behaviour primitive pattern in `../catalog/primitives.md`. |
 | Mantine | Styled component set | A broad set including form, date, and notification components with theming support. |
 | Ant Design | Styled component set | A mature set with dense tables, trees, and forms suited to administration interfaces. |
 | Chakra UI | Styled component set | Accessible components with style properties and a theming system. |
 | daisyUI | Utility-class component themes | Semantic component classes added to utility styling, with built-in themes and no scripting dependency. |
 | Flowbite | Utility-class component set | Components for several frameworks built on utility styling. |
 | Bootstrap | Styled framework set | A long-standing responsive grid and component set for plain markup and server-rendered pages. |
+| Web Awesome | Web-component library | A current web-components set succeeding an earlier one: dozens of components, multiple colour palettes, native element styles, cascade layers, and server-side rendering support, with commercial additions such as combobox, file input, date picker, video, sparklines, charts, and a data grid on the way. |
 
 ## Layout and responsive rules
 

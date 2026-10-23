@@ -7,6 +7,64 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: three new pattern rows in `catalog/patterns.md` —
+  notification escalation (urgency-to-pattern-and-channel scale: badge,
+  toast, banner, notification centre, modal, full-screen dialog;
+  nothing critical lives only in a toast; notification-debt rule
+  against high-urgency patterns on low-urgency events), offline-first
+  sync (durable mutation queue with identifiers and attempt counts,
+  granular syncing / local-changes-pending / stale states,
+  optimistic updates marked pending until reconciled or rolled back,
+  visible sync-status area with retry and freshness indicators), and
+  file upload (5–10 MB chunking with per-chunk retry, per-file queue
+  items with pause/retry/remove, progress accurate after resume, full
+  keyboard operability with state announcements). Search row extended
+  with typeahead rules (instant results, per-row context, scope filters).
+- Patterns catalogue: new command-palette pattern in
+  `catalog/patterns.md` — one standard summon shortcut, autofocus on
+  open, verb-led commands with forgiving subsequence matching and
+  synonyms, grouped typed results with unscathed scope information,
+  recents in the blank state, stable selection while results stream,
+  safe execution ordering, full keyboard operation with focus returned
+  to the trigger. Cross-linked from the shortcut rules in
+  `layouts/desktop.md`. Completes roadmap action 5.
+- Interface catalogue: new automotive HMI entry in
+  `catalog/interfaces.md` — two-second glance and twelve-second task
+  budgets as hard rules, essential functions on tactile physical
+  controls, contextual minimalism by driving conditions, voice for
+  secondary tasks, and adaptive narrowing as attention demands rise.
+- Functional motion: informational-versus-decorative motion rules in
+  `trends/2026/functional-motion.md` — informational motion (progress,
+  focus) keeps moving without large transforms; decorative motion is
+  gated behind a no-preference check so it fails closed; auto-playing
+  content over five seconds always gets a visible pause control.
+- States catalogue: focus-indicator strengthening in
+  `catalog/states.md` — 3:1 contrast minimum against adjacent colours,
+  outline in system colours for forced-colours mode, and root scroll
+  padding matched to fixed chrome so focused controls are never fully
+  hidden behind sticky elements.
+- Spatial trend: glass-layer constraints in
+  `trends/2026/spatial-interfaces.md` — no layered translucent
+  surfaces, translucency disabled under high-contrast settings with an
+  opaque default, and default opacities treated as
+  accessibility-tested values.
+- Libraries: web-components refresh in `resources/libraries.md` — a
+  successor web-components library entry (component count, palettes,
+  cascade layers, SSR, commercial additions) and the unstyled-primitives
+  direction with token-based theming, cross-linked to the headless
+  behaviour primitive.
+- Fifteen new source records in `resources/sources.json` (162 total):
+  command-palette and search UX, notification urgency mapping,
+  offline-first stores and sync, resumable uploads, automotive HMI,
+  web-component library succession, unstyled primitives, reduced-motion
+  nuance, focus indicators, and glass theming.
+
+### Fixed
+
+- Primitives: merged the two identical Media effect rows in
+  `catalog/primitives.md` into one canonical row. Completes roadmap
+  action 6.
+
 - Patterns catalogue: new data-visualisation pattern in
   `catalog/patterns.md` — match the chart type to the story, takeaway
   titles, direct data labelling, colour never alone, a text alternative

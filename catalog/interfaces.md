@@ -26,6 +26,7 @@ When to avoid:
 | Kiosk | Touch | Standing distance | Low | Large targets, idle timeout, session reset, no personal data retained |
 | Wearable | Touch, voice, crown or bezel | Glanceable | Very low | Two actions per screen at most, short text |
 | Television | Remote, voice | Room distance | Low | Focus-based navigation, 10-foot legibility, overscan margins |
+| Automotive HMI | Physical controls, voice, touch | Road distance, glanceable | Very low | Two-second glance and twelve-second task budgets; essential functions stay on physical controls |
 | Conversational | Text, voice | Varies | Low | Turn-taking, repair of misunderstood input, fallback to structured controls |
 | Spatial | Gesture, gaze, voice | Room scale | Low | Depth cues, physical comfort, clear exit to a flat view |
 | Embedded display | Touch, physical controls | Arm's length | Low | Fixed size, offline operation, high contrast in bright light |
@@ -237,6 +238,26 @@ with the phone app as the overflow.
   low brightness, no animation, critical data visible; prefer dark
   interfaces and minimal background work to protect battery life.
 
+## Automotive HMI
+
+For driver-facing surfaces where attention is a safety resource: glanceable
+tasks only, and essential functions never touchscreen-only.
+
+- Attention budgets are hard rules, not aspirations: a single glance away
+  from the road stays under two seconds; a complete task stays under twelve
+  seconds. Design every screen against the budget first, then polish.
+- Essential functions — signals, wipers, hazard warnings — live on tactile
+  physical controls with real feedback; the screen is never the only route
+  to a safety-critical action.
+- Practise contextual minimalism: disclose information progressively by
+  driving conditions; while the vehicle moves, show only what the current
+  task needs and defer everything else.
+- Voice carries secondary tasks as the hands-free channel; pair every
+  voice action with a confirmation of what was understood before acting.
+- Adapt to driving context instead of showing everything at once: the same
+  surface narrows its content as attention demands rise and restores it
+  when the vehicle is parked.
+
 ## States
 
 Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
@@ -258,4 +279,5 @@ The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks bel
 - [ ] Every interface type in the table has a primary input, viewing distance, density, and constraints.
 - [ ] The remote-control input section covers directional-pad, pointer, touch-surface, and scroll-wheel variants.
 - [ ] Wearable, spatial, and embedded sections link to their full treatments.
+- [ ] Automotive HMI glance budgets, physical-control rules, and contextual minimalism are documented.
 - [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

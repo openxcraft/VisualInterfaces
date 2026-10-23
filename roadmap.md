@@ -48,8 +48,8 @@ defined without an example; gap = named but not yet defined.
 | --- | --- | --- | --- |
 | Platform | Web, mobile, tablet, kiosk, television, embedded, wearable, desktop | — | — |
 | Device input | Touch, pointer, keyboard, voice, gesture-only, remote | — | — |
-| Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial | — | — |
-| Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, landing, authentication, settings, commerce | — | — |
+| Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
+| Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, file upload, landing, authentication, settings, commerce | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 
 ## Improvement actions
@@ -66,25 +66,47 @@ defined without an example; gap = named but not yet defined.
    file): tile sizing, density, and reordering rules consolidated with
    the priority-order and named-grid-area rules already recorded.
    Done when the expanded file passes all quality gates.
-4. Add a data-visualisation pattern to `catalog/patterns.md`: match the
-   chart type to the story, takeaway titles, direct data labelling
-   instead of legend-only reading, colour never alone, a text
-   alternative stating the key insight plus the underlying data as a
-   table, keyboard operability for interactive charts, and no mirroring
-   in right-to-left layouts. Done when the new row passes all quality
-   gates. Implemented in this run.
-5. Add a command-palette pattern to `catalog/patterns.md`: a
-   keyboard-first command surface with fuzzy matching, recent and
-   suggested commands, scope labels, keyboard open and close, and a
-   cross-link from the shortcut rules in `layouts/desktop.md`. Done when
-   the new row passes all quality gates. Left to the deep cycle.
-6. Merge the two identical Media effect rows in `catalog/primitives.md`
-   into one canonical row; the quality check catches duplicated
-   paragraphs but not duplicated table rows. Done when one Media effect
-   row remains and the gates pass. Left to the deep cycle.
+4. Add a search-health evaluation checklist to the Search pattern row in
+   `catalog/patterns.md`: success rate (searches ending in a click or
+   completed action), time-to-result, zero-result rate, click position,
+   and refinement rate. Done when the checklist reads as practical rules
+   and passes all quality gates.
+5. Add a standards-outlook note on the WCAG 3.0 draft: Working Draft
+   status with final recommendation not expected before 2028,
+   outcomes-based Bronze/Silver/Gold scoring with Bronze mapping
+   approximately to current 2.2 AA, and no deprecation of WCAG 2.x —
+   as a short section in `catalog/states.md` or a new
+   `trends/2026/standards-outlook.md`. Done when the note passes all
+   quality gates.
+6. Add table rows for the remaining named supporting states in
+   `catalog/states.md` (focused, selected, expanded, and warning):
+   appearance, behaviour, and recovery for each, cross-linked from the
+   patterns that use them. Done when each named state has a row and the
+   gates pass.
 
 ## Review notes
 
+- Completed this review: command-palette pattern in `catalog/patterns.md`
+  (subsequence matching, synonyms, grouped typed results, stable selection,
+  safe execution) with a cross-link from the shortcut rules in
+  `layouts/desktop.md`; notification-escalation pattern (urgency-to-channel
+  scale, notification-debt rule); offline-first-sync pattern (durable
+  mutation queue, granular sync states, marked-pending optimistic updates);
+  file-upload resilience pattern (chunking, per-file retry, accurate
+  progress after resume); extended Search row with typeahead rules;
+  automotive HMI interface entry with glance budgets and
+  physical-control rules (Interface type promoted in the coverage matrix);
+  reduced-motion nuance in `trends/2026/functional-motion.md`
+  (informational versus decorative motion, fail-closed gating, visible
+  pause control); focus-indicator strengthening in `catalog/states.md`
+  (3:1 contrast, forced-colours outline, scroll padding); glass-layer
+  constraints in `trends/2026/spatial-interfaces.md`; merged the two
+  identical Media effect rows in `catalog/primitives.md` into one;
+  web-components refresh in `resources/libraries.md` (successor library
+  entry, unstyled-primitives direction); 15 new source records (162
+  total); coverage matrix refreshed (automotive, command palette,
+  notification escalation, offline-first sync, file upload promoted to
+  full).
 - Completed actions 1–4 from the previous review: the duplicated
   seven-state tables and pre-publish checklists are consolidated (one
   canonical states file, per-file notes and checklists, canonical

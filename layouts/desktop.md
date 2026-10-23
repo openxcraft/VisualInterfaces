@@ -40,7 +40,9 @@ reference reachable in the product.
 - Keyboard shortcuts: reserve single-modifier shortcuts for the dozen
   most frequent actions; show the shortcut next to the menu label so
   it is learned in place; never steal shortcuts from text editing;
-  keep a shortcut reference discoverable inside the product.
+  keep a shortcut reference discoverable inside the product. For the
+  keyboard-first command surface, see the Command palette pattern in
+  ../catalog/patterns.md.
 - Context menus: appear at the pointer or on the focused element;
   contain only actions valid for the current selection; duplicate the
   most relevant menu-bar items rather than hiding them exclusively in

@@ -56,6 +56,15 @@ fallbacks; high-contrast opaque alternatives to translucent panels.
   version, and profile blur effects for frame rate and power. Prefer
   progressive disclosure (gaze-triggered detail) over filling the space
   with panels.
+- Never layer translucent surfaces on each other: stacked glass blurs into
+  itself, burns performance, and turns text illegible; keep one
+  translucent layer per view and put everything else on opaque panels.
+- Translucency is conditional, not cosmetic: it disables automatically
+  under high-contrast settings, with a high-contrast opaque variant as
+  the default for that mode.
+- Treat default translucency values as accessibility-tested: opacities and
+  blur radii measured for legibility stay fixed, and anyone overriding
+  them owns the resulting contrast evaluation.
 - Map content to proxemic rings around the viewer: intimate (0–0.5 m) for
   highly personal lean-in items; personal (0.5–1.2 m, within arm's reach)
   for objects the viewer manipulates; social (1.2–3.7 m) for lean-out and
@@ -103,4 +112,5 @@ The canonical publishing checklist lives in `../../CONTRIBUTING.md`; the checks 
 
 - [ ] Spatial page patterns, proxemic rings, and the comfort-zone band are documented.
 - [ ] Fallback modes and panel priority ordering are stated.
+- [ ] Translucent-panel rules cover legibility, no layering, high-contrast fallback, and tested opacity values.
 - [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

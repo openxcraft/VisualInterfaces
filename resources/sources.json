@@ -1177,6 +1177,126 @@
    "type": "guideline",
    "accessed": "2026-10-23",
    "notes": "Charts highlight trends and outliers while tables carry precise values; descriptive takeaway titles, text alternatives with key insights, colour never alone, keyboard and screen-reader compatible, underlying data offered as a table."
+  },
+  {
+   "title": "Command-palette usability guidance",
+   "url": "https://mockitt.com/en/guide/command-palette-ux.html",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Stable selection while results update; no broad fuzzy match above the intended costly action; show scope with the name."
+  },
+  {
+   "title": "SaaS command-palette and search UX patterns",
+   "url": "https://www.saasui.design/blog/saas-search-command-palette-ux-patterns",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Command-palette pattern: autofocus, subsequence matching, grouped typed results, recents in the empty state; typeahead per-row context; search-health metrics."
+  },
+  {
+   "title": "Command-palette UI design guide and teardowns",
+   "url": "https://www.setproduct.com/blog/command-palette-ui-design-guide",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Palette as teaching surface for shortcuts; frecency-ranked recents; grouping by result type."
+  },
+  {
+   "title": "Notification UX: urgency-to-pattern mapping",
+   "url": "https://foundey.com/blog/notification-ux",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Urgency scale mapped to pattern and channel; notification debt from high-urgency patterns on low-urgency events."
+  },
+  {
+   "title": "SaaS notification and toast UX patterns",
+   "url": "https://www.saasui.design/blog/saas-notification-toast-ux-patterns",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Nothing critical only in a toast; disruption level decides inline alert vs toast vs banner vs modal."
+  },
+  {
+   "title": "Offline-first frontend apps: local store and background sync",
+   "url": "https://blog.logrocket.com/offline-first-frontend-apps-2025-indexeddb-sqlite/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Local store as source of truth; durable mutation queue with identifiers and attempt counts; background-sync replay with fallbacks."
+  },
+  {
+   "title": "Frontend system design: offline support and progressive web apps",
+   "url": "https://dev.to/zeeshanali0704/frontend-system-design-offline-support-and-progressive-web-apps-pwas-4k8m",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Granular sync states: syncing, local changes pending, stale; optimistic updates marked pending; visible sync status with retry."
+  },
+  {
+   "title": "Upload UI components: chunking and resumable uploads",
+   "url": "https://blog.filestack.com/upload-ui-components-drag-drop-progress-preview/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Per-file queue items with progress and retry; chunked resumable uploads; accurate progress after interruption."
+  },
+  {
+   "title": "Automotive HMI design: glance budgets and essential functions",
+   "url": "https://www.apriorit.com/dev-blog/how-to-design-automotive-hmi-system",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Two-second glance and twelve-second task budgets; physical controls for essential functions; voice for secondary tasks."
+  },
+  {
+   "title": "HMI design principles for automotive interfaces",
+   "url": "https://www.aufaitux.com/blog/hmi-design-principles-automotive-ux/",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Contextual minimalism and progressive disclosure by driving conditions; adaptive interfaces over show-everything."
+  },
+  {
+   "title": "Web Awesome vs Shoelace: web-component library succession",
+   "url": "https://blog.fontawesome.com/how-does-web-awesome-stack-up-against-shoelace/",
+   "category": "resources",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Successor web-components library: component count, colour palettes, cascade layers, SSR support, commercial additions."
+  },
+  {
+   "title": "Component library direction 2026: unstyled primitives and data components",
+   "url": "https://mui.com/blog/2026-and-beyond/",
+   "category": "resources",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Stable unstyled-primitives layer with token theming; number-field control; data-line grid-chart integration and server-side pivoting."
+  },
+  {
+   "title": "Reduced-motion fixes: informational versus decorative animation",
+   "url": "https://dev.to/parsajiravand/youre-animating-for-everyone-prefers-reduced-motion-fixes-that-2ond",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Informational motion keeps moving; decorative motion gated behind a no-preference check so it fails closed to static."
+  },
+  {
+   "title": "Focus indicators: contrast, forced colours, and obscured focus",
+   "url": "https://www.levelaccess.com/blog/focus-indicators-wcag-requirements-and-best-practices/",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "3:1 non-text contrast for focus indicators; outline in system colours for forced-colours mode; focus not obscured by fixed chrome."
+  },
+  {
+   "title": "Glass-mode theming handbook",
+   "url": "https://www.patternfly.org/foundations-and-styles/theming/glass-mode-handbook/",
+   "category": "trends",
+   "type": "guideline",
+   "accessed": "2026-10-23",
+   "notes": "Never layer glass containers; glass disables under high-contrast mode; default opacities treated as accessibility-tested values."
   }
  ]
 }
