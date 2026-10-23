@@ -60,6 +60,38 @@ When to avoid:
 - Text scales to 200% without loss of content or function.
 - Colour is never the only signal; pair it with text, shape, or position.
 
+## Internationalization
+
+Interfaces travel across writing directions and locales. These rules keep
+every primitive correct when it does.
+
+- Mirroring: in right-to-left layouts, mirror the reading flow — navigation
+  order, back and forward controls, breadcrumb separators, progress bars
+  filling from the inline start, carousel direction, and drawer side.
+- Never mirror: media controls, clocks, logos, brand marks, non-directional
+  icons, numbers, code, untranslated text, and graphs that are not read
+  directionally.
+- Directional icons: mirror an icon only when it communicates
+  left-versus-right movement; keep the accessible label unchanged when the
+  icon flips. Icons that carry text or indentation inside them are mirrored
+  with the text.
+- Logical properties: express spacing and placement as relationships to the
+  writing direction (inline-start, inline-end, block-start, block-end),
+  never as physical left and right, so one stylesheet serves both
+  directions.
+- Text expansion: budget roughly 40% extra room for short labels and 30%
+  for paragraphs; never fix a container to the source-language label;
+  truncation is a last resort and the full text stays reachable.
+- Locale-aware formatting: render dates, times, numbers, and currency with
+  the locale's separators and conventions; state the timezone on every time
+  value; sort lists with locale-aware collation rather than raw code order.
+- Mixed-direction text: runs that mix scripts follow the Unicode
+  bidirectional algorithm so each run reads in the right order; joining
+  scripts are rendered through a shaping engine, never as disconnected
+  letters.
+- Testing: review every screen in each target direction and confirm that
+  focus order, reading order, and visual order still agree.
+
 ## States
 
 Every element and page in this group defines all seven states. Missing states are treated as incomplete work.

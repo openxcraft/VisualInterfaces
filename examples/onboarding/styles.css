@@ -1,0 +1,112 @@
+/* Onboarding example: framework-free styles demonstrating the onboarding layout rules. */
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: #f7f7f5;
+}
+.onboarding {
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 1rem 1rem 6rem;
+}
+.ob-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.ob-count { margin: 0; font-weight: 600; }
+.ob-track {
+  flex: 1;
+  height: 0.5rem;
+  background: #ddd;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+.ob-fill {
+  display: block;
+  width: 50%;
+  height: 100%;
+  background: #1a6fd4;
+}
+.ob-skip {
+  background: none;
+  border: none;
+  color: #1a6fd4;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.ob-step h1 { font-size: 1.5rem; margin: 1.5rem 0 0.25rem; }
+.ob-hint { color: #555; margin-top: 0; }
+.ob-field { display: block; font-weight: 600; }
+.ob-field input {
+  display: block;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 2px solid #888;
+  border-radius: 0.5rem;
+}
+.ob-error { color: #a02020; }
+.ob-error button, .ob-empty button, .ob-failure button, .ob-resume button {
+  color: #1a6fd4;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1rem;
+}
+/* Primary actions stay in thumb reach on compact screens. */
+.ob-actions {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  background: #f7f7f5;
+}
+.ob-back, .ob-next {
+  flex: 1;
+  min-height: 3rem;
+  font-size: 1rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+.ob-next {
+  background: #1a6fd4;
+  color: #fff;
+  border: none;
+}
+.ob-back {
+  background: #fff;
+  color: #1a1a1a;
+  border: 2px solid #888;
+}
+button:hover { filter: brightness(0.95); }
+button:active { transform: translateY(1px); }
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+button:focus-visible { outline: 3px solid #1a6fd4; outline-offset: 2px; }
+.ob-resume {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px dashed #888;
+  border-radius: 0.75rem;
+}
+.ob-demo { margin-top: 2rem; }
+.ob-skeleton span {
+  display: block;
+  height: 1rem;
+  margin: 0.5rem 0;
+  background: #ddd;
+  border-radius: 0.25rem;
+}
+.ob-empty { border-left: 4px solid #888; padding-left: 0.75rem; }
+.ob-failure { border-left: 4px solid #a02020; padding-left: 0.75rem; }

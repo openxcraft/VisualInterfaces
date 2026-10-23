@@ -19,6 +19,12 @@ When to avoid:
 
 Semantic sections whose source order matches the visual order; headings that describe the content below them; key facts — price, availability, primary action, contact — as real text, never image-only; labels tied to every input, an explicit submit action, and error messages placed next to the field they concern.
 
+Structured summaries for agent readers sit beside the visible content: key facts repeated as structured data so agents compare without guessing; comparison data presented in tables; definitions and answers written as short, extractable statements; bulleted facts that summarise without needing the prose around them.
+
+Explicit task affordances: every completable task names its action in plain language; inputs are labelled and submission is an explicit control; failures return typed errors that carry an error code, whether the attempt can be retried, the next best action, and which partial results are safe to reuse; long tasks expose checkpoints so a resumed run continues rather than restarts.
+
+Consent signals for automated access: actions that move money, delete data, or contact other people require an explicit confirmation step that assembling tooling cannot strip out; consent and disclosure checks travel with the component as machine-readable intent metadata; high-risk agent actions pause for human confirmation and every agent decision is traceable in an activity log.
+
 Components that ship in shared libraries carry machine-readable intent metadata alongside their styling tokens: each component is marked as a required safety control or as removable convenience, and required safety controls — confirmations, dependent-selection steps, consent and disclosure checks — may never be stripped out by tooling that assembles or restyles screens automatically. Accessibility constraints travel with the component in the same metadata, so restyling cannot quietly drop keyboard support or visible focus.
 
 ## Layout and responsive rules
@@ -29,6 +35,9 @@ Components that ship in shared libraries carry machine-readable intent metadata 
 - The first useful content is available without completing any interaction.
 - Keyboard focus order matches the reading order everywhere.
 - Compact variants keep the same source order; nothing important drops out of the sequence at small sizes.
+- Human-first ordering: the human-readable presentation leads; structured data parallels it, never replaces it — nothing exists only for machines that would confuse people.
+- Idempotent operations: repeating the same task request is safe, so agents can retry without causing harm; replays of tool calls return the earlier result instead of duplicating the effect.
+- A machine-legibility checklist is applied before release: structured facts present, typed errors defined, consent steps confirmed, decisions traceable.
 
 ## States
 

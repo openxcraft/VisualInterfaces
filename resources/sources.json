@@ -1457,6 +1457,70 @@
       "type": "article",
       "accessed": "2026-10-23",
       "notes": "Worked-example empty states: a pre-filled sample marked as an example with an adopt action; faded preview of the populated state where sampling is impossible."
+    },
+    {
+      "title": "UX for AI Agents: Designing Interfaces That Machines Use",
+      "url": "https://www.asadqi.com/ux-for-ai-agents-designing-interfaces-that-machines-not-humans-use-1epa/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Machine-facing UX: structured content, API-first design, machine-readable docs, predictable error schemas, performance."
+    },
+    {
+      "title": "Agent-First Design Paradigms: Adapting UX for AI as a New User",
+      "url": "https://beanmachine.dev/agent-first-design-paradigms/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Agent-first patterns: semantic markup, agent-mode shadow views, verification checkpoints for high-risk actions."
+    },
+    {
+      "title": "Agent Experience First Design (AXFD): Designing Systems for a Non-Human User",
+      "url": "https://di-zhang-llm.github.io/blog/agent-experience-first-design-axfd-designing-systems-for-a-non-human-user/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "AXFD principles: contract-first APIs, typed failures with retryable hints and partial results, idempotent re-entrant operations, checkpoints, observability."
+    },
+    {
+      "title": "Machine Experience (MX): Designing For AI Agents In 2026",
+      "url": "https://inkbotdesign.com/machine-experience/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Agentic UX by intent: informational (extractable facts), navigational (site maps), commercial (comparison tables), transactional (agent-ready forms)."
+    },
+    {
+      "title": "Agentic UX: Designing Interfaces for AI Agents, Not Humans",
+      "url": "https://standardbeagle.com/agentic-ux-designing-interfaces-for-agents/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Invisible UX: schemas and APIs as the interface, label consistency as usability, agent-decision traceability."
+    },
+    {
+      "title": "Design Systems for AI Agents",
+      "url": "https://www.headway.io/blog/design-systems-for-ai-agents",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Agent-ready design systems: machine-readable tokens, documented component APIs, design-to-code parity."
+    },
+    {
+      "title": "Building Bulletproof RTL Design Systems",
+      "url": "https://design-code.tips/blog/2025-10-31-building-bulletproof-rtl-design-systems-the-complete-guide-to-bidirectional-excellence/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "Bidirectional design systems: mirror-vs-not-mirror checklist, logical properties, component-by-component RTL breakdown."
+    },
+    {
+      "title": "RTL Is Not a Mirror Toggle: A Practical Checklist for Multilingual Web Tools",
+      "url": "http://dev.to/korelyy/rtl-is-not-a-mirror-toggle-a-practical-checklist-for-multilingual-web-tools-209d",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-23",
+      "notes": "RTL checklist: logical CSS properties, mirror navigation not meaning, progress and carousel direction behavior."
     }
   ]
 }

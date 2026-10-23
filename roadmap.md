@@ -51,36 +51,54 @@ defined without an example; gap = named but not yet defined.
 | Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
 | Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, file upload, chat and messaging, map comparison, list navigation, stepper, landing, authentication, settings, commerce | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
+| Worked examples | Dashboard, mobile navigation, onboarding — each demonstrating the rules it documents with all seven states | — | — |
+| Localization | Right-to-left mirroring rules, what-not-to-mirror list, logical properties, text-expansion budgets, locale-aware date/number/currency formatting and sorting, mixed-direction text | — | — |
 
 ## Improvement actions
 
-1. Add internationalization rules to `catalog/primitives.md`:
-   right-to-left mirroring, text-expansion budgets, locale-aware
-   date/number/currency formatting, and locale-aware sorting. Done
-   when the new section passes all quality gates.
-2. Add a third worked example (`examples/onboarding/`): the onboarding
-   layout's step sequence, skip-and-return, and compact-screen rules
-   demonstrated with all seven states. Done when the example builds
-   and passes all quality gates.
-3. Deepen `trends/2026/machine-experience.md` (the thinnest trend file
-   after this review's modular-card-grids work): structured-data
-   summaries for agent readers, explicit task affordances, consent
-   signals for automated access, and human-first ordering guarantees.
-   Done when the expanded file passes all quality gates.
-4. Add a media-controls primitive row to `catalog/primitives.md`: the
+1. Add a media-controls primitive row to `catalog/primitives.md`: the
    expected control set (play/pause, seek, volume, captions, speed,
    settings), placement conventions, feedback confirming every control
    responds, full keyboard operation with named controls, captions
    always available, and no auto-playing sound. Done when the row
    passes all quality gates.
-5. Extend the chat and messaging pattern row in `catalog/patterns.md`
+2. Extend the chat and messaging pattern row in `catalog/patterns.md`
    with group-conversation rules: per-participant read indicators,
    reply threading, presence states, and mention handling —
    cross-checked against `trends/2026/conversational-interfaces.md`.
    Done when the extended row passes all quality gates.
+3. Add a consent pattern row to `catalog/patterns.md`: granular consent
+   toggles, just-in-time disclosure at the point of need, never
+   pre-checked, revocable without friction, and an audit trail of
+   consent decisions — cross-checked against the consent signals in
+   `trends/2026/machine-experience.md`. Done when the row passes all
+   quality gates.
+4. Deepen `trends/2026/dark-mode.md` with a contrast-verification
+   routine: test every text/background pair against both the light and
+   dark token sets, define forced-colours-mode behaviour, and set rules
+   for text over photographic backgrounds. Done when the extended file
+   passes all quality gates.
+5. Add a haptic-feedback primitive row to `catalog/primitives.md`:
+   confirm versus alert versus error intensities, haptics never the
+   only signal, a user control to disable them, and no haptic loops.
+   Done when the row passes all quality gates.
 
 ## Review notes
 
+- Completed this review: new internationalization section in
+  `catalog/primitives.md` (mirroring rules with a never-mirror list,
+  logical properties, directional-icon rules, ~40%/~30% text-expansion
+  budgets, locale-aware date/number/currency formatting and sorting,
+  bidirectional text, direction testing); deepened
+  `trends/2026/machine-experience.md` (structured-data summaries for
+  agent readers, explicit task affordances, typed errors with
+  retryable/hint/partial-result fields, consent signals with human
+  confirmation for high-risk actions, human-first ordering, idempotent
+  operations, release checklist); new third worked example
+  `examples/onboarding/` (stated step total, skip-and-return with a
+  resume panel, sticky thumb-reach action bar, all seven states
+  demonstrated); 8 new source records (190 total). Completes roadmap
+  actions 1, 2, and 3.
 - Completed this review: new `layouts/automotive.md` (two-second
   glance budget, 12-second task budget, one question per glance, stable
   information positions, 0.25 s input response, 76x76 dp targets,
@@ -165,9 +183,9 @@ defined without an example; gap = named but not yet defined.
   percentage-based round-display margins, and a separate ambient variant.
 - Most duplicated area: none remaining; the duplicate-paragraph warning
   is cleared.
-- Least covered area: internationalization rules (no coverage), a third
-  worked example (only two exist), and the machine-experience trend
-  file (thinnest file); now actions 1, 2, and 3.
+- Least covered area: media-controls primitive (no row yet), group-conversation
+  rules in the chat pattern, and a consent pattern row (all absent);
+  now actions 1, 2, and 3.
 - Completed this review: responsive data-table strategies in
   `layouts/dashboard.md` (four strategies with shared rules); new
   `layouts/onboarding.md` (success action, smart defaults, prefill,

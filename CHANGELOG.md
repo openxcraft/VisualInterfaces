@@ -7,6 +7,27 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Internationalization section in `catalog/primitives.md`: right-to-left
+  mirroring rules with a never-mirror list, directional-icon rules,
+  logical properties, text-expansion budgets, locale-aware
+  date/number/currency formatting and sorting, mixed-direction text,
+  and direction testing. Completes roadmap action 1. New source
+  records.
+
+- Third worked example `examples/onboarding/`: stated step total,
+  one task per step with a prefilled smart default, always-available
+  skip with a resume panel for skipped steps, sticky thumb-reach action
+  bar for compact screens, and all seven states demonstrated.
+  Completes roadmap action 2.
+
+- Machine-experience deepening in `trends/2026/machine-experience.md`:
+  structured-data summaries for agent readers, explicit task
+  affordances, typed errors carrying retryable/hint/partial-result
+  fields, consent signals with human confirmation for high-risk
+  actions, human-first ordering guarantees, idempotent operations, and
+  a machine-legibility release checklist. Completes roadmap action 3.
+  New source records.
+
 - Maz-UI listing in `resources/libraries.md`: a component set shipping logical
   direction by default (`start`/`end` instead of `left`/`right` for props,
   slots, and style hooks) so layouts mirror correctly under right-to-left
