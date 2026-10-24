@@ -19,6 +19,31 @@ When to avoid:
 
 A briefing panel stating the request, the constraints, and the allowed scope before any work starts; a live activity view showing the current step, the queued steps, and a pause control that stays reachable; a preview-before-commit gate for irreversible or externally visible actions; an activity log with undo for completed actions; visible markers for what the agent is unsure about; and a manual path to do every agent task by hand.
 
+## Step trace and tool output
+
+Show what the agent did as a structured list of steps — a step trace —
+rather than a wall of text or an open log:
+
+- One line per step, each with an icon, a short title, an optional
+  description, and a status. Every step looks and behaves the same.
+- Statuses: running, error, pending. While a step runs, show a shimmer;
+  never leave a running step silent.
+- Lines expand to show more detail: a summary line expands into its
+  sub-steps, and a step expands into its output.
+- A line can link to a page or open a dialog, sheet, drawer, or popover —
+  detail stays off-screen until asked for.
+- Keyboard and screen-reader support on every expandable line; the trace
+  is navigable, not decorative.
+
+For technical output — code, terminal output, logs, diffs — use a
+dedicated code block, never plain text:
+
+- A header with a title and actions, such as copy or wrap.
+- Line numbers, wrapping, diff styling, and highlighted lines, so a reader
+  can point at the exact lines that matter.
+- A small size when the block sits inside a step trace; full size only
+  when the output is the main content.
+
 ## Layout and responsive rules
 
 - Briefing and supervision live in one view; the person never hunts for the stop control.
@@ -95,6 +120,17 @@ Graduate autonomy with evidence, and report partial results honestly:
   finished, and what is queued, with the pause control always reachable.
 - Inline overrides let the person redirect mid-task — change a target or
   a constraint — without starting the run over.
+
+## Accessibility gate for generated interfaces
+
+When an agent produces interface markup, require a release-day accessibility pass before shipping. Generators optimise for visual density and fail accessibility in predictable ways: missing names, divs used as buttons, shrunken targets, and focus hidden under sticky layers.
+
+- Freeze the generated output first; do not keep regenerating while you measure.
+- Run an automated scan first (contrast, missing names, invalid roles), then a manual pass: a keyboard-only walk of every primary journey plus screen-reader spot checks on icon buttons and dialogs.
+- Apply the WCAG 2.2 additions as explicit checks: focus is never fully hidden by sticky or fixed layers, every drag gesture has a single-pointer alternative, icon buttons meet the 24 px target size, help is offered consistently, users are never asked to re-enter the same information, and authentication never depends on memory or transcription alone.
+- Prefer native elements over patched-up roles: replace clickable divs with buttons or links, give every icon button a real name, and treat every generated ARIA attribute as a claim to verify.
+- Record what the scanner cannot see as residual risk with an owner and a follow-up date; a clean scanner score is not proof of conformance.
+- Re-run the same checklist every time the interface is regenerated — accessibility debt in generated UI is a loop, not a one-time project.
 
 ## States
 

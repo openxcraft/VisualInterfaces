@@ -159,6 +159,64 @@ exists in one channel only.
 - When intent is uncertain, ask one focused clarification question rather
   than guessing.
 
+## Voice hybrid flows
+
+Voice initiates, another channel confirms. Voice is fast for starting a
+task and poor for verifying detail, so the flow splits the work: speak
+to begin, then confirm on a channel that shows the detail.
+
+- Voice-to-initiate with physical confirmation: for sensitive actions
+  such as payments, sending, or sharing, the spoken request prepares
+  the action and a tap or biometric confirmation completes it. The
+  confirmation surface shows the full detail — amount, recipient, and
+  effect — and the spoken request alone never completes the action.
+- Visual mishearing repair: when the screen is available, show what was
+  heard as editable text, with low-confidence words marked. Tapping a
+  marked word offers likely alternatives, and re-speaking replaces only
+  that part; never silently autocorrect a mishearing into a different
+  action.
+- Confirmation by stakes: low-stakes requests get an implicit echo in
+  the reply ("Setting a timer for ten minutes"); high-stakes requests
+  get an explicit confirmation naming the action and its effect before
+  anything happens.
+- Repair without a dead end: after a failed understanding, narrow the
+  choice instead of repeating the same question — offer two or three
+  options, or switch to typed or tapped input for the uncertain part.
+  After two failed attempts, offer the screen fallback or a handoff
+  rather than a third identical prompt.
+- Cross-check the voice state matrix in ../../catalog/states.md and the
+  voice-plus-screen pairing section above.
+
+## Voice command discovery
+
+Commands in a voice surface are invisible, so discovery has to happen
+in context, not in a tour or a help page nobody opens.
+
+- Suggested prompts on first use: show two or three example requests
+  that work on the current screen, as tappable chips that fill the
+  input rather than running at once, so the person can edit before
+  sending.
+- Example utterances for the current screen: the suggestions change
+  with the screen — on a list, offer filtering and sorting requests;
+  on a detail view, offer actions on that item. A suggestion that
+  cannot run here teaches the person not to trust the next one.
+- A browsable capability list: a "What can I say?" entry opens a
+  short, grouped list of capabilities in plain words, searchable by
+  typing, with one example utterance per capability. The list stays
+  reachable from any screen, not only from first use.
+- Teach inside replies: after a successful request, the reply may
+  name one follow-up the person can try next ("You can also ask for
+  the weekly summary"), never a catalogue of features.
+- Progressive introduction: introduce advanced capabilities only
+  after the basics are used, one at a time, and retire suggestions
+  the person already uses regularly.
+- Recovery as discovery: after a failed understanding, offer two or
+  three things that can be said here instead of repeating the same
+  question, and keep a typed or tapped path open for the uncertain
+  part.
+- Cross-check the voice-plus-screen pairing section above and the
+  voice state matrix in ../../catalog/states.md.
+
 ## States
 
 Canonical state definitions live in `../../catalog/states.md`. Notes specific to conversational interfaces:

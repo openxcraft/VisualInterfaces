@@ -79,6 +79,25 @@ fallbacks; high-contrast opaque alternatives to translucent panels.
   1.25–5 m: detailed frequent work near arm's length, general viewing at
   1–3 m, ambient information only beyond 3 m.
 
+## Spatial interaction ergonomics
+
+- Treat the eyes as the targeting cursor: gaze aims, and a micro-gesture
+  such as a thumb-and-index pinch with the hands resting in the lap
+  commits. Eye movements are rapid and erratic, so every interactive
+  target answers gaze instantly with a clear hover state that confirms
+  intent before any gesture is executed — never let a gesture fire on a
+  target the person has not visibly focused.
+- Design for sustained comfort: never require prolonged raised-arm
+  interaction — the primary gesture stays small and lap-level, and
+  extended sessions fatigue the arms, neck, and eyes. Size targets to
+  tolerate natural eye drift (larger than the equivalent 2D control),
+  and keep separation between adjacent controls so rapid gaze
+  scanning does not misfire.
+- Anchor feedback in space: use positional audio to confirm actions and
+  to redirect attention toward events outside the central field of view,
+  since the person may not be looking at the change when it happens.
+  Audio is a redirect, not the message — pair it with a visible cue.
+
 ## Spatial page patterns
 
 Multi-window spatial workspaces need an explicit panel contract.

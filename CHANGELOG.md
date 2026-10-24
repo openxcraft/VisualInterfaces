@@ -7,6 +7,158 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Watch layout: staged disclosure for sensitive notifications in
+  `layouts/watch.md` — a generic alert first, with the detail revealed
+  only after a deliberate action such as a tap; a wrist raise alone
+  never reveals sensitive detail, and the ambient, always-on variant
+  never shows it either. New source record (220 total).
+
+- Patterns catalogue: new Sync-conflict resolution row in
+  `catalog/patterns.md` — side-by-side versions with differing fields
+  highlighted, field-by-field merge with a merged preview as the exact
+  result to be saved, sensitive fields always asking, deletion-versus-
+  edit treated as a conflict, and the local copy kept safe until
+  resolved. Completes roadmap action 7. New source record
+  (219 total): offline-first conflict resolution guidance.
+
+- Primitives catalogue: new Multimodal input-bar row in
+  `catalog/primitives.md` — one bar for text, voice, and media entry,
+  a hint naming all three modes, waveform while listening, editable
+  transcript before sending, thumbnails with remove and zoom, named
+  processing steps, and keyboard and screen-reader parity for every
+  mode. Completes roadmap action 5. New source record (219 total):
+  multimodal input user-experience guidance.
+
+- "Voice command discovery" section in
+  `trends/2026/conversational-interfaces.md` — suggested prompts on
+  first use as editable chips, screen-specific example utterances, a
+  browsable and searchable capability list, teaching inside replies,
+  progressive introduction, and recovery suggestions after a failed
+  understanding. Completes roadmap action 8. New source record
+  (219 total): voice interface discoverability guidance.
+
+- Roadmap: three new improvement actions (collaborative editing
+  presence, draft autosave and recovery, notification digest) and a
+  refreshed coverage matrix (sync-conflict resolution promoted to
+  full).
+
+- Watch layout: composable glance tiles and a persistent
+  live-activity anchor in `layouts/watch.md` — small fixed-size tiles
+  (for example 2×1 or 2×2) instead of one full-screen card per datum,
+  each tile keeping one datum and one action at full touch-target
+  size, and one ongoing-activity tracker anchored at the bottom of
+  the face layer and the top of the notification list. New source
+  record (216 total).
+
+- Patterns catalogue: new Agent checkpoint row in
+  `catalog/patterns.md` — the delegate–monitor–approve–interrupt–
+  refine loop, checkpoints that pause execution before irreversible
+  actions, approval cards showing the exact payload (recipient,
+  change, amount, tool) with approve, edit, or reject decisions, a
+  stated autonomy budget for low-stakes reversible actions, recovery
+  from a plausible but wrong route, and a decision record.
+  Completes roadmap action 1. New source records (215 total):
+  human-in-the-loop approval patterns and checkpoint placements.
+
+- "Voice hybrid flows" section in
+  `trends/2026/conversational-interfaces.md` — voice-to-initiate
+  with physical (tap or biometric) confirmation for sensitive
+  actions, visual mishearing repair showing what was heard with
+  tappable correction of low-confidence words, confirmation graded
+  by stakes, and screen fallback after repeated failures.
+  Completes roadmap action 2.
+
+- Container-query responsiveness guidance in `layouts/desktop.md` —
+  components adapt to their container's size rather than only the
+  viewport, with named containers, verification in full-page,
+  sidebar, modal, and dense-dashboard grid contexts, and the size-
+  containment caveat. Completes roadmap action 3.
+
+- Primitives catalogue: new "Kinetic type" row in `catalog/primitives.md`
+  — text animated through variable-font axes or motion driven by scroll,
+  interaction, or state; motion as punctuation for headlines and moments
+  only, static-first design with reduced-motion fallback, whole-word
+  screen-reader announcements, transform-and-opacity-only animation, and
+  a pause or stop control on any looping motion. New source record
+  (210 total).
+
+- Patterns catalogue: new machine-composed content disclosure pattern row
+  in `catalog/patterns.md` — every system-composed block labelled as
+  composed, uncertainty and grounding stated plainly, a visible correction
+  path and override control, and an explicit approval step for composed
+  decisions with effects outside the screen; cross-checked against the
+  trust patterns in `trends/2026/agentic-ux.md` and the disclosure rules
+  in `trends/2026/conversational-interfaces.md`. Completes roadmap
+  action 4 (added this run). 6 new source records (209 total): agent
+  checkpoint design, agentic human-in-the-loop controls, multimodal input
+  feedback, voice surface modes, and two late-October 2026 trend roundups.
+
+- "Step trace and tool output" section in `trends/2026/agentic-ux.md`:
+  a structured step list for agent runs — one line per step with icon,
+  title, optional description, and status; running/error/pending statuses
+  with a shimmer while a step runs; expandable and nested lines; links or
+  dialog/sheet/drawer/popover detail on demand; keyboard and screen-reader
+  support on every expandable line — plus a dedicated code block for
+  technical output with a titled action header, line numbers, wrapping,
+  diff styling, highlighted lines, and a small size inside traces. No new
+  source record (source already recorded 2026-10-21).
+
+- "Accessibility gate for generated interfaces" section in
+  `trends/2026/agentic-ux.md`: a release-day accessibility pass for
+  agent-rendered markup — freeze before measuring, automated scan first
+  then keyboard-only and screen-reader manual checks, explicit WCAG 2.2
+  checks (focus never hidden by sticky layers, single-pointer drag
+  alternatives, 24 px targets, consistent help, no redundant entry,
+  memory-free authentication), native elements over patched-up roles,
+  recorded residual risk with an owner, and re-run on every regeneration.
+  New source record (203 total).
+
+- Media controls and Haptic feedback primitive rows in
+  `catalog/primitives.md`: the transport control set in one reading
+  order with 100 ms response confirmation, full keyboard operation,
+  captions always available, no auto-playing sound, volume memory that
+  never reopens at full; confirm/alert/error haptic intensities always
+  paired with a visual or spoken signal, a clear user disable, reduced-
+  motion honouring, no loops. Completes roadmap actions 1 and 5. New source
+  records.
+
+- Group-conversation rules in the chat and messaging pattern row of
+  `catalog/patterns.md`: per-participant read indicators marking each
+  person's latest read message in place, collapsible reply threading,
+  honest presence states, mentions that notify only the named people
+  with name suggestion after the trigger — cross-checked against
+  `trends/2026/conversational-interfaces.md`. Completes roadmap
+  action 2.
+
+- Granular consent pattern row in `catalog/patterns.md`: per-category
+  toggles never pre-checked with one-sentence consequences,
+  just-in-time disclosure naming the specific purpose, frictionless
+  revocation with immediate effect, an audit trail of decisions —
+  cross-checked against the consent signals in
+  `trends/2026/machine-experience.md`. Completes roadmap action 3.
+  New source records.
+
+- Contrast-verification routine in `trends/2026/dark-mode.md`: test
+  every text/background pair against both token sets, verify muted and
+  disabled text at its used size, define forced-colours-mode behaviour
+  with opaque fallbacks for elevation steps, place text over
+  photography on scrims tested against worst-case brightness, and
+  re-check whenever a new surface or accent is added. Completes
+  roadmap action 4.
+
+- Research-driven additions from the deep review: Ask/Infer/Defer/
+  Confirm form-collection rules and the low-risk-only boundary for
+  smart defaults in the Form flow row of `catalog/patterns.md`;
+  unknown-outcome error group, restricted-message and failure-copy
+  rules in `catalog/states.md` (verify-before-retry, never reuse the
+  zero-item message for a load failure, restricted messages never
+  imply a workaround); September 2026 WCAG 3.0 draft structure in
+  `trends/2026/standards-outlook.md` (one conformance level, six
+  reporting tiers, four impact tags); spatial interaction ergonomics
+  in `trends/2026/spatial-interfaces.md` (gaze targeting with
+  intent-confirming hover, lap-level micro-gestures, positional audio
+  anchors). 8 new source records (202 total).
+
 - Material-meaning rule in `catalog/primitives.md`: material qualities must
   carry meaning rather than decorate — a reflective surface suggests
   importance, a soft surface approachability, a firm high-contrast control

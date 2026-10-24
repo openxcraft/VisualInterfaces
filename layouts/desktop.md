@@ -64,6 +64,20 @@ reference reachable in the product.
   layouts — collapse toolbars into overflow, switch multi-pane views
   to single-pane with back navigation, and keep primary actions
   visible.
+- Container-query responsiveness: components adapt to the size of
+  their container, not only to the viewport, so the same component
+  works in a full page, a sidebar, a modal, and a dense dashboard
+  grid. Declare the container on the parent (inline-size containment
+  for width-driven layout, named where several containers nest), then
+  query that container for the component's breakpoints. Verify every
+  reusable component in all four contexts — full page, sidebar, modal,
+  and dense grid — because a component tuned only to the viewport
+  breaks the moment it lands in a narrow panel. Keep viewport queries
+  for page-level bands and container queries for component behaviour;
+  remember that size containment needs a contextual or explicit size
+  from the parent, or the container collapses. Use container-relative
+  units sparingly, for fluid type and spacing inside the component,
+  never to smuggle a viewport breakpoint back in.
 
 ## States
 

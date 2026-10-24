@@ -48,6 +48,28 @@ shadows; a theme switch with system default and user override.
   differs between OLED, LCD, and e-ink, especially for elevation steps
   and near-black text.
 
+## Contrast-verification routine
+
+Run this routine before any theme ships or changes:
+
+- Test every text/background pair against both token sets: a pair that
+  passes on one theme often fails on the other, and muted or disabled
+  text is the most common dark-theme failure.
+- Verify disabled and secondary text at the size it is used; a token
+  value that reads fine at 16 px body can fail at 12 px caption size.
+- Define forced-colours-mode behaviour: the theme must survive the
+  operating-system high-contrast palette. Boundaries drawn with border
+  or elevation tones need explicit forced-colour adaptations, and the
+  elevation-by-lightness steps degrade to borders or outlines where
+  colour is removed.
+- Text over photography: place text on a scrim or a translucent panel
+  rather than trusting the image; test the worst-case image brightness,
+  not the curated hero shot. Where text must sit directly on imagery,
+  choose the colour by sampling the actual background under each text
+  run.
+- Recheck the routine whenever a new surface, accent, or elevation
+  step is added to either theme; contrast debt accumulates silently.
+
 ## States
 
 Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
@@ -67,4 +89,5 @@ Every element and page in this group defines all seven states. Missing states ar
 The canonical publishing checklist lives in `../../CONTRIBUTING.md`; the checks below are specific to this file.
 
 - [ ] Token contract, elevation, and type-adjustment rules are present.
+- [ ] The contrast-verification routine covers both token sets, forced-colours mode, and text over imagery.
 - [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

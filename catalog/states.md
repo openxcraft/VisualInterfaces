@@ -100,6 +100,7 @@ failure's cause.
 - Rate-limited or overloaded: show the wait, count it down, and retry
   automatically.
 - Server error: retry once, then show a reference identifier.
+- Unknown outcome: the request timed out and the result is unconfirmed — treat it as unknown, not failed. Preserve all entered values, verify whether the action already succeeded before enabling retry, and show a distinct checking status ("checking whether your save went through") so a retry can never create a duplicate.
 - Offline or timeout: keep the action visibly queued, say it will be sent
   when the connection returns, and never present it as saved until the
   save is confirmed.
@@ -151,7 +152,9 @@ status alongside the items.
 - Restricted or failed. Content exists but cannot be shown, or loading
   failed. Goal: explain and recover. Name the cause honestly and give the
   matching next step: a permission request for restricted content, a retry
-  for a failure. Never show a blank area that reads as broken.
+  for a failure. Never show a blank area that reads as broken. A
+  restricted message never implies a workaround where none exists — a
+  retry or a request path that can never succeed reads as broken too.
 - Pre-populated. The area is technically empty, but available context
   suggests what the user is likely to want. Goal: offer a starting point
   instead of a blank screen. Show suggestions as suggestions — visually
@@ -167,6 +170,10 @@ Rules:
 
 - One short sentence of explanation, then one clear action; a second link
   (help, settings) is allowed but never a second action of equal weight.
+- A load failure never reuses the genuinely-empty message: "nothing
+  here" and "nothing loaded" are different states with different words,
+  and the failure message names the failure. The same visual treatment
+  must not appear in both cases, since the person cannot tell them apart.
 - Keep the visual treatment calm: no error styling for first-use or
   natural empty states; error styling only for failures.
 - Keep layout dimensions stable so the populated view does not shift.

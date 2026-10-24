@@ -432,7 +432,7 @@
       "category": "trends",
       "type": "reading-list",
       "accessed": "2026-10-22",
-      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered \u2014 content revealed by scroll position must remain available to them rather than gated behind scroll alone."
     },
     {
       "title": "Design Trends That Will Influence Extensions in 2026",
@@ -440,7 +440,7 @@
       "category": "interfaces",
       "type": "article",
       "accessed": "2026-10-22",
-      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay \u2014 a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
     },
     {
       "title": "Validation gate for generated interface trees",
@@ -1448,7 +1448,7 @@
       "category": "states",
       "type": "article",
       "accessed": "2026-10-23",
-      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
+      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters \u2014 corroborates pre-populated suggestion states that disclose their nature."
     },
     {
       "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
@@ -1553,6 +1553,214 @@
       "type": "article",
       "accessed": "2026-10-24",
       "notes": "Design-direction review: simulated materials (soft, metallic, transparent, reflective) should support meaning rather than decorate; depth should communicate hierarchy with restraint instead of floating everything; motion should explain relationships between states while staying accessible; surface treatment should adapt to product context rather than apply as a universal filter."
+    },
+    {
+      "title": "WCAG 3.0 September 2026 draft: one conformance level, six tiers",
+      "url": "https://digitalmatters.me/web-design/wcag-3-september-2026-draft/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "September 2026 WCAG 3.0 working draft replaces A/AA/AAA with one conformance level (all core requirements) plus six reporting tiers (Avoid physical harm, Foundational access, Conformance, Bronze, Silver, Gold) and four impact tags (physical harm, risk, barrier, friction); still a draft, 2.2 AA remains the practical target."
+    },
+    {
+      "title": "Spatial computing UI/UX ergonomics for visionOS in 2026",
+      "url": "http://techandaiurdu.blogspot.com/2026/09/spatial-computing-ui-ux-2026.html",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "VisionOS spatial design ergonomics: eyes as targeting cursor with gaze-hover intent confirmation before gestures, lap-level thumb-index pinch as primary input, positional audio anchors for feedback and attention redirection, no stacked translucent panels, 60x60 pt minimum targets."
+    },
+    {
+      "title": "SaaS form design without friction",
+      "url": "https://medium.com/@orbix.studiollc/designing-saas-forms-that-users-can-finish-without-friction-03b764c54c2e",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Form collection framework: ask, infer, defer, or confirm per field; smart defaults only for low-risk choices; unknown-outcome recovery treats timeouts as unknown rather than failed, verifying before retry so duplicates cannot be created."
+    },
+    {
+      "title": "Agent checkpoints, memory, provenance, and spatial widgets",
+      "url": "https://dev.to/zdeb_fouc_f95089367652fc5/from-agent-checkpoints-to-spatial-widgets-five-uiux-patterns-that-look-poised-to-define-2026-m3i",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Emerging pattern set: visible checkpoints in multi-step automated flows (delegate, monitor, approve, interrupt, refine), memory as an inspectable and resettable primitive, provenance answers at a glance on synthetic or third-party media."
+    },
+    {
+      "title": "Bottom-sheet mobile menus in thumb reach",
+      "url": "https://www.pravinkumar.co/blog/webflow-mobile-menu-bottom-sheet-design-2026",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Mobile menus opening from the bottom edge place every item in the one-handed thumb zone; a 2026 survey cited bottom sheets in 71% of top-100 mobile apps for primary navigation, up from 28% in 2022. Statistic from search summary; verify before citing numerically."
+    },
+    {
+      "title": "Replacing onboarding tours with contextual help",
+      "url": "https://www.setproduct.com/blog/how-to-replace-onboarding-with-contextual-help",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Three-level help ladder: passive help passing a five-second test, gentle nudges on first meaningful interaction, rescue help only after repeated friction; replaces blocking tours with escalating guidance. From search summary; verify before quoting the five-second test wording."
+    },
+    {
+      "title": "Container-query responsiveness in 2026 frontend trends",
+      "url": "https://hiq.se/en/insight/frontend-trends-and-design-patterns-to-watch-in-2026/",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Components should adapt to their container size rather than only the viewport: the same component must reflow correctly in a full page, sidebar, modal, or dense dashboard grid."
+    },
+    {
+      "title": "Voice interaction patterns for hybrid voice and touch flows",
+      "url": "https://sinisazec.com/articles/voice-ai-ux-patterns-graphic-designers/",
+      "category": "interfaces",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Voice mishearing repair as a visual safety net: show what was heard and offer tappable correction instead of a dead-end 'not understood' message."
+    },
+    {
+      "title": "WCAG 2.2 checklist for machine-generated interfaces",
+      "url": "https://a11yguard.lxsaihub.com/blog/wcag-22-ai-generated-ui-checklist-2026.html",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Release-day accessibility pass for agent-rendered UI: automated scan first, keyboard-only manual pass second; WCAG 2.2 checks (focus not obscured, dragging alternatives, 24 px targets, consistent help, redundant entry, accessible authentication); residual-risk recording; re-run on every regeneration."
+    },
+    {
+      "title": "Designing human-in-the-loop checkpoints for agent interfaces",
+      "url": "https://aiuxplayground.com/guides/how-to-design-human-in-the-loop",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Checkpoint design for agent products: gate before the run for standing tool access, gate after the draft for one-off actions with a clear preview; approval cards must show the payload (recipient, diff, amount, tool); pair checkpoints with autonomy budgets; skip checkpoints on low-stakes reversible actions."
+    },
+    {
+      "title": "Agentic design patterns: human-in-the-loop controls",
+      "url": "https://www.testmuai.com/blog/agentic-design-patterns/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Human-in-the-loop as a deliberate design choice: checkpoints pause execution, surface reasoning and the proposed action, and wait for confirmation; checkpoint tiers (pre-production gate, ambiguous findings, security-sensitive scope); risk-based escalation for where review belongs."
+    },
+    {
+      "title": "Multimodal input area and feedback design",
+      "url": "https://blog.flipr.ai/multimodal-ai-ux-designing-products-that-understand-text-voice-and-vision-together/",
+      "category": "interfaces",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Multimodal input area: text box, mic button, and camera/upload entry with a mode hint; waveform while listening, thumbnails for attachments, processing states; the system echoes what it understood so mishearing is correctable; vision results show what was detected with correction options."
+    },
+    {
+      "title": "Voice agent interaction patterns: surface modes and input mechanisms",
+      "url": "https://uxdesign.cc/8-voice-aiux-patterns-81324c8feaa0?gi=00e8a88a88c3&source=rss----138adf9c44c---4",
+      "category": "interfaces",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Voice agent perceived role: full-screen voice mode versus inline voice inside the thread; push-to-talk versus voice-activity-detection trade-offs; complex output such as code, tables, and artefacts cannot be spoken and must route back to the text surface."
+    },
+    {
+      "title": "UX design trends 2026-2027: act-now table",
+      "url": "https://glow.team/blog/future-trends-in-ux-design",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "2026-2027 trend table with act-now versus can-wait guidance: agentic UX, generative and adaptive UI, multimodal interfaces, transparency patterns, accessibility baseline, privacy-aware personalization; the through-line is design work shifting toward trust, control, and clarity."
+    },
+    {
+      "title": "UI/UX design trends 2026: calm, adaptive, token-based",
+      "url": "https://ccbd.dev/blog/latest-ui-ux-design-trends",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "2026 trend guide: adaptive interfaces, accessibility as infrastructure, calm design, purposeful motion, token-based design systems; interfaces that respect user attention rather than compete for it."
+    },
+    {
+      "title": "Kinetic typography without overwhelming users",
+      "url": "https://websolutionmaster.com/blog/kinetic-typography",
+      "category": "primitives",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Kinetic type guidance: motion as punctuation not prose, static-first design with reduced-motion fallback, whole-word screen-reader announcements, compositor-friendly properties, user control over looping motion; published 2026-10-01."
+    },
+    {
+      "title": "Human-in-the-loop approval for agent systems",
+      "url": "https://permissionprotocol.com/blog/human-in-the-loop-approval-for-ai-agents",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Approval pattern: one enforcement point for consequential actions, per-action decisions (cleared, approval-required, denied), a named approver, and a receipt recorded before the action runs; a changed amount or recipient needs a new decision."
+    },
+    {
+      "title": "Human-in-the-loop placements in agent execution",
+      "url": "https://www.agenticprotocols.dev/article-interaction-patterns-hitl.html",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Four placements: approval gates for irreversible actions, escalation on low confidence or failure, steering pauses for guidance, and outcome review before release; interruptibility requires persistent checkpoints so a paused run resumes from saved state."
+    },
+    {
+      "title": "Human-in-the-loop approval workflows",
+      "url": "https://www.permit.io/blog/human-in-the-loop-for-ai-agents-best-practices-frameworks-use-cases-and-demo",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Control loop: agent proposes an action, pauses, routes to a human approver, and resumes only on approval; approve, edit, and reject decision types with per-action review configuration."
+    },
+    {
+      "title": "Voice interface design principles",
+      "url": "https://www.bighuman.com/blog/voice-user-interface-design",
+      "category": "interfaces",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Voice principles: design for natural phrasing, keep responses short with the key point first, confirm what was heard (implicit for low stakes, explicit for high stakes), and treat misrecognition recovery as a first-class flow with narrower choices rather than a repeated apology."
+    },
+    {
+      "title": "Using container size and style queries",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_size_and_style_queries",
+      "category": "layouts",
+      "type": "reference",
+      "accessed": "2026-10-24",
+      "notes": "Container queries: declare a containment context with container-type (size or inline-size), query the nearest container with @container, size features include width, height, inline-size, block-size, aspect-ratio, and orientation; containment is required to avoid layout loops."
+    },
+    {
+      "title": "Watch platform widget and live-activity update",
+      "url": "https://www.iphoneincanada.ca/2026/06/16/google-rewrites-smartwatch-design-rules-with-wear-os-7/",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Watch platform shift from full-screen cards to composable small tiles (2x1 or 2x2) for glanceable data, plus a persistent live-activity tracker anchored at the bottom of the watch face and the top of the notification tray."
+    },
+    {
+      "title": "Multimodal input user experience guidance",
+      "url": "https://docs.Flutter.dev/ai/ai-toolkit/user-experience",
+      "category": "primitives",
+      "type": "documentation",
+      "accessed": "2026-10-24",
+      "notes": "Voice entry lands as editable text before sending; media attachments appear as removable thumbnails; switching input modes keeps the composed message."
+    },
+    {
+      "title": "Offline-first form conflict resolution",
+      "url": "https://appmaster.io/blog/offline-first-form-conflict-resolution",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Send only changed fields with an expected version; auto-merge fields changed on one side only, ask the person when both sides changed the same field; keep saved-local and synced as separate states."
+    },
+    {
+      "title": "Voice interface design best practices including command discoverability",
+      "url": "https://increativeweb.com/blog/voice-user-interface-design-best-practices",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Commands are invisible, so discovery needs contextual suggestions, examples inside replies, and progressive introduction of advanced commands rather than a single tour."
+    },
+    {
+      "title": "Smartwatch interface design: glanceable surfaces and staged disclosure",
+      "url": "https://screenroot.com/blog/smartwatch-ui-design/",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-24",
+      "notes": "Glanceable watch surfaces: one datum and one action per screen, dark always-on variants for battery, and sensitive notifications shown as a generic alert first with detail revealed only after a deliberate gesture."
     }
   ]
 }

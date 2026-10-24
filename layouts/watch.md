@@ -49,8 +49,27 @@ actions so the person need not look at the screen.
   memorisation.
 - Confirm actions with haptic feedback first, so confirmation arrives
   without needing to look.
+- Staged disclosure for sensitive notifications: a notification about
+  sensitive content first shows only a generic alert — the kind of
+  event, without the content itself — and reveals the detail only
+  after a deliberate action, such as a tap on the alert. A wrist raise
+  alone never reveals sensitive detail, and the ambient, always-on
+  variant never shows it either. The generic alert still carries
+  enough context to decide whether to reveal, dismiss, or move the
+  task to the phone companion app.
 - Prefer dark interfaces with minimal background work to protect battery
   life.
+- Composable glance tiles: a watch face layer may combine small
+  fixed-size tiles (for example 2×1 or 2×2) instead of one full-screen
+  card per datum; each tile still carries one datum and one action,
+  touch targets stay at the 38–48dp minimum, and tiles never shrink
+  below legibility just to fit more data on the layer.
+- Persistent live-activity anchor: an ongoing activity (a timer, a
+  route, a workout, a delivery) keeps one persistent tracker anchored
+  in a single place — at the bottom of the face layer and at the top
+  of the notification list — so the person can return to it without
+  hunting; the anchor shows current status and progress only, detail
+  opens on tap, and it clears when the activity ends.
 
 ## States
 
