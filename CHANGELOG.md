@@ -7,6 +7,13 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Material-meaning rule in `catalog/primitives.md`: material qualities must
+  carry meaning rather than decorate — a reflective surface suggests
+  importance, a soft surface approachability, a firm high-contrast control
+  stability or authority; affordances stay legible so users can tell what
+  they can tap, drag, open, or change. Reflects an October 2026
+  design-direction review. New source record.
+
 - Payment-method selection rule in `layouts/ecommerce.md`: a tiled grid for
   four or fewer methods (each tile shows the method's mark and label at a
   glance), a vertical list once the count exceeds four — reflecting an

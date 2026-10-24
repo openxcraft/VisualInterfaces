@@ -59,6 +59,7 @@ When to avoid:
 - Focus ring is always visible on keyboard focus and never removed without a replacement.
 - Text scales to 200% without loss of content or function.
 - Colour is never the only signal; pair it with text, shape, or position.
+- Material qualities carry meaning, not decoration: a reflective surface suggests importance, a soft surface approachability, a firm high-contrast control stability or authority. Never apply material treatment without a purpose, and keep affordances legible — users must still tell what they can tap, drag, open, or change.
 
 ## Internationalization
 
