@@ -7,6 +7,33 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Payment-method selection rule in `layouts/ecommerce.md`: a tiled grid for
+  four or fewer methods (each tile shows the method's mark and label at a
+  glance), a vertical list once the count exceeds four — reflecting an
+  October 2026 platform-level rollout that switched payment layouts
+  automatically by method count. New source record.
+
+- Runtime-assembly decision rule in `trends/2026/machine-experience.md`:
+  when an interface is composed at runtime, design decisions must be
+  recorded as explicit machine-readable constraints (allowed
+  components, order, density, what may not change), because decisions
+  that are only implied collapse to the median default. New source
+  record.
+
+- Horizon note in `trends/2026/standards-outlook.md`: the W3C Design
+  Tokens Format Module (v2025.10) formalises token architecture into a
+  platform-agnostic JSON format; multi-year design-system foundations
+  should author tokens in that machine-readable form so automated
+  assembly and restyling tooling consumes one deterministic source and
+  cannot drift from the documented semantics, including accessibility
+  constraints. Source already recorded in `resources/sources.json`.
+
+- `resources/libraries.md`: GOV.UK Frontend listing — public-service
+  design system; new components ship under lifecycle statuses such as
+  "Trial" while usage guidance is gathered; current line v6.6.0
+  (October 2026) refines the character count component. New source
+  record.
+
 - Internationalization section in `catalog/primitives.md`: right-to-left
   mirroring rules with a never-mirror list, directional-icon rules,
   logical properties, text-expansion budgets, locale-aware

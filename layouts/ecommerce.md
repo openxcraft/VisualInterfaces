@@ -38,6 +38,10 @@ Category navigation; filter and sort controls; product grid with image area, nam
   the manual path.
 - The order summary persists across steps; payment failures get an explicit
   retry state that keeps the order intact.
+- Payment-method selection adapts to method count: a tiled grid for four or
+  fewer methods, where each tile shows the method's mark and label at a
+  glance; a vertical list once the count exceeds four, so longer method
+  lists stay easy to scan.
 
 ## States
 

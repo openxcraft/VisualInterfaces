@@ -38,6 +38,7 @@ Components that ship in shared libraries carry machine-readable intent metadata 
 - Human-first ordering: the human-readable presentation leads; structured data parallels it, never replaces it — nothing exists only for machines that would confuse people.
 - Idempotent operations: repeating the same task request is safe, so agents can retry without causing harm; replays of tool calls return the earlier result instead of duplicating the effect.
 - A machine-legibility checklist is applied before release: structured facts present, typed errors defined, consent steps confirmed, decisions traceable.
+- Runtime-assembled screens: when an interface is composed at runtime, record the design decisions as explicit machine-readable constraints — the allowed components, their order, density, and what may not change. Decisions that are only implied fall back to the median default, so intent must be written down where the assembler can read it.
 
 ## States
 

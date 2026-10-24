@@ -39,6 +39,7 @@ The current stable guidelines (2.x) as the build target; the draft 3.0 direction
   terminals, in letter. Test the assistive path with the people who
   need it, not only the software layer.
 - Avoid locking designs to criterion numbers that may be renumbered or replaced; name the underlying user need in the design record instead.
+- Treat design tokens as machine-readable infrastructure: the W3C Design Tokens Format Module (v2025.10) formalises token architecture — names, colour mathematics, and alias mapping — into a single platform-agnostic JSON format. Author the token set in that standard form so tooling consumes one deterministic source instead of CSS variables exported once per sprint; automated assembly and restyling then read the same aliases and values the design record documents, and cannot silently drift away from the accessibility constraints that travel with the tokens.
 
 ## States
 

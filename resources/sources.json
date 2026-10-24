@@ -1,1526 +1,1550 @@
 {
-  "version": "0.1.0",
-  "updated": "2026-10-23",
-  "sources": [
-    {
-      "title": "Design trends overview for 2026",
-      "url": "https://www.uxpin.com/studio/blog/ui-ux-design-trends/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Trend directions: conversational interfaces, adaptive personalisation, functional motion, spatial interfaces, design tokens, inclusive design."
-    },
-    {
-      "title": "Interface design trend roundup for 2026",
-      "url": "https://www.sanjaydey.com/ui-ux-design-trends-2026/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Trend directions: personalised interfaces, modular grid layouts, accessibility-first systems, voice and multimodal input, purposeful micro-interactions."
-    },
-    {
-      "title": "Frontend design patterns overview",
-      "url": "https://www.netguru.com/blog/frontend-design-patterns",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Component-driven structure, grid for page structure and flexible rows for components, container queries, fluid type, dark theme via variables."
-    },
-    {
-      "title": "Component library listing",
-      "url": "http://Resource.fyi/category/ui-libraries",
-      "category": "resources",
-      "type": "listing",
-      "accessed": "2026-10-21",
-      "notes": "Shortlist of free, maintained component libraries by use case."
-    },
-    {
-      "title": "Responsive landing page construction",
-      "url": "https://reintech.io/blog/creating-a-responsive-landing-page-with-css",
-      "category": "layouts",
-      "type": "tutorial",
-      "accessed": "2026-10-21",
-      "notes": "Fluid type with clamp, grid with auto-fit and minmax, mobile-first breakpoints."
-    },
-    {
-      "title": "Commerce landing page practices",
-      "url": "https://constructor.com/blog/ecommerce-landing-page-best-practices-with-examples",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Trust elements, clear calls to action, multiple product views, mobile-first layout."
-    },
-    {
-      "title": "October 2026 component release: step trace and code block",
-      "url": "https://ui.shadcn.com/docs/changelog/2026-10-ai-elements",
-      "category": "primitives",
-      "type": "release-notes",
-      "accessed": "2026-10-21",
-      "notes": "New primitives: a step-trace list for automated task runs (icon, title, description, status per line; running, error, pending states; expandable and nested lines) and a code block for code, terminal output, logs, and diffs (header with actions, line numbers, wrapping, highlighted lines)."
-    },
-    {
-      "title": "Overlay composition update: trigger wrappers, sheet positions, dialog parts",
-      "url": "https://intentui.com/blog/release-v4",
-      "category": "primitives",
-      "type": "release-notes",
-      "accessed": "2026-10-21",
-      "notes": "Overlay pattern: trigger wrapper manages the interaction, a control opens it, and the component renders the content. Sheets choose the opening edge by position; drawers and modals are unified under sheet and dialog with header, body, footer, and close parts."
-    },
-    {
-      "title": "Streaming interface rendering: 1.0 release notes and version analysis",
-      "url": "https://ibl.ai/blog/openui-lang-1-0-what-shipped-version-coupling",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Interface programs composed from registered components render progressively as they stream; the registered set controls what can appear; syntax instructions must match the client runtime version; cut-off streams render blank rather than a partial tree."
-    },
-    {
-      "title": "October 2026 release: drag-and-drop form builder component",
-      "url": "https://www.globenewswire.com/news-release/2026/10/07/3376560/0/en/syncfusion-releases-essential-studio-2026-volume-3.html",
-      "category": "primitives",
-      "type": "release-notes",
-      "accessed": "2026-10-21",
-      "notes": "New web component: a drag-and-drop form designer with more than 20 built-in form components, available across multiple web frameworks. Pattern: a field palette feeds a canvas; settings sit beside the selected field; a live preview precedes saving."
-    },
-    {
-      "title": "App UI kit changelog: October 2026 carousel focus and layering fixes",
-      "url": "https://www.canva.dev/docs/apps/app-ui-kit/changelog/",
-      "category": "states",
-      "type": "release-notes",
-      "accessed": "2026-10-21",
-      "notes": "A carousel scroll button returns focus to the pressed button after scrolling completes; paging never moves keyboard focus outside the carousel; styles use cascade layers where the browser supports them with a fallback otherwise."
-    },
-    {
-      "title": "October 2026 component release: Markdown content block",
-      "url": "https://www.stimulsoft.com/en/blog/news/stimulsoft-reports-and-dashboards-2026-4-is-now-available",
-      "category": "primitives",
-      "type": "release-notes",
-      "accessed": "2026-10-21",
-      "notes": "New reporting component for rendering Markdown content (headers, lists, tables, images, links, code blocks) with CommonMark 0.31.2 and GFM support; content is editable directly in the component editor."
-    },
-    {
-      "title": "October 2026 changelog: dual-style App UI blocks",
-      "url": "https://pro.reactbits.dev/changelog",
-      "category": "trends",
-      "type": "changelog",
-      "accessed": "2026-10-21",
-      "notes": "Component library update shipping its App UI block set in two complete styles: a precise monochrome default and a roomy, warm, tactile variant (larger controls and rows, raised tiles, inset fields). Styles switch from the theme panel; every block keeps the same layout, data, states, keyboard handling, and motion; blocks install per style with a suffixed name."
-    },
-    {
-      "title": "Web design trend roundup: modular tile layouts and accessibility guardrails",
-      "url": "https://www.netguru.com/blog/modern-web-design-trends",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Modular tile (bento) layouts and barely-there styling: failure modes include poor small-screen collapse and grid reordering breaking reading order for screen readers and keyboard focus; recommended fix is to write the markup in priority order and use named grid areas to rearrange tiles at breakpoints; thin lightweight text risks contrast failures."
-    },
-    {
-      "title": "Design-system motion specification",
-      "url": "https://cloudscape.design/foundation/visual-foundation/motion/",
-      "category": "trends",
-      "type": "documentation",
-      "accessed": "2026-10-21",
-      "notes": "Motion values: 115/165/250 ms durations, responsive/sticky/expressive easing curves, scale for incoming items, slide for structural moves, no flash beyond three per second, reduced-motion honoured, motion tokens for custom components."
-    },
-    {
-      "title": "Design-system release notes, October 2026",
-      "url": "https://designsystem.ontario.ca/docs/documentation/explore/release-notes.html",
-      "category": "primitives",
-      "type": "release-notes",
-      "accessed": "2026-10-21",
-      "notes": "New combobox guidance (design only), refreshed guidance for back button, back-to-top, in-page navigation, links, critical and page alerts, loading indicator, and search box; hotfix correcting broken global styles."
-    },
-    {
-      "title": "Skeleton component changelog v18.0.0",
-      "url": "https://developer.semrush.com/intergalactic/components/skeleton/skeleton-changelog",
-      "category": "states",
-      "type": "changelog",
-      "accessed": "2026-10-21",
-      "notes": "Breaking theme change (default/invert only); chart placeholders moved to masks with theme-dependent colours."
-    },
-    {
-      "title": "Standards-body design system update, September 2026",
-      "url": "https://www.w3.org/blog/2026/whats-new-in-the-w3c-design-system-september-2026/",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "CSS reset replaced, typography rebuilt around a new type scale, simplified space management, wrapper elements removed to simplify page markup."
-    },
-    {
-      "title": "Agent-to-UI interface playbook",
-      "url": "https://www.aisquadx.tech/blog/ai-agent-ux-design-playbook-2026",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Streaming-rendered interfaces in conversational surfaces; agent-mediated purchase pattern; reversibility-tiered approval gates (free/confirm/gate); calibrated confidence states with source citations."
-    },
-    {
-      "title": "Voice interface design guide, 2026",
-      "url": "https://fuselabcreative.com/voice-user-interface-design-guide-2026/",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Voice as a first-class control surface: one-breath steps with per-step confirmation, about three spoken options at a time, repair paths asking only for the missing piece, barge-in support, multimodal pairing of voice summary with screen detail."
-    },
-    {
-      "title": "Ecommerce checkout optimisation guide, 2026",
-      "url": "https://www.digitalapplied.com/blog/ecommerce-checkout-optimization-2026-ux-guide",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Checkout variants: one-page for low-cost impulse purchases, multi-step with total step count for high-cost purchases; running order total visible, instalment options under the total, guest and wallet-accelerated checkout, explicit payment-retry states."
-    },
-    {
-      "title": "Multi-surface app guide",
-      "url": "https://www.synergylabs.co/blog/beyond-the-screen-the-2026-guide-to-building-multi-surface-apps-for-mobile-and-spatial-computing",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Anticipatory design across surfaces: task continuity (start on watch, continue on phone, finish in spatial); navigation migrates bottom bar to side rail; components morph from terse to detailed; companion-app pattern for spatial sessions."
-    },
-    {
-      "title": "Foldable app UI considerations",
-      "url": "https://zignuts.com/blog/what-should-you-consider-for-developing-foldable-apps",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Canonical foldable layouts (list-detail, supporting pane, feed); design for postures (closed, half-open, fully open, tent); fold treated as a seam; warm transitions with exact scroll and focus restoration; critical elements kept away from the hinge."
-    },
-    {
-      "title": "Micro-interaction examples and skeleton screens",
-      "url": "https://enstacked.com/best-micro-interactions-examples/",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Skeleton screens replace spinners; stream long output progressively; name the steps of longer operations; optimistic updates with quiet revert on failure; inline validation on blur."
-    },
-    {
-      "title": "UI and UX trends shaping 2026",
-      "url": "https://www.orizon.co/blog/10-ui-ux-trends-that-will-shape-2026",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Post-dashboard narrative interfaces (synthesis, what-changed reports); adaptive interfaces reordering in real time; calm interfaces; ultra-contextual navigation that shrinks itself."
-    },
-    {
-      "title": "UI and UX design trends (slug reads 2025, content covers 2026)",
-      "url": "https://unicoconnect.com/blogs/ui-ux-design-trends-2025",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Conversational layer beside a conventional interface: route each request to words, to the right screen, or to both; the handoff is the design challenge."
-    },
-    {
-      "title": "Wearable app complete guide",
-      "url": "https://weelorum.com/wp-content/themes/weelorum-theme/assets/pdf/generated-web/Wearable-App-Complete-Guide.pdf",
-      "category": "interfaces",
-      "type": "guide",
-      "accessed": "2026-10-21",
-      "notes": "Glance layouts: 3-5 second interactions, single most important datum, no scrolling, rotational input as primary scroll, separate ambient and active display states."
-    },
-    {
-      "title": "SaaS onboarding UX patterns",
-      "url": "https://www.designstudiouiux.com/blog/saas-onboarding-ux/",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Onboarding mechanics: interactive checklists with progress indicators, contextual micro-learning, value-first signup, personalisation routing, per-area confirmations."
-    },
-    {
-      "title": "Mixing WebGL and the DOM in a modular UI library",
-      "url": "https://tympanus.net/codrops/2026/10/21/atelier-ui-webgl-dom/",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-21",
-      "notes": "Cursor-reactive media effects (ripple, pixel blocks, lens dispersion) layered over images and video on one shared full-page canvas; real element kept in the DOM at zero opacity for accessibility; per-element opt-out of global effects; per-frame remeasurement only while a transform moves the element."
-    },
-    {
-      "title": "Television interface design guide",
-      "url": "https://uxcel.com/glossary/smart-tv-design",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Focus as the centre of the TV model; shelves of posters as the primary navigation structure; spoken queries preferred over step-through on-screen keyboards; legibility at room distance."
-    },
-    {
-      "title": "Ten-foot user interface overview",
-      "url": "https://en.m.wikipedia.org/wiki/10-foot_user_interface",
-      "category": "layouts",
-      "type": "reference",
-      "accessed": "2026-10-22",
-      "notes": "Directional remote as primary input; grid arrangement so every item has a clear neighbour in each direction; larger type for distance; no pointer; viewing distance expressed in picture heights."
-    },
-    {
-      "title": "Lessons from streaming platform design practice",
-      "url": "https://www.mexc.com/hu-HU/news/lessons-in-tv-platform-design-from-a-streaming-industry-insider/76977",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Focus as the new tap; scaling-plus-colour focus indicators; simplified information architecture for remote navigation; complex flows handed to a second device via codes; ten-foot rule for type size."
-    },
-    {
-      "title": "Voice menu accessibility patterns",
-      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o6p04-voice-menus/",
-      "category": "trends",
-      "type": "reference",
-      "accessed": "2026-10-22",
-      "notes": "Tapered prompts that grow more explanatory on silence; adjustable timeouts and speech speed as user settings; error recovery that offers human help rather than a harder menu; plain jargon-free terms."
-    },
-    {
-      "title": "Voice interface design principles",
-      "url": "https://www.resourcifi.com/insights/voice-ui-design/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Short responses; consistent interruption handling; diagnosis-led error recovery; signifiers for discoverability; structured alternatives for comparison-heavy tasks; confirmation before irreversible tool actions."
-    },
-    {
-      "title": "Gesture-based UI design essentials",
-      "url": "https://www.numberanalytics.com/blog/gesture-based-ui-design-essentials",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Small consistent gesture sets with one meaning per gesture; thresholds against accidental activation; immediate recognition feedback; spatial metaphors matching expectations; easy undo of accidental gestures."
-    },
-    {
-      "title": "Accessible gesture interaction",
-      "url": "https://www.numberanalytics.com/blog/gesture-based-interaction-essentials-universal-design",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Simple learnable gestures; consistent feedback; error guidance and recovery; ergonomic comfort for repeated use; alternative input methods for essential tasks."
-    },
-    {
-      "title": "React component library release notes 2.14.0",
-      "url": "https://aiidelist.com/blog/what-is-kumo-ui-cloudflare-react-design-system",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "New component set: a control for entering and removing collections of free-form values; a compact copy control for identifiers and values in dense interfaces; a dialog with responsive behaviour including mobile drawer support and dismissal handling."
-    },
-    {
-      "title": "Empty-state design for usually-absent content",
-      "url": "https://dev.to/evanmercerdev/designing-the-empty-state-when-the-thing-users-want-usually-isnt-there-314a",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Three kinds of empty: nothing yet and expected, nothing because of a limit, nothing because of failure; each needs different wording and next step; model status explicitly instead of inferring from item count."
-    },
-    {
-      "title": "Strategic value of empty states",
-      "url": "https://medium.com/@junaidmaniyar/the-most-expensive-screen-you-arent-designing-the-strategic-power-of-empty-states-5d923c01a6ea",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Empty-state types: first-time experiences, natural empty states, search failures, system errors; messaging pivots on whether the user, the system, or the lack of data is responsible."
-    },
-    {
-      "title": "AI surface patterns: inline, agents, ambient",
-      "url": "https://www.forasoft.com/blog/article/ui-ux-2024-good-bad-ai-driven",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Three patterns beyond chatbots: inline AI as a verb on the existing surface, agents and copilots with human-in-the-loop confirmation, ambient OS-level assistance; voice affordances: live transcript, confidence state, obvious correction path."
-    },
-    {
-      "title": "Onboarding default-state pitfalls",
-      "url": "https://humbleteam-agency.medium.com/the-quickest-way-to-ruin-onboarding-wrong-default-state-558eed4ab37a",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Wrong defaults act as silent errors; detect device language, prefill region with a correction affordance, no default for sensitive fields, explain why a field is asked, progressive disclosure one question at a time."
-    },
-    {
-      "title": "Emerging web design trends for 2026",
-      "url": "http://bubble.io/blog/web-design-trends/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Emerging: machine-experience design - structure pages so automated agents read and complete tasks accurately; failure mode is markup order not matching visual order. Also notes barely-there UI restraint (single typeface, low-opacity hairlines, whitespace-based structure) and bento grids."
-    },
-    {
-      "url": "https://e2ip.com/wp-content/uploads/2024/03/Product-Guidelines-for-Embedded-Systems_E2IP-Technologies.pdf",
-      "title": "Embedded touchscreen HMI product guidelines",
-      "type": "guide",
-      "category": "layouts",
-      "accessed": "2026-10-22",
-      "notes": "Anti-reflection and anti-glare treatments preserve legibility in bright environments; anti-fingerprint coatings lower finger friction and ease cleaning; readability decisions start at the lens and glass layer, weighing cost against optical clarity."
-    },
-    {
-      "url": "https://support.onlogic.com/~gitbook/pdf?page=GnC6WtlUlHvoVUUfzvVv&only=yes&limit=100",
-      "title": "Touchscreen HMI best-practice guide",
-      "type": "guide",
-      "category": "layouts",
-      "accessed": "2026-10-22",
-      "notes": "Prefer single touch for consistency across heterogeneous screens; minimise movement-dependent controls such as swipes and sliders; do not use touchscreens for momentary jog controls since values can get stuck; avoid gesture navigation and on-screen keyboards on resistive screens."
-    },
-    {
-      "url": "https://dev.to/kevinzhang109/industrial-display-panels-a-practical-guide-for-modern-embedded-hmi-systems-1fff",
-      "title": "Industrial display panels: a practical guide for embedded HMI",
-      "type": "article",
-      "category": "layouts",
-      "accessed": "2026-10-22",
-      "notes": "Outdoor and high-ambient panels commonly need 800-1500+ nits, paired with reflection control; capacitive suits modern multi-touch, resistive suits gloves, stylus, and harsh conditions; common industrial panels run 7-10 in at 1024x600 to 1280x800."
-    },
-    {
-      "url": "https://www.goodtouchlight.com/how-to-choose-e-paper-eink-display-module.html",
-      "title": "E-paper display module selection guide",
-      "type": "article",
-      "category": "layouts",
-      "accessed": "2026-10-22",
-      "notes": "E-paper refreshes on the order of seconds with a visible full-refresh flash: unsuitable for video, moving cursors, or fast charts; partial refresh is a controller capability to specify early; readable in sunlight with no backlight; small panels suit single-value readouts, large panels documents and drawings."
-    },
-    {
-      "url": "https://cursa.app/en/page/touch-targets-gestures-and-interaction-feedback",
-      "title": "Touch targets, gestures and interaction feedback",
-      "type": "guide",
-      "category": "interfaces",
-      "accessed": "2026-10-22",
-      "notes": "Discoverability cues: drag handles, peeking adjacent pages, chevrons, one-time contextual coach marks, redundant visible controls; progressive disclosure reveals swipe actions as the swipe begins; direction locking once movement passes a small threshold (about 8 px separates tap from drag; about 24 px begins revealing actions)."
-    },
-    {
-      "url": "https://digitalaccessibilitytraining.org/ark/article/35",
-      "title": "Gestures and digital accessibility guidance",
-      "type": "guide",
-      "category": "interfaces",
-      "accessed": "2026-10-22",
-      "notes": "Functions operable by multipoint or path-based gestures must also be operable with a single pointer unless the gesture is essential; commit on the up-event and allow abort or undo; targets at least 44x44 CSS px; do not restrict content to a single input modality."
-    },
-    {
-      "url": "https://www.ux-bulletin.com/spatial-information-architecture/",
-      "title": "Spatial information architecture for AR and VR",
-      "type": "article",
-      "category": "interfaces",
-      "accessed": "2026-10-22",
-      "notes": "Three depth models: flat (one plane for dashboards), deep (nested rooms for guided focus), layered (near/mid/far for context plus detail); place primary actions closer for focal order via depth contrast; keep a home zone at body-centre height; use gaze rays with timeouts and audio beacons for off-screen targets."
-    },
-    {
-      "url": "https://www.interaction-design.org/literature/article/spatial-ui-design-tips-and-best-practices?srsltid=AfmBOoorQaLVR0uiZMBxTAEc_RTcQ_DMHC5uv2VfLezMrOmoGcN_tCMT",
-      "title": "Spatial UI design tips and best practices",
-      "type": "article",
-      "category": "interfaces",
-      "accessed": "2026-10-22",
-      "notes": "Content distance between about 1.25 m and 5 m: closer invades personal space and risks collisions, farther is hard to read; keep content in the central field of view and never fully obscure the environment; anchor animation and audio triggers to viewing distance."
-    },
-    {
-      "url": "https://www.irurueta.com/ai/voice-agents/turn-taking-and-interruptions.html",
-      "title": "Voice agents: turn-taking and interruption design",
-      "type": "guide",
-      "category": "trends",
-      "accessed": "2026-10-22",
-      "notes": "Every conversational state needs its own timeout: re-prompt once on silence, then offer keypad input, then end politely; barge-in target around 300 ms from speech start to stopped output; backchannel words do not count as interruptions; set explicit loop limits with safe transfer or end."
-    },
-    {
-      "url": "https://www.institutepm.com/knowledge-hub/agentic-ai-ux-patterns",
-      "title": "Agentic AI UX patterns",
-      "type": "article",
-      "category": "trends",
-      "accessed": "2026-10-22",
-      "notes": "Rollback is first-class: one-click undo for every reversible agent action; failures state exactly what failed and why; partial completion shows per-step status, never presented as full success or failure; trust gradient: preview mode, then supervised, then autonomous only after repeated success."
-    },
-    {
-      "url": "https://undercodenews.com/mola-ui-just-updated-v030-adds-ai-approval-workflows-citation-cards-and-run-recovery-video/",
-      "title": "Design system update: approval workflows, citation cards, run recovery",
-      "type": "article",
-      "category": "primitives",
-      "accessed": "2026-10-22",
-      "notes": "An October 2026 design-system release for assistant-style interfaces added approval-workflow support so proposed agent actions are presented for human review, citation cards that place evidence beside system answers, and run recovery for interrupted multi-step tasks. The citation card is the substantive new primitive; approval handling is already covered in the agentic-ux trend note."
-    },
-    {
-      "title": "Weekly Reading List October 19 2026",
-      "url": "https://reading-lists.kc.vispero.com/2026/10/19/weekly-reading-list-october-19-2026/",
-      "category": "trends",
-      "type": "reading-list",
-      "accessed": "2026-10-22",
-      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
-    },
-    {
-      "title": "Design Trends That Will Influence Extensions in 2026",
-      "url": "https://www.wiredlabz.com/article/design-trends-that-will-influence-extensions-in-2026",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
-    },
-    {
-      "title": "Validation gate for generated interface trees",
-      "url": "https://dev.to/bobbyhalljr/your-model-just-invented-a-form-build-a-tiny-ui-component-gate-in-typescript-h80",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Author-side gate: check a generated interface tree against the registered component set before rendering; invented components and unapproved form destinations are caught at authoring time; keep the check cheap enough to run on every tree."
-    },
-    {
-      "title": "Design tools and UI component libraries for designers and developers, October 2026",
-      "url": "https://www.somewhatcreative.net/design/whats-new-for-designers-developers-october-2026/",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Action-state grouping: one typed, accessible component that holds the visual states of an interface action (idle, loading, success) and transitions between them, removing scattered icon and label logic across the codebase."
-    },
-    {
-      "title": "WCAG 2.2 Target Size: What Teams Should Test",
-      "url": "https://iaapaudit.medium.com/wcag-2-2-target-size-what-teams-should-test-f734e761f161",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Target-size audit guidance: separate the 44 px aspiration from the 24 px requirement; an actionable finding names page, viewport, target, clickable dimensions, nearby controls, exception analysis, and user consequence; remediation enlarges the hit area, increases spacing, or changes the shared component; retest after the change ships, including responsive states."
-    },
-    {
-      "title": "Interop 2026 announcement: focus areas",
-      "url": "https://web.dev/blog/interop-2026",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "2026 cross-browser focus areas relevant to interface patterns: anchor positioning, scroll-driven animations, view transitions (incl. cross-document), dialog/popover additions (closedby, popover=hint), container style queries, contrast-color()."
-    },
-    {
-      "title": "Loading states and skeleton screens in Figma",
-      "url": "https://justfigma.com/designing-loading-states-and-skeleton-screens-in-figma/",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Skeleton loading rules: 1-10s window for skeletons, match final layout box for box, replace each placeholder as content arrives, never show empty state during fetch, aria-busy/aria-live announcements, static reduced-motion variant, readable skeleton contrast."
-    },
-    {
-      "title": "Television interface design tips",
-      "url": "https://norigintech.medium.com/10-tips-for-ui-ux-design-on-smart-tv-e372eaf98091",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Type minimums on TV (~12sp minimum, 18sp default; ~24pt practical floor at 3m), light text on dark backgrounds, short scannable copy, safe margins, remote input planning per variant."
-    },
-    {
-      "title": "TV style guidelines (platform documentation)",
-      "url": "https://spot.pcc.edu/~mgoodman/developer.android.com/preview/tv/design/style.html",
-      "category": "layouts",
-      "type": "docs",
-      "accessed": "2026-10-22",
-      "notes": "10-foot UI style rules: focus visibility, type scale, colour and contrast handling on television panels."
-    },
-    {
-      "title": "TV layout guidelines (platform documentation)",
-      "url": "https://spot.pcc.edu/~mgoodman/developer.android.com/preview/tv/ui/layouts.html",
-      "category": "layouts",
-      "type": "docs",
-      "accessed": "2026-10-22",
-      "notes": "Television layout composition: shelves, hero rows, section bars, playback screens and input handling."
-    },
-    {
-      "title": "Television interface best practices",
-      "url": "https://www.uxstudioteam.com/ux-blog/best-practices-for-designing-tv-interfaces",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Best practices: focus memory, text-entry avoidance, second-device handoff for complex flows, performance on constrained hardware."
-    },
-    {
-      "title": "Designing a 10-foot interface",
-      "url": "https://pascalpotvin.medium.com/designing-a-10ft-ui-ae2ca0da08b7",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "10-foot UI rules: viewing distance variance, type legibility at distance, focus indicators, safe areas."
-    },
-    {
-      "title": "Rethinking interface design for the TV platform",
-      "url": "https://www.toptal.com/designers/ui/tv-ui-design",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "TV platform design: overscan-safe margins (~5%), centre-weighted gaze, near-white (#f1f1f1) to reduce flicker, avoid pure white and over-saturated reds."
-    },
-    {
-      "title": "Window size classes",
-      "url": "https://developer.android.com/develop/ui/views/layout/use-window-size-classes",
-      "category": "layouts",
-      "type": "docs",
-      "accessed": "2026-10-22",
-      "notes": "Standardised width bands: compact <600dp, medium 600-840dp, expanded 840-1200dp; layout changes follow bands, not device names."
-    },
-    {
-      "title": "Two-pane layout guidance",
-      "url": "https://developer.android.com/develop/ui/views/layout/twopane",
-      "category": "layouts",
-      "type": "docs",
-      "accessed": "2026-10-22",
-      "notes": "List-detail two-pane threshold at ~600dp width; supporting-pane splits (~70/30 expanded, ~50/50 medium, stacked or bottom-sheet at compact)."
-    },
-    {
-      "title": "Foldable states and postures",
-      "url": "https://developer.android.com/develop/ui/compose/layouts/adaptive/foldables/learn-about-foldables?authuser=1",
-      "category": "layouts",
-      "type": "docs",
-      "accessed": "2026-10-22",
-      "notes": "Foldable postures: flat behaves like a tablet; tabletop posture splits viewing and controls; book posture keeps content clear of the crease; never place interactive elements across the fold; preserve in-progress state across fold changes."
-    },
-    {
-      "title": "Canonical layouts overview",
-      "url": "https://androindian.com/canonical-layouts/",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Canonical adaptive layouts: list-detail, feed, supporting pane; navigation switches with width class (bottom nav, rail, permanent drawer)."
-    },
-    {
-      "title": "Designing for tiny wearable screens",
-      "url": "https://weareaffective.com/learning-centre/how-do-you-design-user-interfaces-for-tiny-wearable-screens",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Wearable constraints: 2-5 second task window, one primary item per screen, multi-tap tasks move to the phone app, haptic confirmation."
-    },
-    {
-      "title": "Designing for a small smartwatch screen",
-      "url": "https://weareaffective.com/learning-centre/how-do-i-design-for-such-a-small-smartwatch-screen",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Small-screen rules: 38-48dp targets spaced 8pt apart, full-screen swipe navigation, rotating crown as primary scroll mechanism."
-    },
-    {
-      "title": "Wearable app information architecture principles",
-      "url": "https://weareaffective.com/learning-centre/what-are-the-key-principles-of-wearable-app-information-architecture",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Wearable IA: glanceable tiles are non-scrollable, ambient/always-on simplified state, dark interfaces for battery, minimal background work."
-    },
-    {
-      "title": "Tiles (wearable design documentation)",
-      "url": "https://developer.android.com/training/wearables/tiles?hl=en&authuser=6",
-      "category": "interfaces",
-      "type": "docs",
-      "accessed": "2026-10-22",
-      "notes": "Glanceable information surfaces: non-scrollable tiles, single glance reading, tap leads to detail on another surface."
-    },
-    {
-      "title": "Apps (wearable design documentation)",
-      "url": "https://developer.android.com/training/wearables/apps?hl=en&authuser=7",
-      "category": "interfaces",
-      "type": "docs",
-      "accessed": "2026-10-22",
-      "notes": "Wearable app structure: long-press for context menus, edge gestures, round-display margins (round offers ~22% less usable space than square)."
-    },
-    {
-      "title": "Design for wearables (platform documentation)",
-      "url": "https://developer.android.com/design/ui/wear/guides/get-started/design-for-wearables",
-      "category": "interfaces",
-      "type": "docs",
-      "accessed": "2026-10-22",
-      "notes": "Wearable design entry: glanceability as structural constraint, input modalities, ambient vs active states."
-    },
-    {
-      "title": "E-paper display vs LCD comparison",
-      "url": "https://www.seeedstudio.com/blog/2025/11/18/e-ink-display-vs-lcd/",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "E-paper is reflective and bistable: image persists with zero power, energy only during refreshes; sunlight-readable, no glow in the dark."
-    },
-    {
-      "title": "E-paper vs e-ink differences",
-      "url": "https://www.quora.com/What-are-the-differences-between-e-paper-and-e-ink-displays",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "E-paper characteristics: update intervals of minutes to hours are normal; unsuitable for video, smooth animation, rapid scrolling (~1Hz typical refresh)."
-    },
-    {
-      "title": "E-paper ghosting explained",
-      "url": "https://viwoods.com/blogs/paper-tablet/e-ink-ghosting-explained",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Ghosting from repeated partial updates; periodic full refreshes clear residue; redraw only changed regions between full refreshes."
-    },
-    {
-      "title": "E-paper display optimisation notes",
-      "url": "https://deepwiki.com/crizmo/KAnki/4.4-e-ink-display-optimization",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "E-paper optimisation: fixed-height static layouts, high-contrast black-on-white styling, debounced inputs against input lag."
-    },
-    {
-      "title": "E-paper display management (refresh logic)",
-      "url": "https://deepwiki.com/woaidouya123/kindleCalendar/5.2-e-ink-display-management",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Refresh scheduling for e-paper: partial updates for changed regions, scheduled full refreshes that briefly flash the display."
-    },
-    {
-      "title": "Hero section patterns and conversion examples",
-      "url": "https://www.webanatomy.ai/best-landing-pages/sections/hero",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Outcome-first heroes: named audience, measurable outcome headline, one primary action, proof point before first scroll, product shown in motion."
-    },
-    {
-      "title": "Landing page conversion tips and form friction benchmarks",
-      "url": "https://funnelish.com/blog/6-tips-to-follow-for-an-effective-landing-page",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Form friction: three-field lead forms vs nine-field drop-off; multi-step forms beat a single wall of fields; section order mirrors the decision."
-    },
-    {
-      "title": "Hero layout patterns and when-to-use table",
-      "url": "https://www.fatcowwebdesign.com/how-to-design-a-hero-section-that-converts-layout-patterns-and-examples/",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Hero variants: left-text/right-visual, centred text over image, embedded form in hero; social proof placed where doubt appears, adjacent to actions."
-    },
-    {
-      "title": "Passwordless design: autofill passkey sign-in",
-      "url": "http://dev.to/khriztianmoreno/the-passwordless-future-an-engineering-guide-to-replacing-passwords-201l",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Highest-converting passkey UX puts passkeys in the username autofill dropdown via conditional mediation; no standalone sign-in-with-passkey button."
-    },
-    {
-      "title": "Passkey UX patterns: fallback chain, QR handoff, enrollment",
-      "url": "https://mojoauth.com/blog/passkey-ux-patterns-drive-adoption",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Fallback chain (passkey, app push, email magic link, email OTP, SMS last); visible fallbacks; one-time enrollment prompt; QR cross-device handoff needs context first; credential management page with rename and revoke."
-    },
-    {
-      "title": "Settings page UI guide: layout types and edit patterns",
-      "url": "https://www.eleken.co/blog-posts/settings-page-ui",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Sidebar/list navigation beats icon grids; edit chrome follows stakes: inline for low-stakes, modal where focus is warranted, confirmation for destructive actions."
-    },
-    {
-      "title": "Settings search design and zero-result logging",
-      "url": "https://medium.com/design-bootcamp/the-settings-page-is-where-most-products-go-to-die-a-quick-guide-to-fix-5de850448c53",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Settings search heuristic: 20+ fields warrants search; match user synonyms; results state section and current value; zero-result searches logged as research."
-    },
-    {
-      "title": "Dangerous actions: danger zone pattern",
-      "url": "https://www.smashingmagazine.com/2024/09/how-manage-dangerous-actions-user-interfaces/?s=09",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Danger zone: grouped irreversible actions at the bottom, visually distinct; state the effect before commit; require extra effort (re-entry, type-to-confirm) since page access is not proof of identity."
-    },
-    {
-      "title": "Comparison tables as decision machines",
-      "url": "https://www.uxtigers.com/post/comparison-tables",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Differences-only toggle hiding identical rows; gentle winner marking with shading plus text cue (never colour alone); computed deltas; explicit metric direction."
-    },
-    {
-      "title": "Pricing page optimisation: cards vs matrix",
-      "url": "http://theartistevolution.com/blog/pricing-pages-optimization/",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Tier-card discipline: 3-4 columns, plain audience labels, 'everything in the previous tier plus' summaries, sticky plan labels and decision row, annual saving spelled out."
-    },
-    {
-      "title": "Mobile permission timing and two-stage flow",
-      "url": "https://www.dogtownmedia.com/the-ask-when-and-how-to-request-mobile-app-permissions-camera-location-contacts/",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Two-stage permission flow: custom pre-permission screen stating concrete value, system dialog only after positive response; never ask on first launch; one permission at a time; graceful denial with route to settings."
-    },
-    {
-      "title": "Search UI design: no-results recovery",
-      "url": "https://www.setproduct.com/blog/search-ui-design",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Ordered no-results recovery: spelling suggestion, broaden scope, removable carried filters, create action; echo the exact query+filter combination; never silently clear."
-    },
-    {
-      "title": "SaaS empty search: keep filters visible",
-      "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Keep query and filters visible on empty results; echo what matched nothing; label each widening action by what it changes."
-    },
-    {
-      "title": "Website search design best practices 2026",
-      "url": "https://www.alfdesigngroup.com/post/best-practices-for-website-search-design",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Search/filter handoff: search narrows by intent, filters by attribute; mirrored chips; single reset clears filters but keeps query; facet panels with live result counts."
-    },
-    {
-      "title": "Headless component libraries compared",
-      "url": "https://www.webcodingcenter.com/react/the-react-library-ecosystem--headless-component-libraries.html",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "2026 norm is headless behaviour-only primitives: focus management, keyboard maps, roles and states, portals, collision-aware positioning, unstyled elements with data-state attributes; behaviour is the durable half."
-    },
-    {
-      "title": "Enterprise component suite 2026 volume 3 release",
-      "url": "https://www.manilatimes.net/2026/10/07/tmt-newswire/globenewswire/syncfusion-releases-essential-studio-2026-volume-3/2440965/amp",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Enterprise release: drag-and-drop form builder with 20+ built-in form components; date-field rebuild with per-part keyboard entry and opt-in confirmation for the calendar popover."
-    },
-    {
-      "title": "Design system update notes, February-March 2026",
-      "url": "https://sanomalearning.design/categories/whats-new/",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Design-system update: date-field accessibility rebuild, callout promotion, new tokens (sub-size icons, highlight backgrounds, raised-surface elevation)."
-    },
-    {
-      "title": "Data-table changelog 2026",
-      "url": "https://developer.semrush.com/intergalactic/table-group/data-table/data-table-changelog",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Data-table refinements: cell-level actions, grouped loading per section, expanded rows aligned to the visible viewport, sticky-header and fixed-column alignment fixes."
-    },
-    {
-      "title": "Barge-in benchmark write-up",
-      "url": "http://dev.to/kenimo49/barge-in-is-the-voice-agent-feature-nobody-benchmarks-i-added-it-and-lost-120ms-4o7m",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Interruption budget: users forgive ~600ms to answer but not ~600ms of continued speech after being cut off; +120ms on the interruption path reads as rudeness; target 200-300ms stop pipeline."
-    },
-    {
-      "title": "Full-duplex voice architecture",
-      "url": "https://medium.com/@abhi.pandey03/barge-in-and-full-duplex-the-architecture-that-makes-voice-agents-feel-human-48ef1b7b7fa6",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Stop-mid-sentence pipeline: detect user speech, stop audio, cancel in-progress generation, re-enter listening; learned turn-taking lands end-of-turn around 200-250ms."
-    },
-    {
-      "title": "Voice user interfaces in 2026",
-      "url": "https://zignuts.com/blog/voice-user-interfaces",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "2026 voice interfaces fuse speech with visual context, gestures and camera input; confirmations via haptic pulses and spatial audio; voice layered into real workflows with visual context."
-    },
-    {
-      "title": "Conversational design guide 2026",
-      "url": "https://botpress.com/blog/conversation-design",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Turn-taking rhythm: chunked responses, intentional pauses; error recovery by rephrase, tappable options, or handoff; spoken fallbacks in voice-only contexts, never buttons alone."
-    },
-    {
-      "title": "Spatial computing lesson: field of view and depth zones",
-      "url": "https://uxcel.com/lessons/spatial-computing-for-visionos-376",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Comfort zones: primary zone ~40-degree cone around centre gaze, secondary 20-40 degrees off-axis; placement height 1.2-1.5m; arm's length for detailed work, 1-3m for viewing, beyond 3m ambient only."
-    },
-    {
-      "title": "VR interface design guide",
-      "url": "https://medium.com/@atnoforarvrdeveloper/the-complete-guide-to-designing-ui-in-vr-layout-typography-color-and-depth-59a6fab98bea",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "VR layout ergonomics: flat panels for precision data and forms, curved panels for panoramic dashboards with radius matched to focal distance (2-3m); never force upward neck tilt beyond ~15 degrees."
-    },
-    {
-      "title": "Adding XR to existing apps",
-      "url": "https://developer.android.com/develop/xr/jetpack-xr-sdk/add-xr-to-existing?hl=en&authuser=8",
-      "category": "trends",
-      "type": "docs",
-      "accessed": "2026-10-22",
-      "notes": "2D apps run as 2D panels inside 3D space; spatial dialogs fall back to standard 2D dialogs; capability tiers per component with documented fallbacks."
-    },
-    {
-      "title": "Multi-window spatial layout SDK",
-      "url": "https://www.callstack.com/blog/multi-window-react-native-apps-with-the-meta-vr-layout-sdk?ref=uploadvr.com",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Multi-window spatial systems cap promoted panels with per-window fallback modes (inline vs drop) and priority ordering when slots run out."
-    },
-    {
-      "title": "Interface trends 2026: spatial glass interfaces",
-      "url": "https://fireart.studio/blog/latest-ui-ux-design-trends/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Translucent multi-layer panels are the 2026 spatial look; legibility testing to WCAG AA minimum on translucent backgrounds; user toggle to high-contrast opaque; blur costs frame rate and battery."
-    },
-    {
-      "title": "From UX to task-doing experience: six trust patterns",
-      "url": "https://www.pixelmojo.io/blogs/from-ux-to-ax-design-when-ai-becomes-coworker",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Six trust patterns across the action lifecycle: intent preview, autonomy dial, explainable rationale, confidence signal, action audit and undo, escalation pathway."
-    },
-    {
-      "title": "Interface design for automated assistants",
-      "url": "https://fuselabcreative.com/ui-design-for-ai-agents/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Orchestration surface: editable plan steps, tool-use disclosure at the decision moment, visible memory corrections; post-action receipts summarising changes, systems touched, assumptions, and what can still be undone."
-    },
-    {
-      "title": "Intent-based experience: orchestration surface",
-      "url": "https://www.uxtigers.com/post/intent-ux",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Intent UX: full orchestration surface for multi-step high-stakes tasks, lighter disclosure for low-stakes single steps; plan visibility and approval granularity."
-    },
-    {
-      "title": "CSS-only scroll-driven animations",
-      "url": "https://webmaker.app/blog/css-only-scroll-progress-bar-2026/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Scroll timeline API is cross-browser: animations tied to scroll position without scripts; reduced-motion handling: swap movement for calm, ship a deliberate final static state per effect."
-    },
-    {
-      "title": "Scroll-driven CSS carousels in 2026",
-      "url": "https://www.sitepoint.com/scrolldriven-css-in-2026-building-carousels-without-javascript/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Full carousels in pure CSS (scroll-snap, scroll markers, view timelines) with @supports fallbacks to plain scroll containers; accessibility guards."
-    },
-    {
-      "title": "Website animation guidance: layout-shift costs",
-      "url": "https://matchboxdesigngroup.com/blog/website-animations-whats-the-difference-between-delightful-and-distracting/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Animate only transform and opacity (GPU-accelerated); never width/height; layout-shifting animations feed cumulative layout shift; reduced-motion safety net keeps essential feedback."
-    },
-    {
-      "title": "Web design principles 2026",
-      "url": "https://www.fallingbrick.co.uk/web-design-principles/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Scroll-driven motion replacing parallax; visible pause-animation controls; keep the fade, drop the travel; small contained motion retained."
-    },
-    {
-      "title": "What's new for developers? (October 2026)",
-      "url": "https://developer.wordpress.org/news/2026/10/whats-new-for-developers-october-2026/",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Platform UI kit: popups default to the anchor's width; new checkbox, radio group, and switch controls."
-    },
-    {
-      "title": "Support Simplification | Cognitive Accessibility Design Pattern",
-      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o8p03-complexity/",
-      "category": "patterns",
-      "type": "standard",
-      "accessed": "2026-10-22",
-      "notes": "Cognitive-accessibility design pattern published 2026-10-21: support content simplification (simplified reading view, fewer essential features only, data-simplification attribute for personalization, simplification toolbar or alternative version); source for the simplified-view pattern in catalog/patterns.md."
-    },
-    {
-      "title": "UX for Wearables in 2026: Beyond the Small Screen",
-      "url": "https://think.design/blog/wearables-ux-smartwatch-ui-design-development/",
-      "category": "wearable design",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Micro-tasks, glance windows, and power-aware motion for watch screens"
-    },
-    {
-      "title": "Design quality tiers for watch screens",
-      "url": "https://developer.android.com/design/ui/wear/guides/foundations/quality-tiers",
-      "category": "wearable design",
-      "type": "standard",
-      "accessed": "2026-10-22",
-      "notes": "Percentage margins and scaling rules for round versus square watch screens"
-    },
-    {
-      "title": "Round Display Applications for Smart Badges and Wearables",
-      "url": "https://www.panoxdisplay.com/application/round-display-applications-in-smart-badges.html",
-      "category": "wearable design",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Circular layout conventions: centre for key data, rings and arcs for progress"
-    },
-    {
-      "title": "Spatial UI Design: Tips and Best Practices",
-      "url": "https://www.interaction-design.org/literature/article/spatial-ui-design-tips-and-best-practices?srsltid=AfmBOor3_aDKeaUNj7JtFGWLTNng6av6x9pjXRLrE24W4xp1bf3YFezP",
-      "category": "spatial design",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Comfort band around 1.25-5 m and central-field placement guidance"
-    },
-    {
-      "title": "Spatial Computing: A New Paradigm of Interaction",
-      "url": "https://www.uxmatters.com/mt/archives/2024/02/spatial-computing-a-new-paradigm-of-interaction.php",
-      "category": "spatial design",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Proxemic zones (intimate, personal, social) applied to content placement"
-    },
-    {
-      "title": "10 Tips for UI/UX Design on Smart TV",
-      "url": "https://noriginmedia.com/10-tips-for-ui-ux-design-on-smart-tv/",
-      "category": "television design",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Ten-foot rule, directional-pad-first navigation, and safe-zone margins"
-    },
-    {
-      "title": "10 beginner tips for designing TV streaming apps",
-      "url": "https://www.redspace.com/stories/10-beginner-tips-for-designing-tv-streaming-apps",
-      "category": "television design",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Safe zones, broadcast luminance range, dark backgrounds, row and column navigation"
-    },
-    {
-      "title": "Design App Permission Requests Users Actually Grant",
-      "url": "https://137foundry.com/articles/app-permission-requests-users-actually-grant",
-      "category": "permission design",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Moving permission asks out of onboarding into the moment of use"
-    },
-    {
-      "title": "Permissions - Patterns",
-      "url": "https://m1.material.io/patterns/permissions.html",
-      "category": "permission design",
-      "type": "standard",
-      "accessed": "2026-10-22",
-      "notes": "Request patterns: up-front for critical, in-context for secondary, educate before asking"
-    },
-    {
-      "title": "Error state UX design: what to show when a request fails",
-      "url": "https://adamarant.com/en/blog/error-state-ux-design-what-to-show-when-a-request-fails",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Failure groups by next action; offline queuing rule"
-    },
-    {
-      "title": "Understanding Button States in UI Design",
-      "url": "https://www.figma.com/resource-library/button-states/",
-      "category": "states",
-      "type": "tutorial",
-      "accessed": "2026-10-22",
-      "notes": "Idle, loading, success, and error grouping; spinner versus progress indicator; error recovery"
-    },
-    {
-      "title": "10 UX Patterns That Drive 80%+ Passkey Adoption",
-      "url": "https://dev.to/mojoauth/10-ux-patterns-that-drive-80-passkey-adoption-with-real-examples-4fpe",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Passkey-first UI, visible fallback chains, cross-device QR labelling, repeated-prompt abandonment"
-    },
-    {
-      "title": "How Smart Defaults Reduce Form Errors",
-      "url": "https://www.reform.app/blog/how-smart-defaults-reduce-form-errors",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Location, popular, and behavioural defaults; editability and validation rules"
-    },
-    {
-      "title": "Before Your Voice Assistant Answers a Real Call, Run This Launch Review",
-      "url": "https://dev.to/isabelle_dubuis_d858453d7/before-your-voice-ai-answers-a-real-call-run-this-12-gate-launch-review-1kjn",
-      "category": "conversational",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Mandatory automation disclosure before collection; never claim human; re-disclosure on transfer"
-    },
-    {
-      "title": "Table Design UX Guide",
-      "url": "https://www.eleken.co/blog-posts/table-design-ux",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Row-action grouping under one menu; icon declutter rules"
-    },
-    {
-      "title": "Material 3 Expressive: what changes in Figma",
-      "url": "https://imasters.com/design-ux/material-3-expressive-changes-motion-and-color-tokens-what-to-review-in-figma",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Expressive shape morphing as component token; reduced-motion must disable physics intensity, not just duration"
-    },
-    {
-      "title": "Web design trends 2026 that improve usability",
-      "url": "https://statusisup.com/wiki/web-design-trends-2026/",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-22",
-      "notes": "Accessibility-first direction: keyboard focus must not be hidden by author-created content; dragging needs a simple pointer alternative; 24 px pointer target minimum."
-    },
-    {
-      "title": "Data table UI design reference guide for 2026",
-      "url": "https://www.setproduct.com/blog/data-table-ui-design",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Four responsive table strategies: horizontal scroll with frozen column, card transformation, column dropping by priority, priority-plus disclosure; selection rule is which columns a person cannot decide without"
-    },
-    {
-      "title": "Fix columns of a MatTable and DataTable: complete guide for 2026",
-      "url": "https://copyprogramming.com/howto/fixed-columns-in-datatable",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Sticky positioning preferred over fixed for frozen columns; corner-cell overlap ordering; stacked card layout via data-label attributes for compact screens"
-    },
-    {
-      "title": "B2B SaaS Growth: Onboarding and time-to-value (2026)",
-      "url": "https://resources.rework.com/fr/libraries/saas-growth/onboarding-time-to-value",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Goal setting for contextual onboarding paths; one-click setup, progress indicators, skip where not necessary, smart defaults; guided first action toward the aha moment"
-    },
-    {
-      "title": "Onboarding UX best strategies for seamless journeys",
-      "url": "https://procreator.design/blog/learn-onboarding-ux-best-strategies/",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Progressive disclosure of signup steps; value before account; lead with a success action; default content or templates to reach value fast"
-    },
-    {
-      "title": "Why most in-app onboarding fails (and how to fix it in 2026)",
-      "url": "https://userpilot.com/blog/in-app-onboarding/",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Mechanism-agnostic onboarding: checklist, contextual guidance, prefilled workspace; items must map to outcome events, not a feature tour; one signup question routes what follows"
-    },
-    {
-      "title": "Drag-and-drop menus in 2026: mouse, touch, and accessibility",
-      "url": "https://copyprogramming.com/howto/draggable-drop-down-menu-in-a-website-display-menu-elements-by-touchslide",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Drag as progressive enhancement over a keyboard-usable menu; unified pointer handling; semantic navigation; reorder alternatives that do not require dragging"
-    },
-    {
-      "title": "Keyboard navigation patterns every developer should know",
-      "url": "https://medium.com/@muhammadusmanreal1/keyboard-navigation-patterns-every-developer-should-know-78a27801a67d",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Menu keyboard models: tab to each item for flat nav, arrow-key navigation inside menubar composites; roving tab index; escape returns focus to the trigger"
-    },
-    {
-      "title": "Component library changelog: theme resolution and accessible-label translations",
-      "url": "https://maz-ui.com/changelog",
-      "category": "states",
-      "type": "changelog",
-      "accessed": "2026-10-23",
-      "notes": "October 2026: automatic color mode follows the live system preference on every reload; configured theme preset authoritative over stale cookie; aria.* translation namespace for accessible labels across components."
-    },
-    {
-      "title": "Developer's guide to interface internationalization (2026)",
-      "url": "https://intlpull.com/blog/complete-developers-guide-to-internationalization-2026",
-      "category": "primitives",
-      "type": "guide",
-      "accessed": "2026-10-23",
-      "notes": "Locale-specific formatting for dates, numbers, currency, time; right-to-left layout mirroring via logical CSS properties and the dir attribute; runtime language switching without restart."
-    },
-    {
-      "title": "Bidirectionality usability guidance",
-      "url": "https://m1.material.io/usability/bidirectionality.html",
-      "category": "primitives",
-      "type": "guideline",
-      "accessed": "2026-10-23",
-      "notes": "RTL mirroring rules: layouts flip, directional icons mirror, text keeps its own language direction; not mirrored: numbers, charts and graphs, non-directional icons, media playback controls and progress direction."
-    },
-    {
-      "title": "UI card design: grid layouts, spacing and density (2026)",
-      "url": "https://www.alfdesigngroup.com/post/best-practices-to-design-ui-cards-for-your-website",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Card grid density by breakpoint: fewer columns when each choice is a decision, more for browsing; 12-16px minimum gutter floor; density trades breathing room for comparability; infinite scroll vs pagination vs load-more for long grids."
-    },
-    {
-      "title": "Realizing common layouts using CSS grid",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids",
-      "category": "trends",
-      "type": "reference",
-      "accessed": "2026-10-23",
-      "notes": "Flexible card grids via repeat(auto-fit, minmax()); spanning tiles backfill gaps with grid-auto-flow: dense only when items have no set order, since display order then diverges from source and tab order."
-    },
-    {
-      "title": "Accessible data visualizations",
-      "url": "https://accessibility.ua.edu/accessibilityresources/accessible-data-visualizations/",
-      "category": "patterns",
-      "type": "guideline",
-      "accessed": "2026-10-23",
-      "notes": "Charts highlight trends and outliers while tables carry precise values; descriptive takeaway titles, text alternatives with key insights, colour never alone, keyboard and screen-reader compatible, underlying data offered as a table."
-    },
-    {
-      "title": "Command-palette usability guidance",
-      "url": "https://mockitt.com/en/guide/command-palette-ux.html",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Stable selection while results update; no broad fuzzy match above the intended costly action; show scope with the name."
-    },
-    {
-      "title": "SaaS command-palette and search UX patterns",
-      "url": "https://www.saasui.design/blog/saas-search-command-palette-ux-patterns",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Command-palette pattern: autofocus, subsequence matching, grouped typed results, recents in the empty state; typeahead per-row context; search-health metrics."
-    },
-    {
-      "title": "Command-palette UI design guide and teardowns",
-      "url": "https://www.setproduct.com/blog/command-palette-ui-design-guide",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Palette as teaching surface for shortcuts; frecency-ranked recents; grouping by result type."
-    },
-    {
-      "title": "Notification UX: urgency-to-pattern mapping",
-      "url": "https://foundey.com/blog/notification-ux",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Urgency scale mapped to pattern and channel; notification debt from high-urgency patterns on low-urgency events."
-    },
-    {
-      "title": "SaaS notification and toast UX patterns",
-      "url": "https://www.saasui.design/blog/saas-notification-toast-ux-patterns",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Nothing critical only in a toast; disruption level decides inline alert vs toast vs banner vs modal."
-    },
-    {
-      "title": "Offline-first frontend apps: local store and background sync",
-      "url": "https://blog.logrocket.com/offline-first-frontend-apps-2025-indexeddb-sqlite/",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Local store as source of truth; durable mutation queue with identifiers and attempt counts; background-sync replay with fallbacks."
-    },
-    {
-      "title": "Frontend system design: offline support and progressive web apps",
-      "url": "https://dev.to/zeeshanali0704/frontend-system-design-offline-support-and-progressive-web-apps-pwas-4k8m",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Granular sync states: syncing, local changes pending, stale; optimistic updates marked pending; visible sync status with retry."
-    },
-    {
-      "title": "Upload UI components: chunking and resumable uploads",
-      "url": "https://blog.filestack.com/upload-ui-components-drag-drop-progress-preview/",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Per-file queue items with progress and retry; chunked resumable uploads; accurate progress after interruption."
-    },
-    {
-      "title": "Automotive HMI design: glance budgets and essential functions",
-      "url": "https://www.apriorit.com/dev-blog/how-to-design-automotive-hmi-system",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Two-second glance and twelve-second task budgets; physical controls for essential functions; voice for secondary tasks."
-    },
-    {
-      "title": "HMI design principles for automotive interfaces",
-      "url": "https://www.aufaitux.com/blog/hmi-design-principles-automotive-ux/",
-      "category": "interfaces",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Contextual minimalism and progressive disclosure by driving conditions; adaptive interfaces over show-everything."
-    },
-    {
-      "title": "Web Awesome vs Shoelace: web-component library succession",
-      "url": "https://blog.fontawesome.com/how-does-web-awesome-stack-up-against-shoelace/",
-      "category": "resources",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Successor web-components library: component count, colour palettes, cascade layers, SSR support, commercial additions."
-    },
-    {
-      "title": "Component library direction 2026: unstyled primitives and data components",
-      "url": "https://mui.com/blog/2026-and-beyond/",
-      "category": "resources",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Stable unstyled-primitives layer with token theming; number-field control; data-line grid-chart integration and server-side pivoting."
-    },
-    {
-      "title": "Reduced-motion fixes: informational versus decorative animation",
-      "url": "https://dev.to/parsajiravand/youre-animating-for-everyone-prefers-reduced-motion-fixes-that-2ond",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Informational motion keeps moving; decorative motion gated behind a no-preference check so it fails closed to static."
-    },
-    {
-      "title": "Focus indicators: contrast, forced colours, and obscured focus",
-      "url": "https://www.levelaccess.com/blog/focus-indicators-wcag-requirements-and-best-practices/",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "3:1 non-text contrast for focus indicators; outline in system colours for forced-colours mode; focus not obscured by fixed chrome."
-    },
-    {
-      "title": "Glass-mode theming handbook",
-      "url": "https://www.patternfly.org/foundations-and-styles/theming/glass-mode-handbook/",
-      "category": "trends",
-      "type": "guideline",
-      "accessed": "2026-10-23",
-      "notes": "Never layer glass containers; glass disables under high-contrast mode; default opacities treated as accessibility-tested values."
-    },
-    {
-      "title": "Introducing the Accessible Components Library",
-      "url": "https://tetralogical.com/blog/2026/10/14/accessible-components-library/",
-      "category": "resources",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "v1.0.0 release of an accessibility-documented component set (accordion, breadcrumbs, dialog, disclosure, pagination, tabs, text input, textarea); per-component WCAG 2.2 success-criteria mapping, test scenarios, assistive-technology compatibility notes, and usability recommendations beyond the standard."
-    },
-    {
-      "title": "Beyond border-radius: what the CSS corner-shape property unlocks for everyday UI",
-      "url": "https://www.smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Native CSS geometric shape control: corner-shape presets (bevel, notch, scoop, squircle) available in Chromium, border-shape and shape() function in the borders/shapes specifications; practical guidance for progressive enhancement with rectangular fallbacks."
-    },
-    {
-      "title": "Driving-task interface design principles",
-      "url": "https://docs.partner.android.com/drivingux/foundations/design-principles?authuser=09",
-      "category": "layouts",
-      "type": "documentation",
-      "accessed": "2026-10-23",
-      "notes": "Two-second glance budget with 0.25 s input response; one-handed gestures; 76x76 dp targets with 23 dp spacing; 32/24 dp text; day/night modes; distraction suppression while moving; interruption and resumption of non-driving tasks."
-    },
-    {
-      "title": "Automotive glance budgets and interaction economics",
-      "url": "https://www.anoda.mobi/ux-blog/future-car-dashboard-ui-trends-design-user-experience",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Glance budget of about 2 s per glance and 12 s per task; design for glances not taps with one question answered per glance; stable information positions; physical controls required for essential functions; shallow fast touch flows can outperform button-heavy ones."
-    },
-    {
-      "title": "Self-service kiosk UX checklist",
-      "url": "https://www.avixa.org/explore/articles/kiosk-ux-ui-design-checklist",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "One task per screen with always-visible back, home, and cancel controls; 9-12 mm touch targets; error recovery without staff help; timeout warnings with countdown and one-tap session reset; 15-48 inch control reach; offline fallback; multilingual entry points."
-    },
-    {
-      "title": "Accessibility requirements for self-service terminals",
-      "url": "https://wcagc.com/blog/eaa-self-service-terminals",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "The accessibility entry point must itself be usable without vision; multi-sense time-limit alerts with extension; 800-1600 mm placement bounds; printed information also available through speech; speech output, tactile keys, and headset support need hands-on testing with speech-output users."
-    },
-    {
-      "title": "Map interaction patterns",
-      "url": "https://mapuipatterns.com/category/interacting-with-the-map/",
-      "category": "patterns",
-      "type": "reference",
-      "accessed": "2026-10-23",
-      "notes": "MapTip hover notes; visited markers mirroring visited links; small multiples for comparing change over time; peel-back swipe to reveal the layer underneath; info pop-up for short detail versus info panel for long or interactive content; rich markers with a key metric."
-    },
-    {
-      "title": "Chat and messaging interface patterns",
-      "url": "https://www.uxpin.com/studio/blog/chat-user-interface-design/",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Element set: multi-line input, visible send, distinguished bubbles, grouped timestamps, typing and read indicators; errors belong on the failed message bubble with inline resend; offline messages queue and send on reconnect; capabilities stated up front; quick actions and suggested prompts; streamed responses with a stop option; live-region announcements."
-    },
-    {
-      "title": "Infinite scroll versus pagination",
-      "url": "https://www.thealien.design/insights/infinite-scroll-vs-pagination",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Infinite scroll for exploratory browsing, pagination for goal-oriented tasks; pagination gives structure, sense of place, and reliable back-button behaviour; load-more button as the safe default; infinite scroll needs loading indicators, place-restoring URL updates, back-to-top, live-region announcements, and a paginated fallback for crawlers."
-    },
-    {
-      "title": "Multi-step process design: wizards and stepped flows",
-      "url": "https://timgraf.com/ux-design/the-ux-of-multi-step-processes-a-practical-guide-to-designing-wizards-stepped-flows-and-multi-page-tasks-users-actually-complete/",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Total step count shown up front; completed/current/future steps distinctly marked with future steps visible but non-interactive; short specific step labels; vertical stepper on narrow screens; contextual forward labels; data-preserving back; save-and-resume for flows longer than a few minutes."
-    },
-    {
-      "title": "Dashboard design principles",
-      "url": "https://www.setproduct.com/blog/effective-dashboard-design-principles",
-      "category": "layouts",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Three-slot key-figure tiles (number, delta with direction, comparison window); colour encodes meaning only with grayscale readability; roughly 3:1 density ratio between primary and secondary zones; always-visible removable filter chips; update cadence matched to the decision cycle with a stated last-updated time."
-    },
-    {
-      "title": "Date picker design: anatomy to accessibility",
-      "url": "https://www.setproduct.com/blog/date-picker-ui-design",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Lightest control for the intent: typed field, picker, or full calendar; ranges as their own pattern with two-month view and hover preview; seven mutually-distinguishable day-cell states; typed entry as a first-class path; full keyboard contract with focus management and announced day cells."
-    },
-    {
-      "title": "Date and time picker patterns for reporting and scheduling tools",
-      "url": "https://www.saasui.design/blog/saas-date-time-picker-ux-patterns",
-      "category": "primitives",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Each intent gets its own control (single date, date-and-time with timezone, linked range, relative/recurring); time values state timezone unambiguously; presets put common intents one tap away; unavailable dates are unpickable and explained in place; ranges commit explicitly."
-    },
-    {
-      "title": "APCA: the perceptual contrast algorithm",
-      "url": "https://www.colorcontrast.org/blog/what-is-apca/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Lightness-contrast score roughly 0-120 replacing fixed ratios; polarity-aware with size and weight factored in; proposed thresholds near 90 body, 75 large/bold, 60 floor, 45 non-text; practical stance: keep the 2.x AA baseline and test new palettes against both systems."
-    },
-    {
-      "title": "Dark mode design rules",
-      "url": "https://www.fallingbrick.co.uk/dark-mode-design/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Dark greys not pure black, off-white not pure white; typography adjustments (weight, size, line height, spacing); elevation by lighter surface tones instead of shadows; redesigned accents; semantic token contract across themes; system preference default with user override; 200-300 ms switch honouring reduced motion; test on OLED, LCD, and e-ink."
-    },
-    {
-      "title": "UI/UX Design Trends 2026: 10 Verdicts for Product Teams",
-      "url": "https://fuselabcreative.com/ui-ux-design-trends-2026-modern-ui-trends-ux-trends-guide/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Translucent materials acceptable on navigation and controls, risky on text/number-dense content screens: contrast shifts as content scrolls beneath; keep translucency out of the content layer and honour reduce-transparency and increase-contrast settings."
-    },
-    {
-      "title": "Inside a Design System That Teaches Automated Tooling What It Is Not Allowed to Change",
-      "url": "https://www.analyticsinsight.net/artificial-intelligence/inside-a-design-system-that-teaches-ai-what-it-is-not-allowed-to-change?utm_source=website&utm_medium=related-stories",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Components carry machine-readable metadata marking required safety controls versus removable convenience; automated assembly may rearrange and restyle but cannot delete a protected check. Accessibility rules written in machine-readable form travel with the component."
-    },
-    {
-      "title": "Design Systems in October 2026: Built for Machines. Still Governed by Humans.",
-      "url": "https://medium.com/@lex.konovalov/design-systems-in-october-2026-built-for-machines-still-governed-by-humans-6fc02a45e755",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Empty-state evolution: interfaces pre-populating from available context before the user acts, replacing a static blank empty screen; suggestions must stay visually distinct from real items and remain dismissible, never stored as user data."
-    },
-    {
-      "title": "12 UI/UX Design Trends for AI Apps (2026 + Examples)",
-      "url": "https://www.groovyweb.co/blog/ui-ux-design-trends-ai-apps-2026",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
-    },
-    {
-      "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
-      "url": "https://medium.com/@leannacerise8495/the-empty-state-is-your-best-growth-surface-and-nobody-designs-it-4cb628a70d01",
-      "category": "states",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Worked-example empty states: a pre-filled sample marked as an example with an adopt action; faded preview of the populated state where sampling is impossible."
-    },
-    {
-      "title": "UX for AI Agents: Designing Interfaces That Machines Use",
-      "url": "https://www.asadqi.com/ux-for-ai-agents-designing-interfaces-that-machines-not-humans-use-1epa/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Machine-facing UX: structured content, API-first design, machine-readable docs, predictable error schemas, performance."
-    },
-    {
-      "title": "Agent-First Design Paradigms: Adapting UX for AI as a New User",
-      "url": "https://beanmachine.dev/agent-first-design-paradigms/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Agent-first patterns: semantic markup, agent-mode shadow views, verification checkpoints for high-risk actions."
-    },
-    {
-      "title": "Agent Experience First Design (AXFD): Designing Systems for a Non-Human User",
-      "url": "https://di-zhang-llm.github.io/blog/agent-experience-first-design-axfd-designing-systems-for-a-non-human-user/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "AXFD principles: contract-first APIs, typed failures with retryable hints and partial results, idempotent re-entrant operations, checkpoints, observability."
-    },
-    {
-      "title": "Machine Experience (MX): Designing For AI Agents In 2026",
-      "url": "https://inkbotdesign.com/machine-experience/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Agentic UX by intent: informational (extractable facts), navigational (site maps), commercial (comparison tables), transactional (agent-ready forms)."
-    },
-    {
-      "title": "Agentic UX: Designing Interfaces for AI Agents, Not Humans",
-      "url": "https://standardbeagle.com/agentic-ux-designing-interfaces-for-agents/",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Invisible UX: schemas and APIs as the interface, label consistency as usability, agent-decision traceability."
-    },
-    {
-      "title": "Design Systems for AI Agents",
-      "url": "https://www.headway.io/blog/design-systems-for-ai-agents",
-      "category": "trends",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Agent-ready design systems: machine-readable tokens, documented component APIs, design-to-code parity."
-    },
-    {
-      "title": "Building Bulletproof RTL Design Systems",
-      "url": "https://design-code.tips/blog/2025-10-31-building-bulletproof-rtl-design-systems-the-complete-guide-to-bidirectional-excellence/",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "Bidirectional design systems: mirror-vs-not-mirror checklist, logical properties, component-by-component RTL breakdown."
-    },
-    {
-      "title": "RTL Is Not a Mirror Toggle: A Practical Checklist for Multilingual Web Tools",
-      "url": "http://dev.to/korelyy/rtl-is-not-a-mirror-toggle-a-practical-checklist-for-multilingual-web-tools-209d",
-      "category": "patterns",
-      "type": "article",
-      "accessed": "2026-10-23",
-      "notes": "RTL checklist: logical CSS properties, mirror navigation not meaning, progress and carousel direction behavior."
-    }
-  ]
+ "version": "0.1.0",
+ "updated": "2026-10-24",
+ "sources": [
+  {
+   "title": "Design trends overview for 2026",
+   "url": "https://www.uxpin.com/studio/blog/ui-ux-design-trends/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Trend directions: conversational interfaces, adaptive personalisation, functional motion, spatial interfaces, design tokens, inclusive design."
+  },
+  {
+   "title": "Interface design trend roundup for 2026",
+   "url": "https://www.sanjaydey.com/ui-ux-design-trends-2026/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Trend directions: personalised interfaces, modular grid layouts, accessibility-first systems, voice and multimodal input, purposeful micro-interactions."
+  },
+  {
+   "title": "Frontend design patterns overview",
+   "url": "https://www.netguru.com/blog/frontend-design-patterns",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Component-driven structure, grid for page structure and flexible rows for components, container queries, fluid type, dark theme via variables."
+  },
+  {
+   "title": "Component library listing",
+   "url": "http://Resource.fyi/category/ui-libraries",
+   "category": "resources",
+   "type": "listing",
+   "accessed": "2026-10-21",
+   "notes": "Shortlist of free, maintained component libraries by use case."
+  },
+  {
+   "title": "Responsive landing page construction",
+   "url": "https://reintech.io/blog/creating-a-responsive-landing-page-with-css",
+   "category": "layouts",
+   "type": "tutorial",
+   "accessed": "2026-10-21",
+   "notes": "Fluid type with clamp, grid with auto-fit and minmax, mobile-first breakpoints."
+  },
+  {
+   "title": "Commerce landing page practices",
+   "url": "https://constructor.com/blog/ecommerce-landing-page-best-practices-with-examples",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Trust elements, clear calls to action, multiple product views, mobile-first layout."
+  },
+  {
+   "title": "October 2026 component release: step trace and code block",
+   "url": "https://ui.shadcn.com/docs/changelog/2026-10-ai-elements",
+   "category": "primitives",
+   "type": "release-notes",
+   "accessed": "2026-10-21",
+   "notes": "New primitives: a step-trace list for automated task runs (icon, title, description, status per line; running, error, pending states; expandable and nested lines) and a code block for code, terminal output, logs, and diffs (header with actions, line numbers, wrapping, highlighted lines)."
+  },
+  {
+   "title": "Overlay composition update: trigger wrappers, sheet positions, dialog parts",
+   "url": "https://intentui.com/blog/release-v4",
+   "category": "primitives",
+   "type": "release-notes",
+   "accessed": "2026-10-21",
+   "notes": "Overlay pattern: trigger wrapper manages the interaction, a control opens it, and the component renders the content. Sheets choose the opening edge by position; drawers and modals are unified under sheet and dialog with header, body, footer, and close parts."
+  },
+  {
+   "title": "Streaming interface rendering: 1.0 release notes and version analysis",
+   "url": "https://ibl.ai/blog/openui-lang-1-0-what-shipped-version-coupling",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Interface programs composed from registered components render progressively as they stream; the registered set controls what can appear; syntax instructions must match the client runtime version; cut-off streams render blank rather than a partial tree."
+  },
+  {
+   "title": "October 2026 release: drag-and-drop form builder component",
+   "url": "https://www.globenewswire.com/news-release/2026/10/07/3376560/0/en/syncfusion-releases-essential-studio-2026-volume-3.html",
+   "category": "primitives",
+   "type": "release-notes",
+   "accessed": "2026-10-21",
+   "notes": "New web component: a drag-and-drop form designer with more than 20 built-in form components, available across multiple web frameworks. Pattern: a field palette feeds a canvas; settings sit beside the selected field; a live preview precedes saving."
+  },
+  {
+   "title": "App UI kit changelog: October 2026 carousel focus and layering fixes",
+   "url": "https://www.canva.dev/docs/apps/app-ui-kit/changelog/",
+   "category": "states",
+   "type": "release-notes",
+   "accessed": "2026-10-21",
+   "notes": "A carousel scroll button returns focus to the pressed button after scrolling completes; paging never moves keyboard focus outside the carousel; styles use cascade layers where the browser supports them with a fallback otherwise."
+  },
+  {
+   "title": "October 2026 component release: Markdown content block",
+   "url": "https://www.stimulsoft.com/en/blog/news/stimulsoft-reports-and-dashboards-2026-4-is-now-available",
+   "category": "primitives",
+   "type": "release-notes",
+   "accessed": "2026-10-21",
+   "notes": "New reporting component for rendering Markdown content (headers, lists, tables, images, links, code blocks) with CommonMark 0.31.2 and GFM support; content is editable directly in the component editor."
+  },
+  {
+   "title": "October 2026 changelog: dual-style App UI blocks",
+   "url": "https://pro.reactbits.dev/changelog",
+   "category": "trends",
+   "type": "changelog",
+   "accessed": "2026-10-21",
+   "notes": "Component library update shipping its App UI block set in two complete styles: a precise monochrome default and a roomy, warm, tactile variant (larger controls and rows, raised tiles, inset fields). Styles switch from the theme panel; every block keeps the same layout, data, states, keyboard handling, and motion; blocks install per style with a suffixed name."
+  },
+  {
+   "title": "Web design trend roundup: modular tile layouts and accessibility guardrails",
+   "url": "https://www.netguru.com/blog/modern-web-design-trends",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Modular tile (bento) layouts and barely-there styling: failure modes include poor small-screen collapse and grid reordering breaking reading order for screen readers and keyboard focus; recommended fix is to write the markup in priority order and use named grid areas to rearrange tiles at breakpoints; thin lightweight text risks contrast failures."
+  },
+  {
+   "title": "Design-system motion specification",
+   "url": "https://cloudscape.design/foundation/visual-foundation/motion/",
+   "category": "trends",
+   "type": "documentation",
+   "accessed": "2026-10-21",
+   "notes": "Motion values: 115/165/250 ms durations, responsive/sticky/expressive easing curves, scale for incoming items, slide for structural moves, no flash beyond three per second, reduced-motion honoured, motion tokens for custom components."
+  },
+  {
+   "title": "Design-system release notes, October 2026",
+   "url": "https://designsystem.ontario.ca/docs/documentation/explore/release-notes.html",
+   "category": "primitives",
+   "type": "release-notes",
+   "accessed": "2026-10-21",
+   "notes": "New combobox guidance (design only), refreshed guidance for back button, back-to-top, in-page navigation, links, critical and page alerts, loading indicator, and search box; hotfix correcting broken global styles."
+  },
+  {
+   "title": "Skeleton component changelog v18.0.0",
+   "url": "https://developer.semrush.com/intergalactic/components/skeleton/skeleton-changelog",
+   "category": "states",
+   "type": "changelog",
+   "accessed": "2026-10-21",
+   "notes": "Breaking theme change (default/invert only); chart placeholders moved to masks with theme-dependent colours."
+  },
+  {
+   "title": "Standards-body design system update, September 2026",
+   "url": "https://www.w3.org/blog/2026/whats-new-in-the-w3c-design-system-september-2026/",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "CSS reset replaced, typography rebuilt around a new type scale, simplified space management, wrapper elements removed to simplify page markup."
+  },
+  {
+   "title": "Agent-to-UI interface playbook",
+   "url": "https://www.aisquadx.tech/blog/ai-agent-ux-design-playbook-2026",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Streaming-rendered interfaces in conversational surfaces; agent-mediated purchase pattern; reversibility-tiered approval gates (free/confirm/gate); calibrated confidence states with source citations."
+  },
+  {
+   "title": "Voice interface design guide, 2026",
+   "url": "https://fuselabcreative.com/voice-user-interface-design-guide-2026/",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Voice as a first-class control surface: one-breath steps with per-step confirmation, about three spoken options at a time, repair paths asking only for the missing piece, barge-in support, multimodal pairing of voice summary with screen detail."
+  },
+  {
+   "title": "Ecommerce checkout optimisation guide, 2026",
+   "url": "https://www.digitalapplied.com/blog/ecommerce-checkout-optimization-2026-ux-guide",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Checkout variants: one-page for low-cost impulse purchases, multi-step with total step count for high-cost purchases; running order total visible, instalment options under the total, guest and wallet-accelerated checkout, explicit payment-retry states."
+  },
+  {
+   "title": "Multi-surface app guide",
+   "url": "https://www.synergylabs.co/blog/beyond-the-screen-the-2026-guide-to-building-multi-surface-apps-for-mobile-and-spatial-computing",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Anticipatory design across surfaces: task continuity (start on watch, continue on phone, finish in spatial); navigation migrates bottom bar to side rail; components morph from terse to detailed; companion-app pattern for spatial sessions."
+  },
+  {
+   "title": "Foldable app UI considerations",
+   "url": "https://zignuts.com/blog/what-should-you-consider-for-developing-foldable-apps",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Canonical foldable layouts (list-detail, supporting pane, feed); design for postures (closed, half-open, fully open, tent); fold treated as a seam; warm transitions with exact scroll and focus restoration; critical elements kept away from the hinge."
+  },
+  {
+   "title": "Micro-interaction examples and skeleton screens",
+   "url": "https://enstacked.com/best-micro-interactions-examples/",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Skeleton screens replace spinners; stream long output progressively; name the steps of longer operations; optimistic updates with quiet revert on failure; inline validation on blur."
+  },
+  {
+   "title": "UI and UX trends shaping 2026",
+   "url": "https://www.orizon.co/blog/10-ui-ux-trends-that-will-shape-2026",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Post-dashboard narrative interfaces (synthesis, what-changed reports); adaptive interfaces reordering in real time; calm interfaces; ultra-contextual navigation that shrinks itself."
+  },
+  {
+   "title": "UI and UX design trends (slug reads 2025, content covers 2026)",
+   "url": "https://unicoconnect.com/blogs/ui-ux-design-trends-2025",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Conversational layer beside a conventional interface: route each request to words, to the right screen, or to both; the handoff is the design challenge."
+  },
+  {
+   "title": "Wearable app complete guide",
+   "url": "https://weelorum.com/wp-content/themes/weelorum-theme/assets/pdf/generated-web/Wearable-App-Complete-Guide.pdf",
+   "category": "interfaces",
+   "type": "guide",
+   "accessed": "2026-10-21",
+   "notes": "Glance layouts: 3-5 second interactions, single most important datum, no scrolling, rotational input as primary scroll, separate ambient and active display states."
+  },
+  {
+   "title": "SaaS onboarding UX patterns",
+   "url": "https://www.designstudiouiux.com/blog/saas-onboarding-ux/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Onboarding mechanics: interactive checklists with progress indicators, contextual micro-learning, value-first signup, personalisation routing, per-area confirmations."
+  },
+  {
+   "title": "Mixing WebGL and the DOM in a modular UI library",
+   "url": "https://tympanus.net/codrops/2026/10/21/atelier-ui-webgl-dom/",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-21",
+   "notes": "Cursor-reactive media effects (ripple, pixel blocks, lens dispersion) layered over images and video on one shared full-page canvas; real element kept in the DOM at zero opacity for accessibility; per-element opt-out of global effects; per-frame remeasurement only while a transform moves the element."
+  },
+  {
+   "title": "Television interface design guide",
+   "url": "https://uxcel.com/glossary/smart-tv-design",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Focus as the centre of the TV model; shelves of posters as the primary navigation structure; spoken queries preferred over step-through on-screen keyboards; legibility at room distance."
+  },
+  {
+   "title": "Ten-foot user interface overview",
+   "url": "https://en.m.wikipedia.org/wiki/10-foot_user_interface",
+   "category": "layouts",
+   "type": "reference",
+   "accessed": "2026-10-22",
+   "notes": "Directional remote as primary input; grid arrangement so every item has a clear neighbour in each direction; larger type for distance; no pointer; viewing distance expressed in picture heights."
+  },
+  {
+   "title": "Lessons from streaming platform design practice",
+   "url": "https://www.mexc.com/hu-HU/news/lessons-in-tv-platform-design-from-a-streaming-industry-insider/76977",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Focus as the new tap; scaling-plus-colour focus indicators; simplified information architecture for remote navigation; complex flows handed to a second device via codes; ten-foot rule for type size."
+  },
+  {
+   "title": "Voice menu accessibility patterns",
+   "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o6p04-voice-menus/",
+   "category": "trends",
+   "type": "reference",
+   "accessed": "2026-10-22",
+   "notes": "Tapered prompts that grow more explanatory on silence; adjustable timeouts and speech speed as user settings; error recovery that offers human help rather than a harder menu; plain jargon-free terms."
+  },
+  {
+   "title": "Voice interface design principles",
+   "url": "https://www.resourcifi.com/insights/voice-ui-design/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Short responses; consistent interruption handling; diagnosis-led error recovery; signifiers for discoverability; structured alternatives for comparison-heavy tasks; confirmation before irreversible tool actions."
+  },
+  {
+   "title": "Gesture-based UI design essentials",
+   "url": "https://www.numberanalytics.com/blog/gesture-based-ui-design-essentials",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Small consistent gesture sets with one meaning per gesture; thresholds against accidental activation; immediate recognition feedback; spatial metaphors matching expectations; easy undo of accidental gestures."
+  },
+  {
+   "title": "Accessible gesture interaction",
+   "url": "https://www.numberanalytics.com/blog/gesture-based-interaction-essentials-universal-design",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Simple learnable gestures; consistent feedback; error guidance and recovery; ergonomic comfort for repeated use; alternative input methods for essential tasks."
+  },
+  {
+   "title": "React component library release notes 2.14.0",
+   "url": "https://aiidelist.com/blog/what-is-kumo-ui-cloudflare-react-design-system",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "New component set: a control for entering and removing collections of free-form values; a compact copy control for identifiers and values in dense interfaces; a dialog with responsive behaviour including mobile drawer support and dismissal handling."
+  },
+  {
+   "title": "Empty-state design for usually-absent content",
+   "url": "https://dev.to/evanmercerdev/designing-the-empty-state-when-the-thing-users-want-usually-isnt-there-314a",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Three kinds of empty: nothing yet and expected, nothing because of a limit, nothing because of failure; each needs different wording and next step; model status explicitly instead of inferring from item count."
+  },
+  {
+   "title": "Strategic value of empty states",
+   "url": "https://medium.com/@junaidmaniyar/the-most-expensive-screen-you-arent-designing-the-strategic-power-of-empty-states-5d923c01a6ea",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Empty-state types: first-time experiences, natural empty states, search failures, system errors; messaging pivots on whether the user, the system, or the lack of data is responsible."
+  },
+  {
+   "title": "AI surface patterns: inline, agents, ambient",
+   "url": "https://www.forasoft.com/blog/article/ui-ux-2024-good-bad-ai-driven",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Three patterns beyond chatbots: inline AI as a verb on the existing surface, agents and copilots with human-in-the-loop confirmation, ambient OS-level assistance; voice affordances: live transcript, confidence state, obvious correction path."
+  },
+  {
+   "title": "Onboarding default-state pitfalls",
+   "url": "https://humbleteam-agency.medium.com/the-quickest-way-to-ruin-onboarding-wrong-default-state-558eed4ab37a",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Wrong defaults act as silent errors; detect device language, prefill region with a correction affordance, no default for sensitive fields, explain why a field is asked, progressive disclosure one question at a time."
+  },
+  {
+   "title": "Emerging web design trends for 2026",
+   "url": "http://bubble.io/blog/web-design-trends/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Emerging: machine-experience design - structure pages so automated agents read and complete tasks accurately; failure mode is markup order not matching visual order. Also notes barely-there UI restraint (single typeface, low-opacity hairlines, whitespace-based structure) and bento grids."
+  },
+  {
+   "url": "https://e2ip.com/wp-content/uploads/2024/03/Product-Guidelines-for-Embedded-Systems_E2IP-Technologies.pdf",
+   "title": "Embedded touchscreen HMI product guidelines",
+   "type": "guide",
+   "category": "layouts",
+   "accessed": "2026-10-22",
+   "notes": "Anti-reflection and anti-glare treatments preserve legibility in bright environments; anti-fingerprint coatings lower finger friction and ease cleaning; readability decisions start at the lens and glass layer, weighing cost against optical clarity."
+  },
+  {
+   "url": "https://support.onlogic.com/~gitbook/pdf?page=GnC6WtlUlHvoVUUfzvVv&only=yes&limit=100",
+   "title": "Touchscreen HMI best-practice guide",
+   "type": "guide",
+   "category": "layouts",
+   "accessed": "2026-10-22",
+   "notes": "Prefer single touch for consistency across heterogeneous screens; minimise movement-dependent controls such as swipes and sliders; do not use touchscreens for momentary jog controls since values can get stuck; avoid gesture navigation and on-screen keyboards on resistive screens."
+  },
+  {
+   "url": "https://dev.to/kevinzhang109/industrial-display-panels-a-practical-guide-for-modern-embedded-hmi-systems-1fff",
+   "title": "Industrial display panels: a practical guide for embedded HMI",
+   "type": "article",
+   "category": "layouts",
+   "accessed": "2026-10-22",
+   "notes": "Outdoor and high-ambient panels commonly need 800-1500+ nits, paired with reflection control; capacitive suits modern multi-touch, resistive suits gloves, stylus, and harsh conditions; common industrial panels run 7-10 in at 1024x600 to 1280x800."
+  },
+  {
+   "url": "https://www.goodtouchlight.com/how-to-choose-e-paper-eink-display-module.html",
+   "title": "E-paper display module selection guide",
+   "type": "article",
+   "category": "layouts",
+   "accessed": "2026-10-22",
+   "notes": "E-paper refreshes on the order of seconds with a visible full-refresh flash: unsuitable for video, moving cursors, or fast charts; partial refresh is a controller capability to specify early; readable in sunlight with no backlight; small panels suit single-value readouts, large panels documents and drawings."
+  },
+  {
+   "url": "https://cursa.app/en/page/touch-targets-gestures-and-interaction-feedback",
+   "title": "Touch targets, gestures and interaction feedback",
+   "type": "guide",
+   "category": "interfaces",
+   "accessed": "2026-10-22",
+   "notes": "Discoverability cues: drag handles, peeking adjacent pages, chevrons, one-time contextual coach marks, redundant visible controls; progressive disclosure reveals swipe actions as the swipe begins; direction locking once movement passes a small threshold (about 8 px separates tap from drag; about 24 px begins revealing actions)."
+  },
+  {
+   "url": "https://digitalaccessibilitytraining.org/ark/article/35",
+   "title": "Gestures and digital accessibility guidance",
+   "type": "guide",
+   "category": "interfaces",
+   "accessed": "2026-10-22",
+   "notes": "Functions operable by multipoint or path-based gestures must also be operable with a single pointer unless the gesture is essential; commit on the up-event and allow abort or undo; targets at least 44x44 CSS px; do not restrict content to a single input modality."
+  },
+  {
+   "url": "https://www.ux-bulletin.com/spatial-information-architecture/",
+   "title": "Spatial information architecture for AR and VR",
+   "type": "article",
+   "category": "interfaces",
+   "accessed": "2026-10-22",
+   "notes": "Three depth models: flat (one plane for dashboards), deep (nested rooms for guided focus), layered (near/mid/far for context plus detail); place primary actions closer for focal order via depth contrast; keep a home zone at body-centre height; use gaze rays with timeouts and audio beacons for off-screen targets."
+  },
+  {
+   "url": "https://www.interaction-design.org/literature/article/spatial-ui-design-tips-and-best-practices?srsltid=AfmBOoorQaLVR0uiZMBxTAEc_RTcQ_DMHC5uv2VfLezMrOmoGcN_tCMT",
+   "title": "Spatial UI design tips and best practices",
+   "type": "article",
+   "category": "interfaces",
+   "accessed": "2026-10-22",
+   "notes": "Content distance between about 1.25 m and 5 m: closer invades personal space and risks collisions, farther is hard to read; keep content in the central field of view and never fully obscure the environment; anchor animation and audio triggers to viewing distance."
+  },
+  {
+   "url": "https://www.irurueta.com/ai/voice-agents/turn-taking-and-interruptions.html",
+   "title": "Voice agents: turn-taking and interruption design",
+   "type": "guide",
+   "category": "trends",
+   "accessed": "2026-10-22",
+   "notes": "Every conversational state needs its own timeout: re-prompt once on silence, then offer keypad input, then end politely; barge-in target around 300 ms from speech start to stopped output; backchannel words do not count as interruptions; set explicit loop limits with safe transfer or end."
+  },
+  {
+   "url": "https://www.institutepm.com/knowledge-hub/agentic-ai-ux-patterns",
+   "title": "Agentic AI UX patterns",
+   "type": "article",
+   "category": "trends",
+   "accessed": "2026-10-22",
+   "notes": "Rollback is first-class: one-click undo for every reversible agent action; failures state exactly what failed and why; partial completion shows per-step status, never presented as full success or failure; trust gradient: preview mode, then supervised, then autonomous only after repeated success."
+  },
+  {
+   "url": "https://undercodenews.com/mola-ui-just-updated-v030-adds-ai-approval-workflows-citation-cards-and-run-recovery-video/",
+   "title": "Design system update: approval workflows, citation cards, run recovery",
+   "type": "article",
+   "category": "primitives",
+   "accessed": "2026-10-22",
+   "notes": "An October 2026 design-system release for assistant-style interfaces added approval-workflow support so proposed agent actions are presented for human review, citation cards that place evidence beside system answers, and run recovery for interrupted multi-step tasks. The citation card is the substantive new primitive; approval handling is already covered in the agentic-ux trend note."
+  },
+  {
+   "title": "Weekly Reading List October 19 2026",
+   "url": "https://reading-lists.kc.vispero.com/2026/10/19/weekly-reading-list-october-19-2026/",
+   "category": "trends",
+   "type": "reading-list",
+   "accessed": "2026-10-22",
+   "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+  },
+  {
+   "title": "Design Trends That Will Influence Extensions in 2026",
+   "url": "https://www.wiredlabz.com/article/design-trends-that-will-influence-extensions-in-2026",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+  },
+  {
+   "title": "Validation gate for generated interface trees",
+   "url": "https://dev.to/bobbyhalljr/your-model-just-invented-a-form-build-a-tiny-ui-component-gate-in-typescript-h80",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Author-side gate: check a generated interface tree against the registered component set before rendering; invented components and unapproved form destinations are caught at authoring time; keep the check cheap enough to run on every tree."
+  },
+  {
+   "title": "Design tools and UI component libraries for designers and developers, October 2026",
+   "url": "https://www.somewhatcreative.net/design/whats-new-for-designers-developers-october-2026/",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Action-state grouping: one typed, accessible component that holds the visual states of an interface action (idle, loading, success) and transitions between them, removing scattered icon and label logic across the codebase."
+  },
+  {
+   "title": "WCAG 2.2 Target Size: What Teams Should Test",
+   "url": "https://iaapaudit.medium.com/wcag-2-2-target-size-what-teams-should-test-f734e761f161",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Target-size audit guidance: separate the 44 px aspiration from the 24 px requirement; an actionable finding names page, viewport, target, clickable dimensions, nearby controls, exception analysis, and user consequence; remediation enlarges the hit area, increases spacing, or changes the shared component; retest after the change ships, including responsive states."
+  },
+  {
+   "title": "Interop 2026 announcement: focus areas",
+   "url": "https://web.dev/blog/interop-2026",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "2026 cross-browser focus areas relevant to interface patterns: anchor positioning, scroll-driven animations, view transitions (incl. cross-document), dialog/popover additions (closedby, popover=hint), container style queries, contrast-color()."
+  },
+  {
+   "title": "Loading states and skeleton screens in Figma",
+   "url": "https://justfigma.com/designing-loading-states-and-skeleton-screens-in-figma/",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Skeleton loading rules: 1-10s window for skeletons, match final layout box for box, replace each placeholder as content arrives, never show empty state during fetch, aria-busy/aria-live announcements, static reduced-motion variant, readable skeleton contrast."
+  },
+  {
+   "title": "Television interface design tips",
+   "url": "https://norigintech.medium.com/10-tips-for-ui-ux-design-on-smart-tv-e372eaf98091",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Type minimums on TV (~12sp minimum, 18sp default; ~24pt practical floor at 3m), light text on dark backgrounds, short scannable copy, safe margins, remote input planning per variant."
+  },
+  {
+   "title": "TV style guidelines (platform documentation)",
+   "url": "https://spot.pcc.edu/~mgoodman/developer.android.com/preview/tv/design/style.html",
+   "category": "layouts",
+   "type": "docs",
+   "accessed": "2026-10-22",
+   "notes": "10-foot UI style rules: focus visibility, type scale, colour and contrast handling on television panels."
+  },
+  {
+   "title": "TV layout guidelines (platform documentation)",
+   "url": "https://spot.pcc.edu/~mgoodman/developer.android.com/preview/tv/ui/layouts.html",
+   "category": "layouts",
+   "type": "docs",
+   "accessed": "2026-10-22",
+   "notes": "Television layout composition: shelves, hero rows, section bars, playback screens and input handling."
+  },
+  {
+   "title": "Television interface best practices",
+   "url": "https://www.uxstudioteam.com/ux-blog/best-practices-for-designing-tv-interfaces",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Best practices: focus memory, text-entry avoidance, second-device handoff for complex flows, performance on constrained hardware."
+  },
+  {
+   "title": "Designing a 10-foot interface",
+   "url": "https://pascalpotvin.medium.com/designing-a-10ft-ui-ae2ca0da08b7",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "10-foot UI rules: viewing distance variance, type legibility at distance, focus indicators, safe areas."
+  },
+  {
+   "title": "Rethinking interface design for the TV platform",
+   "url": "https://www.toptal.com/designers/ui/tv-ui-design",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "TV platform design: overscan-safe margins (~5%), centre-weighted gaze, near-white (#f1f1f1) to reduce flicker, avoid pure white and over-saturated reds."
+  },
+  {
+   "title": "Window size classes",
+   "url": "https://developer.android.com/develop/ui/views/layout/use-window-size-classes",
+   "category": "layouts",
+   "type": "docs",
+   "accessed": "2026-10-22",
+   "notes": "Standardised width bands: compact <600dp, medium 600-840dp, expanded 840-1200dp; layout changes follow bands, not device names."
+  },
+  {
+   "title": "Two-pane layout guidance",
+   "url": "https://developer.android.com/develop/ui/views/layout/twopane",
+   "category": "layouts",
+   "type": "docs",
+   "accessed": "2026-10-22",
+   "notes": "List-detail two-pane threshold at ~600dp width; supporting-pane splits (~70/30 expanded, ~50/50 medium, stacked or bottom-sheet at compact)."
+  },
+  {
+   "title": "Foldable states and postures",
+   "url": "https://developer.android.com/develop/ui/compose/layouts/adaptive/foldables/learn-about-foldables?authuser=1",
+   "category": "layouts",
+   "type": "docs",
+   "accessed": "2026-10-22",
+   "notes": "Foldable postures: flat behaves like a tablet; tabletop posture splits viewing and controls; book posture keeps content clear of the crease; never place interactive elements across the fold; preserve in-progress state across fold changes."
+  },
+  {
+   "title": "Canonical layouts overview",
+   "url": "https://androindian.com/canonical-layouts/",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Canonical adaptive layouts: list-detail, feed, supporting pane; navigation switches with width class (bottom nav, rail, permanent drawer)."
+  },
+  {
+   "title": "Designing for tiny wearable screens",
+   "url": "https://weareaffective.com/learning-centre/how-do-you-design-user-interfaces-for-tiny-wearable-screens",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Wearable constraints: 2-5 second task window, one primary item per screen, multi-tap tasks move to the phone app, haptic confirmation."
+  },
+  {
+   "title": "Designing for a small smartwatch screen",
+   "url": "https://weareaffective.com/learning-centre/how-do-i-design-for-such-a-small-smartwatch-screen",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Small-screen rules: 38-48dp targets spaced 8pt apart, full-screen swipe navigation, rotating crown as primary scroll mechanism."
+  },
+  {
+   "title": "Wearable app information architecture principles",
+   "url": "https://weareaffective.com/learning-centre/what-are-the-key-principles-of-wearable-app-information-architecture",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Wearable IA: glanceable tiles are non-scrollable, ambient/always-on simplified state, dark interfaces for battery, minimal background work."
+  },
+  {
+   "title": "Tiles (wearable design documentation)",
+   "url": "https://developer.android.com/training/wearables/tiles?hl=en&authuser=6",
+   "category": "interfaces",
+   "type": "docs",
+   "accessed": "2026-10-22",
+   "notes": "Glanceable information surfaces: non-scrollable tiles, single glance reading, tap leads to detail on another surface."
+  },
+  {
+   "title": "Apps (wearable design documentation)",
+   "url": "https://developer.android.com/training/wearables/apps?hl=en&authuser=7",
+   "category": "interfaces",
+   "type": "docs",
+   "accessed": "2026-10-22",
+   "notes": "Wearable app structure: long-press for context menus, edge gestures, round-display margins (round offers ~22% less usable space than square)."
+  },
+  {
+   "title": "Design for wearables (platform documentation)",
+   "url": "https://developer.android.com/design/ui/wear/guides/get-started/design-for-wearables",
+   "category": "interfaces",
+   "type": "docs",
+   "accessed": "2026-10-22",
+   "notes": "Wearable design entry: glanceability as structural constraint, input modalities, ambient vs active states."
+  },
+  {
+   "title": "E-paper display vs LCD comparison",
+   "url": "https://www.seeedstudio.com/blog/2025/11/18/e-ink-display-vs-lcd/",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "E-paper is reflective and bistable: image persists with zero power, energy only during refreshes; sunlight-readable, no glow in the dark."
+  },
+  {
+   "title": "E-paper vs e-ink differences",
+   "url": "https://www.quora.com/What-are-the-differences-between-e-paper-and-e-ink-displays",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "E-paper characteristics: update intervals of minutes to hours are normal; unsuitable for video, smooth animation, rapid scrolling (~1Hz typical refresh)."
+  },
+  {
+   "title": "E-paper ghosting explained",
+   "url": "https://viwoods.com/blogs/paper-tablet/e-ink-ghosting-explained",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Ghosting from repeated partial updates; periodic full refreshes clear residue; redraw only changed regions between full refreshes."
+  },
+  {
+   "title": "E-paper display optimisation notes",
+   "url": "https://deepwiki.com/crizmo/KAnki/4.4-e-ink-display-optimization",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "E-paper optimisation: fixed-height static layouts, high-contrast black-on-white styling, debounced inputs against input lag."
+  },
+  {
+   "title": "E-paper display management (refresh logic)",
+   "url": "https://deepwiki.com/woaidouya123/kindleCalendar/5.2-e-ink-display-management",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Refresh scheduling for e-paper: partial updates for changed regions, scheduled full refreshes that briefly flash the display."
+  },
+  {
+   "title": "Hero section patterns and conversion examples",
+   "url": "https://www.webanatomy.ai/best-landing-pages/sections/hero",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Outcome-first heroes: named audience, measurable outcome headline, one primary action, proof point before first scroll, product shown in motion."
+  },
+  {
+   "title": "Landing page conversion tips and form friction benchmarks",
+   "url": "https://funnelish.com/blog/6-tips-to-follow-for-an-effective-landing-page",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Form friction: three-field lead forms vs nine-field drop-off; multi-step forms beat a single wall of fields; section order mirrors the decision."
+  },
+  {
+   "title": "Hero layout patterns and when-to-use table",
+   "url": "https://www.fatcowwebdesign.com/how-to-design-a-hero-section-that-converts-layout-patterns-and-examples/",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Hero variants: left-text/right-visual, centred text over image, embedded form in hero; social proof placed where doubt appears, adjacent to actions."
+  },
+  {
+   "title": "Passwordless design: autofill passkey sign-in",
+   "url": "http://dev.to/khriztianmoreno/the-passwordless-future-an-engineering-guide-to-replacing-passwords-201l",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Highest-converting passkey UX puts passkeys in the username autofill dropdown via conditional mediation; no standalone sign-in-with-passkey button."
+  },
+  {
+   "title": "Passkey UX patterns: fallback chain, QR handoff, enrollment",
+   "url": "https://mojoauth.com/blog/passkey-ux-patterns-drive-adoption",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Fallback chain (passkey, app push, email magic link, email OTP, SMS last); visible fallbacks; one-time enrollment prompt; QR cross-device handoff needs context first; credential management page with rename and revoke."
+  },
+  {
+   "title": "Settings page UI guide: layout types and edit patterns",
+   "url": "https://www.eleken.co/blog-posts/settings-page-ui",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Sidebar/list navigation beats icon grids; edit chrome follows stakes: inline for low-stakes, modal where focus is warranted, confirmation for destructive actions."
+  },
+  {
+   "title": "Settings search design and zero-result logging",
+   "url": "https://medium.com/design-bootcamp/the-settings-page-is-where-most-products-go-to-die-a-quick-guide-to-fix-5de850448c53",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Settings search heuristic: 20+ fields warrants search; match user synonyms; results state section and current value; zero-result searches logged as research."
+  },
+  {
+   "title": "Dangerous actions: danger zone pattern",
+   "url": "https://www.smashingmagazine.com/2024/09/how-manage-dangerous-actions-user-interfaces/?s=09",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Danger zone: grouped irreversible actions at the bottom, visually distinct; state the effect before commit; require extra effort (re-entry, type-to-confirm) since page access is not proof of identity."
+  },
+  {
+   "title": "Comparison tables as decision machines",
+   "url": "https://www.uxtigers.com/post/comparison-tables",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Differences-only toggle hiding identical rows; gentle winner marking with shading plus text cue (never colour alone); computed deltas; explicit metric direction."
+  },
+  {
+   "title": "Pricing page optimisation: cards vs matrix",
+   "url": "http://theartistevolution.com/blog/pricing-pages-optimization/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Tier-card discipline: 3-4 columns, plain audience labels, 'everything in the previous tier plus' summaries, sticky plan labels and decision row, annual saving spelled out."
+  },
+  {
+   "title": "Mobile permission timing and two-stage flow",
+   "url": "https://www.dogtownmedia.com/the-ask-when-and-how-to-request-mobile-app-permissions-camera-location-contacts/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Two-stage permission flow: custom pre-permission screen stating concrete value, system dialog only after positive response; never ask on first launch; one permission at a time; graceful denial with route to settings."
+  },
+  {
+   "title": "Search UI design: no-results recovery",
+   "url": "https://www.setproduct.com/blog/search-ui-design",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Ordered no-results recovery: spelling suggestion, broaden scope, removable carried filters, create action; echo the exact query+filter combination; never silently clear."
+  },
+  {
+   "title": "SaaS empty search: keep filters visible",
+   "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Keep query and filters visible on empty results; echo what matched nothing; label each widening action by what it changes."
+  },
+  {
+   "title": "Website search design best practices 2026",
+   "url": "https://www.alfdesigngroup.com/post/best-practices-for-website-search-design",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Search/filter handoff: search narrows by intent, filters by attribute; mirrored chips; single reset clears filters but keeps query; facet panels with live result counts."
+  },
+  {
+   "title": "Headless component libraries compared",
+   "url": "https://www.webcodingcenter.com/react/the-react-library-ecosystem--headless-component-libraries.html",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "2026 norm is headless behaviour-only primitives: focus management, keyboard maps, roles and states, portals, collision-aware positioning, unstyled elements with data-state attributes; behaviour is the durable half."
+  },
+  {
+   "title": "Enterprise component suite 2026 volume 3 release",
+   "url": "https://www.manilatimes.net/2026/10/07/tmt-newswire/globenewswire/syncfusion-releases-essential-studio-2026-volume-3/2440965/amp",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Enterprise release: drag-and-drop form builder with 20+ built-in form components; date-field rebuild with per-part keyboard entry and opt-in confirmation for the calendar popover."
+  },
+  {
+   "title": "Design system update notes, February-March 2026",
+   "url": "https://sanomalearning.design/categories/whats-new/",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Design-system update: date-field accessibility rebuild, callout promotion, new tokens (sub-size icons, highlight backgrounds, raised-surface elevation)."
+  },
+  {
+   "title": "Data-table changelog 2026",
+   "url": "https://developer.semrush.com/intergalactic/table-group/data-table/data-table-changelog",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Data-table refinements: cell-level actions, grouped loading per section, expanded rows aligned to the visible viewport, sticky-header and fixed-column alignment fixes."
+  },
+  {
+   "title": "Barge-in benchmark write-up",
+   "url": "http://dev.to/kenimo49/barge-in-is-the-voice-agent-feature-nobody-benchmarks-i-added-it-and-lost-120ms-4o7m",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Interruption budget: users forgive ~600ms to answer but not ~600ms of continued speech after being cut off; +120ms on the interruption path reads as rudeness; target 200-300ms stop pipeline."
+  },
+  {
+   "title": "Full-duplex voice architecture",
+   "url": "https://medium.com/@abhi.pandey03/barge-in-and-full-duplex-the-architecture-that-makes-voice-agents-feel-human-48ef1b7b7fa6",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Stop-mid-sentence pipeline: detect user speech, stop audio, cancel in-progress generation, re-enter listening; learned turn-taking lands end-of-turn around 200-250ms."
+  },
+  {
+   "title": "Voice user interfaces in 2026",
+   "url": "https://zignuts.com/blog/voice-user-interfaces",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "2026 voice interfaces fuse speech with visual context, gestures and camera input; confirmations via haptic pulses and spatial audio; voice layered into real workflows with visual context."
+  },
+  {
+   "title": "Conversational design guide 2026",
+   "url": "https://botpress.com/blog/conversation-design",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Turn-taking rhythm: chunked responses, intentional pauses; error recovery by rephrase, tappable options, or handoff; spoken fallbacks in voice-only contexts, never buttons alone."
+  },
+  {
+   "title": "Spatial computing lesson: field of view and depth zones",
+   "url": "https://uxcel.com/lessons/spatial-computing-for-visionos-376",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Comfort zones: primary zone ~40-degree cone around centre gaze, secondary 20-40 degrees off-axis; placement height 1.2-1.5m; arm's length for detailed work, 1-3m for viewing, beyond 3m ambient only."
+  },
+  {
+   "title": "VR interface design guide",
+   "url": "https://medium.com/@atnoforarvrdeveloper/the-complete-guide-to-designing-ui-in-vr-layout-typography-color-and-depth-59a6fab98bea",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "VR layout ergonomics: flat panels for precision data and forms, curved panels for panoramic dashboards with radius matched to focal distance (2-3m); never force upward neck tilt beyond ~15 degrees."
+  },
+  {
+   "title": "Adding XR to existing apps",
+   "url": "https://developer.android.com/develop/xr/jetpack-xr-sdk/add-xr-to-existing?hl=en&authuser=8",
+   "category": "trends",
+   "type": "docs",
+   "accessed": "2026-10-22",
+   "notes": "2D apps run as 2D panels inside 3D space; spatial dialogs fall back to standard 2D dialogs; capability tiers per component with documented fallbacks."
+  },
+  {
+   "title": "Multi-window spatial layout SDK",
+   "url": "https://www.callstack.com/blog/multi-window-react-native-apps-with-the-meta-vr-layout-sdk?ref=uploadvr.com",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Multi-window spatial systems cap promoted panels with per-window fallback modes (inline vs drop) and priority ordering when slots run out."
+  },
+  {
+   "title": "Interface trends 2026: spatial glass interfaces",
+   "url": "https://fireart.studio/blog/latest-ui-ux-design-trends/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Translucent multi-layer panels are the 2026 spatial look; legibility testing to WCAG AA minimum on translucent backgrounds; user toggle to high-contrast opaque; blur costs frame rate and battery."
+  },
+  {
+   "title": "From UX to task-doing experience: six trust patterns",
+   "url": "https://www.pixelmojo.io/blogs/from-ux-to-ax-design-when-ai-becomes-coworker",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Six trust patterns across the action lifecycle: intent preview, autonomy dial, explainable rationale, confidence signal, action audit and undo, escalation pathway."
+  },
+  {
+   "title": "Interface design for automated assistants",
+   "url": "https://fuselabcreative.com/ui-design-for-ai-agents/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Orchestration surface: editable plan steps, tool-use disclosure at the decision moment, visible memory corrections; post-action receipts summarising changes, systems touched, assumptions, and what can still be undone."
+  },
+  {
+   "title": "Intent-based experience: orchestration surface",
+   "url": "https://www.uxtigers.com/post/intent-ux",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Intent UX: full orchestration surface for multi-step high-stakes tasks, lighter disclosure for low-stakes single steps; plan visibility and approval granularity."
+  },
+  {
+   "title": "CSS-only scroll-driven animations",
+   "url": "https://webmaker.app/blog/css-only-scroll-progress-bar-2026/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Scroll timeline API is cross-browser: animations tied to scroll position without scripts; reduced-motion handling: swap movement for calm, ship a deliberate final static state per effect."
+  },
+  {
+   "title": "Scroll-driven CSS carousels in 2026",
+   "url": "https://www.sitepoint.com/scrolldriven-css-in-2026-building-carousels-without-javascript/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Full carousels in pure CSS (scroll-snap, scroll markers, view timelines) with @supports fallbacks to plain scroll containers; accessibility guards."
+  },
+  {
+   "title": "Website animation guidance: layout-shift costs",
+   "url": "https://matchboxdesigngroup.com/blog/website-animations-whats-the-difference-between-delightful-and-distracting/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Animate only transform and opacity (GPU-accelerated); never width/height; layout-shifting animations feed cumulative layout shift; reduced-motion safety net keeps essential feedback."
+  },
+  {
+   "title": "Web design principles 2026",
+   "url": "https://www.fallingbrick.co.uk/web-design-principles/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Scroll-driven motion replacing parallax; visible pause-animation controls; keep the fade, drop the travel; small contained motion retained."
+  },
+  {
+   "title": "What's new for developers? (October 2026)",
+   "url": "https://developer.wordpress.org/news/2026/10/whats-new-for-developers-october-2026/",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Platform UI kit: popups default to the anchor's width; new checkbox, radio group, and switch controls."
+  },
+  {
+   "title": "Support Simplification | Cognitive Accessibility Design Pattern",
+   "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o8p03-complexity/",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-10-22",
+   "notes": "Cognitive-accessibility design pattern published 2026-10-21: support content simplification (simplified reading view, fewer essential features only, data-simplification attribute for personalization, simplification toolbar or alternative version); source for the simplified-view pattern in catalog/patterns.md."
+  },
+  {
+   "title": "UX for Wearables in 2026: Beyond the Small Screen",
+   "url": "https://think.design/blog/wearables-ux-smartwatch-ui-design-development/",
+   "category": "wearable design",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Micro-tasks, glance windows, and power-aware motion for watch screens"
+  },
+  {
+   "title": "Design quality tiers for watch screens",
+   "url": "https://developer.android.com/design/ui/wear/guides/foundations/quality-tiers",
+   "category": "wearable design",
+   "type": "standard",
+   "accessed": "2026-10-22",
+   "notes": "Percentage margins and scaling rules for round versus square watch screens"
+  },
+  {
+   "title": "Round Display Applications for Smart Badges and Wearables",
+   "url": "https://www.panoxdisplay.com/application/round-display-applications-in-smart-badges.html",
+   "category": "wearable design",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Circular layout conventions: centre for key data, rings and arcs for progress"
+  },
+  {
+   "title": "Spatial UI Design: Tips and Best Practices",
+   "url": "https://www.interaction-design.org/literature/article/spatial-ui-design-tips-and-best-practices?srsltid=AfmBOor3_aDKeaUNj7JtFGWLTNng6av6x9pjXRLrE24W4xp1bf3YFezP",
+   "category": "spatial design",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Comfort band around 1.25-5 m and central-field placement guidance"
+  },
+  {
+   "title": "Spatial Computing: A New Paradigm of Interaction",
+   "url": "https://www.uxmatters.com/mt/archives/2024/02/spatial-computing-a-new-paradigm-of-interaction.php",
+   "category": "spatial design",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Proxemic zones (intimate, personal, social) applied to content placement"
+  },
+  {
+   "title": "10 Tips for UI/UX Design on Smart TV",
+   "url": "https://noriginmedia.com/10-tips-for-ui-ux-design-on-smart-tv/",
+   "category": "television design",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Ten-foot rule, directional-pad-first navigation, and safe-zone margins"
+  },
+  {
+   "title": "10 beginner tips for designing TV streaming apps",
+   "url": "https://www.redspace.com/stories/10-beginner-tips-for-designing-tv-streaming-apps",
+   "category": "television design",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Safe zones, broadcast luminance range, dark backgrounds, row and column navigation"
+  },
+  {
+   "title": "Design App Permission Requests Users Actually Grant",
+   "url": "https://137foundry.com/articles/app-permission-requests-users-actually-grant",
+   "category": "permission design",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Moving permission asks out of onboarding into the moment of use"
+  },
+  {
+   "title": "Permissions - Patterns",
+   "url": "https://m1.material.io/patterns/permissions.html",
+   "category": "permission design",
+   "type": "standard",
+   "accessed": "2026-10-22",
+   "notes": "Request patterns: up-front for critical, in-context for secondary, educate before asking"
+  },
+  {
+   "title": "Error state UX design: what to show when a request fails",
+   "url": "https://adamarant.com/en/blog/error-state-ux-design-what-to-show-when-a-request-fails",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Failure groups by next action; offline queuing rule"
+  },
+  {
+   "title": "Understanding Button States in UI Design",
+   "url": "https://www.figma.com/resource-library/button-states/",
+   "category": "states",
+   "type": "tutorial",
+   "accessed": "2026-10-22",
+   "notes": "Idle, loading, success, and error grouping; spinner versus progress indicator; error recovery"
+  },
+  {
+   "title": "10 UX Patterns That Drive 80%+ Passkey Adoption",
+   "url": "https://dev.to/mojoauth/10-ux-patterns-that-drive-80-passkey-adoption-with-real-examples-4fpe",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Passkey-first UI, visible fallback chains, cross-device QR labelling, repeated-prompt abandonment"
+  },
+  {
+   "title": "How Smart Defaults Reduce Form Errors",
+   "url": "https://www.reform.app/blog/how-smart-defaults-reduce-form-errors",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Location, popular, and behavioural defaults; editability and validation rules"
+  },
+  {
+   "title": "Before Your Voice Assistant Answers a Real Call, Run This Launch Review",
+   "url": "https://dev.to/isabelle_dubuis_d858453d7/before-your-voice-ai-answers-a-real-call-run-this-12-gate-launch-review-1kjn",
+   "category": "conversational",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Mandatory automation disclosure before collection; never claim human; re-disclosure on transfer"
+  },
+  {
+   "title": "Table Design UX Guide",
+   "url": "https://www.eleken.co/blog-posts/table-design-ux",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Row-action grouping under one menu; icon declutter rules"
+  },
+  {
+   "title": "Material 3 Expressive: what changes in Figma",
+   "url": "https://imasters.com/design-ux/material-3-expressive-changes-motion-and-color-tokens-what-to-review-in-figma",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Expressive shape morphing as component token; reduced-motion must disable physics intensity, not just duration"
+  },
+  {
+   "title": "Web design trends 2026 that improve usability",
+   "url": "https://statusisup.com/wiki/web-design-trends-2026/",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-22",
+   "notes": "Accessibility-first direction: keyboard focus must not be hidden by author-created content; dragging needs a simple pointer alternative; 24 px pointer target minimum."
+  },
+  {
+   "title": "Data table UI design reference guide for 2026",
+   "url": "https://www.setproduct.com/blog/data-table-ui-design",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Four responsive table strategies: horizontal scroll with frozen column, card transformation, column dropping by priority, priority-plus disclosure; selection rule is which columns a person cannot decide without"
+  },
+  {
+   "title": "Fix columns of a MatTable and DataTable: complete guide for 2026",
+   "url": "https://copyprogramming.com/howto/fixed-columns-in-datatable",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Sticky positioning preferred over fixed for frozen columns; corner-cell overlap ordering; stacked card layout via data-label attributes for compact screens"
+  },
+  {
+   "title": "B2B SaaS Growth: Onboarding and time-to-value (2026)",
+   "url": "https://resources.rework.com/fr/libraries/saas-growth/onboarding-time-to-value",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Goal setting for contextual onboarding paths; one-click setup, progress indicators, skip where not necessary, smart defaults; guided first action toward the aha moment"
+  },
+  {
+   "title": "Onboarding UX best strategies for seamless journeys",
+   "url": "https://procreator.design/blog/learn-onboarding-ux-best-strategies/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Progressive disclosure of signup steps; value before account; lead with a success action; default content or templates to reach value fast"
+  },
+  {
+   "title": "Why most in-app onboarding fails (and how to fix it in 2026)",
+   "url": "https://userpilot.com/blog/in-app-onboarding/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Mechanism-agnostic onboarding: checklist, contextual guidance, prefilled workspace; items must map to outcome events, not a feature tour; one signup question routes what follows"
+  },
+  {
+   "title": "Drag-and-drop menus in 2026: mouse, touch, and accessibility",
+   "url": "https://copyprogramming.com/howto/draggable-drop-down-menu-in-a-website-display-menu-elements-by-touchslide",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Drag as progressive enhancement over a keyboard-usable menu; unified pointer handling; semantic navigation; reorder alternatives that do not require dragging"
+  },
+  {
+   "title": "Keyboard navigation patterns every developer should know",
+   "url": "https://medium.com/@muhammadusmanreal1/keyboard-navigation-patterns-every-developer-should-know-78a27801a67d",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Menu keyboard models: tab to each item for flat nav, arrow-key navigation inside menubar composites; roving tab index; escape returns focus to the trigger"
+  },
+  {
+   "title": "Component library changelog: theme resolution and accessible-label translations",
+   "url": "https://maz-ui.com/changelog",
+   "category": "states",
+   "type": "changelog",
+   "accessed": "2026-10-23",
+   "notes": "October 2026: automatic color mode follows the live system preference on every reload; configured theme preset authoritative over stale cookie; aria.* translation namespace for accessible labels across components."
+  },
+  {
+   "title": "Developer's guide to interface internationalization (2026)",
+   "url": "https://intlpull.com/blog/complete-developers-guide-to-internationalization-2026",
+   "category": "primitives",
+   "type": "guide",
+   "accessed": "2026-10-23",
+   "notes": "Locale-specific formatting for dates, numbers, currency, time; right-to-left layout mirroring via logical CSS properties and the dir attribute; runtime language switching without restart."
+  },
+  {
+   "title": "Bidirectionality usability guidance",
+   "url": "https://m1.material.io/usability/bidirectionality.html",
+   "category": "primitives",
+   "type": "guideline",
+   "accessed": "2026-10-23",
+   "notes": "RTL mirroring rules: layouts flip, directional icons mirror, text keeps its own language direction; not mirrored: numbers, charts and graphs, non-directional icons, media playback controls and progress direction."
+  },
+  {
+   "title": "UI card design: grid layouts, spacing and density (2026)",
+   "url": "https://www.alfdesigngroup.com/post/best-practices-to-design-ui-cards-for-your-website",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Card grid density by breakpoint: fewer columns when each choice is a decision, more for browsing; 12-16px minimum gutter floor; density trades breathing room for comparability; infinite scroll vs pagination vs load-more for long grids."
+  },
+  {
+   "title": "Realizing common layouts using CSS grid",
+   "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids",
+   "category": "trends",
+   "type": "reference",
+   "accessed": "2026-10-23",
+   "notes": "Flexible card grids via repeat(auto-fit, minmax()); spanning tiles backfill gaps with grid-auto-flow: dense only when items have no set order, since display order then diverges from source and tab order."
+  },
+  {
+   "title": "Accessible data visualizations",
+   "url": "https://accessibility.ua.edu/accessibilityresources/accessible-data-visualizations/",
+   "category": "patterns",
+   "type": "guideline",
+   "accessed": "2026-10-23",
+   "notes": "Charts highlight trends and outliers while tables carry precise values; descriptive takeaway titles, text alternatives with key insights, colour never alone, keyboard and screen-reader compatible, underlying data offered as a table."
+  },
+  {
+   "title": "Command-palette usability guidance",
+   "url": "https://mockitt.com/en/guide/command-palette-ux.html",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Stable selection while results update; no broad fuzzy match above the intended costly action; show scope with the name."
+  },
+  {
+   "title": "SaaS command-palette and search UX patterns",
+   "url": "https://www.saasui.design/blog/saas-search-command-palette-ux-patterns",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Command-palette pattern: autofocus, subsequence matching, grouped typed results, recents in the empty state; typeahead per-row context; search-health metrics."
+  },
+  {
+   "title": "Command-palette UI design guide and teardowns",
+   "url": "https://www.setproduct.com/blog/command-palette-ui-design-guide",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Palette as teaching surface for shortcuts; frecency-ranked recents; grouping by result type."
+  },
+  {
+   "title": "Notification UX: urgency-to-pattern mapping",
+   "url": "https://foundey.com/blog/notification-ux",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Urgency scale mapped to pattern and channel; notification debt from high-urgency patterns on low-urgency events."
+  },
+  {
+   "title": "SaaS notification and toast UX patterns",
+   "url": "https://www.saasui.design/blog/saas-notification-toast-ux-patterns",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Nothing critical only in a toast; disruption level decides inline alert vs toast vs banner vs modal."
+  },
+  {
+   "title": "Offline-first frontend apps: local store and background sync",
+   "url": "https://blog.logrocket.com/offline-first-frontend-apps-2025-indexeddb-sqlite/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Local store as source of truth; durable mutation queue with identifiers and attempt counts; background-sync replay with fallbacks."
+  },
+  {
+   "title": "Frontend system design: offline support and progressive web apps",
+   "url": "https://dev.to/zeeshanali0704/frontend-system-design-offline-support-and-progressive-web-apps-pwas-4k8m",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Granular sync states: syncing, local changes pending, stale; optimistic updates marked pending; visible sync status with retry."
+  },
+  {
+   "title": "Upload UI components: chunking and resumable uploads",
+   "url": "https://blog.filestack.com/upload-ui-components-drag-drop-progress-preview/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Per-file queue items with progress and retry; chunked resumable uploads; accurate progress after interruption."
+  },
+  {
+   "title": "Automotive HMI design: glance budgets and essential functions",
+   "url": "https://www.apriorit.com/dev-blog/how-to-design-automotive-hmi-system",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Two-second glance and twelve-second task budgets; physical controls for essential functions; voice for secondary tasks."
+  },
+  {
+   "title": "HMI design principles for automotive interfaces",
+   "url": "https://www.aufaitux.com/blog/hmi-design-principles-automotive-ux/",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Contextual minimalism and progressive disclosure by driving conditions; adaptive interfaces over show-everything."
+  },
+  {
+   "title": "Web Awesome vs Shoelace: web-component library succession",
+   "url": "https://blog.fontawesome.com/how-does-web-awesome-stack-up-against-shoelace/",
+   "category": "resources",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Successor web-components library: component count, colour palettes, cascade layers, SSR support, commercial additions."
+  },
+  {
+   "title": "Component library direction 2026: unstyled primitives and data components",
+   "url": "https://mui.com/blog/2026-and-beyond/",
+   "category": "resources",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Stable unstyled-primitives layer with token theming; number-field control; data-line grid-chart integration and server-side pivoting."
+  },
+  {
+   "title": "Reduced-motion fixes: informational versus decorative animation",
+   "url": "https://dev.to/parsajiravand/youre-animating-for-everyone-prefers-reduced-motion-fixes-that-2ond",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Informational motion keeps moving; decorative motion gated behind a no-preference check so it fails closed to static."
+  },
+  {
+   "title": "Focus indicators: contrast, forced colours, and obscured focus",
+   "url": "https://www.levelaccess.com/blog/focus-indicators-wcag-requirements-and-best-practices/",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "3:1 non-text contrast for focus indicators; outline in system colours for forced-colours mode; focus not obscured by fixed chrome."
+  },
+  {
+   "title": "Glass-mode theming handbook",
+   "url": "https://www.patternfly.org/foundations-and-styles/theming/glass-mode-handbook/",
+   "category": "trends",
+   "type": "guideline",
+   "accessed": "2026-10-23",
+   "notes": "Never layer glass containers; glass disables under high-contrast mode; default opacities treated as accessibility-tested values."
+  },
+  {
+   "title": "Introducing the Accessible Components Library",
+   "url": "https://tetralogical.com/blog/2026/10/14/accessible-components-library/",
+   "category": "resources",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "v1.0.0 release of an accessibility-documented component set (accordion, breadcrumbs, dialog, disclosure, pagination, tabs, text input, textarea); per-component WCAG 2.2 success-criteria mapping, test scenarios, assistive-technology compatibility notes, and usability recommendations beyond the standard."
+  },
+  {
+   "title": "Beyond border-radius: what the CSS corner-shape property unlocks for everyday UI",
+   "url": "https://www.smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Native CSS geometric shape control: corner-shape presets (bevel, notch, scoop, squircle) available in Chromium, border-shape and shape() function in the borders/shapes specifications; practical guidance for progressive enhancement with rectangular fallbacks."
+  },
+  {
+   "title": "Driving-task interface design principles",
+   "url": "https://docs.partner.android.com/drivingux/foundations/design-principles?authuser=09",
+   "category": "layouts",
+   "type": "documentation",
+   "accessed": "2026-10-23",
+   "notes": "Two-second glance budget with 0.25 s input response; one-handed gestures; 76x76 dp targets with 23 dp spacing; 32/24 dp text; day/night modes; distraction suppression while moving; interruption and resumption of non-driving tasks."
+  },
+  {
+   "title": "Automotive glance budgets and interaction economics",
+   "url": "https://www.anoda.mobi/ux-blog/future-car-dashboard-ui-trends-design-user-experience",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Glance budget of about 2 s per glance and 12 s per task; design for glances not taps with one question answered per glance; stable information positions; physical controls required for essential functions; shallow fast touch flows can outperform button-heavy ones."
+  },
+  {
+   "title": "Self-service kiosk UX checklist",
+   "url": "https://www.avixa.org/explore/articles/kiosk-ux-ui-design-checklist",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "One task per screen with always-visible back, home, and cancel controls; 9-12 mm touch targets; error recovery without staff help; timeout warnings with countdown and one-tap session reset; 15-48 inch control reach; offline fallback; multilingual entry points."
+  },
+  {
+   "title": "Accessibility requirements for self-service terminals",
+   "url": "https://wcagc.com/blog/eaa-self-service-terminals",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "The accessibility entry point must itself be usable without vision; multi-sense time-limit alerts with extension; 800-1600 mm placement bounds; printed information also available through speech; speech output, tactile keys, and headset support need hands-on testing with speech-output users."
+  },
+  {
+   "title": "Map interaction patterns",
+   "url": "https://mapuipatterns.com/category/interacting-with-the-map/",
+   "category": "patterns",
+   "type": "reference",
+   "accessed": "2026-10-23",
+   "notes": "MapTip hover notes; visited markers mirroring visited links; small multiples for comparing change over time; peel-back swipe to reveal the layer underneath; info pop-up for short detail versus info panel for long or interactive content; rich markers with a key metric."
+  },
+  {
+   "title": "Chat and messaging interface patterns",
+   "url": "https://www.uxpin.com/studio/blog/chat-user-interface-design/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Element set: multi-line input, visible send, distinguished bubbles, grouped timestamps, typing and read indicators; errors belong on the failed message bubble with inline resend; offline messages queue and send on reconnect; capabilities stated up front; quick actions and suggested prompts; streamed responses with a stop option; live-region announcements."
+  },
+  {
+   "title": "Infinite scroll versus pagination",
+   "url": "https://www.thealien.design/insights/infinite-scroll-vs-pagination",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Infinite scroll for exploratory browsing, pagination for goal-oriented tasks; pagination gives structure, sense of place, and reliable back-button behaviour; load-more button as the safe default; infinite scroll needs loading indicators, place-restoring URL updates, back-to-top, live-region announcements, and a paginated fallback for crawlers."
+  },
+  {
+   "title": "Multi-step process design: wizards and stepped flows",
+   "url": "https://timgraf.com/ux-design/the-ux-of-multi-step-processes-a-practical-guide-to-designing-wizards-stepped-flows-and-multi-page-tasks-users-actually-complete/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Total step count shown up front; completed/current/future steps distinctly marked with future steps visible but non-interactive; short specific step labels; vertical stepper on narrow screens; contextual forward labels; data-preserving back; save-and-resume for flows longer than a few minutes."
+  },
+  {
+   "title": "Dashboard design principles",
+   "url": "https://www.setproduct.com/blog/effective-dashboard-design-principles",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Three-slot key-figure tiles (number, delta with direction, comparison window); colour encodes meaning only with grayscale readability; roughly 3:1 density ratio between primary and secondary zones; always-visible removable filter chips; update cadence matched to the decision cycle with a stated last-updated time."
+  },
+  {
+   "title": "Date picker design: anatomy to accessibility",
+   "url": "https://www.setproduct.com/blog/date-picker-ui-design",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Lightest control for the intent: typed field, picker, or full calendar; ranges as their own pattern with two-month view and hover preview; seven mutually-distinguishable day-cell states; typed entry as a first-class path; full keyboard contract with focus management and announced day cells."
+  },
+  {
+   "title": "Date and time picker patterns for reporting and scheduling tools",
+   "url": "https://www.saasui.design/blog/saas-date-time-picker-ux-patterns",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Each intent gets its own control (single date, date-and-time with timezone, linked range, relative/recurring); time values state timezone unambiguously; presets put common intents one tap away; unavailable dates are unpickable and explained in place; ranges commit explicitly."
+  },
+  {
+   "title": "APCA: the perceptual contrast algorithm",
+   "url": "https://www.colorcontrast.org/blog/what-is-apca/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Lightness-contrast score roughly 0-120 replacing fixed ratios; polarity-aware with size and weight factored in; proposed thresholds near 90 body, 75 large/bold, 60 floor, 45 non-text; practical stance: keep the 2.x AA baseline and test new palettes against both systems."
+  },
+  {
+   "title": "Dark mode design rules",
+   "url": "https://www.fallingbrick.co.uk/dark-mode-design/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Dark greys not pure black, off-white not pure white; typography adjustments (weight, size, line height, spacing); elevation by lighter surface tones instead of shadows; redesigned accents; semantic token contract across themes; system preference default with user override; 200-300 ms switch honouring reduced motion; test on OLED, LCD, and e-ink."
+  },
+  {
+   "title": "UI/UX Design Trends 2026: 10 Verdicts for Product Teams",
+   "url": "https://fuselabcreative.com/ui-ux-design-trends-2026-modern-ui-trends-ux-trends-guide/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Translucent materials acceptable on navigation and controls, risky on text/number-dense content screens: contrast shifts as content scrolls beneath; keep translucency out of the content layer and honour reduce-transparency and increase-contrast settings."
+  },
+  {
+   "title": "Inside a Design System That Teaches Automated Tooling What It Is Not Allowed to Change",
+   "url": "https://www.analyticsinsight.net/artificial-intelligence/inside-a-design-system-that-teaches-ai-what-it-is-not-allowed-to-change?utm_source=website&utm_medium=related-stories",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Components carry machine-readable metadata marking required safety controls versus removable convenience; automated assembly may rearrange and restyle but cannot delete a protected check. Accessibility rules written in machine-readable form travel with the component."
+  },
+  {
+   "title": "Design Systems in October 2026: Built for Machines. Still Governed by Humans.",
+   "url": "https://medium.com/@lex.konovalov/design-systems-in-october-2026-built-for-machines-still-governed-by-humans-6fc02a45e755",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Empty-state evolution: interfaces pre-populating from available context before the user acts, replacing a static blank empty screen; suggestions must stay visually distinct from real items and remain dismissible, never stored as user data."
+  },
+  {
+   "title": "12 UI/UX Design Trends for AI Apps (2026 + Examples)",
+   "url": "https://www.groovyweb.co/blog/ui-ux-design-trends-ai-apps-2026",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
+  },
+  {
+   "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
+   "url": "https://medium.com/@leannacerise8495/the-empty-state-is-your-best-growth-surface-and-nobody-designs-it-4cb628a70d01",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Worked-example empty states: a pre-filled sample marked as an example with an adopt action; faded preview of the populated state where sampling is impossible."
+  },
+  {
+   "title": "UX for AI Agents: Designing Interfaces That Machines Use",
+   "url": "https://www.asadqi.com/ux-for-ai-agents-designing-interfaces-that-machines-not-humans-use-1epa/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Machine-facing UX: structured content, API-first design, machine-readable docs, predictable error schemas, performance."
+  },
+  {
+   "title": "Agent-First Design Paradigms: Adapting UX for AI as a New User",
+   "url": "https://beanmachine.dev/agent-first-design-paradigms/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Agent-first patterns: semantic markup, agent-mode shadow views, verification checkpoints for high-risk actions."
+  },
+  {
+   "title": "Agent Experience First Design (AXFD): Designing Systems for a Non-Human User",
+   "url": "https://di-zhang-llm.github.io/blog/agent-experience-first-design-axfd-designing-systems-for-a-non-human-user/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "AXFD principles: contract-first APIs, typed failures with retryable hints and partial results, idempotent re-entrant operations, checkpoints, observability."
+  },
+  {
+   "title": "Machine Experience (MX): Designing For AI Agents In 2026",
+   "url": "https://inkbotdesign.com/machine-experience/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Agentic UX by intent: informational (extractable facts), navigational (site maps), commercial (comparison tables), transactional (agent-ready forms)."
+  },
+  {
+   "title": "Agentic UX: Designing Interfaces for AI Agents, Not Humans",
+   "url": "https://standardbeagle.com/agentic-ux-designing-interfaces-for-agents/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Invisible UX: schemas and APIs as the interface, label consistency as usability, agent-decision traceability."
+  },
+  {
+   "title": "Design Systems for AI Agents",
+   "url": "https://www.headway.io/blog/design-systems-for-ai-agents",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Agent-ready design systems: machine-readable tokens, documented component APIs, design-to-code parity."
+  },
+  {
+   "title": "Building Bulletproof RTL Design Systems",
+   "url": "https://design-code.tips/blog/2025-10-31-building-bulletproof-rtl-design-systems-the-complete-guide-to-bidirectional-excellence/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Bidirectional design systems: mirror-vs-not-mirror checklist, logical properties, component-by-component RTL breakdown."
+  },
+  {
+   "title": "RTL Is Not a Mirror Toggle: A Practical Checklist for Multilingual Web Tools",
+   "url": "http://dev.to/korelyy/rtl-is-not-a-mirror-toggle-a-practical-checklist-for-multilingual-web-tools-209d",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "RTL checklist: logical CSS properties, mirror navigation not meaning, progress and carousel direction behavior."
+  },
+  {
+   "title": "GOV.UK Design System: what's new (Frontend v6.6.0, October 2026)",
+   "url": "https://design-system.service.gov.uk/community/whats-new/",
+   "category": "resources",
+   "type": "release-notes",
+   "accessed": "2026-10-23",
+   "notes": "Frontend v6.6.0 refines the character count component; new component lifecycle statuses: new components (Feedback, Language navigation) release as 'Trial' while usage guidance is gathered."
+  },
+  {
+   "title": "UI Trends 2026 vs 2027: What Stays, What Goes, What to Fix",
+   "url": "https://medium.com/design-bootcamp/the-ui-trends-that-survive-2027-and-the-ones-ai-killed-bc2d0d41e706",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-10-23",
+   "notes": "Late-October 2026 trend survey: the interface that assembles itself at runtime is the year's biggest shift; design intent must be written down explicitly where the assembler can read it, otherwise the result is the median default. Also covers platform visual-language sliders and the fading of unchosen defaults."
+  },
+  {
+   "title": "Tiled payment-method checkout layout",
+   "url": "https://malakye.com/news/brand/common-thread-collective/shopifys-new-checkout-payment-layout-is-live-what-every-ecommerce-brand-needs/14917",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-24",
+   "notes": "Payment-method selection moves from a vertical list to a tiled grid for four or fewer methods, applied automatically at platform level starting late October 2026; five or more methods keep the list view. Tiles make methods easier to scan at a glance ahead of peak-season traffic."
+  }
+ ]
 }
