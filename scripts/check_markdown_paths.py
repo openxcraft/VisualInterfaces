@@ -12,8 +12,7 @@ PATH_SUFFIXES = {
     ".jsx", ".py", ".yml", ".yaml", ".toml", ".rs", ".txt", ".sh", ".svg",
     ".png", ".jpg", ".jpeg", ".webp", ".lock", ".sql", ".xml",
 }
-INLINE_CODE = re.compile(r"(?<!`)`([^`
-]+)`(?!`)")
+INLINE_CODE = re.compile(r"(?<!`)`([^`]+)`(?!`)")
 
 def without_fenced_code(text: str) -> str:
     """Remove fenced code blocks so examples are not treated as path references."""
