@@ -7,6 +7,286 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: new Bypass link row in
+  `catalog/patterns.md` — first-focusable link, visible on
+  focus, that moves focus (not just the view) to the main
+  content or to a task-specific target such as a checkout
+  form, with a visible focus indicator landing on the target.
+
+- Patterns catalogue: new Review prompt row in
+  `catalog/patterns.md` — ask only after a clear success moment
+  and repeated value, never on first launch, during a task, during
+  payment, or after an error; use the system review prompt where
+  one exists, never gate a feature behind a rating or reward one,
+  suppress the prompt while a support issue is open, treat a
+  suppressed prompt as a declined opportunity, and keep a quiet
+  manual review route in settings or about.
+
+- Patterns catalogue: new Inline editing row in
+  `catalog/patterns.md` — single-value low-risk changes inline,
+  multi-field or high-stakes edits in a dedicated surface,
+  keyboard contract for entering, committing, and cancelling
+  edits, validation that keeps the editor open with a named
+  problem, and announced edit-mode transitions with a visible
+  focus indicator on the live cell.
+
+- Patterns catalogue: new In-product help row in
+  `catalog/patterns.md` — one help entry reachable from every
+  screen, suggestions following the current screen and task,
+  in-place search that preserves entered input, answer-first
+  single-task articles, escalation carrying task context when
+  search finds nothing, and per-article feedback marking weak
+  articles for rewrite.
+
+- Patterns catalogue: new Share link row in
+  `catalog/patterns.md` — access scope and expiry stated before
+  sharing, named access as the default for sensitive items,
+  confirmed copy state with a manual fallback on failure,
+  expired or revoked links explained with a request-access path,
+  and one-step revocation where access is named.
+
+- Patterns catalogue: new Second-factor sign-in row in
+  `catalog/patterns.md` — strongest method first with all methods
+  listed plainly, full paste support for codes, resend timer
+  stating the destination, attempt count without revealing
+  failures, an always-visible single-use backup-code path,
+  opt-in trusted-device choice, and enabled only after a code
+  verifies successfully.
+
+- Patterns catalogue: Offline-first sync row in
+  `catalog/patterns.md` extended with two rules — derive
+  the shown sync status from queue progress and real
+  request outcomes rather than from a connectivity signal
+  alone, and restrict optimistic display to reversible
+  edits, keeping actions with lasting consequences marked
+  unconfirmed until the server confirms them and never
+  clearing entered input until the local copy is durable.
+
+- Patterns catalogue: File upload row in
+  `catalog/patterns.md` extended with a reuse-first rule —
+  where a suitable file is already held, offer it as a
+  one-step reuse choice naming the file and its source,
+  with a plain decline-and-upload-different-file path and
+  no silent reuse; a held file that no longer meets the
+  format or recency requirements is flagged before any
+  upload is requested.
+
+- Patterns catalogue: Data table row in
+  `catalog/patterns.md` extended with column customisation —
+  show, hide, and reorder columns to fit the task, the choice
+  persisting across sessions where repeated use is likely,
+  hiding and reordering never relying on drag alone, and
+  resizable columns that expose a value in full rather than
+  leaving it truncated.
+
+- Patterns catalogue: new Session-expiry warning row in
+  `catalog/patterns.md` — plain time-remaining warning that stays
+  visible, never blocks continued work, and is announced to
+  assistive technology; a simple keep-working action that preserves
+  entered input; an idle limit stated separately from an absolute
+  limit that activity cannot extend; entered input saved before
+  expiry and restored on return to the same place or to a saved
+  draft with a clear restore step. Completes roadmap action 23.
+
+- Patterns catalogue: new Data export row in
+  `catalog/patterns.md` — common formats the person can actually
+  open elsewhere, includes and excludes stated before starting,
+  real progress with named stages and a stated download-link
+  lifetime, background running with a status check where leaving
+  does not cancel the export, and a partial failure that names
+  what exported and what did not with a retry for the missing part
+  only, never a silent short file. Completes roadmap action 24.
+
+- Patterns catalogue: new Account deletion row in
+  `catalog/patterns.md` — deletion from the same channel used to
+  sign up, effect stated before confirmation including what is
+  kept and why, an export offered before deletion starts,
+  sign-out everywhere on request, a stated grace period with a
+  plain undo path that restores the account whole, and written
+  confirmation once removal completes. Completes roadmap action 25.
+
+- Resources: 4 new source records (245 total): session-timeout
+  data-loss guidance, session-timeout warning guidance, transfer
+  progress and partial-result guidance, and account-deletion
+  grace-period guidance.
+
+- Patterns catalogue: expanded Paywall and upgrade prompt row in
+  `catalog/patterns.md` — explicit trial offer statement (whether a
+  trial is included, its length, the price that follows, and the
+  first charge date), trial choice kept separate from purchase
+  confirmation so changing a trial cannot silently commit the person
+  to an auto-renewing charge, a visible trial timeline with a
+  reminder before the first charge, and a side-by-side plan
+  comparison in the same price units with the total for the billing
+  period. New source record (241 total): paywall trial-offer
+  guidance.
+
+- Patterns catalogue: expanded Data visualisation row in
+  `catalog/patterns.md` — point-by-point chart explorer mode entered
+  from the plot area, with arrow-key movement between neighbouring
+  data points, keyboard-reachable legend selection, zoom, and search,
+  the focused region kept visible when zoomed, and movement geometry
+  following the chart type (free for scatter plots and maps, along
+  one axis and within series for line, area, and stacked charts,
+  along the horizontal axis only for waterfall, small-multiple, and
+  grouped-column charts). New source record (240 total): keyboard
+  chart-explorer guidance.
+
+- Patterns catalogue: new Conversation branching row in
+  `catalog/patterns.md` — branching from any message with the
+  original thread preserved, intent labels and a branch list or tree,
+  editing or re-requesting creates a branch instead of overwriting
+  history, one-at-a-time walking with side-by-side comparison before
+  carrying content across, and archiving for stalled branches. New
+  source record (239 total): conversation branching guidance.
+
+- Patterns catalogue: new Install prompt row in
+  `catalog/patterns.md` — offer installation of a web app only after
+  engagement (a completed task or a return visit), never on first
+  load, on exit, or repeatedly after a dismissal; a dismissal stays
+  dismissed with a quiet persistent route kept instead, the concrete
+  benefit stated beside a single primary action, manual steps where
+  the platform offers no prompt event, and success confirmed with the
+  prompt hidden once installed. New source record (238 total):
+  progressive web app install-prompt guidance.
+
+- Patterns catalogue: new Undo and trash recovery row in
+  `catalog/patterns.md` — an immediate undo offer after every
+  destructive action restoring the item to its original place, undo
+  alone for easily repeated actions, confirmation plus the trash
+  safety net for wider effects, a stated retention period that is
+  never silently shortened, parent-child restore rules, and a
+  separate permanent-delete step stating exactly what is lost.
+  Completes roadmap action 16. Cross-zone scheduling rules added to
+  the Calendar and scheduling row — organiser and attendee zones
+  stated where they differ, ambiguous or repeated times around zone
+  transitions flagged before booking, recurring events pinned to a
+  named zone with a preview of local-time changes across transitions,
+  and edit scope stated as series zone or local zone. Completes
+  roadmap action 17. Tablet layout: multitasking and split-window
+  rules in `layouts/tablet.md` — a stated primary pane, lossless
+  drag between panes, resize as a continuity event, saved app pairs,
+  and an upfront statement when an app cannot run in a pane.
+  Completes roadmap action 18. Roadmap actions 23-25 added for the
+  next cycles: session-expiry warning, data export, and account
+  deletion. New source records (237 total): reversible-action
+  recovery guidance, cross-timezone scheduling guidance, and tablet
+  split-screen guidance.
+
+- Patterns catalogue: data-table sort-state rules in
+  `catalog/patterns.md` — an unsorted column shows a neutral
+  indicator distinct from ascending and descending, the current
+  direction is visible in the header and announced to assistive
+  technology, multi-column sort states its column order and uses a
+  unique field as the final tie-breaker so paging stays stable,
+  sorting moves to the server once the set exceeds what the client
+  can sort without lag, and the sort survives paging and filtering.
+  Completes roadmap action 19. New source records (234 total):
+  data-table design guidance, accessible form validation and error
+  recovery, contextual onboarding guidance, and empty-state design.
+  Roadmap actions 20-22 added for the next cycles: form validation
+  timing, contextual guidance, and an empty-state static fallback.
+
+- Conversational interfaces trend: voice correction and reconnect
+  rules in `trends/2026/conversational-interfaces.md` — a genuine
+  correction cancels any pending action and is kept as the current
+  instruction with the old answer never resumed, playback after a
+  dropped connection is treated as unknown unless a receipt proves
+  it, and a reconnected request is reconciled before retrying so it
+  never takes effect twice. New source record (230 total): voice
+  turn-taking and recovery guidance.
+
+- Authentication layout: biometric sign-in rules in `layouts/auth.md` —
+  offer biometric sign-in only after a first successful sign-in rather
+  than during registration, treat the operating-system prompt as owned
+  by the system, show the option only where the device can use it,
+  always keep a password or PIN fallback visible, treat dismissal as a
+  return rather than an error, and state the plain cause with a retry
+  on genuine failure. New source record (229 total): biometric
+  authentication sign-in guidance.
+
+- Patterns catalogue: new Keyboard shortcut reference row in
+  `catalog/patterns.md` — a searchable, context-grouped reference
+  reachable from help, searchable by action name and by key, with
+  single-character shortcuts limited to the focused component and
+  always turn-off or remappable, remapping with a conflict warning
+  naming the displaced action and confirmation before replacement, a
+  per-group or full reset, changes that apply at once and persist,
+  and no shortcut ever being the only route to an action.
+  Completes roadmap action 15. New source record
+  (228 total): keyboard shortcut guidance.
+
+- Patterns catalogue: new Multi-device handoff row in
+  `catalog/patterns.md` — continue a task on another device from an
+  explicit resume point offered as a one-tap suggestion, never an
+  automatic takeover, resuming at the exact screen and state, stating
+  plainly what transferred and what did not, falling back to a
+  browser view where the receiving device lacks the app, and
+  resolving both-devices-edited conflicts with the sync-conflict
+  rules. Completes roadmap action 9. New source record
+  (227 total): cross-device task handoff research.
+
+- Patterns catalogue: new Subscription cancellation row in
+  `catalog/patterns.md` — cancel in the same channel used to sign up
+  with a plain label reachable from billing or account settings, the
+  effect stated before confirmation (what ends, when access ends, what
+  happens to saved content, next billing date), pause or a cheaper
+  plan offered beside cancellation rather than as a gate, plain
+  parallel confirmation wording, written confirmation with a resume
+  path kept visible until access ends, and no slower-channel
+  requirement when sign-up was self-serve. New source record
+  (226 total): cancellation-flow research on transparent versus
+  obstructive exit paths.
+
+- Settings layout: scope and save-lifecycle rule in
+  `layouts/settings.md` — each setting states whether it applies to
+  the account everywhere, the current device, the current workspace,
+  or a single project, scopes are never mixed inside one group
+  without a label, a change affecting other people is stated before
+  it is applied, and the change lifecycle is shown plainly as
+  pending, confirmed, or failed with a retry that keeps entered
+  values. New source record (225 total): settings page design
+  guidance.
+
+- Patterns catalogue: new Notification digest row in
+  `catalog/patterns.md` — low-urgency updates grouped by thread, type,
+  or time window into a scheduled summary with a period label, every
+  item individually openable with per-item read state, a person-
+  controlled daily, weekly, or no-digest schedule, and a rule never to
+  digest a critical or time-sensitive item. Completes roadmap action 12.
+  New source record (224 total): notification batching and digest
+  strategies.
+
+- Patterns catalogue: new Personalized-content disclosure row in
+  `catalog/patterns.md` — when order, content, or recommendations adapt
+  to the person, the driving signal is stated in plain words at the
+  point of adaptation, the unadapted view is offered beside the adapted
+  one, and the adaptation is reversible by changing the signal or
+  turning it off, with what cannot be changed stated plainly. Completes
+  roadmap action 6. New source record (224 total): transparency and
+  control in adapted content.
+
+- Patterns catalogue: new Calendar and scheduling row in
+  `catalog/patterns.md` — time scale chosen by planning question with
+  context preserved across switches, calendar kept distinct from a date
+  picker, predictable day-click effect, distinct available, pending,
+  booked, and unavailable slot states, context kept with a nearest
+  alternative when a slot becomes unavailable, inspectable recurrence
+  rule with stated edit scope, and per-event timezone labels. New source
+  record (224 total): user-centred scheduling interface guidance.
+
+- Roadmap: three new improvement actions (saved-filter view, version
+  history and restore, keyboard shortcut reference) and a refreshed
+  coverage matrix (notification digest, personalized-content
+  disclosure, and calendar and scheduling promoted to full).
+
+- Television layout: dual-input focus rule in `layouts/tv.md` — when
+  pointer and directional input coexist, pointer movement highlights
+  the element under the pointer without erasing the stored directional
+  focus, scroll containers and overlays respond to both input modes,
+  and returning to directional buttons resumes from the stored focus.
+  New source record (221 total).
+
 - Watch layout: staged disclosure for sensitive notifications in
   `layouts/watch.md` — a generic alert first, with the detail revealed
   only after a deliberate action such as a tap; a wrist raise alone

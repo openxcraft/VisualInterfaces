@@ -25,6 +25,7 @@ Section navigation; grouped form sections; switch and select controls; save acti
 - Group related choices under short headings; one topic per group.
 - Match the edit chrome to the stakes: inline edits for low-stakes changes, modal dialogs where focus or a confirm step is warranted, confirmation dialogs for destructive actions.
 - State the save behaviour in words: either changes apply immediately or a save action is required, never a mix without labels.
+- State the scope of each setting beside its control: whether it applies to the account everywhere, the current device, the current workspace, or a single project; never mix scopes inside one group without a label, and when a change affects other people, say so before it is applied. Show the change lifecycle plainly: pending while it saves, confirmed once saved, and a failure message with a retry that keeps the entered values.
 - Irreversible actions are separated, labelled plainly, and require a confirmation pattern.
 - Search within settings is optional; if present, results link to the exact section.
 - Treat settings search as a design, not a box: roughly more than 20 fields warrants a search bar; match the words people type (synonyms), not internal labels; each result states where the setting lives and its current value; choosing a result opens the section, scrolls to the field, and briefly highlights it with the cursor in place; log zero-result searches as free research.

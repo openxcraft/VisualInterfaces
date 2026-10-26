@@ -110,6 +110,17 @@ and comparisons.
   non-speech sound is recorded as a candidate and the flow resumes from
   the last confirmed-played boundary instead of restarting; stale
   in-progress results are discarded, not spoken.
+- Treat a genuine correction as a full stop, not a pause: when the
+  person corrects the system mid-flow, stop playback, cancel any
+  pending action that has not yet happened, keep the correction as the
+  current instruction, and never resume the old answer.
+- After a dropped connection, treat playback as unknown: never claim
+  the person heard a sentence unless a receipt proves it; if the
+  missing part affects the next action, ask a short confirmation
+  before continuing.
+- Make a reconnected request safe to repeat: reconcile what already
+  happened before retrying, so reconnecting never books, sends, or
+  charges twice for one request.
 
 ## Interruption budget and turn-taking rhythm
 

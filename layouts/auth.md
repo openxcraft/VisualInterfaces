@@ -30,6 +30,11 @@ Identifier field; credential field with show and hide control; primary submit ac
 - Time the passkey enrollment once: repeated enrollment prompts are linked to authentication abandonment; a workable hybrid is first visit via magic link, then one immediate passkey-creation prompt, with return visits authenticating single-tap via autofill.
 - For cross-device sign-in via QR, label the context explicitly ("use your phone to sign in on this new device") before the code appears; a bare code reads as something broken.
 - Offer a credential management page: name each passkey with device metadata, let the person rename and revoke them, and issue one-time recovery codes at setup.
+- Offer device biometric sign-in only after a first successful sign-in, never during registration: the prompt lands once the person already trusts the account, and registration stays short.
+- The operating system owns the biometric prompt; design the timing, framing, and fallback around it rather than building a replacement prompt screen.
+- Show the biometric option only where the device can actually use it; where it cannot, fall back to the other methods without comment.
+- Always keep a password or PIN fallback visible beside the biometric option: face and fingerprint checks fail in poor light, with wet hands, or when sensors miss, and the person must never be stranded.
+- Treat dismissal of the biometric prompt as a return, not an error: show no error message when the person cancels. On a genuine failure, state the plain cause, offer a retry, and keep the fallback beside it.
 
 ## States
 
@@ -50,5 +55,6 @@ Every element and page in this group defines all seven states. Missing states ar
 The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
 
 - [ ] Passkey-first flow, the visible fallback chain, and one-time enrollment are all documented.
+- [ ] Biometric sign-in timing, prompt ownership, fallback, and cancellation handling are documented.
 - [ ] QR cross-device labelling and credential-management rules are present.
 - [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

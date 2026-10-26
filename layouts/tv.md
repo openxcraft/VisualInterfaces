@@ -58,6 +58,11 @@ voice-search entry point beside a step-through on-screen keyboard.
 - Different remotes add pointer, touch-surface, or scroll-wheel behaviour
   on top of the directional pad, so plan navigation per input variant
   rather than assuming a plain directional remote.
+- When pointer and directional input coexist, keep one logical focus:
+  pointer movement highlights the element under the pointer without
+  erasing the stored directional focus; scroll containers and overlays
+  respond to both input modes; returning to directional buttons resumes
+  from the stored focus, never from an unrelated element.
 - Text entry is the weakest point: prefer spoken queries; complex flows such
   as account creation or payment hand off to a second device via a displayed
   code.
