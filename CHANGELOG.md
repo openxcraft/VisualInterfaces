@@ -7,6 +7,40 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: new Saved-item collection row in
+  `catalog/patterns.md` — save with one action, saved state shown
+  wherever the item appears, named collections with rename and
+  delete controls, stated private or shared scope, and a plain
+  statement when the original item changed or was removed, with
+  a nearest available alternative rather than a silent drop or
+  swap. Completes roadmap action 26.
+
+- Patterns catalogue: new Bulk action row in
+  `catalog/patterns.md` — stated scope (page, filtered set, or
+  all matching items) before acting, confirmation summarising
+  action, count, and scope with skipped items named, per-item
+  failures reported separately with cause and retry path, failed
+  items kept selected for retry, whole-batch undo where the
+  action is reversible, and a partial success never reported as
+  a full success. Completes roadmap action 27.
+
+- Patterns catalogue: new Rating and review submission row in
+  `catalog/patterns.md` — structured rating with an optional
+  written review, keyboard-operable steps labelled in words,
+  public and moderated parts stated before submitting, a stated
+  edit window with moderation on edit, reasoned moderation
+  decisions with a revise path, and no gating of core features
+  behind a rating or reward for one. Completes roadmap action 28.
+
+- Resources: 3 new source records (257 total): favourites
+  pattern guidance, bulk-action scope and partial-failure
+  guidance, and content review and rating guidance.
+
+- Roadmap: three new improvement actions (content reporting and
+  blocking, language and locale selection, scheduled action) and
+  a refreshed coverage matrix (saved-item collection, bulk
+  action, and rating and review submission promoted to full).
+
 - Patterns catalogue: new Bypass link row in
   `catalog/patterns.md` — first-focusable link, visible on
   focus, that moves focus (not just the view) to the main

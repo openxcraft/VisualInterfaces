@@ -49,7 +49,7 @@ defined without an example; gap = named but not yet defined.
 | Platform | Web, mobile, tablet, kiosk, television, embedded, wearable, desktop | — | — |
 | Device input | Touch, pointer, keyboard, voice, gesture-only, remote | — | — |
 | Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
-| Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in | — | — |
+| Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in, saved-item collection, bulk action, rating and review submission | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 | Worked examples | Dashboard, mobile navigation, onboarding — each demonstrating the rules it documents with all seven states | — | — |
 | Localization | Right-to-left mirroring rules, what-not-to-mirror list, logical properties, text-expansion budgets, locale-aware date/number/currency formatting and sorting, mixed-direction text | — | — |
@@ -254,6 +254,7 @@ defined without an example; gap = named but not yet defined.
     saved items when the original item changes or is removed —
     cross-checked against the filtering and sorting row. Done when
     the row passes all quality gates.
+    (Implemented this run.)
 27. Add a bulk-action pattern row to `catalog/patterns.md`: state
     the selection scope before acting (page, filtered set, or all
     matching items), summarise the action and its count for
@@ -261,6 +262,7 @@ defined without an example; gap = named but not yet defined.
     successes, and offer an undo for the whole batch where the
     action is reversible — cross-checked against the confirmation
     row. Done when the row passes all quality gates.
+    (Implemented this run.)
 28. Add a rating and review submission pattern row to
     `catalog/patterns.md`: a structured rating with an optional
     written review, an edit window after submission, a plain
@@ -268,6 +270,7 @@ defined without an example; gap = named but not yet defined.
     no gating of core features behind a rating request — cross-checked
     against the confirmation row. Done when the row passes all
     quality gates.
+    (Implemented this run.)
 
 29. Add a help-search recovery rule to the In-product help row in
     `catalog/patterns.md`: when in-product search returns nothing,
@@ -286,7 +289,53 @@ defined without an example; gap = named but not yet defined.
     switch never locks the person out. Done when the rule passes all
     quality gates.
 
+32. Add a content reporting and blocking pattern row to
+    `catalog/patterns.md`: a report action reachable from the
+    item itself, a plain choice of reason, a stated outcome for
+    the reported item and for the reporter, a block control that
+    hides the blocked party everywhere at once, and a review
+    path for a report decided in error — cross-checked against
+    the confirmation row. Done when the row passes all quality
+    gates.
+33. Add a language and locale selection pattern row to
+    `catalog/patterns.md`: language names written in their own
+    language, a stated scope for the choice (current session or
+    saved preference), an immediate preview of the change
+    without losing entered input, and a fallback that never
+    strands the person on a page they cannot read — cross-checked
+    against the internationalization section in
+    `catalog/primitives.md`. Done when the row passes all quality
+    gates.
+34. Add a scheduled action pattern row to `catalog/patterns.md`:
+    an action set for a later time states its scheduled time in
+    plain words, stays editable and cancellable until it runs,
+    confirms once it has run, and reports a missed or failed
+    scheduled run with a retry path rather than silently
+    dropping it — cross-checked against the confirmation row
+    and the draft autosave row. Done when the row passes all
+    quality gates.
+
 ## Review notes
+
+- Completed this review (deep editorial 2026-10-26): new Saved-item
+  collection pattern row in `catalog/patterns.md` (one-action save,
+  saved state wherever the item appears, named collections with
+  rename and delete controls, stated private or shared scope,
+  stale or removed originals stated plainly with a nearest
+  alternative); new Bulk action pattern row (stated scope of page,
+  filtered set, or all matching items, confirmation summarising
+  action, count, and scope, per-item failures named with cause and
+  retry path, whole-batch undo where reversible, partial success
+  never reported as full success); new Rating and review
+  submission pattern row (structured rating with optional written
+  review, keyboard-operable steps labelled in words, public and
+  moderated parts stated before submitting, stated edit window
+  with moderation on edit, reasoned moderation decisions with a
+  revise path, no gating of core features behind a rating).
+  Completes roadmap actions 26, 27, and 28; actions 32, 33, and 34
+  added as follow-ups. Coverage matrix updated with the three new
+  rows. 3 new source records (257 total).
+
 
 - Completed this review (deep editorial 2026-10-25): new In-product
   help pattern row in `catalog/patterns.md` (persistent help entry,
