@@ -49,7 +49,8 @@ defined without an example; gap = named but not yet defined.
 | Platform | Web, mobile, tablet, kiosk, television, embedded, wearable, desktop | — | — |
 | Device input | Touch, pointer, keyboard, voice, gesture-only, remote | — | — |
 | Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
-| Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in, saved-item collection, bulk action, rating and review submission | — | — |
+| Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in, saved-item collection, bulk action, rating and review submission, payment failure recovery, content reporting and blocking, language and locale selection, scheduled action, breadcrumb navigation, annotation and comment thread, theme selection, profile and
+account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 | Worked examples | Dashboard, mobile navigation, onboarding — each demonstrating the rules it documents with all seven states | — | — |
 | Localization | Right-to-left mirroring rules, what-not-to-mirror list, logical properties, text-expansion budgets, locale-aware date/number/currency formatting and sorting, mixed-direction text | — | — |
@@ -297,6 +298,7 @@ defined without an example; gap = named but not yet defined.
     path for a report decided in error — cross-checked against
     the confirmation row. Done when the row passes all quality
     gates.
+    (Implemented this run.)
 33. Add a language and locale selection pattern row to
     `catalog/patterns.md`: language names written in their own
     language, a stated scope for the choice (current session or
@@ -306,6 +308,7 @@ defined without an example; gap = named but not yet defined.
     against the internationalization section in
     `catalog/primitives.md`. Done when the row passes all quality
     gates.
+    (Implemented this run.)
 34. Add a scheduled action pattern row to `catalog/patterns.md`:
     an action set for a later time states its scheduled time in
     plain words, stays editable and cancellable until it runs,
@@ -314,8 +317,298 @@ defined without an example; gap = named but not yet defined.
     dropping it — cross-checked against the confirmation row
     and the draft autosave row. Done when the row passes all
     quality gates.
+    (Implemented this run.)
+35. Add a payment failure recovery pattern row to
+    `catalog/patterns.md`: keep the person in the same checkout
+    with the order intact after a failed payment, state the
+    failure in plain words with an actionable cause where known,
+    offer retry only where it can succeed and another eligible
+    method on the same screen, check the real status before any
+    second attempt so one order is never charged twice, and hold
+    a pending payment with a stated status check rather than
+    showing failure prematurely — cross-checked against the
+    checkout variants in `layouts/ecommerce.md` and the
+    confirmation row. Done when the row passes all quality
+    gates. (Implemented this run.)
+36. Add an annotation and comment thread pattern row to
+    `catalog/patterns.md`: each thread anchored to the specific
+    section, sentence, or element it discusses, with a stated
+    rule for threads whose anchor was deleted or heavily
+    rewritten, reply nesting with a resolve and reopen path,
+    thread visibility following the visibility of the content
+    itself, and an overview listing open and resolved threads —
+    distinct from open action 10 (collaborative editing
+    presence and field locks) and from the chat and messaging
+    row (conversation, not anchored comment). Done when the
+    row passes all quality gates.
+    (Implemented this run.)
+37. Add a what's-new announcement pattern row to
+    `catalog/patterns.md`: grade announcement visibility by
+    impact — minor changes stay in the changelog, workflow
+    changes get a dismissible in-place announcement, and
+    changes that block a task get a prominent once-only notice
+    — with action-oriented wording, a direct route to the new
+    capability, a persistent entry point for later review, and
+    a seen state so a dismissed announcement is never shown
+    again — distinct from onboarding (first use), the
+    notification digest (grouped updates), and the install and
+    review prompts. Done when the row passes all quality
+    gates.
+
+38. Add a breadcrumb navigation pattern row to
+    `catalog/patterns.md`: a trail showing the path from the home
+    view to the current page, each step a working link except the
+    current page, collapse and truncation rules on narrow screens
+    that always keep the home view and the parent step reachable,
+    and a stated rule for when a trail is omitted (single-level
+    pages and task flows where a trail would imply a hierarchy
+    that does not exist) — distinct from the primary navigation
+    row, which moves between top-level sections rather than
+    showing where the current page sits. Done when the row passes
+    all quality gates.
+    (Implemented this run.)
+39. Add an account recovery pattern row to
+    `catalog/patterns.md`: identify the account without revealing
+    whether it exists, verify through a route the person can
+    still reach, let a failed verification fall back to another
+    route rather than locking the account, restore sessions and
+    saved work after recovery, and state plainly what recovery
+    does and does not restore — cross-checked against the
+    second-factor sign-in row and the session-expiry warning row.
+    Done when the row passes all quality gates.
+40. Add a theme selection pattern row to
+    `catalog/patterns.md`: a choice between light, dark, and
+    system-following themes with an immediate preview that loses
+    no entered input, a saved preference that survives visits, a
+    stated rule for what changes when the system theme changes,
+    and a guarantee that text stays readable in every theme —
+    distinct from the token and contrast rules in
+    `trends/2026/dark-mode.md`, which describe how themes are
+    built rather than how the choice is offered. Done when the
+    row passes all quality gates.
+    (Implemented this run.)
+
+41. Add a profile and account menu pattern row to
+    `catalog/patterns.md`: a menu anchored to the current-account
+    trigger listing the account's own actions — view account,
+    open settings, manage sign-in methods, and sign out — with
+    the active account named in text, sign-out kept separate
+    from destructive account actions, and a return to the same
+    place after any menu action that does not leave the task —
+    distinct from the account switcher row, which moves between
+    signed-in accounts, and from the settings layout, which is
+    a full page rather than a menu. Done when the row passes
+    all quality gates.
+    (Implemented this run.)
+42. Add a recently viewed pattern row to `catalog/patterns.md`:
+    a recents list that returns the person to items opened
+    before, with each entry naming the item and when it was
+    last opened, a stated scope for what is remembered, a
+    clear-all control, and a rule for items that no longer
+    exist — distinct from the saved-item collection row, which
+    keeps items the person chose to keep, and from the command
+    palette, which lists recents only as a blank-state shortcut.
+    Done when the row passes all quality gates.
+    (Implemented this run.)
+43. Add an invitation response pattern row to
+    `catalog/patterns.md`: an invitation states what is asked,
+    who sent it, and when it needs an answer, and offers accept,
+    decline, and tentative replies with a stated effect for each;
+    a changed reply updates the organiser and the attendees
+    without creating a duplicate item, and a withdrawn or
+    expired invitation states plainly that it no longer applies
+    — distinct from the calendar and scheduling row, which
+    covers how times are shown across zones. Done when the row
+    passes all quality gates.
+    (Implemented this run.)
+
+44. Add a modal dialog pattern row to `catalog/patterns.md`:
+    a dialog that asks one decision, takes focus on opening and
+    returns it on closing, offers a visible dismiss path besides
+    the decision actions, traps focus only while open, and never
+    nests a second dialog — a second layer of decisions becomes
+    a new view — cross-checked against the no-nesting rule in
+    the layout rules of the same file. Done when the row passes
+    all quality gates.
+    (Implemented this run.)
+45. Add a guest checkout pattern row to `catalog/patterns.md`:
+    completing a purchase without creating an account, with the
+    order and its details preserved if the person later creates
+    an account, a stated difference between guest and signed-in
+    checkout (such as saved details and order history), and no
+    account creation forced mid-checkout — distinct from the
+    checkout variants in `layouts/ecommerce.md`, which describe
+    page shapes rather than the guest path. Done when the row
+    passes all quality gates.
+    (Implemented this run.)
+46. Add a time-zone picker pattern row to `catalog/patterns.md`:
+    a picker that lists zones by place name with the current
+    local time and offset shown for each, searchable by place or
+    zone name, ordered by current time rather than alphabet
+    alone, and stating plainly whether the chosen zone follows
+    clock changes — distinct from the cross-zone scheduling
+    rules, which cover how booked times are shown to attendees.
+    Done when the row passes all quality gates.
+    (Implemented this run.)
+
+47. Add a pull-to-refresh pattern row to `catalog/patterns.md`:
+    a refresh gesture and control for list content, a visible
+    refreshing state that never hides the existing list, a stated
+    result after refresh (new items, no change, or failure with
+    retry), and a keyboard and assistive-technology route that
+    matches the gesture — distinct from the offline-first sync
+    row, which covers queued changes rather than re-reading
+    content. Done when the row passes all quality gates.
+48. Add a file preview pattern row to `catalog/patterns.md`:
+    a preview shown before opening or downloading a file, with
+    the file name, type, and size stated, a readable excerpt or
+    thumbnail where the type allows one, and a plain fallback
+    where no preview exists — distinct from the file upload row,
+    which covers sending files rather than inspecting them.
+    Done when the row passes all quality gates.
+49. Add a search history pattern row to `catalog/patterns.md`:
+    past queries kept as a list the person can re-run, edit, or
+    delete one at a time or all at once, with a stated retention
+    scope — distinct from the recently viewed row, which lists
+    opened items rather than queries, and from the search row,
+    which covers finding content. Done when the row passes all
+    quality gates.
+
+50. Add an accessibility preferences pattern row to
+    `catalog/patterns.md`: text size, bold text, increased
+    contrast, reduced motion, reduced transparency, and captions
+    gathered in one reachable place, each applied at once to a
+    live preview, a stated rule for where a choice follows the
+    system and where it overrides it, a single reset to the
+    starting values, and a saved preference across visits —
+    distinct from theme selection, which chooses colours rather
+    than size, contrast, motion, and captions. Done when the row
+    passes all quality gates. (Implemented this run.)
+51. Add a long-document navigation pattern row to
+    `catalog/patterns.md`: a sticky outline of the page headings
+    with the current section marked in text as well as in shape,
+    jump links that move focus to the section heading, a collapse
+    to a single outline control on narrow screens, and a return
+    to the top that never loses the person's place in a form —
+    distinct from breadcrumb navigation, which shows where the
+    page sits in a hierarchy rather than where the person sits
+    in a long page. Done when the row passes all quality gates.
+52. Add an in-app update prompt pattern row to
+    `catalog/patterns.md`: a flexible prompt that downloads in
+    the background and lets the person keep working, a blocking
+    prompt reserved for versions that can no longer work safely,
+    a stated deferral limit and deadline for the flexible prompt,
+    no prompt during a task or a payment, and a resume step
+    after an interrupted update — distinct from the what's-new
+    announcement row, which reports changes rather than
+    requiring an update. Done when the row passes all quality
+    gates.
 
 ## Review notes
+
+- Completed this review (daily planning 2026-10-27): research
+  pass of 3 searches covering in-app update prompts,
+  accessibility preferences, and long-document navigation; 3 new
+  source records (286 total), URLs copied verbatim from results
+  and deduplicated against the existing set. Three new actions
+  added (50–52), ordered by coverage impact; action 50
+  implemented this run as the Accessibility preferences row in
+  `catalog/patterns.md` (one reachable place for text size,
+  bold text, contrast, motion, transparency, and captions, live
+  preview with no input lost, system-follow versus override
+  stated, single reset, saved across visits). Actions 51 and 52
+  left to the deep cycle. Since the last daily run, the deep
+  cycle completed actions 44, 45, and 46 and added actions 47,
+  48, and 49; those outcomes are already recorded in
+  `CHANGELOG.md`, and the light cycles since then reported no
+  changes.
+
+- Completed this review (deep editorial 2026-10-27): new Modal
+  dialog pattern row in `catalog/patterns.md` (one decision per
+  dialog, focus taken on opening and returned on closing, focus
+  trapped while open, visible dismiss path besides the decision
+  actions, never a nested dialog, full-width sheet on narrow
+  screens); new Guest checkout pattern row (guest path beside
+  sign-in, fulfilment details only before payment, stated
+  difference from signed-in checkout, post-purchase account
+  offer carrying the order into the new account, no forced
+  account step mid-checkout); new Time-zone picker pattern row
+  (zones by place name with current local time and offset,
+  search by place, zone name, or offset, detected zone
+  suggested at the top, clock-change behaviour stated plainly,
+  example time shown beside the person's own time for
+  confirmation). Completes roadmap actions 44, 45, and 46;
+  actions 47, 48, and 49 added as follow-ups. Coverage matrix
+  updated with the three new rows. 3 new source records (282
+  total).
+
+- Completed this review (deep editorial 2026-10-26): new Profile
+  and account menu pattern row in `catalog/patterns.md` (account's
+  own actions only, active account named in text, sign-out kept
+  separate from destructive actions, return to the same place
+  after actions that do not leave the task); new Recently viewed
+  pattern row (newest-first list with last-opened labels, stated
+  scope, clear-all and single-entry removal, in-place notice for
+  items that no longer exist, kept distinct from saved items);
+  new Invitation response pattern row (accept, decline, and
+  tentative replies with a stated effect for each, reply changes
+  updating organiser and attendees without a duplicate item,
+  proposed times kept unconfirmed until accepted, withdrawn or
+  expired invitations stated plainly with no reply actions).
+  Completes roadmap actions 41, 42, and 43; actions 44, 45, and
+  46 added as follow-ups. Coverage matrix updated with the three
+  new rows. 3 new source records (276 total).
+
+- Completed this review (deep editorial 2026-10-26): new
+  Breadcrumb navigation pattern row in `catalog/patterns.md`
+  (home-to-current trail, current page marked in text, middle
+  steps collapsed into an overflow control on narrow screens
+  keeping home and parent reachable, omission rule for
+  single-level pages and task flows); new Annotation and
+  comment thread pattern row (threads anchored to the specific
+  section, sentence, or element, nested replies, resolve
+  without delete, reopen with history, overview of open and
+  resolved threads, outdated-anchor rule keeping quoted text);
+  new Theme selection pattern row (light, dark, and
+  system-following choices, immediate undoable preview with
+  no input lost, saved preference overriding the system theme,
+  contrast checked in every theme). Completes roadmap actions
+  36, 38, and 40; actions 41, 42, and 43 added as follow-ups.
+  Coverage matrix updated with the three new rows. 4 new
+  source records (271 total).
+
+- Completed this review (deep editorial 2026-10-26): new Content
+  reporting and blocking pattern row in `catalog/patterns.md`
+  (report from the item itself, plain reason choice, immediate
+  hide for the reporter, block hiding the blocked party
+  everywhere at once, review path for a decision in error); new
+  Language and locale selection pattern row (names in their own
+  language, no flag standing for a language, stated session or
+  saved scope, same-page switch with input kept, item-by-item
+  fallback that never strands the person); new Scheduled action
+  pattern row (plain-words scheduled time, edit and cancel until
+  the run, content and time edits kept independent, single run
+  confirmation, missed or failed runs reported with a retry
+  path). Completes roadmap actions 32, 33, and 34; actions 38,
+  39, and 40 added as follow-ups. Coverage matrix updated with
+  the three new rows. 3 new source records (265 total).
+
+- Completed this review (daily planning 2026-10-26): research
+  pass of 3 searches covering payment failure recovery,
+  anchored comment threads, and in-product update
+  announcements; 3 new source records (261 total), URLs copied
+  verbatim from results and deduplicated against the existing
+  set. Three new actions added (35–37), ordered by coverage
+  impact; action 35 implemented this run as the Payment failure
+  recovery row in `catalog/patterns.md` (order kept intact in
+  the same checkout, plain-word cause, retry only where it can
+  succeed, another method on the same screen, real status
+  check before any second attempt, pending payments held with
+  a status check). Actions 36 and 37 left to the deep cycle.
+  Since the last daily run, the deep cycle completed actions
+  26, 27, and 28 and added actions 32, 33, and 34; those
+  outcomes are already recorded in `CHANGELOG.md`, and the
+  light cycles since then reported no changes.
 
 - Completed this review (deep editorial 2026-10-26): new Saved-item
   collection pattern row in `catalog/patterns.md` (one-action save,

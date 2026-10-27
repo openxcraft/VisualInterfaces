@@ -25,7 +25,7 @@ When to avoid:
 | Select | Trigger, list, option, check mark | Single, multiple, searchable | Keep the list within the viewport; type-ahead for long lists |
 | Checkbox | Box, label | Checked, unchecked, indeterminate | Use for independent options; apply on submit or explicitly |
 | Radio group | Option list, selected ring | Vertical, horizontal | One selection; always has a default or an explicit none |
-| Switch | Track, thumb, label | On, off | Applies immediately; label states the setting, not the action |
+| Switch | Track, thumb, label | On, off | Applies immediately; label states the setting, not the action; keep the switch beside its label, never at the far edge of a wide row — on wide desktop columns place the switch immediately beside the label so label and control stay visible together under magnification, and on narrow columns keep the label on the left with the switch on the right so the pair stays together; never use a switch for an action that needs confirmation or cannot be undone, since a switch applies at once and offers no confirmation step |
 | Slider | Track, thumb, value label | Continuous, stepped | Pair with a numeric input for precise values |
 | Badge | Short text, dot or count | Neutral, accent, warning, critical | Counts above a cap show the cap, for example 99+ |
 | Tag | Label, optional remove control | Removable, selectable | Removable tags are reachable by keyboard |

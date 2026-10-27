@@ -7,6 +7,244 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: new Accessibility preferences row in
+  `catalog/patterns.md` — text size, bold text, increased
+  contrast, reduced motion, reduced transparency, and captions
+  gathered in one reachable place, each applied at once to a
+  live preview with no entered input lost, a stated rule for
+  where a choice follows the system and where it overrides it,
+  a single reset to the starting values, and a preference saved
+  across visits. Completes roadmap action 50.
+
+- Roadmap: three new improvement actions (accessibility
+  preferences, long-document navigation, in-app update prompt)
+  and a refreshed coverage matrix (accessibility preferences
+  promoted to full).
+
+- Resources: 3 new source records (286 total): in-app updates
+  guidance, accessibility settings guidance, and table of
+  contents design guidance.
+
+- Patterns catalogue: new Guided tour row in
+  `catalog/patterns.md` — one highlighted element at a time with a
+  dimmed surround, a short anchored bubble, step position, back,
+  next, and an always-visible skip path, shown once per feature,
+  at most three steps in sequence, with the content findable
+  afterwards.
+- Source record for coach mark guidance in
+  resources/sources.json.
+
+- Patterns catalogue: new Modal dialog row in
+  `catalog/patterns.md` — one decision per dialog, focus taken
+  on opening and returned on closing, focus trapped while open,
+  a visible dismiss path besides the decision actions, never a
+  nested dialog, and a full-width sheet on narrow screens.
+  Completes roadmap action 44.
+
+- Patterns catalogue: new Guest checkout row in
+  `catalog/patterns.md` — guest path beside sign-in, fulfilment
+  details only before payment, the difference from signed-in
+  checkout stated before payment, a post-purchase account offer
+  carrying the order into the new account, and no forced account
+  step mid-checkout. Completes roadmap action 45.
+
+- Patterns catalogue: new Time-zone picker row in
+  `catalog/patterns.md` — zones by place name with current local
+  time and offset, search by place, zone name, or offset, the
+  detected zone suggested at the top, clock-change behaviour
+  stated plainly, and an example time shown beside the person's
+  own time for confirmation. Completes roadmap action 46.
+
+- Patterns catalogue: new Code scanning row in
+  `catalog/patterns.md` — framing guide, multi-sense capture
+  confirmation, result preview before acting, actionable
+  failure guidance with a manual-entry route, camera stop
+  rules, and large high-contrast codes with a plain-text note
+  for codes shown to others.
+
+- Patterns catalogue: Map comparison row in
+  `catalog/patterns.md` strengthened — dragging is never the
+  only way to pan, place a stop, or reorder a route, with
+  directional pan controls, tap-to-place, address entry, and
+  reorder controls, arrow-key panning, a documented focus
+  exit, and accessible names on zoom, locate, and close
+  controls.
+
+- Patterns catalogue: new Profile and account menu row in
+  `catalog/patterns.md` — the account's own actions only, the
+  active account named in text, sign-out kept separate from
+  destructive account actions, and a return to the same place
+  after menu actions that do not leave the task. Completes
+  roadmap action 41.
+
+- Patterns catalogue: new Recently viewed row in
+  `catalog/patterns.md` — a newest-first list with last-opened
+  labels, a stated scope for what is remembered, clear-all and
+  single-entry removal, an in-place notice for items that no
+  longer exist, and recents kept distinct from saved items.
+  Completes roadmap action 42.
+
+- Patterns catalogue: new Invitation response row in
+  `catalog/patterns.md` — accept, decline, and tentative
+  replies with a stated effect for each, reply changes that
+  update organiser and attendees without a duplicate item,
+  proposed times kept unconfirmed until accepted, and
+  withdrawn or expired invitations stated plainly with no
+  reply actions. Completes roadmap action 43.
+
+- Roadmap: three new improvement actions (modal dialog, guest
+  checkout, time-zone picker) and a refreshed coverage matrix
+  (profile and account menu, recently viewed, and invitation
+  response promoted to full).
+
+- Resources: 3 new source records (276 total): profile menu
+  guidance, recently viewed pattern guidance, and meeting
+  invitation response guidance.
+
+- Patterns catalogue: filtering and sorting rule in
+  `catalog/patterns.md` — within one facet, selecting several
+  options widens the result, while selections across facets
+  narrow it, with that combination stated plainly where it
+  is not obvious; long facet lists offer a search field
+  inside the facet instead of a full scroll.
+
+- Patterns catalogue: new Activity feed row in
+  `catalog/patterns.md` — a chronological history presented
+  as a list with item count and position for assistive
+  technology, grouping carried in structure or text rather
+  than spacing or a connecting line alone, plain timestamps
+  and type cues for scanning, load-more announcements that
+  state how many entries were added while keeping the
+  person's place, and in-place expansion for detail.
+
+- Patterns catalogue: new Breadcrumb navigation row in
+  `catalog/patterns.md` — a trail from the home view to the
+  current page, each step a working link except the current
+  page marked as current in text, middle steps collapsed
+  into an overflow control on narrow screens that keeps the
+  home view and the parent step reachable, and an omission
+  rule for single-level pages and task flows. Completes
+  roadmap action 38.
+
+- Patterns catalogue: new Annotation and comment thread row
+  in `catalog/patterns.md` — threads anchored to the specific
+  section, sentence, or element they discuss, nested replies,
+  thread visibility following the visibility of the content,
+  resolve hiding a thread without deleting it, reopen
+  restoring it with its history, an overview of open and
+  resolved threads, and an outdated-anchor rule that keeps
+  the quoted original text rather than silently deleting the
+  discussion. Completes roadmap action 36.
+
+- Patterns catalogue: new Theme selection row in
+  `catalog/patterns.md` — light, dark, and system-following
+  choices with an immediate undoable preview that loses no
+  entered input, a saved preference that survives visits and
+  keeps overriding the system theme, a system-following
+  choice that applies system changes at once, and contrast
+  checked in every theme. Completes roadmap action 40.
+
+- Roadmap: three new improvement actions (profile and
+  account menu, recently viewed, invitation response) and a
+  refreshed coverage matrix (breadcrumb navigation,
+  annotation and comment thread, and theme selection
+  promoted to full).
+
+- Resources: 4 new source records (271 total): breadcrumb
+  navigation guidance (two records), discussion comments
+  guidance, and dark-mode toggle guidance.
+
+- Patterns catalogue: expanded Filtering and sorting row in
+  `catalog/patterns.md` — compact-screen faceted search rules:
+  sticky filter control with an active count and sort kept
+  separate, bottom sheet for a few facets and a full-screen
+  panel for long facet lists, deferred apply with a live result
+  count, facet counts recalculated after each selection and
+  built only from currently obtainable items, applied filters
+  kept visible as removable chips, whole labels tappable at
+  the standard target size, typed or preset range inputs
+  beside sliders, and swatches for colour choices.
+
+- Resources: 2 new source records (267 total): mobile
+  faceted search guidance and faceted search best practices.
+
+- Patterns catalogue: new Content reporting and blocking row in
+  `catalog/patterns.md` — report from the item itself with a
+  plain reason choice, immediate hide for the reporter, a stated
+  outcome and check-back place, blocking that hides the blocked
+  party everywhere at once without revealing the reporter, a
+  blocked list with unblock, and a review path for a decision in
+  error. Completes roadmap action 32.
+
+- Patterns catalogue: new Language and locale selection row in
+  `catalog/patterns.md` — language names in their own language,
+  no flag standing for a language, stated current-session or
+  saved-preference scope, same-page switch with entered input
+  and drafts kept, immediate undoable preview, and item-by-item
+  fallback that never strands the person on an unreadable page.
+  Completes roadmap action 33.
+
+- Patterns catalogue: new Scheduled action row in
+  `catalog/patterns.md` — plain-words scheduled time with zone
+  where it matters, a returnable scheduled list, edit and cancel
+  until the run with content and time edits kept independent, a
+  single confirmation once the action runs, and missed or failed
+  runs reported with cause and a retry path rather than silently
+  dropped. Completes roadmap action 34.
+
+- Roadmap: three new improvement actions (breadcrumb
+  navigation, account recovery, theme selection) and a refreshed
+  coverage matrix (content reporting and blocking, language and
+  locale selection, and scheduled action promoted to full).
+
+- Resources: 3 new source records (265 total): content
+  reporting and blocking guidance, language selector design
+  guidance, and scheduled message editing guidance.
+
+- Patterns catalogue: new Account switcher row in
+  `catalog/patterns.md` — the trigger always names the active
+  account in text, the list marks the active account in text
+  as well as in shape, a switch keeps the person in the same
+  place where that place exists for the new account, data,
+  drafts, and settings never carry across a switch unless
+  moved explicitly, signed-in accounts stay signed in after a
+  switch, and signing out of one account never signs out of
+  the others unless chosen explicitly.
+
+- Resources: 1 new source record (262 total): account and
+  app switcher guidance.
+
+- Patterns catalogue: new Payment failure recovery row in
+  `catalog/patterns.md` — a failed payment keeps the person in
+  the same checkout with the order intact, states the failure
+  in plain words with an actionable cause where known, offers
+  a retry only where it can succeed plus another eligible
+  method on the same screen, checks the real status before
+  any second attempt so one order is never charged twice,
+  and holds a pending payment with a stated status check
+  rather than showing failure prematurely. Completes roadmap
+  action 35.
+
+- Roadmap: three new improvement actions (payment failure
+  recovery, annotation and comment threads, what's-new
+  announcement) and a refreshed coverage matrix (payment
+  failure recovery promoted to full).
+
+- Resources: 3 new source records (261 total): payment
+  failure recovery guidance, anchored comment thread
+  guidance, and in-product update announcement guidance.
+
+- Primitives catalogue: Switch row in `catalog/primitives.md` —
+  keep the switch beside its label, never at the far edge of a wide
+  row, with the switch immediately beside the label on wide desktop
+  columns so label and control stay visible together under
+  magnification, and label on the left with the switch on the right
+  on narrow columns; never use a switch for an action that needs
+  confirmation or cannot be undone.
+
+- Resources: 1 new source record (258 total): switch placement and
+  use guidance.
+
 - Patterns catalogue: new Saved-item collection row in
   `catalog/patterns.md` — save with one action, saved state shown
   wherever the item appears, named collections with rename and

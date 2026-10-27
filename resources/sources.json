@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "sources": [
     {
       "title": "Design trends overview for 2026",
@@ -2057,6 +2057,238 @@
       "type": "guidance",
       "accessed": "2026-10-26",
       "notes": "Star-based rating with an optional comment, one review per item, editing an existing review rather than adding a second, and moderation before publication."
+    },
+    {
+      "title": "Toggle switch accessibility checklist",
+      "url": "https://www.atomica11y.com/accessible-design/toggle-switch/",
+      "category": "primitives",
+      "type": "guidance",
+      "accessed": "2026-10-26",
+      "notes": "Switch placement by column width: switch beside the label on wide desktop columns so label and control stay visible together under magnification, switch on the right of the label on narrow columns; switches are for immediate on/off settings only, not for actions needing confirmation."
+    },
+    {
+      "title": "Payment failure recovery: preserve the order, offer retry and fallback methods",
+      "url": "https://www.cashfree.com/blog/ecommerce-payment-failures/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-26",
+      "notes": "Failed payments recover best inside the same checkout: preserve the order, retry only when the failure is clear, offer a relevant fallback method without a restart, and check the real status before any second attempt so no duplicate charge or order is created."
+    },
+    {
+      "title": "Anchored comments: discussion attached to the content it discusses",
+      "url": "http://dev.to/boitumelo_phetla_022b64a2/discussing-documents-where-the-discussion-belongs-2pm6",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-26",
+      "notes": "Anchor each discussion thread to the specific section, sentence, or element it discusses so context travels with the comment; decide plainly what happens when the anchored text is deleted or heavily rewritten, and let thread visibility follow the visibility of the content itself."
+    },
+    {
+      "title": "In-product update announcements: tiered visibility and a persistent entry point",
+      "url": "https://www.carbondesignsystem.com/tutorials/show-whats-new-to-maintain-user-engagement",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-26",
+      "notes": "Surface updates in context with action-oriented wording, a supporting visual, and a direct route to the new capability; grade visibility by impact so minor changes stay in the changelog while workflow-changing updates get a prominent, dismissible announcement and a persistent entry point for later review."
+    },
+    {
+      "title": "Account and app switchers: design guidance",
+      "url": "https://www.breakfreegraphics.com/design-blog/learn-to-design-better-account-app-switchers/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "Account switchers show the active account plainly with signed-in alternatives and an add-account action; app switchers let a person jump between products in a suite while the navigation structure and information hierarchy stay familiar."
+    },
+    {
+      "title": "Content reporting and blocking guidance",
+      "url": "https://socialpatterns.adl.org/topics/reports/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-26",
+      "notes": "Reporting tools should remove the reported item from the reporter's view at once and block the reported party's content for the reporter even before review completes; batch reporting and severity options keep reporting usable."
+    },
+    {
+      "title": "Language selector design guidance",
+      "url": "https://bablic.com/blog/website-language-selector-design-best-practices",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "Language names in their own language, no flags standing for languages, selector in a consistent place, keep the person on the same page on switching, suggest rather than force a detected language, always offer a way back."
+    },
+    {
+      "title": "Scheduled message editing guidance",
+      "url": "https://learn.captivated.works/help/scheduling-a-message/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-26",
+      "notes": "Scheduled messages stay visible with their scheduled time, remain editable or cancellable before sending, and editing content without changing the time keeps the original send time."
+    },
+    {
+      "title": "Mobile faceted search guidance",
+      "url": "https://www.doofinder.com/en/blog/faceted-search",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "On compact screens keep a sticky filter control with an active count, use a bottom sheet for a few facets and a full-screen panel for long lists, defer the list refresh until apply with a live result count on the apply control, and keep applied filters as removable chips."
+    },
+    {
+      "title": "Faceted search best practices",
+      "url": "https://www.gladly.ai/blog/faceted-search-best-practices/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "Build facet counts from in-stock items and recalculate them after each selection, keep the filter control visible while scrolling, show a live result count on apply, and keep applied filters visible as removable chips."
+    },
+    {
+      "title": "Breadcrumb navigation guidance",
+      "url": "https://liferay.design/lexicon/core-components/navigation/breadcrumb/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-26",
+      "notes": "Breadcrumb as secondary navigation showing page position in a hierarchy; on narrow screens early levels collapse into a dropdown, the current page is not a link, and long labels use ellipsis."
+    },
+    {
+      "title": "Breadcrumb design guidance",
+      "url": "https://www.setproduct.com/blog/breadcrumbs-ui-design",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "Breadcrumbs describe a tree while steppers describe a sequence; collapse on narrow screens rather than removing the trail, truncate carefully with full text available, and never rely on colour alone."
+    },
+    {
+      "title": "Discussion comments guidance",
+      "url": "https://docs.axure.com/axure-cloud/reference/discussions/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-26",
+      "notes": "Discussion threads can be resolved without deleting them, resolved threads stay viewable through a filter, and a resolved thread can be reopened."
+    },
+    {
+      "title": "Dark-mode toggle guidance",
+      "url": "https://www.makuistudio.com/darkmode.html",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "A theme switcher that respects the system preference until an explicit choice is made, persists that choice, applies it before first paint to avoid a flash of the wrong theme, and exposes its state to assistive technology."
+    },
+    {
+      "title": "Activity feed accessibility guidance",
+      "url": "https://dev.to/marcusykim/githubs-timeline-update-how-to-make-an-ai-built-activity-feed-accessible-in-2026-3jj4",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "An activity feed should expose its timeline as a list so assistive technology reports item count and position, report how many events loading more adds, and let a reader find the collection, understand one item, request more, and continue without losing their place."
+    },
+    {
+      "title": "Filter interface design guidance",
+      "url": "https://www.uxpin.com/studio/blog/filter-ui-and-ux/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "Within one filter category selections combine as OR, while selections across categories combine as AND; long option lists offer search inside the category; applied filters stay visible as removable chips."
+    },
+    {
+      "title": "Profile menu design guidance",
+      "url": "http://learning.atheros.ai/blog/how-to-a-design-better-app-profile-menu",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "Profile menu structure: clear concise labels, placement within thumb reach, account actions grouped apart from product navigation."
+    },
+    {
+      "title": "Recently viewed pattern guidance",
+      "url": "https://www.creativebloq.com/ux/ui-design-pattern-tips-recently-viewed-101413262",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "Recently viewed lists let people pick up where they left off; recents are recorded automatically, distinct from items deliberately saved."
+    },
+    {
+      "title": "Meeting invitation response guidance",
+      "url": "https://it.cornell.edu/outlook2016win/respond-meeting-invitations-windows",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "Accept, tentative, and decline replies with distinct calendar effects; a changed reply updates the invitation rather than duplicating it; deleting an invitation without replying leaves attendance unknown."
+    },
+    {
+      "title": "Accessible interactive maps guidance",
+      "url": "https://kaleidr.com/blog/accessible-interactive-maps-wcag-ai",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-26",
+      "notes": "Dragging must not be the only way to pan, set a stop, or reorder a route; offer pan buttons, tap-to-place, an address field, and reorder controls, with keyboard panning, a documented focus exit, named zoom, locate, and close controls, and minimum target sizes."
+    },
+    {
+      "title": "Intuitive barcode scanning interface guidance",
+      "url": "https://fastercapital.com/content/Barcode-user-experience--Designing-Intuitive-Barcode-Scanning-Interfaces-for-Mobile-Apps.html",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Scanning interfaces stay clear and simple with a prominent scan action, a framing guide, visual and haptic capture feedback, and failure messages that suggest adjusting angle, distance, or light rather than a generic failure."
+    },
+    {
+      "title": "Accessible QR code guidance",
+      "url": "https://qrcodekit.com/news/accessible-qr-codes-for-visually-impaired-users/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Codes shown to others need enough size, strong contrast, a glare-free surface, predictable placement, and plain-text instructions stating what scanning the code does."
+    },
+    {
+      "title": "Modal dialog pattern guidance",
+      "url": "https://uxpatterns.dev/patterns/content-management/modal",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Dialogs stay focused on one decision, with clear dismiss paths, focus taken on opening and returned on closing, focus trapped while open, and no nested dialogs."
+    },
+    {
+      "title": "Guest checkout guidance",
+      "url": "https://spiffy.co/glossary/guest-checkout/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Guest checkout asks only for fulfilment details, offers account creation after payment, and keeps the receipt as the route to manage the order."
+    },
+    {
+      "title": "Time-zone selector research findings",
+      "url": "https://www.nngroup.com/articles/time-zone-selectors/?ref=weekly.ui-patterns.com",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "People search for zones by city rather than offset; selectors should identify the detected zone, offer search, organise alphabetically by city with country and offset shown."
+    },
+    {
+      "title": "Coach mark guidance",
+      "type": "article",
+      "url": "https://pharos.jstor.org/components/coach-mark",
+      "category": "patterns",
+      "accessed": "2026-10-27",
+      "notes": "Coach marks highlight one new or changed element at a time: appear on first reach of a feature, stay close to the target, carry a short benefit-focused note, allow dismissal, and appear once per session; prefer top or bottom placement with a centred caret."
+    },
+    {
+      "title": "In-app updates guidance",
+      "url": "https://www.webtonative.com/blog/how-to-implement-in-app-updates-in-android-complete-guide",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Flexible updates download in the background while the person keeps working; immediate updates block use until installed, reserved for urgent cases; a grace period before enforcement keeps prompts from nagging."
+    },
+    {
+      "title": "Accessibility settings guidance",
+      "url": "https://cobomakesgames.com/blog/accessibility-settings-in-games/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "A dedicated accessibility tab gathers text size, high contrast, reduced motion, sound captions, and control changes in one place, with layouts rearranging to fit larger text."
+    },
+    {
+      "title": "Table of contents design guidance",
+      "url": "https://www.nngroup.com/articles/table-of-contents/?lm=ai-sparkles-icon-problem&pt=article",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "A sticky table of contents stays reachable while scrolling, with the current section highlighted so readers know where they are; it needs a clear header so it is not confused with local navigation."
     }
   ]
 }
