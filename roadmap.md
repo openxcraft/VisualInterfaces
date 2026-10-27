@@ -50,7 +50,7 @@ defined without an example; gap = named but not yet defined.
 | Device input | Touch, pointer, keyboard, voice, gesture-only, remote | — | — |
 | Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
 | Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in, saved-item collection, bulk action, rating and review submission, payment failure recovery, content reporting and blocking, language and locale selection, scheduled action, breadcrumb navigation, annotation and comment thread, theme selection, profile and
-account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences | — | — |
+account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences, long-document navigation, in-app update prompt, pull-to-refresh | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 | Worked examples | Dashboard, mobile navigation, onboarding — each demonstrating the rules it documents with all seven states | — | — |
 | Localization | Right-to-left mirroring rules, what-not-to-mirror list, logical properties, text-expansion budgets, locale-aware date/number/currency formatting and sorting, mixed-direction text | — | — |
@@ -459,6 +459,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
     matches the gesture — distinct from the offline-first sync
     row, which covers queued changes rather than re-reading
     content. Done when the row passes all quality gates.
+    (Implemented this run.)
 48. Add a file preview pattern row to `catalog/patterns.md`:
     a preview shown before opening or downloading a file, with
     the file name, type, and size stated, a readable excerpt or
@@ -492,7 +493,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
     to the top that never loses the person's place in a form —
     distinct from breadcrumb navigation, which shows where the
     page sits in a hierarchy rather than where the person sits
-    in a long page. Done when the row passes all quality gates.
+    in a long page. Done when the row passes all quality gates. (Implemented this run.)
 52. Add an in-app update prompt pattern row to
     `catalog/patterns.md`: a flexible prompt that downloads in
     the background and lets the person keep working, a blocking
@@ -502,9 +503,54 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
     after an interrupted update — distinct from the what's-new
     announcement row, which reports changes rather than
     requiring an update. Done when the row passes all quality
-    gates.
+    gates. (Implemented this run.)
+
+53. Add a scrolling tab bar pattern row to `catalog/patterns.md`:
+    a tab list that scrolls horizontally when tabs overflow the
+    available width, with a visible affordance that more tabs exist
+    beyond the edge, arrow-key movement between tabs, the current
+    tab marked in text as well as in shape, and a stated rule for
+    when tabs collapse into a menu instead — distinct from the
+    primary navigation row, which moves between top-level sections,
+    and from the mobile tab bar, which is a fixed bottom control
+    rather than a scrolling list. Done when the row passes all
+    quality gates.
+54. Add a system share sheet pattern row to `catalog/patterns.md`:
+    sharing content through the platform share sheet, with a
+    preview of exactly what will be shared, recent targets offered
+    first, a cancel path that shares nothing, and a fallback
+    route where no share sheet exists — distinct from the share
+    link row, which covers link scope and expiry rather than the
+    sheet itself. Done when the row passes all quality gates.
+55. Add a find-in-page pattern row to `catalog/patterns.md`:
+    searching within the current long page or document, with a
+    persistent query, a match count, next and previous controls,
+    highlighted matches, focus moved to the matched text, and a
+    dismiss step that returns to the previous place — distinct
+    from the search row, which finds content across the product,
+    and from the long-document navigation row, which outlines
+    sections rather than searching text. Done when the row passes
+    all quality gates.
 
 ## Review notes
+
+- Completed this review (deep editorial 2026-10-27): new
+  Long-document navigation pattern row in `catalog/patterns.md`
+  (heading-built outline labelled as the page outline, current
+  section marked in text and shape, sticky outline on wide
+  screens with a single collapsed control on narrow screens,
+  focus-moving jump links, form-safe return to top); new
+  In-app update prompt pattern row (flexible background
+  download versus blocking prompt for versions that can no
+  longer work safely, stated deferral limit and deadline, no
+  prompt during a task or a payment, chosen-moment restart
+  and resume after an interrupted update); new Pull-to-refresh
+  pattern row (gesture plus a visible control, threshold
+  cancel, list kept visible during refresh, stated result
+  with place kept). Completes roadmap actions 47, 51, and 52;
+  actions 53, 54, and 55 added as follow-ups. Coverage matrix
+  updated with the three new rows. 3 new source records (290
+  total).
 
 - Completed this review (daily planning 2026-10-27): research
   pass of 3 searches covering in-app update prompts,

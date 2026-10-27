@@ -7,6 +7,46 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: new Long-document navigation row in
+  `catalog/patterns.md` — a heading-built section outline
+  labelled as the page outline, the current section marked in
+  text as well as in shape, a sticky outline on wide screens
+  with a single collapsed control on narrow screens,
+  focus-moving jump links, and a form-safe return to the top.
+  Completes roadmap action 51.
+
+- Patterns catalogue: new In-app update prompt row in
+  `catalog/patterns.md` — a flexible prompt that downloads in
+  the background and lets the person keep working, a blocking
+  prompt reserved for versions that can no longer work safely,
+  a stated deferral limit and deadline, no prompt during a
+  task or a payment, and a chosen-moment restart with resume
+  after an interrupted update. Completes roadmap action 52.
+
+- Patterns catalogue: new Pull-to-refresh row in
+  `catalog/patterns.md` — a pull gesture paired with a visible
+  refresh control, a threshold cancel, the existing list kept
+  visible during refresh, and a stated result (new items, no
+  change, or failure with retry) with the person's place kept.
+  Completes roadmap action 47.
+
+- Roadmap: three new improvement actions (scrolling tab bar,
+  system share sheet, find-in-page) and a refreshed coverage
+  matrix (long-document navigation, in-app update prompt, and
+  pull-to-refresh promoted to full).
+
+- Resources: 3 new source records (290 total): pull-to-refresh
+  pattern guidance, in-app update prompt design guidance, and
+  table of contents and jump link guidance.
+
+- Patterns catalogue: new Location selection row in
+  `catalog/patterns.md` — choosing a place from a paired map
+  and list, with detail cards carrying hours and availability,
+  area refresh on request rather than on every pan, and
+  location-access failures that keep area search open.
+- Source record for map interface design guidance in
+  resources/sources.json (287 total).
+
 - Patterns catalogue: new Accessibility preferences row in
   `catalog/patterns.md` — text size, bold text, increased
   contrast, reduced motion, reduced transparency, and captions

@@ -2289,6 +2289,38 @@
       "type": "article",
       "accessed": "2026-10-27",
       "notes": "A sticky table of contents stays reachable while scrolling, with the current section highlighted so readers know where they are; it needs a clear header so it is not confused with local navigation."
+    },
+    {
+      "title": "Map interface design guidance",
+      "url": "https://pixso.net/tips/map-ui-design/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Choosing a place pairs a map with a list showing the same places; detail cards carry name, address, hours, and availability, and location-access failures keep area search available as the fallback."
+    },
+    {
+      "title": "Pull-to-refresh pattern guidance",
+      "url": "https://ui-patterns.com/patterns/pull-to-refresh",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Pull-to-refresh refreshes lists sorted newest first; pulling shows a progress indicator, releasing before the threshold aborts, and the indicator spins until loading finishes."
+    },
+    {
+      "title": "In-app update prompt design guidance",
+      "url": "https://appmaster.io/blog/in-app-update-prompt-design-native-apps",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Update prompts graded by urgency: an optional banner first, then a once-a-day prompt, then a blocking prompt only before a hard cutoff, each stating the affected capability and the deadline in plain words."
+    },
+    {
+      "title": "Table of contents and jump link guidance",
+      "url": "https://siteseoaiaudit.com/table-of-contents-jump-links/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "A table of contents helps long pages when jump links move keyboard focus to the section heading and a sticky header never hides the heading after the jump; short pages and every-heading-level lists add clutter."
     }
   ]
 }
