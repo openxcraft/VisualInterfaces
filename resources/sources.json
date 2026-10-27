@@ -2361,6 +2361,14 @@
       "type": "article",
       "accessed": "2026-10-27",
       "notes": "Checkout delivery options labelled by delivery date rather than speed alone, with order cost and delivery timing stated early; address entry aided with suggestions and validation to reduce failed deliveries."
+    },
+    {
+      "title": "Multi-step form validation and hidden-step guidance",
+      "url": "https://dev.to/cometakaito/an-invalid-form-control-is-not-focusable-hidden-steps-48ii",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Packing multiple steps into one form and hiding steps can leave a required field on a hidden step blocking submission; scope validation to the visible step, check each step on transition, or give each step its own form."
     }
   ]
 }

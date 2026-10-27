@@ -7,6 +7,14 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Wizard row in `catalog/patterns.md` — validation
+  scoped to the visible step, so a required field on a hidden step
+  never blocks submission silently; check each step on its own
+  transition, or give each step its own form.
+
+- Resources: 1 new source record (296 total): multi-step form
+  validation guidance on hidden-step fields blocking submission.
+
 - Commerce layout: delivery-date labelling and aided address entry in
   `layouts/ecommerce.md` — each delivery option states the date it
   arrives rather than speed alone, and address entry offers suggestions
