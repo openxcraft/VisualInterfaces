@@ -64,7 +64,7 @@ Every element and page in this group defines all seven states. Missing states ar
 | Platform | Web, mobile, tablet, desktop, kiosk, wearable, television, embedded |
 | Device input | Touch, pointer, keyboard, voice, remote, gesture |
 | Interface type | See `catalog/interfaces.md` |
-| Page pattern | Landing, dashboard, authentication, commerce, settings, mobile navigation |
+| Page pattern | Landing, dashboard, authentication, commerce, settings, mobile navigation, onboarding, automotive, desktop, embedded, kiosk, tablet, television, wearable |
 | State | Default, hover, active, disabled, loading, empty, error |
 
 ## Pre-publish checklist

@@ -50,7 +50,7 @@ defined without an example; gap = named but not yet defined.
 | Device input | Touch, pointer, keyboard, voice, gesture-only, remote | — | — |
 | Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
 | Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in, saved-item collection, bulk action, rating and review submission, payment failure recovery, content reporting and blocking, language and locale selection, scheduled action, breadcrumb navigation, annotation and comment thread, theme selection, profile and
-account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences, long-document navigation, in-app update prompt, pull-to-refresh | — | — |
+account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences, long-document navigation, in-app update prompt, pull-to-refresh, scrolling tab bar, system share sheet, find-in-page | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 | Worked examples | Dashboard, mobile navigation, onboarding — each demonstrating the rules it documents with all seven states | — | — |
 | Localization | Right-to-left mirroring rules, what-not-to-mirror list, logical properties, text-expansion budgets, locale-aware date/number/currency formatting and sorting, mixed-direction text | — | — |
@@ -514,7 +514,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
     primary navigation row, which moves between top-level sections,
     and from the mobile tab bar, which is a fixed bottom control
     rather than a scrolling list. Done when the row passes all
-    quality gates.
+    quality gates. (Implemented this run.)
 54. Add a system share sheet pattern row to `catalog/patterns.md`:
     sharing content through the platform share sheet, with a
     preview of exactly what will be shared, recent targets offered
@@ -522,6 +522,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
     route where no share sheet exists — distinct from the share
     link row, which covers link scope and expiry rather than the
     sheet itself. Done when the row passes all quality gates.
+    (Implemented this run.)
 55. Add a find-in-page pattern row to `catalog/patterns.md`:
     searching within the current long page or document, with a
     persistent query, a match count, next and previous controls,
@@ -530,7 +531,29 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
     from the search row, which finds content across the product,
     and from the long-document navigation row, which outlines
     sections rather than searching text. Done when the row passes
-    all quality gates.
+    all quality gates. (Implemented this run.)
+56. Add a text-selection action menu pattern row to
+    `catalog/patterns.md`: actions offered on selected text — copy,
+    share, and define — shown near the selection without covering
+    it, dismissed by tapping elsewhere or pressing escape, and
+    never replacing the selection itself — distinct from the
+    inline assistant actions row, which acts on a selected object
+    rather than on selected text. Done when the row passes all
+    quality gates.
+57. Add a no-results recovery rule to the Search row in
+    `catalog/patterns.md`: when a query returns nothing, state
+    plainly that nothing matched, offer one spelling or scope
+    correction, and keep the query editable in place with a route
+    back to the full list — distinct from the zero-result metric
+    in the same row, which measures the problem rather than
+    repairing it. Done when the rule passes all quality gates.
+58. Add a print-friendly view pattern row to
+    `catalog/patterns.md`: a reading view that removes navigation
+    and interactive controls for printing, keeps headings and
+    tables intact across page breaks, and states the page count
+    before printing — distinct from the long-document navigation
+    row, which moves within a screen rather than preparing it for
+    print. Done when the row passes all quality gates.
 
 ## Review notes
 

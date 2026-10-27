@@ -25,6 +25,7 @@ Bottom tab bar with three to five destinations, each with a short label and an a
 - The thumb zone holds primary navigation and primary actions; destructive actions stay out of it.
 - Back behaviour is consistent: back returns to the previous view, the tab returns to the section root.
 - On tablets, the tab bar may become a side rail; destinations and order do not change.
+- When top-level sections exceed five, keep the five most-used destinations in the bar and move the rest behind a single More destination that lists every remaining section with its label; never scroll the bottom bar itself, and never drop a destination silently. The More list keeps the current section marked in text as well as in shape, and returning from a More destination keeps the bar state unchanged.
 
 ## States
 

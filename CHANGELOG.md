@@ -7,6 +7,61 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Commerce layout: delivery-date labelling and aided address entry in
+  `layouts/ecommerce.md` — each delivery option states the date it
+  arrives rather than speed alone, and address entry offers suggestions
+  as the person types with validation before payment.
+
+- Resources: 1 new source record (295 total): mass merchant checkout
+  benchmark guidance on delivery-date labelling and aided address
+  entry.
+
+- Patterns catalogue: new System share sheet row in
+  `catalog/patterns.md` — a preview of exactly what will be
+  shared, recent targets first with a stable order, a cancel
+  path that shares nothing and returns to the same place, and a
+  fallback route where no share sheet exists. Completes roadmap
+  action 54.
+
+- Patterns catalogue: new Find-in-page row in
+  `catalog/patterns.md` — a persistent query, a match count,
+  next and previous controls, highlighted matches with the
+  current match distinct in shape as well as colour, focus moved
+  to the matched text, a plain no-match statement, and a
+  dismiss step that returns to the previous place. Completes
+  roadmap action 55.
+
+- Resources: 3 new source records (294 total): web share
+  fallback and cancellation guidance, find-in-document match
+  count and navigation guidance, and find pattern guidance for
+  list, table, and card views.
+
+### Changed
+
+- Mobile navigation layout: a More destination rule for more
+  than five top-level sections — the five most-used stay in the
+  bar, the rest list under one More destination, and no
+  destination is dropped silently.
+
+- Coverage summaries in `README.md` and the roadmap matrix now
+  list every layout page and the three newest pattern rows, so
+  the matrix matches the actual files.
+
+- Roadmap: actions 53–55 marked complete; actions 56–58 added
+  (text-selection action menu, no-results recovery rule, and
+  print-friendly view).
+
+- Patterns catalogue: new Scrolling tab bar row in
+  `catalog/patterns.md` — a single scrolling row that never
+  wraps, an overflow hint and snap so no tab rests half-cut,
+  the current tab marked in text as well as in shape, arrow-key
+  movement with the selected tab brought fully into view, and a
+  stated rule for collapsing a large set into a menu instead.
+  Completes roadmap action 53.
+
+- Resources: 1 new source record (291 total): tab design
+  guidance for scrollable tab strips.
+
 - Patterns catalogue: new Long-document navigation row in
   `catalog/patterns.md` — a heading-built section outline
   labelled as the page outline, the current section marked in

@@ -2321,6 +2321,46 @@
       "type": "article",
       "accessed": "2026-10-27",
       "notes": "A table of contents helps long pages when jump links move keyboard focus to the section heading and a sticky header never hides the heading after the jump; short pages and every-heading-level lists add clutter."
+    },
+    {
+      "title": "Tabs design rules and failure cases",
+      "url": "https://www.setproduct.com/blog/tabs-ui-design",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Scrollable tab strips scroll rather than wrap, show a hint of the next tab, snap so no tab rests half-cut, mark the current tab in text and shape, and use a consistent indicator on the edge touching the panel."
+    },
+    {
+      "title": "Web share fallback and cancellation guidance",
+      "url": "https://blog.logrocket.com/advanced-guide-web-share-api-navigator-share/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Where no share sheet exists, offer a fallback route such as a link or download; treat dismissal of the sheet as a normal outcome rather than an error."
+    },
+    {
+      "title": "Find-in-document match count and navigation guidance",
+      "url": "https://www.nutrient.io/blog/pdfjs-text-search-pdffindcontroller/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "A find control shows the current match against the total, steps to the next and previous matches, and highlights all matches with the current one distinct."
+    },
+    {
+      "title": "Find pattern in list, table, and card views",
+      "url": "http://www.bleathem.ca/patternfly-org/pattern-library/forms-and-controls/find/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "A find control shows the current position against the total, steps to the previous and next results, and shades all matches while bringing the focused match into view; it needs a scope that covers the whole set."
+    },
+    {
+      "title": "Mass merchant checkout benchmark, 2026",
+      "url": "https://baymard.com/research-articles/mass-merchant-ux-benchmark-2026",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Checkout delivery options labelled by delivery date rather than speed alone, with order cost and delivery timing stated early; address entry aided with suggestions and validation to reduce failed deliveries."
     }
   ]
 }

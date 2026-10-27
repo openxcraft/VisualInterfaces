@@ -42,6 +42,12 @@ Category navigation; filter and sort controls; product grid with image area, nam
   fewer methods, where each tile shows the method's mark and label at a
   glance; a vertical list once the count exceeds four, so longer method
   lists stay easy to scan.
+- Label each delivery option with the date it arrives, not with speed
+  alone: a speed label without a date forces a guess, and the date stays
+  visible through checkout rather than appearing only at the final step.
+- Aid address entry with suggestions as the person types, and validate
+  the chosen address before payment, so a mistyped address never becomes
+  a failed delivery discovered after the order is placed.
 
 ## States
 
