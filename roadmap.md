@@ -50,7 +50,8 @@ defined without an example; gap = named but not yet defined.
 | Device input | Touch, pointer, keyboard, voice, gesture-only, remote | — | — |
 | Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
 | Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in, saved-item collection, bulk action, rating and review submission, payment failure recovery, content reporting and blocking, language and locale selection, scheduled action, breadcrumb navigation, annotation and comment thread, theme selection, profile and
-account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences, long-document navigation, in-app update prompt, pull-to-refresh, scrolling tab bar, system share sheet, find-in-page | — | — |
+account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences, long-document navigation, in-app update prompt, pull-to-refresh, scrolling tab bar, system share sheet, find-in-page, collaborative editing presence,
+    draft autosave and recovery, saved-filter view | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 | Worked examples | Dashboard, mobile navigation, onboarding — each demonstrating the rules it documents with all seven states | — | — |
 | Localization | Right-to-left mirroring rules, what-not-to-mirror list, logical properties, text-expansion budgets, locale-aware date/number/currency formatting and sorting, mixed-direction text | — | — |
@@ -128,12 +129,14 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
     hold on the field being edited, so two people never overwrite the
     same field unknowingly — cross-checked against the sync-conflict
     resolution row. Done when the row passes all quality gates.
+    (Implemented this run.)
 11. Add a draft autosave and recovery pattern row to
     `catalog/patterns.md`: save drafts continuously with a visible
     saved indicator, restore the latest draft after a crash or
     interruption with a clear review step, and offer an explicit
     discard path — cross-checked against the wizard save-and-resume
     rules. Done when the row passes all quality gates.
+    (Implemented this run.)
 12. Add a notification digest pattern row to `catalog/patterns.md`:
     group low-urgency updates into a scheduled digest the person
     controls (daily or weekly), keep every item individually openable,
@@ -146,7 +149,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
     rename and delete controls, a stated scope (private or shared), and a
     visible sign when the saved view no longer matches the current data —
     cross-checked against the filtering and sorting row. Done when the row
-    passes all quality gates.
+    passes all quality gates. (Implemented this run.)
 14. Add a version history and restore pattern row to
     `catalog/patterns.md`: a dated list of saved versions with a preview
     of what changed, a restore action that saves the restored version as a
@@ -554,8 +557,53 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
     before printing — distinct from the long-document navigation
     row, which moves within a screen rather than preparing it for
     print. Done when the row passes all quality gates.
+59. Add a toast feedback pattern row to `catalog/patterns.md`: a
+    short non-blocking confirmation after an action completes, with
+    a visible duration and a manual dismiss control, reserved for
+    low-stakes confirmations only — never for errors, failures, or
+    actions that need a decision — distinct from the notification
+    escalation row, which grades interruption by urgency, and from
+    the confirmation row, which asks before an action. Done when
+    the row passes all quality gates.
+60. Add a list reorder pattern row to `catalog/patterns.md`: reorder
+    items by drag with a visible drop preview, keyboard and button
+    alternatives that never rely on drag alone, a live announcement
+    of the new position, and a cancel path that restores the
+    original order — distinct from the column reorder controls in
+    the data table row, which arrange columns rather than list
+    items, and from the drag-between-panes rules in
+    `layouts/tablet.md`. Done when the row passes all quality
+    gates.
+61. Add a date-range picker pattern row to `catalog/patterns.md`:
+    pick a start and an end date in one control, with preset ranges
+    for common spans, prevention of an end before a start, a stated
+    rule for whether both ends are included, and a plain statement
+    of the chosen span before it applies — distinct from the
+    calendar and scheduling row, which shows objects in time
+    rather than collecting a range value, and from the time-zone
+    picker row, which chooses a zone rather than dates. Done when
+    the row passes all quality gates.
 
 ## Review notes
+
+- Completed this review (deep editorial 2026-10-27): new
+  Collaborative editing presence pattern row in
+  `catalog/patterns.md` (presence list naming each person in text
+  as well as in colour, visible hold on the field being edited,
+  warning before an overwrite with the sync-conflict rules as the
+  fallback, presence kept separate from read and approval
+  signals); new Draft autosave and recovery pattern row
+  (continuous saving with a visible last-saved indicator, restore
+  after interruption with a clear review step, draft and delivery
+  states kept separate, explicit discard path, stated scope and
+  retention period); new Saved-filter view pattern row (named
+  view storing a filter combination as a definition that stays
+  current, rename and delete controls, stated private or shared
+  scope, visible stale marker with a repair step, query text kept
+  out unless chosen). Completes roadmap actions 10, 11, and 13;
+  actions 59, 60, and 61 added as follow-ups. Coverage matrix
+  updated with the three new rows. 3 new source records (301
+  total).
 
 - Completed this review (deep editorial 2026-10-27): new
   Long-document navigation pattern row in `catalog/patterns.md`

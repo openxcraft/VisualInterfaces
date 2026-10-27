@@ -7,6 +7,55 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: new Collaborative editing presence row in
+  `catalog/patterns.md` — a presence list naming each person in
+  text as well as in colour, a visible hold on the field being
+  edited, a warning rather than a silent overwrite on collision,
+  and presence kept separate from read and approval signals.
+  Completes roadmap action 10.
+
+- Patterns catalogue: new Draft autosave and recovery row in
+  `catalog/patterns.md` — continuous saving with a visible
+  last-saved indicator, restore after interruption with a clear
+  review step, draft and delivery states kept separate, an
+  explicit discard path, and a stated scope and retention period.
+  Completes roadmap action 11.
+
+- Patterns catalogue: new Saved-filter view row in
+  `catalog/patterns.md` — a named view storing a filter
+  combination as a definition that stays current, rename and
+  delete controls, a stated private or shared scope, a visible
+  marker with a repair step when the view no longer matches the
+  data, and a stated rule keeping query text out unless chosen.
+  Completes roadmap action 13.
+
+- Resources: 3 new source records (301 total): presence as a
+  short-lived session claim rather than proof of attention,
+  form drafts that survive navigation without implying delivery,
+  and saved views as reusable filter combinations.
+
+- Patterns catalogue: File upload row in `catalog/patterns.md` —
+  accepted formats, size limit, and file-count limit stated beside
+  the control before anyone chooses a file, checked before the
+  upload starts with the exact limit named on failure, and
+  drag-and-drop kept as an enhancement beside a visible,
+  keyboard-operable browse control that always offers the same upload.
+
+- Resources: 1 new source record (298 total): accessible file
+  upload field guidance on stating limits up front, keeping
+  drag-and-drop as a bonus, and announcing attachment and failure.
+
+- Conversational interfaces trend: live in-conversation visuals in
+  `trends/2026/conversational-interfaces.md` — a visual inside a
+  conversation stays manipulable in place, changing a control updates
+  its linked values and explanations, selecting a part of a diagram
+  swaps in that part's explanation, and a visual that cannot update
+  says so and offers the same result as text or a form.
+
+- Resources: 1 new source record (297 total): in-conversation
+  interactive visuals guidance on manipulable visuals rather than
+  flat pictures.
+
 - Patterns catalogue: Wizard row in `catalog/patterns.md` — validation
   scoped to the visible step, so a required field on a hidden step
   never blocks submission silently; check each step on its own

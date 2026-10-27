@@ -432,7 +432,7 @@
       "category": "trends",
       "type": "reading-list",
       "accessed": "2026-10-22",
-      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered \u2014 content revealed by scroll position must remain available to them rather than gated behind scroll alone."
     },
     {
       "title": "Design Trends That Will Influence Extensions in 2026",
@@ -440,7 +440,7 @@
       "category": "interfaces",
       "type": "article",
       "accessed": "2026-10-22",
-      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay \u2014 a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
     },
     {
       "title": "Validation gate for generated interface trees",
@@ -1448,7 +1448,7 @@
       "category": "states",
       "type": "article",
       "accessed": "2026-10-23",
-      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
+      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters \u2014 corroborates pre-populated suggestion states that disclose their nature."
     },
     {
       "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
@@ -1920,7 +1920,7 @@
       "category": "patterns",
       "type": "article",
       "accessed": "2026-10-25",
-      "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type — free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
+      "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type \u2014 free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
     },
     {
       "title": "Paywall trial-offer guidance",
@@ -2369,6 +2369,46 @@
       "type": "article",
       "accessed": "2026-10-27",
       "notes": "Packing multiple steps into one form and hiding steps can leave a required field on a hidden step blocking submission; scope validation to the visible step, check each step on transition, or give each step its own form."
+    },
+    {
+      "title": "In-conversation interactive visuals guidance",
+      "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Visuals inside a conversation should be interactive in place: tappable controls, task-specific calculators and charts, and diagrams where selecting a part changes its explanation, rather than flat pictures."
+    },
+    {
+      "title": "Accessible file upload field guidance",
+      "url": "https://blog.a11yfix.dev/blog/accessible-file-upload-fields-guide/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "An upload field states accepted formats and size limits before anyone picks a file, keeps drag-and-drop as a bonus beside a keyboard-operable browse control, announces the attached file and any failure, and offers a clear way to remove and replace a file."
+    },
+    {
+      "title": "Realtime membership and presence guidance",
+      "url": "https://dev.to/crimsonwave9361502/realtime-membership-explained-what-presence-can-and-cannot-tell-fintech-editors-4a3j",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Presence is a short-lived claim about an open session, not proof that a person saw, understood, or approved a change; keep typing indicators, read receipts, and approval signals separate, each with a lifetime matching what it actually knows."
+    },
+    {
+      "title": "Form drafts that survive navigation guidance",
+      "url": "https://adatechsolutions.ca/insights/forms-that-survive-safari-navigation",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "Forms save drafts so a reload or a trip to another page restores the work with a notice that nothing new was sent; a restored draft is not a delivery receipt, and an interrupted submission needs its own checkable state rather than a generic success banner."
+    },
+    {
+      "title": "Saved views guidance",
+      "url": "https://help.lingoapp.com/en/articles/13656114-what-are-saved-views",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-27",
+      "notes": "A saved view is a bookmarked filter combination returned to with one action; it shows the matching subset as data changes rather than moving or copying items, and stays distinct from tags that label single items."
     }
   ]
 }

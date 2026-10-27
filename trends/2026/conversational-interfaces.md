@@ -38,6 +38,17 @@ which the client renders progressively as it streams.
 - Gate rules: every node must resolve to a registered component; a form
   may submit only to an approved destination; the check stays cheap
   enough to run on every tree.
+- Live visuals inside a conversation are controls, not pictures: a visual
+  that shows a quantity, a diagram, or a chart stays manipulable in
+  place, so changing a control updates the linked values and
+  explanations in that same visual, and selecting a part of a diagram
+  swaps in the explanation for that part.
+- Keep the visual usable after the conversation moves on: a person
+  returning to an earlier visual can still change its controls and read
+  the updated result, rather than finding a frozen snapshot.
+- When a visual cannot update, say so in place and offer the same result
+  as plain text or a structured form, never a picture that looks
+  interactive but does nothing.
 
 ## Layout and responsive rules
 
