@@ -26,6 +26,9 @@ Bottom tab bar with three to five destinations, each with a short label and an a
 - Back behaviour is consistent: back returns to the previous view, the tab returns to the section root.
 - On tablets, the tab bar may become a side rail; destinations and order do not change.
 - When top-level sections exceed five, keep the five most-used destinations in the bar and move the rest behind a single More destination that lists every remaining section with its label; never scroll the bottom bar itself, and never drop a destination silently. The More list keeps the current section marked in text as well as in shape, and returning from a More destination keeps the bar state unchanged.
+- Badges state attention, not decoration: show a count only where the number itself matters, otherwise a dot; cap large counts in plain form (for example "99+"); clear a badge when its section is opened, and never badge a destination the person cannot act on. Announce badge changes as a status update, never as an interruption.
+- Each tab keeps its own back stack: switching tabs preserves the stack left behind, back within a tab walks that tab's stack, and tapping the active tab returns to the section root. Back at a tab root leaves the section by the platform convention, never into another tab's stack.
+- A link from outside lands with its owning tab selected and the back route to the section root intact, so the person always knows where they are and how to return; never land on a bare view with no tab context, and show a plain fallback surface where the linked content is no longer available.
 
 ## States
 

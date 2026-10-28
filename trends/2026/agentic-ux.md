@@ -69,6 +69,34 @@ range of text, an item on a canvas — use the inline assistant-action
 pattern from `catalog/patterns.md`: the command appears as a verb on the
 selection itself rather than in a separate conversation surface.
 
+## System-initiated surfaces
+
+Sometimes the system starts the exchange instead of the person: it
+notices a condition, prepares a next step, and offers it. The person
+confirms, redirects, or dismisses — the system never completes a
+consequential action on its own say-so.
+
+- Surface only when the proposal is worth an interruption: a deadline,
+  a blocked task, or a change the person would act on now. Everything
+  else waits in a quiet summary the person checks on their own schedule.
+- Never interrupt work in progress for a low-stakes proposal; queue it
+  until the current task ends or pauses.
+- Every proposal states what triggered it, what will happen if
+  accepted, and what it costs to accept — in plain words, before any
+  action.
+- Offer confirm, redirect, and dismiss on the proposal itself;
+  dismissal is a real answer, not a snooze that returns the same
+  proposal unchanged.
+- Dismissing a kind of proposal quiets that kind: repeated dismissal
+  of the same class stops further proposals of that class until the
+  person re-enables them.
+- Background work reports back where the person will see it, with the
+  same receipt as completed work: what changed, what was assumed, and
+  what can still be undone — never a bare badge count.
+- Keep a visible history of system-initiated proposals and their
+  outcomes, so a dismissed or accepted proposal can be found and
+  revisited.
+
 ## Six trust patterns across the action lifecycle
 
 Structure every agent-driven flow around the same six patterns; treat them

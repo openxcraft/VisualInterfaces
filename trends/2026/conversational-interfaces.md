@@ -49,6 +49,14 @@ which the client renders progressively as it streams.
 - When a visual cannot update, say so in place and offer the same result
   as plain text or a structured form, never a picture that looks
   interactive but does nothing.
+- Fix the answer shapes in advance: give each intent one shape — a
+  side-by-side comparison for comparing options, a diagram for
+  explaining a principle, a map for a route, a calculator for a
+  calculation, and plain text where text suffices — and keep every
+  answer inside that menu. Letting each answer invent its own shape
+  makes one conversation feel like several different products.
+- Offer a control to show fewer visuals, so a person who finds visuals
+  in the way can return to text without leaving the conversation.
 
 ## Layout and responsive rules
 

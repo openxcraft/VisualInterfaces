@@ -7,6 +7,137 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: new What's-new announcement and Version
+  history and restore rows in `catalog/patterns.md`, completing
+  roadmap actions 37 and 14 — announcement visibility graded by
+  impact with a persistent entry point and a seen state so a dismissed
+  announcement is never shown again, and version history with
+  session-folded entries, milestone entries, a compare preview, and a
+  restore that saves the current version first. The announcement row
+  also resolves the cross-reference already present in the in-app
+  update prompt row.
+
+- Layouts: mobile navigation deepened in `layouts/mobile-nav.md` —
+  badge semantics (count only where the number matters, capped
+  counts, cleared on opening), per-tab back stacks with tap-to-root,
+  and deep-entry landing with the owning tab selected and a plain
+  fallback where linked content is unavailable.
+
+- Roadmap: three new improvement actions (72–74) — home-screen
+  widget, deep-link landing, and progressive disclosure — with
+  actions 14 and 37 marked implemented; coverage matrix updated with
+  both new pattern rows.
+
+- Resources: 3 new source records (315 total): announcement
+  visibility guidance, in-app update announcement channels, and
+  version history management.
+
+- Trends: new System-initiated surfaces section in
+  `trends/2026/agentic-ux.md` — the system proposes, prepares,
+  and reports back while the person confirms, redirects, or
+  dismisses; interruption only when worth it, queued proposals
+  during work in progress, dismissal that quiets a proposal
+  class, and a visible history of proposals and outcomes.
+
+- Resources: 1 new source record (312 total): interface
+  architectures replacing the single conversational surface.
+
+- Patterns catalogue: new Carousel, Passkey sign-in, and
+  Low-bandwidth mode rows in `catalog/patterns.md`, completing
+  roadmap actions 66, 67, and 68 — carousel with named
+  slide-picker controls, a stated position, a visible pause
+  control that stops on focus or hover and never restarts after
+  a deliberate pause, and a stopped start where reduced motion
+  is preferred; passkey sign-in with a visible fallback route, a
+  plain explanation before the device prompt, cross-device
+  context stated before any code is shown, and a recovery path
+  for a lost device; low-bandwidth mode as a person-controlled
+  choice with a plain statement of what changes, visible content
+  first, and a one-action return to the full view.
+
+- Roadmap: three new improvement actions (69–71) — external-link
+  departure, described media, and saved-cart recovery — with
+  actions 66, 67, and 68 marked implemented.
+
+- Resources: 1 new source record (311 total): carousel pattern
+  with previous and next controls.
+
+- Patterns catalogue: new Accordion disclosure row in
+  `catalog/patterns.md` — one heading button per section with
+  the expanded or collapsed state stated in text as well as in
+  shape, focus kept on the header when toggling, sections
+  opening independently unless a one-open rule is stated up
+  front, a single reveal kept as a simple disclosure and peer
+  sections kept as tabs, and never the only route to a task
+  hidden inside a collapsed panel. Completes roadmap action 65.
+
+- Roadmap: four new improvement actions (65–68) — accordion
+  disclosure, carousel, passkey sign-in, and low-bandwidth
+  mode — ordered by coverage impact, with action 60 marked
+  implemented to match its existing List reorder row.
+
+- Resources: 3 new source records (310 total): accessible
+  accordion and disclosure sections, accessible auto-rotating
+  carousels and sliders, and designing for limited data plans
+  and slow connections.
+
+- Patterns catalogue: faceted-filter accessibility rules added to
+  the Filtering and sorting row in `catalog/patterns.md` — group
+  each facet's options under a named group, name each chip's remove
+  control for the filter it removes, and announce the new result
+  count as a status message without moving focus.
+
+- Resources: 1 new source record (307 total): accessible faceted
+  search and filter chips.
+
+- Patterns catalogue: new Toast feedback row in
+  `catalog/patterns.md` — one short line naming what completed,
+  one consistent placement, duration scaled to message length, a
+  manual dismiss control with the timer paused on focus or hover, a
+  polite announcement without moving focus, one toast at a time,
+  and never for errors, failures, decisions, or promotion.
+  Completes roadmap action 59.
+
+- Patterns catalogue: new List reorder row in
+  `catalog/patterns.md` — drag with a visible drop preview plus
+  move-up and move-down controls and a keyboard path for every
+  item, an announced new position, a cancel path restoring the
+  original order, and manual reordering disabled while the list is
+  sorted by another attribute. Completes roadmap action 60.
+
+- Patterns catalogue: new Date-range picker row in
+  `catalog/patterns.md` — one linked span with a hover preview as
+  the span forms, presets setting both ends in one action, two
+  months side by side on wide screens, end-before-start prevented
+  or swapped with a plain statement, a stated inclusion rule for
+  both ends, and the chosen span stated in plain words before it
+  applies. Completes roadmap action 61.
+
+- Resources: 3 new source records (306 total): toast feedback
+  guidance, accessible drag-and-drop without dragging, and date
+  picker design for enterprise use.
+
+- Conversational interfaces trend: answer-shape menu rules in the
+  Rendered interface answers section — fix one shape per intent
+  (comparison, diagram, map, calculator, plain text) and keep every
+  answer inside that menu, so answers stay consistent instead of each
+  inventing its own shape, plus a control to show fewer visuals.
+
+- Resources: 1 new source record (303 total): answer-shape menu
+  guidance for composed conversational answers.
+
+- Patterns catalogue: new Image gallery viewer row in
+  `catalog/patterns.md` — thumbnails that name what each selects
+  with the active thumbnail marked as current in text as well as
+  in shape, focus returned to the opening thumbnail on close,
+  viewer controls reachable without horizontal scrolling at high
+  magnification, and an inline magnifier offered as an alternative
+  to a separate viewer layer. Cross-checks the modal dialog row.
+
+- Resources: 1 new source record (302 total): product image
+  gallery zoom accessibility guidance.
+
+
 - Patterns catalogue: new Collaborative editing presence row in
   `catalog/patterns.md` — a presence list naming each person in
   text as well as in colour, a visible hold on the field being
