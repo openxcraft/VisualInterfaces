@@ -51,7 +51,7 @@ defined without an example; gap = named but not yet defined.
 | Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
 | Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in, saved-item collection, bulk action, rating and review submission, payment failure recovery, content reporting and blocking, language and locale selection, scheduled action, breadcrumb navigation, annotation and comment thread, theme selection, profile and
 account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences, long-document navigation, in-app update prompt, pull-to-refresh, scrolling tab bar, system share sheet, find-in-page, collaborative editing presence,
-    draft autosave and recovery, saved-filter view, toast feedback, list reorder, date-range picker, accordion disclosure, carousel, passkey sign-in, low-bandwidth mode, what's-new announcement, version history and restore | — | — |
+    draft autosave and recovery, saved-filter view, toast feedback, list reorder, date-range picker, accordion disclosure, carousel, passkey sign-in, low-bandwidth mode, what's-new announcement, version history and restore, external-link departure, described media, saved-cart recovery, colour picker, guest-to-account conversion, sensitive-content preview, order tracking, time picker, verification-code entry, background-task progress, automated-to-human support handoff, subscription plan change, promo-code entry | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 | Worked examples | Dashboard, mobile navigation, onboarding — each demonstrating the rules it documents with all seven states | — | — |
 | Localization | Right-to-left mirroring rules, what-not-to-mirror list, logical properties, text-expansion budgets, locale-aware date/number/currency formatting and sorting, mixed-direction text | — | — |
@@ -671,7 +671,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    keep a return route to the task left behind — distinct from the
    share link row, which sends the person's own item elsewhere, and
    from the in-product help row, which opens help in place. Done when
-   the row passes all quality gates.
+   the row passes all quality gates. (Implemented this run.)
 
 70. Add a described-media pattern row to `catalog/patterns.md`: where
    media carries visual information beyond dialogue, offer a
@@ -680,7 +680,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    and state plainly where no description exists — distinct from the
    media controls primitive, which operates playback, and from the
    captions rule, which transcribes speech. Done when the row passes
-   all quality gates.
+   all quality gates. (Implemented this run.)
 
 71. Add a saved-cart recovery pattern row to `catalog/patterns.md`:
    when a person returns to a saved cart, state what is still
@@ -689,7 +689,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    intact otherwise — distinct from the saved-item collection row,
    which saves single items, and from the payment failure recovery
    row, which preserves an order after a failed payment. Done when the
-   row passes all quality gates.
+   row passes all quality gates. (Implemented this run.)
 
 72. Add a home-screen widget pattern row to `catalog/patterns.md`: a
    glanceable summary with size tiers, a tap route to the matching
@@ -718,7 +718,197 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    which moves within a page. Done when the row passes all quality
    gates.
 
+75. Add a colour picker pattern row to `catalog/patterns.md`: named
+   swatches rather than colour names alone, a keyboard-operable
+   picker with a typed value entry beside the visual control, a
+   contrast check against the surface it will sit on, and a stated
+   value that never relies on colour alone — distinct from the
+   filtering and sorting swatch rule, which selects among existing
+   options, and from the theme selection row, which applies a whole
+   palette. Done when the row passes all quality gates. (Implemented this run.)
+
+76. Add a guest-to-account conversion pattern row to
+   `catalog/patterns.md`: after a guest purchase, offer a single-step
+   account creation that reuses the order details already given,
+   states plainly what the account adds, and never re-asks for
+   information just entered — distinct from the guest checkout row,
+   which keeps purchase possible without an account, and from the
+   account deletion row, which closes an account. Done when the row
+   passes all quality gates.
+
+77. Add a sensitive-content preview pattern row to
+   `catalog/patterns.md`: content that may distress or surprise
+   first shows a plain preview stating what kind of content follows
+   and why it is flagged, with an explicit reveal control and the
+   choice remembered per content type — distinct from the consent
+   choice row, which asks permission for data use, and from the
+   notification grouping rules, which summarise events. Done when the
+   row passes all quality gates. (Implemented this run.) (Implemented this run.)
+
+78. Add a time picker pattern row to `catalog/patterns.md`: a typed
+   time entry beside a visual picker, preset times for common
+   choices, a plain statement of the time-zone context where it
+   matters, and a 12-hour / 24-hour display that follows the
+   person's locale setting — distinct from the date-range picker
+   row, which collects a span of dates, and from the time-zone
+   picker row, which chooses a zone by place. Done when the row
+   passes all quality gates. (Implemented this run.)
+
+79. Add a verification-code entry pattern row to `catalog/patterns.md`:
+   a single-field entry that accepts pasted codes, per-digit
+   advancement only where it never traps focus, a stated expiry
+   and resend route, and an error message that names the problem
+   without locking the person out — distinct from the second-factor
+   sign-in row, which chooses the factor, and from the passkey
+   sign-in row, which avoids codes entirely. Done when the row
+   passes all quality gates. (Implemented this run.)
+
+80. Add a background-task progress pattern row to `catalog/patterns.md`:
+   a long-running task that continues away from its starting view
+   states its progress, offers pause and cancel where safe, and
+   reports completion or failure in place with a return route —
+   distinct from the wizard row, which steps through a task in
+   view, and from the toast feedback row, which confirms a task
+   already finished. Done when the row passes all quality gates. (Implemented this run.)
+
+81. Add an order tracking pattern row to `catalog/patterns.md`: a
+   staged progress view naming the current stage in plain words,
+   a stated delivery window with a revised window and reason
+   where delayed, a support route attached to delays and failed
+   deliveries, and split shipments labelled as separate stages —
+   distinct from the saved-cart recovery row, which revisits an
+   unfinished cart, and from the notification escalation row,
+   which routes urgent updates. Done when the row passes all
+   quality gates.
+
+82. Add an automated-to-human support handoff pattern row to
+   `catalog/patterns.md`: handoff triggers that fire on an
+   explicit request for a person, on repeated unhelpful answers,
+   and where the next step needs authority the automated help
+   does not hold; full conversation context carried across so
+   nothing is re-asked, and a stated next step with a waiting
+   route where no person is available — distinct from the
+   in-product help row, which opens help in place, and from
+   the agent checkpoint row, which approves an automated task.
+   Done when the row passes all quality gates. (Implemented this run.)
+
+83. Add a subscription plan change pattern row to
+   `catalog/patterns.md`: a before-and-after statement of price,
+   entitlements, and effective date shown before confirmation,
+   upgrades taking effect at once with the prorated charge
+   stated, downgrades taking effect at the next renewal with
+   the higher tier kept until then, and a stated route back —
+   distinct from the subscription cancellation row, which ends
+   a subscription, and from the paywall row, which first offers
+   a paid tier. Done when the row passes all quality gates. (Implemented this run.)
+
+84. Add a promo-code entry pattern row to `catalog/patterns.md`:
+   a collapsed entry that keeps checkout uncluttered, instant
+   confirmation with the discount shown as a line item beside
+   the recalculated total, a named reason where a code fails
+   (expired, already used, below the qualifying spend, or not
+   matching the items), and a one-action removal — distinct
+   from the guest checkout row, which collects payment details,
+   and from the payment failure recovery row, which preserves
+   an order after a failed payment. Done when the row passes
+   all quality gates. (Implemented this run.)
+
+
+85. Add a poll and voting pattern row to `catalog/patterns.md`: a
+   single question with a stated vote rule, results shown as counts
+   and shares in text as well as in shape, a stated rule for whether
+   results appear before or after voting, a change-vote route where
+   votes may change, and a plain closed state once voting ends —
+   distinct from the rating and review submission row, which judges
+   a single item, and from the annotation and comment thread row,
+   which holds discussion. Done when the row passes all quality
+   gates.
+
+86. Add an age verification gate pattern row to
+   `catalog/patterns.md`: a gate that states the age requirement and
+   why it applies, asks only for the threshold where that suffices
+   rather than full identity details, offers a plain decline route
+   with somewhere useful to go, and remembers the answer only where
+   that is appropriate — distinct from the consent choice row, which
+   asks permission for data use, and from the passkey sign-in row,
+   which proves a credential. Done when the row passes all quality
+   gates.
+
+87. Add a limited-time offer countdown pattern row to
+   `catalog/patterns.md`: a countdown shown beside the exact end
+   time and its zone, a timer that never resets on revisit, a plain
+   statement of what happens when the time runs out, and the offer
+   terms reachable from the countdown itself — distinct from the
+   session-expiry warning row, which ends a session, and from the
+   scheduled action row, which runs an action at a future time.
+   Done when the row passes all quality gates.
+
+88. Add a master-detail pattern row to `catalog/patterns.md`: a
+   list beside its detail on wide screens, the selected item
+   stated in text as well as in shape, the detail updating
+   without losing the list position, a stacked list-then-detail
+   route with a clear back step on narrow screens, and a stated
+   empty detail state before anything is selected — distinct
+   from the detail view row, which inspects one item without a
+   sibling list, and from the data table row, which compares
+   rows rather than pairing a list with its detail. Done when
+   the row passes all quality gates.
+
+89. Add a threaded message reply pattern row to `catalog/patterns.md`: a
+   reply anchored to the message it answers, a thread view that
+   keeps the original message visible, an unread count per thread
+   stated in text, and a return route from the thread to the
+   main conversation — distinct from the annotation and comment
+   thread row, which anchors discussion to document content, and
+   from the message edit and delete row, which changes a message
+   rather than answering it. Done when the row passes all quality
+   gates.
+
+90. Add a gift option pattern row to `catalog/patterns.md`: an
+   option at checkout marking an order as a gift, prices hidden
+   from the recipient, an optional gift message shown to the
+   recipient, and a separate delivery address for the gift that
+   never overwrites the buyer's own address — distinct from the
+   guest checkout row, which completes a purchase without an
+   account, and from the saved-cart recovery row, which revisits
+   an unfinished cart. Done when the row passes all quality
+   gates.
+
 ## Review notes
+
+- Completed this review (deep editorial 2026-10-29): new
+  Automated-to-human support handoff pattern row in
+  `catalog/patterns.md` (triggers for an explicit request,
+  repeated unhelpful answers, and steps needing authority
+  automated help does not hold; a saved case carrying the
+  stated issue, steps tried, and details already given; queue
+  position and waiting route stated; a stated next step where
+  no person is available); new Subscription plan change pattern
+  row (before-and-after comparison of price, entitlements, and
+  effective date before confirmation; upgrades at once with the
+  prorated charge stated; downgrades at the next renewal with
+  the higher tier kept until then); new Promo-code entry
+  pattern row (collapsed entry, discount as a line item beside
+  the recalculated total, named failure reasons, stated
+  one-code limit, one-action removal). Completes roadmap
+  actions 82, 83, and 84; actions 88, 89, and 90 added as
+  follow-ups. Coverage matrix updated with the three new rows.
+  3 new source records (343 total).
+
+- Completed this review (deep editorial 2026-10-29): new Colour
+  picker pattern row in `catalog/patterns.md` (named swatches with
+  a stated value in text, keyboard-operable picker with a typed
+  value entry, contrast check against the target surface); new
+  Guest-to-account conversion pattern row (single optional step
+  after confirmation reusing order details, plain benefit
+  statement, existing-account link route, guest lookup route kept
+  for anyone who declines); new Sensitive-content preview pattern
+  row (plain preview stating kind and reason, explicit reveal
+  only, per-type remembered choice, hide-again control, private
+  material kept out of the page until revealed). Completes roadmap
+  actions 75, 76, and 77; actions 78, 79, and 80 added as
+  follow-ups. Coverage matrix updated with the three new rows.
+  3 new source records (324 total).
 
 - Completed this review (deep editorial 2026-10-28): new Carousel
   pattern row in `catalog/patterns.md` (named slide-picker controls,
@@ -1248,6 +1438,22 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
   matrix updated with both new rows; three new improvement actions
   added (72 home-screen widget, 73 deep-link landing, 74 progressive
   disclosure); 3 new source records (315 total).
+
+- Completed this review (deep editorial 2026-10-28): new
+  External-link departure, Described media, and Saved-cart recovery
+  pattern rows in `catalog/patterns.md`, completing roadmap actions
+  69, 70, and 71; coverage matrix updated with all three new rows;
+  three new improvement actions added (75 colour picker, 76
+  guest-to-account conversion, 77 sensitive-content preview); 2 new
+  source records (319 total).
+
+- Completed this review (deep editorial 2026-10-29): new Time
+  picker, Verification-code entry, and Background-task progress
+  pattern rows in `catalog/patterns.md`, completing roadmap actions
+  78, 79, and 80; coverage matrix updated with the three new rows;
+  three new improvement actions added (85 poll and voting, 86 age
+  verification gate, 87 limited-time offer countdown); 3 new source
+  records (331 total).
 
 ## Pre-publish checklist
 

@@ -7,6 +7,217 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: new Automated-to-human support handoff row
+  in `catalog/patterns.md` — handoff triggers for an explicit
+  request, repeated unhelpful answers, and steps needing authority
+  automated help does not hold, a saved case carrying the stated
+  issue, steps already tried, and details already given so nothing
+  is re-asked, a plain statement of queue position and waiting
+  route, and a stated next step where no person is available
+  instead of a pretended transfer.
+
+- Patterns catalogue: new Subscription plan change row in
+  `catalog/patterns.md` — a before-and-after comparison of price,
+  entitlements, billing period, and effective date shown before
+  confirmation, upgrades taking effect at once with the prorated
+  charge stated, downgrades taking effect at the next renewal with
+  the higher tier kept until then, a named loss where a downgrade
+  removes an entitlement in use, and a cancellable pending
+  downgrade.
+
+- Patterns catalogue: new Promo-code entry row in
+  `catalog/patterns.md` — a collapsed entry keeping checkout
+  uncluttered, the discount shown at once as a line item beside the
+  recalculated total, a named failure reason (expired, already
+  used, below the qualifying spend, not matching the items, or
+  unable to combine) instead of a bare rejection, a stated
+  one-code limit, and a one-action removal restoring the total.
+
+- Patterns catalogue: new Kanban board row in
+  `catalog/patterns.md` — stage columns mirroring the real stages
+  of the work, a visible work-in-progress limit with a plain
+  warning when passed, drag plus keyboard or menu move controls
+  with undo, lane grouping for blocked or urgent work, scannable
+  cards with detail one step away, and collapsed columns that
+  keep their counts visible on narrow screens.
+
+- Patterns catalogue: new Age verification gate row in
+  `catalog/patterns.md` — a gate stating the age requirement and
+  why it applies before asking anything, asking only for the
+  threshold where that suffices rather than fuller details by
+  default, a neutral gate with nothing pre-selected, a plain
+  decline route leading somewhere useful, plain statements of
+  each outcome, and a remembered answer only where appropriate.
+
+- Patterns catalogue: new Limited-time offer countdown row in
+  `catalog/patterns.md` — a countdown shown beside the exact end
+  date, time, and zone, tied to one real deadline that never resets
+  on revisit, a plain statement of what happens when the time runs
+  out, offer terms reachable from the countdown itself, and live
+  updates announced at most once a minute, with a static end
+  statement preferred for assistive technology.
+
+- Patterns catalogue: new Swipe-to-reveal actions row in
+  `catalog/patterns.md` — a partial swipe revealing at most two or
+  three named actions beside a list row, a full swipe committing
+  only a non-destructive primary action, every action also
+  reachable without a gesture, an undo offer after a destructive
+  action, and direction locking so scrolling never reveals actions
+  by accident.
+
+- Patterns catalogue: new Poll row in
+  `catalog/patterns.md` — a stated single- or multiple-choice rule with a
+  pick limit, an immediate confirmation marked in words, results held
+  until voting or closing where early results would bias later votes,
+  live results shown in text as well as bar length, a stated anonymous
+  or named vote with change-before-close replacing the earlier vote,
+  a stated close time, and closed polls kept readable but no longer
+  votable.
+
+- Patterns catalogue: new Message edit and delete row in
+  `catalog/patterns.md` — editing from the message itself with a
+  visible editing state and an edited marker in words, a plain
+  statement where a correction changes the meaning, confirmation
+  before deleting with a stated scope for one person or for
+  everyone, a deletion placeholder so the thread still reads
+  coherently, and attachments following the same scope as the
+  text.
+
+- Patterns catalogue: new Live broadcast chat overlay row in
+  `catalog/patterns.md` — a small number of recent messages with a
+  short display time over a moving picture, high-contrast text with
+  a backing tested on light and dark scenes, sender names
+  distinguishable in text or shape as well as colour, clearance
+  from captions and other on-screen controls, a one-action hide
+  control, never showing private messages, moderator notes, or
+  messages held for review, and a highlighted message shown one at
+  a time for a few seconds.
+
+- Patterns catalogue: new Pinned message row in
+  `catalog/patterns.md` — pinning from the message itself, a stated
+  shared or personal scope, a banner at the top of the conversation
+  with sender, time, and preview that jumps to the original message,
+  confirmation before replacing a shared pin, one-action unpinning,
+  a stated limit where several pins are allowed, and a distinction
+  from saved items.
+
+- Patterns catalogue: new Message reaction row in
+  `catalog/patterns.md` — a reaction bar opened from the message
+  itself, a small fixed quick set with a full picker behind an add
+  control, tap-to-remove and tap-to-replace with at most one
+  reaction per person per message, a grouped reaction cluster that
+  opens a reactors list, and keyboard operation with reactions
+  labelled in words.
+
+- Patterns catalogue: new Voice message row in
+  `catalog/patterns.md` — a stated send gesture for held versus
+  locked recording, pause and resume while recording, listen
+  before sending with discard beside send, the waveform as the
+  scrub control with played and unplayed portions distinct in
+  shape or text as well as colour, speed choices, resume from
+  the last listened position, and a transcript offered as a text
+  alternative beside the player.
+
+- Patterns catalogue: new Code scanner row in
+  `catalog/patterns.md` — a viewfinder frame guide with a dimmed
+  surround, in-place highlight of the detected code, immediate
+  visual plus sound or vibration confirmation, a result preview
+  with a confirm control before any action is taken, a
+  scan-again control, failure guidance naming distance, angle,
+  light, or flash, and an image-from-library route where camera
+  access is refused or unavailable.
+
+- Patterns catalogue: new Time picker, Verification-code entry,
+  and Background-task progress rows in `catalog/patterns.md`,
+  completing roadmap actions 78, 79, and 80 — typed entry beside a
+  visual picker with a stated format and zone context; a single code
+  field accepting paste and autofill with a stated expiry and resend
+  route; and a task list with named states, pause and cancel where
+  safe, and completion or failure reported in place.
+
+- Roadmap: three new improvement actions (85–87) — poll and voting,
+  age verification gate, and limited-time offer countdown — with
+  actions 78, 79, and 80 marked implemented; coverage matrix updated
+  with the three new rows.
+
+- Resources: 3 new source records (331 total): time picker
+  component guidance, verification-code input guidance, and
+  background-task progress guidance.
+
+- Patterns catalogue: new Order tracking row in
+  `catalog/patterns.md`, completing roadmap action 81 — named
+  stages from placement to delivery, a stated delivery window
+  with a revised window and reason where delayed, updates at
+  every stage that changes expectations, separately labelled
+  stages for split shipments, and a support route attached to
+  delays and failed deliveries with order details carried over.
+
+- Roadmap: four new improvement actions (81–84) — order
+  tracking, automated-to-human support handoff, subscription
+  plan change, and promo-code entry — with action 81 marked
+  implemented; coverage matrix updated with the new row.
+
+- Resources: 4 new source records (328 total): order tracking
+  page guidance, automated-to-human support handoff, promo-code
+  entry, and subscription plan change proration.
+
+- Patterns catalogue: new Colour picker, Guest-to-account
+  conversion, and Sensitive-content preview rows in
+  `catalog/patterns.md`, completing roadmap actions 75, 76, and
+  77 — named swatches with a stated text value, a
+  keyboard-operable picker with typed entry, and a contrast check
+  against the target surface; a single optional post-purchase step
+  that carries a guest order into a new account without re-asking
+  for details; and a plain preview stating content kind and reason
+  with an explicit reveal control and a per-type remembered choice.
+
+- Roadmap: three new improvement actions (78–80) — time picker,
+  verification-code entry, and background-task progress — with
+  actions 75, 76, and 77 marked implemented; coverage matrix updated
+  with the three new rows.
+
+- Resources: 3 new source records (324 total): accessibility colour
+  tools, guest checkout conversion, and sensitive content warnings.
+
+- Patterns catalogue: new Print-friendly view row in `catalog/patterns.md` — a reading view that removes navigation, banners, and interactive controls before printing, states the page count before printing, keeps headings with their content, repeats table headers on each printed page, wraps wide tables, prints link destinations in text, and keeps charts readable without colour alone.
+
+- Resources: 1 new source record (321 total): printable websites checklist.
+
+- Patterns catalogue: new Picture-in-picture row in `catalog/patterns.md` — a floating video window that keeps playing while the person does another task, with tap-to-reveal play/pause, restore, and close controls, drag-to-move, edge stash, pinch resize, and dismissal that stops playback, keeping playback state identical across sizes.
+
+- Resources: 1 new source record (320 total): picture-in-picture interaction guidance.
+
+- Patterns catalogue: new External-link departure, Described media,
+  and Saved-cart recovery rows in `catalog/patterns.md`, completing
+  roadmap actions 69, 70, and 71 — departure notices that state the
+  destination, that it opens elsewhere, and what happens to
+  unfinished work, with a return route; a description track offered
+  as a named choice beside captions, kept separate from dialogue,
+  with a plain statement where none exists; and saved-cart recovery
+  that states availability, price, and expiry changes before
+  checkout, with one-action removal and no silent drops or swaps.
+
+- Roadmap: three new improvement actions (75–77) — colour picker,
+  guest-to-account conversion, and sensitive-content preview — with
+  actions 69, 70, and 71 marked implemented; coverage matrix updated
+  with all three new pattern rows.
+
+- Resources: 2 new source records (319 total): accessible video
+  player practices including description tracks, and external-link
+  departure guidance.
+
+- Primitives catalogue: new Image crop editor row in `catalog/primitives.md` — ratio presets with a locked ratio while resizing, a keyboard path with nudge controls, a live preview before commit, the original kept unchanged until commit, and a reset to the original frame.
+
+- Resources: 1 new source record (317 total): accessible image crop editor controls.
+
+- Patterns catalogue: Search results row in `catalog/patterns.md`
+  deepened with applied-filter chip overflow rules — a horizontally
+  scrollable chip row or a single expandable chip for the excess, a
+  visible reset control, and stable chip order on selection.
+
+- Resources: 1 new source record (316 total): filter chip overflow
+  handling.
+
 - Patterns catalogue: new What's-new announcement and Version
   history and restore rows in `catalog/patterns.md`, completing
   roadmap actions 37 and 14 — announcement visibility graded by
@@ -225,6 +436,19 @@ version, with Added, Changed, and Fixed sections where they apply.
   list, table, and card views.
 
 ### Changed
+
+- Calendar and scheduling row in `catalog/patterns.md`:
+  drag-to-move and edge-resize rules — preview of the new time
+  with conflicts shown before committing, undo for a move,
+  keyboard or menu routes for every drag, month-view drags
+  keeping the clock time, and timed resizing in day or week
+  views with the dragged edge naming which end it changes.
+
+- Search row in `catalog/patterns.md`: suggestion-panel rules —
+  a small scannable set of suggestions, grouped and labelled
+  where more than one content type returns, Escape closing the
+  panel before it clears the query, and Enter committing the
+  query as typed.
 
 - Mobile navigation layout: a More destination rule for more
   than five top-level sections — the five most-used stay in the
