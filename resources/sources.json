@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "sources": [
     {
       "title": "Design trends overview for 2026",
@@ -2745,6 +2745,494 @@
       "type": "article",
       "accessed": "2026-10-29",
       "notes": "One-code limits with a named rejection rule, named failure reasons instead of a bare rejection, discount shown as a line item beside the recalculated total, and stacking precedence stated before payment."
+    },
+    {
+      "title": "Comment mentions and notification guidance",
+      "url": "https://uxcel.com/lessons/comments-best-practices-499",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-29",
+      "notes": "Mentions address specific people in a discussion with a notification to the mentioned person, a suggestion list after the mention trigger, distinct styling for a mention, and a control to switch mention notifications off."
+    },
+    {
+      "title": "Master-detail layout variations",
+      "url": "https://www.oracle.com/webfolder/ux/mobile/pattern/masterdetail.html",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-29",
+      "notes": "Master-detail variations: split view, drill-down page, popup, and expand in place, with list and detail pairing rules."
+    },
+    {
+      "title": "Chat bubble patterns including threaded replies",
+      "url": "https://getdom.studio/blog/chat-bubbles-ui-patterns-examples",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-29",
+      "notes": "Threaded replies grouped around a parent message, with the parent kept visible and unread replies signalled."
+    },
+    {
+      "title": "Gifting flow guidance",
+      "url": "https://baymard.Com/research-articles/gifting-flow",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-29",
+      "notes": "Gift ordering: explicit gift designation, hiding prices from the recipient, and a personalised message with the order."
+    },
+    {
+      "title": "Saved address search at checkout",
+      "url": "https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-address-search",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-29",
+      "notes": "Saved addresses at checkout: showing only the default once many addresses are saved, with a change action and search to pick another, and an explicit no-address-selected state where no default exists."
+    },
+    {
+      "title": "Delivery date and time slot selection at checkout",
+      "url": "https://elextensions.com/allow-customers-choose-order-delivery-date-slots-woocommerce/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Delivery scheduling at checkout: choosing a date first, then an open time window, with lead time, working days, blocked dates, and slot capacity shaping what stays available."
+    },
+    {
+      "title": "Delivery time slot capacity and availability rules",
+      "url": "https://www.tychesoftwares.com/woocommerce-delivery-time-slot-capacity-not-working/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Full time windows removed from checkout choices while the date stays open where other windows hold capacity, and a full date disabled in the calendar; availability rules must match what fulfilment can actually serve."
+    },
+    {
+      "title": "Product variation page experience improvements",
+      "url": "https://syncbricks.com/how-to-improve-user-experience-for-woocommerce-product-variation-pages/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Variation selection: instant and visible price updates per chosen combination, large touch-friendly option controls, and stock stated beside each option instead of an error only at add-to-cart."
+    },
+    {
+      "title": "Accessible colour and size variant swatches on product pages",
+      "url": "https://quietramp.com/notes/color-size-variant-swatches-accessible.html",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Variant swatches as a named single-choice group with real named controls, selected state exposed beyond colour alone, visible keyboard focus, and a visible border for pale swatches."
+    },
+    {
+      "title": "Booking patterns that cut drop-offs and no-shows",
+      "url": "https://www.appypie.com/blog/booking-app-ux-patterns",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Make cancelling easier than skipping a visit; a reschedule link in every reminder turns a missed visit into a released slot, the cancellation policy is stated at booking, a calendar addition is offered on confirmation, and a freed slot is offered to the next waiting person."
+    },
+    {
+      "title": "Screen reader live region guidance",
+      "url": "https://eui.elastic.co/v113.0.0/docs/utilities/accessibility/",
+      "category": "states",
+      "type": "documentation",
+      "accessed": "2026-10-30",
+      "notes": "Live regions present from initial load, polite announcements by default for status changes, interrupting announcements reserved for time-critical updates, and whole versus changed-part announcement scope."
+    },
+    {
+      "title": "Password reset UX: make recovery clear and safe",
+      "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "One plain request screen with a neutral response that does not reveal whether an account exists; a single-use, expiring reset link or code with a dedicated expired-link screen; stated password rules before submission, paste allowed, and a success state with a sign-in route plus a separate account notification."
+    },
+    {
+      "title": "Self-serve order cancellation before fulfilment",
+      "url": "https://textconnects.com/blogs/news/the-eu-wants-a-cancel-button-shopify-has-until-the-19th-so-do-you",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A clearly labelled cancellation route for orders not yet fulfilled, a short confirmation step, and a written confirmation once the request is in; cancellations cover unfulfilled orders while returns cover fulfilled ones, so the request must reach fulfilment fast."
+    },
+    {
+      "title": "In-app feedback patterns",
+      "url": "https://v1.lightningdesignsystem.com/guidelines/in-app-feedback/patterns/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "Feedback elements paired with containers by research objective: rating scales, yes-or-no questions, open response fields, multiple choice, visual feedback with screenshots for layout or factual problems, and user-chosen topic tagging."
+    },
+    {
+      "title": "Gift card purchase and redemption UX",
+      "url": "https://www.voucherify.io/blog/gift-cards-ux-and-ui-best-practices",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Gift cards treated as a payment method rather than a discount voucher: partial redemptions, a balance that stays for later orders, a code that is easy to copy, and stated limits on redemption."
+    },
+    {
+      "title": "Bug report form questions, template and best practices",
+      "url": "https://www.zonkafeedback.com/blog/bug-report-form-questions",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Structured problem reports: title, description, steps to reproduce, severity, environment, and screenshot; few required fields in plain language, with a stated route after submission."
+    },
+    {
+      "title": "Gift card purchase and redemption workflow",
+      "url": "https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/gift-cards/product-gift-card-workflow",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Gift cards redeemed in the cart or at checkout as a payment amount, a balance check from the account area, redemption into store credit, and the applied amount reflected in the order summary."
+    },
+    {
+      "title": "Stored payment methods in checkout",
+      "url": "https://docs.commercetools.com/checkout/stored-payment-methods",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "Stored cards shown by brand and last four digits and preselected at checkout, multiple stored cards deletable during checkout, and the payment form resetting when all stored cards are removed."
+    },
+    {
+      "title": "Video player accessibility guidance",
+      "url": "https://videojs.org/docs/framework/html/guides/accessibility",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "Chapter markers on the seek bar and a chapter menu for navigation; transcript placed outside the player container so it stays available in fullscreen; state announcements only for confirmed changes such as play, pause, seek landing, captions, and volume."
+    },
+    {
+      "title": "Waitlist form mechanics: capacity, priority, and promotion workflow",
+      "url": "https://dev.to/lovanaut55/waitlist-form-mechanics-capacity-priority-and-promotion-workflow-4268",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Waitlist entries move through stated states from waiting to offered, with a priority order, an offer that carries an expiry, and promotion of the next entry when an offer expires unanswered."
+    },
+    {
+      "title": "Mobile app loyalty rewards design examples",
+      "url": "https://screensdesign.com/articles/mobile-app-loyalty-rewards-design-examples/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Loyalty balance paired with the next useful reward and the gap to it; available and pending balances distinguished; earning rules, point value, exclusions, and expiry stated plainly; unavailable inventory kept out of the redeemable list; history kept consistent after returns and reversals."
+    },
+    {
+      "title": "What is URL unfurling? Link previews explained",
+      "url": "https://www.conferbot.com/glossary/term/url-unfurling",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A pasted link expands into a preview card built from the destination title, short description, and image, with a plain-link fallback where those details are missing; a sender can switch a preview off, and only one preview is shown where several links appear."
+    },
+    {
+      "title": "Home-screen widget design guidance",
+      "url": "https://www.telusdigital.com/insights/digital-experience/article/designers-perspective-how-to-create-useful-ios-14-widgets",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Widget sizes as separate designs: small tiers glanceable and focused, larger tiers showing more data; content kept dynamic with a stated refresh cadence; each element tapping through to the matching in-app view."
+    },
+    {
+      "title": "Deep-link navigation state guidance",
+      "url": "https://137foundry.com/articles/deep-links-mobile-app-without-breaking-navigation",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A deep link should recreate the navigation state a person would reach by tapping there normally, with a coherent back stack, matching navigation selection, and a fallback where the destination cannot be reached."
+    },
+    {
+      "title": "Progressive disclosure directives",
+      "url": "https://alehhaiko.com/ux/2-4-progressive-disclosure.html",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Progressive disclosure as a timing strategy: immediate task needs stay accessible, deeper complexity is revealed under the person's control, context is preserved across expansion and collapse, and patterns stay predictable."
+    },
+    {
+      "title": "Self-service billing portal patterns",
+      "url": "https://www.kinde.com/learn/billing/ux/embedding-billing-into-selfservice-portals-ui-and-apipatterns/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A billing view for an existing customer should state the current plan, next charge, and payment method first, list invoices with period, amount, status, and a document route, and state any prorated charge at the moment of a plan change rather than leaving it for the next invoice."
+    },
+    {
+      "title": "Accessible password meters",
+      "url": "https://www.numberanalytics.com/blog/accessible-password-meters",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A password strength indicator must not rely on colour alone: pair the indicator with a text label, keep contrast sufficient, and make every status change available to assistive technology."
+    },
+    {
+      "title": "Reviews and ratings summary",
+      "url": "https://smart-interface-design-patterns.com/articles/reviews-and-ratings-ux/?text=Reviews And Ratings UX",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A rating summary should show a decimal average with the total number of reviews, a full distribution across rating levels, and filters that let readers find relevant reviews."
+    },
+    {
+      "title": "Activity feed components and grouping",
+      "url": "https://www.untitledui.com/components/activity-feeds",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "An activity feed should group related events with a collapse rule, hold live updates behind a count rather than shifting content under the reader, show relative timestamps with the exact time available on demand, and use a connecting line only where order and elapsed time carry meaning."
+    },
+    {
+      "title": "Multi-factor enrolment experience guidance",
+      "url": "https://workos.com/docs/mfa/ux/enrollment",
+      "category": "patterns",
+      "type": "documentation",
+      "accessed": "2026-10-30",
+      "notes": "Enrolment should offer several methods with a chosen default, pair a QR code with a typed secret alternative and a text description, and use a suitable code-entry control with autofill support."
+    },
+    {
+      "title": "Sticky headers and screen magnification",
+      "url": "https://a11ywithdiana.substack.com/p/5-web-design-features-that-can-make",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A pinned header should stay compact and be tested at high zoom and with keyboard navigation; where pinning is not needed, keep the header in the normal page flow."
+    },
+    {
+      "title": "Form error reporting guidelines",
+      "url": "https://www.nngroup.com/articles/errors-forms-design-guidelines/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Validate on leaving a field rather than while typing, re-check after an invalid mark so errors clear on correction, keep messages beside fields, and pair a focused submit-time error summary with the inline messages."
+    },
+    {
+      "title": "Theme toggle placement and stored-preference behaviour",
+      "url": "https://dev.to/leobaniak/your-theme-toggle-does-not-need-a-system-button-ej7",
+      "category": "states",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A quick header control should offer only the opposite of the current appearance, the three-way follow-system, light, or dark choice belongs in a dedicated settings view, nothing is stored until the person chooses, toggling back to the system-matching appearance clears the stored value, and a stored choice is never cleared on its own when the system preference later matches it."
+    },
+    {
+      "title": "Restore purchase meaning and flow",
+      "url": "https://qonversion.io/blog/what-does-restore-purchase-mean",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A restore control in the paywall or settings re-applies eligible past purchases without a new charge; consumable items already spent are not restored, and a restore that finds nothing eligible should state that plainly with a sign-in or help route."
+    },
+    {
+      "title": "Emoji picker component guidance",
+      "url": "https://interweave.dev/docs/exts/emoji-picker/",
+      "category": "patterns",
+      "type": "documentation",
+      "accessed": "2026-10-30",
+      "notes": "A symbol picker combines search, grouped categories, a recents group, a skin-tone selector, and a hover preview, with a configurable element order."
+    },
+    {
+      "title": "Subscription usage view",
+      "url": "https://info.apiant.com/docs/automation-editor/account-management/view-subscription-usage",
+      "category": "patterns",
+      "type": "documentation",
+      "accessed": "2026-10-30",
+      "notes": "A subscription usage view shows plan limits and monthly counts, resets counts at the start of each month, warns when use approaches and reaches the allotted total, and stops processing once the total is reached."
+    },
+    {
+      "title": "Read progress bar implementation",
+      "url": "https://backyardcoder.me/posts/implementing-a-read-progress-bar/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A reading progress indicator tracks one content container, fills as that content is read, stays fixed while the page moves, and uses a labelled progress element so the value is available to assistive technology."
+    },
+    {
+      "title": "Provide search",
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o2p06-search/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "A friendly search capability includes autocomplete, results grouped under headings where appropriate, an easy way to find previous searches, and spell-checking with suggested corrections."
+    },
+    {
+      "title": "Design Guidelines For Better Notifications UX",
+      "url": "https://smart-interface-design-patterns.com/articles/notifications/?text=Design Guidelines For Better Notifications UX",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "Notification guidance covers sending slowly at first, grouping updates, and letting people snooze or pause notifications for a stated period rather than clearing them unseen."
+    },
+    {
+      "title": "Draft messages and draft lists",
+      "url": "https://getstream.io/chat/docs/sdk/ios/swiftui/drafts/",
+      "category": "patterns",
+      "type": "documentation",
+      "accessed": "2026-10-30",
+      "notes": "Drafts are saved when a person leaves unfinished work, shown as labelled previews in lists, restored into the composer on return, and cleared once sent or explicitly discarded."
+    },
+    {
+      "title": "Allow reorders",
+      "url": "https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/reorders-allow",
+      "category": "patterns",
+      "type": "documentation",
+      "accessed": "2026-10-30",
+      "notes": "Reorders are made from the order list or the order detail view; the control is disabled where an item is unavailable, out of stock, or disabled; items already in the cart stay when reorder items are added."
+    },
+    {
+      "title": "Notification settings design",
+      "url": "https://www.setproduct.com/blog/notifications-ui-design",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Group notification preferences by topic, lay categories against channels in a matrix, default to restraint for promotional updates, and treat the settings screen as part of the notification feature rather than an afterthought."
+    },
+    {
+      "title": "Understand split payments",
+      "url": "https://docs.oracle.com/en/cloud/saas/cx-commerce/21a/ccdev/understand-split-payments.html",
+      "category": "patterns",
+      "type": "documentation",
+      "accessed": "2026-10-30",
+      "notes": "An order total can be broken into parts, each tied to a different payment method instance, with a single-payment setting alongside; partial payments keep the order pending until the full cost is authorised."
+    },
+    {
+      "title": "Selection patterns",
+      "url": "https://m1.material.io/patterns/selection.html",
+      "category": "patterns",
+      "type": "documentation",
+      "accessed": "2026-10-30",
+      "notes": "Text selection is shown by highlighting a contiguous segment; on touch surfaces handles sit at both ends, and actions appear in a menu placed beside the selection without overlapping it, with further actions behind a secondary step."
+    },
+    {
+      "title": "Order returns: customer experience",
+      "url": "https://support.x-cart.com/en/articles/4656833-order-returns-customer-experience-x-cart-5-6-0-16-and-earlier",
+      "category": "patterns",
+      "type": "documentation",
+      "accessed": "2026-10-30",
+      "notes": "A return request starts from the order, naming the items, quantities, reason, and preferred outcome; the request carries a stated status from issued to completed or declined, shown on the order details page."
+    },
+    {
+      "title": "How to write back-in-stock alerts that create urgency without spam",
+      "url": "https://mailscribe.com/blog/how-to-write-back-in-stock-alerts-that-create-urgency-without-spam",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A restock alert names the exact item and variant wanted, keeps one primary action, states honest scarcity, sends promptly while stock lasts, and offers a plain way to stop."
+    },
+    {
+      "title": "Understanding restricted permissions with minimum scope alternatives",
+      "url": "https://support.google.com/googleplay/android-developer/answer/16935362?hl=en&utm_source=chatgpt.com&visit_id=639238076735706605-4195724176&rd=1",
+      "category": "patterns",
+      "type": "documentation",
+      "accessed": "2026-10-30",
+      "notes": "System pickers give a privacy-oriented path for contacts: the person chooses specific contacts or fields in a system surface instead of granting broad address-book access."
+    },
+    {
+      "title": "Product tour guide: boost activation and retention",
+      "url": "https://www.appcues.com/blog/product-tours-walkthroughs-ultimate-guide",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Product tours guide toward one activation goal in a few steps with a skip option and re-access; task lists and onboarding checklists give a visible list of setup tasks with progress, and checklists suit setup sequences spanning several separate actions."
+    },
+    {
+      "title": "Seat selection map accessibility guidance",
+      "url": "https://rogabot.com/articles/airline-flight-search-seat-selection-map-accessibility.html",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Keyboard-operable seating charts: every seat focusable with a row-and-number label, availability and selection stated in text or shape as well as colour, and a list alternative to the visual map."
+    },
+    {
+      "title": "Selecting an option from a list pattern",
+      "url": "https://design-system.agriculture.gov.au/patterns/selecting-an-option-from-a-list",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Choosing a selection control by list length: visible checkbox or radio groups for short lists, select menus or searchable comboboxes for long lists, and a custom option revealing a text field with an add-another control for further custom values."
+    },
+    {
+      "title": "Spatial home control map guidance",
+      "url": "https://www.engadget.com/2299183/alexa-home-map-visual-way-see-control-smart-home/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "A spatial home view placing device controls where the devices sit, with zoom into rooms, switching between floors, filtering by device type, and device state shown in place such as light colour and brightness."
+    },
+    {
+      "title": "Tracked changes with comments integration guidance",
+      "url": "https://tiptap.dev/docs/tracked-changes/guides/comments-integration",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Suggestion review in shared documents: a proposing mode separate from direct editing, discussion threads linked to proposed changes, and resolving or deleting a linked thread accepting or rejecting the proposal, with accept-all and reject-all previews."
+    },
+    {
+      "title": "Accessible step indicators for multi-step checkout flows",
+      "url": "https://quietramp.com/notes/checkout-step-indicators-aria-current-step-ecommerce.html",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-10-30",
+      "notes": "Step indicators in multi-step flows: the current step marked for assistive technology with a current-step token, completed steps distinguished from future steps, and the current position announced so a step list never reads as identical labels."
+    },
+    {
+      "title": "Follow design pattern: examples and best practices",
+      "url": "https://ui-patterns.com/patterns/follow",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "Follow as a standing subscription to a topic, theme, channel, or person: the person selects subjects to stay up to date with, and related updates appear in their update stream, distinct from saving a single item for a later return."
+    },
+    {
+      "title": "Character count accessibility tests",
+      "url": "https://designsystem.digital.gov/components/character-count/accessibility-tests",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "Character count shown below the field with remaining count visible, announced to assistive technology on entry, and over-limit feedback stating how many characters over the limit were entered."
+    },
+    {
+      "title": "Copy to clipboard pattern guidance",
+      "url": "https://www.saasframe.io/patterns/copy-to-clipboard?60e91b22_page=2&ee3058b5_page=2&fefca4bb_page=4",
+      "category": "primitives",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "Copy actions name the payload where the context does not, a shortened display still copies the full value, failure keeps a manual copy path with the failure stated plainly, and copying is kept distinct from later setup steps such as installation or verification."
+    },
+    {
+      "title": "Address forms guidance",
+      "url": "https://web.dev/learn/forms/address",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "Address entry asks only for needed fields in locale order with locale postal-code wording, a single name field, a second address line hidden behind a reveal control, suggestions that fill editable fields with a manual entry route, and the full address stated for checking before use."
+    },
+    {
+      "title": "Live Activities accessibility guidelines",
+      "url": "https://a11y-guidelines.orange.com/en/mobile/ios/wwdc/nota11y/2023/23LiveActivities/",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-10-30",
+      "notes": "Live Activities follow an ongoing task from the lock screen, standby view, and compact system area: one task per activity, compact, minimal, and expanded presentations, stale updates marked, and the activity ended when the task finishes."
+    },
+    {
+      "title": "Pausable downloads guidance",
+      "url": "https://williamboles.com/dont-throw-anything-away-with-pausable-downloads/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "Downloads keep already-fetched progress when paused or interrupted, resume rather than restart, and only offer resumption where the resource and server support it."
+    },
+    {
+      "title": "Destructive actions pattern guidance",
+      "url": "https://vista.design/swan/patterns/destructive-actions/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "Destructive actions use a confirmation step stating the object and its consequences, a cancel action as easy to reach as confirm, and an outcome statement, with undo offered where recovery is possible."
+    },
+    {
+      "title": "Delivery notes validation guidance",
+      "url": "https://valider.app/blogs/valider-blog/how-to-validate-delivery-notes-at-checkout",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-10-30",
+      "notes": "Delivery notes work when they are short, specific, and compatible with the delivery method: access details, a named safe place, and instructions that conflict with the method or the item are caught before fulfilment."
     }
   ]
 }

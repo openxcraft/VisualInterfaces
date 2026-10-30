@@ -136,6 +136,29 @@ Pick the indicator from the wait, not the layout.
   busy and announce with a polite live region when content replaces the
   skeleton.
 
+## Status announcements
+
+For changes that happen without a page reload, tell assistive
+technology what changed, in words, without moving focus.
+
+- Present the announcement region in the page from first load. A
+  region added only at the moment of the update may be missed.
+- Polite by default: wait for the current reading to finish.
+  Reserve an interrupting announcement for time-critical news that
+  demands action at once, such as a session about to end or an
+  error that blocks the task, and never use it for routine updates.
+- Announce the whole message when the meaning depends on the full
+  sentence; announce only the changed part for counts and totals.
+- Do not announce every tick of a progress indicator. Announce the
+  start, the completion, a failure, and any milestone that changes
+  what the person should do next.
+- Never move focus to deliver an announcement; focus stays where
+  the person was working.
+- Keep each message short and plain: name what changed, and state
+  the next step where one is needed.
+- Mark the region busy while an update is still in progress, so
+  partial content is not announced as if it were final.
+
 ## Empty-state variants
 
 Four kinds of "empty" need different words and different next steps. Do
@@ -193,6 +216,19 @@ one-time read. Resolve it carefully at every load.
 - Keep the visible label, the stored value, and the applied theme in
   agreement before the first paint, so the page never flashes the wrong
   mode while the preference resolves.
+- A quick control in a header or toolbar fixes the appearance right
+  now: offer only the opposite of the current appearance, not a full
+  policy choice. Keep the three-way choice — follow the system, light,
+  or dark — in a dedicated settings view, where the person has arrived
+  to set a lasting policy.
+- Store nothing until the person chooses, so with no stored choice the
+  appearance follows the live system preference. When the person
+  toggles, store only the chosen light or dark value; when they toggle
+  back to the appearance that matches the system, clear the stored
+  value so the system preference governs again.
+- Never clear a stored choice on its own just because the system
+  preference later changes to match it; only the person's own action
+  clears or replaces a stored choice.
 
 ## Pre-publish checklist
 
