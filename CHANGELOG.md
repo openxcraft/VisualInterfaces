@@ -7,6 +7,43 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: new Payment instalment plan row in
+  `catalog/patterns.md` — each plan states its number of
+  payments, each payment's amount and date, and the total
+  cost including any charges before confirmation, with a
+  single place to view remaining payments and change the
+  payment method, distinct from the split payment row.
+- Patterns catalogue: new Subscribe-and-save purchase
+  option row in `catalog/patterns.md` — a recurring choice
+  beside the one-time purchase stating the repeat interval
+  and repeat price, with pause, skip, change, and cancel
+  taking effect before the next order's cutoff, distinct
+  from the subscription plan change row.
+- Patterns catalogue: new Pickup point selection row in
+  `catalog/patterns.md` — each point states distance and
+  opening hours, the holding period is stated at choice
+  time and in the ready notice, and the point can be
+  changed while the order can still be changed, distinct
+  from the delivery slot picker row.
+- Source records for the instalment, recurring-purchase,
+  and pickup guidance in resources/sources.json.
+
+
+- Primitives catalogue: Switch row extended in
+  `catalog/primitives.md` — the label stays fixed when the
+  state changes, any on/off wording is separate from the
+  label, the state is shown by position and shape as well as
+  colour, and a compact switch without on/off wording marks
+  the on state with a visible tick.
+- Source record for the switch accessibility guidance in
+  resources/sources.json.
+
+- Patterns catalogue: new Quote reply row in
+  `catalog/patterns.md` — a reply shown in place with a short
+  preview of the quoted message, a jump back to the original,
+  and a preview that stays as sent when the original is edited
+  or deleted, distinct from the threaded reply row.
+
 - Patterns catalogue: new Offline download row in
   `catalog/patterns.md` — size and storage stated before the
   download starts, progress with pause and resume that keep

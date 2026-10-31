@@ -51,7 +51,7 @@ defined without an example; gap = named but not yet defined.
 | Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
 | Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in, saved-item collection, bulk action, rating and review submission, payment failure recovery, content reporting and blocking, language and locale selection, scheduled action, breadcrumb navigation, annotation and comment thread, theme selection, profile and
 account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences, long-document navigation, in-app update prompt, pull-to-refresh, scrolling tab bar, system share sheet, find-in-page, collaborative editing presence,
-    draft autosave and recovery, saved-filter view, toast feedback, list reorder, date-range picker, accordion disclosure, carousel, passkey sign-in, low-bandwidth mode, what's-new announcement, version history and restore, external-link departure, described media, saved-cart recovery, colour picker, guest-to-account conversion, sensitive-content preview, order tracking, order cancellation, time picker, verification-code entry, background-task progress, automated-to-human support handoff, subscription plan change, promo-code entry, master-detail, threaded message reply, gift option, saved address selection, delivery slot picker, product variant selection, home-screen widget, deep-link landing, progressive disclosure, return and exchange request, back-in-stock alert request, contact picker, primary navigation, bypass link, search, filtering and sorting, data table density, inline editing, bulk selection, data visualisation, guided tour, setup checklist, inline assistant actions, form flow, character count, wizard, detail view, notification list, notification preferences, activity feed, confirmation, sensitive-action re-confirmation, install prompt, offline download, multi-device handoff, paywall and upgrade prompt, subscription cancellation, restore purchases, account switcher, in-product feedback and problem report, account recovery, consent choice, granular consent, media viewer, code scanner, simplified view, location selection, voice message, message reaction, pinned message, message edit and delete, swipe-to-reveal actions, poll, conversation branching, sticky section headers, appointment management, review prompt, rating distribution summary, limited-time offer countdown, age verification gate, suggestion review, code scanning, image gallery viewer, reading progress indicator, print-friendly view, text-selection action menu, picture-in-picture, reorder past order, live broadcast chat overlay, kanban board, gift card and stored-credit redemption, address entry, delivery instructions, saved payment method selection, split payment, media chapters, waitlist, loyalty rewards, link preview, live activity, billing overview, usage allowance, password strength meter, emoji picker, seat selection, selecting an option from a list, home control map, follow | — | — |
+    draft autosave and recovery, saved-filter view, toast feedback, list reorder, date-range picker, accordion disclosure, carousel, passkey sign-in, low-bandwidth mode, what's-new announcement, version history and restore, external-link departure, described media, saved-cart recovery, colour picker, guest-to-account conversion, sensitive-content preview, order tracking, order cancellation, time picker, verification-code entry, background-task progress, automated-to-human support handoff, subscription plan change, promo-code entry, master-detail, threaded message reply, gift option, saved address selection, delivery slot picker, product variant selection, home-screen widget, deep-link landing, progressive disclosure, return and exchange request, back-in-stock alert request, contact picker, primary navigation, bypass link, search, filtering and sorting, data table density, inline editing, bulk selection, data visualisation, guided tour, setup checklist, inline assistant actions, form flow, character count, wizard, detail view, notification list, notification preferences, activity feed, confirmation, sensitive-action re-confirmation, install prompt, offline download, multi-device handoff, paywall and upgrade prompt, subscription cancellation, restore purchases, account switcher, in-product feedback and problem report, account recovery, consent choice, granular consent, media viewer, code scanner, simplified view, location selection, voice message, message reaction, pinned message, message edit and delete, swipe-to-reveal actions, poll, conversation branching, sticky section headers, appointment management, review prompt, rating distribution summary, limited-time offer countdown, age verification gate, suggestion review, code scanning, image gallery viewer, reading progress indicator, print-friendly view, text-selection action menu, picture-in-picture, reorder past order, live broadcast chat overlay, kanban board, gift card and stored-credit redemption, address entry, delivery instructions, saved payment method selection, split payment, media chapters, waitlist, loyalty rewards, link preview, live activity, billing overview, usage allowance, password strength meter, emoji picker, seat selection, selecting an option from a list, home control map, follow, payment instalment plan, subscribe-and-save purchase option, pickup point selection | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 | Worked examples | Dashboard, mobile navigation, onboarding — each demonstrating the rules it documents with all seven states | — | — |
 | Localization | Right-to-left mirroring rules, what-not-to-mirror list, logical properties, text-expansion budgets, locale-aware date/number/currency formatting and sorting, mixed-direction text | — | — |
@@ -1029,6 +1029,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    from the saved payment method selection row, which
    chooses a single method for the whole order. Done when
    the row passes all quality gates.
+   (Implemented this run.)
 
 105. Add a subscribe-and-save purchase option pattern row to
    `catalog/patterns.md`: a recurring purchase choice beside
@@ -1039,6 +1040,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    service tier, and from the reorder past order row, which
    repeats a past order on demand. Done when the row passes
    all quality gates.
+   (Implemented this run.)
 
 106. Add a pickup point selection pattern row to
    `catalog/patterns.md`: a choice at checkout to collect an
@@ -1050,6 +1052,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    and from the saved address selection row, which chooses a
    stored address. Done when the row passes all quality
    gates.
+   (Implemented this run.)
 
 107. Add a referral invitation pattern row to
    `catalog/patterns.md`: a shareable invitation stating
@@ -1071,6 +1074,33 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    moves between signed-in accounts, and from the invitation
    response row, which answers a single invitation. Done
    when the row passes all quality gates.
+
+109. Add a pass and ticket display pattern row to
+   `catalog/patterns.md`: a display for a pass or ticket held
+   for later use, with a scannable code shown large enough to
+   scan, brightness raised while it is displayed, availability
+   without a connection, and a stated route when the code
+   cannot be scanned — distinct from the code scanner row,
+   which captures a code, and from the order tracking row,
+   which follows an order's progress. Done when the row
+   passes all quality gates.
+
+110. Add a shared cart pattern row to `catalog/patterns.md`:
+   a cart several people can add to, with each item naming
+   who added it, a stated owner for checkout, and a plain
+   rule for removing another person's item — distinct from
+   the split payment row, which divides payment, and from
+   the saved-item collection row, which keeps items for one
+   person. Done when the row passes all quality gates.
+
+111. Add a stored payment method expiry warning pattern row
+   to `catalog/patterns.md`: a warning before a stored
+   method expires, stating which method and when, with a
+   replacement route that keeps future orders and plans
+   working — distinct from the saved payment method
+   selection row, which chooses a method, and from the
+   payment failure recovery row, which recovers after a
+   failure. Done when the row passes all quality gates.
 
 ## Review notes
 
@@ -1731,6 +1761,16 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
   pickup point selection, 107 referral invitation, 108
   household member management); 3 new source records (404
   total).
+
+
+- Completed this review (deep editorial 2026-10-31): new
+  Payment instalment plan, Subscribe-and-save purchase
+  option, and Pickup point selection pattern rows in
+  `catalog/patterns.md`, completing roadmap actions 104,
+  105, and 106; coverage matrix updated with the three new
+  rows; three new improvement actions added (109 pass and
+  ticket display, 110 shared cart, 111 stored payment
+  method expiry warning); 3 new source records (409 total).
 
 
 ## Pre-publish checklist
