@@ -1,6 +1,6 @@
 {
  "version": "0.1.0",
- "updated": "2026-10-31",
+ "updated": "2026-11-02",
  "sources": [
   {
    "title": "Design trends overview for 2026",
@@ -432,7 +432,7 @@
    "category": "trends",
    "type": "reading-list",
    "accessed": "2026-10-22",
-   "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+   "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered \u2014 content revealed by scroll position must remain available to them rather than gated behind scroll alone."
   },
   {
    "title": "Design Trends That Will Influence Extensions in 2026",
@@ -440,7 +440,7 @@
    "category": "interfaces",
    "type": "article",
    "accessed": "2026-10-22",
-   "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+   "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay \u2014 a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
   },
   {
    "title": "Validation gate for generated interface trees",
@@ -1448,7 +1448,7 @@
    "category": "states",
    "type": "article",
    "accessed": "2026-10-23",
-   "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
+   "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters \u2014 corroborates pre-populated suggestion states that disclose their nature."
   },
   {
    "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
@@ -1920,7 +1920,7 @@
    "category": "patterns",
    "type": "article",
    "accessed": "2026-10-25",
-   "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type — free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
+   "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type \u2014 free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
   },
   {
    "title": "Paywall trial-offer guidance",
@@ -3273,6 +3273,542 @@
    "type": "guide",
    "accessed": "2026-10-31",
    "notes": "Click and collect works when stock shown online matches stock on the shelf, each point states what it can supply, and the holding period is stated when the order is ready."
+  },
+  {
+   "title": "Design principles for real-time captions in video calls",
+   "url": "https://www.qkeast.com/writing/these-are-design-principles-for-real-time-captions-in-video-calls",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Live captions in calls work when captions stay visible and movable, speakers are labelled, uncertain wording is shown and corrected in place, and caption preferences sit beside other call settings and are remembered."
+  },
+  {
+   "title": "SaaS workspace and organisation switcher UX patterns",
+   "url": "https://www.saasui.design/blog/saas-workspace-organization-switcher-ux-patterns",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Workspace switcher pattern: current-workspace legibility on every screen, wrong-workspace action harm, quiet single-workspace state, search and ordering at scale, separation from profile menu and main navigation."
+  },
+  {
+   "title": "Design Accessible Charts",
+   "url": "https://ux.tfmstyle.com/guide/design-accessible-charts",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Accessible charts: never let colour be the only difference between series, label lines and bars directly, give every chart a text alternative stating the finding, provide the underlying data, and do not hide meaning in a tooltip since values only on hover are unreachable by touch and keyboard."
+  },
+  {
+   "title": "Data table with expansion, column pinning, and column visibility",
+   "url": "https://stash.leaflink.com/components/data-table.html",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-10-31",
+   "notes": "Data table with column pinning, column reorder, column visibility persisted with column order, row selection, and row expansion with a custom expansion slot and hierarchical sub-rows."
+  },
+  {
+   "title": "Add-to-calendar button for event creation",
+   "url": "https://www.cssscript.com/add-events-calendars/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Calendar links for several calendar services from one button, timed, all-day, recurring, and multi-date events, calendar subscription links, and localised labels."
+  },
+  {
+   "title": "Room and resource booking: simple rules to stop conflicts",
+   "url": "https://appmaster.io/blog/room-resource-booking-app",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Shared room and equipment booking: one place to check availability, buffer times treated as blocked time, approval rules for high-demand resources, bundle behaviour when one item is unavailable, and instant release when a booking is cancelled."
+  },
+  {
+   "title": "Multi-stop route planning with ordered waypoints",
+   "url": "https://dev.to/geoapify-maps-api/how-to-collect-route-waypoints-with-address-autocomplete-and-map-clicks-2i74",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Route waypoint collection: address suggestions, map-tap entry with a readable address, drag and keyboard move reordering, and numbered markers that update as the stop order changes."
+  },
+  {
+   "title": "Boarding pass display guidelines for wallet passes",
+   "url": "https://developers.google.cn/wallet/tickets/boarding-passes/resources/brand-guidelines?hl=en",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-10-31",
+   "notes": "Pass display guidance: button placement on confirmation surfaces, pass information modules, and image and contrast guidance for scannable passes."
+  },
+  {
+   "title": "Shared cart for collaborative purchasing",
+   "url": "https://help.vtex.com/en/announcements/2019-02-18-close-bigger-deals-with-the-shared-cart",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Several people view, add, or remove items in one shared cart before purchase, shared through a cart link, with sensitive personal and payment data visible only to its owner."
+  },
+  {
+   "title": "How to manage expired cards for recurring payments",
+   "url": "https://stripe.com/en-jp/resources/more/expired-cards-for-recurring-payments",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Expired stored cards cause failed recurring charges; flag cards expiring in the next 30 to 60 days, notify in advance, stop reminders once updated, and offer a backup payment method."
+  },
+  {
+   "title": "Undo send: delayed delivery with a short cancellation window",
+   "url": "http://beloitcollege.atlassian.net/wiki/spaces/documentation/pages/468025642/Undo+Send",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-10-31",
+   "notes": "Sending is held for a short configurable delay; an undo control in that window returns the message to the compose view for editing, discarding, or resending, and once the window ends the message goes as addressed."
+  },
+  {
+   "title": "Ticket transfer guide",
+   "url": "https://volunteeripate.com/ticket-transfer-guide",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-10-31",
+   "notes": "Transfer offers with recipient acceptance, pending state with expiry, sender cancellation before acceptance, return on decline or expiry, and single-use transfer limits."
+  },
+  {
+   "title": "Autocomplete UX: suggestions on focus, tap-ahead refinement, and diverse suggestions",
+   "url": "https://smart-interface-design-patterns.com/articles/autocomplete-ux/?text=Five Simple Steps For Better Autocomplete UX",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Show suggestions on focus, not only after typing; tap-ahead refinement appends a suggestion to the query without running the search; show a diversity of suggestion kinds (keywords, categories, items with thumbnails) and offer filters for large suggestion sets."
+  },
+  {
+   "title": "Ecommerce product configurator guide",
+   "url": "https://www.optimum7.com/blog/ecommerce-product-configurator-guide.html",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-10-31",
+   "notes": "Guided selling journeys narrow a large option catalogue by stated use; on every selection, constraint rules decide what stays valid, price is computed live, and a visual preview shows the build; invalid combinations must be prevented at selection, not discovered at checkout."
+  },
+  {
+   "title": "Touch on desktop: larger targets, temporary control expansion, and touch routes for hover actions",
+   "url": "https://ux-news.com/touchscreen-macbook-pro-design-guidelines/",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "On desktop systems where touch is a secondary input, keep layout and control sizes stable across inputs, enlarge tap targets beyond visible bounds, show a temporary enlarged control while touched and briefly after lift, reveal hover actions with a tap near the content without activating, offer essential actions in a touch-and-hold context menu, and design touch for brief intentional interactions with keyboard and pointer paths kept complete."
+  },
+  {
+   "title": "Tree view accessibility: keyboard navigation and expanded state",
+   "url": "https://www.carbondesignsystem.com/building-blocks/core/components/tree-view/accessibility",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-10-31",
+   "notes": "A tree view takes a single tab stop with arrow-key navigation: right expands a closed branch or moves into its first child, left collapses an open branch or moves to the parent, up and down step through visible nodes, and selection uses Space or Enter; branch nodes carry an expanded state and nodes carry a selected state."
+  },
+  {
+   "title": "Cancellation save flow: pause and downgrade options with transparent resume dates",
+   "url": "https://mailscribe.com/blog/how-to-build-a-cancellation-save-flow-with-pause-and-downgrade",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Offer a pause for a temporary gap and a downgrade for a smaller ongoing need, with one decision per screen and the cancellation path always visible; state what access continues, when billing resumes, and the effective date for each change, label paused or downgraded accounts with plain time-based status, and send a pre-resume reminder so a resumed charge is never a surprise."
+  },
+  {
+   "title": "Timeline interface design: scheduling, dense-data, and history patterns",
+   "url": "https://www.eleken.co/blog-posts/timeline-ui-design",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-10-31",
+   "notes": "A scheduling timeline lays planned work over a shared time axis with labelled scales, colour-coded status, and visible dependencies; dense timelines use zoomable scales, grouping and clustering, and filtering and search to stay readable; a history timeline keeps past, current, and planned items distinct and labels planned items as planned."
+  },
+  {
+   "title": "Electronic signing: draw, place, and apply a signature",
+   "url": "https://docs.enablesleep.com/documents/e-sign-document.html",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-10-31",
+   "notes": "A signing dialog shows a document preview with a floating signature pad for drawing a signature, which can be re-drawn before applying; the signature is dragged to its position and resized, a date stamp is placed beside it, applying embeds the signature and date, and the document list shows a signed badge with the signer name and signing date recorded; a signature can also be requested from another person, who is notified and follows the same steps."
+  },
+  {
+   "title": "Signing order for multiple signers and documents",
+   "url": "https://developers.validsign.eu/docs/transactions/creating-a-signer-workflow",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-10-31",
+   "notes": "A signing order controls the sequence in which signers take part: a signer participates only after all signers with a lower order have finished, while signers sharing an order may sign at the same time; a document order presents the lowest-order document first and moves to the next only after the previous one is signed, whereas without an enforced order a signer may browse and sign in any order."
+  },
+  {
+   "title": "Presenting instalments at checkout without confusing the total",
+   "url": "https://www.checkoutconversionlab.com/blog/2026-10-19-buy-now-pay-later-checkout-presentation/index.html",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Keep the full order total in charge at the payment step, present one instalment option completely with number of payments, amounts, interval, interest, and missed-payment consequence in plain words, signal any approval check before the choice with its duration and the no-order outcome if not approved, offer an earlier eligibility check where available, and keep pre-checkout instalment wording tied to the actual order total and conditional."
+  },
+  {
+   "title": "Synchronised audio and transcript editing for long recordings",
+   "url": "https://humansignal.com/blog/building-a-better-ui-for-audio-transcription-at-scale/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Keep audio on one side and its transcript on the other, always in sync: choosing a position in the audio moves to the matching text for editing, and choosing text moves playback to the matching audio; make segment timing edits visual and immediate, and let behaviour such as confirmation prompts be adjusted to the task."
+  },
+  {
+   "title": "Slider - Accessible design of user interface elements",
+   "url": "https://handreichungen.bfit-bund.de/accessible-uie/1.0/schieberegler.html",
+   "category": "primitives",
+   "type": "guidance",
+   "accessed": "2026-10-31",
+   "notes": "Use a slider only for a value from a continuous range where an approximate value suffices; show the current value in text; operate fully by keyboard with arrow keys for one step, page keys for a larger step, and Home and End for the ends; name each thumb of a two-thumb range for the end it controls."
+  },
+  {
+   "title": "Designing referral program interfaces",
+   "url": "https://www.voucherify.io/blog/referral-programs-ux-and-ui-best-practices",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-10-31",
+   "notes": "State the benefit for each side and the qualifying action before sharing; keep conditions beside the benefit; show referral progress through invited, signed up, qualified, and rewarded states without overstating completion; keep the history free of unnecessary detail about the invited person's activity."
+  },
+  {
+   "title": "Payment UX standards for ecommerce checkouts",
+   "url": "https://baymard.com/blog/payment-ux",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-10-31",
+   "notes": "Keep the order summary visible at the payment step; offer at least one third-party payment option as a fallback when a card fails, chosen deliberately rather than by redirection; give field-specific error messages and a recovery path that keeps the order intact instead of forcing a restart."
+  },
+  {
+   "title": "CSV import UX: field mapping, validation, and error recovery",
+   "url": "https://mockitt.com/en/guide/csv-import-ux.html",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-10-31",
+   "notes": "Define the commit policy before the primary action; keep the mapped preview available when going back; tie each error to a specific row and field with the original value; state whether a reported row number includes the header; distinguish blocking errors from warnings."
+  },
+  {
+   "title": "Saved search email alerts",
+   "url": "https://netsuitedocumentation1.gitlab.io/netsuitedocumentation1/section_N681962.html",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-10-31",
+   "notes": "Alerts fire when a newly added record matches a saved search, with an option to also fire when an existing record changes to match; an inactive saved search does not trigger its alerts; recipients, subscription options, and message text are set on the saved search itself."
+  },
+  {
+   "title": "Pause a subscription",
+   "url": "https://developer.paddle.com/build/subscriptions/pause-subscriptions/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-10-31",
+   "notes": "Pause at the end of the billing period or immediately; offer a set of fixed pause durations; a paused plan stays paused until resumed, and resuming early is always possible; on resume, either start a new billing period or continue the existing one; state what access continues while paused."
+  },
+  {
+   "title": "Provide help for forms and non-standard controls",
+   "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o7p04-described-interactions/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-10-31",
+   "notes": "For complex forms, multi-step flows, unusual interactions, non-standard controls, and required fields that do not support automatic filling, give explanations and examples that make the expected action easy to understand; prefer standard controls, and give non-standard ones instructions or help beside them."
+  },
+  {
+   "title": "Accessible form guidance",
+   "url": "https://www.atomica11y.com/accessible-web/form/",
+   "category": "patterns",
+   "type": "checklist",
+   "accessed": "2026-10-31",
+   "notes": "Do not move focus to an input automatically on load; group related inputs with a named grouping; give each input an error message that is read on focus; size fields to the expected input; avoid multi-column form layouts and submit controls placed away from the form end."
+  },
+  {
+   "title": "Magic link sign-in",
+   "url": "https://www.email59.com/articles/magic-link-clicked-before-your-user-saw-it.html",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-10-31",
+   "notes": "A sign-in link that completes sign-in on first fetch can be spent by an automated preview or mail scanner before the person sees it; the landing page should require an explicit confirmation, and an expired or already-used link needs its own screen with a fresh-link route rather than a generic failure."
+  },
+  {
+   "title": "Document scanner guidance",
+   "url": "https://developers.google.com/ml-kit/vision/doc-scanner",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-10-31",
+   "notes": "Document scanner flow: automatic capture with document detection, accurate edge detection for crop results, automatic rotation, editing to crop, apply filters, remove shadows and stains, reorder pages, import from gallery, and a page limit; processing on-device."
+  },
+  {
+   "title": "Checkout flow UX optimization",
+   "url": "https://baymard.com/blog/checkout-flow-ux-optimization",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-10-31",
+   "notes": "Keep the checkout flow linear and predictable; standardize the review step so no new fees or costs appear there; surface terms and fees early, with the total order cost visible before payment is committed."
+  },
+  {
+   "title": "Navigation template for driving",
+   "url": "https://developer.android.com/design/ui/cars/guides/templates/navigation-template",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-10-31",
+   "notes": "Driving navigation template: full-screen map with an optional routing card showing the current step with direction icon, distance, and cue text, optional lane guidance and next-step preview, a travel-estimate card with arrival time, time left, and distance left, a message state for arrival or route failure, and a spinner state for calculating or rerouting."
+  },
+  {
+   "title": "Mastering pre-orders in e-commerce UX",
+   "url": "https://www.numberanalytics.com/blog/mastering-pre-orders-in-ecommerce-ux",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain \u2014 full price or deposit with the balance due on release \u2014 and manage expectations with updates when dates change."
+  },
+  {
+   "title": "Tooltip best practices: remove friction, guide users",
+   "url": "https://userpilot.com/blog/tooltip-best-practices/",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Tooltips only for small supplemental gaps tied to one element, not multi-step workflows; dismissible, hoverable, persistent, keyboard-focus reachable; short copy; triggered by specific observable behaviour; touch users need an explicit trigger without hover; judge a tooltip by whether users pass the friction it addresses."
+  },
+  {
+   "title": "4 In-App Announcement Patterns That Get Seen (Without Being Annoying)",
+   "url": "https://changetiny.com/blog/4-in-app-announcement-patterns/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "In-app announcement surfaces matched to impact: badge with unread count for opt-in ongoing news, slim top bar with one action for broad changes, corner card for single-feature discovery without blocking, modal only for blocking or terms changes; show once, then keep the detail in the changelog feed."
+  },
+  {
+   "title": "In-App Messaging Best Practices (2026)",
+   "url": "https://announcekit.app/guides/in-app-messaging-best-practices",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-10-31",
+   "notes": "Match message format to importance and urgency; never show a modal during a critical task, wait for a natural pause; segment by relevance so only affected people see an announcement; cap modal frequency to once per person per announcement, with a badge or dot for new widget content instead of repeated auto-opening."
+  },
+  {
+   "title": "Splitting one order into two parcels without lying to anyone",
+   "url": "https://dev.to/fulfillnexa/splitting-one-order-into-two-parcels-without-lying-to-anyone-1b9b",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Split orders as separate shipments with one order-level charge: never a single order-level progress bar, one tracking route per shipment, and the order state folded from its shipments rather than taken from the latest event."
+  },
+  {
+   "title": "Mastering Price Alerts in E-commerce UX",
+   "url": "https://www.numberanalytics.com/blog/ultimate-guide-to-price-alerts-in-ecommerce-ux",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Price alerts with a stated trigger and threshold, timely delivery, and easy management including pause and stop; only the first fall past the trigger is reported."
+  },
+  {
+   "title": "WooCommerce Order Status Page: Stop WISMO Emails",
+   "url": "https://woocustomdev.com/woocommerce-order-status-page-where-is-my-order/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Guest order lookup guarded by requiring both the order reference and the billing email, since a reference alone is guessable; rate limiting on the form and no caching of personal order results."
+  },
+  {
+   "title": "Tip Screen: Best Practices and Pitfalls",
+   "url": "https://thumbtube.com/blog/tip-screen-best-practices-and-pitfalls/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Tip screens with preset percentages, a custom amount, and an explicit no-tip choice at equal emphasis; clear totals, no forced tip step, and prompts only where tipping is expected."
+  },
+  {
+   "title": "Accessibility module feature overview",
+   "url": "https://www.highcharts.com/docs/accessibility/accessibility-module-feature-overview",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-01",
+   "notes": "Chart accessibility layers: keyboard navigation of data points and controls, screen-reader exploration with a data-table view, pattern fills and distinct markers instead of colour alone, and sonification that plays a chart as sound to convey trends without visuals."
+  },
+  {
+   "title": "Trial Countdown design pattern: examples and best practices",
+   "url": "https://ui-patterns.com/patterns/TrialCountdown",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-01",
+   "notes": "Trial countdown shown as a persistent fact, not pressure: days remaining visible, a reminder a few days before any charge stating the amount, and a decision page with plan choice and cancel side by side."
+  },
+  {
+   "title": "Remote sign-out of devices by account",
+   "url": "https://www.neoteo.com/en/how-to-sign-out-of-devices-remotely-by-account",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Reviewing signed-in devices and sessions, signing out one device or all devices remotely, and securing the account after removing an unfamiliar device."
+  },
+  {
+   "title": "Incident communication stages and update cadence",
+   "url": "https://statusentry.com/blog/incident-communication-templates",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Staged incident updates from investigating to resolved, updates on a stated cadence even with nothing new, plain-language cause and scope, and a resolution statement with what happens next."
+  },
+  {
+   "title": "Item substitution preferences for unavailable items",
+   "url": "https://help.deliveroo.com/en/articles/6404722-how-to-substitute-unavailable-items-retail-grocery-partners-only",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Per-item substitution preferences set before picking, same-size-or-larger and same-category replacement rules, and removal where no suitable substitute exists."
+  },
+  {
+   "title": "Meeting controls checklist for reliable calls",
+   "url": "https://mutedeck.com/blog/2026-06-17-meeting-controls-checklist/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Five core in-call controls (microphone, camera, screen sharing, app focus, participant panel), pre-call checks per control, share-window choice before sharing, and a manual fallback path when a shortcut fails."
+  },
+  {
+   "title": "Disclosure guidance for sponsored and affiliate content",
+   "url": "https://collabstr.com/blog/ftc-influencer-guidelines",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Plain labels at the start of a recommendation, affiliate link labels placed beside the link, and a disclosure that stays with shared or quoted content."
+  },
+  {
+   "title": "Product pages with in-store availability",
+   "url": "https://support.google.com/merchants/answer/14615867?hl=en&ref_topic=15148370",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-01",
+   "notes": "In-store availability shown after a store check or location entry, with the item availability and store location shown without further interaction, and a store counting as in stock where the item can be collected today or tomorrow."
+  },
+  {
+   "title": "Device pairing methods: auto-scan, code, and direct-network fallback",
+   "url": "https://grid-connect.com.au/blogs/app-guides/pairing-your-devices",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Pairing follows prepare, provide setup details, and complete the connection; methods include automatic discovery of nearby devices, code pairing, and a direct-network fallback where the device hosts its own temporary network, with a different method offered when the first method fails."
+  },
+  {
+   "title": "Suggested-address modal: validation after entry, with accept or keep-original choice",
+   "url": "https://Www.smarty.com/articles/address-validation-suggested-address-modal",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "A suggested-address prompt appears after entry, distinct from autocomplete suggestions while typing; the person chooses the suggested address or keeps the entered one, and uncertain results suit a warning while clearly invalid addresses suit a block."
+  },
+  {
+   "title": "Hands-free step guidance: one step at a time with large text, timers, and a kept-awake screen",
+   "url": "https://savvychef.co.uk/guides/play-mode",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "One step shown at a time in large text readable from a distance, with the screen kept awake, automatic and manual step movement, a progress indicator, and timers attached to steps with durations."
+  },
+  {
+   "title": "Design safe and age-appropriate experiences: parental gates and permission requests",
+   "url": "https://developer.apple.com/kids/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-01",
+   "notes": "Parental gates block purchases and link-outs until a guardian completes an adult-level task; a child asks a guardian for permission to communicate or use a feature, the guardian approves from their own device, and access stays restricted until consent is obtained."
+  },
+  {
+   "title": "How to split group expenses fairly: four methods explained",
+   "url": "https://hipposplit.com/blog/how-to-split-group-expenses-fairly/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Split equally for shared consumption, by items where consumption differed, by agreed shares or percentages for structural differences, and by custom amounts for one-off arrangements; log each expense as it happens, select participants per expense, and settle up in the fewest transfers."
+  },
+  {
+   "title": "Real-time audience polling: one-tap voting, live results, and presenter controls",
+   "url": "https://www.zigpoll.com/content/how-can-we-integrate-a-realtime-polling-feature-into-our-mobile-app-to-maximize-user-engagement-during-live-events",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Real-time polls with single-choice, multiple-choice, rating, and open-text questions; live results charts updating as votes arrive; anonymous or signed-in voting; timed polls with deadlines; presenter controls to start, pause, and close voting; large tap targets and screen-reader support."
+  },
+  {
+   "title": "Picture proof of delivery on the tracking page",
+   "url": "https://www.fedex.com/en-ca/tracking/picture-proof-delivery.html",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-01",
+   "notes": "Picture proof of a delivery shown on the tracking page without sign-in; a photo showing the wrong location carries a report route with a case number for follow-up."
+  },
+  {
+   "title": "Warranty claim statuses through the claim life cycle",
+   "url": "https://docs.oracle.com/cd/G26828_02/books/AutoDlrSIS/c-Warranty-Claim-Statuses-bv1035105.html",
+   "category": "patterns",
+   "type": "reference",
+   "accessed": "2026-11-01",
+   "notes": "Claim status changes with each action through the life cycle, from draft through approval in progress to approved, rejected, or cancelled, with a payment request sent once approved."
+  },
+  {
+   "title": "Contextual menus: guidelines for grouping, labelling, and separating destructive actions",
+   "url": "https://www.nngroup.com/articles/contextual-menus-guidelines/?lm=tog-on-interface&pt=book",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Contextual menus house secondary actions for a specific element; group related actions, label triggers in words rather than relying on a symbol alone, and separate destructive actions from the rest."
+  },
+  {
+   "title": "Translation markup guidance",
+   "url": "https://cloud.google.com/translate/markup",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-01",
+   "notes": "Translated text must be marked with the language it is written in and the language it came from, the original linked where available, and automatic translation stated plainly to the reader rather than presented as original wording."
+  },
+  {
+   "title": "Receipt blocks: order confirmations, invoices, and itemised totals",
+   "url": "https://reui.io/blocks/ecommerce/receipt",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "A receipt must be exact and printable, surviving a long item list and a discount stack: order meta, itemised items, subtotal, discount, tax, shipping and total, with the payment method and the delivery address in their places."
+  },
+  {
+   "title": "Changing the payment date for recurring subscriptions",
+   "url": "https://support.wix.com/en/article/pricing-plans-changing-the-payment-date-for-recurring-subscriptions",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-01",
+   "notes": "Moving a recurring payment date shortens or extends the current cycle; a credit or extra charge may apply to the next payment, the change is reviewed in a summary before confirming, and some plans or states do not allow a date change."
+  },
+  {
+   "title": "Message shortcuts and canned responses guidance",
+   "url": "https://help.crisp.chat/en/article/how-to-use-message-shortcuts-and-canned-responses-epvu3o/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-01",
+   "notes": "A saved reply is a short, reusable message kept under a trigger word, inserted into the compose view where it stays editable before sending, with values from the current conversation filled into its placeholders."
+  },
+  {
+   "title": "Interface trend roundup for 2027",
+   "url": "https://medium.com/design-bootcamp/10-ui-ux-design-trends-for-2027-7958bbc434e4",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-11-01",
+   "notes": "Produced-result states: specific progress text while a result is being produced, answer-first presentation in short chunks with more on demand, refine, undo, and retry beside the result, confirmation before consequential actions, and a manual route that does not depend on the produced result."
+  },
+  {
+   "title": "Card details as a state-driven financial interface",
+   "url": "https://medium.com/@khaiwvan/ux-patterns-card-details-as-a-state-driven-financial-interface-0f8824ec6967",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-02",
+   "notes": "A card view acts as a control surface with explicit states: active, locked, expired, pending replacement, and suspended. Security actions are confirmed against the current state rather than assumed, and a locked card keeps security actions available while payments are stopped."
+  },
+  {
+   "title": "Rebooked after a cancellation: check the whole replacement journey",
+   "url": "https://theactionelite.com/rebooked-after-a-cancellation-check-the-whole-replacement-journey/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-02",
+   "notes": "A replacement offer must be judged on the whole journey: compare arrival as well as departure, check a change of airport and its onward transport, check any new connection, keep evidence of what was offered and accepted, and treat compensation as a separate question from rebooking."
+  },
+  {
+   "title": "Size charts: readable tables for each product",
+   "url": "https://blog.upvaro.app/shopify-size-charts-readable-measurements/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-02",
+   "notes": "A size chart works as readable text with clear headings: state whether values describe the body or the garment, name the measurement method and units, connect the correct chart to each product family, and keep essential values as text even where an illustration is also shown."
   }
  ]
 }

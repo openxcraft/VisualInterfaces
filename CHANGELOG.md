@@ -7,6 +7,562 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: new Card freeze, Travel disruption
+  rebooking, and Size guide and fit recommendation rows in
+  `catalog/patterns.md`: a one-action card freeze with a
+  plain statement of what stops and an unfreeze control in
+  the same place; a disruption replacement judged on the
+  whole journey, with the original held until the
+  replacement is confirmed and a refund or later-date
+  route where no suitable replacement exists; and a size
+  guide beside the size selector stating whether values
+  describe the garment or the body, with a recommendation
+  that states what it rests on and stays editable;
+  coverage matrix updated with the new rows and with
+  three rows previously missing from it (saved reply,
+  order receipt, subscription billing-date change); three
+  new improvement actions added (140 transaction dispute,
+  141 habit streak, 142 contactless payment
+  confirmation); 3 new source records (476 total).
+
+- States catalogue: new Produced-result states section in
+  `catalog/states.md`: specific progress text while a result is being
+  produced, answer-first presentation in short chunks with detail on
+  demand, refine, undo, and retry controls beside the result,
+  confirmation before consequential actions, and a manual route that
+  does not depend on the produced result; 1 new source record
+  (473 total).
+
+- Patterns catalogue: new Saved reply row in
+  `catalog/patterns.md`, completing roadmap action
+  139: a reusable message template inserted from the
+  compose view by trigger or picker as editable text,
+  never sent at once, with placeholders filled from the
+  current conversation or flagged when left empty, named
+  by purpose and searchable by name and content, with its
+  scope stated plainly; 1 new source record (472 total).
+
+- Patterns catalogue: new Subscription billing-date change
+  row in `catalog/patterns.md`, completing roadmap action
+  138: moving a renewal date states whether only the next
+  charge moves or the whole cycle shifts, the new
+  next-charge date, and any prorated credit or extra charge
+  for the lengthened or shortened current period before
+  confirming, with a pending change cancellable until it
+  takes effect; 1 new source record (471 total).
+
+- Patterns catalogue: new Order receipt row in
+  `catalog/patterns.md`, completing roadmap action 137: a
+  receipt kept after purchase stating every item with its
+  quantity and unit price, the subtotal, discounts, taxes,
+  shipping, and final total, the masked payment method and
+  order reference, and the delivery or pickup details, kept
+  reachable from the order with print and download routes
+  that match what was paid, and a correction route stating
+  any refund or further charge before confirmation; 1 new
+  source record (470 total).
+
+- Patterns catalogue: new Converted price display and
+  Scheduled message send rows in `catalog/patterns.md`,
+  completing roadmap actions 135 and 136: a converted
+  amount shown beside the original price with its rate,
+  rate date, and rounding rule, every price in the view
+  converted with the same rate, and the final charge
+  re-stated in the charging currency before payment; and
+  a message composed now and sent later, editable and
+  cancellable until it sends, re-checked for stale
+  recipients or content before sending, confirmed once
+  when sent, and reported with a retry path when a send
+  fails; coverage matrix updated with the new rows and
+  three new improvement actions added (137 order receipt,
+  138 subscription billing-date change, 139 saved reply);
+  no new source records — the scheduled-message guidance
+  source was already recorded, and the converted-price
+  row is grounded in the existing locale formatting and
+  checkout rules (469 total).
+
+- Patterns catalogue: new Translated content row in
+  `catalog/patterns.md`, completing roadmap action 134: a
+  translated label naming the source language, the original
+  reachable in one action with the reader's place kept,
+  untranslated parts named rather than silently mixed, a
+  stated controlling version and reviewed-version route for
+  legal or safety-critical text, and language marking for
+  reading tools; 1 new source record (469 total).
+
+- Patterns catalogue: new Delivery photo proof, Warranty
+  claim, and Overflow menu pattern rows in
+  `catalog/patterns.md`, completing roadmap actions 126,
+  131, and 62: a delivery photo attached to the delivered
+  stage with a mismatch route, stated retention and
+  visibility rules, and a plain no-photo statement; a
+  warranty claim started from its order or item with proof
+  stated up front, states matching established events,
+  remedy options with timeframes, a return route, and a
+  reasoned decision notice; and an overflow menu gathering
+  secondary actions under a named trigger with plain
+  destructive-action separation and close-on-selection,
+  dismiss, and focus-leaving behaviour; coverage matrix
+  updated with the new rows and with pattern rows
+  previously missing from it; three new improvement
+  actions added (134 translated content, 135
+  converted-price display, 136 scheduled message send);
+  3 new source records (468 total).
+
+- Patterns catalogue: new Shared expense splitting row in
+  `catalog/patterns.md`: per-expense split methods, per-expense
+  participant choice, item-proportion shared charges, exact
+  totals with stated rounding, running balances, and a
+  fewest-transfer settle-up plan; 1 new source record
+  (464 total).
+
+- Patterns catalogue: new Live poll row in
+  `catalog/patterns.md`: one-action voting with plain
+  confirmation, labelled live results in counts and
+  percentages, presenter control over result reveal, stated
+  voting state and deadline, plain anonymity and
+  vote-change statements, and results kept after closing;
+  1 new source record (465 total).
+
+- Patterns catalogue: new Guardian approval request row in
+  `catalog/patterns.md`: a child request stating exactly what
+  is asked, the requested thing blocked until the guardian
+  decides on their own device, a pending state with a
+  withdraw route for the child, a plain decline with no
+  bypass, approval limited to what was asked, and later
+  change or withdrawal from a guardian-only area; 1 new
+  source record (463 total).
+
+- Patterns catalogue: new Hands-busy step guidance row in
+  `catalog/patterns.md`: one step at a time in large text
+  readable at a distance, only the items for that step beside
+  it, a keep-awake screen with a pause that holds the place,
+  labelled timers that may run together with expiry announced
+  in sound and in words, and voice, gesture, and large-control
+  step movement with place and timers kept on leaving and
+  return; 1 new source record (462 total).
+
+- Patterns catalogue: new Delivery address validation row in
+  `catalog/patterns.md`, completing roadmap action 133: a
+  suggested correction shown beside the entered address for
+  confirmation, never silently rewriting what was entered, the
+  original kept where the person insists on it, a prompt for a
+  missing unit or suite number, a warning rather than a block
+  where the result is uncertain, and a re-check at
+  confirmation; 1 new source record (461 total).
+
+- Patterns catalogue: new Device pairing row in
+  `catalog/patterns.md`: pairing-mode instruction stated in
+  words with its indicator described, nearby discovery first
+  with manual-entry and code fallbacks, network details asked
+  once with staged progress, failure stated with its cause and
+  a retry plus a different method keeping entered details,
+  and a name, place, and test control after connection before
+  leaving setup; 1 new source record (460 total).
+
+- Patterns catalogue: new In-store availability check row in
+  `catalog/patterns.md`, completing roadmap action 132: stock
+  at nearby stores checked before a visit, with distance and
+  opening times beside each store, the time the stock was
+  checked stated, a hold or reserve route where offered, and
+  the next nearest store or a delivery route where the nearest
+  store has none; 1 new source record (459 total).
+
+- Patterns catalogue: new Service status notice, Order
+  substitution choice, and Commercial content disclosure
+  pattern rows in `catalog/patterns.md`, completing roadmap
+  actions 128, 129, and 130; coverage matrix updated with
+  the three new rows; three new improvement actions added
+  (131 warranty claim, 132 in-store availability check,
+  133 delivery address validation); 1 new source record
+  (458 total).
+
+- Patterns catalogue: new Live call controls row in
+  `catalog/patterns.md`: one fixed bar holding microphone,
+  camera, share, participant, and leave controls, with
+  worded toggle states, a leave-versus-end distinction, a
+  share preview with a visible pause or stop control,
+  speaker marking, connection-trouble indicators, queued
+  raise-hand handling, and keyboard shortcuts with a
+  pointer path for each; 1 new source record (457 total).
+- Patterns catalogue: new Signed-in device management row in
+  `catalog/patterns.md`, completing roadmap action 127: a
+  list of every device and session signed in to the account
+  with a recognisable name and last-activity statement, the
+  device in use marked, per-device and sign-out-everywhere
+  controls, and a direct route to change the password and
+  review recent activity after an unfamiliar device is signed
+  out; 3 new source records (456 total).
+- Roadmap: four new improvement actions (127 signed-in
+  device management, 128 service status notice, 129 order
+  substitution choice, 130 commercial content disclosure),
+  ordered by coverage impact; coverage matrix updated with
+  the new signed-in device management row.
+
+- Patterns catalogue: new Trial-end reminder row in
+  `catalog/patterns.md`, completing roadmap action 124: a
+  notice sent a few days before a trial's first charge,
+  stating the charge date, the amount, and the plan that
+  follows, with a cancel route that works before the charge
+  and a stated rule for what access continues after
+  cancelling; 1 new source record (453 total).
+- Patterns catalogue: extended Data visualisation row in
+  `catalog/patterns.md`: an audio rendering of a chart, where
+  offered, complements the text alternative and data table,
+  maps rising values to rising pitch, announces each value as
+  it plays, and stays under the person's control with pause
+  and stop, never starting on its own; 1 new source record
+  (452 total).
+- Patterns catalogue: new Tip selection row in
+  `catalog/patterns.md`, completing roadmap action 125:
+  preset amounts, a custom amount, and an explicit no-tip
+  choice shown together, the total updated before
+  confirmation, and a stated rule for whether the tip can
+  change after the order is placed; 1 new source record
+  (451 total).
+- Patterns catalogue: new Split shipment display, Price-drop
+  alert, and Guest order lookup rows in `catalog/patterns.md`,
+  completing roadmap actions 121, 122, and 123; coverage
+  matrix updated with the three new rows; three new
+  improvement actions added (124 trial-end reminder, 125 tip
+  selection, 126 delivery photo proof); 3 new source records
+  (450 total).
+- Patterns catalogue: extended What's-new announcement row in
+  `catalog/patterns.md` — match the surface to the impact with a
+  badge and unread count for ongoing news, a slim top bar with
+  one action for a broad change, a corner card for a single
+  feature worth discovering, and a modal only for a change that
+  blocks a task or changes terms, shown once at a natural pause
+  and never mid-task, each announcement shown only to the people
+  it affects and at most once per person.
+- Primitives catalogue: extended Tooltip row in
+  `catalog/primitives.md` — use only for a short explanation tied
+  to one element, with a richer anchored surface or guided flow
+  where an action or several connected steps are needed, a
+  trigger tied to a specific observable behaviour rather than
+  unprompted display on load, dismissible and hoverable
+  behaviour with keyboard-focus reachability, an explicit
+  trigger for touch users rather than hover alone, and a switch
+  to a richer anchored surface where the message outgrows a
+  tap-triggered tip.
+- Patterns catalogue: new Preorder purchase row in
+  `catalog/patterns.md` — the item marked as a preorder wherever it
+  appears and never presented as in stock, the release or shipping
+  date beside the buy action, full-price or deposit terms with the
+  balance, due date, and total stated before payment, a preorder
+  order view with amount paid and amount still due, a delay notice
+  stating the new date with a cancel route where one remains open,
+  and cancellation with refund terms stated at the point of
+  cancelling, distinct from the waitlist row and the back-in-stock
+  alert request row.
+- Patterns catalogue: new Guided route navigation row in
+  `catalog/patterns.md` — one current step at a time with
+  direction, distance, and plain instruction plus a next-step
+  preview, a visible travel estimate updated on route change,
+  immediate rerouting with the change stated and a plain
+  calculating state, lane guidance before complex junctions,
+  spoken guidance kept in step with a mute control that does
+  not stop navigation, and a plain arrival message with an end
+  control, distinct from the route planning row.
+- Patterns catalogue: extended Order tracking row in
+  `catalog/patterns.md` — where an order splits into several
+  shipments, state the split as soon as it is known, never show a
+  single order-level progress bar for a split order, list the
+  items in each shipment beside that shipment, and keep the
+  overall order state as a summary of its shipments.
+- Patterns catalogue: new Household member management row in
+  `catalog/patterns.md` — every member listed with a role stated
+  in plain words and what that role can see and change, invites
+  that state their scope and stay pending with resend and
+  withdraw routes until accepted, role changes that state their
+  effect before confirmation, and removal that states what is
+  lost, takes effect at once, and never strands a household
+  without a managing member.
+- Patterns catalogue: new Checkout price-change confirmation row
+  in `catalog/patterns.md` — on any price, fee, or discount change
+  between cart view and payment, stop before charging, state the
+  old total, the new total, and what changed line by line, and
+  require a fresh confirmation of the new total, with edit-cart
+  and cancel routes that keep entered details.
+
+- Patterns catalogue: new Document scanner row in
+  `catalog/patterns.md` — state what scanning will do before the
+  camera opens, show detected edges in place with adjustable
+  corners before a page is kept, capture automatically only when
+  the document is steady and fully in view with a manual control
+  beside it, keep captured pages as a reorderable, retakable list
+  with a plain page count, offer a readable filter choice while
+  keeping the original reachable, and keep an import-from-library
+  route where camera access is refused, distinct from the code
+  scanner, document signing, and file upload rows.
+- Patterns catalogue: new Magic link sign-in row in
+  `catalog/patterns.md` — ask only for the identifier, put the
+  sign-in action first in the message with its stated validity,
+  never complete sign-in on the first fetch alone but on an
+  explicit confirmation, give expired or already-used links their
+  own resend screen, replace an older link on a newer request,
+  and keep an alternate sign-in route visible, distinct from the
+  verification-code entry, passkey sign-in, and account recovery
+  rows.
+- Patterns catalogue: Order tracking row in `catalog/patterns.md`
+  extended — a live position view kept secondary to the stage,
+  delivery window, and arrival estimate stated in words, a stated
+  last-updated time with a plain stale-position fallback to the
+  last confirmed stage and window, a recalculated arrival estimate
+  stated beside the stage when it moves, and a proof-of-delivery
+  record attached to the delivered stage with a route where the
+  proof does not match the order received.
+- Patterns catalogue: Form flow row in `catalog/patterns.md`
+  extended — never move focus automatically to a field when a
+  form loads, and non-standard controls, or required fields that
+  cannot be filled in from stored information, carry a short
+  explanation and a worked example beside the control itself
+  rather than only in help.
+- Patterns catalogue: new In-app survey row in
+  `catalog/patterns.md` — a short structured survey kept to a few
+  essential, skippable questions, closed answers paired with an
+  optional open field for the reason, container matched to length
+  and disruption (inline, popover or sheet, or an opted-in full
+  page), asked at the end of a process rather than
+  mid-transaction or on every page, progress and back-navigation
+  across steps, and in-place confirmation, distinct from the
+  problem-report, rating-submission, and poll rows.
+- Patterns catalogue: new Subscription pause row in
+  `catalog/patterns.md` — pause start stated as at once or at the
+  next billing date, exact resume date, access during the pause,
+  and whether billing stops, fixed duration choices with stated
+  limits on frequency and length, a paused-state label carrying
+  the resume date, early resume restoring the same plan without
+  a new sign-up, a warning before billing resumes, and the route
+  to ending the plan kept visible from the paused view, distinct
+  from the subscription cancellation row and the subscription
+  plan change row.
+
+- Patterns catalogue: new Saved search alert row in
+  `catalog/patterns.md` — the exact criteria stated in the
+  alert and repeated in each message, a plain check frequency,
+  only new matches reported and nothing sent when nothing new
+  matches, a stated rule that the alert follows the saved
+  search as currently defined, and pause and stop controls from
+  the alert itself and from the alert list, distinct from the
+  back-in-stock alert request, saved-filter view, and
+  saved-item collection rows.
+
+- Patterns catalogue: new Data import row in
+  `catalog/patterns.md` — expected and required fields stated
+  before file choice, column-to-field mapping with unmapped
+  and ambiguous matches flagged, a preview with create,
+  update, skip, and blocked counts before anything is
+  committed, errors tied to exact row and field, a stated
+  commit rule so a failed import never leaves a silent
+  half-import, and a reachable failure report with a
+  retry-only-failed-rows route, distinct from the data
+  export row and the file upload row.
+
+- Patterns catalogue: new Meeting and event creation row in
+  `catalog/patterns.md` — attendee and resource availability
+  checked before confirming, conflicts stated in plain words
+  with the next available time offered, the time zone stated
+  beside every time shown, and a route to carry the confirmed
+  event into the person's own calendar, distinct from the
+  calendar and scheduling row and the invitation response row.
+
+- Patterns catalogue: new Shared resource booking row in
+  `catalog/patterns.md` — booking from availability with
+  capacity and equipment stated for each choice, buffer time
+  treated as blocked time, approval stated before submission
+  where it applies, freed bookings released at once, and a
+  stated rule for a bundled booking where one item is
+  unavailable, distinct from the appointment management row.
+
+- Patterns catalogue: new Backup payment method row in
+  `catalog/patterns.md` — a second stored method chosen in
+  advance and stated at checkout, charged only after a failed
+  primary attempt with a plain notice, never charged alongside
+  the primary method for one order, and falling back to
+  payment failure recovery where no usable backup remains,
+  distinct from the stored payment method expiry warning row.
+
+
+- Patterns catalogue: new Referral invitation row in
+  `catalog/patterns.md` — benefit stated for both sides before
+  sharing, qualifying action stated plainly, share controls with
+  copy confirmation, referral progress through invited, signed up,
+  qualified, and rewarded states, and a history that exposes no
+  more of the invited person's activity than the referral itself,
+  distinct from the loyalty rewards and promo-code entry rows.
+
+- Primitives catalogue: Slider row in `catalog/primitives.md`
+  extended — use only where an approximate value is enough, current
+  value always shown in text, keyboard contract of arrow keys for one
+  step, page keys for a larger step, and Home and End for the ends,
+  and two-thumb ranges with each thumb named for the end it controls
+  and values kept in order, distinct from the filtering row's
+  slider-and-typed-input pairing for facet ranges.
+
+- Patterns catalogue: new Transcript editing row in
+  `catalog/patterns.md` — audio and text kept in sync in both
+  directions, spoken segments as editable units with stated start
+  times, tentative wording marked and corrected in place, speaker
+  labels in words, and a confirmed route to remove a sensitive
+  passage, distinct from the live captions row.
+
+- Patterns catalogue: Payment instalment plan row in
+  `catalog/patterns.md` extended — where choosing the plan starts an
+  eligibility or approval check, the check, its duration, and the
+  no-order outcome if approval is not given are stated before the
+  choice, an earlier check is offered where available, and
+  pre-checkout instalment wording stays tied to the actual order
+  total and conditional.
+
+- Patterns catalogue: new Document signing row in
+  `catalog/patterns.md` — a draw route with a redraw route before
+  applying, drag placement with a keyboard or menu alternative, a
+  review of the document name and page before confirming, a signed
+  record carrying signer name and signing date, and sequential or
+  parallel signing order stated plainly with each signer's status
+  in words, distinct from the annotation and file upload rows.
+
+- Patterns catalogue: new Timeline view row in
+  `catalog/patterns.md` — work laid along a shared time axis with
+  labelled scales, item bars for durations, milestone points,
+  dependency links stated before dependents shift, a now marker
+  keeping past, current, and planned work distinct, zoom that
+  changes detail level, and grouping or clustering for dense
+  stretches, distinct from the Activity feed and Calendar rows.
+
+- Patterns catalogue: new View switcher row in
+  `catalog/patterns.md` — switching one collection between list
+  and grid presentations without changing its items, order, sort,
+  or filters, with a labelled single-select control, preserved
+  selection, focus, and scroll position, a remembered choice across
+  sessions, and a list fallback where a grid would truncate
+  essential facts, distinct from the List navigation row.
+
+- Patterns catalogue: extended Subscription cancellation row in
+  `catalog/patterns.md` — paused-subscription rules: what access
+  continues during a pause, whether billing stops, and the exact
+  resume date, a paused-state label carrying that date wherever
+  the plan is shown, a reminder before billing resumes, a one-step
+  resume without a new sign-up or setup, and a cancellation path
+  kept visible from the paused view.
+
+- Patterns catalogue: new Tree view row in
+  `catalog/patterns.md` — a nested hierarchy navigated as a
+  single tab stop with arrow-key expand and collapse, stated
+  branch state, level, and sibling position, ancestor expansion
+  on selection, and children loaded on expansion rather than
+  a branch shown as empty while loading.
+
+- Desktop layout: new touch-as-secondary-input rules in
+  `layouts/desktop.md` — layout and control sizes stay unchanged
+  when switching inputs, tap targets enlarged beyond visible
+  bounds, temporary enlarged controls for small or closely spaced
+  targets, tap-near-content reveal plus touch-and-hold context
+  menu as the touch routes for hover-revealed actions, and touch
+  designed for brief, intentional interactions.
+
+- Patterns catalogue: new Product configurator row in
+  `catalog/patterns.md` — guided questions that narrow options to
+  those fitting the stated use, a live preview with price and
+  availability updated on every choice, a running summary editable
+  from the summary, and a full-build review before an order or
+  quote request.
+
+- Patterns catalogue: extended Search row in
+  `catalog/patterns.md` — matched-substring highlighting inside
+  each suggestion, previous rows kept on screen while new
+  suggestions load so the panel never flashes empty, and a
+  distinct refinement control that appends a suggestion to the
+  query without running the search.
+
+- Patterns catalogue: new Pass or ticket transfer row in
+  `catalog/patterns.md` — the pass or ticket named in full
+  before the offer is sent, a transfer that moves only on the
+  recipient's acceptance, a pending state shown to both sides
+  with its expiry, a sender cancel route before acceptance, a
+  declined or expired offer returning the item at once, and
+  the original invalidated once accepted. Completes roadmap
+  action 115.
+
+- Patterns catalogue: new Undo send row in
+  `catalog/patterns.md` — a short configurable delay after the
+  send action with a visible undo control for the whole window,
+  returning the message to the compose view intact on undo, and
+  a plain statement that the message can no longer be stopped
+  once the window ends.
+
+- Patterns catalogue: new Pass and ticket display row in
+  `catalog/patterns.md` — a scannable code shown large on a
+  plain high-contrast background with brightness raised while
+  displayed, the pass stated in words beside the code, saved
+  passes available without a connection, and a typed-code or
+  staff route when a scan fails. Completes roadmap action
+  109.
+
+- Patterns catalogue: new Shared cart row in
+  `catalog/patterns.md` — each item naming who added it, one
+  stated checkout owner, a plain rule that only the owner may
+  remove another person's item, and a stated outcome for a
+  contributor's items when they leave. Completes roadmap
+  action 110.
+
+- Patterns catalogue: new Stored payment method expiry
+  warning row in `catalog/patterns.md` — a warning ahead of
+  expiry stating which method and its expiry month, a
+  replacement route in the warning that keeps future orders
+  and plans working, and no expired method offered at
+  checkout. Completes roadmap action 111.
+
+- Roadmap: three new improvement actions (115–117) — pass
+  or ticket transfer, backup payment method, and checkout
+  price-change confirmation; coverage matrix updated with
+  the three new rows.
+
+- Resources: 3 new source records (419 total): wallet pass
+  display guidance, shared cart purchasing, and expired
+  stored-card management.
+
+- Patterns catalogue: new Route planning row in
+  `catalog/patterns.md` — an ordered stop list kept in step with
+  numbered map markers, typed, listed, and map-tap entry,
+  fixed first and last stops, an optimise action that reorders
+  only the stops between them, a stated distinction between a
+  pause stop and a pass-through point, and totals recalculated
+  after every change.
+
+- Resources: 1 new source record (416 total): multi-stop
+  route planning with ordered waypoints.
+
+- Patterns catalogue: new Expandable table row in
+  `catalog/patterns.md` — a named toggle per row that holds
+  detail, short detail in a detail row beneath its parent row
+  and long detail as a separate detail view, the expanded
+  state stated in text and announced to assistive technology,
+  focus kept on the toggle, and collapsing never discarding
+  entered input inside the detail. Completes roadmap action
+  112.
+
+- Roadmap: three new improvement actions (112–114) —
+  expandable table row, meeting and event creation, and
+  shared resource booking — with action 112 marked
+  implemented; coverage matrix updated with the new row.
+
+- Resources: 3 new source records (415 total): data table
+  expansion and column controls, add-to-calendar event
+  creation, and shared room and resource booking rules.
+
+- Patterns catalogue: Data visualisation row in
+  `catalog/patterns.md` extended — a key value must never
+  live only in a tooltip; values that matter belong on the
+  chart or in the data table, since hover-only values are
+  unreachable by keyboard and touch.
+- Patterns catalogue: new Workspace switcher row in
+  `catalog/patterns.md` — the current workspace stays legible
+  on every screen, switching re-scopes all content to the new
+  workspace, a single workspace collapses to its identity
+  alone, and a long list gains search or filtering, distinct
+  from the account switcher row.
 - Patterns catalogue: new Payment instalment plan row in
   `catalog/patterns.md` — each plan states its number of
   payments, each payment's amount and date, and the total
@@ -25,6 +581,15 @@ version, with Added, Changed, and Fixed sections where they apply.
   time and in the ready notice, and the point can be
   changed while the order can still be changed, distinct
   from the delivery slot picker row.
+- Patterns catalogue: new Live captions row in
+  `catalog/patterns.md` — captions stay visible and movable,
+  speakers are labelled in words, uncertain wording is shown
+  and corrected in place, caption preferences sit beside the
+  other call settings and are remembered, and a searchable
+  transcript stays beside the live view, distinct from the
+  recorded-media captions toggle.
+- Source record for the live-caption guidance in
+  resources/sources.json.
 - Source records for the instalment, recurring-purchase,
   and pickup guidance in resources/sources.json.
 

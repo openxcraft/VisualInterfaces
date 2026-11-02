@@ -136,6 +136,28 @@ Pick the indicator from the wait, not the layout.
   busy and announce with a polite live region when content replaces the
   skeleton.
 
+## Produced-result states
+
+For a result the system produces on request, the states around it
+matter as much as the result itself.
+
+- While the result is being produced, state what is being done in
+  specific words — for example, naming the material being summarised —
+  rather than a vague "Processing" label, and keep the progress text
+  current as the work moves on.
+- Lead with the answer: present the conclusion first in short chunks,
+  with further detail available on demand, rather than a long
+  preamble the person must read through to reach it.
+- Place refine, undo, and retry controls beside the result itself, so
+  correcting it is part of reading it; a result with no route to
+  correction reads as final even when it is wrong.
+- Before a produced result triggers anything consequential, confirm
+  it; when production fails, say what failed and offer the next step
+  rather than a bare error.
+- Always offer a manual route that does not depend on the produced
+  result, so the task stays completable when production fails or is
+  not wanted.
+
 ## Status announcements
 
 For changes that happen without a page reload, tell assistive

@@ -64,6 +64,18 @@ reference reachable in the product.
   layouts — collapse toolbars into overflow, switch multi-pane views
   to single-pane with back navigation, and keep primary actions
   visible.
+- Touch as a secondary input: where a desktop system adds touch
+  alongside pointer and keyboard, touch stays secondary — keyboard
+  and pointer paths remain complete, and element positions and
+  visual sizes stay unchanged when the person switches inputs.
+  Enlarge tap targets beyond the visible control rather than
+  enlarging the control itself. For small or closely spaced
+  controls, show a temporary enlarged version while touched, kept
+  briefly after the finger lifts. Never leave every hover-revealed
+  control permanently visible: a tap near the content reveals its
+  controls without activating them, and essential actions also
+  appear in a touch-and-hold context menu. Design touch for brief,
+  intentional interactions rather than long sessions.
 - Container-query responsiveness: components adapt to the size of
   their container, not only to the viewport, so the same component
   works in a full page, a sidebar, a modal, and a dense dashboard
@@ -98,6 +110,6 @@ layout's additions are below.
 
 The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
 
-- [ ] Menu-bar, mnemonic, shortcut, context-menu, drag-and-drop, and multi-window rules are all documented.
+- [ ] Menu-bar, mnemonic, shortcut, context-menu, drag-and-drop, multi-window, and touch-as-secondary-input rules are all documented.
 - [ ] The non-drag path is stated as a requirement, not an option.
 - [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.
