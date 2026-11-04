@@ -51,7 +51,7 @@ defined without an example; gap = named but not yet defined.
 | Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
 | Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in, saved-item collection, bulk action, rating and review submission, payment failure recovery, content reporting and blocking, language and locale selection, scheduled action, breadcrumb navigation, annotation and comment thread, theme selection, profile and
 account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences, long-document navigation, in-app update prompt, pull-to-refresh, scrolling tab bar, system share sheet, find-in-page, collaborative editing presence,
-    draft autosave and recovery, saved-filter view, toast feedback, list reorder, date-range picker, accordion disclosure, carousel, passkey sign-in, low-bandwidth mode, what's-new announcement, version history and restore, external-link departure, described media, saved-cart recovery, colour picker, guest-to-account conversion, sensitive-content preview, order tracking, order cancellation, time picker, verification-code entry, background-task progress, automated-to-human support handoff, subscription plan change, promo-code entry, master-detail, threaded message reply, gift option, saved address selection, delivery slot picker, product variant selection, home-screen widget, deep-link landing, progressive disclosure, return and exchange request, back-in-stock alert request, contact picker, primary navigation, bypass link, search, filtering and sorting, data table density, inline editing, bulk selection, data visualisation, guided tour, setup checklist, inline assistant actions, form flow, character count, wizard, detail view, notification list, notification preferences, activity feed, confirmation, sensitive-action re-confirmation, install prompt, offline download, multi-device handoff, paywall and upgrade prompt, subscription cancellation, restore purchases, account switcher, in-product feedback and problem report, account recovery, consent choice, granular consent, media viewer, code scanner, simplified view, location selection, voice message, message reaction, pinned message, message edit and delete, swipe-to-reveal actions, poll, conversation branching, sticky section headers, appointment management, review prompt, rating distribution summary, limited-time offer countdown, age verification gate, suggestion review, code scanning, image gallery viewer, reading progress indicator, print-friendly view, text-selection action menu, picture-in-picture, reorder past order, live broadcast chat overlay, kanban board, gift card and stored-credit redemption, address entry, delivery instructions, saved payment method selection, split payment, media chapters, waitlist, loyalty rewards, link preview, live activity, billing overview, usage allowance, password strength meter, emoji picker, seat selection, selecting an option from a list, home control map, follow, payment instalment plan, subscribe-and-save purchase option, pickup point selection, expandable table row, pass and ticket display, shared cart, stored payment method expiry warning, workspace switcher, undo send, view switcher, tree view, timeline view, quote reply, product configurator, referral invitation, live captions, route planning, pass or ticket transfer, document signing, transcript editing, meeting and event creation, shared resource booking, backup payment method, household member management, checkout price-change confirmation, split shipment display, price-drop alert, guest order lookup, signed-in device management, service status notice, order substitution choice, commercial content disclosure, ---, Trial-end reminder, Subscription pause, Data import, In-app survey, Document scanner, Delivery address validation, Shared expense splitting, In-store availability check, Guided route navigation, Saved search alert, Magic link sign-in, Preorder purchase, Tip selection, Live call controls, Device pairing, Hands-busy step guidance, Guardian approval request, Live poll, Delivery photo proof, Warranty claim, Overflow menu, Translated content, converted-price display, scheduled message send, saved reply, order receipt, subscription billing-date change, card freeze, travel disruption rebooking, size guide and fit recommendation | — | — |
+    draft autosave and recovery, saved-filter view, toast feedback, list reorder, date-range picker, accordion disclosure, carousel, passkey sign-in, low-bandwidth mode, what's-new announcement, version history and restore, external-link departure, described media, saved-cart recovery, colour picker, guest-to-account conversion, sensitive-content preview, order tracking, order cancellation, time picker, verification-code entry, background-task progress, automated-to-human support handoff, subscription plan change, promo-code entry, master-detail, threaded message reply, gift option, saved address selection, delivery slot picker, product variant selection, home-screen widget, deep-link landing, progressive disclosure, return and exchange request, back-in-stock alert request, contact picker, primary navigation, bypass link, search, filtering and sorting, data table density, inline editing, bulk selection, data visualisation, guided tour, setup checklist, inline assistant actions, form flow, character count, wizard, detail view, notification list, notification preferences, activity feed, confirmation, sensitive-action re-confirmation, install prompt, offline download, multi-device handoff, paywall and upgrade prompt, subscription cancellation, restore purchases, account switcher, in-product feedback and problem report, account recovery, consent choice, granular consent, media viewer, code scanner, simplified view, location selection, voice message, message reaction, pinned message, message edit and delete, swipe-to-reveal actions, poll, conversation branching, sticky section headers, appointment management, review prompt, rating distribution summary, limited-time offer countdown, age verification gate, suggestion review, code scanning, image gallery viewer, reading progress indicator, print-friendly view, text-selection action menu, picture-in-picture, reorder past order, live broadcast chat overlay, kanban board, gift card and stored-credit redemption, address entry, delivery instructions, saved payment method selection, split payment, media chapters, waitlist, loyalty rewards, link preview, live activity, billing overview, usage allowance, password strength meter, emoji picker, seat selection, selecting an option from a list, home control map, follow, payment instalment plan, subscribe-and-save purchase option, pickup point selection, expandable table row, pass and ticket display, shared cart, stored payment method expiry warning, workspace switcher, undo send, view switcher, tree view, timeline view, quote reply, product configurator, referral invitation, live captions, route planning, pass or ticket transfer, document signing, transcript editing, meeting and event creation, shared resource booking, backup payment method, household member management, checkout price-change confirmation, split shipment display, price-drop alert, guest order lookup, signed-in device management, service status notice, order substitution choice, commercial content disclosure, ---, Trial-end reminder, Subscription pause, Data import, In-app survey, Document scanner, Delivery address validation, Shared expense splitting, In-store availability check, Guided route navigation, Saved search alert, Magic link sign-in, Preorder purchase, Tip selection, Live call controls, Device pairing, Hands-busy step guidance, Guardian approval request, Live poll, Delivery photo proof, Warranty claim, Overflow menu, Translated content, converted-price display, scheduled message send, saved reply, order receipt, subscription billing-date change, card freeze, travel disruption rebooking, size guide and fit recommendation, shared item access, app lock, transaction dispute, habit streak, contactless payment confirmation, profile photo upload and crop, playback queue, security incident notice, file preview, search history, download manager, voice message transcript, product recall notice, account merge, loyalty points expiry warning, QR sign-in, high-demand queue, group checkout, gift receipt, store pickup, reduced-motion preference, archive conversation, in-conversation message search, expiring payment method replacement, dual approval, stored payment method label, conversation export, appointment reminder, shoppable video, appointment check-in, travel check-in, stored payment method removal, aggregate rating display, recurring appointment series, travel document checklist | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 | Worked examples | Dashboard, mobile navigation, onboarding — each demonstrating the rules it documents with all seven states | — | — |
 | Localization | Right-to-left mirroring rules, what-not-to-mirror list, logical properties, text-expansion budgets, locale-aware date/number/currency formatting and sorting, mixed-direction text | — | — |
@@ -297,19 +297,19 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    `catalog/patterns.md`: when in-product search returns nothing,
    suggest the nearest topics by wording rather than an empty page,
    and carry the failed query into the escalation path so the person
-   never retypes it. Done when the rule passes all quality gates.
+   never retypes it. Done when the rule passes all quality gates (Implemented this run.)
 
 30. Add a link-preview rule to the Share link row in
    `catalog/patterns.md`: before sending, show the recipient what the
    link opens, who can open it, and when it expires, with an edit step
    for scope and expiry from the same screen. Done when the rule
-   passes all quality gates.
+   passes all quality gates (Implemented this run.)
 
 31. Add a method-change rule to the Second-factor sign-in row in
    `catalog/patterns.md`: changing the second-factor method requires a
    successful check with the current method first, and the old method
    stays active until the new one verifies, so a failed switch never
-   locks the person out. Done when the rule passes all quality gates.
+   locks the person out. Done when the rule passes all quality gates (Implemented this run.)
 
 32. Add a content reporting and blocking pattern row to
    `catalog/patterns.md`: a report action reachable from the item
@@ -475,14 +475,14 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    type allows one, and a plain fallback where no preview exists —
    distinct from the file upload row, which covers sending files
    rather than inspecting them. Done when the row passes all quality
-   gates.
+   gates. (Implemented this run.)
 
 49. Add a search history pattern row to `catalog/patterns.md`: past
    queries kept as a list the person can re-run, edit, or delete one
    at a time or all at once, with a stated retention scope — distinct
    from the recently viewed row, which lists opened items rather than
    queries, and from the search row, which covers finding content.
-   Done when the row passes all quality gates.
+   Done when the row passes all quality gates. (Implemented this run.)
 
 50. Add an accessibility preferences pattern row to
    `catalog/patterns.md`: text size, bold text, increased contrast,
@@ -652,7 +652,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    device that never strands the account — distinct from the
    second-factor sign-in row, which adds a second check after a first,
    and from the account recovery row, which restores access after it
-   is lost. Done when the row passes all quality gates.
+   is lost. Done when the row passes all quality gates. (Implemented this run.)
 
 68. Add a low-bandwidth mode pattern row to `catalog/patterns.md`: a
    stated mode that reduces media weight, defers non-essential
@@ -1360,6 +1360,127 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    selection row, which reuses a stored address. Done when
    the row passes all quality gates.
 
+143. Add an app lock pattern row to
+   `catalog/patterns.md`: locking a signed-in app behind the
+   device's own check or a sign-in fallback after a stated
+   period of inactivity, with a lock-on-leaving option, a
+   visible fallback that never depends on the device check
+   alone, a stated pause after repeated failed attempts
+   without locking the account, hidden sensitive content in
+   previews and notifications while locked, and a plain
+   statement of what the lock does and does not protect —
+   distinct from the second-factor sign-in row, which
+   confirms identity at sign-in, and from the session-expiry
+   warning row, which warns before a session ends. Done
+   when the row passes all quality gates. (Implemented
+   this run.)
+
+144. Add a profile photo upload and crop pattern row to
+   `catalog/patterns.md`: choosing a photo from the device
+   or camera, a crop step that previews exactly the shape
+   shown to others, a stated size and format limit before
+   choosing, a remove route that restores a neutral
+   placeholder, and a keyboard-operable crop with a stated
+   alternative where cropping by drag is not possible —
+   distinct from the file upload row, which moves files
+   in reliably, and from the profile and account menu row,
+   which lists account actions. Done when the row passes
+   all quality gates. (Implemented this run.)
+
+145. Add a playback queue pattern row to
+   `catalog/patterns.md`: an ordered list of items to play
+   next with the current item marked in text as well as in
+   shape, add, remove, and reorder controls that never
+   interrupt the item now playing, stated shuffle and
+   repeat modes with shuffle never repeating an item until
+   the list has played through, and a stated rule for what
+   plays when the queue ends — distinct from the media
+   chapters row, which marks sections inside one item, and
+   from the list reorder row, which reorders a list
+   without playback. Done when the row passes all quality
+   gates. (Implemented this run.)
+
+146. Add a security incident notice pattern row to
+   `catalog/patterns.md`: a notice sent when account or
+   personal data may have been exposed, stating plainly
+   what happened, what data was involved, what the person
+   should do now, and what is already being done, with a
+   dated update route as facts change — distinct from the
+   service status notice row, which reports availability,
+   and from the account recovery row, which restores
+   access. Done when the row passes all quality gates. (Implemented this run.)
+
+147. Add a recording consent pattern row to
+   `catalog/patterns.md`: consent asked before a call or
+   meeting is recorded, stating who can hear the recording
+   and where it is kept, a visible recording indicator
+   while recording runs, and a route to withdraw consent
+   that stops recording without ending the call — distinct
+   from the live captions row, which transcribes speech,
+   and from the consent choice row, which records a
+   general permission. Done when the row passes all
+   quality gates.
+
+148. Add a group checkout pattern row to
+   `catalog/patterns.md`: several people contributing to
+   one order, with each contribution stated, a single
+   payer or split charges chosen up front, a stated rule
+   for what happens when one contribution fails, and a
+   receipt each contributor can check — distinct from the
+   shared cart row, which shares one cart, and from the
+   split payment row, which splits one payment. Done when
+   the row passes all quality gates. (Implemented this run.)
+149. Add a product recall notice pattern row to
+   `catalog/patterns.md`: a notice for a product already
+   bought that must be returned, repaired, or stopped from
+   use, stating which items are affected and how to check
+   one, the risk in plain words, the remedy offered at no
+   extra cost, and a route that keeps a record of the
+   remedy — distinct from the service status notice row,
+   which reports availability, and from the warranty claim
+   row, which starts a claim for a fault. Done when the
+   row passes all quality gates.
+
+150. Add an account merge pattern row to
+   `catalog/patterns.md`: bringing two accounts held by
+   the same person into one, stating before confirmation
+   what moves, what is kept from each account where both
+   hold the same kind of record, and what is lost, with a
+   preview of the merged account and a route back where
+   the merge can still be undone — distinct from the
+   account switcher row, which moves between accounts,
+   and from the account deletion row, which closes an
+   account. Done when the row passes all quality gates. (Implemented this run.)
+
+151. Add a loyalty points expiry warning pattern row to
+   `catalog/patterns.md`: a warning before points expire,
+   stating the amount at risk, the exact expiry date, the
+   smallest use that saves them, and a route to use them
+   from the warning itself, with the warning repeated in
+   the balance view — distinct from the loyalty rewards
+   row, which earns and spends points, and from the
+   trial-end reminder row, which warns before a charge.
+   Done when the row passes all quality gates. (Implemented this run.)
+
+
+- Completed this review (deep editorial 2026-11-02): new
+  Profile photo upload and crop, Playback queue, and
+  Security incident notice pattern rows in
+  `catalog/patterns.md`, completing roadmap actions 144,
+  145, and 146; coverage matrix updated with the three new
+  rows; three new improvement actions added (149 product
+  recall notice, 150 account merge, 151 loyalty points
+  expiry warning); 3 new source records (489 total).
+
+- Completed this review (deep editorial 2026-11-02): new
+  Transaction dispute, Habit streak, and Contactless
+  payment confirmation pattern rows in
+  `catalog/patterns.md`, completing roadmap actions 140,
+  141, and 142; coverage matrix updated with the three new
+  rows; three new improvement actions added (146 security
+  incident notice, 147 recording consent, 148 group
+  checkout); 3 new source records (483 total).
+
 - Completed this review (deep editorial 2026-11-01): new
   Service status notice, Order substitution choice, and
   Commercial content disclosure pattern rows in
@@ -1478,7 +1599,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    recovery row, which recovers a payment that already
    failed, and from the card freeze row, which stops a
    card from paying. Done when the row passes all quality
-   gates.
+   gates. (Implemented this run.)
 
 141. Add a habit streak pattern row to
    `catalog/patterns.md`: a visible count of consecutive
@@ -1489,7 +1610,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    — distinct from the activity feed row, which lists
    past activity, and from the setup checklist row, which
    tracks one-off setup steps. Done when the row passes
-   all quality gates.
+   all quality gates. (Implemented this run.)
 
 142. Add a contactless payment confirmation pattern row
    to `catalog/patterns.md`: paying by tapping a card or
@@ -1501,7 +1622,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    row, which chooses a stored method at checkout, and
    from the payment failure recovery row, which recovers
    a failed online payment. Done when the row passes all
-   quality gates.
+   quality gates. (Implemented this run.)
 
 - Completed this review (deep editorial 2026-11-01): new
   Delivery photo proof, Warranty claim, and Overflow menu
@@ -1522,7 +1643,474 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
   transaction dispute, 141 habit streak, 142 contactless
   payment confirmation); 3 new source records (476 total).
 
+- Completed this review (daily planning 2026-11-02): new
+  App lock pattern row in `catalog/patterns.md`, completing
+  roadmap action 143; coverage matrix updated with the new
+  row; three new improvement actions added (143 app lock,
+  144 profile photo upload and crop, 145 playback queue);
+  no new source records — the biometric sign-in guidance
+  source was already recorded (478 total).
+
+152. Add a download manager pattern row to `catalog/patterns.md`:
+   a list of files downloaded or downloading, each with name,
+   size, progress, and a stated state, pause and resume where
+   the download can continue, an open action for a finished
+   download, a retry route for a failed one, and a remove
+   control that frees storage at once — distinct from the
+   offline download row, which keeps content for use without
+   a connection, and from the file preview row, which inspects
+   a file before opening it. Done when the row passes all quality
+   gates.
+
+153. Add a voice message transcript pattern row to
+   `catalog/patterns.md`: a written transcript shown beside a
+   voice message, with the spoken words in reading order, a
+   stated note where parts could not be transcribed, a route to
+   the spoken message from any point in the transcript, and the
+   transcript kept available where sound cannot be played —
+   distinct from the voice message row, which sends and plays
+   a message, and from the live captions row, which transcribes
+   live speech. Done when the row passes all quality gates.
+
+154. Add a checkout worked example under `examples/`: a worked
+   example demonstrating the ecommerce layout and the checkout
+   pattern rows — guest checkout, saved payment method
+   selection, delivery slot picker, and promo-code entry —
+   with all seven states, so the checkout rules can be checked
+   against a complete screen rather than a single row —
+   distinct from the dashboard, mobile navigation, and
+   onboarding examples, which demonstrate other layouts. Done
+   when the example passes all quality gates.
+
+155. Add a high-demand queue pattern row to `catalog/patterns.md`: a
+   queue entered when demand exceeds capacity, with the person's
+   position stated, a wait estimate that never promises a time
+   that cannot be kept, a kept place on a brief interruption, and
+   a plain route out with the place released at once — distinct
+   from the waitlist row, which watches one item for restock,
+   and from the appointment management row, which manages a
+   booked time. Done when the row passes all quality gates.
+
+156. Add a price history display pattern row to
+   `catalog/patterns.md`: past prices for one item shown with
+   their dates, the current price marked as a sale only where a
+   higher price genuinely applied before, and a stated rule for
+   how far back the history reaches — distinct from the
+   price-drop alert row, which watches for a future fall, and
+   from the converted-price display row, which restates a price
+   in a second currency. Done when the row passes all quality
+   gates.
+
+157. Add a subscription gifting pattern row to
+   `catalog/patterns.md`: giving a subscription to another
+   person, with the gift length and what it includes stated
+   before purchase, the recipient accepting before access
+   starts, a stated rule for who pays on renewal, and a plain
+   route for the recipient to decline without the giver being
+   charged for access never taken — distinct from the gift
+   option row, which marks one order as a gift, and from the
+   referral invitation row, which invites a person to join.
+   Done when the row passes all quality gates.
+
+
+158. Add a QR sign-in pattern row to
+   `catalog/patterns.md`: sign in on a screen with awkward
+   input by approving on a phone already signed in, with the
+   account and the asking device named on the approving
+   phone, an explicit approval there before sign-in completes,
+   a typed short code beside the QR code, a stated code
+   expiry, and a cancel control that ends the attempt on both
+   screens — distinct from the passkey sign-in row, which
+   signs in with a device-held credential, and from the code
+   scanner row, which reads codes for content rather than for
+   sign-in. Done when the row passes all quality gates.
+   (Implemented this run.)
+
+159. Add a delivery reschedule pattern row to
+   `catalog/patterns.md`: changing the delivery window of a
+   placed order from the order itself, with a stated cut-off
+   after which the window can no longer change, a fee
+   difference stated before confirmation where one applies,
+   the new window carried into the tracking view, and a plain
+   statement where rescheduling is no longer possible rather
+   than a missing control — distinct from the delivery slot
+   picker row, which chooses a window at checkout, and from
+   the order editing row, which changes the order itself.
+   Done when the row passes all quality gates.
+
+160. Add a loyalty tier progress pattern row to
+   `catalog/patterns.md`: the current tier stated with the
+   progress toward the next tier in plain figures, the
+   benefits of the next tier listed beside the gap, a stated
+   rule for how the tier is kept or lost, and progress that
+   never relies on shape or colour alone — distinct from the
+   loyalty rewards row, which earns and spends a points
+   balance, and from the loyalty points expiry warning row,
+   which warns before points expire. Done when the row passes
+   all quality gates.
+
+
+161. Add a message forwarding pattern row to
+   `catalog/patterns.md`: forwarding a message to another
+   conversation, with a preview of the message being sent,
+   a recipient choice that states where it will land, an
+   edit route before sending, and a stated rule for
+   forwarded media and links — distinct from the quote
+   reply row, which answers in place, and from the threaded
+   message reply row, which answers inside a thread. Done
+   when the row passes all quality gates.
+
+162. Add a return label and drop-off pattern row to
+   `catalog/patterns.md`: returning an item with a label
+   and a drop-off route, stating where the label is found,
+   how long it stays valid, what to show at drop-off, and
+   the refund timing after the return is scanned — distinct
+   from the return and exchange request row, which starts
+   the return, and from the order tracking row, which
+   follows a delivery. Done when the row passes all
+   quality gates.
+
+163. Add a saved collection sharing pattern row to
+   `catalog/patterns.md`: sharing a saved collection with
+   another person, with a stated scope for what is shared,
+   a view-only or editable choice, a revoke control, and a
+   plain statement of what happens to shared items when
+   access is revoked — distinct from the saved-item
+   collection row, which keeps items for one person, and
+   from the shared cart row, which shares items for a
+   single checkout. Done when the row passes all quality
+   gates.
+
+164. Add a conversation mute pattern row to
+   `catalog/patterns.md`: silencing one conversation without
+   leaving it, with a stated mute length or until-unmuted
+   choice, a plain muted mark visible in the list, messages
+   still arriving without an alert, and a one-action unmute
+   from the conversation itself — distinct from the pinned
+   message row, which keeps a message in view, and from the
+   notification preferences row, which sets alerts for all
+   conversations. Done when the row passes all quality
+   gates.
+
+165. Add a reduced-motion preference pattern row to
+   `catalog/patterns.md`: honouring a stated preference for
+   less movement, with animated elements replaced by instant
+   or faded changes, no essential information carried by
+   motion alone, and the preference respected on every
+   screen without re-asking — distinct from the functional
+   motion trend file, which describes when motion helps,
+   and from the accessibility preferences row, which
+   gathers preference controls in one place. Done when
+   the row passes all quality gates.
+   (Implemented this run.)
+
+166. Add an archive conversation pattern row to
+   `catalog/patterns.md`: moving a finished conversation out
+   of the main list without deleting it, with a stated
+   archive location, search still finding archived
+   conversations, new messages returning a conversation to
+   the main list or stating plainly that they do not, and
+   a one-action restore from the archive — distinct from
+   the message edit and delete row, which changes or
+   removes single messages, and from the saved-item
+   collection row, which keeps chosen items. Done when
+   the row passes all quality gates.
+   (Implemented this run.)
+
+167. Add an in-conversation message search pattern row to
+   `catalog/patterns.md`: searching inside one conversation,
+   with a match count, jump-to-match controls, matched
+   words highlighted in the message, and a plain route back
+   to the latest message — distinct from the find-in-page
+   row, which searches a page or document, and from the
+   search history row, which returns to a past query.
+   Done when the row passes all quality gates.
+   (Implemented this run.)
+
+168. Add an expiring payment method replacement pattern row
+   to `catalog/patterns.md`: replacing a card before it
+   expires from the warning itself, with the replacement
+   carried into every subscription and saved checkout that
+   used the old card, a stated date from which the new
+   card is charged, and a plain statement where a payment
+   cannot move — distinct from the stored payment method
+   expiry warning row, which warns before expiry, and
+   from the saved payment method selection row, which
+   chooses a card at checkout. Done when the row passes
+   all quality gates.
+   (Implemented this run.)
+
+169. Add a pinned conversation pattern row to
+   `catalog/patterns.md`: keeping a chosen conversation at
+   the top of the list, with a plain pinned mark, a stated
+   order where several conversations are pinned, and a
+   one-action unpin that returns the conversation to its
+   place by latest message — distinct from the pinned
+   message row, which keeps one message in view inside a
+   conversation, and from the archive conversation row,
+   which moves a conversation out of the main list. Done
+   when the row passes all quality gates.
+
+170. Add a stored payment method label pattern row to
+   `catalog/patterns.md`: giving each stored method a
+   plain name chosen by the person, shown beside its type
+   and last digits wherever methods are listed, so two
+   methods of the same type are told apart without opening
+   either — distinct from the saved payment method
+   selection row, which chooses a method at checkout, and
+   from the expiring payment method replacement row, which
+   carries a replacement into every use. Done when the
+   row passes all quality gates. (Implemented this run.)
+
+171. Add a conversation export pattern row to
+   `catalog/patterns.md`: exporting one conversation as a
+   file with messages in order, a stated scope for what is
+   included, and a plain statement of what is left out —
+   distinct from the data export row, which exports
+   account data in bulk, and from the transcript editing
+   row, which corrects a recorded transcript. Done when
+   the row passes all quality gates. (Implemented this run.)
+
+172. Add an appointment reminder pattern row to
+   `catalog/patterns.md`: reminding before a booked
+   appointment with its time, place, and route in the
+   reminder itself, plus reschedule and cancel routes —
+   distinct from the appointment management row, which
+   manages booked time, and from the notification digest
+   row, which groups low-urgency updates. Done when the
+   row passes all quality gates. (Implemented this run.)
+
+173. Add a dual approval pattern row to
+   `catalog/patterns.md`: a sensitive change that takes
+   effect only after a second, different person approves
+   it, with the exact change stated in the request, a
+   pending state that blocks any partial effect, an
+   approval bound to the request as written and used
+   once, a stated expiry, and a decision record naming
+   who requested and who decided — distinct from the
+   guardian approval request row, which lets one person
+   approve for another, and from the sensitive-action
+   re-confirmation row, which checks the same person's
+   intent again. Done when the row passes all quality
+   gates. (Implemented this run.)
+
+174. Add an appointment check-in pattern row to
+   `catalog/patterns.md`: checking in for a booked
+   appointment from the booking or its reminder, with
+   an arrival window stated separately from the service
+   start, early, on-time, and late arrival states, a
+   visible queue position, and a plain next step after
+   check-in — distinct from the appointment management
+   row, which manages booked time, and from the
+   appointment reminder row, which reminds before the
+   appointment. Done when the row passes all quality
+   gates.
+   (Implemented this run.)
+
+175. Add a travel check-in pattern row to
+   `catalog/patterns.md`: confirming travel for a booked
+   trip, with a stated check-in window, seat and bag
+   choices, a boarding pass kept reachable offline, and
+   a plain next step for bag drop or direct boarding —
+   distinct from the seat selection row, which chooses a
+   seat, and from the travel disruption rebooking row,
+   which changes a disrupted trip. Done when the row
+   passes all quality gates.
+   (Implemented this run.)
+
+176. Add a stored payment method removal pattern row to
+   `catalog/patterns.md`: removing a stored method with a
+   stated list of the subscriptions and saved checkouts
+   that used it, a plain statement of what happens to
+   each — kept, re-pointed, or left without a method —
+   and a confirmation that names the method by its
+   label, distinct from the expiring payment method
+   replacement row, which swaps a method before expiry,
+   and from the backup payment method row, which keeps
+   a second method ready for a failed charge. Done when
+   the row passes all quality gates.
+   (Implemented this run.)
+
+177. Add a recurring appointment series pattern row to
+   `catalog/patterns.md`: a repeating booking with a
+   stated series rule, an edit-one versus edit-all
+   choice for changes, and a cancel-one versus
+   cancel-series choice, distinct from the appointment
+   management row, which changes a single booking, and
+   from the appointment reminder row, which reminds
+   before one appointment. Done when the row passes all
+   quality gates. (Implemented this run.)
+
+178. Add a group conversation participant management
+   pattern row to `catalog/patterns.md`: adding and
+   removing participants in a group conversation, with
+   a stated history rule for a new joiner — what past
+   messages they can see — and a plain statement when
+   a removed participant loses access, distinct from
+   the conversation mute row, which silences alerts
+   for one person, and from the saved collection
+   sharing row, which shares a collection rather than
+   a conversation. Done when the row passes all quality
+   gates.
+
+
+179. Add a travel document checklist pattern row to
+   `catalog/patterns.md`: the documents a trip needs
+   listed before travel with an expiry check for each,
+   a stated route to renew or replace a document that
+   will expire during the trip, and a plain warning
+   where a missing document blocks boarding — distinct
+   from the travel check-in row, which confirms travel
+   for a booked trip, and from the pass and ticket
+   display row, which presents a pass already held. Done
+   when the row passes all quality gates.
+
+180. Add an expense claim submission pattern row to
+   `catalog/patterns.md`: a claim built from receipts
+   with the amount, date, and category stated for each
+   item, a stated approval route, and a plain state for
+   each claim — submitted, approved, paid, or returned
+   with a reason — distinct from the document scanner
+   row, which captures a document, and from the order
+   receipt row, which keeps a receipt after purchase.
+   Done when the row passes all quality gates. (Implemented this run.)
+
+181. Add a back-to-top control pattern row to
+   `catalog/patterns.md`: a control that returns to the
+   top of a long page, shown only after the person has
+   scrolled past a stated distance, keeping focus at the
+   top on activation, and never covering content or
+   controls — distinct from the long-document navigation
+   row, which moves within a document, and from the
+   scrolling tab bar row, which moves between sections.
+   Done when the row passes all quality gates.
+
+182. Add a travel itinerary view pattern row to
+   `catalog/patterns.md`: a trip shown day by day with
+   each day's bookings, places, and travel legs in order,
+   changes to one day stated plainly with affected bookings
+   named, and the whole itinerary reachable without a
+   connection — distinct from the travel document
+   checklist row, which checks documents before travel,
+   and from the travel check-in row, which confirms
+   travel for a booked trip. Done when the row passes all
+   quality gates.
+
+183. Add a bill explanation pattern row to
+   `catalog/patterns.md`: one bill broken down line by
+   line with each charge named and dated, any discount,
+   credit, or fee shown as its own line, and a dispute
+   route from any line that looks wrong — distinct from
+   the billing overview row, which summarises recurring
+   charges across a period, and from the transaction
+   dispute row, which disputes a charge already paid.
+   Done when the row passes all quality gates.
+
+184. Add an appointment late-cancellation and no-show
+   policy pattern row to `catalog/patterns.md`: the
+   cancellation deadline, any fee for a late cancellation
+   or a missed appointment, and the route to cancel late
+   all stated before booking, with the policy repeated at
+   confirmation and a plain statement of what happens to
+   any prepayment — distinct from the appointment
+   management row, which changes or cancels a booking,
+   and from the appointment reminder row, which reminds
+   before one appointment. Done when the row passes all
+   quality gates.
+
 ## Review notes
+
+- Completed this review (deep editorial 2026-11-04, second cycle): new
+  Appointment check-in, Travel check-in, and Stored
+  payment method removal pattern rows in
+  `catalog/patterns.md`, completing roadmap actions 174,
+  175, and 176; coverage matrix updated with the three
+  new rows; three new improvement actions added (179
+  travel document checklist, 180 expense claim
+  submission, 181 back-to-top control); 1 new source
+  record (537 total).
+
+
+- Completed this review (deep editorial 2026-11-04): new
+  Stored payment method label, Conversation export, and
+  Appointment reminder pattern rows in
+  `catalog/patterns.md`, completing roadmap actions 170,
+  171, and 172; coverage matrix updated with the three
+  new rows; three new improvement actions added (176
+  stored payment method removal, 177 recurring
+  appointment series, 178 group conversation
+  participant management); 3 new source records (535
+  total).
+
+
+
+- Completed this review (daily planning 2026-11-04): new
+  Dual approval pattern row in `catalog/patterns.md`,
+  completing roadmap action 173; coverage matrix updated
+  with the new row; three new improvement actions added
+  (174 appointment check-in, 175 travel check-in);
+  1 new source record (531 total).
+
+
+- Completed this review (deep editorial 2026-11-04): new
+  In-conversation message search and Expiring payment
+  method replacement pattern rows in `catalog/patterns.md`,
+  completing roadmap actions 167 and 168; coverage matrix
+  updated with the two new rows; three new improvement
+  actions added (170 stored payment method label, 171
+  conversation export, 172 appointment reminder); 2 new
+  source records (529 total).
+
+
+- Completed this review (deep editorial 2026-11-03): new
+  help-search recovery rule in the In-product help row,
+  link-preview rule in the Share link row, and
+  second-factor method-change rule in the Second-factor
+  sign-in row in `catalog/patterns.md`, completing roadmap
+  actions 29, 30, and 31; coverage matrix checked against
+  the actual catalogue and left unchanged, since the three
+  changes extend existing rows rather than adding new
+  pattern rows; three new improvement actions added (164
+  conversation mute, 165 reduced-motion preference, 166
+  archive conversation); 3 new source records (518 total).
+
+
+- Completed this review (deep editorial 2026-11-03): new
+  Group checkout, Gift receipt, and Store pickup pattern
+  rows in `catalog/patterns.md`, completing roadmap
+  action 148; coverage matrix updated with the three new
+  rows; three new improvement actions added (161 message
+  forwarding, 162 return label and drop-off, 163 saved
+  collection sharing); 3 new source records (509 total).
+
+- Completed this review (daily planning 2026-11-03): new
+  QR sign-in pattern row in `catalog/patterns.md`,
+  completing roadmap action 158; coverage matrix updated
+  with the QR sign-in row and the previously missing
+  high-demand queue row; three new improvement actions
+  added (158 QR sign-in, 159 delivery reschedule, 160
+  loyalty tier progress); 1 new source record (501 total).
+  Since the last daily run, the deep cycle completed actions
+  149, 150, and 151 and a light cycle completed action 155;
+  those outcomes are already recorded in `CHANGELOG.md`.
+
+- Completed this review (deep editorial 2026-11-03): new
+  Product recall notice, Account merge, and Loyalty points
+  expiry warning pattern rows in `catalog/patterns.md`,
+  completing roadmap actions 149, 150, and 151; coverage
+  matrix updated with the three new rows; three new
+  improvement actions added (155 high-demand queue, 156 price
+  history display, 157 subscription gifting); 3 new source
+  records (499 total).
+
+
+- Completed this review (deep editorial 2026-11-02): new
+  File preview, Search history, and Passkey sign-in pattern
+  rows in `catalog/patterns.md`, completing roadmap actions
+  48, 49, and 67; coverage matrix updated with the new rows;
+  three new improvement actions added (152 download manager,
+  153 voice message transcript, 154 checkout worked example);
+  3 new source records (494 total).
 
 - Completed this review (deep editorial 2026-10-30): new
   Return and exchange request, Back-in-stock alert request,
@@ -2213,6 +2801,17 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
   subscription pause, 119 saved search alert, 120 data
   import); 1 new source record (434 total).
 
+
+- Completed this review (deep editorial 2026-11-03): new
+  Reduced-motion preference and Archive conversation
+  pattern rows in `catalog/patterns.md`, completing
+  roadmap actions 165 and 166; a reduced-motion rule
+  added to the hero section of `layouts/landing.md`;
+  coverage matrix updated with the two new rows; three
+  new improvement actions added (167 in-conversation
+  message search, 168 expiring payment method
+  replacement, 169 pinned conversation); 2 new source
+  records (523 total).
 
 ## Pre-publish checklist
 

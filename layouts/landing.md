@@ -29,6 +29,7 @@ Header with navigation and primary action; hero with headline, short supporting 
 - Compact: single column in reading order — headline, action, features, evidence, questions.
 - Sticky action bar on compact screens appears only after the hero action scrolls away.
 - Media is abstract or product-focused; decorative media never pushes the headline below the fold on compact screens.
+- Hero motion honours the reduced-motion preference: looping or autoplaying hero media stops or fades for people who asked for less movement, with a visible pause control, and the offer never depends on the motion — headline, action, and proof stay readable with motion off.
 
 ## States
 
@@ -49,5 +50,6 @@ Every element and page in this group defines all seven states. Missing states ar
 The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
 
 - [ ] Outcome-first hero, section order, and form-friction rules are documented.
+- [ ] Hero motion honours the reduced-motion preference, with the offer readable with motion off.
 - [ ] Sticky action-bar behaviour on compact screens is stated.
 - [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.
