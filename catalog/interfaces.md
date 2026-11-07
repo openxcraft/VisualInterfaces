@@ -26,6 +26,7 @@ When to avoid:
 | Kiosk | Touch | Standing distance | Low | Large targets, idle timeout, session reset, no personal data retained |
 | Wearable | Touch, voice, crown or bezel | Glanceable | Very low | Two actions per screen at most, short text |
 | Television | Remote, voice | Room distance | Low | Focus-based navigation, 10-foot legibility, overscan margins |
+| Game | Controller, keyboard, touch | Handheld to room distance | Very low | HUD read at a glance, scalable text, remappable controls, safe zones |
 | Automotive HMI | Physical controls, voice, touch | Road distance, glanceable | Very low | Two-second glance and twelve-second task budgets; essential functions stay on physical controls |
 | Conversational | Text, voice | Varies | Low | Turn-taking, repair of misunderstood input, fallback to structured controls |
 | Spatial | Gesture, gaze, voice | Room scale | Low | Depth cues, physical comfort, clear exit to a flat view |
@@ -258,6 +259,45 @@ tasks only, and essential functions never touchscreen-only.
   surface narrows its content as attention demands rise and restores it
   when the vehicle is parked.
 
+## Game interfaces
+
+For play surfaces where the interface competes with the game itself for
+attention: the heads-up display is read at a glance, peripherally, while
+play continues.
+
+- Show only what the player needs this second — health, resources,
+  objective, threat direction — and push the rest into menus; a
+  persistent display earns its place by being needed constantly.
+- Test readability under motion, not on a still frame: keep display
+  elements in stable positions, rank them by urgency, and give text a
+  treatment that survives any background — a scrim, outline, or shadow —
+  so labels stay readable over bright or busy scenes.
+- Size text for the viewing distance first: defaults are larger on
+  room-distance screens than on handheld ones, and the player can scale
+  text and interface elements up to at least twice the default, with
+  icons and glyphs scaling alongside the text.
+- Hold text and meaningful graphics to 4.5:1 contrast, and 3:1 for large
+  text and large interface elements, measured against the
+  lowest-contrast part of the background behind them.
+- Never carry essential information by colour alone: pair colour with
+  shape, icon, label, or pattern, and offer colour-vision-deficiency
+  modes that change the palette rather than simulate the deficiency.
+- Subtitles are on by default, with speaker names, adjustable size, and
+  a readable background; speech is never the only way to receive
+  essential information.
+- Let the player remap every control, choose hold versus toggle for
+  sustained actions, and reach every part of the interface with the same
+  input method used for play.
+- Offer controls to reduce motion — camera shake, motion blur, flashing
+  — and avoid large, high-contrast flashes.
+- Keep critical elements inside the safe area on room-distance screens:
+  roughly the inner 90% of the picture, anchored to the edges with a
+  safe-zone offset so nothing essential is lost to overscan.
+- The same readability rules apply to every kind of game surface:
+  in-world displays, overlay displays, displays placed in the game
+  space, and screens outside play such as menus and lobbies; in-world
+  text needs scaling and contrast options like any other screen.
+
 ## States
 
 Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
@@ -280,4 +320,5 @@ The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks bel
 - [ ] The remote-control input section covers directional-pad, pointer, touch-surface, and scroll-wheel variants.
 - [ ] Wearable, spatial, and embedded sections link to their full treatments.
 - [ ] Automotive HMI glance budgets, physical-control rules, and contextual minimalism are documented.
+- [ ] Game interface HUD readability, text scaling, remapping, and safe-zone rules are documented.
 - [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

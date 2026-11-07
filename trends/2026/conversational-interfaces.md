@@ -58,6 +58,26 @@ which the client renders progressively as it streams.
 - Offer a control to show fewer visuals, so a person who finds visuals
   in the way can return to text without leaving the conversation.
 
+## Long outputs beside the conversation
+
+A long result — a document, a table, a structured plan — belongs in a
+surface beside the conversation, not inside the message list, so the
+person reads the work without losing the thread that produced it.
+
+- Open the result in an adjacent pane while the conversation stays
+  visible; the pane shows the current version, and a later turn that
+  revises the result updates the pane in place instead of appending a
+  second copy below the chat.
+- Keep the two views linked: selecting a part of the result shows the
+  turn that produced it, and the conversation never scrolls away from
+  the point where the result was requested.
+- A change to the result is proposed before it replaces the previous
+  version: the person reviews the change in the pane and accepts or
+  rejects it, and a rejected change leaves the previous version intact.
+- On a narrow screen the pane becomes a full-screen view with a clear
+  return to the conversation, and the result stays reachable from the
+  turn that requested it.
+
 ## Layout and responsive rules
 
 - Every conversational step offers a structured fallback: buttons, a list, or a form.
@@ -140,6 +160,33 @@ and comparisons.
 - Make a reconnected request safe to repeat: reconcile what already
   happened before retrying, so reconnecting never books, sends, or
   charges twice for one request.
+
+## Earcons: short sounds that carry meaning
+
+A short non-verbal sound can confirm an outcome or mark a state change
+faster than speech, and it works where the person is not looking at a
+screen. Give each recurring outcome its own sound, and reuse it
+everywhere it applies.
+
+- One sound, one meaning: listening, understood, working, done, and
+  failed each get a distinct short sound, under about a second, so the
+  person learns the set once and recognises each outcome without words.
+- Never the only signal: pair every sound with a visual mark or a
+  haptic pulse, so the meaning survives silent mode, muted devices, and
+  hearing differences; a sound never carries information that has no
+  other channel.
+- Keep the set small: a handful of sounds at most, shared across the
+  whole product; a new sound for each feature teaches nothing and
+  collides with the sounds already learned.
+- State, not content: use sounds for state changes — listening started,
+  input understood, work finished, something failed — and use words for
+  anything the person must act on or remember.
+- Respect quiet: sounds stay off where the person muted them or chose a
+  quiet setting, and never start on their own where sound would
+  surprise; test each sound at low volume and against background noise,
+  so it stays recognisable without startling.
+- Urgency by pattern, not loudness: an urgent sound differs in rhythm
+  or shape from a routine one, never only by being louder.
 
 ## Interruption budget and turn-taking rhythm
 

@@ -39,6 +39,11 @@ Stable information zones (speed, warnings, navigation each in a fixed place); gl
 - Essential functions stay on physical controls; core functions are never
   touchscreen-only. Well-structured touch flows may serve the rest when
   menus are shallow, responses fast, and common tasks short.
+- Head-up projections show only the highest-priority content — speed, the
+  next manoeuvre, and critical warnings — and nothing else; overlays that
+  annotate the road stay fixed to what they mark and never cover hazards
+  or sightlines; brightness adapts to ambient light so the projection
+  stays readable without washing out the view.
 - Day mode uses dark text on light surfaces and night mode uses light
   text on dark surfaces; contrast stays at least 4.5:1 in both.
 - Driving-relevant content wins: non-driving tasks can be interrupted and

@@ -48,10 +48,10 @@ defined without an example; gap = named but not yet defined.
 | --- | --- | --- | --- |
 | Platform | Web, mobile, tablet, kiosk, television, embedded, wearable, desktop | — | — |
 | Device input | Touch, pointer, keyboard, voice, gesture-only, remote | — | — |
-| Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive | — | — |
+| Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive, game | — | — |
 | Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in, saved-item collection, bulk action, rating and review submission, payment failure recovery, content reporting and blocking, language and locale selection, scheduled action, breadcrumb navigation, annotation and comment thread, theme selection, profile and
 account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences, long-document navigation, in-app update prompt, pull-to-refresh, scrolling tab bar, system share sheet, find-in-page, collaborative editing presence,
-    draft autosave and recovery, saved-filter view, toast feedback, list reorder, date-range picker, accordion disclosure, carousel, passkey sign-in, low-bandwidth mode, what's-new announcement, version history and restore, external-link departure, described media, saved-cart recovery, colour picker, guest-to-account conversion, sensitive-content preview, order tracking, order cancellation, time picker, verification-code entry, background-task progress, automated-to-human support handoff, subscription plan change, promo-code entry, master-detail, threaded message reply, gift option, saved address selection, delivery slot picker, product variant selection, home-screen widget, deep-link landing, progressive disclosure, return and exchange request, back-in-stock alert request, contact picker, primary navigation, bypass link, search, filtering and sorting, data table density, inline editing, bulk selection, data visualisation, guided tour, setup checklist, inline assistant actions, form flow, character count, wizard, detail view, notification list, notification preferences, activity feed, confirmation, sensitive-action re-confirmation, install prompt, offline download, multi-device handoff, paywall and upgrade prompt, subscription cancellation, restore purchases, account switcher, in-product feedback and problem report, account recovery, consent choice, granular consent, media viewer, code scanner, simplified view, location selection, voice message, message reaction, pinned message, message edit and delete, swipe-to-reveal actions, poll, conversation branching, sticky section headers, appointment management, review prompt, rating distribution summary, limited-time offer countdown, age verification gate, suggestion review, code scanning, image gallery viewer, reading progress indicator, print-friendly view, text-selection action menu, picture-in-picture, reorder past order, live broadcast chat overlay, kanban board, gift card and stored-credit redemption, address entry, delivery instructions, saved payment method selection, split payment, media chapters, waitlist, loyalty rewards, link preview, live activity, billing overview, usage allowance, password strength meter, emoji picker, seat selection, selecting an option from a list, home control map, follow, payment instalment plan, subscribe-and-save purchase option, pickup point selection, expandable table row, pass and ticket display, shared cart, stored payment method expiry warning, workspace switcher, undo send, view switcher, tree view, timeline view, quote reply, product configurator, referral invitation, live captions, route planning, pass or ticket transfer, document signing, transcript editing, meeting and event creation, shared resource booking, backup payment method, household member management, checkout price-change confirmation, split shipment display, price-drop alert, guest order lookup, signed-in device management, service status notice, order substitution choice, commercial content disclosure, ---, Trial-end reminder, Subscription pause, Data import, In-app survey, Document scanner, Delivery address validation, Shared expense splitting, In-store availability check, Guided route navigation, Saved search alert, Magic link sign-in, Preorder purchase, Tip selection, Live call controls, Device pairing, Hands-busy step guidance, Guardian approval request, Live poll, Delivery photo proof, Warranty claim, Overflow menu, Translated content, converted-price display, scheduled message send, saved reply, order receipt, subscription billing-date change, card freeze, travel disruption rebooking, size guide and fit recommendation, shared item access, app lock, transaction dispute, habit streak, contactless payment confirmation, profile photo upload and crop, playback queue, security incident notice, file preview, search history, download manager, voice message transcript, product recall notice, account merge, loyalty points expiry warning, QR sign-in, high-demand queue, group checkout, gift receipt, store pickup, reduced-motion preference, archive conversation, in-conversation message search, expiring payment method replacement, dual approval, stored payment method label, conversation export, appointment reminder, shoppable video, appointment check-in, travel check-in, stored payment method removal, aggregate rating display, recurring appointment series, travel document checklist | — | — |
+    draft autosave and recovery, saved-filter view, toast feedback, list reorder, date-range picker, accordion disclosure, carousel, passkey sign-in, low-bandwidth mode, what's-new announcement, version history and restore, external-link departure, described media, saved-cart recovery, colour picker, guest-to-account conversion, sensitive-content preview, order tracking, order cancellation, time picker, verification-code entry, background-task progress, automated-to-human support handoff, subscription plan change, promo-code entry, master-detail, threaded message reply, gift option, saved address selection, delivery slot picker, product variant selection, home-screen widget, deep-link landing, progressive disclosure, return and exchange request, back-in-stock alert request, contact picker, primary navigation, bypass link, search, filtering and sorting, data table density, inline editing, bulk selection, data visualisation, guided tour, setup checklist, inline assistant actions, form flow, character count, wizard, detail view, notification list, notification preferences, activity feed, confirmation, sensitive-action re-confirmation, install prompt, offline download, multi-device handoff, paywall and upgrade prompt, subscription cancellation, restore purchases, account switcher, in-product feedback and problem report, account recovery, consent choice, granular consent, media viewer, code scanner, simplified view, location selection, voice message, message reaction, pinned message, message edit and delete, swipe-to-reveal actions, poll, conversation branching, sticky section headers, appointment management, review prompt, rating distribution summary, limited-time offer countdown, age verification gate, suggestion review, code scanning, image gallery viewer, reading progress indicator, print-friendly view, text-selection action menu, picture-in-picture, reorder past order, live broadcast chat overlay, kanban board, gift card and stored-credit redemption, address entry, delivery instructions, saved payment method selection, split payment, media chapters, waitlist, loyalty rewards, link preview, live activity, billing overview, usage allowance, password strength meter, emoji picker, seat selection, selecting an option from a list, home control map, follow, payment instalment plan, subscribe-and-save purchase option, pickup point selection, expandable table row, pass and ticket display, shared cart, stored payment method expiry warning, workspace switcher, undo send, view switcher, tree view, timeline view, quote reply, product configurator, referral invitation, live captions, route planning, pass or ticket transfer, document signing, transcript editing, meeting and event creation, shared resource booking, backup payment method, household member management, checkout price-change confirmation, split shipment display, price-drop alert, guest order lookup, signed-in device management, service status notice, order substitution choice, commercial content disclosure, ---, Trial-end reminder, Subscription pause, Data import, In-app survey, Document scanner, Delivery address validation, Shared expense splitting, In-store availability check, Guided route navigation, Saved search alert, Magic link sign-in, Preorder purchase, Tip selection, Live call controls, Device pairing, Hands-busy step guidance, Guardian approval request, Live poll, Delivery photo proof, Warranty claim, Overflow menu, Translated content, converted-price display, scheduled message send, saved reply, order receipt, subscription billing-date change, card freeze, travel disruption rebooking, size guide and fit recommendation, shared item access, app lock, transaction dispute, habit streak, contactless payment confirmation, profile photo upload and crop, playback queue, security incident notice, file preview, search history, download manager, voice message transcript, product recall notice, account merge, loyalty points expiry warning, QR sign-in, high-demand queue, group checkout, gift receipt, store pickup, reduced-motion preference, archive conversation, in-conversation message search, expiring payment method replacement, dual approval, stored payment method label, conversation export, appointment reminder, shoppable video, appointment check-in, travel check-in, stored payment method removal, aggregate rating display, recurring appointment series, travel document checklist, travel itinerary view, bill explanation, appointment late-cancellation and no-show policy, emergency assistance request, shared trip itinerary, ride booking, bottom sheet choice, trigger-character suggestion menu, booking deposit, appointment standby list, medication reminder, verified account badge, virtual background in video calls, world clock, expense claim submission, read receipt, typing indicator, video-call waiting room, focus mode schedule, sticker and GIF picker, product questions and answers, shared whiteboard, raise hand in video calls, screen sharing in video calls, mute conversation, disappearing messages, call recording notice, incoming call, missed call, scan-to-pay, launch screen, call waiting, outgoing call, call quality and reconnection, in-app browser, visual voicemail, safety check-in, breakout rooms in video calls, call transfer, conference call, suspected spam call warning, digital identity wallet presentation | — | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 | Worked examples | Dashboard, mobile navigation, onboarding — each demonstrating the rules it documents with all seven states | — | — |
 | Localization | Right-to-left mirroring rules, what-not-to-mirror list, logical properties, text-expansion budgets, locale-aware date/number/currency formatting and sorting, mixed-direction text | — | — |
@@ -1995,6 +1995,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    and from the travel check-in row, which confirms
    travel for a booked trip. Done when the row passes all
    quality gates.
+   (Implemented this run.)
 
 183. Add a bill explanation pattern row to
    `catalog/patterns.md`: one bill broken down line by
@@ -2005,6 +2006,7 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    charges across a period, and from the transaction
    dispute row, which disputes a charge already paid.
    Done when the row passes all quality gates.
+   (Implemented this run.)
 
 184. Add an appointment late-cancellation and no-show
    policy pattern row to `catalog/patterns.md`: the
@@ -2017,8 +2019,541 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
    and from the appointment reminder row, which reminds
    before one appointment. Done when the row passes all
    quality gates.
+   (Implemented this run.)
+
+185. Add a shared trip itinerary pattern row to
+   `catalog/patterns.md`: a trip itinerary shared with
+   travelling companions, with a stated view-only or
+   editable scope per person, changes by one person
+   visible to the others with affected bookings named,
+   and a route to stop sharing that keeps each person's
+   own copy — distinct from the travel itinerary view
+   row, which shows one person's trip, and from the
+   saved collection sharing row, which shares saved
+   items rather than a trip. Done when the row passes all
+   quality gates. (Implemented this run.)
+
+186. Add a booking deposit pattern row to
+   `catalog/patterns.md`: a deposit taken at booking
+   that counts toward the price, with the deposit amount,
+   what it secures, and the refund rule for on-time
+   cancellation, late cancellation, and a no-show all
+   stated before payment, and the remaining balance and
+   its due date shown beside the deposit — distinct from
+   the appointment late-cancellation and no-show policy
+   row, which states fees, and from the payment
+   instalment plan row, which spreads a total. Done when
+   the row passes all quality gates. (Implemented this run.)
+
+187. Add an appointment standby list pattern row to
+   `catalog/patterns.md`: a list joined when no booking
+   is free, with the person's place stated, a stated
+   offer window when a slot opens, a one-action accept
+   that books the slot, and a plain expiry when the
+   window passes — distinct from the waitlist row, which
+   watches one item for restock, and from the appointment
+   management row, which changes a booked time. Done when
+   the row passes all quality gates. (Implemented this run.)
+
+188. Add an emergency assistance request pattern row to
+   `catalog/patterns.md`: a request sent with one action
+   from wherever the person is, stating what kind of help
+   is needed and sharing location at once, a short cancel
+   window for accidental requests, a plain receipt stating
+   what was sent and to whom, separate states for sent,
+   received, and accepted, and a route to add essential
+   details after the request rather than before it —
+   distinct from the automated-to-human support handoff
+   row, which moves a support conversation to a person,
+   and from the service status notice row, which reports
+   an outage. Done when the row passes all quality
+   gates. (Implemented this run.)
+
+189. Add a medication reminder pattern row to
+   `catalog/patterns.md`: a reminder naming the dose in
+   plain words with its amount and time, a stated schedule
+   with a snooze and a taken or missed mark, a visible
+   history of taken and missed doses, a plain route to
+   change the schedule without losing the history, and a
+   stated rule for what is shared and with whom — distinct
+   from the appointment reminder row, which reminds before
+   one booked time, and from the habit streak row, which
+   counts consecutive days. Done when the row passes all
+   quality gates. (Implemented this run.)
+
+190. Add a recurring payment setup pattern row to
+   `catalog/patterns.md`: a setup flow kept separate from
+   a one-time payment, stating the amount, the date, and
+   the method before the person authorises future payments,
+   a stated pause, change, and cancel route from the setup
+   itself, a plain notice before each charge and after a
+   failed charge, and a stated rule for what happens when
+   the payment method changes — distinct from the billing
+   overview row, which summarises recurring charges, and
+   from the subscription plan change row, which changes
+   what is paid for. Done when the row passes all quality
+   gates.
+
+191. Add an appointment preparation checklist pattern row to
+   `catalog/patterns.md`: a short list of what to bring, what
+   to do, and what to expect before a booked appointment, shown
+   with the booking and again in the reminder, with each item
+   checkable and a stated route where a preparation step cannot
+   be completed — distinct from the appointment reminder row,
+   which reminds before one booked time, and from the travel
+   document checklist row, which checks documents before travel.
+   Done when the row passes all quality gates.
+
+192. Add a deposit refund status pattern row to
+   `catalog/patterns.md`: a plain statement of where a deposit
+   refund stands after a cancellation — requested, sent, or
+   received — with the amount, the method it returns to, and
+   how long it takes to appear, and a stated route where a
+   refund is delayed or missing — distinct from the booking
+   deposit row, which states the refund rule before payment,
+   and from the transaction dispute row, which disputes a
+   charge already paid. Done when the row passes all quality
+   gates.
+
+193. Add a medication refill request pattern row to
+   `catalog/patterns.md`: a request sent before the supply runs
+   out, stating how much is left and when it runs out, with a
+   choice of delivery or pickup and a plain state for each
+   request — sent, confirmed, or ready — distinct from the
+   medication reminder row, which reminds the person to take a
+   dose, and from the reorder past order row, which repeats a
+   purchase already made. Done when the row passes all quality
+   gates.
+
+
+194. Add a verified account badge pattern row to
+   `catalog/patterns.md`: a badge shown beside the name
+   only once a check is confirmed, stating what was checked
+   and when, with levels named where they differ, and removed
+   at once when the check no longer holds — distinct from the
+   profile and account menu row, which shows who is signed
+   in, and from the second-factor sign-in row, which proves
+   the person at sign-in. Done when the row passes all
+   quality gates. (Implemented this run.)
+
+195. Add a virtual background in video calls pattern row to
+   `catalog/patterns.md`: background blur as the plain
+   default with a preview before joining, a stated limit
+   that blur hides detail and not movement, a still-image
+   replacement choice, a per-device setting changeable
+   mid-call, and a camera-off offer where the device cannot
+   run the effect — distinct from the live call controls
+   row, which governs microphone, camera, and sharing
+   toggles. Done when the row passes all quality gates.
+   (Implemented this run.)
+
+196. Add a world clock pattern row to `catalog/patterns.md`:
+   several places shown at once with local time, date, and
+   offset in plain figures, day-or-night marks and
+   working-hours bands on a shared timeline, an overlap
+   finder naming the shared window, and a share control
+   stating every local time for a chosen moment — distinct
+   from the time-zone picker row, which picks one zone for
+   a single event. Done when the row passes all quality
+   gates. (Implemented this run.)
+
+197. Add a video-call waiting room pattern row to
+   `catalog/patterns.md`: people joining before the host
+   wait in a named holding view with a plain statement of
+   what happens next, the host admits or declines each
+   person by name, and nobody joins the call unannounced —
+   distinct from the live call controls row, which governs
+   microphone, camera, and sharing toggles once inside the
+   call. Done when the row passes all quality gates.
+   (Implemented this run.)
+
+198. Add a sticker and GIF picker pattern row to
+   `catalog/patterns.md`: a searchable picker inside the
+   compose view with recent and saved items first, a plain
+   text description for every item, and a preview before
+   sending — distinct from the emoji picker row, which
+   inserts a single character, and from the message
+   reaction row, which responds to a message already sent.
+   Done when the row passes all quality gates.
+   (Implemented this run.)
+
+199. Add a focus mode schedule pattern row to
+   `catalog/patterns.md`: a named quiet-hours schedule
+   with allowed contacts and apps stated plainly, a visible
+   state while it is on, and a stated end that returns
+   notifications in one summary — distinct from the
+   reduced-motion preference row, which changes motion
+   rather than delivery, and from the notification digest
+   row, which groups low-urgency updates on a schedule.
+   Done when the row passes all quality gates.
+   (Implemented this run.)
+
+200. Add a screen sharing in video calls pattern row to
+   `catalog/patterns.md`: a share control that states what
+   will be visible before sharing starts, a choice between
+   one window and the whole screen, a visible sharing state
+   with a one-action stop, and a stated rule that private
+   content stays hidden — distinct from the live call
+   controls row, which governs microphone, camera, and
+   sharing toggles once inside the call, and from the
+   virtual background row, which hides what is behind the
+   person rather than what is on their screen. Done when the row passes all quality gates.
+   (Implemented this run.)
+
+201. Add a mute conversation pattern row to
+   `catalog/patterns.md`: silence one conversation without
+   leaving it, with a stated duration or until unmuted, a
+   visible muted state, and messages still delivered and
+   readable on opening — distinct from the focus mode
+   schedule row, which silences delivery across the whole
+   device, and from the archived conversation row, which
+   removes a conversation from the list. Done when the row passes all quality gates.
+   (Implemented this run.)
+
+202. Add a page not found pattern row to
+   `catalog/patterns.md`: a plain statement that the page
+   does not exist, with the address kept visible, a way
+   back to a known place, and a search offer — distinct
+   from the error state rules in `catalog/states.md`, which
+   cover failures inside a working page, and from the
+   service status notice row, which reports a service-wide
+   problem. Done when the row passes all quality gates.
+   (Implemented this run.)
+
+203. Add a raise hand in video calls pattern row to
+   `catalog/patterns.md`: one control in the call controls and
+   in the participants panel, a raised-hand mark on the tile and
+   in the list, a visible queue in the order hands were raised,
+   moderator lower-one and lower-all controls, auto-lower when
+   the person speaks with a cancel step to keep the hand
+   raised, and gesture detection off by default — distinct
+   from the live call controls row, which governs microphone,
+   camera, and sharing toggles, and from the video-call
+   waiting room row, which holds people before they join.
+   Done when the row passes all quality gates. (Implemented
+   this run.)
+
+204. Add a disappearing messages pattern row to
+   `catalog/patterns.md`: a per-conversation setting with a
+   stated lifetime, a distinct visual style and a visible
+   countdown for messages that will vanish, a stated rule for
+   what happens to messages already sent when the setting
+   changes, and a plain statement that a screenshot or a
+   second device can keep a copy — distinct from the message
+   edit and delete row, which removes one message on request,
+   and from the conversation export row, which keeps a copy
+   of the whole conversation. Done when the row passes all quality gates.
+   (Implemented this run.)
+
+205. Add a breakout rooms in video calls pattern row to
+   `catalog/patterns.md`: a host-created set of smaller rooms
+   with a stated size and a return route to the main call,
+   assignment shown before joining, a stated rule for who can
+   move between rooms, and a plain statement that breakout
+   rooms are not recorded or streamed — distinct from the
+   video-call waiting room row, which holds people before
+   they join, and from the group conversation participant
+   management row, which manages who is in a text
+   conversation. Done when the row passes all quality gates. (Implemented this run.)
+
+206. Add a call recording notice pattern row to
+   `catalog/patterns.md`: a plain statement before recording starts,
+   shown to everyone in the call, with a stated rule for who can
+   start and stop it, a visible recording state for the whole
+   recording, and a stated place where the recording is kept and
+   for how long — distinct from the screen sharing row, which
+   shares a live view rather than keeping a copy, and from the
+   live call controls row, which governs microphone, camera, and
+   sharing toggles. Done when the row passes all quality gates. (Implemented this run.)
+
+207. Add an incoming call pattern row to
+   `catalog/patterns.md`: the caller's identity stated plainly,
+   accept and decline controls that work without unlocking the
+   device, a quick reply for a declined call, and a stated rule
+   that declining sends the caller to a missed-call note rather
+   than silence — distinct from the live call controls row,
+   which governs a call once it has started, and from the
+   video-call waiting room row, which holds people before the
+   host admits them. Done when the row passes all quality gates. (Implemented this run.)
+
+208. Add a missed call pattern row to
+   `catalog/patterns.md`: a missed-call entry in the call list
+   with the caller's identity and the time of the call, a
+   one-action call back, and a stated rule that a missed call
+   never clears itself without the person choosing to clear it
+   — distinct from the incoming call pattern in action 207,
+   which handles a call while it is ringing, and from the
+   notification list row, which gathers alerts rather than
+   calls. Done when the row passes all quality gates. (Implemented this run.)
+
+209. Add a call waiting pattern row to `catalog/patterns.md`:
+   a second incoming call during a live call — the new
+   caller's identity stated plainly, accept puts the current
+   call on hold with a stated hold state and a one-action
+   return, decline sends the caller to a missed-call note,
+   and merge is offered only where the call supports it —
+   with a plain warning before any action that would drop
+   the first call — distinct from the incoming call row,
+   which handles a call while the device is idle, and from
+   the live call controls row, which governs toggles once
+   inside a call. Done when the row passes all quality gates. (Implemented this run.)
+
+210. Add an outgoing call pattern row to `catalog/patterns.md`:
+   dialling, ringing, connecting, busy, no-answer, and
+   failed states, each stated plainly with a next action; a
+   ringing call can be cancelled in one action; a failed call
+   states the cause where known and offers retry or a
+   message instead of redialling blindly — distinct from the
+   incoming call row, which handles a call while it is
+   ringing in, and from the missed call row, which records
+   a call that was not answered. Done when the row passes
+   all quality gates. (Implemented this run.)
+
+211. Add a call quality and reconnection pattern row to
+   `catalog/patterns.md`: when the connection weakens, a
+   plain warning on the affected tile states what is
+   happening and what to do; an audio-only fallback keeps
+   the call alive where video cannot; on a dropped
+   connection the call reconnects automatically where
+   possible and states plainly what was lost and what was
+   kept — distinct from the live call controls row, which
+   shows a connection-trouble indicator, and from the
+   background-task progress row, which reports work that
+   continues out of sight. Done when the row passes all
+   quality gates. (Implemented this run.)
+
+212. Add a call transfer pattern row to `catalog/patterns.md`:
+   moving a live call to another person or team — a blind
+   transfer sends the call straight through, an attended
+   transfer holds the caller while the receiving person is
+   briefed first, and the caller is told the reason and who
+   they are being passed to before the move; the caller never
+   has to repeat what was already said, because the reason and
+   the details already given travel with the call; where the
+   receiving person cannot take the call, the caller is
+   offered a message or a call back rather than being
+   dropped — distinct from the automated-to-human support
+   handoff row, which moves a conversation from automated
+   help to a person, and from the pass or ticket transfer row,
+   which passes a held item to another person. Done when the
+   row passes all quality gates. (Implemented this run.)
+
+213. Add a visual voicemail pattern row to `catalog/patterns.md`:
+   a list of recorded messages with the caller's identity,
+   the time, and the length, each playable in any order with
+   pause and scrub controls, and a written transcript where
+   one is available that is labelled as a transcript and never
+   trusted for exact details such as times or numbers without
+   listening; messages are marked as heard only after they are
+   played or read, never by opening the list; a message can be
+   saved, shared, or deleted one at a time, with deletion
+   confirmed and a full inbox stated plainly before new
+   messages are refused — distinct from the missed call row,
+   which records a call that was not answered, and from the
+   voice message row, which carries a recorded message inside
+   a conversation. Done when the row passes all quality gates. (Implemented this run.)
+
+214. Add a suspected spam call warning pattern row to
+   `catalog/patterns.md`: when a call is flagged as likely
+   unwanted, the warning is shown in plain words on the
+   incoming call screen before any action is taken, with the
+   reason stated where it is known and the number shown in
+   full; the person can answer, decline, or block and report
+   the number from the same screen; a wrongly flagged call can
+   be marked as not unwanted so it is not flagged again;
+   suspected calls are never silenced without the person's
+   choice, and a blocked number's calls go to a stated place
+   rather than vanishing — distinct from the incoming call
+   row, which handles an ordinary call while it is ringing in,
+   and from the content reporting and blocking row, which
+   reports content rather than calls. Done when the row passes
+   all quality gates. (Implemented this run.)
+
+215. Add a reading view pattern row to
+   `catalog/patterns.md`: a screen reading mode that removes
+   navigation, banners, and interactive controls, with text
+   size, line spacing, and light-or-dark background controls,
+   a stated reading position that survives leaving and
+   returning, and a one-action exit back to the full page —
+   distinct from the simplified view row, which reduces
+   cognitive load across the whole product, and from the
+   print-friendly view row, which prepares a page for
+   printing rather than for reading on screen. Done when the
+   row passes all quality gates.
+
+216. Add a call screening pattern row to
+   `catalog/patterns.md`: for an unknown caller, ask who is
+   calling and why before the person answers, showing the
+   spoken answer as text on the incoming-call screen, with
+   accept, decline, and block-and-report from the same
+   screen, and a stated rule that a screened call is never
+   answered silently — distinct from the suspected spam call
+   warning row, which labels a call from known patterns, and
+   from the visual voicemail row, which records a message
+   after the call is missed. Done when the row passes all
+   quality gates.
+
+217. Add an add-people-to-a-live-call pattern row to
+   `catalog/patterns.md`: invite others into a call already
+   in progress, with the invite sent from the call itself, a
+   stated announcement naming each person as they join, and
+   a host control to remove someone who joined by mistake —
+   distinct from the video-call waiting room row, which holds
+   people before the host admits them, and from the group
+   conversation participant management row, which manages
+   who is in a text conversation. Done when the row passes
+   all quality gates.
+
+218. Add a conference call pattern row to
+   `catalog/patterns.md`: merge two or more live calls into
+   one call, with a participant list naming everyone on the
+   line, a drop-one-participant control, a speak-privately
+   control that holds the others, a stated participant limit,
+   a warning where the host leaving ends the call for
+   everyone, and a plain notice where merging is not
+   supported — distinct from the call waiting row, which
+   handles a second incoming call during a live call, and
+   from the breakout rooms row, which splits one call into
+   smaller rooms. Done when the row passes all quality
+   gates. (Implemented this run.)
+
+219. Add a call history pattern row to
+   `catalog/patterns.md`: a chronological list of incoming,
+   outgoing, and missed calls with the type, time, and
+   duration of each, a filter by call type, a one-action
+   redial or call back, per-entry delete and a clear-all
+   control, a stated retention limit, and a rule that a
+   missed call never clears itself without the person's
+   choice — distinct from the missed call row, which records
+   a single missed call, and from the recently viewed row,
+   which lists opened items rather than calls. Done when
+   the row passes all quality gates.
+
+220. Add a call forwarding pattern row to
+   `catalog/patterns.md`: forward incoming calls to another
+   number, always or only when busy, unanswered, or
+   unreachable, with a separate destination per rule, the
+   active rules stated with their destinations shown, a
+   one-action turn-off for each rule, and a plain warning
+   where forwarding overrides voicemail — distinct from the
+   call transfer row, which moves a live call to another
+   person, and from the visual voicemail row, which holds
+   messages left after a missed call. Done when the row
+   passes all quality gates.
+
+221. Add a voicemail greeting pattern row to
+   `catalog/patterns.md`: a default or custom greeting that
+   callers hear before leaving a message, record with
+   playback before saving, re-record without losing the
+   previous greeting until the new one saves, a stated
+   length limit, and a plain return to the default greeting
+   — distinct from the visual voicemail row, which lists
+   messages already left, and from the call screening row,
+   which asks an unknown caller who they are before the
+   person answers. Done when the row passes all quality
+   gates.
 
 ## Review notes
+
+- Completed this review (daily planning 2026-11-07): new
+  Conference call pattern row in `catalog/patterns.md`,
+  completing roadmap action 218; coverage matrix updated
+  with the new row; four new improvement actions added
+  (218 conference call, 219 call history, 220 call
+  forwarding, 221 voicemail greeting); no new source
+  records — the four searches (conference call merging and
+  participant management, call history lists, voicemail
+  greeting recording, call forwarding rules) returned
+  how-to guides and manuals below the source-quality bar
+  (626 total). Since the last daily run, the deep cycle
+  completed actions 205, 212, and 214 and the catalogue
+  gained the Game interfaces section and the Digital
+  identity wallet presentation row; those outcomes are
+  already recorded in `CHANGELOG.md`.
+
+- Completed this review (deep editorial 2026-11-07): new
+  Breakout rooms in video calls, Call transfer, and Suspected
+  spam call warning pattern rows in `catalog/patterns.md`,
+  completing roadmap actions 205, 212, and 214; coverage
+  matrix updated with the three new rows; three new
+  improvement actions added (215 reading view, 216 call
+  screening, 217 add people to a live call); 3 new source
+  records (623 total).
+
+- Completed this review (deep editorial 2026-11-06, fourth cycle): new
+  Call waiting, Outgoing call, and Call quality and reconnection
+  pattern rows in `catalog/patterns.md`, completing roadmap actions
+  209, 210, and 211; coverage matrix updated with the three new
+  rows; three new improvement actions added (212 call transfer,
+  213 visual voicemail, 214 suspected spam call warning); 2 new
+  source records (613 total; the call waiting source was already
+  recorded).
+
+- Completed this review (deep editorial 2026-11-06, third cycle): new
+  Call recording notice, Incoming call, and Missed call pattern rows
+  in `catalog/patterns.md`, completing roadmap actions 206, 207, and
+  208; coverage matrix updated with the three new rows; three new
+  improvement actions added (209 call waiting, 210 outgoing call,
+  211 call quality and reconnection); 3 new source records (606 total).
+
+- Completed this review (deep editorial 2026-11-06, second cycle): new
+  Screen sharing in video calls, Mute conversation, and Disappearing
+  messages pattern rows in `catalog/patterns.md`, completing roadmap
+  actions 200, 201, and 204; coverage matrix updated with the three
+  new rows; three new improvement actions added (206 call recording
+  notice, 207 incoming call, 208 missed call); 3 new source records
+  (595 total).
+
+- Completed this review (daily planning 2026-11-06): new
+  Raise hand in video calls pattern row in `catalog/patterns.md`,
+  completing roadmap action 203; coverage matrix updated with
+  the new row; three new improvement actions added (203 raise
+  hand in video calls, 204 disappearing messages, 205
+  breakout rooms in video calls); 3 new source records (591
+  total). Since the last daily run,
+  the deep cycle completed actions 197, 198, and 199 and the
+  catalogue gained the Sticker and GIF picker row; those
+  outcomes are already recorded in `CHANGELOG.md`.
+
+- Completed this review (deep editorial 2026-11-06): new
+  Sticker and GIF picker pattern row in `catalog/patterns.md`,
+  completing roadmap action 198; actions 197 (video-call
+  waiting room) and 199 (focus mode schedule) marked
+  implemented to match rows already in the catalogue, and
+  the coverage matrix updated with the five rows added by
+  earlier runs (video-call waiting room, focus mode
+  schedule, sticker and GIF picker, product questions and
+  answers, shared whiteboard); three new improvement
+  actions added (200 screen sharing in video calls, 201
+  mute conversation, 202 page not found); duplicate
+  implemented marker removed from action 180; 3 new source
+  records (583 total).
+
+- Completed this review (deep editorial 2026-11-05): new
+  Expense claim submission, Read receipt, and Typing
+  indicator pattern rows in `catalog/patterns.md`, completing
+  roadmap action 180 (which was marked implemented but had
+  no row in the catalogue) and adding the two messaging rows
+  after verifying no existing row covered them; coverage
+  matrix updated with the three new rows; three new
+  improvement actions added (197 video-call waiting room,
+  198 sticker and GIF picker, 199 focus mode schedule);
+  3 new source records (574 total).
+
+- Completed this review (daily planning 2026-11-05): new
+  Emergency assistance request pattern row in
+  `catalog/patterns.md`, completing roadmap action 188;
+  coverage matrix updated with the new row; three new
+  improvement actions added (189 medication reminder,
+  190 recurring payment setup); 3 new source records
+  (551 total). Since the last daily run, the deep cycle
+  completed actions 170, 171, 172, 174, 175, and 176 and
+  the catalogue gained rows completing actions 63, 177,
+  179, 181, 182, 183, 184, and 185, plus the Shared
+  subscription plan, Group scheduling poll, Bottom sheet
+  choice, and Trigger-character suggestion menu rows;
+  those outcomes are already recorded in `CHANGELOG.md`.
+
 
 - Completed this review (deep editorial 2026-11-04, second cycle): new
   Appointment check-in, Travel check-in, and Stored
@@ -2812,6 +3347,30 @@ account menu, recently viewed, invitation response, modal dialog, guest checkout
   message search, 168 expiring payment method
   replacement, 169 pinned conversation); 2 new source
   records (523 total).
+
+- Completed this review (deep editorial 2026-11-05): new
+  Travel itinerary view, Bill explanation, and
+  Appointment late-cancellation and no-show policy
+  pattern rows in `catalog/patterns.md`, completing
+  roadmap actions 182, 183, and 184; coverage matrix
+  updated with the three new rows; three new
+  improvement actions added (185 shared trip itinerary,
+  186 booking deposit, 187 appointment standby list);
+  3 new source records (545 total).
+
+- Completed this review (deep editorial 2026-11-05): new
+  Booking deposit, Appointment standby list, and Medication
+  reminder pattern rows in `catalog/patterns.md`, completing
+  roadmap actions 186, 187, and 189, and marking action 185
+  (Shared trip itinerary, implemented in an earlier run)
+  implemented to match the catalogue; coverage matrix updated
+  with the three new rows and with four rows added by earlier
+  runs (shared trip itinerary, ride booking, bottom sheet
+  choice, trigger-character suggestion menu); three new
+  improvement actions added (191 appointment preparation
+  checklist, 192 deposit refund status, 193 medication
+  refill request); 3 new source records (555 total).
+
 
 ## Pre-publish checklist
 

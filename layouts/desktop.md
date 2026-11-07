@@ -57,6 +57,18 @@ reference reachable in the product.
   support edge and corner tiling zones; offer saved layouts for
   recurring task sets; keep one window per document with a clear
   active window; keep menu access reachable in full-screen mode.
+- Scrolling window strip: as an alternative to tiling, windows may
+  sit side by side as columns on a horizontal strip wider than the
+  screen, with the display showing only part of it at a time.
+  Opening a window adds a column next to the one in use instead of
+  shrinking the others, and moving focus to a column off screen
+  slides the strip until that column is visible, so every column
+  keeps the width the person gave it. State how many columns exist
+  and which ones sit off screen, keep a way to jump to any column by
+  name or position, and never let a new window land on top of the
+  column the person is working in. Where every window must stay
+  visible at once, prefer tiling instead — scrolling trades full
+  visibility for stable widths.
 - Density: honour the platform density setting — compact density for
   data-heavy work, comfortable density for mixed content. Keep text
   selectable at every density.

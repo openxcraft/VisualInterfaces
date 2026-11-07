@@ -26,6 +26,7 @@ When to avoid:
 | Checkbox | Box, label | Checked, unchecked, indeterminate | Use for independent options; apply on submit or explicitly |
 | Radio group | Option list, selected ring | Vertical, horizontal | One selection; always has a default or an explicit none |
 | Switch | Track, thumb, label | On, off | Applies immediately; label states the setting, not the action; keep the switch beside its label, never at the far edge of a wide row — on wide desktop columns place the switch immediately beside the label so label and control stay visible together under magnification, and on narrow columns keep the label on the left with the switch on the right so the pair stays together; never use a switch for an action that needs confirmation or cannot be undone, since a switch applies at once and offers no confirmation step; the label stays fixed when the state changes — never rewrite it to name the new state — and any on/off wording is separate from the label, so the label always names the setting; show the state by thumb position and shape as well as colour, and where space leaves no room for on/off wording, mark the on state with a visible tick so the state never depends on colour alone; keyboard contract: Tab reaches the switch and Space toggles it, with Enter as an optional second toggle key; the focus ring sits on the track, stays visible on keyboard focus, and meets the same 3:1 contrast as the track; a disabled switch is not reachable by keyboard but stays discoverable to assistive technology with its disabled state announced; a switch waiting on a change announces that waiting state and accepts no second toggle until the change settles |
+| Toggle button | Button, pressed-state marker, label | Single action toggle, filter chip | A button that stays pressed while its mode is on — bold in an editor, mute in a call, a filter chip — rather than a stored setting that applies at once; that is the switch's job. Use it for a repeatable on/off action inside a task, where pressing again returns to the previous state. The label names the function, never the state, so the pressed state is announced separately and the label never reads as a sentence about being on or off. Show the pressed state by shape and wording as well as colour — a filled background, a visible marker, or a short state word — so it never depends on colour alone. Keyboard contract: Tab reaches the button and Space or Enter toggles it, with the focus ring visible and meeting the same contrast as the button edge. Where the choice is one of several mutually exclusive options, use a segmented control instead; where the change is a stored setting, use a switch |
 | Slider | Track, thumb, value label | Continuous, stepped, range with two thumbs | Use only where an approximate value is enough; pair with a numeric input for precise values, and always show the current value in text beside the control, never by thumb position alone. Keyboard contract: arrow keys move one step, page keys move a larger step, and Home and End jump to the minimum and maximum. For a range with two thumbs, name each thumb for the end it controls, and keep the two values in order so the lower end never passes the upper end without a plain explanation |
 | Badge | Short text, dot or count | Neutral, accent, warning, critical | Counts above a cap show the cap, for example 99+ |
 | Tag | Label, optional remove control | Removable, selectable | Removable tags are reachable by keyboard |
@@ -63,6 +64,11 @@ When to avoid:
 - Remediation picks one path: enlarge the hit area, increase spacing, or change the shared component. Retesting happens after the change ships, including responsive states.
 - Focus ring is always visible on keyboard focus and never removed without a replacement.
 - Text scales to 200% without loss of content or function.
+- Containers wrap and grow with the text; truncation is a deliberate choice, never a side effect of scaling.
+- Fixed bars — navigation, tab bar, pinned action bar — keep their size at large text settings; where their text cannot scale, offer another way to read it at the chosen size, such as a long-press overlay.
+- Avoid fixed heights on text containers; let content size itself, and keep every text element inside a scrollable region so enlarged text stays reachable.
+- Side-by-side arrangements switch to a stacked arrangement at large text sizes rather than clipping or overlapping.
+- Use the platform's scaling text units, never fixed sizes; check each screen at 100%, 150%, and 200% text size before release.
 - Colour is never the only signal; pair it with text, shape, or position.
 - Material qualities carry meaning, not decoration: a reflective surface suggests importance, a soft surface approachability, a firm high-contrast control stability or authority. Never apply material treatment without a purpose, and keep affordances legible — users must still tell what they can tap, drag, open, or change.
 
@@ -91,6 +97,12 @@ every primitive correct when it does.
 - Locale-aware formatting: render dates, times, numbers, and currency with
   the locale's separators and conventions; state the timezone on every time
   value; sort lists with locale-aware collation rather than raw code order.
+- Language detection: choose the starting language in this order — the
+  person's saved preference first, then the language of the browser or
+  device. Never infer the language from the place the person is in, since
+  place and language are not the same. Where the detected language is not
+  available, say so up front and offer a choice of an available language
+  instead of silently showing another one.
 - Mixed-direction text: runs that mix scripts follow the Unicode
   bidirectional algorithm so each run reads in the right order; joining
   scripts are rendered through a shaping engine, never as disconnected

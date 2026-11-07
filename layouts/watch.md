@@ -70,6 +70,13 @@ actions so the person need not look at the screen.
   of the notification list — so the person can return to it without
   hunting; the anchor shows current status and progress only, detail
   opens on tap, and it clears when the activity ends.
+- Proactive surfacing: when time, place, or current activity makes one
+  item clearly relevant, surface it at that moment instead of waiting
+  for the person to open the app and look for it; the surfaced item
+  still shows one datum and one action, it appears only while it stays
+  relevant and leaves when it no longer does, and the person can
+  dismiss it or switch the surfacing off without losing the underlying
+  content.
 
 ## States
 

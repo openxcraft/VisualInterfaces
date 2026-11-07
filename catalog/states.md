@@ -215,6 +215,11 @@ Rules:
 
 - One short sentence of explanation, then one clear action; a second link
   (help, settings) is allowed but never a second action of equal weight.
+- A first-use empty state removes the fear of a wrong first step: where
+  the first action can be undone or changed afterwards, say so plainly,
+  and never imply that a wrong first choice carries lasting cost. Where
+  the first action cannot be undone, state what happens before the person
+  acts.
 - A load failure never reuses the genuinely-empty message: "nothing
   here" and "nothing loaded" are different states with different words,
   and the failure message names the failure. The same visual treatment
