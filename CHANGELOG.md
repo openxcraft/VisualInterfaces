@@ -7,6 +7,396 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Tenant portal, QR table ordering, and
+  Screen time dashboard rows added to `catalog/patterns.md`:
+  the portal gathers rent payment with a stated due date and
+  receipt, maintenance requests tracked from report to fix with
+  a stated response time, document access, and messaging with
+  the property contact; table ordering scans one code per table
+  to open the menu with the table already known, keeps a
+  call-staff action on the same screen, and states how to tell
+  the code is genuine; the dashboard shows time spent per app or
+  category over a stated period with a person-set daily limit, a
+  warning before the limit, and a plain route to change or remove
+  it. Coverage matrix updated. 6 new source records (683 total).
+  Roadmap actions 226, 242, and 243 completed.
+
+- Roadmap: three new improvement actions added (246 recurring
+  donation, 247 temporary home access code, 248 health record
+  sharing).
+
+- Patterns catalogue: Hotel self check-in row added to
+  `catalog/patterns.md`: pre-registration is invited before
+  arrival with the benefit stated in plain terms, arrival
+  instructions are sent on the day of arrival, document capture
+  is handed to the guest's own phone by scannable code, the stay
+  ends with a digital or physical key and plain directions to
+  the room, and the kiosk clears the previous guest's details at
+  once. Coverage matrix updated. 2 new source records (677 total).
+
+- Patterns catalogue: Transit card top-up row added to
+  `catalog/patterns.md`: the balance and the fare for the next
+  journey are shown before paying, with preset and custom amounts,
+  a stated smallest top-up and card limit, an auto top-up with a
+  stated threshold and amount, a stated wait before the value
+  reaches the card, and a receipt stating the new balance.
+  Coverage matrix updated. 2 new source records. Roadmap action
+  240 completed.
+
+- Patterns catalogue: In-flight entertainment row added to
+  `catalog/patterns.md`: language is set first at the welcome step,
+  browse and search run over content held on board, titles are
+  marked for captions, audio description, and a signed
+  alternative, captions can be resized and recoloured,
+  announcements appear on screen as text, a nonvisual way to work
+  the controls is offered, and an alternative device is offered
+  where the seatback screen cannot be used. Coverage matrix
+  updated. 2 new source records (675 total). Roadmap action 241
+  completed.
+
+- Coverage matrix: reconciled with the catalogue in `roadmap.md`:
+  47 pattern rows that existed in `catalog/patterns.md` without a
+  matrix entry were added, and two stale entries were removed (a
+  stray separator and a hyphenated duplicate of the converted-price
+  display entry), so the matrix now matches the catalogue.
+
+- Roadmap: three new improvement actions added (243 screen time
+  dashboard, 244 standardised accessibility labels, 245 desktop
+  worked example); actions 240 and 241 completed; action 242
+  (QR table ordering) re-checked and left open — the order-and-pay
+  flow still rests only on vendor guides.
+
+- Patterns catalogue: Live auction bidding row added to
+  `catalog/patterns.md`: a bid on a lot shows the current bid, the
+  next step, and the exact amount before it is placed, with every
+  bid stated as binding; a maximum-bid control bids in steps up to
+  a stated cap and never past it; the countdown runs on the server
+  clock with a stated extension rule for late bids; bid history in
+  time order with an at-once outbid notice; and the outcome shown
+  at once when the close passes. Coverage matrix updated. 2 new
+  source records (671 total).
+
+- Patterns catalogue: Guest mode row added to
+  `catalog/patterns.md`: lend a device to someone else for a
+  short session without signing in, with a stated scope of what
+  the guest can and cannot reach, the owner's profile kept behind
+  its own lock, everything the guest did cleared on exit, a
+  visible sign-out with a stated maximum length and a warning
+  before the session ends, and a named profile offered for
+  regular borrowers. Coverage matrix updated. 2 new source
+  records (669 total). Roadmap action 231 completed.
+
+- Worked examples: Kiosk example added under `examples/kiosk/`:
+  a single-task public surface demonstrating the reach range, one
+  task per screen, glance budgets, an assistive entry point usable
+  without vision, a session reset after inactivity, and all seven
+  states. Roadmap action 232 completed; coverage matrix updated.
+
+- Worked examples: Television example added under `examples/tv/`:
+  a row-and-column shelf surface demonstrating visible focus,
+  focus memory, Back-button behaviour, and 10-foot legibility
+  with all seven states. Roadmap action 227 completed; coverage
+  matrix updated.
+
+- Primitives catalogue: Date picker row extended with a
+  range-band refinement: where two months are shown side by side,
+  a range band follows the pointer across both grids so the span
+  under consideration stays visible while the person moves.
+  Roadmap action 233 completed.
+
+- Roadmap: three new improvement actions added (240 transit card
+  top-up, 241 in-flight entertainment, 242 QR table ordering);
+  two duplicate source records removed from
+  `resources/sources.json` (the same URL recorded twice), leaving
+  669 unique records.
+
+- Spatial interfaces trend: audio-only and display glasses rules added
+  to `trends/2026/spatial-interfaces.md`: spoken responses as the whole
+  interface on audio-only glasses, with short self-contained replies,
+  spoken confirmation before consequential actions, and a spoken repeat
+  on request; small high-contrast visuals on display glasses that appear
+  only when they carry something speech cannot and disappear once read.
+  1 new source record (669 total).
+
+- Patterns catalogue: Voice dictation input row added to
+  `catalog/patterns.md`: enter text by speaking into a text
+  field, with the field kept visible and editable, interim
+  words shown until confirmed, microphone access asked for
+  before listening starts, pause and resume while dictating,
+  single-word correction of uncertain words, and a plain
+  statement with captured text kept when the connection
+  drops. Coverage matrix updated. 2 new source records
+  (668 total).
+
+- Patterns catalogue: Mobile plan setup (eSIM) row added to
+  `catalog/patterns.md`: activate, transfer, or switch a mobile
+  plan on a built-in SIM, with activation-route choice, the
+  switch-versus-transfer distinction, number-porting order,
+  keep-the-old-plan-until-signal rule, line labels and default
+  lines, transfer confirmation on both phones, and removal
+  rules. Coverage matrix updated. 2 new source records
+  (666 total).
+
+- Interfaces catalogue: Screenless sensor interfaces section added to
+  `catalog/interfaces.md`: a ring or band with no screen of its own, where
+  the paired phone app carries the whole interface, haptics alone carry
+  alerts with one fixed meaning per pattern, daily scores pair a value with
+  a plain-language reason and a next step, a short check-in pairs measured
+  data with how the person feels, and on-device gestures stay minimal and
+  mapped to one phone action each. 1 new source record (664 total).
+
+- Patterns catalogue: Parcel locker pickup row added to
+  `catalog/patterns.md`: collect a parcel from an unattended
+  locker with a one-time code or QR, with the expiry stated in
+  the notice and a reminder before it ends, single-use code
+  rules, a second identity check for high-value or
+  age-restricted parcels, and an easy-access compartment on
+  request. Coverage matrix updated. 2 new source records
+  (663 total).
+
+- Patterns catalogue: Digital car key sharing row added to
+  `catalog/patterns.md`: share a key held in a wallet with a named
+  recipient, with guest, co-owner and service access levels, an
+  expiry stated with the guest role, reshare control, first-use
+  activation, per-recipient removal, and a stated distinction
+  between a key that only unlocks and one that also starts the
+  vehicle. Coverage matrix updated. 2 new source records
+  (661 total).
+
+- Watch worked example added under `examples/watch/`: a
+  glance-first watch surface demonstrating the two-tap rule,
+  complications-first placement, the ambient always-on variant as a
+  separate layout, and all seven states. Roadmap action 225
+  completed; coverage matrix updated (television worked example
+  remains the gap, action 227).
+
+- Patterns catalogue: Telehealth video consultation, Museum audio
+  guide, QR code payment at a till, Crowdfunding campaign page,
+  and Shared bike and scooter rental rows added to
+  `catalog/patterns.md`: telehealth covers a pre-call device and
+  connection check, clinician identity, privacy confirmation,
+  large labelled controls, a phone fallback, and a written
+  post-call summary naming the next step; museum audio guide
+  covers language first, a word-for-word transcript beside each
+  track, audio description and signed-language video, and short
+  tracks with pause, replay, and skip; QR code payment at a till
+  covers merchant- and consumer-presented modes stated in words,
+  dynamic codes carrying the exact amount, printed-code placement
+  and labelling, confirmation on both sides of the till, and the
+  authenticated-app rule; crowdfunding covers purpose, organiser
+  identity, fees disclosed before payment details, target and
+  time limit; shared rental covers price before unlock,
+  designated parking, end-of-ride confirmation, and assistive
+  technology support. Coverage matrix updated; roadmap actions
+  235 and 236 completed; three new improvement actions added to
+  `roadmap.md` (237 crowdfunding reward tiers and backer updates,
+  238 shared-rental interaction flow, 239 actions-list
+  reconciliation). 9 new source records (659 total).
+
+- Patterns catalogue: Device pairing row in `catalog/patterns.md`
+  extended with a reconnection rule: a device that drops off the
+  network and must connect again goes through the same guided flow
+  as first-time setup, rather than relying on the person remembering
+  the steps. 1 new source record (650 total).
+
+- Patterns catalogue: Sleep and rest data row added to
+  `catalog/patterns.md`: a morning view that leads with the
+  seven-day trend rather than a single night's grade, plain words
+  with no judgement language and no red grading, stated measurement
+  limits, missing nights stated rather than filled in, and at most
+  one suggested change tied to the pattern. Coverage matrix updated;
+  roadmap action 234 completed; three new improvement actions added
+  to `roadmap.md` (234 sleep and rest data, 235 telehealth video
+  consultation, 236 museum audio guide). No new source records (649
+  total).
+
+- Spatial interfaces trend: glasses and on-the-move placement section
+  added to `trends/2026/spatial-interfaces.md`: world-fixed and
+  path-following placement for walking users, head-locked placement
+  reserved for brief alerts, additive-display colour rules, depth as
+  hierarchy, and three-dimensional forms for interactive elements with
+  flat planes for text. 2 new source records (649 total).
+
+- Patterns catalogue: Call forwarding, Voicemail greeting, Hotel
+  booking, Electric vehicle charging session, and Smart home
+  dashboard rows added to `catalog/patterns.md`: forwarding
+  covers per-rule destinations with a one-action turn-off and a
+  voicemail-override warning; greeting covers recording with
+  playback before saving, re-recording without losing the
+  previous greeting, a stated length limit, and a plain return
+  to the default; hotel booking covers full-cost comparison,
+  rate cards with identical attributes in identical order,
+  cancellation deadlines in the rate label, sold-out and
+  closed-to-arrival dates, a price hold with a stated expiry,
+  and a confirmation restating the chosen rate; charging covers
+  live availability and connector choice, the price per unit
+  shown before the session and fixed once started, contactless
+  payment without an account, a pre-authorisation hold explained
+  before payment, a live session view, a stop control, a session
+  summary with a receipt, and a staffed helpline; smart home
+  covers room-first organisation, scenes above device controls,
+  state before controls, per-tile battery, updating, error, and
+  offline states, plain household language, per-context views,
+  and access scoped by person. Coverage matrix updated; roadmap
+  actions 220, 221, 228, 229, and 230 completed; three new
+  improvement actions added to `roadmap.md` (231 guest mode, 232
+  kiosk worked example, 233 date picker range band). 6 new
+  source records (647 total).
+
+- Patterns catalogue: Parking session payment, Screenshot
+  markup, and Group chat administration rows added to
+  `catalog/patterns.md`: parking covers zone entry by number
+  or map, vehicle and duration choice, rate and total cost
+  before payment, a live countdown, an expiry reminder that
+  extends from the notice itself, a stated maximum stay, and
+  a receipt; markup covers crop-first, at most three
+  callouts in one colour, arrows that touch their target,
+  numbered steps, solid or pixelated cover for private
+  details before sharing, editable marks, and the original
+  capture kept unchanged; group administration covers owner,
+  admin, and member roles with per-permission toggles, a
+  named ownership transfer, demotion back to member, and
+  blocked and removed member lists with a stated route back.
+  Coverage matrix updated; three new improvement actions
+  added to `roadmap.md` (228 hotel booking, 229 electric
+  vehicle charging session, 230 smart home dashboard). No new
+  source records (641 total).
+
+- Patterns catalogue: Cookie consent banner row added to
+  `catalog/patterns.md`: the banner appears before any optional
+  cookie or tracker is set, accept and reject sit on the first layer
+  as real controls of equal weight and equal steps, a reject offered
+  only as a faint link or with unreadable contrast does not count as
+  a choice, no optional purpose is pre-ticked, no basis other than
+  consent is claimed for placing or reading cookies, a category is
+  labelled required only where it truly is, and withdrawal stays
+  available through a permanently visible control with a record of
+  each decision. Coverage matrix updated; 1 new source record
+  (641 total).
+
+- Patterns catalogue: PIN entry row added to `catalog/patterns.md`:
+  a fixed telephone-layout keypad that never moves, a tactile
+  alternative with a raised marker on 5, per-digit confirmation by
+  count only with no digit shown or spoken, the amount stated before
+  entry, and an assisted-entry mode with several activation routes,
+  spoken progress and outcome, and per-transaction reset. Coverage
+  matrix updated; 1 new source record (640 total).
+
+- Patterns catalogue: Accessibility labels on a store listing row added to
+  `catalog/patterns.md`: a store-listing section naming the accessibility
+  features an app supports, claimed only where every common task can be
+  completed with the feature on, declared per device, with an
+  undeclared-support statement and a link to accessibility details.
+  Coverage matrix updated; 1 new source record (639 total).
+- Standards outlook: European harmonised standard note added to
+  `trends/2026/standards-outlook.md`: version 4.1.1, published September
+  2026, moves the web and software clauses to WCAG 2.2 Level AA, with
+  citation in the Official Journal expected late November to
+  mid-December 2026 and the earlier version the legal reference until
+  then; the six added criteria are named in plain terms, with a build
+  to 2.2 AA now as the practical stance. 1 new source record
+  (638 total).
+- Patterns catalogue: Deceptive design patterns row added to
+  `catalog/patterns.md`: a six-trap check for any screen that asks for
+  personal data — overloading, skipping, stirring, obstructing, fickle,
+  and left in the dark — with neutral presentation, the least invasive
+  option as the default, no re-asking after a refusal, and a plain
+  route to data settings from every screen that asks. Coverage matrix
+  updated; 1 new source record (637 total).
+- Watch layout: complications-first placement and a quick-dismiss
+  wrist gesture added to `layouts/watch.md`: the watch-face
+  complication is the primary surface, offered for the most-checked
+  datum with a tap into the app at that datum, and a short turn of
+  the wrist away and back dismisses a notification, call, or alarm
+  where the hardware supports it, always beside a visible on-screen
+  dismiss. No new source record (636 total).
+- Automotive layout: five safety-critical physical controls and a
+  control-by-task split added to `layouts/automotive.md`: indicators,
+  hazard lights, windscreen wipers, horn, and emergency call keep
+  physical controls under the safety-rating protocols in force from
+  2026, while urgent actions use physical controls, complex
+  non-urgent tasks use voice, and touch serves the rest through
+  shallow menus — voice always with a non-voice alternative and a
+  visible failure with retry. 2 new source records (636 total).
+- Television layout: row-and-column grid navigation and Back-button
+  behaviour added to `layouts/tv.md`: left and right move within a
+  row, up and down move to the neighbouring row keeping the column,
+  and Back always takes the viewer one step back through the
+  experience rather than acting as a second select or toggle.
+  2 new source records (636 total).
+- Modular card grids: independent card loading, failure, refresh,
+  and stale-data age added to `trends/2026/modular-card-grids.md`:
+  one card's failure never empties the grid, a failed card retries
+  in place, stale data states when it was last updated, and
+  refreshing one card never reloads the whole grid. No new source
+  record (636 total).
+- Roadmap: three new improvement actions added to `roadmap.md`
+  (225 watch worked example, 226 tenant portal, 227 television
+  worked example); coverage matrix updated with watch and
+  television worked examples as gaps.
+- Patterns catalogue: Transaction history row added to
+  `catalog/patterns.md`: every movement of money in and out of an
+  account as a checkable record, newest first, each entry naming the
+  merchant, date, and amount with its state stated in words — pending,
+  posted, reversed, or disputed — pending entries kept visibly separate
+  from settled ones, search and filters for state, type, and account
+  with the applied filters kept visible, a detail view showing the
+  payment method, a quotable reference, and the dispute route, account
+  and card numbers masked by default with a deliberate reveal action,
+  and exports matching exactly the entries the current filters show.
+  Coverage matrix updated; no new source record (already recorded,
+  632 total).
+  `catalog/patterns.md`: paying for transit by tapping a card or
+  device, with a stated day or week cap, the single-ride fare charged
+  per tap until the cap is reached and free rides after it, the same
+  card or device required for every tap in the period, a tap-off step
+  where the fare depends on the journey's end, a plainly stated
+  highest fare for a missed tap-off, the full fare charged where a
+  reduced fare would need another route, and a checkable payment
+  history with cap progress. 2 new source records (632 total).
+- Patterns catalogue: System-mediated snippet row added to
+  `catalog/patterns.md`: a compact surface shown by the system for one
+  quick action, with separate confirmation and result presentations,
+  one clearly labelled primary action beside a cancel, no scrolling
+  detail, and a route into the app where the task needs more; actions
+  with effects beyond the screen always confirm first. 1 new source
+  record (630 total).
+- Primitives catalogue: Dialog row now states a preference for the
+  platform-native dialog element where one is available, since it
+  supplies focus trapping, escape handling, focus return, and an
+  inert background without custom code. 1 new source record (629
+  total).
+- Patterns catalogue: Reading view, Add people to a live call, and
+  Call history rows added to `catalog/patterns.md`, completing
+  roadmap actions 215, 217, and 219: a reading view that removes
+  navigation, banners, and interactive controls with text size, line
+  spacing, and background controls, a fifty-to-seventy-five-character
+  line measure, a kept reading position, and a one-action exit; adding
+  people to a live call by dialling privately first, merging once
+  connected, announcing each joiner by name, and dropping one
+  participant without ending the call; a call history list grouped
+  by day with call-type marks, a filter by type, one-action call
+  back, grouped repeated missed calls, per-entry delete and clear-all
+  with a stated retention limit, and missed calls that never clear
+  themselves. Coverage matrix updated with the three new rows, and
+  three new improvement actions added to `roadmap.md` (222 parking
+  session payment, 223 screenshot markup, 224 group chat
+  administration). No new source records (628 total).
+- Patterns catalogue: Identity verification onboarding row added to
+  `catalog/patterns.md`: state the step count and expected time before
+  the first check, put low-friction steps first with document capture
+  last, explain beside each request why it is needed, give framing and
+  lighting guidance before a document photo, state the exact cause in
+  plain language where a capture fails, replace indefinite waiting with
+  a review status and a save-and-return path, and state the reason
+  plainly where a document is rejected; 1 new source record (628 total).
+- Patterns catalogue: Call screening row added to
+  `catalog/patterns.md`: for an unknown caller, the phone asks
+  who is calling and why before the person answers, showing the
+  spoken answer as text on the incoming-call screen, with accept,
+  decline, and block-and-report from the same screen, a stated rule
+  that a screened call is never answered silently, and saved contacts
+  ringing through without screening; 1 new source record (627 total).
 - Patterns catalogue: Conference call row added to
   `catalog/patterns.md`: merge two or more live calls into
   one call, dialling each new person privately before

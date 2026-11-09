@@ -39,6 +39,18 @@ Stable information zones (speed, warnings, navigation each in a fixed place); gl
 - Essential functions stay on physical controls; core functions are never
   touchscreen-only. Well-structured touch flows may serve the rest when
   menus are shallow, responses fast, and common tasks short.
+- Five safety-critical functions keep physical controls: indicators,
+  hazard lights, windscreen wipers, horn, and emergency call.
+  Safety-rating protocols in force from 2026 award their top rating
+  only when these are physical; offering them through touchscreen
+  menus alone loses the rating.
+- Choose the control by the task: urgent or frequent actions use
+  physical controls; complex but non-urgent tasks such as calls, music,
+  and route entry use voice, so eyes stay on the road and hands stay on
+  the wheel; touch serves the rest through shallow menus with fast
+  responses. Voice always has a non-voice alternative, and a
+  misunderstood command fails visibly with a retry rather than
+  silently.
 - Head-up projections show only the highest-priority content — speed, the
   next manoeuvre, and critical warnings — and nothing else; overlays that
   annotate the road stay fixed to what they mark and never cover hazards

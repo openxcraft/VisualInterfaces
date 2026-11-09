@@ -58,6 +58,14 @@ voice-search entry point beside a step-through on-screen keyboard.
 - Different remotes add pointer, touch-surface, or scroll-wheel behaviour
   on top of the directional pad, so plan navigation per input variant
   rather than assuming a plain directional remote.
+- Prefer row-and-column grid navigation over nearest-element navigation:
+  left and right move within a row, up and down move to the neighbouring
+  row keeping the column, clamped to that row's length. Nearest-element
+  jumps surprise viewers when rows hold items of uneven height; the grid
+  arrangement never does.
+- Back moves backward: pressing Back takes the viewer one step back
+  through the experience, and never acts as a second select or a second
+  toggle; every screen states where Back goes next.
 - When pointer and directional input coexist, keep one logical focus:
   pointer movement highlights the element under the pointer without
   erasing the stored directional focus; scroll containers and overlays

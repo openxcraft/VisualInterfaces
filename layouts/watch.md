@@ -77,6 +77,15 @@ actions so the person need not look at the screen.
   relevant and leaves when it no longer does, and the person can
   dismiss it or switch the surfacing off without losing the underlying
   content.
+- Complications first: the watch-face complication (or tile) is the
+  primary surface, not the app itself — most checks happen there, so
+  offer one for the most-checked datum, showing the current value with
+  a tap that opens the app at that datum; a datum with no complication
+  is a datum people must hunt for.
+- Quick dismiss by gesture: a short turn of the wrist away and back
+  dismisses a notification, call, or alarm; it is available only on
+  hardware that supports it, and a visible on-screen dismiss is always
+  present beside it — the gesture is never the only way to dismiss.
 
 ## States
 

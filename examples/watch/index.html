@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watch Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="watch-page">
+  <h1>Watch example</h1>
+  <p class="wp-intro">One datum, one action, glance-first. Anything longer moves to the phone companion app.</p>
+
+  <section class="wp-complications" aria-label="Complications">
+    <h2>Face layer</h2>
+    <button type="button" class="wp-tile">
+      <span class="wp-tile-value">12:34</span>
+      <span class="wp-tile-label">Timer running</span>
+    </button>
+    <p class="wp-note">The complication is the primary surface: the most-checked datum, with a tap that opens the app at that datum.</p>
+  </section>
+
+  <section class="wp-face-wrap" aria-label="Watch face">
+    <h2>Active face</h2>
+    <div class="wp-face">
+      <svg class="wp-ring" viewBox="0 0 100 100" role="img" aria-label="Timer progress, about half complete">
+        <circle class="wp-ring-track" cx="50" cy="50" r="44"></circle>
+        <circle class="wp-ring-fill" cx="50" cy="50" r="44"></circle>
+      </svg>
+      <p class="wp-datum">12:34</p>
+      <p class="wp-datum-label">Remaining</p>
+      <button type="button" class="wp-primary">Pause</button>
+      <button type="button" class="wp-overflow" aria-label="More actions">More</button>
+      <p class="wp-haptic">Confirmed with a short pulse, so you need not look at the screen.</p>
+    </div>
+    <p class="wp-note">One screen, one action. Pause is one tap; stop sits behind More; anything longer moves to the phone.</p>
+  </section>
+
+  <section class="wp-anchor" aria-label="Live activity anchor">
+    <h2>Live activity</h2>
+    <p><strong>Timer · 12:34 left</strong> <button type="button">Open</button></p>
+    <p class="wp-note">The anchor stays in one place at the bottom of the face layer until the activity ends.</p>
+  </section>
+
+  <section class="wp-ambient-wrap" aria-label="Ambient always-on variant">
+    <h2>Ambient, always-on variant</h2>
+    <div class="wp-ambient">
+      <p class="wp-ambient-time">09:41</p>
+      <p class="wp-ambient-value">12:34 left</p>
+    </div>
+    <p class="wp-note">A separate layout, not the same layout dimmed: no animation, reduced palette, low brightness. Time and current value stay visible.</p>
+  </section>
+
+  <section class="wp-demo" aria-label="State demonstrations">
+    <h2>State examples</h2>
+    <p class="wp-demo-row">
+      <button type="button">Default button</button>
+      <button type="button" disabled>Pause (blocked: nothing is running)</button>
+    </p>
+    <p class="wp-demo-row">
+      <span class="wp-loading" aria-label="Loading example"></span>
+      <span>Loading example: a compact ring around the datum, never a full-screen spinner.</span>
+    </p>
+    <p class="wp-empty">Empty example: no timer is set yet. <button type="button">Set a timer</button></p>
+    <p class="wp-failure">Error example: the timer could not start. <button type="button">Retry</button> Your settings are kept.</p>
+  </section>
+</main>
+</body>
+</html>

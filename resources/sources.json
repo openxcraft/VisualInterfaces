@@ -1,6 +1,6 @@
 {
  "version": "0.1.0",
- "updated": "2026-11-07",
+ "updated": "2026-11-09",
  "sources": [
   {
    "title": "Design trends overview for 2026",
@@ -440,7 +440,7 @@
    "category": "trends",
    "type": "reading-list",
    "accessed": "2026-10-22",
-   "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered \u2014 content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+   "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
   },
   {
    "title": "Design Trends That Will Influence Extensions in 2026",
@@ -448,7 +448,7 @@
    "category": "interfaces",
    "type": "article",
    "accessed": "2026-10-22",
-   "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay \u2014 a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+   "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
   },
   {
    "title": "Validation gate for generated interface trees",
@@ -1456,7 +1456,7 @@
    "category": "states",
    "type": "article",
    "accessed": "2026-10-23",
-   "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters \u2014 corroborates pre-populated suggestion states that disclose their nature."
+   "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
   },
   {
    "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
@@ -1928,7 +1928,7 @@
    "category": "patterns",
    "type": "article",
    "accessed": "2026-10-25",
-   "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type \u2014 free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
+   "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type — free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
   },
   {
    "title": "Paywall trial-offer guidance",
@@ -2737,14 +2737,6 @@
    "type": "article",
    "accessed": "2026-10-29",
    "notes": "Escalation triggers for requests, repeated failure, and steps needing judgement or authority; a compact transfer package of intent, status, prior steps, and reason; keeping the conversation in the same channel."
-  },
-  {
-   "title": "Subscription plan changes and billing proration explained",
-   "url": "https://www.kinde.com/learn/billing/plans/proration-explained-how-to-handle-subscription-upgrades-and-downgrades-fairly-and-efficiently/",
-   "category": "patterns",
-   "type": "article",
-   "accessed": "2026-10-29",
-   "notes": "Upgrades charged at once for the prorated difference with a credit for unused time; downgrades taking effect at the next billing cycle with the higher tier kept until then; proration formula from remaining time."
   },
   {
    "title": "Discount and promo-code checkout rules",
@@ -3560,7 +3552,7 @@
    "category": "patterns",
    "type": "article",
    "accessed": "2026-10-31",
-   "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain \u2014 full price or deposit with the balance due on release \u2014 and manage expectations with updates when dates change."
+   "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain — full price or deposit with the balance due on release — and manage expectations with updates when dates change."
   },
   {
    "title": "Tooltip best practices: remove friction, guide users",
@@ -4571,14 +4563,6 @@
    "notes": "Presence, cursor motion, and document state need separate contracts: presence answers membership only; cursor packets are disposable and the latest coordinate wins; after a disconnect, mark the roster uncertain and replace it from a fresh snapshot rather than merging, so departed people never linger; undo reverses only the person's own edits."
   },
   {
-   "title": "8 Voice AI UX Patterns: What Graphic Designers Need to Understand for the Next Era of Interface Design",
-   "url": "https://sinisazec.com/articles/voice-ai-ux-patterns-graphic-designers/",
-   "category": "trends",
-   "type": "article",
-   "accessed": "2026-11-05",
-   "notes": "Voice patterns for spoken interfaces: the conversational loop with visible listening and working states, multimodal feedback where voice confirms and the screen shows detail, graceful error handling that shows what was heard with tappable corrections, and sonic cues \u2014 short non-verbal sounds (earcons) that confirm an action or convey a status without words."
-  },
-  {
    "title": "AusAlert active in the ACT from Sunday, 1 November 2026",
    "url": "https://esa.act.gov.au/ausalert-active-act-sunday-1-november-2026",
    "category": "patterns",
@@ -4643,7 +4627,7 @@
    "notes": "Focus mode schedules: named modes per activity with their own allowlists of people and apps, schedules by time, location, or app launch with days stated, a visible state while on, an automatic reply to senders, sync across devices, and separate exception lists per mode so a mode that allows everything is a label rather than a boundary."
   },
   {
-   "title": "Toggle UX: switch, toggle button or checkbox \u2014 how to pick",
+   "title": "Toggle UX: switch, toggle button or checkbox — how to pick",
    "url": "https://uxpickle.com/effective-toggle-buttons/",
    "category": "primitives",
    "type": "article",
@@ -4699,7 +4683,7 @@
    "notes": "Bottom tab bar or a row under the header over a hidden burger; open menu puts search first, large rows, contacts at the bottom; header hides on scroll down and returns slimmer on scroll up; breadcrumbs shrink to one step back on a phone."
   },
   {
-   "title": "Your CAPTCHA Might Violate WCAG 2.2 \u2014 Here's What an Accessible Alternative Looks Like",
+   "title": "Your CAPTCHA Might Violate WCAG 2.2 — Here's What an Accessible Alternative Looks Like",
    "url": "https://www.wcag.world/blog/captcha-accessible-alternatives-wcag",
    "category": "patterns",
    "type": "article",
@@ -4928,7 +4912,7 @@
    "category": "patterns",
    "type": "guide",
    "accessed": "2026-11-06",
-   "notes": "Notification inbox triage: read, done, and following are separate dimensions \u2014 reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
+   "notes": "Notification inbox triage: read, done, and following are separate dimensions — reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
   },
   {
    "title": "Activity rings are harder to read than bar charts",
@@ -5009,6 +4993,478 @@
    "type": "guide",
    "accessed": "2026-11-07",
    "notes": "Platform accessibility guidance on text display in games: minimum default text sizes by device class, text in menus, heads-up display elements, objectives and chat, icons and glyphs scaling with text up to 200 percent, and text over changing backgrounds measured against its lowest-contrast area."
-  }
+  },
+  {
+   "title": "Screen your calls before you answer them",
+   "url": "https://support.google.com/phoneapp/answer/9118387",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-07",
+   "notes": "Platform guidance on call screening: the phone answers an unknown call and asks who is calling and why, shows a live transcript on the incoming-call screen, offers suggested replies and a route to ask the caller another question, ends the call on its own where the caller is unwanted, keeps screened-call transcripts on the device, and uses saved contacts to decide which calls to screen."
+  },
+  {
+   "title": "Banking app design: principles, examples and UX best practices (2026)",
+   "url": "https://www.purrweb.com/blog/banking-app-design/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-07",
+   "notes": "Banking onboarding and identity verification: show step count and remaining steps before document upload or selfie verification, give framing and lighting guidance for document capture, explain why an image cannot be verified, replace indefinite loading with a review status, realistic timing and a save-and-return path, summarise required terms with the full text available on demand, and give a plain-language reason plus retry or save-and-return where verification fails. Transaction history: readable merchant labels, search and filters, a visible difference between pending, completed, reversed, and disputed operations, detail views exposing the payment method, reference number, and dispute path, and sensitive data masked by default with a deliberate reveal action."
+  },
+  {
+   "title": "Keyboard Navigation Patterns for Complex Widgets: A Complete ARIA Guide (2026)",
+   "url": "https://www.uxpin.com/studio/blog/keyboard-navigation-patterns-complex-widgets/",
+   "category": "primitives",
+   "type": "guide",
+   "accessed": "2026-11-07",
+   "notes": "Keyboard navigation for complex widgets following WAI-ARIA practices: Tab moves between widgets while arrow keys move within, Enter and Space activate, Escape dismisses; modal dialogs move focus inside on opening, cycle Tab within, keep background content inert, and return focus to the trigger on closing; the native dialog element supplies these behaviours without custom code."
+  },
+  {
+   "title": "Human interface guidelines comparison, early 2025 to September 2026",
+   "url": "https://hig.josefrichter.design/",
+   "category": "interfaces",
+   "type": "reference",
+   "accessed": "2026-11-07",
+   "notes": "Dated comparison of platform guideline pages: new Snippets guidance for concise system-mediated views; confirmation and result presentations have different jobs; complex detail leads into the app rather than overflowing the lightweight surface."
+  },
+  {
+   "title": "Contactless transit fare payment guidance",
+   "url": "https://www.bctransit.com/contactless/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-07",
+   "notes": "Fare-capped day pass after the second payment of the day; the same card must be used for every tap; a physical card and the same card in a wallet count as different methods; the fare is shown on the reader after the tap; charges appear on the bank or card statement with a possible temporary hold."
+  },
+  {
+   "title": "Tap on, tap off tram fares",
+   "url": "https://edinburghtrams.com/faqs",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-07",
+   "notes": "Tap on before boarding and tap off when leaving; daily and weekly caps calculated from journeys made; a missed tap-off charges the highest fare and does not count towards the cap; the same card or device must be used throughout; an inspection tap checks the fare was paid."
+  },
+  {
+   "title": "Remote-control navigation for TV web apps",
+   "url": "https://webkodingtheme.com/blog/tv-app-remote-control-navigation",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-11-07",
+   "notes": "Row-and-column grid navigation over nearest-element navigation; focus obvious from across the room; the focused row held steady on screen; rows slid with transforms rather than scrolling the document."
+  },
+  {
+   "title": "Navigation on TV",
+   "url": "https://developer.android.com/design/ui/tv/guides/foundations/navigation-on-tv?authuser=3",
+   "category": "layouts",
+   "type": "guidance",
+   "accessed": "2026-11-07",
+   "notes": "Directional pad as the primary navigation method; every visible control reachable without touch; the back button returns to the previous destination; categories on the vertical axis, items within a category on the horizontal axis."
+  },
+  {
+   "title": "Guideline for Incorporating Human Factors in Human Machine Interface",
+   "url": "https://austroads.gov.au/publications/road-safety/ap-g113-26",
+   "category": "layouts",
+   "type": "guidance",
+   "accessed": "2026-11-07",
+   "notes": "54 human-factors principles across 14 design criteria for in-vehicle systems, covering device placement, interaction methods, and restricted functions; applies to light and heavy vehicles."
+  },
+  {
+   "title": "Honk if you want your car's physical buttons back",
+   "url": "https://www.businessday.co.za/motoring/2026-10-12-honk-if-you-want-your-cars-physical-buttons-back/",
+   "category": "layouts",
+   "type": "article",
+   "accessed": "2026-11-07",
+   "notes": "Revised 2026 safety-rating protocols require physical controls for indicators, wipers, hazard lights, horn, and emergency call; touchscreen-only cars score poorly on primary driving controls; physical controls allow operation without extended attention away from the road."
+  },
+  {
+   "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them — Guidelines 03/2022, version 2.0",
+   "url": "https://www.datenschutzstelle.li/download_file/view/804/403",
+   "category": "patterns",
+   "type": "guidelines",
+   "accessed": "2026-11-07",
+   "notes": "Six deceptive design pattern categories — overloading, skipping, stirring, obstructing, fickle, left in the dark — with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
+  },
+  {
+   "title": "Criteria for websites (from end of 2026)",
+   "url": "https://www.digitalbarrierefrei.at/en/understanding/accessibility-criteria/criteria-for-websites-from-end-of-2026",
+   "category": "trends",
+   "type": "guidance",
+   "accessed": "2026-11-07",
+   "notes": "Version 4.1.1 of the European harmonised standard for ICT accessibility, published 2 September 2026, expected to be cited in the Official Journal by late November 2026 and to replace version 3.2.1; web and software clauses move to WCAG 2.2 A and AA, with the criteria summarised from the final draft."
+  },
+  {
+   "title": "Overview of Accessibility Nutrition Labels",
+   "url": "https://developer.apple.com/help/app-store-connect/manage-app-accessibility/overview-of-accessibility-nutrition-labels",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-07",
+   "notes": "Store listing section declaring which accessibility features an app supports: nine labels, a feature claimed only where every common task can be completed with it, support declared per device, section shown even where support is undeclared or none, optional link to accessibility details, and labels used in search relevance."
+  },
+  {
+   "title": "Guidelines for Accessibility in PIN Entry on Touchscreen Terminals",
+   "url": "https://auspaynet.com.au/sites/default/files/2019-12/Accessibility_Guidelines.pdf",
+   "category": "patterns",
+   "type": "guidelines",
+   "accessed": "2026-11-07",
+   "notes": "Payments industry accessibility guidelines for PIN entry on touchscreen terminals, December 2019: fixed telephone keypad layout with 5 central, tactile keypad alternative with raised marker on 5, haptic and audio feedback by count only with no digit-identifying variation, never display or announce any digit, assisted-entry mode with several activation routes and spoken amount, progress and outcome, and amount stated before entry."
+  },
+  {
+   "title": "Report of the work undertaken by the Cookie Banner Taskforce",
+   "url": "https://www.edpb.europa.eu/system/files/2023-01/edpb_20230118_report_cookie_banner_taskforce_en.pdf",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-07",
+   "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon — the common positions on cookie banner practices."
+  },
+  {
+   "title": "Public Charge Point Regulations 2023 guidance",
+   "url": "https://www.gov.uk/government/publications/the-public-charge-point-regulations-2023-guidance/public-charge-point-regulations-2023-guidance",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Contactless payment without a prior contract, price per unit of energy shown before the session, price fixed once charging starts, a staffed telephone helpline, and open availability and pricing data."
+  },
+  {
+   "title": "Alternative fuel infrastructure requirements",
+   "url": "https://www.law.cornell.edu/cfr/text/23/680.106",
+   "category": "patterns",
+   "type": "regulation",
+   "accessed": "2026-11-08",
+   "notes": "Payment and accessibility requirements for publicly funded charge points, including contactless payment and clear pricing."
+  },
+  {
+   "title": "How to create an accessible EV bay",
+   "url": "https://www.bsigroup.com/en-IE/insights-and-media/insights/blogs/how-to-create-an-accessible-ev-bay/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-08",
+   "notes": "Summary of the accessibility specification for charge points: bay layout, control heights, cable weight, screen and interface provision, and digital platforms."
+  },
+  {
+   "title": "Device controls",
+   "url": "https://developer.android.com/develop/ui/views/device-control?hl=ms",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-08",
+   "notes": "Quick-access controls for connected home devices: templated control widgets, device state shown on the tile, and controls grouped by device."
+  },
+  {
+   "title": "Travel accommodations audit",
+   "url": "https://baymard.com/audits/travel-accommodations",
+   "category": "patterns",
+   "type": "research",
+   "accessed": "2026-11-08",
+   "notes": "Independent usability audit of travel accommodation sites across search, property, room selection and checkout, with 400+ weighted parameters; room-and-rate comparison findings."
+  },
+  {
+   "title": "Hotel rate plans and the room selection page",
+   "url": "https://www.plading.com/blog/hotel-rate-plans-room-selection-page",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-08",
+   "notes": "Name each rate by its consequences with the cancellation deadline in the label, identical attributes in identical order on every rate card, and the price difference stated as a trade-off."
+  },
+  {
+   "title": "Onboarding and connecting smart devices: five guidelines for user-friendly smart-device apps",
+   "url": "https://www.nngroup.com/articles/smart-device-onboarding/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-08",
+   "notes": "Visual step-by-step setup with one task at a time, expected device responses stated in advance, reconnection treated like first-time setup, honest progress indicators, transparent error handling, and naming the device before finishing."
+  },
+  {
+   "title": "UI placement as a critical design factor for augmented reality during locomotion",
+   "url": "https://arxiv.org/pdf/2604.06102",
+   "category": "trends",
+   "type": "research",
+   "accessed": "2026-11-08",
+   "notes": "Workshop paper on interface placement while walking: world-fixed and path-following placements give the steadiest gaze, head-locked placement the least steady, head-following with a delay in between."
+  },
+  {
+   "title": "UI design guidance for AR spectacles",
+   "url": "https://developers.snap.com/spectacles/best-practices/design-for-spectacles/ui-design",
+   "category": "trends",
+   "type": "documentation",
+   "accessed": "2026-11-08",
+   "notes": "Additive display colour space, three-dimensional forms for interactive elements with flat planes for text, motion and spatial audio for attention guidance."
+  },
+  {
+   "title": "QR code payment specifications",
+   "url": "https://www.emvco.com/emv-technologies/qr-codes/",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-11-08",
+   "notes": "Merchant-presented and consumer-presented QR payment modes; the code carries merchant identity, amount and currency in a structured format; a specific authenticated app is generally required to process the payment data."
+  },
+  {
+   "title": "Key behaviours guidance for fundraisers",
+   "url": "https://www.fundraisingregulator.org.uk/about-fundraising/resources/key-behaviours-guidance-fundraisers",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Online fundraising: fees clear to donors before payment details are requested; fundraising open, honest, respectful and legal; donors able to make an informed decision and ask for more information."
+  },
+  {
+   "title": "Guidelines for regulating shared micromobility",
+   "url": "https://nacto.org/publication/nacto-guidelines-for-regulating-shared-micromobility/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Shared micromobility regulation: designated parking near trip ends, fleet size, customer-service expectations, safety provisions, and data standards."
+  },
+  {
+   "title": "Micromobility sharing schemes operating authorisation guide",
+   "url": "https://www.nsw.gov.au/sites/default/files/noindex/2026-10/micromobility-sharing-schemes-operating-authorisation-guide.pdf",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Operator conditions for shared micromobility schemes including accessibility, parking, and service-area rules (October 2026)."
+  },
+  {
+   "title": "Shared micromobility accessibility",
+   "url": "https://www.nationalacademies.org/read/27870/chapter/8",
+   "category": "accessibility",
+   "type": "research",
+   "accessed": "2026-11-08",
+   "notes": "Bikeshare and scooter-share apps, websites and docking stations usable by people with disabilities: audio cues, braille labels, large print; devices must not obstruct sidewalks."
+  },
+  {
+   "title": "Using video conferencing and consultation tools",
+   "url": "https://transform.england.nhs.uk/information-governance/guidance/using-video-conferencing-and-consultation-tools",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Video consultations: confirm the patient is in a safe, quiet, confidential place; confirm who else is in the room on both sides; confirm identity; keep a phone fallback."
+  },
+  {
+   "title": "Flowchart 2: Conducting high-quality telephone or video consultations",
+   "url": "https://www.racgp.org.au/running-a-practice/technology/clinical-technology/telehealth/guide-to-providing-telephone-and-video-consultatio/flowchart-2-conducting-high-quality-telephone-or-v",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Test technology before the consultation; bring up the patient record and phone number in case video fails; confirm audio and visual quality at the start; clinician confirms own identity and verifies patient identity; agree the phone fallback; summarise next steps at the close."
+  },
+  {
+   "title": "Videoconference consultation considerations",
+   "url": "https://aci.health.nsw.gov.au/virtual-care-in-practice/delivery/videoconference/consultation-considerations",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Begin by introducing name and role; identity check; confirm the participant's current location and best contact number in case of escalation; explain the process and what happens next."
+  },
+  {
+   "title": "Media production standards for exhibits",
+   "url": "https://id.humanrights.ca/media-production-standards-for-exhibits/linear-film-and-linear-immersive-media/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Exhibit media produced with signed interpretation, captioning, descriptive audio track and transcription; versions in both official languages; standardised player with captions and sign language toggleable separately; volume control."
+  },
+  {
+   "title": "Share a digital car key",
+   "url": "https://support.google.com/wallet/answer/13037118?hl=en",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Share a key held in a wallet with a named recipient; guest, co-owner and service access levels with expiry and reshare control; activation on first use; remove a shared key per recipient; transfer a key to a new device by scanning a code."
+  },
+  {
+   "title": "About Digital Key",
+   "url": "https://www.cadillac.com/support/vehicle/security/digital-key",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Share a key with named recipients through the wallet; sharing by QR code uses preset access options that cannot be changed; a lock-only key does not permit starting; the owner removes shared keys, each recipient removes only their own."
+  },
+  {
+   "title": "How to Pick Up Your Parcel from an InPost Locker",
+   "url": "http://inpost.co.uk/how-to-pick-up-your-parcel",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Collect with a QR code or a collection code, or open the locker from the app; three-day collection window with a reminder at 24 hours left and return to sender after expiry; several parcels may share one compartment; an easy-access compartment can be requested."
+  },
+  {
+   "title": "The Pickup Code: How Parcel Lockers and Stations Shape China's Delivery Culture",
+   "url": "https://chinacomes.com/the-pickup-code-how-parcel-lockers-and-stations-shape-chinas-delivery-culture/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Six-digit pickup code sent by text with a stated expiry; enter the code at the locker screen or scan a QR code and the compartment opens; code is single-use; staffed station variant hands the parcel over on the last four digits of the phone number."
+  },
+  {
+   "title": "How smart rings solve the UX challenges of screenless design",
+   "url": "https://hackernoon.com/how-smart-rings-solve-the-ux-challenges-of-screenless-design",
+   "category": "interfaces",
+   "type": "article",
+   "accessed": "2026-11-08",
+   "notes": "Screenless sensor devices: the ring is a passive sensor and the phone app carries the whole interface; daily scores for sleep, readiness, and activity with a plain-language reason and next step; a short check-in pairs measured data with how the person feels; haptics carry only intensity, duration, rhythm, and pattern, reserved for health alerts; minimal on-device gestures mapped to phone actions."
+  },
+  {
+   "title": "Set up eSIM on iPhone",
+   "url": "https://support.apple.com/en-us/118669",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-08",
+   "notes": "Activate a mobile plan on a built-in SIM by QR code, carrier app, carrier-assigned plan, transfer from a nearby phone, or typed details; convert a physical SIM on the same phone; transfer deactivates the plan on the old phone; several numbers can move at once."
+  },
+  {
+   "title": "How to Switch eSIM Providers or Carriers, Step by Step",
+   "url": "https://www.simoptions.com/switch-esim-providers/",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-08",
+   "notes": "Switching takes a fresh plan from the new carrier rather than moving the old one; keep the number by porting it and do not cancel the old plan first; check the phone is unlocked and supports a built-in SIM; keep the old SIM until the new plan shows signal."
+  },
+  {
+   "title": "Speech interactions",
+   "url": "https://learn.microsoft.com/sv-se/windows/uwp/design/input/speech-interactions",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-08",
+   "notes": "Speech for text input ranges from short form under 10 seconds to long-form dictation sessions up to two minutes; a microphone glyph shows that speech input is available and its state; continuous recognition ends when the connection is unavailable; supported responses shown where space permits."
+  },
+  {
+   "title": "Voice Input UI: Design Better Real-World Workflows",
+   "url": "https://www.amajaying.com/blog/voice-input-ui-patterns",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-08",
+   "notes": "Seven voice input states: idle, permission request, listening, paused, processing, success, error; keep the text field so the transcript can be read, corrected by typing, and submitted through the usual action; interim text appears while listening and final text becomes editable."
+  },
+  {
+   "title": "Design for AI Glasses",
+   "url": "https://developer.android.com/design/ui/ai-glasses",
+   "category": "interfaces",
+   "type": "guide",
+   "accessed": "2026-11-08",
+   "notes": "Platform guidance for glasses: audio glasses use hands-free natural-language interaction with concise spoken responses and text to speech, where the same app states trigger spoken output; display glasses combine audio with subtle, glanceable, high-contrast, minimal visuals that appear only when relevant to enhance, not obstruct, the view; simplified theme for visibility on glasses."
+  },
+  {
+   "title": "Add or delete guest",
+   "url": "https://help.motorola.com/hc/3454/14/global/en-us/CGT1410104543.html",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-08",
+   "notes": "Create a temporary guest profile for sharing a phone; an option clears all data and apps installed during the session when the guest finishes, and exiting the guest session returns to the owner's profile."
+  },
+  {
+   "title": "Shared device mode and guest temporary sessions",
+   "url": "https://documentation.meraki.com/Platform_Management/SM_-_Endpoint_Management/Design_and_Configure/Deployment_Guides/Apple_Shared_Device_Mode_and_Guest_Temporary_Sessions",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-08",
+   "notes": "Temporary guest sessions on a shared tablet: local data is destroyed when the guest signs out, a message states that data will not be saved after signing out, and an optional timeout signs the guest out automatically."
+  },
+  {
+   "title": "How live auctions work",
+   "url": "https://www.biddurs.com/blog/live-auctions",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-08",
+   "notes": "One-tap bid for the next step above the current price; a maximum bid that bids in steps up to the stated cap and never past it; a sudden-death clock that tops back up on every bid and drops to 5 seconds at last call; the server clock decides the winner; every bid is a binding offer to buy."
+  },
+  {
+   "title": "How to Run an Online Auction — Complete Operator's Guide",
+   "url": "https://www.auction-rabbit.com/en/auction-system/operations/how-to-run-an-online-auction",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-08",
+   "notes": "Bid increment chart that sets how much each next bid must rise; timed online auctions with anti-sniping logic extending the close by 1-5 minutes on a late bid and staggered lot closing; live sales simulcast online with latency between the rostrum and online bidders."
+  },
+  {
+   "title": "Adding value to a Clipper card",
+   "url": "https://www.clippercard.com/adding-value",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-08",
+   "notes": "Add value from a phone wallet or the app; auto-reload when the balance falls below a stated amount or on a weekly or monthly schedule; cash value held on a card is limited, and an order that would pass the limit cannot be loaded."
+  },
+  {
+   "title": "Auto top-up for a go card",
+   "url": "https://translink.com.au/tickets-and-fares/go-card/auto-top-up",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-08",
+   "notes": "Auto top-up when the balance falls below $5, with a minimum top-up of $20; the first setup takes payment at once, and the value loads on the next tap, up to 60 minutes later."
+  },
+  {
+   "title": "Airline Information and Entertainment Access Act: one-pager and section-by-section summary",
+   "url": "https://www.aging.senate.gov/imo/media/doc/AIEAA%20One%20Pager%20and%20Section-by-Section.pdf",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-08",
+   "notes": "Requires a captioning option on videos showing safety information and entertainment, a signed-language option, audio descriptions, and a nonvisual operating option for video display controls; the access board must prescribe standards for display controls."
+  },
+  {
+   "title": "Flying with hearing loss could soon get easier",
+   "url": "https://www.hearingloss.org/flying-with-hearing-loss-could-soon-get-easier/",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-08",
+   "notes": "The 2024 aviation reauthorisation law requires the transport department to issue regulations on in-flight entertainment accessibility, including closed captioning and video descriptions; airport gates, counters, and ticketing areas must be accessible, including captions."
+  },
+  {
+   "title": "Best Practices in Implementing Self Check-in Solutions",
+   "url": "https://file.go.gov.sg/selfcheckinimplementationguide.pdf",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "Industry guide for self check-in in hotels: a four-stage traveller journey (pre-register, arrival instructions, arrive and activate key, enter room), with design principles for kiosk and mobile self check-in, identity verification, and key handover."
+  },
+  {
+   "title": "Kiosk Experience - Self-Service Kiosk",
+   "url": "https://helpcenter.duve.com/hc/en-us/articles/38474429040797-OCI-Kiosk-Experience-Self-Service-Kiosk",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-09",
+   "notes": "Kiosk-native hotel arrival flow: reservation lookup, the check-in steps the property allows, key issue at the end, and a completion screen that resets for the next guest; document capture handed to the guest's own phone by scannable code; language chosen on the device."
+  },
+  {
+  "title": "Tenant Portal UX: Design That Residents Actually Use",
+  "url": "https://gateway-web-design.com/blog/tenant-portal-ux",
+  "category": "patterns",
+  "type": "guide",
+  "accessed": "2026-11-09",
+  "notes": "Design guidance for resident portals citing renter-preference surveys: portal access and maintenance as the main drivers of satisfaction, phone-first design, push-plus-pull notifications with deep links into the portal for the action itself, and a visible login in primary navigation."
+ },
+  {
+  "title": "How to Set Up a Tenant Portal (And Why Your Tenants Expect One in 2026)",
+  "url": "https://www.peaklandlord.com/posts/tenant-portal-setup-guide-landlords-2026",
+  "category": "patterns",
+  "type": "guide",
+  "accessed": "2026-11-09",
+  "notes": "Feature checklist for tenant portals: rent payment with autopay, maintenance submission with status tracking, payment history and receipts, lease and document access, and reminders before rent is due."
+ },
+  {
+  "title": "QR Table Ordering: What Changes, What to Check",
+  "url": "https://www.mirastart.com/blog/qr-table-ordering-restaurants",
+  "category": "patterns",
+  "type": "guide",
+  "accessed": "2026-11-09",
+  "notes": "Independent review of QR order-and-pay at the table: one code per table opening the menu with the table already known, no app to install, split checks, a call-staff route, a stated check that the code on the table is genuine, and web accessibility guidance for the menu page behind the code."
+ },
+  {
+  "title": "QR Code Ordering System for Restaurants",
+  "url": "https://www.restropress.com/qr-code-ordering-system-for-restaurants-how-table-ordering-works/",
+  "category": "patterns",
+  "type": "guide",
+  "accessed": "2026-11-09",
+  "notes": "End-to-end table ordering flow: scan, browse with modifiers, order to the kitchen by table number, pay on the phone or at the end, call staff from the same screen; paper menu and staff kept available, and the system does not work during an internet outage."
+ },
+  {
+  "title": "Designing for Disconnection: Creating Digital Products That Promote Well-being",
+  "url": "https://www.designer-daily.com/designing-for-disconnection-creating-digital-products-that-promote-well-being-201201",
+  "category": "patterns",
+  "type": "guide",
+  "accessed": "2026-11-09",
+  "notes": "Design principles for digital wellbeing: native dashboards showing daily and weekly use, soft limits that gently nudge when self-allotted time is up, focus modes that strip away non-essential elements, and clear stopping points instead of endless content."
+ },
+  {
+  "title": "How to Reduce Screen Time (Ultimate Guide)",
+  "url": "https://www.digitalcitizen.life/how-to-reduce-screen-time-ultimate-guide/",
+  "category": "patterns",
+  "type": "guide",
+  "accessed": "2026-11-09",
+  "notes": "Cross-platform guide to screen-time controls: per-app daily limits with blocking at the end of the limit, scheduled downtime with allowed essentials, focus presets for work, family, and driving, and weekly usage reports."
+ }
  ]
 }

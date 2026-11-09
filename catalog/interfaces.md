@@ -25,6 +25,7 @@ When to avoid:
 | Desktop application | Pointer, keyboard | Arm's length | High | Multiple windows, shortcuts, context menus — see `layouts/desktop.md` |
 | Kiosk | Touch | Standing distance | Low | Large targets, idle timeout, session reset, no personal data retained |
 | Wearable | Touch, voice, crown or bezel | Glanceable | Very low | Two actions per screen at most, short text |
+| Screenless sensor | None on the device; companion phone app | Companion screen | Very low | Passive sensing only; the companion app carries the whole interface; alerts arrive as haptics alone |
 | Television | Remote, voice | Room distance | Low | Focus-based navigation, 10-foot legibility, overscan margins |
 | Game | Controller, keyboard, touch | Handheld to room distance | Very low | HUD read at a glance, scalable text, remappable controls, safe zones |
 | Automotive HMI | Physical controls, voice, touch | Road distance, glanceable | Very low | Two-second glance and twelve-second task budgets; essential functions stay on physical controls |
@@ -238,6 +239,35 @@ with the phone app as the overflow.
 - Ship a simplified ambient, always-on state alongside the active state:
   low brightness, no animation, critical data visible; prefer dark
   interfaces and minimal background work to protect battery life.
+
+## Screenless sensor interfaces
+
+For devices with no screen of their own — a ring or band that senses
+continuously while the paired phone app carries the whole interface.
+
+- The device is a passive sensor, not a surface: all reading, review, and
+  configuration happen in the companion app, so the app must stand alone
+  as the interface and never assume the person can see or touch the device
+  to check anything.
+- The only channel from the device to the person is haptics, and its
+  bandwidth is very low: intensity, duration, rhythm, and pattern are all
+  it can carry, so reserve it for health alerts and time-critical
+  reminders, never for social notifications, and give every pattern one
+  fixed meaning that the companion app states in words.
+- The companion app answers one question first — how the person is doing
+  today — with a small set of daily scores (sleep, readiness, activity),
+  each shown with its value, a plain-language reason, and a next step, so
+  a number is never left without its meaning or its action.
+- Pair what the device measures with how the person feels: a short daily
+  check-in records the felt state beside the measured one, and the two are
+  shown together rather than letting the measured number speak alone.
+- Keep the few on-device gestures minimal and fixed — a tap, a double
+  pinch, a long press — each mapped to one phone action such as dismissing
+  an alarm or taking a photo, and state the mapping in the companion app
+  so a gesture is never a guess.
+- Treat health data as sensitive by default: detailed history and
+  configuration stay in the companion app, and nothing the device reports
+  is shown where others can read it without the person choosing so.
 
 ## Automotive HMI
 

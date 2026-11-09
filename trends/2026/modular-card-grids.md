@@ -28,6 +28,15 @@ Cards in two or three fixed sizes; a grid with consistent gaps; card header with
 - Tile markup is written in priority order; named placement areas rearrange tiles at each breakpoint without changing source order, so assistive technology and keyboard focus follow the same sequence at every size.
 - When people can reorder tiles, dragging gives immediate position feedback and the move is announced as plain text ("Weather moved to position 2 of 8"); the new order persists across sessions and breakpoints.
 - Empty cards are replaced by a single placeholder card with one next action, not a blank space.
+- Cards load, fail, and refresh independently: one card's failure never
+  empties the grid or blocks the others; a failed card shows its own
+  retry in place and the rest of the grid keeps working.
+- Stale data states its age: a card whose data is older than its refresh
+  interval shows when it was last updated and offers a refresh; stale
+  figures are never presented as current.
+- Refresh is per-card and cheap: refreshing one card never reloads the
+  whole grid, and a grid-wide refresh keeps scroll position and card
+  order.
 
 ## States
 

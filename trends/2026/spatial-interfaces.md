@@ -117,6 +117,57 @@ Multi-window spatial workspaces need an explicit panel contract.
   keep critical controls and fine text within about 30 degrees of forward
   gaze so they stay legible without eye strain.
 
+## Glasses and on-the-move placement
+
+Glasses differ from room-scale headsets: the wearer walks, the background
+is uncontrolled, and the display adds light to the real view rather than
+replacing it.
+
+- Anchor on-the-move content to the world or to the predicted path, not
+  to the head. Head-locked panels move with every step and head turn,
+  which makes text harder to read and targets harder to hold while
+  walking; panels fixed to the world, or floating ahead along the walking
+  path at a fixed distance and height, stay stable enough to read. A
+  head-following panel with a delay sits between the two and is still
+  worse than a world-fixed one. Reserve head-locked placement for brief
+  alerts only, and move anything that needs reading or tapping to a
+  world-fixed or path-following position.
+- Keep moving content stable in the plane perpendicular to the direction
+  of travel: stability in that plane is what keeps the gaze steady while
+  walking.
+- Design for an additive display: the display adds light to the real
+  view, so pure black renders as transparent and white is the brightest
+  colour available. Treat the colour space as inverted: light text on a
+  dark treatment reads best, and pure white backgrounds with dark text
+  are uncomfortable to read. Avoid large uniform colour regions, which
+  expose display variation; use subtle patterns or textures instead, and
+  avoid gradients with opacity.
+- Use depth for hierarchy, not just size and colour: nearer elements read
+  as more important. Guide attention with one saturated accent against a
+  muted world, with clear space around the focal element, or with a short
+  motion cue when something appears.
+- The background is uncontrolled: the same panel sits against a white
+  wall, a busy desk, or a sunset. Keep panels small, keep the real world
+  as the negative space, and never fill the view.
+- Use three-dimensional forms for buttons and interactive elements,
+  which invite touch and give feedback in depth; keep text and icons on
+  flat two-dimensional planes so they stay legible from any angle.
+- Treat audio-only glasses and display glasses as different surfaces:
+  the same task reaches the wearer through speech alone on one and
+  through speech plus a small visual on the other, so design each form
+  on its own terms rather than one surface with the visual removed.
+- On audio-only glasses, the spoken response is the whole interface:
+  keep each response short and self-contained, state the result before
+  the detail, confirm consequential actions aloud before carrying them
+  out, and offer a spoken repeat on request. Nothing the wearer needs
+  exists only in a visual form; the same app state that shows a screen
+  elsewhere speaks its content here.
+- On display glasses, pair the spoken response with a small,
+  high-contrast visual only when the visual carries something speech
+  cannot — a direction, a name, a short confirmation — and let it
+  disappear again once read. Visuals never persist, never fill the view,
+  and never hold the only copy of anything important.
+
 ## States
 
 Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
