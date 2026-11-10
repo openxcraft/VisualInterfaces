@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Authentication Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="auth-page">
+  <h1>Sign in — Worked example</h1>
+  <p class="au-note">Placeholder fields stand in for a real sign-in form. Nothing on this page checks or sends a credential.</p>
+
+  <section class="au-card" aria-label="Sign-in form">
+    <h2>Sign in</h2>
+    <p class="au-row">
+      <label>Account identifier
+        <input type="text" autocomplete="username" placeholder="Email address or account name">
+      </label>
+    </p>
+    <p class="au-row">
+      <label>Password
+        <input type="password" autocomplete="current-password" placeholder="Your password">
+      </label>
+      <button type="button">Show</button>
+    </p>
+    <p class="au-row">
+      <button type="button" class="au-primary">Sign in</button>
+    </p>
+    <p class="au-note">The action stays unavailable until the identifier and password are entered.</p>
+    <p class="au-row">
+      <button type="button">Sign in with a passkey</button>
+    </p>
+    <p class="au-note">Passkeys are offered first; the device check is named before the system prompt appears.</p>
+
+    <fieldset class="au-choice">
+      <legend>Other ways to sign in</legend>
+      <p>
+        <label><input type="radio" name="fallback" checked> App push — approve on your signed-in device</label>
+      </p>
+      <p>
+        <label><input type="radio" name="fallback"> Email link — a sign-in link sent to your inbox</label>
+      </p>
+      <p>
+        <label><input type="radio" name="fallback"> Email code — a short code sent to your inbox</label>
+      </p>
+      <p>
+        <label><input type="radio" name="fallback"> Text-message code — a short code sent to your phone</label>
+      </p>
+      <p class="au-note">Every fallback stays visible beside the primary route; a declined passkey prompt is never an error.</p>
+    </fieldset>
+
+    <p class="au-links">
+      <a href="#">Forgotten password or lost access</a>
+      <a href="#">Create an account</a>
+    </p>
+    <p class="au-note">Recovery asks only for the account identifier and gives the same reply whether or not an account matches.</p>
+  </section>
+
+  <section class="au-card" aria-label="Second-factor step">
+    <h2>Second step — check it is you</h2>
+    <p class="au-note">A short code was sent to the channel you chose. It stays valid for 10 minutes.</p>
+    <p class="au-row">
+      <label>Code
+        <input type="text" inputmode="numeric" autocomplete="one-time-code" placeholder="Enter the 6-digit code">
+      </label>
+      <button type="button">Check code</button>
+    </p>
+    <p class="au-row">
+      <button type="button">Send a new code</button>
+      <span class="au-note">You can ask for a new code in 30 seconds.</span>
+    </p>
+    <p class="au-links">
+      <a href="#">Use a backup code instead</a>
+    </p>
+    <p class="au-note">The backup-code route stays visible at all times, not hidden behind failed attempts.</p>
+  </section>
+
+  <section class="au-variants" aria-label="State variants">
+    <h2>State variants</h2>
+    <div class="au-variant">
+      <h3>Loading — sign-in methods</h3>
+      <p class="au-skeleton" aria-hidden="true"></p>
+      <p class="au-skeleton" aria-hidden="true"></p>
+      <p>Sign-in methods are loading; the card keeps its size while they load.</p>
+    </div>
+    <div class="au-variant">
+      <h3>Empty — no saved credential</h3>
+      <p>No passkey is saved on this device yet.</p>
+      <p><button type="button">Use another way to sign in</button></p>
+    </div>
+    <div class="au-variant">
+      <h3>Error — wrong code</h3>
+      <p class="au-error">That code did not match. You have 2 attempts left. Your identifier is unchanged.</p>
+      <p><button type="button">Try the code again</button> <button type="button">Use a backup code</button></p>
+    </div>
+    <div class="au-variant">
+      <h3>Error — locked out for now</h3>
+      <p class="au-error">Too many attempts. Wait 15 minutes, then try again, or use account recovery.</p>
+      <p><button type="button">Recover the account</button></p>
+    </div>
+    <div class="au-variant">
+      <h3>Disabled — sign in</h3>
+      <p><button type="button" disabled>Sign in — enter your identifier and password first</button></p>
+      <p>The action stays unavailable until both fields are entered, with the reason stated beside it.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

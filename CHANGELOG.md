@@ -7,6 +7,54 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Visa application, Parking fine payment and
+  appeal, and Phone voice menu rows added to
+  `catalog/patterns.md`: the visa row starts from the trip itself
+  with purpose and dates before the detail that depends on them,
+  gives a document checklist with what each document must show,
+  offers a biometrics appointment at a stated place within a
+  stated window, states the decision wait and tells the person not
+  to book travel until the decision arrives, tracks by named
+  stages, and states the reason and the challenge route with its
+  time limit where refused; the parking fine row states the fine
+  amount, the reduced amount and its deadline, and the evidence
+  window at once, lets the person pay by the notice reference and
+  vehicle registration without an account, keeps payment and
+  appeal side by side, and states plainly that paying counts as
+  an admission and closes any open challenge; the phone voice menu
+  row offers a reserved digit or word that skips the menu at any
+  time and names it in the first option, uses plain words with
+  each option stated before its number, waits for slow speakers,
+  and moves the person to a human where the menu cannot serve the
+  task or an error persists. Coverage matrix updated. 9 new source
+  records (750 total).
+
+- Examples: worked examples for the authentication and settings
+  layouts added under `examples/`: the authentication example
+  demonstrates the sign-in form with a show-and-hide control, the
+  passkey-first route with a visible fallback chain, the
+  second-factor code step with a resend control and a backup-code
+  route, and the recovery route, with wrong-code and lockout
+  variants; the settings example demonstrates grouped preferences
+  with scope labels, a stated save behaviour, settings search, and
+  a danger zone for irreversible actions, with a failed-save
+  variant that keeps the entered values. Roadmap actions 274 and
+  275 completed.
+
+- Roadmap: actions 252, 259, 265, 268, and 271 updated with new
+  source findings — platform guidance for simplified in-car
+  ordering and a confirmation step for 252, government guidance
+  for the visit before committing and the child's age as a first
+  factor for 265, a regulator consultation paper for denomination
+  stocking and receipt-on-request in part for 268, and verification
+  of the 2010 programme document as consultation proposals for
+  271; 3 new source records for the re-checked actions (753
+  total). Three new improvement actions added (276 mobile cheque
+  deposit, 277 dating app profile and matching, 278 museum
+  timed-entry ticket booking); coverage matrix updated (three new
+  rows to Full; Authentication and Settings moved from
+  worked-example gaps to Full).
+
 - Patterns catalogue: Virtual try-on row added to `catalog/patterns.md`: items that can be tried on are marked, the try-on entry sits on the product view and applies the item at once, size and colour choice and the add-to-cart control stay on the try-on screen, the camera is asked for only when a try-on starts with the trade stated first and a manual-measurement or size-chart route where the camera is refused or unavailable, a store mirror keeps catalogue and fitting separate with chrome at the edges, gestures are kept low and brief with a touch or phone route beside them, the starting point is marked with short on-screen guidance, and measurement is treated as private with an at-home route. Choice items are laid out as a grid and instruction text is kept dark on a light ground. Coverage matrix updated. 2 new source records (740 total).
 
 - Patterns catalogue: Pension dashboard row added to `catalog/patterns.md`: the total saved so far sits beside the projected retirement income stated in today's money, every income source (state, workplace, private) is combined into one total and one projection, detail is layered (total and projection first, breakdown by source second, plan specifics third), a calculator shows how changing the retirement age moves the projection with optimistic, neutral, and pessimistic outcomes and stated assumptions, lost accounts can be located, money terms are in plain words with bar charts for comparison, and a dashboard that cannot change figures says so and points to where the change is made. Coverage matrix updated. 1 new source record (741 total).

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Settings Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="settings-page">
+  <h1>Settings — Worked example</h1>
+  <p class="se-note">Placeholder preferences stand in for real settings. Nothing on this page is stored anywhere.</p>
+
+  <div class="se-layout">
+    <nav class="se-nav" aria-label="Settings sections">
+      <h2>Sections</h2>
+      <ul>
+        <li><a href="#se-profile" aria-current="true">Profile</a></li>
+        <li><a href="#se-notifications">Notifications</a></li>
+        <li><a href="#se-privacy">Privacy</a></li>
+        <li><a href="#se-danger">Danger zone</a></li>
+      </ul>
+      <p class="se-search">
+        <label>Search settings
+          <input type="text" placeholder="Try “email digest”">
+        </label>
+      </p>
+      <p class="se-note">Search results state where the setting lives and its current value; choosing one opens its section.</p>
+    </nav>
+
+    <div class="se-content">
+      <p class="se-save">Changes on this page apply at once — there is no save button.</p>
+
+      <section class="se-group" id="se-profile" aria-label="Profile">
+        <h2>Profile</h2>
+        <p class="se-field">
+          <label>Display name
+            <input type="text" value="Alex Example">
+          </label>
+          <span class="se-scope">Account — everywhere</span>
+        </p>
+        <p class="se-field">
+          <label>Time zone
+            <select>
+              <option selected>Local time</option>
+              <option>Coordinated Universal Time</option>
+            </select>
+          </label>
+          <span class="se-scope">Account — everywhere</span>
+        </p>
+      </section>
+
+      <section class="se-group" id="se-notifications" aria-label="Notifications">
+        <h2>Notifications</h2>
+        <p class="se-field">
+          <label><input type="checkbox" checked> Weekly digest by email</label>
+          <span class="se-scope">Account — everywhere</span>
+        </p>
+        <p class="se-field">
+          <label><input type="checkbox"> Sound on this device</label>
+          <span class="se-scope">Current device only</span>
+        </p>
+        <p class="se-field">
+          <label><input type="checkbox" disabled> Mentions in this workspace</label>
+          <span class="se-scope">Current workspace — unavailable until you join the workspace</span>
+        </p>
+      </section>
+
+      <section class="se-group" id="se-privacy" aria-label="Privacy">
+        <h2>Privacy</h2>
+        <p class="se-field">
+          <label>Who can see your activity
+            <select>
+              <option selected>Only you</option>
+              <option>Your workspace</option>
+              <option>Everyone</option>
+            </select>
+          </label>
+          <span class="se-scope">Account — everywhere</span>
+        </p>
+        <p class="se-field">
+          <label><input type="checkbox" checked> Share usage data to improve the product</label>
+          <span class="se-scope">Current device only</span>
+        </p>
+        <p class="se-note">Changing who can see your activity affects other people; the effect is stated before the change applies.</p>
+      </section>
+
+      <section class="se-danger" id="se-danger" aria-label="Danger zone">
+        <h2>Danger zone</h2>
+        <p>These actions cannot be undone. Each one states what will happen before you commit, and asks for extra proof that you mean it.</p>
+        <p class="se-field">
+          <button type="button">Delete this account</button>
+          <span class="se-scope">Deletes the account, all workspaces, and all saved items. You will be asked to type the account name to confirm.</span>
+        </p>
+        <p class="se-field">
+          <button type="button">Wipe this device</button>
+          <span class="se-scope">Removes all data saved on this device only. Other devices keep their data. You will be asked to confirm twice.</span>
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <section class="se-variants" aria-label="State variants">
+    <h2>State variants</h2>
+    <div class="se-variant">
+      <h3>Loading — a group</h3>
+      <p class="se-skeleton" aria-hidden="true"></p>
+      <p class="se-skeleton" aria-hidden="true"></p>
+      <p>Values are loading; the group keeps its size while they load.</p>
+    </div>
+    <div class="se-variant">
+      <h3>Empty — search with no match</h3>
+      <p>No setting matches “zebra”. Try “notifications” instead.</p>
+      <p><button type="button">Show all settings</button></p>
+    </div>
+    <div class="se-variant">
+      <h3>Error — change did not save</h3>
+      <p class="se-error">The change to “Weekly digest” did not save: the connection dropped. Your choice is kept.</p>
+      <p><button type="button">Try saving again</button></p>
+    </div>
+    <div class="se-variant">
+      <h3>Disabled — a control</h3>
+      <p><label><input type="checkbox" disabled> Mentions in this workspace</label></p>
+      <p>The control stays unavailable until you join the workspace, with the reason stated beside it.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

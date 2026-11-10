@@ -5929,6 +5929,102 @@
       "type": "study",
       "accessed": "2026-11-10",
       "notes": "Analysis of six national pension dashboards (Denmark, Sweden, Belgium, United Kingdom, Chile, Mexico) based on OECD data: integrate all income sources, use inflation-adjusted projections, present information in layers (total and projection first, breakdown by source second, plan detail third), offer dynamic calculators with optimistic, neutral and pessimistic scenarios, and help locate lost accounts."
+    },
+    {
+      "title": "How to apply for a visa to come to the UK",
+      "url": "https://www.gov.uk/apply-to-come-to-the-uk/print",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-10",
+      "notes": "Government guidance for visa applications: biometrics by appointment at a visa application centre within a stated window, a decision usually within 3 to 12 weeks depending on the visa, and travel not to be booked until the decision arrives."
+    },
+    {
+      "title": "Ask for a visa administrative review",
+      "url": "https://www.gov.uk/ask-for-a-visa-administrative-review/if-your-visa-was-cancelled-at-the-border",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-10",
+      "notes": "Government guidance on challenging a visa decision: the decision letter states whether an administrative review can be asked for, with eligibility, time limits, and the review process."
+    },
+    {
+      "title": "Application for Schengen visa",
+      "url": "https://um.fi/documents/35732/48132/application_for_schengen_visa__english_/c149e922-6efe-3a8c-86b9-1628f295a3ff?t=1525647461328",
+      "category": "patterns",
+      "type": "form",
+      "accessed": "2026-11-10",
+      "notes": "Harmonised visa application form under the Visa Code: main purpose of the journey, duration of the intended stay, and intended dates of arrival and departure."
+    },
+    {
+      "title": "Popular questions",
+      "url": "https://immi.homeaffairs.gov.au/help-support/popular-questions?TermStoreId=1cafda66-8aac-4a45-95fa-3e03872913b6&TermSetId=a76074c9-979d-4db3-adcc-34af89495da2&TermId=88d39543-e201-45a2-863d-ac848d789f4c",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-10",
+      "notes": "Government help pages for visa applicants: biometrics at a contracted collection centre where needed, published processing times, and refusal notices that state review rights and how to appeal."
+    },
+    {
+      "title": "Pay the Dartford Crossing charge (Dart Charge)",
+      "url": "https://www.gov.uk/pay-dartford-crossing-charge/print",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-10",
+      "notes": "Government guidance for paying a penalty charge notice: only the vehicle registration number and the notice reference number are needed; no account is required."
+    },
+    {
+      "title": "Parking tickets",
+      "url": "https://www.chichester.gov.uk/article/24056/Parking-tickets",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-10",
+      "notes": "Council guidance for paying a penalty charge notice by its number and the vehicle registration, and for challenging it: paying the notice counts as an admission of liability, so a challenge is not accepted after payment."
+    },
+    {
+      "title": "Pay or challenge your parking fine ticket",
+      "url": "https://www.bcpcouncil.gov.uk/parking/pay-or-challenge-your-parking-fine-ticket",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-10",
+      "notes": "Council guidance: payment and challenge cannot happen together; paying closes any open challenge."
+    },
+    {
+      "title": "Do Not Rely on Users Calculations or Memorizing Information",
+      "url": "http://www.w3.org/WAI/WCAG2/supplemental/patterns/o6p05-low-cognition/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Standards-body cognitive-accessibility pattern: pause between each option, wait for a slow speaker, listen for a quiet or hesitant speaker, use simple one-word responses, and state the option before the number."
+    },
+    {
+      "title": "Provide Human Help",
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o7p01-human-help/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Standards-body cognitive-accessibility pattern: human help must never require managing a complex voice menu; a number going directly to a human, for example by pressing 0."
+    },
+    {
+      "title": "Access to Cash: Requirements for ATM Operators (Consultation Paper 164)",
+      "url": "https://www.centralbank.ie/docs/default-source/publications/consultation-papers/cp164/cp164---consultation-on-requirements-for-atm-operators.pdf?sfvrsn=85676c1a_5&UTM%20code",
+      "category": "patterns",
+      "type": "regulation",
+      "accessed": "2026-11-10",
+      "notes": "Regulator consultation paper (December 2025, proposed requirements): cash machines stocked with at least two denominations, one below 50 in local currency, and receipts provided at the request of the user with prescribed contents; consultation open until March 2026, so the requirements are proposed rather than final."
+    },
+    {
+      "title": "Choosing childcare",
+      "url": "https://www.nidirect.gov.uk/articles/choosing-childcare?ac=165558-safe/share-aware",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-10",
+      "notes": "Government guidance on choosing childcare: visit at least two or three settings while children are being looked after, and make a second visit where there are misgivings; childcare needs follow working hours and shift patterns."
+    },
+    {
+      "title": "Your childcare options",
+      "url": "https://www.citizensinformation.ie/en/education/pre-school-education-and-childcare/your-childcare-options/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-10",
+      "notes": "Public information service guidance on childcare choices: the child's age is among the first factors to consider, alongside full-time or part-time need and the hours required; visit providers while children are present."
     }
   ]
 }
