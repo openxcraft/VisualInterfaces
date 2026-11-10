@@ -71,6 +71,34 @@ not replace any of the seven above.
   focused control is never entirely hidden behind a sticky header, banner,
   or launcher when it scrolls into view.
 
+## Rules from the current accessibility standard
+
+Four rules from the current accessibility standard, stated here once so
+every pattern applies them the same way.
+
+- Dragging: every interaction that uses a dragging movement also offers a
+  single-pointer route without dragging — a control, a menu, or keyboard
+  keys — unless dragging is essential to the task. A drag handle is a cue
+  only, never the sole way to act. Cross-check the file upload, map
+  comparison, calendar and scheduling, bottom sheet choice, kanban board,
+  document signing, and shared whiteboard rows in `catalog/patterns.md`,
+  which each state the alternative for their own case.
+- Help in the same place: where a help entry repeats across pages, it
+  keeps the same relative order on every page, with the same label, so
+  help is found in the same place at the moment of confusion.
+  Cross-check the in-product help row in `catalog/patterns.md`.
+- No repeated entry: information already given in the same process is
+  never asked for again — it is filled in from what was already
+  provided, or offered for selection from what was already given.
+  Cross-check the wizard row and the form flow row in
+  `catalog/patterns.md`.
+- Sign-in without a memory or puzzle test: no step in a sign-in flow
+  requires remembering a password or solving a puzzle unless an
+  alternative step without that test is offered, or a mechanism is
+  provided that assists completing it. Cross-check the passkey sign-in,
+  second-factor sign-in, magic link sign-in, and account recovery rows
+  in `catalog/patterns.md`.
+
 ## States
 
 Every element and page in this group defines all seven states. Missing states are treated as incomplete work.

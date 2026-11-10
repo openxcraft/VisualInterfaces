@@ -440,7 +440,7 @@
       "category": "trends",
       "type": "reading-list",
       "accessed": "2026-10-22",
-      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered \u2014 content revealed by scroll position must remain available to them rather than gated behind scroll alone."
     },
     {
       "title": "Design Trends That Will Influence Extensions in 2026",
@@ -448,7 +448,7 @@
       "category": "interfaces",
       "type": "article",
       "accessed": "2026-10-22",
-      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay \u2014 a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
     },
     {
       "title": "Validation gate for generated interface trees",
@@ -1456,7 +1456,7 @@
       "category": "states",
       "type": "article",
       "accessed": "2026-10-23",
-      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
+      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters \u2014 corroborates pre-populated suggestion states that disclose their nature."
     },
     {
       "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
@@ -1928,7 +1928,7 @@
       "category": "patterns",
       "type": "article",
       "accessed": "2026-10-25",
-      "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type — free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
+      "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type \u2014 free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
     },
     {
       "title": "Paywall trial-offer guidance",
@@ -3552,7 +3552,7 @@
       "category": "patterns",
       "type": "article",
       "accessed": "2026-10-31",
-      "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain — full price or deposit with the balance due on release — and manage expectations with updates when dates change."
+      "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain \u2014 full price or deposit with the balance due on release \u2014 and manage expectations with updates when dates change."
     },
     {
       "title": "Tooltip best practices: remove friction, guide users",
@@ -4627,7 +4627,7 @@
       "notes": "Focus mode schedules: named modes per activity with their own allowlists of people and apps, schedules by time, location, or app launch with days stated, a visible state while on, an automatic reply to senders, sync across devices, and separate exception lists per mode so a mode that allows everything is a label rather than a boundary."
     },
     {
-      "title": "Toggle UX: switch, toggle button or checkbox — how to pick",
+      "title": "Toggle UX: switch, toggle button or checkbox \u2014 how to pick",
       "url": "https://uxpickle.com/effective-toggle-buttons/",
       "category": "primitives",
       "type": "article",
@@ -4683,7 +4683,7 @@
       "notes": "Bottom tab bar or a row under the header over a hidden burger; open menu puts search first, large rows, contacts at the bottom; header hides on scroll down and returns slimmer on scroll up; breadcrumbs shrink to one step back on a phone."
     },
     {
-      "title": "Your CAPTCHA Might Violate WCAG 2.2 — Here's What an Accessible Alternative Looks Like",
+      "title": "Your CAPTCHA Might Violate WCAG 2.2 \u2014 Here's What an Accessible Alternative Looks Like",
       "url": "https://www.wcag.world/blog/captcha-accessible-alternatives-wcag",
       "category": "patterns",
       "type": "article",
@@ -4912,7 +4912,7 @@
       "category": "patterns",
       "type": "guide",
       "accessed": "2026-11-06",
-      "notes": "Notification inbox triage: read, done, and following are separate dimensions — reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
+      "notes": "Notification inbox triage: read, done, and following are separate dimensions \u2014 reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
     },
     {
       "title": "Activity rings are harder to read than bar charts",
@@ -5075,12 +5075,12 @@
       "notes": "Revised 2026 safety-rating protocols require physical controls for indicators, wipers, hazard lights, horn, and emergency call; touchscreen-only cars score poorly on primary driving controls; physical controls allow operation without extended attention away from the road."
     },
     {
-      "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them — Guidelines 03/2022, version 2.0",
+      "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them \u2014 Guidelines 03/2022, version 2.0",
       "url": "https://www.datenschutzstelle.li/download_file/view/804/403",
       "category": "patterns",
       "type": "guidelines",
       "accessed": "2026-11-07",
-      "notes": "Six deceptive design pattern categories — overloading, skipping, stirring, obstructing, fickle, left in the dark — with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
+      "notes": "Six deceptive design pattern categories \u2014 overloading, skipping, stirring, obstructing, fickle, left in the dark \u2014 with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
     },
     {
       "title": "Criteria for websites (from end of 2026)",
@@ -5112,7 +5112,7 @@
       "category": "patterns",
       "type": "guidance",
       "accessed": "2026-11-07",
-      "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon — the common positions on cookie banner practices."
+      "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon \u2014 the common positions on cookie banner practices."
     },
     {
       "title": "Public Charge Point Regulations 2023 guidance",
@@ -5363,7 +5363,7 @@
       "notes": "One-tap bid for the next step above the current price; a maximum bid that bids in steps up to the stated cap and never past it; a sudden-death clock that tops back up on every bid and drops to 5 seconds at last call; the server clock decides the winner; every bid is a binding offer to buy."
     },
     {
-      "title": "How to Run an Online Auction — Complete Operator's Guide",
+      "title": "How to Run an Online Auction \u2014 Complete Operator's Guide",
       "url": "https://www.auction-rabbit.com/en/auction-system/operations/how-to-run-an-online-auction",
       "category": "patterns",
       "type": "guide",
@@ -5680,10 +5680,10 @@
       "category": "patterns",
       "type": "documentation",
       "accessed": "2026-11-10",
-      "notes": "Government guidance for landlords on rental listings: informative listings answering the renter's questions, photos of every room, pre-screening, and the essentials of a tenant application — verifiable income and employment, references, identification shown but not copied, credit check only with written approval — with the same documented criteria for every applicant."
+      "notes": "Government guidance for landlords on rental listings: informative listings answering the renter's questions, photos of every room, pre-screening, and the essentials of a tenant application \u2014 verifiable income and employment, references, identification shown but not copied, credit check only with written approval \u2014 with the same documented criteria for every applicant."
     },
     {
-      "title": "Rules of Operation — rental agencies",
+      "title": "Rules of Operation \u2014 rental agencies",
       "url": "https://codelibrary.amlegal.com/codes/cleveland/latest/cleveland_oh/0-0-0-37349",
       "category": "patterns",
       "type": "documentation",
@@ -5699,7 +5699,7 @@
       "notes": "Regulator guide to making an insurance claim: notify as soon as practical, ask what is needed, how much time there is to file, and how long processing takes; claim reference number; acknowledgement within three working days; assessor visit within three working days; settlement windows by claim size."
     },
     {
-      "title": "Getting ready for Self Assessment — a 10 point step-by-step guide",
+      "title": "Getting ready for Self Assessment \u2014 a 10 point step-by-step guide",
       "url": "https://www.gov.uk/government/publications/submit-your-self-assessment-tax-return-early/top-tips-for-filing-your-tax-return",
       "category": "patterns",
       "type": "documentation",
@@ -5769,6 +5769,166 @@
       "type": "documentation",
       "accessed": "2026-11-10",
       "notes": "Conciliation-service guidelines to the short-term hire code: mandatory charges in the headline price; fuel policies prominently highlighted during booking with return at the same fuel level at no extra charge; the damage-dispute procedure disclosed during booking with the right to challenge, photographic evidence encouraged, and evidence plus repair-cost calculation provided for any charge; pre-authorisations and deposits stated during booking and refunded or unblocked as soon as possible after the rental."
+    },
+    {
+      "title": "Recipe app design examples",
+      "url": "https://screensdesign.com/articles/recipe-app-design-examples/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-11-10",
+      "notes": "Cooking mode for divided attention and messy hands: one large readable step at a time with visible progress and previous and next controls, quantities in the instruction or one tap away, multiple labelled timers, screen kept awake with clear benefit, step and timer state persisted locally and reconciled after backgrounding, voice actions confirmed for destructive timer or step changes with a touch fallback."
+    },
+    {
+      "title": "Drive-through guidelines for customers with disabilities",
+      "url": "https://houstontx.gov/disabilities/MOPD-Drive-Through-Guidelines.pdf",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "City disability office guidance on serving customers with disabilities at a drive-through: greet and take orders from customers with disabilities as from any other customer; a printed menu at the drive-through window and at interior registers on request; pen and paper available at drive-through windows; patience, since communication takes time; staff training on serving customers with disabilities."
+    },
+    {
+      "title": "Complete multiple tasks pattern",
+      "url": "https://design-system.service.gov.uk/patterns/complete-multiple-tasks/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Government design-system guidance for longer transactions: only use a complete-multiple-tasks page where tasks may be completed over several sessions; allow saving progress and continuing where the person left off; group related tasks and show their state."
+    },
+    {
+      "title": "Task list component",
+      "url": "https://design-system.service.gov.uk/components/task-list/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Government design-system guidance on task lists for multi-step transactions: show each task with its state so the person can see what is done and what remains."
+    },
+    {
+      "title": "Check answers pattern",
+      "url": "https://design-system.service.gov.uk/patterns/check-answers/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Government design-system guidance: let people check their answers before submitting information to a service, with each answer changeable in place."
+    },
+    {
+      "title": "How a customer applies for a passport online",
+      "url": "https://www.gov.uk/government/publications/digital-customer-services-caseworker-guidance/digital-customer-services-how-a-customer-applies-online-accessible",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Passport-office operational guidance: applicants complete and submit the application online, upload a digital photo, and pay the fee; the service states what documents are needed and how and when they are returned; the customer can track progress through submission, identity confirmation, and referee stages."
+    },
+    {
+      "title": "Renew a passport online",
+      "url": "https://travel.state.gov/content/travel/en/passports/have-passport/renew-online.html",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "National passport authority renewal page: pay the fee by card; the current document is cancelled when the renewal is submitted and cannot be used for travel afterwards; email status updates as the application moves through processing, approval, and dispatch, with a route to supply more information where asked."
+    },
+    {
+      "title": "Mortgage Rule Review Instrument 2025",
+      "url": "https://public-prod-api.azurewebsites.net/files/instrument/MCOB/FCA%202025/34-2025-07-22.pdf",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Financial-regulator rulebook instrument amending the mortgages conduct-of-business sourcebook: firms must assess affordability under the consumer duty and their own responsible-lending policy, including a modified affordability assessment for remortgaging."
+    },
+    {
+      "title": "Consumer Protection Code: mortgage application timelines and refusal reasons",
+      "url": "https://www.centralbank.ie/regulation/consumer-protection/consumer-protection-code/section-48-regulations/part-3-consumer-banking--credit--arrears-and-certain-other-financial-arrangements",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Financial-regulator consumer protection code: acknowledge a complete mortgage application within 3 working days, an incomplete one within 3 working days naming the documents still needed, and give the decision within 10 working days of receiving all documents or give reasons and an expected timeframe; give refusal reasons in writing within 10 working days of request."
+    },
+    {
+      "title": "How to apply for a mortgage",
+      "url": "https://test.moneyhelper.org.uk/en/homes/buying-a-home/how-to-apply-for-a-mortgage",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Government-backed money-guidance service: affordability checks take regular household bills and spending into account and stress-test whether repayments stay affordable if rates rise; documents to collect include payslips, bank statements, identity and address proof, and proof of deposit."
+    },
+    {
+      "title": "Manage fall detection on a smartwatch",
+      "url": "https://support.apple.com/guide/watch/manage-fall-detection-apd34c409704/watchos",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Platform support documentation: where a hard fall is detected and the wearer is immobile for about a minute, a 30-second countdown begins with a wrist tap and a rising alarm; tapping cancel stops the call, and when the countdown ends the watch contacts emergency services on its own; where the wearer is moving, it waits for a response and never calls on its own; manual SOS is press-and-hold the side button, released to cancel; not all falls are detected."
+    },
+    {
+      "title": "Fall detection on a smartwatch",
+      "url": "https://support.google.com/googlepixelwatch/answer/12663810?hl=en-GB&ref_topic=12652267",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Platform support documentation: when a hard fall is detected the watch waits about 30 seconds, then vibrates, rings loudly and asks whether to call emergency services; with no response it alarms and then calls after 60 seconds with an automated voice message; manual SOS is press the crown five times, then touch and hold the screen for three seconds, releasing the hold cancels the call; fall detection cannot detect all falls and needs a connection to call."
+    },
+    {
+      "title": "Electronic Fund Transfer Act: disclosure of fees at automated teller machines",
+      "url": "https://Www.Consumerfinance.Gov/rules-policy/regulations/1005/2016-11-14/16/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Consumer-protection regulator rule text: an operator imposing a fee at a machine must give notice disclosing the amount of the fee on the screen or on paper before the person is committed to paying it; a fee may be imposed only where the person elects to continue after receiving the notice."
+    },
+    {
+      "title": "Disclosure of commission on payments via ATMs and payment terminals",
+      "url": "http://www.cbr.ru/eng/press/event/?id=2542",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Central bank and competition authority joint letter: disclose the commission amount charged on payments via machines before money is inserted, displayed on screen in a simple and easy-to-understand manner in clear legible type, and warn in advance whether money already inserted can be returned before final confirmation."
+    },
+    {
+      "title": "Electronic fund transfers: receipts at electronic terminals",
+      "url": "https://www.mass.gov/doc/209-cmr-3100-electronic-fund-transfers-and-establishment-and-operation-of-electronic-branches-0/download",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "State regulator rule: receipts at electronic terminals must include a transfer identification number and a 24-hour toll-free telephone number for inquiries or complaints."
+    },
+    {
+      "title": "Smart metering implementation programme: in-home display minimum requirements",
+      "url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/42731/233-smart-metering-imp-in-home.pdf",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Energy-regulator programme document (2010 consultation proposals): proposed minimum requirements for an in-home display include real-time use, historical use so the current period can be compared with a previous one, use shown in money as well as in units, and a visual marker for high and low use alongside the figures; verify against the current metering specification before relying on it for a published row."
+    },
+    {
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "url": "https://www.w3.org/TR/2023/REC-WCAG22-20231005/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-10",
+      "notes": "Accessibility standard, Recommendation of 5 October 2023: adds nine success criteria since the previous version, six at Level A or AA, including a single-pointer alternative for dragging movements, help that stays in the same relative order across pages, no repeated entry of the same information in one process, and sign-in that does not depend on remembering a password or solving a puzzle."
+    },
+    {
+      "title": "Interaction design patterns for augmented reality fitting rooms",
+      "url": "https://www.mdpi.com/1424-8220/22/3/982/htm",
+      "category": "patterns",
+      "type": "research",
+      "accessed": "2026-11-10",
+      "notes": "Peer-reviewed paper proposing nine interaction patterns for fitting rooms that overlay garments on the person in a mirror or on a phone: separate catalogue and fitting steps, measurement with privacy, mid-air gestures kept low and brief, a touch or phone route for people unfamiliar with gestures, and a focus-group evaluation."
+    },
+    {
+      "title": "The impact of information layout and auxiliary instruction display mode on the usability of virtual fitting interaction interfaces",
+      "url": "https://www.mdpi.com/2078-2489/16/10/862",
+      "category": "patterns",
+      "type": "study",
+      "accessed": "2026-11-10",
+      "notes": "Experiment with 60 participants: a grid layout served multi-item choice better than list or horizontal strips, and dark-on-light instruction text served single-item search and demanding tasks better; the grid with dark-on-light text was the fastest combination."
+    },
+    {
+      "title": "The role of digital tools designed to help workers clearly and personally visualize their pension situation: the case of individual pension dashboards",
+      "url": "https://www.fiapinternacional.org/wp-content/uploads/2025/10/NP-88-ING-1.pdf",
+      "category": "patterns",
+      "type": "study",
+      "accessed": "2026-11-10",
+      "notes": "Analysis of six national pension dashboards (Denmark, Sweden, Belgium, United Kingdom, Chile, Mexico) based on OECD data: integrate all income sources, use inflation-adjusted projections, present information in layers (total and projection first, breakdown by source second, plan detail third), offer dynamic calculators with optimistic, neutral and pessimistic scenarios, and help locate lost accounts."
     }
   ]
 }

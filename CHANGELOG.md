@@ -7,6 +7,58 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Virtual try-on row added to `catalog/patterns.md`: items that can be tried on are marked, the try-on entry sits on the product view and applies the item at once, size and colour choice and the add-to-cart control stay on the try-on screen, the camera is asked for only when a try-on starts with the trade stated first and a manual-measurement or size-chart route where the camera is refused or unavailable, a store mirror keeps catalogue and fitting separate with chrome at the edges, gestures are kept low and brief with a touch or phone route beside them, the starting point is marked with short on-screen guidance, and measurement is treated as private with an at-home route. Choice items are laid out as a grid and instruction text is kept dark on a light ground. Coverage matrix updated. 2 new source records (740 total).
+
+- Patterns catalogue: Pension dashboard row added to `catalog/patterns.md`: the total saved so far sits beside the projected retirement income stated in today's money, every income source (state, workplace, private) is combined into one total and one projection, detail is layered (total and projection first, breakdown by source second, plan specifics third), a calculator shows how changing the retirement age moves the projection with optimistic, neutral, and pessimistic outcomes and stated assumptions, lost accounts can be located, money terms are in plain words with bar charts for comparison, and a dashboard that cannot change figures says so and points to where the change is made. Coverage matrix updated. 1 new source record (741 total).
+
+- Patterns catalogue: Government document application, Mortgage
+  application, and Smartwatch fall detection and emergency SOS rows
+  added to `catalog/patterns.md`: the document-application row
+  states eligibility, fee, and timescale first, uses a stepped form
+  with save and return, asks for documents only when the step needs
+  them with capture guidance before upload, confirms identity
+  through a stated route, shows a review before submission, states
+  before submission that the current document becomes invalid on
+  submission, and tracks by named stages with dates; the mortgage
+  row gives an affordability estimate before detail with a
+  rate-rise view, shows the full document checklist first,
+  acknowledges complete and incomplete applications with the
+  missing documents named, gives the decision within a stated time
+  or the reasons and expected timeframe, gives refusal reasons in
+  writing, and tracks by named stages; the fall-detection row taps
+  the wrist and sounds an alarm on a hard fall, waits where the
+  wearer is moving, starts a stated countdown with a large cancel
+  control where the wearer stays still, calls emergency services
+  on its own with location and a recorded message when the
+  countdown ends, and offers a press-and-hold manual SOS that
+  cancels on release. Coverage matrix updated. 15 new source
+  records (738 total). Roadmap actions 263, 270, and 272 completed.
+
+- States catalogue: four rules from the current accessibility
+  standard added to `catalog/states.md`: a single-pointer route
+  without dragging for every dragging movement, help entries
+  keeping the same relative order across pages, no repeated entry
+  of information already given in the same process, and sign-in
+  steps that never require remembering a password or solving a
+  puzzle without an alternative or an assisting mechanism. The
+  source record for the standard is included in the 15 above.
+
+- Roadmap: action 252 updated with a city disability office's
+  drive-through guidelines now covering the exception route
+  directly, and actions 264, 268, and 271 updated with new source
+  findings — the shared document-application flow for 264, fee
+  disclosure and receipt rules for 268, and an energy-regulator
+  programme document for 271; 1 new source record for the
+  drive-through guidelines. Three new improvement actions added
+  (273 phone voice menu, 274 authentication worked example, 275
+  settings worked example); coverage matrix updated (Cooking mode
+  added to Full; Passport renewal moved from Partial to Full;
+  Home energy usage dashboard and Phone voice menu added to
+  Partial; Authentication and Settings added as worked-example
+  gaps).
+
+- Patterns catalogue: Cooking mode row added to `catalog/patterns.md`: one large readable step at a time with visible progress and previous and next controls that always work, quantities in the instruction or one tap away, several labelled timers at once, the screen kept awake only while cooking is in progress with the benefit stated plainly, the current step and every timer saved on the device and restored after backgrounding or sleep, and voice actions confirmed before changing a timer or moving a step with a touch route always kept. 1 new source record (722 total).
+
 - Patterns catalogue: Temporary home access code and Car rental
   and car sharing booking rows added to `catalog/patterns.md`:
   the access-code row creates a code for one person and one door
