@@ -1,0 +1,105 @@
+/* Desktop example: framework-free styles demonstrating the desktop layout rules. */
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #111;
+  background: #e8e8e8;
+}
+.desktop-page {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 4rem;
+}
+.desktop-page h1 { font-size: 1.5rem; margin: 0.5rem 0; }
+.desktop-page h2 { font-size: 1.125rem; margin: 0 0 0.5rem; }
+.desktop-page button {
+  min-height: 2.5rem;
+  padding: 0 0.9rem;
+  font-size: 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  color: #111;
+  background: #fff;
+  border: 1px solid #666;
+}
+.desktop-page button:disabled {
+  color: #777;
+  background: #f0f0f0;
+  border-color: #aaa;
+  cursor: not-allowed;
+}
+.dp-primary {
+  color: #fff;
+  background: #0b5fff;
+  border-color: #0b5fff;
+}
+.dp-menubar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  background: #fff;
+  border: 1px solid #888;
+  border-radius: 0.5rem;
+}
+.dp-menubar button { border-color: transparent; background: transparent; }
+.dp-menubar-note { color: #333; font-size: 0.9rem; margin-left: 0.5rem; }
+.dp-windows { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+.dp-active-window { font-weight: 700; border-width: 2px; border-color: #0b5fff; }
+.dp-toolbar, .dp-pane {
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border: 1px solid #888;
+  border-radius: 0.5rem;
+}
+.dp-toolbar { margin: 1rem 0; }
+.dp-panes {
+  display: grid;
+  grid-template-columns: 16rem 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+.dp-pane ul { list-style: none; margin: 0 0 1rem; padding: 0; }
+.dp-pane li { margin: 0.25rem 0; }
+.dp-pane li button { width: 100%; text-align: left; }
+.dp-note { color: #333; font-size: 0.95rem; }
+.dp-row { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+.dp-status {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  border: 1px solid #888;
+  border-radius: 0.375rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+.dp-demo { margin-top: 2rem; }
+.dp-demo-row { display: flex; align-items: center; gap: 1rem; }
+.dp-loading {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 3px solid #ccc;
+  border-top-color: #0b5fff;
+  border-radius: 50%;
+}
+.dp-empty {
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border: 1px dashed #888;
+  border-radius: 0.5rem;
+}
+.dp-failure {
+  padding: 0.75rem 1rem;
+  background: #fff4f4;
+  border: 1px solid #b00;
+  border-radius: 0.5rem;
+}
+@media (max-width: 48rem) {
+  .dp-panes { grid-template-columns: 1fr; }
+}

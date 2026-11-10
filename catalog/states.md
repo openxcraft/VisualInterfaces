@@ -82,7 +82,7 @@ Every element and page in this group defines all seven states. Missing states ar
 | Active | Pressed or selected appearance while interaction is in progress. | Feedback appears within 100 ms of input. |
 | Disabled | Reduced contrast, no pointer response, still readable. | Explain why it is unavailable nearby when the reason is not obvious. |
 | Loading | Skeleton blocks or a progress indicator replace live content. | Keep layout dimensions stable so content does not shift. |
-| Empty | Explain the absence in one short sentence and offer one action. | Offer one clear next action and, where relevant, a reset for filters. |
+| Empty | Explain the absence in one short sentence and offer one action. | Offer one clear next action and, where relevant, a reset for filters. Where content failed to load, the empty state still renders as a static fallback, never a blank screen: it states what is missing, offers one next action, and states whether a retry will restore the content. |
 | Error | Name the failure in plain language, preserve input, and place retry next to the message. | Keep entered data, place the message next to the problem, and offer a retry. |
 
 ## Error-state groups

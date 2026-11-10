@@ -1,6 +1,6 @@
 {
  "version": "0.1.0",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "sources": [
   {
    "title": "Design trends overview for 2026",
@@ -440,7 +440,7 @@
    "category": "trends",
    "type": "reading-list",
    "accessed": "2026-10-22",
-   "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+   "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered \u2014 content revealed by scroll position must remain available to them rather than gated behind scroll alone."
   },
   {
    "title": "Design Trends That Will Influence Extensions in 2026",
@@ -448,7 +448,7 @@
    "category": "interfaces",
    "type": "article",
    "accessed": "2026-10-22",
-   "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+   "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay \u2014 a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
   },
   {
    "title": "Validation gate for generated interface trees",
@@ -1456,7 +1456,7 @@
    "category": "states",
    "type": "article",
    "accessed": "2026-10-23",
-   "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
+   "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters \u2014 corroborates pre-populated suggestion states that disclose their nature."
   },
   {
    "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
@@ -1928,7 +1928,7 @@
    "category": "patterns",
    "type": "article",
    "accessed": "2026-10-25",
-   "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type — free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
+   "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type \u2014 free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
   },
   {
    "title": "Paywall trial-offer guidance",
@@ -3552,7 +3552,7 @@
    "category": "patterns",
    "type": "article",
    "accessed": "2026-10-31",
-   "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain — full price or deposit with the balance due on release — and manage expectations with updates when dates change."
+   "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain \u2014 full price or deposit with the balance due on release \u2014 and manage expectations with updates when dates change."
   },
   {
    "title": "Tooltip best practices: remove friction, guide users",
@@ -4627,7 +4627,7 @@
    "notes": "Focus mode schedules: named modes per activity with their own allowlists of people and apps, schedules by time, location, or app launch with days stated, a visible state while on, an automatic reply to senders, sync across devices, and separate exception lists per mode so a mode that allows everything is a label rather than a boundary."
   },
   {
-   "title": "Toggle UX: switch, toggle button or checkbox — how to pick",
+   "title": "Toggle UX: switch, toggle button or checkbox \u2014 how to pick",
    "url": "https://uxpickle.com/effective-toggle-buttons/",
    "category": "primitives",
    "type": "article",
@@ -4683,7 +4683,7 @@
    "notes": "Bottom tab bar or a row under the header over a hidden burger; open menu puts search first, large rows, contacts at the bottom; header hides on scroll down and returns slimmer on scroll up; breadcrumbs shrink to one step back on a phone."
   },
   {
-   "title": "Your CAPTCHA Might Violate WCAG 2.2 — Here's What an Accessible Alternative Looks Like",
+   "title": "Your CAPTCHA Might Violate WCAG 2.2 \u2014 Here's What an Accessible Alternative Looks Like",
    "url": "https://www.wcag.world/blog/captcha-accessible-alternatives-wcag",
    "category": "patterns",
    "type": "article",
@@ -4912,7 +4912,7 @@
    "category": "patterns",
    "type": "guide",
    "accessed": "2026-11-06",
-   "notes": "Notification inbox triage: read, done, and following are separate dimensions — reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
+   "notes": "Notification inbox triage: read, done, and following are separate dimensions \u2014 reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
   },
   {
    "title": "Activity rings are harder to read than bar charts",
@@ -5075,12 +5075,12 @@
    "notes": "Revised 2026 safety-rating protocols require physical controls for indicators, wipers, hazard lights, horn, and emergency call; touchscreen-only cars score poorly on primary driving controls; physical controls allow operation without extended attention away from the road."
   },
   {
-   "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them — Guidelines 03/2022, version 2.0",
+   "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them \u2014 Guidelines 03/2022, version 2.0",
    "url": "https://www.datenschutzstelle.li/download_file/view/804/403",
    "category": "patterns",
    "type": "guidelines",
    "accessed": "2026-11-07",
-   "notes": "Six deceptive design pattern categories — overloading, skipping, stirring, obstructing, fickle, left in the dark — with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
+   "notes": "Six deceptive design pattern categories \u2014 overloading, skipping, stirring, obstructing, fickle, left in the dark \u2014 with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
   },
   {
    "title": "Criteria for websites (from end of 2026)",
@@ -5112,7 +5112,7 @@
    "category": "patterns",
    "type": "guidance",
    "accessed": "2026-11-07",
-   "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon — the common positions on cookie banner practices."
+   "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon \u2014 the common positions on cookie banner practices."
   },
   {
    "title": "Public Charge Point Regulations 2023 guidance",
@@ -5363,7 +5363,7 @@
    "notes": "One-tap bid for the next step above the current price; a maximum bid that bids in steps up to the stated cap and never past it; a sudden-death clock that tops back up on every bid and drops to 5 seconds at last call; the server clock decides the winner; every bid is a binding offer to buy."
   },
   {
-   "title": "How to Run an Online Auction — Complete Operator's Guide",
+   "title": "How to Run an Online Auction \u2014 Complete Operator's Guide",
    "url": "https://www.auction-rabbit.com/en/auction-system/operations/how-to-run-an-online-auction",
    "category": "patterns",
    "type": "guide",
@@ -5419,52 +5419,324 @@
    "notes": "Kiosk-native hotel arrival flow: reservation lookup, the check-in steps the property allows, key issue at the end, and a completion screen that resets for the next guest; document capture handed to the guest's own phone by scannable code; language chosen on the device."
   },
   {
-  "title": "Tenant Portal UX: Design That Residents Actually Use",
-  "url": "https://gateway-web-design.com/blog/tenant-portal-ux",
-  "category": "patterns",
-  "type": "guide",
-  "accessed": "2026-11-09",
-  "notes": "Design guidance for resident portals citing renter-preference surveys: portal access and maintenance as the main drivers of satisfaction, phone-first design, push-plus-pull notifications with deep links into the portal for the action itself, and a visible login in primary navigation."
- },
+   "title": "Tenant Portal UX: Design That Residents Actually Use",
+   "url": "https://gateway-web-design.com/blog/tenant-portal-ux",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "Design guidance for resident portals citing renter-preference surveys: portal access and maintenance as the main drivers of satisfaction, phone-first design, push-plus-pull notifications with deep links into the portal for the action itself, and a visible login in primary navigation."
+  },
   {
-  "title": "How to Set Up a Tenant Portal (And Why Your Tenants Expect One in 2026)",
-  "url": "https://www.peaklandlord.com/posts/tenant-portal-setup-guide-landlords-2026",
-  "category": "patterns",
-  "type": "guide",
-  "accessed": "2026-11-09",
-  "notes": "Feature checklist for tenant portals: rent payment with autopay, maintenance submission with status tracking, payment history and receipts, lease and document access, and reminders before rent is due."
- },
+   "title": "How to Set Up a Tenant Portal (And Why Your Tenants Expect One in 2026)",
+   "url": "https://www.peaklandlord.com/posts/tenant-portal-setup-guide-landlords-2026",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "Feature checklist for tenant portals: rent payment with autopay, maintenance submission with status tracking, payment history and receipts, lease and document access, and reminders before rent is due."
+  },
   {
-  "title": "QR Table Ordering: What Changes, What to Check",
-  "url": "https://www.mirastart.com/blog/qr-table-ordering-restaurants",
-  "category": "patterns",
-  "type": "guide",
-  "accessed": "2026-11-09",
-  "notes": "Independent review of QR order-and-pay at the table: one code per table opening the menu with the table already known, no app to install, split checks, a call-staff route, a stated check that the code on the table is genuine, and web accessibility guidance for the menu page behind the code."
- },
+   "title": "QR Table Ordering: What Changes, What to Check",
+   "url": "https://www.mirastart.com/blog/qr-table-ordering-restaurants",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "Independent review of QR order-and-pay at the table: one code per table opening the menu with the table already known, no app to install, split checks, a call-staff route, a stated check that the code on the table is genuine, and web accessibility guidance for the menu page behind the code."
+  },
   {
-  "title": "QR Code Ordering System for Restaurants",
-  "url": "https://www.restropress.com/qr-code-ordering-system-for-restaurants-how-table-ordering-works/",
-  "category": "patterns",
-  "type": "guide",
-  "accessed": "2026-11-09",
-  "notes": "End-to-end table ordering flow: scan, browse with modifiers, order to the kitchen by table number, pay on the phone or at the end, call staff from the same screen; paper menu and staff kept available, and the system does not work during an internet outage."
- },
+   "title": "QR Code Ordering System for Restaurants",
+   "url": "https://www.restropress.com/qr-code-ordering-system-for-restaurants-how-table-ordering-works/",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "End-to-end table ordering flow: scan, browse with modifiers, order to the kitchen by table number, pay on the phone or at the end, call staff from the same screen; paper menu and staff kept available, and the system does not work during an internet outage."
+  },
   {
-  "title": "Designing for Disconnection: Creating Digital Products That Promote Well-being",
-  "url": "https://www.designer-daily.com/designing-for-disconnection-creating-digital-products-that-promote-well-being-201201",
-  "category": "patterns",
-  "type": "guide",
-  "accessed": "2026-11-09",
-  "notes": "Design principles for digital wellbeing: native dashboards showing daily and weekly use, soft limits that gently nudge when self-allotted time is up, focus modes that strip away non-essential elements, and clear stopping points instead of endless content."
- },
+   "title": "Designing for Disconnection: Creating Digital Products That Promote Well-being",
+   "url": "https://www.designer-daily.com/designing-for-disconnection-creating-digital-products-that-promote-well-being-201201",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "Design principles for digital wellbeing: native dashboards showing daily and weekly use, soft limits that gently nudge when self-allotted time is up, focus modes that strip away non-essential elements, and clear stopping points instead of endless content."
+  },
   {
-  "title": "How to Reduce Screen Time (Ultimate Guide)",
-  "url": "https://www.digitalcitizen.life/how-to-reduce-screen-time-ultimate-guide/",
-  "category": "patterns",
-  "type": "guide",
-  "accessed": "2026-11-09",
-  "notes": "Cross-platform guide to screen-time controls: per-app daily limits with blocking at the end of the limit, scheduled downtime with allowed essentials, focus presets for work, family, and driving, and weekly usage reports."
- }
+   "title": "How to Reduce Screen Time (Ultimate Guide)",
+   "url": "https://www.digitalcitizen.life/how-to-reduce-screen-time-ultimate-guide/",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "Cross-platform guide to screen-time controls: per-app daily limits with blocking at the end of the limit, scheduled downtime with allowed essentials, focus presets for work, family, and driving, and weekly usage reports."
+  },
+  {
+   "title": "Accessing and sharing health records FAQs",
+   "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10686/",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "Parliamentary research briefing: who may access a health record, proxy access with consent, sharing between professionals for direct care, and retention periods."
+  },
+  {
+   "title": "How patient records are stored, used and shared",
+   "url": "https://www.epsom-sthelier.nhs.uk/privacy-notice",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "Hospital privacy notice: records shared only with professionals involved in direct care, retention of at least eight years, and the right to object to sharing."
+  },
+  {
+   "title": "E-book apps and their typography",
+   "url": "https://www.readerinc.com/magazine/ebook-apps-and-their-typography.html",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-09",
+   "notes": "Reading-app typography: letter and line spacing carry the strongest evidence, shorter lines reduce place-keeping errors, and ragged-right keeps word spacing even on narrow screens."
+  },
+  {
+   "title": "Accessible Typography: Choosing Readable Fonts",
+   "url": "https://fontatlas.net/blog/typography-for-accessibility.html",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-09",
+   "notes": "Accessible typography: 16px minimum body size, line height around 1.5, line length 45-75 characters, left-aligned text, and contrast of at least 4.5:1."
+  },
+  {
+   "title": "EReader Apps And Low Vision Accessibility",
+   "url": "https://veroniiiica.com/ereader-apps-and-low-vision-accessibility/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-09",
+   "notes": "Survey of mainstream e-reader apps for low-vision readers: adjustable text size, page colours, and layout customisation compared across apps and platforms."
+  },
+  {
+   "title": "2.2 Ballot Design",
+   "url": "https://ecampusontario.pressbooks.pub/electionsprocessandperformance/chapter/2-2-ballot-design/",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "Open-textbook chapter on ballot design: what a ballot must state, candidate order effects, marking methods including ranked choice, and the cost of confusing layouts."
+  },
+  {
+   "title": "Ranked choice voting",
+   "url": "https://civicdesign.org/topics/rcv/",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "Best practices for ranked-choice ballot design, voter education, and results displays, based on usability testing of ballot layouts."
+  },
+  {
+   "title": "The Usability of Ranked-Choice Voting in Digital Ballot Formats",
+   "url": "https://repository.rice.edu/items/c80f379c-c0f8-49ef-9ddb-b881eb02e49b",
+   "category": "patterns",
+   "type": "study",
+   "accessed": "2026-11-09",
+   "notes": "Study of three digital ranked-choice ballot formats: bubble grid, column, and hand-numbered; hand-numbered was slowest with the most errors, bubble grid rated most usable."
+  },
+  {
+   "title": "EU complaint form under Regulation (EC) 261/2004",
+   "url": "https://www.iaa.ie/docs/default-source/car-documents/eu_complaint_form_en.pdf",
+   "category": "patterns",
+   "type": "form",
+   "accessed": "2026-11-09",
+   "notes": "National enforcement body complaint form for flight disruption: entitlement check, flight and booking details, compensation tiers by distance, and escalation where the carrier does not answer."
+  },
+  {
+   "title": "How to File an EU261 Claim Yourself: Step-by-Step",
+   "url": "https://www.delaypaid.com/en/knowledge/claim-yourself-step-by-step",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-09",
+   "notes": "Claim flow in order: check entitlement, find the airline claim form, write the claim with flight, delay, and distance stated, keep a copy and a case reference, and escalate to the national enforcement body after six weeks without a response; compensation tiers of 250, 400, and 600 by flight distance."
+  },
+  {
+   "title": "Digital car key UX design guidelines (platform documentation)",
+   "url": "https://docs.partner.android.com/drivingux/foundations/digital-car-key/ux-design-guidelines",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-09",
+   "notes": "Phone as car key: discovery and setup, locks and unlocks, phone controls, key sharing with access levels and expiry, proximity unlock with a visible signal and a notification; works without a cellular signal."
+  },
+  {
+   "title": "Directive (EU) 2019/882 on the accessibility requirements for products and services",
+   "url": "https://eur-lex.europa.eu/eli/dir/2019/882/",
+   "category": "patterns",
+   "type": "regulation",
+   "accessed": "2026-11-09",
+   "notes": "Self-service terminals in scope: payment terminals, automated teller machines, ticketing machines, check-in machines, and interactive self-service terminals providing information. Terminal duties: text-to-speech, personal headsets, time limits warned through more than one sense with a way to extend them, adequate contrast and tactilely discernible keys and controls where keys are present, accessibility features that can be switched on without already needing them, and compatibility with hearing aids and telecoils where audio is used."
+  },
+  {
+   "title": "Get classroom email summaries (for guardians)",
+   "url": "https://support.google.com/edu/classroom/answer/6386354?hl=en-GB",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-09",
+   "notes": "A teacher or school administrator invites a guardian; the invitation must be accepted within 120 days. Summaries cover missing work, upcoming work, and class activities, and do not include grades. Guardians choose daily or weekly summaries, can unsubscribe or remove themselves at any time, and cannot access the classroom directly."
+  },
+  {
+   "title": "Manage captions and translations in Chrome",
+   "url": "https://support.google.com/chrome/answer/10538231",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-09",
+   "notes": "Live Caption generates captions for audio in the browser; captions are processed locally, never stored, and never leave the device. Live Translate sends captions for translation, from a listed set of source languages to over 100 target languages. Both are switched on under Settings, Accessibility, Audio and captions."
+  },
+  {
+   "title": "A User-Friendly Redesign of Departure Monitors in Local Public Transportation Based on a Comparative Eye Tracking Study",
+   "url": "https://link.springer.com/chapter/10.1007/978-3-032-37170-6_143",
+   "category": "patterns",
+   "type": "research",
+   "accessed": "2026-11-09",
+   "notes": "Peer-reviewed conference paper, first online 31 October 2026: a survey of 509 passengers and an eye-tracking study with 16 participants comparing a current departure-monitor layout with a redesigned one. The redesign keeps the board static, groups departures by transport kind, shows bus and tram times as countdowns and train times as clock times, states delays as added minutes, and codes disruptions in shape and words as well as colour, grounded in published legibility, contrast, and rail-accessibility standards."
+  },
+  {
+   "title": "Decide when and where to get care (care cards)",
+   "url": "https://service-manual.nhs.uk/design-system/patterns/help-users-decide-when-and-where-to-get-care",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-09",
+   "notes": "Public design-system pattern guidance, updated August 2026 and re-tested in 2026: three cards for three urgency tiers, routine, urgent and emergency, each with one action heading followed by a short symptom list; urgency stated in words in the heading, never by colour alone; one signposted service per heading; cards ordered by likelihood and seriousness; only the emergency route in an emergency card."
+  },
+  {
+   "title": "Chapter 3: Operable Parts",
+   "url": "https://www.access-board.gov/ada/guides/chapter-3-operable-parts/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-09",
+   "notes": "Regulator guidance on operable parts: reach range 15 to 48 inches above the floor for an unobstructed forward or side approach, reduced where reaching over an obstruction; clear floor space for approach; operable with one hand without tight grasping, pinching, or twisting of the wrist and with no more than 5 pounds of force."
+  },
+  {
+   "title": "Chapter 7: Communication Elements and Features",
+   "url": "https://www.access-board.gov/ada/chapter/ch07/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-09",
+   "notes": "Regulator standards for signs: raised characters 1/32 inch above the background, uppercase, sans serif, 5/8 inch to 2 inches high, duplicated in contracted Braille directly below the text, mounted with the baseline 48 to 60 inches above the floor on the latch side of the door; visual characters sized to viewing distance and mounted at least 40 inches above the floor; non-glare finish with strong light-on-dark or dark-on-light contrast."
+  },
+  {
+   "title": "Investigating Essential Usability Factors of Online Course Registration Systems",
+   "url": "https://nm.wu-wien.ac.at:443/research/publications/b952.pdf",
+   "category": "patterns",
+   "type": "research",
+   "accessed": "2026-11-09",
+   "notes": "Questionnaire study of two live course registration systems against ISONORM 9241/10: the systems differed most on self-descriptiveness and conformity with user expectations; labels and steps must explain what a control does and what happens next without prior training."
+  },
+  {
+   "title": "Usability Evaluation of Class Enrolment Application for University Students",
+   "url": "https://eudl.eu/doi/10.4108/eai.30-10-2024.2354813",
+   "category": "patterns",
+   "type": "research",
+   "accessed": "2026-11-09",
+   "notes": "2025 usability evaluation of a class enrolment application for university students: consistent course-listing structure so a planned timetable can be scanned and compared at a glance, and errors surfaced while planning so clashes, missing prerequisites, and full sections are fixed before the registration window opens."
+  },
+  {
+   "title": "Course Registration Systems: Importance of Subjective Data in Interpretations of Usability",
+   "url": "https://digitalcommons.odu.edu/knowledge_expo/2026expo/postersession2/55/",
+   "category": "patterns",
+   "type": "research",
+   "accessed": "2026-11-09",
+   "notes": "22-participant experiment on error recovery in course registration: error messages should lead directly to the fix, and recovery should be measured, not only task time, since stress rises measurably after failed attempts."
+  },
+  {
+   "title": "Donation Usability: Increasing Online Giving",
+   "url": "https://www.nngroup.com/articles/donation-usability/",
+   "category": "patterns",
+   "type": "research",
+   "accessed": "2026-11-09",
+   "notes": "Usability study of 23 non-profit sites: only 43% answered what the work is on the homepage and 4% answered how donations are used; on 17% of sites users could not find where to donate; the donation flow itself was largely usable, the content was the problem."
+  },
+  {
+   "title": "Code of Fundraising Practice: table of changes",
+   "url": "https://www.fundraisingregulator.org.uk/code-2025-table-of-changes",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-09",
+   "notes": "Regulator code of fundraising practice, effective 1 November 2025: donors must be treated fairly, not misled, and not pressured into regular giving; recurring terms and the route to cancel or amend must be stated plainly."
+  },
+  {
+   "title": "How to Collect Donor Authorization for Direct Payment",
+   "url": "https://www.nacha.org/sites/default/files/2021-01/Nacha_Toolkit__AuthorizationRequirements_One-Pager_v9.pdf",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-09",
+   "notes": "Payments-standards guidance on donor authorisation for direct payment: state the amount, date of first payment, and interval in full at the point of commitment, and keep authorisation records for at least two years after cancellation."
+  },
+  {
+   "title": "What's new in Wallet",
+   "url": "https://developer.apple.com/videos/play/wwdc2026/209/",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-10",
+   "notes": "Wallet pass updates: a poster-style pass face, four new barcode types, and up to two featured actions drawn below the pass face."
+  },
+  {
+   "title": "Electronic signature",
+   "url": "https://design-patterns.service.justice.gov.uk/patterns/electronic-signature/",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-10",
+   "notes": "Public design-system pattern for signing a document online: guidance about signing placed in the journey before the signing step, and a check that the signer understands a ticked box carries the same effect as a handwritten signature."
+  },
+  {
+   "title": "List and show a rental unit",
+   "url": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies/starting-a-tenancy/list-and-show-a-rental-unit",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-10",
+   "notes": "Government guidance for landlords on rental listings: informative listings answering the renter's questions, photos of every room, pre-screening, and the essentials of a tenant application \u2014 verifiable income and employment, references, identification shown but not copied, credit check only with written approval \u2014 with the same documented criteria for every applicant."
+  },
+  {
+   "title": "Rules of Operation \u2014 rental agencies",
+   "url": "https://codelibrary.amlegal.com/codes/cleveland/latest/cleveland_oh/0-0-0-37349",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-10",
+   "notes": "Municipal code for rental agencies: listings must be accurate and current, with availability verified at least once every 48 hours."
+  },
+  {
+   "title": "A Guide to Insurance Claims",
+   "url": "https://ira.go.ug/wp-content/uploads/2025/06/English-Claims.-33.pdf",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-10",
+   "notes": "Regulator guide to making an insurance claim: notify as soon as practical, ask what is needed, how much time there is to file, and how long processing takes; claim reference number; acknowledgement within three working days; assessor visit within three working days; settlement windows by claim size."
+  },
+  {
+   "title": "Getting ready for Self Assessment \u2014 a 10 point step-by-step guide",
+   "url": "https://www.gov.uk/government/publications/submit-your-self-assessment-tax-return-early/top-tips-for-filing-your-tax-return",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-10",
+   "notes": "Government guidance on filing a tax return: eligibility check, registration, gathering figures first, saving progress and returning later, one step at a time, checking before submitting, and amending after submission."
+  },
+  {
+   "title": "Structuring a service",
+   "url": "https://gov-cy.github.io/govcy-design-system-docs-v2/patterns/service_structure/",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-10",
+   "notes": "Government design-system guidance on structuring an online service: one thing per page, and a chance to check answers before submitting."
+  },
+  {
+   "title": "Telehealth Behavior Consultations Scheduling Checklist",
+   "url": "https://www.aaha.org/wp-content/uploads/globalassets/06-publications/trends/digital-editions/2023/03-mar-2023/f2-mar23/telehealth-behavior-consult-checklist.pdf",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-10",
+   "notes": "Professional-association checklist for scheduling remote veterinary consultations: history form sent ahead, deposit to secure the appointment, video invite by email and text, a second contact route, and a medical summary from the primary clinician."
+  },
+  {
+   "title": "Telemedicine Appointments",
+   "url": "https://answers.illinois.edu/images/group490/shared/MDVC/TelemedicineAppts_MDVC133.pdf",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-10",
+   "notes": "University veterinary hospital policy for telemedicine appointments: scheduled only with clinician approval, only for patients with an established care relationship, thirty-minute slots, and the fee stated when booking."
+  },
+  {
+   "title": "Fulfillment",
+   "url": "https://www.kickstarter.com/help/handbook/fulfillment",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-10",
+   "notes": "Platform handbook on fulfilling a crowdfunded project: no more than five reward tiers for a first project, the fulfilment plan explained in the risks section, backer surveys sent when shipping approaches, and an update to backers at the first sign of a roadblock."
+  }
  ]
 }

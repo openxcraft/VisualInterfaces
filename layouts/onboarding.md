@@ -58,6 +58,11 @@ first completed action, and a measurable activation event.
   not when it is a feature tour in disguise; in-app tips work when
   they appear next to the next action, not as a wall of hints on
   sign-up.
+- Contextual guidance: teach in context — inline help is the
+  default; coach marks appear only when the person first reaches the
+  feature they explain, never more than three in a sequence, always
+  dismissable, and never a substitute for a clear label or a first
+  screen that teaches by doing.
 - Make activation measurable: define the activation event so it can be
   counted, and instrument completion, time to first value, and
   drop-off per step.

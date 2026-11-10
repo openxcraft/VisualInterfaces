@@ -7,6 +7,200 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Veterinary appointment booking, Rental
+  property viewing and tenancy application, Insurance claim
+  submission, and Tax filing and self-assessment rows added to
+  `catalog/patterns.md`: the vet row starts from the animal's saved
+  profile, offers video only for minor concerns where a care
+  relationship already exists, states the fee when booking, and
+  sends a history form ahead of the visit; the rental row pairs
+  scannable listing cards with a step-based application that asks
+  only for what the decision needs; the insurance row states what
+  the claim needs, how long there is to file, and the decision and
+  settlement times at notification; the tax row takes the return
+  one section at a time with save-and-resume and a review step
+  before sending. Coverage matrix updated. 8 new source records
+  (717 total). Roadmap actions 258, 260, 261, and 262 completed.
+
+- Patterns catalogue: Crowdfunding campaign page row in
+  `catalog/patterns.md` extended: keep reward tiers few and
+  comparable, treat every delivery date as an estimate, explain
+  the fulfilment plan on the page, and update backers regularly
+  and at the first sign of a roadblock with status, cause,
+  response, new timeline, and next steps. Roadmap action 237
+  completed.
+
+- Patterns catalogue: Accessibility labels on a store listing row
+  in `catalog/patterns.md` extended: one fixed set of labels with
+  the same wording and order on every listing, claimed only
+  against the published criteria for that feature and tested on
+  every device the app supports. The source was already recorded.
+  Roadmap action 244 completed.
+
+- Worked examples: Checkout worked example added under
+  `examples/`: a worked example demonstrating the ecommerce
+  layout and the checkout pattern rows — guest checkout, saved
+  payment method selection, delivery slot picker, and promo-code
+  entry — with all seven states. Roadmap action 154 completed.
+
+- Patterns catalogue: Document signing row in
+  `catalog/patterns.md` extended: where the signature is a ticked
+  box or a typed name rather than a drawn mark, state plainly
+  before signing that it carries the same effect as a handwritten
+  signature, ask the signer to confirm they understand that
+  before the signature is applied, and place guidance about
+  signing in the journey before the signing step. 1 new source
+  record (709 total).
+
+- Patterns catalogue: Pass and ticket display row in
+  `catalog/patterns.md` extended: where the platform allows actions
+  on the pass, at most two relevant actions appear below the pass
+  face, each labelled with what it does and kept about the pass
+  itself. 1 new source record (708 total).
+
+- Patterns catalogue: Recurring donation, Indoor wayfinding,
+  Hotel room controls, and University course registration rows
+  added to `catalog/patterns.md`: the donation row answers what
+  the work is and how donations are used on the same page, keeps
+  the donation action findable, presents the recurring choice as
+  an equally weighted option beside the one-time gift, and states
+  the recurring terms in full at the point of commitment; the
+  wayfinding row uses one name per destination across directory,
+  signs, and maps, with raised characters and contracted Braille
+  on room signs and visual characters sized to viewing distance;
+  the room-controls row places controls within reach, operable
+  with one hand and no more than 5 pounds of force, grouped by
+  what they do with the state shown in words; the registration
+  row plans first and registers second from a saved plan,
+  surfaces clashes, missing prerequisites, and full sections
+  while planning, and leads a failed step directly to its fix.
+  Coverage matrix updated. 8 new source records (707 total).
+  Roadmap actions 246, 250, 254, and 257 completed.
+
+- Roadmap: improvement-actions list reconciled with the
+  catalogue (roadmap action 239): 76 actions marked implemented,
+  66 of them implemented in earlier runs without the marker;
+  actions 120, 242, 243, 245, 248, and 253 already carried a
+  variant marker and were left as written. Four partly-
+  implemented actions completed: 20 (form validation timing:
+  single-invalid-field focus and input retention after a failed
+  submission), 21 (contextual guidance rules in the Onboarding
+  row and `layouts/onboarding.md`), 22 (empty-state fallback
+  rule in `catalog/states.md`), and 57 (no-results recovery rule
+  in the Search row). Three new improvement actions added (260
+  rental property viewing and tenancy application, 261 insurance
+  claim submission, 262 tax filing and self-assessment).
+  Coverage matrix updated with the new named gaps.
+
+- Patterns catalogue: Real-time departure board row added to
+  `catalog/patterns.md`: the board stays static with departures
+  grouped by transport kind, shows bus and tram times as a
+  countdown and train times as clock times, states delays as
+  added minutes, and marks disruptions in shape and words as
+  well as colour. Coverage matrix updated. 1 new source record
+  (698 total).
+
+- Patterns catalogue: Care decision card row added to
+  `catalog/patterns.md`: three urgency tiers — routine, urgent,
+  emergency — each with one action heading followed by a short
+  symptom list, urgency stated in words rather than colour alone,
+  one signposted service per heading, and cards ordered by
+  likelihood and seriousness. Coverage matrix updated. 1 new source
+  record (699 total).
+
+- Patterns catalogue: Self-checkout grocery kiosk, School
+  parent portal, and Live translated captions rows added to
+  `catalog/patterns.md`: the kiosk keeps a running total visible
+  with each scanned item priced as it is added, holds
+  age-restricted items aside for a check without blocking the
+  shop, warns before any time limit in more than one sense with
+  a way to extend it, and offers spoken guidance with a private
+  listening route and tactile keys; the portal keeps each child
+  separate, reaches guardians by invitation with daily or weekly
+  summaries that carry no grades, and lets a guardian unsubscribe
+  or remove themselves at any time; translated captions keep the
+  translated text beside the speaker's words, state the source
+  and target languages, and never store caption text unless a
+  transcript is asked for. Coverage matrix updated. 3 new source
+  records (697 total). Roadmap actions 249, 251, and 255
+  completed. Three new improvement actions added (257 university
+  course registration, 258 veterinary appointment booking, 259
+  laundry pickup and delivery).
+
+- Patterns catalogue: Keyless shared-car pickup row added to
+  `catalog/patterns.md`: the booking states whether the car opens
+  by phone or by card before the person leaves home, check-in
+  opens a stated time before the booking starts, one clear unlock
+  step with a visible failure state and a retry, lock and unlock
+  work without a signal, a guided condition check with a fault
+  report before driving off, extra drivers activate on their own
+  phones, and the trip ends with a lock confirmation and a summary
+  of time, distance, and cost. Coverage matrix updated. 1 new
+  source record (694 total).
+
+- Patterns catalogue: Flight disruption compensation claim row
+  added to `catalog/patterns.md`: eligibility bands with the
+  fixed amount for each distance band shown before the claim is
+  sent, flight and booking details carried from the booking,
+  compensation, expenses, and refund kept as separate amounts,
+  an evidence file the person can add to after sending, claim
+  states from sent to paid, a case reference given at once, and
+  a route to the national enforcement body where the carrier
+  does not answer. Coverage matrix updated. 2 new source
+  records (693 total). Roadmap action 256 completed.
+
+- Patterns catalogue: Ballot row added to `catalog/patterns.md`:
+  sentence case and left-aligned text, candidates in a single
+  column with contests clearly separated, instructions at the
+  start in plain words stating the result before the action, a
+  grid or column layout for ranked choices rather than
+  hand-numbered entry, a review screen before casting, a plain
+  invalid-selection notice, a cast confirmation, and large-print
+  and tactile options for the same ballot. Coverage matrix
+  updated. 3 new source records (691 total).
+
+- Patterns catalogue: Health record sharing and E-reader and
+  reading app rows added to `catalog/patterns.md`: sharing a
+  health record states the scope and the expiry before sharing,
+  protects a link or code with a separately shared passcode,
+  and keeps a revoke control with a record of who had access
+  and when; the reading app keeps type, spacing, and margin
+  choices between sessions, keeps the reading position across
+  devices, and offers chapter navigation, word lookup without
+  losing the page, and a low-glare mode. Coverage matrix
+  updated. 5 new source records (688 total). Roadmap actions
+  248 and 253 completed.
+
+- Desktop worked example added under `examples/desktop/`: a
+  menu bar, toolbar, two panes with drag-and-drop and a
+  keyboard path, window strip, status bar, and all seven
+  states, demonstrating the desktop layout rules. Coverage
+  matrix updated. Roadmap action 245 completed.
+
+- Roadmap: three new improvement actions added (254 hotel room
+  controls, 255 school parent portal, 256 flight disruption
+  compensation claim), ordered by coverage impact; each states
+  its done condition and the files it touches, and notes that a
+  platform or standards source is still needed before the row
+  is written.
+
+- Roadmap: five new improvement actions added (249 self-checkout
+  grocery kiosk, 250 indoor wayfinding, 251 live translated
+  captions, 252 drive-through and curbside pickup, 253 e-reader
+  and reading app), ordered by coverage impact; each states its
+  done condition and the files it touches, and notes that a
+  platform or standards source is still needed before the row is
+  written.
+
+- Coverage matrix: Gap column corrected in `roadmap.md` — six
+  rows implemented since the last review (transit card top-up,
+  in-flight entertainment, hotel self check-in, tenant portal, QR
+  table ordering, screen time dashboard) were listed as gaps
+  while also listed as full; they are removed from the gap list,
+  replaced by the five new named gaps (live translated captions,
+  self-checkout grocery kiosk, indoor wayfinding, drive-through
+  and curbside pickup, e-reader and reading app).
+
 - Patterns catalogue: Tenant portal, QR table ordering, and
   Screen time dashboard rows added to `catalog/patterns.md`:
   the portal gathers rent payment with a stated due date and
