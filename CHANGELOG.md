@@ -7,6 +7,61 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Temporary home access code and Car rental
+  and car sharing booking rows added to `catalog/patterns.md`:
+  the access-code row creates a code for one person and one door
+  with the validity window stated as a date and time range or a
+  recurring slot, sends the code to the person it is for with its
+  limits stated, offers single-use codes for deliveries or service
+  visits, keeps a list of everyone with access and their
+  authorised periods, revokes at once when a code is lost or no
+  longer trusted, and keeps a plain entry record; the car rental
+  row states the full cost including every compulsory charge and
+  the deposit and excess before payment, the fuel policy and the
+  fuel or charge level at handover, the pickup window and the
+  return procedure with inspection timescales, a condition check
+  with a diagram and photographs at pickup and return, and a
+  damage-dispute route with the right to challenge and a
+  reasonable time to challenge before the charge is taken.
+  Coverage matrix updated. 4 new source records (721 total).
+  Roadmap actions 247 and 267 completed.
+
+- Patterns catalogue: Passkey sign-in, Code scanner, and
+  Conversation mute rows consolidated in `catalog/patterns.md`:
+  the two Passkey sign-in rows, the Code scanner and Code scanning
+  rows, and the Conversation mute and Mute conversation rows each
+  become one row keeping the union of their rules, with
+  cross-references updated in the Scan-to-pay, QR code payment at
+  a till, and Mobile plan setup rows. Coverage matrix updated;
+  399 unique rows remain.
+
+- Roadmap: three new improvement actions added (270 mortgage
+  application, 271 home energy usage dashboard, 272 smartwatch
+  fall detection and emergency SOS), ordered by coverage impact;
+  each states its done condition and the files it touches, and
+  notes that a platform or standards source is still needed before
+  the row is written. Coverage matrix Partial list corrected —
+  the three named gaps from the last review (passport renewal,
+  visa application, childcare booking) were missing and are now
+  listed, and the car rental item moved to full. No new source
+  records for the actions themselves. Open actions 252, 259, 263,
+  264, 265, 266, 268, and 269 re-checked against deeper sources
+  and still below the source-quality bar, with their source notes
+  updated where partial qualifying material turned up.
+
+- Roadmap: four new improvement actions added (266 public library
+  borrowing, holds and renewals, 267 car rental and car sharing
+  booking, 268 ATM interface, 269 parking fine payment and
+  appeal), ordered by coverage impact; each states its done
+  condition and the files it touches, and notes that a platform
+  or standards source is still needed before the row is written.
+  Coverage matrix Partial list updated with the four new named
+  items. No new source records (717 total). Open actions 247, 252,
+  259, 263, 264, and 265 re-checked against fresh searches and
+  still below the source-quality bar; home insurance claim
+  submission is covered by the existing Insurance claim submission
+  row, so no new action for it.
+
 - Patterns catalogue: Veterinary appointment booking, Rental
   property viewing and tenancy application, Insurance claim
   submission, and Tax filing and self-assessment rows added to
