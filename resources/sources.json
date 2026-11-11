@@ -440,7 +440,7 @@
       "category": "trends",
       "type": "reading-list",
       "accessed": "2026-10-22",
-      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered \u2014 content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
     },
     {
       "title": "Design Trends That Will Influence Extensions in 2026",
@@ -448,7 +448,7 @@
       "category": "interfaces",
       "type": "article",
       "accessed": "2026-10-22",
-      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay \u2014 a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
     },
     {
       "title": "Validation gate for generated interface trees",
@@ -1456,7 +1456,7 @@
       "category": "states",
       "type": "article",
       "accessed": "2026-10-23",
-      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters \u2014 corroborates pre-populated suggestion states that disclose their nature."
+      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
     },
     {
       "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
@@ -1928,7 +1928,7 @@
       "category": "patterns",
       "type": "article",
       "accessed": "2026-10-25",
-      "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type \u2014 free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
+      "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type — free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
     },
     {
       "title": "Paywall trial-offer guidance",
@@ -3552,7 +3552,7 @@
       "category": "patterns",
       "type": "article",
       "accessed": "2026-10-31",
-      "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain \u2014 full price or deposit with the balance due on release \u2014 and manage expectations with updates when dates change."
+      "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain — full price or deposit with the balance due on release — and manage expectations with updates when dates change."
     },
     {
       "title": "Tooltip best practices: remove friction, guide users",
@@ -4627,7 +4627,7 @@
       "notes": "Focus mode schedules: named modes per activity with their own allowlists of people and apps, schedules by time, location, or app launch with days stated, a visible state while on, an automatic reply to senders, sync across devices, and separate exception lists per mode so a mode that allows everything is a label rather than a boundary."
     },
     {
-      "title": "Toggle UX: switch, toggle button or checkbox \u2014 how to pick",
+      "title": "Toggle UX: switch, toggle button or checkbox — how to pick",
       "url": "https://uxpickle.com/effective-toggle-buttons/",
       "category": "primitives",
       "type": "article",
@@ -4683,7 +4683,7 @@
       "notes": "Bottom tab bar or a row under the header over a hidden burger; open menu puts search first, large rows, contacts at the bottom; header hides on scroll down and returns slimmer on scroll up; breadcrumbs shrink to one step back on a phone."
     },
     {
-      "title": "Your CAPTCHA Might Violate WCAG 2.2 \u2014 Here's What an Accessible Alternative Looks Like",
+      "title": "Your CAPTCHA Might Violate WCAG 2.2 — Here's What an Accessible Alternative Looks Like",
       "url": "https://www.wcag.world/blog/captcha-accessible-alternatives-wcag",
       "category": "patterns",
       "type": "article",
@@ -4912,7 +4912,7 @@
       "category": "patterns",
       "type": "guide",
       "accessed": "2026-11-06",
-      "notes": "Notification inbox triage: read, done, and following are separate dimensions \u2014 reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
+      "notes": "Notification inbox triage: read, done, and following are separate dimensions — reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
     },
     {
       "title": "Activity rings are harder to read than bar charts",
@@ -5075,12 +5075,12 @@
       "notes": "Revised 2026 safety-rating protocols require physical controls for indicators, wipers, hazard lights, horn, and emergency call; touchscreen-only cars score poorly on primary driving controls; physical controls allow operation without extended attention away from the road."
     },
     {
-      "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them \u2014 Guidelines 03/2022, version 2.0",
+      "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them — Guidelines 03/2022, version 2.0",
       "url": "https://www.datenschutzstelle.li/download_file/view/804/403",
       "category": "patterns",
       "type": "guidelines",
       "accessed": "2026-11-07",
-      "notes": "Six deceptive design pattern categories \u2014 overloading, skipping, stirring, obstructing, fickle, left in the dark \u2014 with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
+      "notes": "Six deceptive design pattern categories — overloading, skipping, stirring, obstructing, fickle, left in the dark — with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
     },
     {
       "title": "Criteria for websites (from end of 2026)",
@@ -5112,7 +5112,7 @@
       "category": "patterns",
       "type": "guidance",
       "accessed": "2026-11-07",
-      "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon \u2014 the common positions on cookie banner practices."
+      "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon — the common positions on cookie banner practices."
     },
     {
       "title": "Public Charge Point Regulations 2023 guidance",
@@ -5363,7 +5363,7 @@
       "notes": "One-tap bid for the next step above the current price; a maximum bid that bids in steps up to the stated cap and never past it; a sudden-death clock that tops back up on every bid and drops to 5 seconds at last call; the server clock decides the winner; every bid is a binding offer to buy."
     },
     {
-      "title": "How to Run an Online Auction \u2014 Complete Operator's Guide",
+      "title": "How to Run an Online Auction — Complete Operator's Guide",
       "url": "https://www.auction-rabbit.com/en/auction-system/operations/how-to-run-an-online-auction",
       "category": "patterns",
       "type": "guide",
@@ -5680,10 +5680,10 @@
       "category": "patterns",
       "type": "documentation",
       "accessed": "2026-11-10",
-      "notes": "Government guidance for landlords on rental listings: informative listings answering the renter's questions, photos of every room, pre-screening, and the essentials of a tenant application \u2014 verifiable income and employment, references, identification shown but not copied, credit check only with written approval \u2014 with the same documented criteria for every applicant."
+      "notes": "Government guidance for landlords on rental listings: informative listings answering the renter's questions, photos of every room, pre-screening, and the essentials of a tenant application — verifiable income and employment, references, identification shown but not copied, credit check only with written approval — with the same documented criteria for every applicant."
     },
     {
-      "title": "Rules of Operation \u2014 rental agencies",
+      "title": "Rules of Operation — rental agencies",
       "url": "https://codelibrary.amlegal.com/codes/cleveland/latest/cleveland_oh/0-0-0-37349",
       "category": "patterns",
       "type": "documentation",
@@ -5699,7 +5699,7 @@
       "notes": "Regulator guide to making an insurance claim: notify as soon as practical, ask what is needed, how much time there is to file, and how long processing takes; claim reference number; acknowledgement within three working days; assessor visit within three working days; settlement windows by claim size."
     },
     {
-      "title": "Getting ready for Self Assessment \u2014 a 10 point step-by-step guide",
+      "title": "Getting ready for Self Assessment — a 10 point step-by-step guide",
       "url": "https://www.gov.uk/government/publications/submit-your-self-assessment-tax-return-early/top-tips-for-filing-your-tax-return",
       "category": "patterns",
       "type": "documentation",
@@ -6057,6 +6057,46 @@
       "type": "guide",
       "accessed": "2026-11-11",
       "notes": "Platform guide to curbside pickup: order placed ahead and paid online, pickup in a designated area with numbered spaces, phone or text arrival instructions, expected pickup time shown at checkout, ready-for-pickup notification, and arrival detection through a tap, geofencing, or the car's display, with live pickup status after arrival."
+    },
+    {
+      "title": "CX principles for online applications",
+      "url": "https://www.dol.gov/agencies/eta/ui-modernization/customer-experience/improve-applications/cx-principles",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-11",
+      "notes": "Government guidance for online benefit applications: plain-language questions, conditional questions that show only what applies, contextual help beside the question, progress shown and saved at every step, and equitable access for people with disabilities, limited English, and people under stress."
+    },
+    {
+      "title": "Benefits Enrollment Application",
+      "url": "https://usds.github.io/benefits-enrollment-prototype/",
+      "category": "patterns",
+      "type": "prototype",
+      "accessed": "2026-11-11",
+      "notes": "Prototype and design principles for user-centred benefits enrolment: real-time eligibility determination and same-day enrolment, few steps to the programmes wanted, mobile-first design, plain language, fewer prompts per screen, and applications personalised to the applicant."
+    },
+    {
+      "title": "Our Top Three Tips for Improving Online Benefits Applications",
+      "url": "https://codeforamerica.org/news/our-top-three-tips-for-improving-online-benefits-applications/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-11-11",
+      "notes": "Human-centred benefits application guidance: a welcoming front door in the applicant's preferred language, no account creation before starting, one application covering several programmes, and document upload after submission; a redesigned integrated application cut the time to apply for several benefits from over an hour to under 15 minutes."
+    },
+    {
+      "title": "Designing with empathy",
+      "url": "https://www.usa.gov/blog/2024/01/designing-with-empathy",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-11-11",
+      "notes": "Benefit finder organised by life event rather than programme name: a short plain-language eligibility form, fewer words and shorter sentences, mobile-first, usable with or without assistive technology, completable in a few minutes."
+    },
+    {
+      "title": "An 'interface first' bureaucracy: Interface design, Universal Credit and the digital welfare state",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/213416/3/Soc_Policy_Adm_-_2024_-_Meers_-_An_interface_first_bureaucracy_Interface_design_universal_credit_and_the_digital.pdf",
+      "category": "patterns",
+      "type": "paper",
+      "accessed": "2026-11-11",
+      "notes": "Peer-reviewed analysis of how interfaces mediate access to public benefits: a five-fold typology of interface design elements in the benefits context — structuring data input, interaction architecture, operative controls, prompting and priming, and integrations."
     }
   ]
 }

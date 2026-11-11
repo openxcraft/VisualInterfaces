@@ -7,6 +7,30 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Roadmap: five new improvement actions added (282 blood donation
+  appointment booking, 283 virtual court hearing, 284 proctored
+  exam, 285 wedding registry and gift list, 286 hot-desk and
+  co-working booking), ordered by coverage impact; coverage matrix
+  Partial list updated with the five new named items and with the
+  five open named items from earlier reviews (277 dating app
+  profile and matching, 278 museum timed-entry ticket booking, 279
+  university admissions application, 280 gym and fitness class
+  booking, 281 job application portal) that were missing from it.
+  No new source records.
+
+- Patterns catalogue: Benefits claim application row added to
+  `catalog/patterns.md`: the row starts from the life event or
+  need rather than the programme name, lets one application cover
+  every programme the person may qualify for with each answer
+  shared across programmes, shows eligibility as answers are
+  given, lets anyone check eligibility without an account, asks
+  questions in plain language a small set per screen with help
+  beside the question, saves at every step, lets the application
+  be sent with documents still missing where what is needed and
+  its due date are named, and states the decision wait and first
+  payment date before submission with tracking by named stages.
+  Coverage matrix updated. 5 new source records (762 total).
+
 - Patterns catalogue: Mobile cheque deposit and Home energy usage
   dashboard rows added to `catalog/patterns.md`: the cheque row
   asks for the restrictive endorsement before capture, gives
