@@ -7,6 +7,33 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Blood donation appointment booking and
+  Virtual court hearing rows added to `catalog/patterns.md`: the
+  blood donation row checks eligibility first with the next
+  eligible date named, offers whole blood, plasma, and platelets
+  before the centre, remembers a preferred centre with hours and
+  directions, lets the health questionnaire be answered before
+  arrival, books, moves, and cancels from one place, and reminds
+  the person before the appointment and when the next donation is
+  due; the court hearing row states the hearing is formal with
+  the same rules as in person, sends the join link with the
+  notice, offers a test call, holds the person in a waiting room
+  until the court opens the hearing with name and role visible,
+  keeps the microphone muted when not speaking, states the
+  recording rule at joining, and gives a phone route and a
+  reconnection route. Coverage matrix updated. 6 new source
+  records (768 total).
+
+- Roadmap: three new improvement actions added (287 driving test
+  booking, 288 home broadband installation and router setup, 289
+  public transport season ticket purchase), ordered by coverage
+  impact; coverage matrix Partial list updated with the three new
+  named items and with the two completed items (282 blood donation
+  appointment booking, 283 virtual court hearing) moved to Full.
+  ATM interface (268) and museum timed-entry ticket booking (278)
+  re-checked against deeper sources and stay open — no platform or
+  standards source for the remaining elements.
+
 - Roadmap: five new improvement actions added (282 blood donation
   appointment booking, 283 virtual court hearing, 284 proctored
   exam, 285 wedding registry and gift list, 286 hot-desk and
@@ -4933,6 +4960,12 @@ version, with Added, Changed, and Fixed sections where they apply.
   task and its code, terminal output, logs, or diffs.
 - Source record for the October 2026 component release notes in
   resources/sources.json.
+
+### Fixed
+
+- Patterns catalogue: Visa application row cross-check corrected —
+  it named a passport renewal row that does not exist; the
+  reference is removed.
 
 ## [0.1.0] - 2026-10-21
 

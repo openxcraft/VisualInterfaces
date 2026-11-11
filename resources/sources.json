@@ -6097,6 +6097,54 @@
       "type": "paper",
       "accessed": "2026-11-11",
       "notes": "Peer-reviewed analysis of how interfaces mediate access to public benefits: a five-fold typology of interface design elements in the benefits context — structuring data input, interaction architecture, operative controls, prompting and priming, and integrations."
+    },
+    {
+      "title": "Practitioner and Litigant Guide to Electronic Hearings",
+      "url": "https://www.fcfcoa.gov.au/pubs/electronic-hearing-teams-guide",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-11",
+      "notes": "Court guide for electronic hearings: join link from the court list or portal, test environments for joining, microphone muted and camera off when not speaking, quiet distraction-free location, headset for sound quality, phone route where video is not possible, a formal hearing with the same standing as one in person."
+    },
+    {
+      "title": "Remote participation information",
+      "url": "https://www.justice.govt.nz/courts/going-to-court/participating-in-a-virtual-meeting-room-court-hearing/remote-participation-information/",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-11",
+      "notes": "Ministry guidance for remote court participation: the same rules apply as in person, microphones muted unless giving evidence, stay connected during a short adjournment with camera off, no recording, photos, or screenshots, private quiet space, alone unless the court permits otherwise, phone and video routes."
+    },
+    {
+      "title": "How to join Cloud Video Platform (CVP) for a video hearing",
+      "url": "https://www.gov.uk/government/publications/how-to-join-a-cloud-video-platform-cvp-hearing/how-to-join-cloud-video-platform-cvp-for-a-video-hearing",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-11",
+      "notes": "Government guidance for joining a video hearing: test call before the hearing, join link from the arranging email, name and role shown to all parties, digital waiting room until the court opens the hearing, warning not to record shown on joining, microphone muted when not speaking with the room focused on the loudest device, helpdesk and court contact where the link fails."
+    },
+    {
+      "title": "Booking platelet appointments online",
+      "url": "https://www.blood.co.uk/news-and-campaigns/the-donor/latest-stories/booking-platelet-appointments-online/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-11-11",
+      "notes": "National blood service: platelet donors book, move, and cancel appointments online months in advance, venue suggested with maps integration and limited-slot days shown, eligibility check prompted, donation milestones visible online."
+    },
+    {
+      "title": "Ways to make an appointment",
+      "url": "https://selfhelp.hsa.gov.sg/hsa/blood-donation/ways-to-make-appointment",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-11",
+      "notes": "Health authority: appointment or walk-in to a donation centre, online booking by app or web portal, health assessment questionnaire and declaration filled in online before arrival, eligibility criteria listed, phone route for those without the portal."
+    },
+    {
+      "title": "Frequently asked questions about the online donor portal",
+      "url": "https://en.rodekruis.be/wat-kan-jij-doen/geef-bloed-of-plasma/donorportaal-veelgestelde-vragen/",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-11",
+      "notes": "Donor portal: preferred locations saved per donation type, booking by municipality or postcode, whole blood or plasma choice, first-time registration for known donors, appointment made from the home page."
     }
   ]
 }

@@ -50,7 +50,7 @@ defined without an example; gap = named but not yet defined.
 | Device input | Touch, pointer, keyboard, voice, gesture-only, remote | — | — |
 | Interface type | Web app, mobile app, kiosk, conversational, embedded, spatial, automotive, game | — | — |
 | Page pattern | Dashboard, mobile navigation, data table, checkout variants, onboarding, comparison, permission request, search results, command palette, notification escalation, offline-first sync, sync-conflict resolution, file upload, chat and messaging, map comparison, list navigation, machine-composed content disclosure, agent checkpoint, voice hybrid flows, stepper, landing, authentication, settings, commerce, consent, notification digest, personalized-content disclosure, calendar and scheduling, keyboard shortcut reference, undo and trash recovery, session-expiry warning, data export, account deletion, in-product help, share link, second-factor sign-in, saved-item collection, bulk action, rating and review submission, payment failure recovery, content reporting and blocking, language and locale selection, scheduled action, breadcrumb navigation, annotation and comment thread, theme selection, profile and account menu, recently viewed, invitation response, modal dialog, guest checkout, time-zone picker, accessibility preferences, long-document navigation, in-app update prompt, pull-to-refresh, scrolling tab bar, system share sheet, find-in-page, collaborative editing presence,
-    draft autosave and recovery, saved-filter view, toast feedback, list reorder, date-range picker, accordion disclosure, carousel, passkey sign-in, low-bandwidth mode, what's-new announcement, version history and restore, external-link departure, described media, saved-cart recovery, colour picker, guest-to-account conversion, sensitive-content preview, order tracking, order cancellation, time picker, verification-code entry, background-task progress, automated-to-human support handoff, subscription plan change, promo-code entry, master-detail, threaded message reply, gift option, saved address selection, delivery slot picker, product variant selection, home-screen widget, deep-link landing, progressive disclosure, return and exchange request, back-in-stock alert request, contact picker, primary navigation, bypass link, search, filtering and sorting, data table density, inline editing, bulk selection, data visualisation, guided tour, setup checklist, inline assistant actions, form flow, character count, wizard, detail view, notification list, notification preferences, activity feed, confirmation, sensitive-action re-confirmation, install prompt, offline download, multi-device handoff, paywall and upgrade prompt, subscription cancellation, restore purchases, account switcher, in-product feedback and problem report, account recovery, consent choice, granular consent, media viewer, code scanner, simplified view, location selection, voice message, message reaction, pinned message, message edit and delete, swipe-to-reveal actions, poll, conversation branching, sticky section headers, appointment management, review prompt, rating distribution summary, limited-time offer countdown, age verification gate, suggestion review, image gallery viewer, reading progress indicator, print-friendly view, text-selection action menu, picture-in-picture, reorder past order, live broadcast chat overlay, kanban board, gift card and stored-credit redemption, address entry, delivery instructions, saved payment method selection, split payment, media chapters, waitlist, loyalty rewards, link preview, live activity, billing overview, usage allowance, password strength meter, emoji picker, seat selection, selecting an option from a list, home control map, follow, payment instalment plan, subscribe-and-save purchase option, pickup point selection, expandable table row, pass and ticket display, shared cart, stored payment method expiry warning, workspace switcher, undo send, view switcher, tree view, timeline view, quote reply, product configurator, referral invitation, live captions, route planning, pass or ticket transfer, document signing, transcript editing, meeting and event creation, shared resource booking, backup payment method, household member management, checkout price-change confirmation, split shipment display, price-drop alert, guest order lookup, signed-in device management, service status notice, order substitution choice, commercial content disclosure, Trial-end reminder, Subscription pause, Data import, In-app survey, Document scanner, Delivery address validation, Shared expense splitting, In-store availability check, Guided route navigation, Saved search alert, Magic link sign-in, Preorder purchase, Tip selection, Live call controls, Device pairing, Hands-busy step guidance, Guardian approval request, Live poll, Delivery photo proof, Warranty claim, Overflow menu, Translated content, scheduled message send, saved reply, order receipt, subscription billing-date change, card freeze, travel disruption rebooking, size guide and fit recommendation, shared item access, app lock, transaction dispute, habit streak, contactless payment confirmation, profile photo upload and crop, playback queue, security incident notice, file preview, search history, download manager, voice message transcript, product recall notice, account merge, loyalty points expiry warning, QR sign-in, high-demand queue, group checkout, gift receipt, store pickup, reduced-motion preference, archive conversation, in-conversation message search, expiring payment method replacement, dual approval, stored payment method label, conversation export, appointment reminder, shoppable video, appointment check-in, travel check-in, stored payment method removal, aggregate rating display, recurring appointment series, travel document checklist, travel itinerary view, bill explanation, appointment late-cancellation and no-show policy, emergency assistance request, shared trip itinerary, ride booking, bottom sheet choice, trigger-character suggestion menu, booking deposit, appointment standby list, medication reminder, verified account badge, virtual background in video calls, world clock, expense claim submission, read receipt, typing indicator, video-call waiting room, focus mode schedule, sticker and GIF picker, product questions and answers, shared whiteboard, raise hand in video calls, screen sharing in video calls, disappearing messages, call recording notice, incoming call, missed call, scan-to-pay, launch screen, call waiting, outgoing call, call quality and reconnection, in-app browser, visual voicemail, safety check-in, breakout rooms in video calls, call transfer, conference call, suspected spam call warning, digital identity wallet presentation, call screening, reading view, add people to a live call, call history, transaction history, deceptive design patterns, accessibility labels on a store listing, PIN entry, cookie consent banner, parking session payment, screenshot markup, group chat administration, call forwarding, voicemail greeting, hotel booking, electric vehicle charging session, smart home dashboard, sleep and rest data, telehealth video consultation, museum audio guide, QR code payment at a till, crowdfunding campaign page, shared bike and scooter rental, digital car key sharing, parcel locker pickup, mobile plan setup (eSIM), voice dictation input, guest mode, live auction bidding, Back to top, Saved collection sharing, Identity verification onboarding, Broadcast emergency alert, Lightweight app entry, Receipt capture, Gated feature entry, Subscription gifting, Neuro-inclusive design, Live location sharing, Read-along narration, Group scheduling poll, Page not found, Order editing after placement, Human verification challenge, Gift card purchase, Message forwarding, Conversation catch-up summary, Conversation mute, Pinned conversation, Group conversation participant management, Sleep timer, System-mediated snippet, Return label and drop-off, Recording consent, Turn-by-turn guidance, Shared shopping list, Shared subscription plan, Donation at checkout, Checkout upsell and cross-sell offer, Shared presentation control, Paired handover record, Message translation, Converted price display, Fare-capped transit payment, Automation routine builder, Price history display, Delivery reschedule, Loyalty tier progress, Recipe serving scaling, Supervised usage limits, Appointment preparation checklist, Deposit refund status, Medication refill request, Recurring payment setup, Transit card top-up, In-flight entertainment, Hotel self check-in, Tenant portal, QR table ordering, Screen time dashboard, Health record sharing, E-reader and reading app, Ballot, Flight disruption compensation claim, Keyless shared-car pickup, Self-checkout grocery kiosk, School parent portal, Live translated captions, Real-time departure board, Care decision card, Recurring donation, Indoor wayfinding, Hotel room controls, University course registration, Veterinary appointment booking, Rental property viewing and tenancy application, Insurance claim submission, Tax filing and self-assessment, Temporary home access code, Car rental and car sharing booking, Cooking mode, Government document application, Mortgage application, Smartwatch fall detection and emergency SOS, Virtual try-on, Pension dashboard, Visa application, Parking fine payment and appeal, Phone voice menu, Mobile cheque deposit, Home energy usage dashboard, Benefits claim application | Drive-through and curbside pickup, Laundry pickup and delivery, Childcare booking, Public library borrowing (holds and renewals), ATM interface, Dating app profile and matching, Museum timed-entry ticket booking, University admissions application, Gym and fitness class booking, Job application portal, Blood donation appointment booking, Virtual court hearing, Proctored exam, Wedding registry and gift list, Hot-desk and co-working booking | — |
+    draft autosave and recovery, saved-filter view, toast feedback, list reorder, date-range picker, accordion disclosure, carousel, passkey sign-in, low-bandwidth mode, what's-new announcement, version history and restore, external-link departure, described media, saved-cart recovery, colour picker, guest-to-account conversion, sensitive-content preview, order tracking, order cancellation, time picker, verification-code entry, background-task progress, automated-to-human support handoff, subscription plan change, promo-code entry, master-detail, threaded message reply, gift option, saved address selection, delivery slot picker, product variant selection, home-screen widget, deep-link landing, progressive disclosure, return and exchange request, back-in-stock alert request, contact picker, primary navigation, bypass link, search, filtering and sorting, data table density, inline editing, bulk selection, data visualisation, guided tour, setup checklist, inline assistant actions, form flow, character count, wizard, detail view, notification list, notification preferences, activity feed, confirmation, sensitive-action re-confirmation, install prompt, offline download, multi-device handoff, paywall and upgrade prompt, subscription cancellation, restore purchases, account switcher, in-product feedback and problem report, account recovery, consent choice, granular consent, media viewer, code scanner, simplified view, location selection, voice message, message reaction, pinned message, message edit and delete, swipe-to-reveal actions, poll, conversation branching, sticky section headers, appointment management, review prompt, rating distribution summary, limited-time offer countdown, age verification gate, suggestion review, image gallery viewer, reading progress indicator, print-friendly view, text-selection action menu, picture-in-picture, reorder past order, live broadcast chat overlay, kanban board, gift card and stored-credit redemption, address entry, delivery instructions, saved payment method selection, split payment, media chapters, waitlist, loyalty rewards, link preview, live activity, billing overview, usage allowance, password strength meter, emoji picker, seat selection, selecting an option from a list, home control map, follow, payment instalment plan, subscribe-and-save purchase option, pickup point selection, expandable table row, pass and ticket display, shared cart, stored payment method expiry warning, workspace switcher, undo send, view switcher, tree view, timeline view, quote reply, product configurator, referral invitation, live captions, route planning, pass or ticket transfer, document signing, transcript editing, meeting and event creation, shared resource booking, backup payment method, household member management, checkout price-change confirmation, split shipment display, price-drop alert, guest order lookup, signed-in device management, service status notice, order substitution choice, commercial content disclosure, Trial-end reminder, Subscription pause, Data import, In-app survey, Document scanner, Delivery address validation, Shared expense splitting, In-store availability check, Guided route navigation, Saved search alert, Magic link sign-in, Preorder purchase, Tip selection, Live call controls, Device pairing, Hands-busy step guidance, Guardian approval request, Live poll, Delivery photo proof, Warranty claim, Overflow menu, Translated content, scheduled message send, saved reply, order receipt, subscription billing-date change, card freeze, travel disruption rebooking, size guide and fit recommendation, shared item access, app lock, transaction dispute, habit streak, contactless payment confirmation, profile photo upload and crop, playback queue, security incident notice, file preview, search history, download manager, voice message transcript, product recall notice, account merge, loyalty points expiry warning, QR sign-in, high-demand queue, group checkout, gift receipt, store pickup, reduced-motion preference, archive conversation, in-conversation message search, expiring payment method replacement, dual approval, stored payment method label, conversation export, appointment reminder, shoppable video, appointment check-in, travel check-in, stored payment method removal, aggregate rating display, recurring appointment series, travel document checklist, travel itinerary view, bill explanation, appointment late-cancellation and no-show policy, emergency assistance request, shared trip itinerary, ride booking, bottom sheet choice, trigger-character suggestion menu, booking deposit, appointment standby list, medication reminder, verified account badge, virtual background in video calls, world clock, expense claim submission, read receipt, typing indicator, video-call waiting room, focus mode schedule, sticker and GIF picker, product questions and answers, shared whiteboard, raise hand in video calls, screen sharing in video calls, disappearing messages, call recording notice, incoming call, missed call, scan-to-pay, launch screen, call waiting, outgoing call, call quality and reconnection, in-app browser, visual voicemail, safety check-in, breakout rooms in video calls, call transfer, conference call, suspected spam call warning, digital identity wallet presentation, call screening, reading view, add people to a live call, call history, transaction history, deceptive design patterns, accessibility labels on a store listing, PIN entry, cookie consent banner, parking session payment, screenshot markup, group chat administration, call forwarding, voicemail greeting, hotel booking, electric vehicle charging session, smart home dashboard, sleep and rest data, telehealth video consultation, museum audio guide, QR code payment at a till, crowdfunding campaign page, shared bike and scooter rental, digital car key sharing, parcel locker pickup, mobile plan setup (eSIM), voice dictation input, guest mode, live auction bidding, Back to top, Saved collection sharing, Identity verification onboarding, Broadcast emergency alert, Lightweight app entry, Receipt capture, Gated feature entry, Subscription gifting, Neuro-inclusive design, Live location sharing, Read-along narration, Group scheduling poll, Page not found, Order editing after placement, Human verification challenge, Gift card purchase, Message forwarding, Conversation catch-up summary, Conversation mute, Pinned conversation, Group conversation participant management, Sleep timer, System-mediated snippet, Return label and drop-off, Recording consent, Turn-by-turn guidance, Shared shopping list, Shared subscription plan, Donation at checkout, Checkout upsell and cross-sell offer, Shared presentation control, Paired handover record, Message translation, Converted price display, Fare-capped transit payment, Automation routine builder, Price history display, Delivery reschedule, Loyalty tier progress, Recipe serving scaling, Supervised usage limits, Appointment preparation checklist, Deposit refund status, Medication refill request, Recurring payment setup, Transit card top-up, In-flight entertainment, Hotel self check-in, Tenant portal, QR table ordering, Screen time dashboard, Health record sharing, E-reader and reading app, Ballot, Flight disruption compensation claim, Keyless shared-car pickup, Self-checkout grocery kiosk, School parent portal, Live translated captions, Real-time departure board, Care decision card, Recurring donation, Indoor wayfinding, Hotel room controls, University course registration, Veterinary appointment booking, Rental property viewing and tenancy application, Insurance claim submission, Tax filing and self-assessment, Temporary home access code, Car rental and car sharing booking, Cooking mode, Government document application, Mortgage application, Smartwatch fall detection and emergency SOS, Virtual try-on, Pension dashboard, Visa application, Parking fine payment and appeal, Phone voice menu, Mobile cheque deposit, Home energy usage dashboard, Benefits claim application, Blood donation appointment booking, Virtual court hearing | Drive-through and curbside pickup, Laundry pickup and delivery, Childcare booking, Public library borrowing (holds and renewals), ATM interface, Dating app profile and matching, Museum timed-entry ticket booking, University admissions application, Gym and fitness class booking, Job application portal, Proctored exam, Wedding registry and gift list, Hot-desk and co-working booking, Driving test booking, Home broadband installation and router setup, Public transport season ticket purchase | — |
 | State | All seven in catalog; offline, read-only, permission-denied; loading variants; error-state groups | — | — |
 | Worked examples | Dashboard, mobile navigation, onboarding, watch, kiosk, television, desktop, checkout, authentication, settings — each demonstrating the rules it documents with all seven states | — | — |
 | Localization | Right-to-left mirroring rules, what-not-to-mirror list, logical properties, text-expansion budgets, locale-aware date/number/currency formatting and sorting, mixed-direction text | — | — |
@@ -4099,7 +4099,13 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    source record. Re-checked this run: no new platform or standards
    source for popular amounts first or the card-return order; the
    remaining sources are patents and a content-site guide, so the
-   row stays open. Done when the row
+   row stays open. Re-checked this run (deep editorial
+   2026-11-11): searched again for popular amounts first and the
+   card-return order; the fresh results are a single-bank guide
+   confirming preset fast-cash amounts, a content-site guide on
+   denomination choice, and forum answers, all below the bar, so
+   the row stays open and the card-return rule as written still
+   needs correcting before the row is written. Done when the row
    passes all quality gates.
 
 269. Add a parking fine payment and appeal pattern row to
@@ -4262,8 +4268,13 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    row, which books a person's own appointment. Sources so far are
    a student design critique, vendor pages, a single-designer case
    study, and a travel content site only; a platform or standards
-   source is still needed before the row is written. Done when the
-   row passes all quality gates.
+   source is still needed before the row is written. Re-checked
+   this run (deep editorial 2026-11-11): the fresh results are
+   single-venue travel guides and a ticket-reseller page covering
+   the entry window, release schedule, named tickets, and the
+   no-refund rule in substance, with no platform or standards
+   guidance, so the row stays open. Done when the row passes all
+   quality gates.
 
 279. Add a university admissions application pattern row to
    `catalog/patterns.md`: apply for a university place online — a
@@ -4319,8 +4330,15 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    prescription rather than booking a donation. Sources so far are
    a single-designer case study, single-service app listings, and
    a single-service product page only; a platform or standards
-   source is still needed before the row is written. Done when the
-   row passes all quality gates.
+   source is still needed before the row is written. Sources are
+   now national blood service guidance from three services,
+   covering the eligibility check with the next eligible date,
+   donation-type choice, centre choice with hours and directions,
+   the pre-visit questionnaire answered before arrival, book,
+   move, and cancel, reminders, and the donation history and
+   tally; the scannable check-in code element still has no source
+   and stays out of the row. Done when the row passes all quality
+   gates. (Implemented this run.)
 
 283. Add a virtual court hearing pattern row to
    `catalog/patterns.md`: take part in a hearing by video — a
@@ -4336,8 +4354,14 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    proceeding. Sources so far are single-jurisdiction court pages,
    a vendor marketplace listing, a vendor case study, and a
    single-product site only; a platform or standards source is
-   still needed before the row is written. Done when the row passes
-   all quality gates.
+   still needed before the row is written. Sources are now court
+   and ministry guidance from three jurisdictions, covering the
+   waiting room with name and role, the formal rules, the test
+   call, the recording warning, the phone route, and the
+   reconnection route; the evidence-in-place view and live
+   interpreter elements still have no source and stay out of the
+   row. Done when the row passes all quality gates.
+   (Implemented this run.)
 
 284. Add a proctored exam pattern row to `catalog/patterns.md`:
    sit a timed assessment under supervision online — an identity
@@ -4384,6 +4408,45 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    vendor blogs, a single-product case study, and buyer guides
    only; a platform or standards source is still needed before the
    row is written. Done when the row passes all quality gates.
+
+287. Add a driving test booking pattern row to
+   `catalog/patterns.md`: book a driving theory or practical test
+   — a licence number checked before dates are shown, a test
+   centre chosen with its distance and earliest date, a date and
+   time with a stated reschedule and cancellation window, a waiting
+   list where no date is free, and a confirmation naming the
+   centre, the date, the documents to bring, and what happens on
+   arrival — distinct from the appointment management row, which
+   books a time with a service without the licence gate, and from
+   the university admissions application row, which applies for a
+   place rather than booking a test. Sources so far are none; a
+   platform or standards source is still needed before the row is
+   written. Done when the row passes all quality gates.
+
+288. Add a home broadband installation and router setup pattern
+   row to `catalog/patterns.md`: get a home internet connection
+   working — an engineer appointment with a stated time window and
+   an adult present at the visit, router placement advice with a
+   signal check, guided setup in the app with the network name and
+   password, a speed test with the result stated in plain words,
+   and guest network and connected-device controls — distinct from
+   the device pairing row, which connects one device, and from the
+   appointment management row, which books a time with a service
+   without the installation steps. Sources so far are none; a
+   platform or standards source is still needed before the row is
+   written. Done when the row passes all quality gates.
+
+289. Add a public transport season ticket purchase pattern row to
+   `catalog/patterns.md`: buy a period pass for travel — the zones
+   or route chosen before the price, a start date with the pass
+   running from it, auto-renewal stated with its cancel route, and
+   a refund for the unused period where the pass is no longer
+   needed — distinct from the transit card top-up row, which adds
+   credit to a card rather than buying a period pass, and from the
+   fare-capped transit payment row, which charges per journey up to
+   a cap. Sources so far are none; a platform or standards source
+   is still needed before the row is written. Done when the row
+   passes all quality gates.
 
 - Completed this review (deep editorial 2026-11-09): new
   Tenant portal, QR table ordering, and Screen time dashboard
@@ -4700,3 +4763,24 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
   cycle, pending a platform or standards source for each. Open
   actions after this review: 252, 259, 265, 266, 268, 277, 278,
   279, 280, 281, 282, 283, 284, 285, 286.
+
+- Completed this review (deep editorial 2026-11-11): new Blood
+  donation appointment booking and Virtual court hearing pattern
+  rows in `catalog/patterns.md`, completing roadmap actions 282
+  and 283; Visa application row cross-check corrected — it named
+  a passport renewal row that does not exist; coverage matrix
+  updated (two new rows to Full, two items out of the Partial
+  list, three new named items added to it); three new improvement
+  actions added (287 driving test booking, 288 home broadband
+  installation and router setup, 289 public transport season
+  ticket purchase); 6 new source records (768 total). Re-checked
+  against deeper sources: ATM interface (268) gains no new
+  platform or standards source for popular amounts first or the
+  card-return order — a single-bank guide confirms preset
+  fast-cash amounts and a content-site guide covers denomination
+  choice, both below the bar, and the card-return rule as written
+  still needs correcting; museum timed-entry ticket booking (278)
+  still rests on single-venue travel guides and a ticket-reseller
+  page, with no platform or standards guidance. Open actions
+  after this review: 252, 259, 265, 266, 268, 277, 278, 279, 280,
+  281, 284, 285, 286, 287, 288, 289.
