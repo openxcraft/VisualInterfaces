@@ -7,6 +7,18 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Remote online notarization row added to
+  `catalog/patterns.md`: the row states the session carries the
+  same effect as signing in person, checks identity and the device
+  before the session with a test run offered, holds the person in
+  a waiting room until admitted, verifies identity on camera with
+  a photo ID and identity questions, switches the view to the
+  document for review, signs inside the session where the act
+  requires it, states the recording rule with consent before the
+  session starts, and delivers the sealed document at once with
+  the retention period stated. Coverage matrix updated. 2 new
+  source records (770 total).
+
 - Patterns catalogue: Blood donation appointment booking and
   Virtual court hearing rows added to `catalog/patterns.md`: the
   blood donation row checks eligibility first with the next

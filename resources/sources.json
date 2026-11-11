@@ -6145,6 +6145,22 @@
       "type": "guide",
       "accessed": "2026-11-11",
       "notes": "Donor portal: preferred locations saved per donation type, booking by municipality or postcode, whole blood or plasma choice, first-time registration for known donors, appointment made from the home page."
+    },
+    {
+      "title": "Remote authentication",
+      "url": "https://www.notar.ee/en/professional-acts/remote-authentication/",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-11",
+      "notes": "National e-notary portal: wait in the portal until admitted, document review switches the view from the video feed to the document, signing inside the session by sign control, recording rule, pre-session readiness test, supported browsers stated."
+    },
+    {
+      "title": "What happens during a remote notarization session",
+      "url": "https://www.twala.ai/blogs/what-happens-during-remote-notarization-session",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-11-11",
+      "notes": "Remote notarization session flow: identity verification for every signer and witness before the act, signing before the session for acknowledgements and inside the session for jurats, location check, live appearance only, recording only with everyone's consent."
     }
   ]
 }
