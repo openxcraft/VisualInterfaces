@@ -7,6 +7,20 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Mobile cheque deposit and Home energy usage
+  dashboard rows added to `catalog/patterns.md`: the cheque row
+  asks for the restrictive endorsement before capture, gives
+  capture guidance that keeps all four corners and the printed
+  line legible, matches the entered amount against the amount read
+  from the image, states the cut-off time before sending, and
+  tells the person to keep the paper cheque until the deposit is
+  confirmed; the energy row shows use over time with cost beside
+  it in money as well as in units, breaks use down by appliance
+  or circuit where the meter supports it, compares against a
+  previous period, and alerts when use or cost passes a threshold
+  the person set. Coverage matrix updated. 4 new source records
+  (757 total).
+
 - Patterns catalogue: Visa application, Parking fine payment and
   appeal, and Phone voice menu rows added to
   `catalog/patterns.md`: the visa row starts from the trip itself

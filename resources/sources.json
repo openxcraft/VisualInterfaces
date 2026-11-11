@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "sources": [
     {
       "title": "Design trends overview for 2026",
@@ -6025,6 +6025,38 @@
       "type": "guidance",
       "accessed": "2026-11-10",
       "notes": "Public information service guidance on childcare choices: the child's age is among the first factors to consider, alongside full-time or part-time need and the hours required; visit providers while children are present."
+    },
+    {
+      "title": "Risk Management of Remote Deposit Capture",
+      "url": "https://www.fdic.gov/news/financial-institution-letters/2009/fil09004a.html",
+      "category": "patterns",
+      "type": "regulation",
+      "accessed": "2026-11-11",
+      "notes": "Regulator guidance (issued January 2009; regulator copy revised June 2026): remote deposit capture risks from the point of capture include poor image quality and inaccurate electronic data; original items are retained by the customer with document management procedures until destruction or voiding; items can be endorsed, franked, or otherwise noted as already processed to prevent re-processing; contracts should establish cut-off times and state how the customer knows the deposit was accepted."
+    },
+    {
+      "title": "ENERGY STAR Product Specification for Smart Home Energy Management Systems, Version 1.0",
+      "url": "https://energystar.gov/sites/default/files/ENERGY%20STAR%20SHEMS%20Version%201.0%20Program%20Requirements_0.pdf",
+      "category": "patterns",
+      "type": "standard",
+      "accessed": "2026-11-11",
+      "notes": "Programme specification for home energy management systems: the interface must show energy use by device across time intervals of a day or less, with daily, weekly, monthly or annual performance and comparison with previous periods; packages must include a smart power strip, smart plugs, or a home energy sub-metering system, with load devices reporting their energy use; a user notification process is required where detection fails, and time-of-use pricing must be usable to manage energy costs."
+    },
+    {
+      "title": "A design-oriented framework for smart home energy management system interfaces to support energy-saving occupant behavior",
+      "url": "https://www.e3s-conferences.org/articles/e3sconf/abs/2026/34/e3sconf_iaqvec2026_05040/e3sconf_iaqvec2026_05040.html",
+      "category": "patterns",
+      "type": "research",
+      "accessed": "2026-11-11",
+      "notes": "Peer-reviewed conference paper (2026): a design framework for home energy management interfaces grounded in five core functions - information delivery, real-time feedback, personal motivation, control flexibility, and social comparison - yielding thirty actionable design guidelines and a five-function prototype."
+    },
+    {
+      "title": "How to Offer Curbside Pickup: Retail Guide (2026)",
+      "url": "https://www.shopify.com/hk-en/blog/curbside-pickup",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-11",
+      "notes": "Platform guide to curbside pickup: order placed ahead and paid online, pickup in a designated area with numbered spaces, phone or text arrival instructions, expected pickup time shown at checkout, ready-for-pickup notification, and arrival detection through a tap, geofencing, or the car's display, with live pickup status after arrival."
     }
   ]
 }
