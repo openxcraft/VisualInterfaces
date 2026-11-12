@@ -7,6 +7,120 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Roadmap: five new improvement actions added (299 university
+  student portal dashboard, 300 online course lesson player and
+  progress, 301 airport self-service bag drop kiosk, 302 online
+  prize draw and raffle entry, 303 streaming household viewer
+  profiles with PIN lock), ordered by coverage impact; coverage
+  matrix Partial list updated with the five new named items. No
+  new source records — the five searches returned only vendor
+  blogs, agency blogs, single-app guides, vendor help pages, and
+  content sites below the source-quality bar, with two partial
+  exceptions: an accessibility-organisation baseline standard for
+  e-learning covering captions, keyboard access, and plain
+  language but not the lesson-player flow, and regulator material
+  for bag-drop kiosk accessibility and prize-draw free entry
+  grounding only part of each pattern.
+- Patterns catalogue: Contact a GP surgery online row added to
+  `catalog/patterns.md`: the row offers two routes under one entry
+  point — describe a health problem in a structured form, or book a
+  directly bookable slot where the practice offers one — states
+  before sending that the practice decides the next step and when
+  and where the reply arrives, delivers replies in a messages area,
+  keeps document requests in the same entry point, and keeps an
+  urgent-care route visible on the same screen.
+- Patterns catalogue: Job application portal, Waste collection
+  schedule and missed bin reporting, and Smart TV programme guide
+  rows added to `catalog/patterns.md`, completing roadmap actions
+  281, 293, and 295: the job portal row makes every page of a
+  long multi-page application keyboard-navigable with labelled
+  controls and error messages beside the field, shows progress
+  across the whole application, lets a draft be saved at any time
+  and returned to later, states before submission that a submitted
+  application cannot be changed with a review step first, and keeps
+  the submitted application visible in the account with its state
+  named; the waste collection row shows the schedule for the
+  address entered with each bin type and its day, states the
+  present-by time and the collection window, sends an evening
+  reminder stating which bins go out, lets a missed collection be
+  reported after the stated time with the re-collection date stated
+  and a reference where issued, and states plainly why a bin was
+  not collected with what to fix; the programme guide row shows a
+  channel grid against a time axis with the current programme
+  marked, keeps a now-and-next strip over the picture, shows start
+  and end times with a description before tuning in, lets a
+  reminder be set on a future programme, and keeps the guide
+  legible and usable by people with visual or hearing impairments.
+  Coverage matrix updated. 10 new source records (786 total).
+
+- Roadmap: three new improvement actions added (296 school
+  admissions application portal, 297 multiplayer game lobby and
+  matchmaking, 298 smartwatch workout tracking data screens),
+  ordered by coverage impact; coverage matrix Partial list updated
+  with the three new named items. Re-checked against deeper
+  sources: drive-through and curbside pickup (252), laundry pickup
+  and delivery (259), and museum timed-entry ticket booking (278)
+  stay open — the qualifying sources found cover only parts of
+  each pattern (order-ahead queueing concepts and a non-spoken
+  drive-through ordering route; a laundry prototyping study with
+  staged tracking; timed slots as crowd management), with the
+  interface substance still ungrounded; the source classes found
+  are now recorded in those actions. No new source records for the
+  re-checks.
+
+- Patterns catalogue: Virtual museum tour row added to
+  `catalog/patterns.md`: the row keeps a persistent map or
+  mini-map visible at all times showing where the visitor is,
+  which rooms have been visited and which have not, and what each
+  room holds, lets the visitor jump to any room from the map, uses
+  colour coding and plain symbolic markers, offers a set tour
+  order and freestyle exploration, keeps each exhibit's
+  information accurate and complete beside the work with a deep
+  zoom that keeps colours true, keeps movement between rooms slow
+  and calm honouring the reduced-motion setting, keeps titles,
+  dates, provenance, and wall text in plain page markup behind
+  any three-dimensional layer, keeps narration short with pause,
+  replay, and skip, and states connection and loading needs
+  before entry. Coverage matrix updated. 1 new source record
+  (776 total).
+
+- Roadmap: three new improvement actions added (293 waste
+  collection schedule and missed bin reporting, 294 home cleaning
+  service booking, 295 smart TV programme guide), ordered by
+  coverage impact; coverage matrix Partial list updated with the
+  three new named items. Re-checked against deeper sources:
+  driving test booking (287), public transport season ticket
+  purchase (289), home broadband installation and router setup
+  (288), and timed cart-hold (291) stay open — no platform or
+  standards source for the remaining elements; the source classes
+  found for 287, 288, and 289 are now recorded in those actions.
+  No new source records (775 total).
+
+- Patterns catalogue: Proctored exam and Restaurant online
+  ordering rows added to `catalog/patterns.md`: the exam row checks
+  identity with a photo document before the timer starts, checks
+  the room and desk in plain steps, gives numbered question
+  navigation with any-order answering and autosave after every
+  answer, keeps the remaining time visible, states plainly what is
+  monitored and how any recording is used, warns on each detected
+  breach and locks the exam only after a stated number of warnings
+  with a resume route where the rules allow it, and states the
+  result only after submission; the ordering row shows the menu as
+  readable web content with an order action at the top of every
+  page, states every choice with its price before the dish reaches
+  the cart, offers dietary filters that work, settles pickup or
+  delivery, the time, and the full cost early with each line
+  labelled, keeps favourites and a one-tap reorder, and lets the
+  person check out as a guest. Coverage matrix updated. 5 new
+  source records (775 total).
+
+- Roadmap: three new improvement actions added (290 online will
+  creation, 291 timed cart-hold, 292 digital parking permit
+  application), ordered by coverage impact; coverage matrix
+  Partial list corrected — Passport renewal, an open named gap,
+  was missing from it and is now listed — and Proctored exam moved
+  from Partial to Full. Roadmap action 284 completed.
+
 - Patterns catalogue: Remote online notarization row added to
   `catalog/patterns.md`: the row states the session carries the
   same effect as signing in person, checks identity and the device

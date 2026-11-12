@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "sources": [
     {
       "title": "Design trends overview for 2026",
@@ -440,7 +440,7 @@
       "category": "trends",
       "type": "reading-list",
       "accessed": "2026-10-22",
-      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered \u2014 content revealed by scroll position must remain available to them rather than gated behind scroll alone."
     },
     {
       "title": "Design Trends That Will Influence Extensions in 2026",
@@ -448,7 +448,7 @@
       "category": "interfaces",
       "type": "article",
       "accessed": "2026-10-22",
-      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay \u2014 a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
     },
     {
       "title": "Validation gate for generated interface trees",
@@ -1456,7 +1456,7 @@
       "category": "states",
       "type": "article",
       "accessed": "2026-10-23",
-      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
+      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters \u2014 corroborates pre-populated suggestion states that disclose their nature."
     },
     {
       "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
@@ -1928,7 +1928,7 @@
       "category": "patterns",
       "type": "article",
       "accessed": "2026-10-25",
-      "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type — free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
+      "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type \u2014 free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
     },
     {
       "title": "Paywall trial-offer guidance",
@@ -3552,7 +3552,7 @@
       "category": "patterns",
       "type": "article",
       "accessed": "2026-10-31",
-      "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain — full price or deposit with the balance due on release — and manage expectations with updates when dates change."
+      "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain \u2014 full price or deposit with the balance due on release \u2014 and manage expectations with updates when dates change."
     },
     {
       "title": "Tooltip best practices: remove friction, guide users",
@@ -4627,7 +4627,7 @@
       "notes": "Focus mode schedules: named modes per activity with their own allowlists of people and apps, schedules by time, location, or app launch with days stated, a visible state while on, an automatic reply to senders, sync across devices, and separate exception lists per mode so a mode that allows everything is a label rather than a boundary."
     },
     {
-      "title": "Toggle UX: switch, toggle button or checkbox — how to pick",
+      "title": "Toggle UX: switch, toggle button or checkbox \u2014 how to pick",
       "url": "https://uxpickle.com/effective-toggle-buttons/",
       "category": "primitives",
       "type": "article",
@@ -4683,7 +4683,7 @@
       "notes": "Bottom tab bar or a row under the header over a hidden burger; open menu puts search first, large rows, contacts at the bottom; header hides on scroll down and returns slimmer on scroll up; breadcrumbs shrink to one step back on a phone."
     },
     {
-      "title": "Your CAPTCHA Might Violate WCAG 2.2 — Here's What an Accessible Alternative Looks Like",
+      "title": "Your CAPTCHA Might Violate WCAG 2.2 \u2014 Here's What an Accessible Alternative Looks Like",
       "url": "https://www.wcag.world/blog/captcha-accessible-alternatives-wcag",
       "category": "patterns",
       "type": "article",
@@ -4912,7 +4912,7 @@
       "category": "patterns",
       "type": "guide",
       "accessed": "2026-11-06",
-      "notes": "Notification inbox triage: read, done, and following are separate dimensions — reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
+      "notes": "Notification inbox triage: read, done, and following are separate dimensions \u2014 reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
     },
     {
       "title": "Activity rings are harder to read than bar charts",
@@ -5075,12 +5075,12 @@
       "notes": "Revised 2026 safety-rating protocols require physical controls for indicators, wipers, hazard lights, horn, and emergency call; touchscreen-only cars score poorly on primary driving controls; physical controls allow operation without extended attention away from the road."
     },
     {
-      "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them — Guidelines 03/2022, version 2.0",
+      "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them \u2014 Guidelines 03/2022, version 2.0",
       "url": "https://www.datenschutzstelle.li/download_file/view/804/403",
       "category": "patterns",
       "type": "guidelines",
       "accessed": "2026-11-07",
-      "notes": "Six deceptive design pattern categories — overloading, skipping, stirring, obstructing, fickle, left in the dark — with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
+      "notes": "Six deceptive design pattern categories \u2014 overloading, skipping, stirring, obstructing, fickle, left in the dark \u2014 with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
     },
     {
       "title": "Criteria for websites (from end of 2026)",
@@ -5112,7 +5112,7 @@
       "category": "patterns",
       "type": "guidance",
       "accessed": "2026-11-07",
-      "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon — the common positions on cookie banner practices."
+      "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon \u2014 the common positions on cookie banner practices."
     },
     {
       "title": "Public Charge Point Regulations 2023 guidance",
@@ -5363,7 +5363,7 @@
       "notes": "One-tap bid for the next step above the current price; a maximum bid that bids in steps up to the stated cap and never past it; a sudden-death clock that tops back up on every bid and drops to 5 seconds at last call; the server clock decides the winner; every bid is a binding offer to buy."
     },
     {
-      "title": "How to Run an Online Auction — Complete Operator's Guide",
+      "title": "How to Run an Online Auction \u2014 Complete Operator's Guide",
       "url": "https://www.auction-rabbit.com/en/auction-system/operations/how-to-run-an-online-auction",
       "category": "patterns",
       "type": "guide",
@@ -5680,10 +5680,10 @@
       "category": "patterns",
       "type": "documentation",
       "accessed": "2026-11-10",
-      "notes": "Government guidance for landlords on rental listings: informative listings answering the renter's questions, photos of every room, pre-screening, and the essentials of a tenant application — verifiable income and employment, references, identification shown but not copied, credit check only with written approval — with the same documented criteria for every applicant."
+      "notes": "Government guidance for landlords on rental listings: informative listings answering the renter's questions, photos of every room, pre-screening, and the essentials of a tenant application \u2014 verifiable income and employment, references, identification shown but not copied, credit check only with written approval \u2014 with the same documented criteria for every applicant."
     },
     {
-      "title": "Rules of Operation — rental agencies",
+      "title": "Rules of Operation \u2014 rental agencies",
       "url": "https://codelibrary.amlegal.com/codes/cleveland/latest/cleveland_oh/0-0-0-37349",
       "category": "patterns",
       "type": "documentation",
@@ -5699,7 +5699,7 @@
       "notes": "Regulator guide to making an insurance claim: notify as soon as practical, ask what is needed, how much time there is to file, and how long processing takes; claim reference number; acknowledgement within three working days; assessor visit within three working days; settlement windows by claim size."
     },
     {
-      "title": "Getting ready for Self Assessment — a 10 point step-by-step guide",
+      "title": "Getting ready for Self Assessment \u2014 a 10 point step-by-step guide",
       "url": "https://www.gov.uk/government/publications/submit-your-self-assessment-tax-return-early/top-tips-for-filing-your-tax-return",
       "category": "patterns",
       "type": "documentation",
@@ -6096,7 +6096,7 @@
       "category": "patterns",
       "type": "paper",
       "accessed": "2026-11-11",
-      "notes": "Peer-reviewed analysis of how interfaces mediate access to public benefits: a five-fold typology of interface design elements in the benefits context — structuring data input, interaction architecture, operative controls, prompting and priming, and integrations."
+      "notes": "Peer-reviewed analysis of how interfaces mediate access to public benefits: a five-fold typology of interface design elements in the benefits context \u2014 structuring data input, interaction architecture, operative controls, prompting and priming, and integrations."
     },
     {
       "title": "Practitioner and Litigant Guide to Electronic Hearings",
@@ -6161,6 +6161,142 @@
       "type": "article",
       "accessed": "2026-11-11",
       "notes": "Remote notarization session flow: identity verification for every signer and witness before the act, signing before the session for acknowledgements and inside the session for jurats, location check, live appearance only, recording only with everyone's consent."
+    },
+    {
+      "title": "A User Experience Framework for Online Examination Systems in Higher Education",
+      "url": "http://zenodo.org/records/20649571/files/paper_7886.pdf?download=1",
+      "category": "patterns",
+      "type": "paper",
+      "accessed": "2026-11-11",
+      "notes": "Conference framework paper for online examination systems: usability, engagement, fairness, system reliability, accessibility and security as core constructs; pre-exam identity and environment checks, numbered navigation, visible remaining time, autosave, stated lock on rule violation."
+    },
+    {
+      "title": "Design and Implementation of a Web-Based Online Exam System with Screen Monitoring for Academic Integrity",
+      "url": "https://journal.ceddi.id/index.php/cje/article/download/105/121/996",
+      "category": "patterns",
+      "type": "paper",
+      "accessed": "2026-11-11",
+      "notes": "Web-based exam system with screen monitoring: tab-switch detection with warnings before the exam is disabled, automatic answer saving, automatic lockout at the end of the session, real-time activity recording."
+    },
+    {
+      "title": "Food Delivery and Takeout UX research overview",
+      "url": "https://baymard.com/research/online-food-delivery",
+      "category": "patterns",
+      "type": "research",
+      "accessed": "2026-11-11",
+      "notes": "Food delivery and takeout research: 330+ guidelines, 3,100+ performance scores and 1,900+ examples across restaurant and platform mobile experiences; 2026 benchmark findings on repeat ordering, dietary information, customization and fulfilment."
+    },
+    {
+      "title": "Mobile Ordering for Restaurants: How to Make It Easier",
+      "url": "https://orders.co/blog/mobile-ordering-for-restaurants-made-easy/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-11-11",
+      "notes": "Mobile restaurant ordering: order action at the top of every page opening the current menu for the correct location, categories in familiar names with prices visible, required and optional customization with prices stated before adding to the cart, pickup, delivery, timing and cost settled early, complete total before payment."
+    },
+    {
+      "title": "6 principles of designing mobile menus that actually convert",
+      "url": "https://insights.ehotelier.com/insights/2026/08/12/6-principles-of-designing-mobile-menus-that-actually-convert-not-just-look-pretty/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-11-11",
+      "notes": "Mobile menu design: high-impact item placement above the fold, one-tap reordering, dietary filters that work, customization one tap away from each dish."
+    },
+    {
+      "title": "Enhancing Spatial Cognition in Online Virtual Museum Environments: Integrating Game-Based Navigation Strategies for Improved User Experience",
+      "url": "https://www.mdpi.com/2076-3417/14/10/4163/htm",
+      "category": "patterns",
+      "type": "research",
+      "accessed": "2026-11-12",
+      "notes": "Peer-reviewed empirical study of mini-map navigation in online virtual museums: without physical reference points visitors lose their bearings, and mini-map design elements of interactivity, visual guidance, and information content significantly improve spatial cognition, with information content and visual guidance having the strongest effects on immersion and presence respectively; practical directives include interactive exhibit pop-ups and click-to-navigate, colour coding and symbolic markers, comprehensive and accurate exhibit information, and customisable map scaling and highlight colours; the experiments were run on desktop."
+    },
+    {
+      "title": "Missed bin collections",
+      "url": "https://www.brent.gov.uk/services-for-residents/recycling-and-waste/household-recycling/missed-bin-collections/",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-12",
+      "notes": "Local-government service page: address-based next-collection dates by bin type, put out by 7am or the night before, collection window up to 10pm, wait and check why a bin was not collected, then report within two days, missed bins collected within 24 hours of the report."
+    },
+    {
+      "title": "Report a missed bin collection",
+      "url": "https://www.birmingham.gov.uk/reportmissedbin",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-12",
+      "notes": "Local-government service page, updated 20 January 2026: report after 1:30pm on the due day, exclusions for known disruption, contaminated bins and bins not out by 6am, re-collection within two working days, contamination feedback stating what to fix."
+    },
+    {
+      "title": "The end of bin night dilemma for Randwick",
+      "url": "https://www.randwick.nsw.gov.au/about-us/news/news-items/2026/november/the-end-of-bin-night-dilemma-for-randwick",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-12",
+      "notes": "Local-government reminder service, 4 November 2026: free weekly text message the day before collection stating which bin goes out, address and zone sign-up with opt-out."
+    },
+    {
+      "title": "Channels and programmes for TV inputs",
+      "url": "https://developer.android.com/training/tv/tif/channel?hl=en&authuser=002",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-12",
+      "notes": "Platform developer guidance: electronic programme guide data is mandatory for TV inputs, channel and programme records carry display name, start and end times and poster art, programme information is shown while changing channels and in the guide, current programmes update within two hours."
+    },
+    {
+      "title": "Electronic programme guides",
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/accessibility/epg",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-12",
+      "notes": "Regulator code of practice for electronic programme guides: information for viewers with hearing or visual impairments on using the guide, work with disability groups, broadcasters and set-top-box makers to improve usability, annual statements of improvements, prominence rules for public-service channels."
+    },
+    {
+      "title": "Diary study of television planning and programme guides",
+      "url": "https://www-users.york.ac.uk/paul.cairns/pubs/TurnerCairnsJones.pdf",
+      "category": "patterns",
+      "type": "research",
+      "accessed": "2026-11-12",
+      "notes": "Published usability research, CHI 2006 workshop: diary study of television planning; guide use is predominantly short-term now-and-next and evening planning, with reminders for programmes to watch or record; notes usability challenges of programme guides."
+    },
+    {
+      "title": "The accessibility and usability of online job applications for screen reader users",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10961918/",
+      "category": "patterns",
+      "type": "research",
+      "accessed": "2026-11-12",
+      "notes": "Peer-reviewed usability study, 2023: three screen-reader users attempted full online job applications at 30 companies, 90 trials; 55.6% success rate, 76.7% of sites with at least one critical blocker; date pickers and option lists caused over a third of blockers; error messages unclear or hard to find; completion took 20 minutes to over two hours."
+    },
+    {
+      "title": "Investigating the accessibility and usability of job application web sites for blind users",
+      "url": "https://fsc-ccf.ca/references/investigating-the-accessibility-and-usability-of-job-application-web-sites-for-blind-users/",
+      "category": "patterns",
+      "type": "research",
+      "accessed": "2026-11-12",
+      "notes": "Peer-reviewed usability study, 2012: 16 screen-reader users, 32 application attempts at 16 companies; 28.1% completed independently; recommendations include accessible feedback, clear link text, structured layout, logical grouping of questions, clearly identified data formats and required fields."
+    },
+    {
+      "title": "Using the Civil Service Jobs website as a candidate",
+      "url": "https://www.gov.uk/guidance/using-the-civil-service-jobs-website",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-12",
+      "notes": "Government employment-service guidance: candidate account, partially completed applications found under Applications, submitted applications cannot be changed, re-applying and withdrawal rules."
+    },
+    {
+      "title": "Applying using our online recruitment application portal",
+      "url": "https://www.sheffield.gov.uk/job-vacancies/your-job-application/applying-using-our-online-recruitment-application-portal",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-12",
+      "notes": "Local-government guidance: a draft application can be saved at any time and returned to later, submitted applications cannot be edited, shortlisting is based on the form, anonymous shortlisting after the closing date."
+    },
+    {
+      "title": "Contact their GP surgery online",
+      "url": "https://design-system.nhsapp.service.nhs.uk/patterns/contact-their-gp-surgery-online/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Platform design-system pattern guidance, checked November 2026: contact a GP surgery online through a form or questionnaire; two routes — describe a health problem and receive the practice's decision on the next step, or book a directly available slot where the practice offers one; label the problem route by what the person does; replies arrive in the messages area; document requests sit in the same entry point; availability depends on the person's own practice."
     }
   ]
 }
