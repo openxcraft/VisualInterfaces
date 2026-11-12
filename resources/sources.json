@@ -440,7 +440,7 @@
       "category": "trends",
       "type": "reading-list",
       "accessed": "2026-10-22",
-      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered \u2014 content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+      "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
     },
     {
       "title": "Design Trends That Will Influence Extensions in 2026",
@@ -448,7 +448,7 @@
       "category": "interfaces",
       "type": "article",
       "accessed": "2026-10-22",
-      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay \u2014 a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+      "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
     },
     {
       "title": "Validation gate for generated interface trees",
@@ -1456,7 +1456,7 @@
       "category": "states",
       "type": "article",
       "accessed": "2026-10-23",
-      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters \u2014 corroborates pre-populated suggestion states that disclose their nature."
+      "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
     },
     {
       "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
@@ -1928,7 +1928,7 @@
       "category": "patterns",
       "type": "article",
       "accessed": "2026-10-25",
-      "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type \u2014 free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
+      "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type — free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
     },
     {
       "title": "Paywall trial-offer guidance",
@@ -3552,7 +3552,7 @@
       "category": "patterns",
       "type": "article",
       "accessed": "2026-10-31",
-      "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain \u2014 full price or deposit with the balance due on release \u2014 and manage expectations with updates when dates change."
+      "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain — full price or deposit with the balance due on release — and manage expectations with updates when dates change."
     },
     {
       "title": "Tooltip best practices: remove friction, guide users",
@@ -4627,7 +4627,7 @@
       "notes": "Focus mode schedules: named modes per activity with their own allowlists of people and apps, schedules by time, location, or app launch with days stated, a visible state while on, an automatic reply to senders, sync across devices, and separate exception lists per mode so a mode that allows everything is a label rather than a boundary."
     },
     {
-      "title": "Toggle UX: switch, toggle button or checkbox \u2014 how to pick",
+      "title": "Toggle UX: switch, toggle button or checkbox — how to pick",
       "url": "https://uxpickle.com/effective-toggle-buttons/",
       "category": "primitives",
       "type": "article",
@@ -4683,7 +4683,7 @@
       "notes": "Bottom tab bar or a row under the header over a hidden burger; open menu puts search first, large rows, contacts at the bottom; header hides on scroll down and returns slimmer on scroll up; breadcrumbs shrink to one step back on a phone."
     },
     {
-      "title": "Your CAPTCHA Might Violate WCAG 2.2 \u2014 Here's What an Accessible Alternative Looks Like",
+      "title": "Your CAPTCHA Might Violate WCAG 2.2 — Here's What an Accessible Alternative Looks Like",
       "url": "https://www.wcag.world/blog/captcha-accessible-alternatives-wcag",
       "category": "patterns",
       "type": "article",
@@ -4912,7 +4912,7 @@
       "category": "patterns",
       "type": "guide",
       "accessed": "2026-11-06",
-      "notes": "Notification inbox triage: read, done, and following are separate dimensions \u2014 reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
+      "notes": "Notification inbox triage: read, done, and following are separate dimensions — reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
     },
     {
       "title": "Activity rings are harder to read than bar charts",
@@ -5075,12 +5075,12 @@
       "notes": "Revised 2026 safety-rating protocols require physical controls for indicators, wipers, hazard lights, horn, and emergency call; touchscreen-only cars score poorly on primary driving controls; physical controls allow operation without extended attention away from the road."
     },
     {
-      "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them \u2014 Guidelines 03/2022, version 2.0",
+      "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them — Guidelines 03/2022, version 2.0",
       "url": "https://www.datenschutzstelle.li/download_file/view/804/403",
       "category": "patterns",
       "type": "guidelines",
       "accessed": "2026-11-07",
-      "notes": "Six deceptive design pattern categories \u2014 overloading, skipping, stirring, obstructing, fickle, left in the dark \u2014 with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
+      "notes": "Six deceptive design pattern categories — overloading, skipping, stirring, obstructing, fickle, left in the dark — with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
     },
     {
       "title": "Criteria for websites (from end of 2026)",
@@ -5112,7 +5112,7 @@
       "category": "patterns",
       "type": "guidance",
       "accessed": "2026-11-07",
-      "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon \u2014 the common positions on cookie banner practices."
+      "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon — the common positions on cookie banner practices."
     },
     {
       "title": "Public Charge Point Regulations 2023 guidance",
@@ -5363,7 +5363,7 @@
       "notes": "One-tap bid for the next step above the current price; a maximum bid that bids in steps up to the stated cap and never past it; a sudden-death clock that tops back up on every bid and drops to 5 seconds at last call; the server clock decides the winner; every bid is a binding offer to buy."
     },
     {
-      "title": "How to Run an Online Auction \u2014 Complete Operator's Guide",
+      "title": "How to Run an Online Auction — Complete Operator's Guide",
       "url": "https://www.auction-rabbit.com/en/auction-system/operations/how-to-run-an-online-auction",
       "category": "patterns",
       "type": "guide",
@@ -5680,10 +5680,10 @@
       "category": "patterns",
       "type": "documentation",
       "accessed": "2026-11-10",
-      "notes": "Government guidance for landlords on rental listings: informative listings answering the renter's questions, photos of every room, pre-screening, and the essentials of a tenant application \u2014 verifiable income and employment, references, identification shown but not copied, credit check only with written approval \u2014 with the same documented criteria for every applicant."
+      "notes": "Government guidance for landlords on rental listings: informative listings answering the renter's questions, photos of every room, pre-screening, and the essentials of a tenant application — verifiable income and employment, references, identification shown but not copied, credit check only with written approval — with the same documented criteria for every applicant."
     },
     {
-      "title": "Rules of Operation \u2014 rental agencies",
+      "title": "Rules of Operation — rental agencies",
       "url": "https://codelibrary.amlegal.com/codes/cleveland/latest/cleveland_oh/0-0-0-37349",
       "category": "patterns",
       "type": "documentation",
@@ -5699,7 +5699,7 @@
       "notes": "Regulator guide to making an insurance claim: notify as soon as practical, ask what is needed, how much time there is to file, and how long processing takes; claim reference number; acknowledgement within three working days; assessor visit within three working days; settlement windows by claim size."
     },
     {
-      "title": "Getting ready for Self Assessment \u2014 a 10 point step-by-step guide",
+      "title": "Getting ready for Self Assessment — a 10 point step-by-step guide",
       "url": "https://www.gov.uk/government/publications/submit-your-self-assessment-tax-return-early/top-tips-for-filing-your-tax-return",
       "category": "patterns",
       "type": "documentation",
@@ -6096,7 +6096,7 @@
       "category": "patterns",
       "type": "paper",
       "accessed": "2026-11-11",
-      "notes": "Peer-reviewed analysis of how interfaces mediate access to public benefits: a five-fold typology of interface design elements in the benefits context \u2014 structuring data input, interaction architecture, operative controls, prompting and priming, and integrations."
+      "notes": "Peer-reviewed analysis of how interfaces mediate access to public benefits: a five-fold typology of interface design elements in the benefits context — structuring data input, interaction architecture, operative controls, prompting and priming, and integrations."
     },
     {
       "title": "Practitioner and Litigant Guide to Electronic Hearings",
@@ -6297,6 +6297,326 @@
       "type": "guidance",
       "accessed": "2026-11-12",
       "notes": "Platform design-system pattern guidance, checked November 2026: contact a GP surgery online through a form or questionnaire; two routes — describe a health problem and receive the practice's decision on the next step, or book a directly available slot where the practice offers one; label the problem route by what the person does; replies arrive in the messages area; document requests sit in the same entry point; availability depends on the person's own practice."
+    },
+    {
+      "title": "Learning analytics dashboards and student commitment in a large online course",
+      "url": "https://www.mdpi.com/2076-3417/15/21/11493",
+      "category": "patterns",
+      "type": "study",
+      "accessed": "2026-11-12",
+      "notes": "Randomised trial in a credit-bearing online course with 8745 learners: dashboards combining clear low-inference visualisations with concise actionable feedback and visible pacing cues raised commitment, while a dashboard without feedback gave no measurable benefit; practice problems permitted three attempts with immediate automated feedback and detailed explanations after a correct answer or exhausted attempts."
+    },
+    {
+      "title": "Design and evaluation of a learning analytics dashboard for students",
+      "url": "http://dspace.library.uu.nl:8080/bitstream/handle/1874/458747/8529-Article_Text-43495-2-10-20250105.pdf?sequence=1&isAllowed=y",
+      "category": "patterns",
+      "type": "study",
+      "accessed": "2026-11-12",
+      "notes": "Mixed-methods dashboard design and evaluation study with focus groups, think-aloud sessions, and a usability scale: students need reference frames to interpret progress data and a feedback box explaining the meaning and importance of the figures."
+    },
+    {
+      "title": "Per-competency mastery scores versus aggregate scores in online learning",
+      "url": "https://aet.cit.tum.de/research/publications/anzinger2026cseet.pdf",
+      "category": "patterns",
+      "type": "paper",
+      "accessed": "2026-11-12",
+      "notes": "Formal mastery model: per-competency mastery scores separate genuine mastery from shallow point accumulation, while aggregate scores mask whether individual competencies are mastered."
+    },
+    {
+      "title": "Queueing-network model of the Leitner spaced-repetition system",
+      "url": "https://arxiv.org/abs/1602.07032v1",
+      "category": "patterns",
+      "type": "paper",
+      "accessed": "2026-11-12",
+      "notes": "Peer-reviewed model of reviewing flashcards in the Leitner system: items the learner fails drop to a lower deck and are reviewed more often, with a sharp phase transition in learning outcomes as the rate of new-item introduction rises."
+    },
+    {
+      "title": "Optimal reviewing schedule given by recall probability",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6410796/",
+      "category": "patterns",
+      "type": "paper",
+      "accessed": "2026-11-12",
+      "notes": "Peer-reviewed study of the optimal reviewing schedule, given by the recall probability itself and validated in a large-scale natural experiment on a language-learning platform, where learners following the computed schedule memorised more effectively."
+    },
+    {
+      "title": "Systematic assessment of popular commercial food apps for meal planning and shopping",
+      "url": "https://mhealth.jmir.org/2018/12/e11867",
+      "category": "patterns",
+      "type": "study",
+      "accessed": "2026-11-12",
+      "notes": "Systematic assessment of 51 popular commercial food apps: meal planners and shopping lists were the most common features, and the conclusion is that future apps should combine meal planners, shopping lists, simple recipes, reminders and prompts, and food ordering to reduce the burden of the food provision pathway."
+    },
+    {
+      "title": "User testing of commercial apps for family meals",
+      "url": "https://doaj.org/article/c43a2ed2cb5e470a9c89722be91c501d",
+      "category": "patterns",
+      "type": "study",
+      "accessed": "2026-11-12",
+      "notes": "Peer-reviewed user testing with 133 working parents over four-week trials: meal planners and shopping lists were used in the moment while the behaviour was occurring, and organisation was the key theme, with meal-planning apps and features promoting organisation found to be feasible, time-saving solutions."
+    },
+    {
+      "title": "Content and quality analysis of free popular nutrition apps",
+      "url": "https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0000360",
+      "category": "patterns",
+      "type": "study",
+      "accessed": "2026-11-12",
+      "notes": "Content and quality analysis of free popular nutrition apps: six apps offered customisable meal planning and eight created grocery lists from selected recipes."
+    },
+    {
+      "title": "Overcoming roadblocks to healthy eating",
+      "url": "https://www.nia.nih.gov/health/healthy-eating-nutrition-and-diet/overcoming-roadblocks-healthy-eating",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Government health guidance for older adults: plan meals around what is on sale, create a shopping list in advance to stick to a budget, and use the list while shopping."
+    },
+    {
+      "title": "Building a tool to make mail-in voter registration more accessible",
+      "url": "https://cms-dr.usa.gov/blog/2024/10/building-a-tool-to-make-mail-in-voter-registration-more-accessible",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Government guidance on a step-by-step mail-in voter registration form filler: state-specific progressive disclosure, inline state-specific help, screen-reader compatibility, adjustable display, missing-information prevention, duplicate-registration check, and automatic election-office address."
+    },
+    {
+      "title": "Question pages pattern",
+      "url": "https://service-manual.nhs.uk/design-system/patterns/question-pages",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Government service design pattern for one question per page: the page heading is the question, every page carries a back link, the forward control is labelled for continuing, each item is asked once, and not knowing is a valid answer."
+    },
+    {
+      "title": "One thing per page",
+      "url": "https://designnotes.blog.gov.uk/2015/07/03/one-thing-per-page/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Government design guidance for one-question-per-page flows: easier for low-confidence users, works on small screens, and handles errors, branches, loops, and saving progress."
+    },
+    {
+      "title": "Designing content and transactions for government services",
+      "url": "https://www.gov.uk/service-manual/design/govuk-content-transactions",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Government service manual guidance on handling complex eligibility through routing questions inside the transaction, with a check-before-you-start step."
+    },
+    {
+      "title": "Track your ballot",
+      "url": "https://sos.oregon.gov/elections/pages/track-your-ballot.aspx?link_id=0&can_id=de159eff2231b5334c14fa7f7d062102&source=email-register-to-vote-by-oct-13-2&email_referrer=email_3453643&email_subject=track-your-ballot",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "State election office ballot tracking: updates by email, text, or phone when the ballot is sent, received, accepted, or not accepted because of a signature problem that can be fixed within 21 days; tracking follows the envelope, not the vote."
+    },
+    {
+      "title": "Ballot tracking",
+      "url": "https://www.michigan.gov/sos/elections/voting/ballot-tracking",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "State election office ballot tracking: the date the ballot was sent and whether it was received, email sign-up for send and receive notifications and for registration updates and mail-ballot applications; ballots returned in person are not shown as received."
+    },
+    {
+      "title": "Life cycle of a ballot",
+      "url": "http://elections.cdn.sos.ca.gov/pdfs/life-cycle-of-a-ballot.pdf",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "State election office life cycle of a ballot in ten steps: receive, mark, return, postmark deadline, collection, notification, signature verification, signature challenges, counting, and status check."
+    },
+    {
+      "title": "How to know your vote counted",
+      "url": "https://www.ncsbe.gov/news/press-releases/2026/11/10/how-know-your-vote-counted-north-carolina",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "State election board guidance on ballot statuses: valid return, accepted, accepted after a cured signature problem, and accepted with an exception; the voter history records that a vote was cast, not how it was marked."
+    },
+    {
+      "title": "Polling place lookup",
+      "url": "https://www.elections.virginia.gov/casting-a-ballot/polling-place-lookup/?utm_medium=paid&utm_source=fb&utm_id=6781527404865&utm_content=6781527404465&utm_term=6781527404665&utm_campaign=6781527404865",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "State election office polling-place lookup: full address entry returns the election-day polling location plus early-voting dates, hours, and locations; registered voters can look up any time through the citizen portal."
+    },
+    {
+      "title": "Find my polling place",
+      "url": "https://myvote.wi.gov/en-us/Find-My-Polling-Place?ref=madisonminutes.com",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "State election commission polling-place finder: search by address, polling-place hours and directions, and address-refinement help when no match is found."
+    },
+    {
+      "title": "Online voter registration accessibility report",
+      "url": "http://assets-dev.aclu.org/dev/uploads/publications/021915-aclu-voterregonline_0.pdf",
+      "category": "patterns",
+      "type": "report",
+      "accessed": "2026-11-12",
+      "notes": "Accessibility-organisation report on online voter registration: at the time only 1 of 20 state sites was fully accessible, with common barriers in inaccessible forms and screen-reader access, poor navigation, missing alt text, contrast, keyboard access, and tab order; also covers readability, languages, alternate registration routes, contact support, and accessibility statements."
+    },
+    {
+      "title": "Respond to a jury summons",
+      "url": "https://www.courts.ie/services/respond-to-a-jury-summons",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Court service guidance on responding to a jury summons: juror number and PIN printed on the letter with an example of where to find them, supporting documents for excusal and deferral, and a scam warning that a genuine summons is always sent by post and the service never asks for national ID numbers, bank details, or payment."
+    },
+    {
+      "title": "Respond to your jury summons",
+      "url": "https://www.mass.gov/how-to/respond-to-your-jury-summons",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "State court guidance on responding to a jury summons: badge number plus PIN plus postcode sign-in, confirm, request disqualification, postpone, or request a hardship transfer, online at all hours, immediate confirmation for postponement and other requests answered within two business days."
+    },
+    {
+      "title": "Reply to a jury summons",
+      "url": "https://www.gov.uk/reply-jury-summons",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Government service for replying to a jury summons: reply within seven days, sign in with the juror number plus name and address exactly as shown on the letter, answers downloadable and saveable at the end, and a fine for not replying."
+    },
+    {
+      "title": "Jury service",
+      "url": "https://www.gov.uk/jury-service",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Government guidance on jury service: change of date by replying with reasons and suggesting three possible dates in the next twelve months, excusal by replying with reasons, and an appeal route."
+    },
+    {
+      "title": "Juror resources",
+      "url": "https://www.courts.oregon.gov/courts/multnomah/jury/Pages/juror-resources.aspx",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "County court juror resources: the qualification questionnaire must be completed before requesting a deferral or excusal, first deferral online, and checking whether the juror number is called the day before."
+    },
+    {
+      "title": "Automated jury information service",
+      "url": "https://www.vawd.uscourts.gov/jurors/automated-jury-information-service/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Court automated status line: enter the nine-digit participant number, call after 6:00 pm the day before reporting, directed to report or rescheduled, and postponement or excuse status available seven to ten business days after mailing."
+    },
+    {
+      "title": "Juror call-in status",
+      "url": "https://mncourts.gov/find-courts/hennepin/jury/juror-call-in-status",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "County court juror call-in status by group number: check on the Sunday evening before the start date, then twice daily during the term, and attend only if the group number has been called."
+    },
+    {
+      "title": "Jury scams",
+      "url": "https://ord.uscourts.gov/index.php?option=com_content&view=article&id=2028&Itemid=1904",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Court scam warning: courts never require sensitive information in a phone call or email, most contact is by mail, and there are no requests for payment, fines, card numbers, or national ID numbers, and no warrant served by email, phone, or fax."
+    },
+    {
+      "title": "Reply to a jury summons accessibility statement",
+      "url": "https://reply-jury-summons.service.gov.uk/help/accessibility-statement",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Accessibility statement for the jury summons reply service: keyboard, screen reader, and speech recognition operation, zoom to 300 percent without text spilling, independently audited, and fully compliant with the current accessibility standard."
+    },
+    {
+      "title": "Substitution policy in online grocery",
+      "url": "https://www.sciencedirect.com/science/article/pii/S002243592200046X",
+      "category": "patterns",
+      "type": "study",
+      "accessed": "2026-11-12",
+      "notes": "Peer-reviewed retail study of substitution policy in online grocery: matching the dominant attribute for the category and matching past purchases raise substitution acceptance; two simulated-purchase experiments with more than 3,000 households across five categories."
+    },
+    {
+      "title": "Fulfilment failures in online grocery",
+      "url": "https://ideas.repec.org/a/eee/jouret/v101y2025i3p382-408.html",
+      "category": "patterns",
+      "type": "study",
+      "accessed": "2026-11-12",
+      "notes": "Peer-reviewed retail study of fulfilment failures in online grocery: failures delay the next order by 7.22 percent on average, and substitutions often make the delay and dissatisfaction worse rather than fixing it."
+    },
+    {
+      "title": "Stock-out policy in online stores",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022435906000339",
+      "category": "patterns",
+      "type": "study",
+      "accessed": "2026-11-12",
+      "notes": "Peer-reviewed retail study of stock-out policy in online stores: visible stock-outs with a suggested replacement facilitate substitution and slightly reduce cancellation, while stock-outs hidden until after a purchase attempt create confusion."
+    },
+    {
+      "title": "Vaccinations National Booking Service",
+      "url": "https://digital.nhs.uk/services/vaccinations-national-booking-service",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Government health-service booking service for vaccinations: online booking for eligible people with the number used to check eligibility and save the record, booking confirmation by text message or email, cancel and re-book where needed, and a phone route for people who cannot use the online service."
+    },
+    {
+      "title": "National Vaccination Scheduling Service privacy notice",
+      "url": "https://privacy.vacs.nhs.scot/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Government health-service portal for booking and rescheduling vaccination appointments, viewing vaccination history, and downloading a digital certificate or requesting a paper copy, with a phone helpline for people who do not use the portal."
+    },
+    {
+      "title": "Using eHealth App to make COVID-19 Vaccination Booking",
+      "url": "https://www.chp.gov.hk/en/features/106958.html",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Government health-service page on booking vaccination through a health-record app: personal particulars and past vaccination records filled in automatically, records viewable in the app, and a handheld printout given after vaccination."
+    },
+    {
+      "title": "Report: COVID Credential Design Criteria",
+      "url": "https://www.lfph.io/2021/09/08/covid-credential-design-criteria/",
+      "category": "patterns",
+      "type": "report",
+      "accessed": "2026-11-12",
+      "notes": "Public-health report on vaccine credential design criteria: a scannable code as the quickest verification, privacy through codes that need not be human-readable, the code prominent for fast access, and three presentation scenarios — scanned at an establishment, scanned from a printed code, and additional information beyond the code."
+    },
+    {
+      "title": "Self-service terminals and kiosks",
+      "url": "https://www.anysurfer.be/en/documentation/articles/detail/self-service-terminals-and-kiosks",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-11-12",
+      "notes": "Accessibility guidance for closed-environment terminals: multiple operating methods, spoken output through a personal headset with the screen blanked for privacy, tactile keys, time-limit warnings through more than one sense, and a simple predictable layout for first-time users."
+    },
+    {
+      "title": "EAA Requirements for ATM Accessibility Software",
+      "url": "https://accessible.org/atm-accessibility-software/",
+      "category": "layouts",
+      "type": "article",
+      "accessed": "2026-11-12",
+      "notes": "Accessibility requirements for cash-machine software under the European accessibility framework: speech output, headset use, tactile keypad mapping, timing adjustments with extension, privacy mode for audio-assisted transactions, and multilingual options."
+    },
+    {
+      "title": "Live-viewing apps",
+      "url": "https://apple-docs.everest.mt/docs/design/human-interface-guidelines/live-viewing-apps/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Platform guidance for live-viewing apps: feature live content prominently and mark it plainly apart from recorded titles, one-action playback, progress shown for programmes joined in progress, secondary actions in a fixed order, a content footer for browsing channels during playback that opens and closes by the same gesture, instant visible feedback on a channel change, and audio kept matched to the viewing context."
+    },
+    {
+      "title": "A2UI 1.0: Build delightful, fast, reliable, agentic experiences",
+      "url": "https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/",
+      "category": "trends",
+      "type": "article",
+      "accessed": "2026-11-12",
+      "notes": "First stable version of an open protocol for agent-described screens: the agent describes the surface and each app renders it with its own native components from a registered catalogue, private values are bound on the server, live facts are checked through two-way calls, and accessibility support is included."
     }
   ]
 }

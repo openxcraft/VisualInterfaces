@@ -7,6 +7,120 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Agentic interfaces trend: agent-described screens section added to
+  `trends/2026/agentic-ux.md` — the agent describes the screen and the
+  app draws it with its own native components from a registered
+  catalogue, private values are bound on the server, live facts are
+  checked on the spot through a two-way call, and the layout stays
+  stable while the screen streams in. Source record for the November
+  2026 protocol release notes in `resources/sources.json`.
+- Patterns catalogue: Passport renewal, Meal planning, Online
+  course lesson player and progress, Online voter registration
+  and mail-in ballot tracking, and Jury duty summons response
+  rows added to `catalog/patterns.md`, completing roadmap
+  actions 263 and 300: the passport renewal row checks
+  eligibility before the first step and lets the answers decide
+  the route, states the fee total and the expected wait before
+  payment, asks for the digital photo with the requirements
+  stated before upload and a plain-words rejection reason with a
+  retake route, shows a review before submission, states before
+  submission that the current document becomes invalid the
+  moment the renewal is submitted, and tracks by named stages
+  with a deadline where more information is needed; the meal
+  planning row puts recipes on a calendar by day and meal,
+  generates one combined list from the whole plan with repeated
+  ingredients merged into summed lines naming each contributing
+  recipe, carries serving counts into the combined amounts,
+  sorts the list by shop department, and hands it to a shared
+  household list without duplicates — the pantry-marking element
+  had only vendor corroboration and is not in the row; the
+  lesson-player row keeps lessons in short chunks with a resume
+  position, states completion separately from mastery with its
+  own threshold, shows progress at lesson, module, and course
+  level with a reference frame and one actionable next step,
+  asks checkpoint questions before the next lesson unlocks,
+  allows three attempts per practice question with immediate
+  feedback and a worked explanation once the answer is right or
+  the attempts run out, and offers a review queue of due items
+  ordered by predicted recall; the voter registration row starts
+  with eligibility and routing questions, asks one question per
+  page with the heading as the question, keeps the ballot
+  request and its tracking in one flow with named stages sent,
+  received, and accepted and a signature-cure route, and returns
+  the assigned polling place with hours and directions from a
+  full address; the jury summons row signs in with the
+  identifiers printed on the paper summons, puts the eligibility
+  questionnaire first, keeps deferral and excusal as separate
+  actions, lets answers be saved or downloaded, states the
+  evening-before reporting check by group or participant number,
+  and carries a scam warning on the entry page. Coverage matrix
+  updated. 32 new source records (826 total).
+- Patterns catalogue: Order substitution choice row in
+  `catalog/patterns.md` extended with substitution-acceptance
+  rules — suggest substitutes from past purchases first and
+  match the quality that matters most for the category, make a
+  stock-out visible at once with a suggested replacement, and
+  treat substitution as a fix that is never neutral, keeping
+  refund or removal the easy alternative where the substitute
+  does not fit. 3 new source records, included in the 32 above.
+- Roadmap: three new improvement actions added (307 community
+  sports league team registration, 308 vehicle registration
+  renewal and car tax payment, 309 voice dictation entry-control
+  distinction), ordered by coverage impact; coverage matrix
+  reconciled with the catalogue (428 pattern rows, all in Full;
+  Partial 30 — Passport renewal and the lesson player moved to
+  Full; online will creation, timed cart-hold, and digital
+  parking permit application added as named open actions; the
+  two new actions added). Re-checked against deeper sources:
+  online grocery delivery is covered in substance by existing
+  rows, and community sports league team registration stays open
+  for want of a governing-body, regulator, or peer-reviewed
+  source.
+- Patterns catalogue: Live-viewing app row added to
+  `catalog/patterns.md`: live content featured in its own section or
+  first tab with a plain live label that sets it apart from recorded
+  titles, a join-in-progress statement with the remaining time shown,
+  playback as the primary action with secondary actions in a fixed
+  order, browsing of other channels without leaving playback through
+  a footer that opens and closes by the same gesture, instant
+  feedback on a channel change, no playback starting on its own,
+  thumbnail previews while scrubbing long-form video, and every
+  player control reachable by keyboard as well as touch. 1 new source
+  record (794 total).
+- Patterns catalogue: Chat and messaging row in `catalog/patterns.md`
+  extended with site chatbot widget rules — one consolidated entry
+  point reachable on every page with the conversation carried across
+  pages, answers kept short through progressive disclosure, no
+  scrolling to the end of a long answer while it is being read, a
+  resizable chat window, save or share of chat content, and voice
+  input beside typing. 1 new source record (793 total).
+- Patterns catalogue: Vaccination appointment booking and digital
+  certificate row added to `catalog/patterns.md`: the row checks
+  eligibility before offering times, books the next dose at the
+  same time as the first where a course needs more than one, keeps
+  booking to short steps with a phone route offering the same times
+  as online, confirms the appointment with place, date, time, and
+  what to bring, checks the person in on arrival, and keeps the
+  certificate beside the appointment with a scannable code
+  prominent for fast access and the same record available on paper
+  with the same code, the code itself unreadable to a bystander,
+  with a correction route where a detail is wrong. Coverage matrix
+  updated. 5 new source records (792 total).
+- Kiosk layout: headset, privacy-mode, tactile-key, and
+  non-biometric-route rules added to `layouts/kiosk.md` — a socket
+  for a personal headset with the screen blanked while spoken
+  output is in use, tactilely discernible keys where the terminal
+  has them, a non-biometric route beside any biometric check, and
+  spoken output that works with hearing aids.
+- Roadmap: three new improvement actions added (304 pet adoption
+  application, 305 lost property reporting, 306 video doorbell
+  visitor interface), ordered by coverage impact; coverage matrix
+  Partial list updated with the three new named items. Re-checked
+  against deeper sources: ATM interface (268), driving test
+  booking (287), public transport season ticket purchase (289),
+  online will creation (290), and timed cart-hold (291) all stay
+  open for want of a platform or standards source.
+
 - Roadmap: five new improvement actions added (299 university
   student portal dashboard, 300 online course lesson player and
   progress, 301 airport self-service bag drop kiosk, 302 online

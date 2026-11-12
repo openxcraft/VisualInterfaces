@@ -160,6 +160,18 @@ When an agent produces interface markup, require a release-day accessibility pas
 - Record what the scanner cannot see as residual risk with an owner and a follow-up date; a clean scanner score is not proof of conformance.
 - Re-run the same checklist every time the interface is regenerated — accessibility debt in generated UI is a loop, not a one-time project.
 
+## Agent-described screens
+
+An agent can answer with a screen instead of text: a form to confirm, a chart, a choice between options. The agent describes the screen; the app draws it with its own native components.
+
+- The agent sends a structured description of the surface — its components, text, and values — and the app renders it, so the result keeps the app's look, behaviour, and accessibility support instead of inheriting whatever the agent would have drawn.
+- The agent may only place components the app has registered in advance. Anything outside that catalogue is refused, never rendered as a fallback.
+- Values that must stay private are bound on the server, so they reach the screen without passing through the agent's description.
+- A screen that needs live facts — availability, prices, open slots — checks them on the spot through a two-way call before it is shown, instead of showing figures that may already be stale.
+- Stream the screen in as the work progresses, but keep its layout stable: reserve space for each part so nothing shifts when the next part arrives.
+- The same rules as any other agent surface apply: a composed block is labelled as composed, a consequential action waits at a checkpoint, and the accessibility gate in the section above runs before the screen ships.
+- The A2UI protocol is one open implementation of this pattern; its first stable version shipped in November 2026, with renderers for the web, mobile, and desktop.
+
 ## States
 
 Every screen in this group defines all seven states. Missing states are treated as incomplete work.

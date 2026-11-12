@@ -50,6 +50,15 @@ confirmation that states what was done and that the session is closed.
   rather than a dead end.
 - Printed information needed to verify the transaction — receipts,
   tickets, confirmation codes — is also available through speech.
+- Offer a socket for a personal headset, and run spoken output
+  through it where one is plugged in; while spoken output is in
+  use, blank the screen so bystanders cannot read what is being
+  spoken, and keep the spoken route private by default.
+- Where the terminal has physical keys, make them tactilely
+  discernible, and offer a non-biometric route beside any biometric
+  check, so no one is locked out by a check their body cannot pass;
+  keep spoken output working with hearing aids where the terminal
+  uses audio.
 
 ## States
 
@@ -70,5 +79,6 @@ Every element and page in this group defines all seven states. Missing states ar
 The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
 
 - [ ] Idle timeout, session reset, and no-retained-data rules are documented.
+- [ ] Headset, privacy-mode, tactile-key, and non-biometric-route rules are documented.
 - [ ] Large-target and standing-distance guidance is present.
 - [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.
