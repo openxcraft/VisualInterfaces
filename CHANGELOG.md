@@ -7,6 +7,14 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Digital wallet add-card and tap-to-pay setup row added to
+  `catalog/patterns.md`, completing roadmap action 323 — adding a card by tapping it,
+  scanning it, or typing the details by hand, issuer verification before the card is
+  usable, a stated choice of default card, a tap-to-pay setup check covering NFC, the
+  default payment app, and the screen lock, adding the card to a paired watch, and
+  removal from every device at once. Two new source records: the platform wallet setup
+  guides. Coverage matrix updated (Digital wallet add-card and tap-to-pay setup moved
+  to Full; 434 pattern rows, Partial 32).
 - Patterns catalogue: Board game app interface row added to
   `catalog/patterns.md`, completing roadmap action 320 — the
   board as the primary area in a square ratio centred on every

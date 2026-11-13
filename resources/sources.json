@@ -6777,6 +6777,22 @@
       "type": "article",
       "accessed": "2026-11-13",
       "notes": "Guide to learning-app interface design: chunk information into small units to manage cognitive load, keep short focused lessons of three to seven minutes, show progress bars and milestones so progress stays visible, and align the interface with spaced repetition, scaffolding, and active recall."
+    },
+    {
+      "title": "Set up Apple Pay",
+      "url": "https://support.apple.com/en-us/108398",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "Official platform guidance for adding a card to a wallet: prerequisites of a compatible device, a supported card from a participating issuer, a signed-in account, and a device check set; add by tapping the card on the phone, scanning it in the frame, or entering the details by hand; issuer verification before the card is usable; adding the card to a paired watch; and removal from all devices."
+    },
+    {
+      "title": "Fix problems with tap to pay transactions",
+      "url": "https://support.google.com/wallet/answer/12200245?sjid=7552047993061391428-EU#check_software&zippy=",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "Official platform help for tap-to-pay setup: check the device supports NFC and switch it on, set the wallet as the default payment app, add a card by camera or manual entry, accept the issuer terms, verify the card when asked, keep a screen lock set, and check tap-to-pay readiness in the wallet."
     }
   ]
 }
