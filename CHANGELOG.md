@@ -7,6 +7,35 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Board game app interface row added to
+  `catalog/patterns.md`, completing roadmap action 320 — the
+  board as the primary area in a square ratio centred on every
+  device, both drag-and-drop and tap-to-move with single-tap
+  play throughout, legal moves shown on selection, an action bar
+  of at most four actions that never replaces a board action,
+  compact player panels, time controls in plain words, a
+  high-contrast board and piece option with the standard contrast
+  minimum, a move history and game log that survives a page
+  refresh, full-scale play without zoom controls, and an
+  intent-based first run. Two new source records: the board-game
+  platform studio guidelines and the publisher art and interface
+  guide. Coverage matrix updated (Board game app interface moved
+  from Partial to Full; 433 pattern rows, Partial 32).
+- Patterns catalogue: Language learning lesson row added to
+  `catalog/patterns.md` — placement onboarding that starts the
+  first lesson at the learner's level, a labelled lesson path
+  with the next lesson marked, short lessons in one exercise
+  frame for every question type, feedback on every answer with a
+  retry rather than an end, a lesson-complete summary of points,
+  accuracy, and time, and streak and quest views. Three new
+  source records: a peer-reviewed 2026 study of child-centred
+  language learning interfaces, a language learning app wireframe
+  template, and a learning-app design guide (847 sources total).
+- Roadmap: three new improvement actions added (321 music
+  streaming playlist and queue, 322 podcast app playback
+  interface, 323 digital wallet add-card and tap-to-pay setup),
+  each a genuine gap whose fresh sources stay below the
+  source-quality bar for want of a platform or standards source.
 - Patterns catalogue: Personal budgeting dashboard row added to
   `catalog/patterns.md` — a period view with planned, spent, and
   remaining amounts beside one safe-to-spend figure, category budgets

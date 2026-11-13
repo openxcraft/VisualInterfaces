@@ -6737,6 +6737,46 @@
       "type": "guidance",
       "accessed": "2026-11-13",
       "notes": "Choose the chart by what it must communicate: bars for comparisons of discrete items, lines for change over time with the axis starting at zero, pie slices adding to 100 percent; limit the number of data types in one chart; label every value and never carry meaning by colour alone."
+    },
+    {
+      "title": "BGA Studio Guidelines (UX/UI)",
+      "url": "https://en.doc.boardgamearena.com/BGA_Studio_Guidelines",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "Platform guidelines for board game adaptations: the game should fit a square ratio showing everything the active player needs, centred on all devices, with a no-action margin around the board; never hide game components behind popups; the action bar shows the current state with at most four buttons plus context and never replaces a board action; player panels stay compact, at most a quarter of a phone screen for four players; the game is fully playable at full scale with no zoom controls; interactive elements are at least 32 by 32 px; text meets the standard contrast minimum; regular animations stay at half a second, at most eight tenths; tooltips add insight rather than duplicating; the whole game is playable with single clicks; a game log records each move; fidelity to the original game is an absolute requirement."
+    },
+    {
+      "title": "Art Direction and User Interface",
+      "url": "https://doc.asmodee.net/art-and-ui",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "Publisher guide for taking a board game to the digital space: separate out-of-game screens from in-game screens, map every screen and its connections before designing, place interface elements shared across screens always in the same place, build a consistent library of elements, keep the layout usable from phone to desktop, and leave room for longer translated text, with French about 30 percent longer and German about 50 percent longer than English."
+    },
+    {
+      "title": "Child-Centered User Interface Design for Early Language Learning Applications: A Qualitative Comparative Study",
+      "url": "https://citeus.um.ac.id/jpp/vol33/iss1/4",
+      "category": "patterns",
+      "type": "study",
+      "accessed": "2026-11-13",
+      "notes": "Peer-reviewed 2026 qualitative comparative study of early language learning applications: intuitive minimal-step navigation reduces cognitive load and supports task completion; balanced colour sustains attention without overstimulation; large plain typography improves reading accuracy; expressive mascots support emotional engagement; preferences vary across developmental stages, so the interface should adapt rather than standardise."
+    },
+    {
+      "title": "Language Learning App UI Template",
+      "url": "https://whimsical.com/templates/language-learning-app-wireframe",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-13",
+      "notes": "Wireframe template for a gamified language learning app: placement onboarding asking why the learner is learning and their level, a lesson path of labelled sections and units, three exercise types (translate with a word bank, tap matching pairs, true-or-false on a short dialogue), one shared exercise frame with a progress bar and a single bottom button reading Check before answering and Continue after, a lesson-complete screen showing points, accuracy and time, and streak and quest views."
+    },
+    {
+      "title": "UI/UX Design for Learning Apps: Complete Guide",
+      "url": "https://www.gitnexa.com/blogs/ui-ux-design-for-learning-apps",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-11-13",
+      "notes": "Guide to learning-app interface design: chunk information into small units to manage cognitive load, keep short focused lessons of three to seven minutes, show progress bars and milestones so progress stays visible, and align the interface with spaced repetition, scaffolding, and active recall."
     }
   ]
 }
