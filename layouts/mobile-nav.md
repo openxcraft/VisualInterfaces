@@ -25,6 +25,12 @@ Bottom tab bar with three to five destinations, each with a short label and an a
 - The thumb zone holds primary navigation and primary actions; destructive actions stay out of it.
 - Back behaviour is consistent: back returns to the previous view, the tab returns to the section root.
 - On tablets, the tab bar may become a side rail; destinations and order do not change.
+- When top-level sections exceed five, keep the five most-used destinations in the bar and move the rest behind a single More destination that lists every remaining section with its label; never scroll the bottom bar itself, and never drop a destination silently. The More list keeps the current section marked in text as well as in shape, and returning from a More destination keeps the bar state unchanged.
+- Badges state attention, not decoration: show a count only where the number itself matters, otherwise a dot; cap large counts in plain form (for example "99+"); clear a badge when its section is opened, and never badge a destination the person cannot act on. Announce badge changes as a status update, never as an interruption.
+- Each tab keeps its own back stack: switching tabs preserves the stack left behind, back within a tab walks that tab's stack, and tapping the active tab returns to the section root. Back at a tab root leaves the section by the platform convention, never into another tab's stack.
+- Where gesture navigation offers a back preview, an edge swipe shows the destination before it commits: the current surface moves with the gesture, releasing before the commit threshold returns it unchanged with no state change, and releasing past the threshold completes the move to the previewed destination. Keep touch targets and drag handles out of the system gesture areas at the screen edges, so a back gesture is never mistaken for a control, and never let a preview suggest that completing it dismisses an item in the direction of the swipe.
+- A link from outside lands with its owning tab selected and the back route to the section root intact, so the person always knows where they are and how to return; never land on a bare view with no tab context, and show a plain fallback surface where the linked content is no longer available.
+- On long reading pages, let the top app bar step aside while the person scrolls down, so the reading area gains the space the bar occupied, and bring it back on the first upward movement, since scrolling up signals the person is looking for navigation; the returning bar is slimmer — title, menu control, and main action only — with any second row left out until the person returns to the top.
 
 ## States
 
@@ -42,12 +48,7 @@ Every element and page in this group defines all seven states. Missing states ar
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Compact navigation patterns and reach rules are complete.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

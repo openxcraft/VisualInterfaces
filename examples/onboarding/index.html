@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Onboarding Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="onboarding">
+  <header class="ob-head">
+    <p class="ob-count" aria-label="Step 2 of 4">Step 2 of 4</p>
+    <div class="ob-track" role="progressbar" aria-valuenow="2" aria-valuemin="1" aria-valuemax="4" aria-label="Setup progress">
+      <span class="ob-fill"></span>
+    </div>
+    <button type="button" class="ob-skip">Skip for now</button>
+  </header>
+
+  <section class="ob-step" aria-label="Current step">
+    <h1>Pick a workspace name</h1>
+    <p class="ob-hint">This is how your team sees your space. You can change it later.</p>
+    <label class="ob-field">Workspace name
+      <input type="text" name="workspace" value="Riverside Studio" autocomplete="organization">
+    </label>
+    <p class="ob-error" role="alert">That name is taken. <button type="button">Try "Riverside Studio 2"</button> or edit it above.</p>
+  </section>
+
+  <div class="ob-actions">
+    <button type="button" class="ob-back">Back</button>
+    <button type="button" class="ob-next">Continue</button>
+  </div>
+
+  <aside class="ob-resume" aria-label="Resume information">
+    <h2>Skipped steps</h2>
+    <p>You skipped "Invite teammates". <button type="button">Return to it</button> any time.</p>
+  </aside>
+
+  <section class="ob-demo" aria-label="State demonstrations">
+    <h2>State examples</h2>
+    <p class="ob-demo-row">
+      <button type="button">Default button</button>
+      <button type="button" disabled>Continue (blocked: add a workspace name first)</button>
+    </p>
+    <div class="ob-skeleton" aria-label="Loading example"><span></span><span></span><span></span></div>
+    <p class="ob-empty">Empty example: nothing is set up yet — the suggested name above is the one-tap path. <button type="button">Use suggestion</button></p>
+    <p class="ob-failure">Error example: the name could not be saved. <button type="button">Retry</button> Your text is kept.</p>
+  </section>
+</main>
+</body>
+</html>

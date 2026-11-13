@@ -21,10 +21,15 @@ Header with navigation and primary action; hero with headline, short supporting 
 ## Layout and responsive rules
 
 - Hero fits the first viewport on expanded screens without hiding the next section's start.
+- Compose the hero outcome-first: the headline names the audience and a measurable outcome, carries exactly one primary action, and places supporting microcopy plus a risk reducer (for example "no card required") beside the action; include a proof point before the first scroll.
+- Show the product in motion above the fold where possible: looping motion, an interactive demo, or a live preview reduces ambiguity faster than illustration; pick the hero variant by page type — left text with right visual, centred text over image, or an embedded form for lead generation.
 - One primary action repeats at natural stopping points; wording stays identical.
+- Order sections to mirror the decision: hero, then a social-proof strip, three to five outcome-led benefit blocks, how it works, deeper proof, objection handling (pricing transparency, security, questions), and a closing action; place social proof where doubt appears — adjacent to actions and forms — not only in a testimonials section.
+- Ruthless form friction: keep lead forms to three fields where possible, since each added field costs conversions; for longer asks, multi-step forms that break the request into small stages beat a single wall of fields.
 - Compact: single column in reading order — headline, action, features, evidence, questions.
 - Sticky action bar on compact screens appears only after the hero action scrolls away.
 - Media is abstract or product-focused; decorative media never pushes the headline below the fold on compact screens.
+- Hero motion honours the reduced-motion preference: looping or autoplaying hero media stops or fades for people who asked for less movement, with a visible pause control, and the offer never depends on the motion — headline, action, and proof stay readable with motion off.
 
 ## States
 
@@ -42,12 +47,9 @@ Every element and page in this group defines all seven states. Missing states ar
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Outcome-first hero, section order, and form-friction rules are documented.
+- [ ] Hero motion honours the reduced-motion preference, with the offer readable with motion off.
+- [ ] Sticky action-bar behaviour on compact screens is stated.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

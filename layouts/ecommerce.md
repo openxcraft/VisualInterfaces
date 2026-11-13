@@ -38,6 +38,16 @@ Category navigation; filter and sort controls; product grid with image area, nam
   the manual path.
 - The order summary persists across steps; payment failures get an explicit
   retry state that keeps the order intact.
+- Payment-method selection adapts to method count: a tiled grid for four or
+  fewer methods, where each tile shows the method's mark and label at a
+  glance; a vertical list once the count exceeds four, so longer method
+  lists stay easy to scan.
+- Label each delivery option with the date it arrives, not with speed
+  alone: a speed label without a date forces a guess, and the date stays
+  visible through checkout rather than appearing only at the final step.
+- Aid address entry with suggestions as the person types, and validate
+  the chosen address before payment, so a mistyped address never becomes
+  a failed delivery discovered after the order is placed.
 
 ## States
 
@@ -55,12 +65,8 @@ Every element and page in this group defines all seven states. Missing states ar
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Checkout variants and product-page structure are documented.
+- [ ] Trust elements and call-to-action placement rules are present.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

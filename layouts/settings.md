@@ -21,10 +21,15 @@ Section navigation; grouped form sections; switch and select controls; save acti
 ## Layout and responsive rules
 
 - Expanded: section navigation on the left, content on the right; compact: section list first, then one section per view.
+- Prefer sidebar or list navigation over an icon grid: cards with a left sidebar let people scan what each category contains, while icon grids hide where a setting lives.
 - Group related choices under short headings; one topic per group.
+- Match the edit chrome to the stakes: inline edits for low-stakes changes, modal dialogs where focus or a confirm step is warranted, confirmation dialogs for destructive actions.
 - State the save behaviour in words: either changes apply immediately or a save action is required, never a mix without labels.
+- State the scope of each setting beside its control: whether it applies to the account everywhere, the current device, the current workspace, or a single project; never mix scopes inside one group without a label, and when a change affects other people, say so before it is applied. Show the change lifecycle plainly: pending while it saves, confirmed once saved, and a failure message with a retry that keeps the entered values.
 - Irreversible actions are separated, labelled plainly, and require a confirmation pattern.
 - Search within settings is optional; if present, results link to the exact section.
+- Treat settings search as a design, not a box: roughly more than 20 fields warrants a search bar; match the words people type (synonyms), not internal labels; each result states where the setting lives and its current value; choosing a result opens the section, scrolls to the field, and briefly highlights it with the cursor in place; log zero-result searches as free research.
+- Group irreversible actions (delete, wipe, access-changing) in a danger zone at the bottom of the page or on a dedicated page, visually distinct; each action states what will happen before the person commits; require extra effort (re-entry, a second factor, or type-to-confirm) since access to the page is not proof of identity; keep only truly critical actions there.
 
 ## States
 
@@ -42,12 +47,8 @@ Every element and page in this group defines all seven states. Missing states ar
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Sidebar navigation, settings search, and danger-zone rules are documented.
+- [ ] Irreversible actions carry consequence descriptions and extra-effort guards.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

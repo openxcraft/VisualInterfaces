@@ -35,7 +35,11 @@ not replace any of the seven above.
 | --- | --- | --- |
 | Offline | A persistent banner or badge states that the connection is lost; the layout does not rearrange. | Cached content stays usable; actions that need the network queue visibly and sync when the connection returns; nothing silently fails. |
 | Read-only | Controls are replaced or dimmed with a short reason, for example "View only". | Data is fully legible; the reason for read-only is stated once; the path to request access sits next to it. |
-| Permission-denied | The blocked area explains which access is missing and why it is needed. | Offer a retry after granting, or an alternative path that works without the permission; never show a dead end. |
+| Permission-denied | The blocked area explains which access is missing, why it is needed, and who can grant it. | Offer a retry after granting, or an alternative path that works without the permission; never show a dead end. For the flow that earns the permission in the first place, see the permission-request pattern in `catalog/patterns.md`. |
+| Focused | A visible indicator marks the focused element — an outline, a background shift, or both — distinct from hover and selection. | Never remove the platform default without a designed replacement that stays visible in every theme; closing a dialog returns focus to the control that opened it; scrolling keeps the focused control clear of fixed chrome. |
+| Selected | Selection is marked in text or shape as well as colour: a check, a label, or a persistent highlight. | State the selection count where multiple selection is possible; selection survives sorting, filtering, and paging; a clear-all action is always reachable. |
+| Expanded | Disclosed content appears directly below or beside the trigger; the trigger label names the state, for example "Show more" and "Show less". | Expanded content holds its place when the layout reflows; collapsing returns focus to the trigger; the expanded region keeps its heading level in the page outline. |
+| Warning | A caution presentation distinct from error: it signals a consequence to consider, not a failure that happened. | State the consequence in plain words before the irreversible step; require an explicit confirm action; never pre-check the confirmation or auto-advance past it. |
 
 ## Layout and responsive rules
 
@@ -46,7 +50,54 @@ not replace any of the seven above.
 - Empty and error states keep the page structure: navigation, title, and search stay in place.
 - On touch devices there is no hover; every hover affordance has a tap equivalent.
 - In a scrollable composite control such as a carousel, activating a scroll button returns focus to that button once scrolling completes, and paging never moves keyboard focus outside the control.
+- Group an action's visual states in one component: one component owns the
+  idle, loading, and success presentations and moves between them, instead
+  of scattering state logic across icons, labels, and handlers. Each
+  transition announces itself to assistive technology, dimensions stay
+  fixed while loading, and focus returns to the action once its success
+  presentation clears.
 - Reduced-motion settings replace animated indicators with static ones.
+- Keyboard focus is never hidden behind page chrome: sticky headers,
+  consent controls, chat launchers, and banners must not cover the focused
+  control. When scrolling brings a control into focus, it lands fully clear
+  of any fixed overlay.
+- Focus indicators carry at least 3:1 contrast against adjacent colours;
+  never suppress the platform default without a designed replacement that
+  stays visible and themeable.
+- In forced-colours mode the author palette is replaced by user colours,
+  so the indicator rides on an outline in system colours rather than a
+  shadow, which gets suppressed.
+- Set scroll padding on the root element to match fixed chrome, so a
+  focused control is never entirely hidden behind a sticky header, banner,
+  or launcher when it scrolls into view.
+
+## Rules from the current accessibility standard
+
+Four rules from the current accessibility standard, stated here once so
+every pattern applies them the same way.
+
+- Dragging: every interaction that uses a dragging movement also offers a
+  single-pointer route without dragging — a control, a menu, or keyboard
+  keys — unless dragging is essential to the task. A drag handle is a cue
+  only, never the sole way to act. Cross-check the file upload, map
+  comparison, calendar and scheduling, bottom sheet choice, kanban board,
+  document signing, and shared whiteboard rows in `catalog/patterns.md`,
+  which each state the alternative for their own case.
+- Help in the same place: where a help entry repeats across pages, it
+  keeps the same relative order on every page, with the same label, so
+  help is found in the same place at the moment of confusion.
+  Cross-check the in-product help row in `catalog/patterns.md`.
+- No repeated entry: information already given in the same process is
+  never asked for again — it is filled in from what was already
+  provided, or offered for selection from what was already given.
+  Cross-check the wizard row and the form flow row in
+  `catalog/patterns.md`.
+- Sign-in without a memory or puzzle test: no step in a sign-in flow
+  requires remembering a password or solving a puzzle unless an
+  alternative step without that test is offered, or a mechanism is
+  provided that assists completing it. Cross-check the passkey sign-in,
+  second-factor sign-in, magic link sign-in, and account recovery rows
+  in `catalog/patterns.md`.
 
 ## States
 
@@ -59,8 +110,28 @@ Every element and page in this group defines all seven states. Missing states ar
 | Active | Pressed or selected appearance while interaction is in progress. | Feedback appears within 100 ms of input. |
 | Disabled | Reduced contrast, no pointer response, still readable. | Explain why it is unavailable nearby when the reason is not obvious. |
 | Loading | Skeleton blocks or a progress indicator replace live content. | Keep layout dimensions stable so content does not shift. |
-| Empty | Explain the absence in one short sentence and offer one action. | Offer one clear next action and, where relevant, a reset for filters. |
+| Empty | Explain the absence in one short sentence and offer one action. | Offer one clear next action and, where relevant, a reset for filters. Where content failed to load, the empty state still renders as a static fallback, never a blank screen: it states what is missing, offers one next action, and states whether a retry will restore the content. |
 | Error | Name the failure in plain language, preserve input, and place retry next to the message. | Keep entered data, place the message next to the problem, and offer a retry. |
+
+## Error-state groups
+
+Group error presentations by what the person can do next, not by the
+failure's cause.
+
+- Input rejected: an inline message at the field, other values kept, and
+  focus moved to the first error.
+- Session or permission lost: re-authenticate in place and resend, so the
+  work survives; explain who can grant the access when permission is the
+  blocker.
+- Conflict or gone: show both versions, or say plainly where to go
+  instead.
+- Rate-limited or overloaded: show the wait, count it down, and retry
+  automatically.
+- Server error: retry once, then show a reference identifier.
+- Unknown outcome: the request timed out and the result is unconfirmed — treat it as unknown, not failed. Preserve all entered values, verify whether the action already succeeded before enabling retry, and show a distinct checking status ("checking whether your save went through") so a retry can never create a duplicate.
+- Offline or timeout: keep the action visibly queued, say it will be sent
+  when the connection returns, and never present it as saved until the
+  save is confirmed.
 
 ## Copy rules for states
 
@@ -71,14 +142,153 @@ Every element and page in this group defines all seven states. Missing states ar
 - Disabled: where the reason is not obvious, place it in helper text beside
   the element, not only in a tooltip.
 
+## Loading-state rules
+
+A skeleton previews the shape of arriving content; it is not decoration.
+Pick the indicator from the wait, not the layout.
+
+- Reserve skeletons for waits of roughly 1 to 10 seconds. Under 1 second
+  show nothing — a flickering skeleton reads as noise. Past 10 seconds
+  switch to a percent-done indicator.
+- Match the final layout box for box. When the post-loading layout cannot
+  be predicted, use a spinner instead to avoid layout whiplash.
+- Replace each placeholder the instant its content arrives; never hold
+  finished content hostage to the slowest element on the page.
+- Never show an empty state during a fetch — users read "no data" as
+  final. Zero results after loading completes is an empty state; a
+  failure is an error state with retry. Never leave the skeleton visible
+  after an error.
+- Skeleton shape communicates loading without motion. Ship a static
+  reduced-motion variant, keep skeleton fills at readable contrast, and
+  announce loading status to assistive technology: mark loading regions
+  busy and announce with a polite live region when content replaces the
+  skeleton.
+
+## Produced-result states
+
+For a result the system produces on request, the states around it
+matter as much as the result itself.
+
+- While the result is being produced, state what is being done in
+  specific words — for example, naming the material being summarised —
+  rather than a vague "Processing" label, and keep the progress text
+  current as the work moves on.
+- Lead with the answer: present the conclusion first in short chunks,
+  with further detail available on demand, rather than a long
+  preamble the person must read through to reach it.
+- Place refine, undo, and retry controls beside the result itself, so
+  correcting it is part of reading it; a result with no route to
+  correction reads as final even when it is wrong.
+- Before a produced result triggers anything consequential, confirm
+  it; when production fails, say what failed and offer the next step
+  rather than a bare error.
+- Always offer a manual route that does not depend on the produced
+  result, so the task stays completable when production fails or is
+  not wanted.
+
+## Status announcements
+
+For changes that happen without a page reload, tell assistive
+technology what changed, in words, without moving focus.
+
+- Present the announcement region in the page from first load. A
+  region added only at the moment of the update may be missed.
+- Polite by default: wait for the current reading to finish.
+  Reserve an interrupting announcement for time-critical news that
+  demands action at once, such as a session about to end or an
+  error that blocks the task, and never use it for routine updates.
+- Announce the whole message when the meaning depends on the full
+  sentence; announce only the changed part for counts and totals.
+- Do not announce every tick of a progress indicator. Announce the
+  start, the completion, a failure, and any milestone that changes
+  what the person should do next.
+- Never move focus to deliver an announcement; focus stays where
+  the person was working.
+- Keep each message short and plain: name what changed, and state
+  the next step where one is needed.
+- Mark the region busy while an update is still in progress, so
+  partial content is not announced as if it were final.
+
+## Empty-state variants
+
+Four kinds of "empty" need different words and different next steps. Do
+not infer the state from an item count; the data layer returns an explicit
+status alongside the items.
+
+- First-use. Nothing has been created yet. Goal: teach and start. Copy
+  states the situation and the one action that begins, for example "No
+  projects yet. Create your first project."
+- Naturally empty. The user is caught up, cleared the list, or nothing is
+  scheduled right now. Goal: confirm, not alarm. Say so plainly and, when
+  known, say when to come back, for example "You are all caught up. New
+  items appear here as they arrive."
+- Restricted or failed. Content exists but cannot be shown, or loading
+  failed. Goal: explain and recover. Name the cause honestly and give the
+  matching next step: a permission request for restricted content, a retry
+  for a failure. Never show a blank area that reads as broken. A
+  restricted message never implies a workaround where none exists — a
+  retry or a request path that can never succeed reads as broken too.
+- Pre-populated. The area is technically empty, but available context
+  suggests what the user is likely to want. Goal: offer a starting point
+  instead of a blank screen. Show suggestions as suggestions — visually
+  distinct from real items, easy to dismiss, and never stored as the user's
+  data. Never present suggested content as if it already existed; a user
+  must be able to tell suggestion from fact at a glance. A worked example —
+  a pre-filled sample clearly marked as an example, with one action to make
+  it real — teaches the shape of the result before the user commits; where a
+  sample is impossible, show a faded preview of the populated state behind
+  the call to action.
+
+Rules:
+
+- One short sentence of explanation, then one clear action; a second link
+  (help, settings) is allowed but never a second action of equal weight.
+- A first-use empty state removes the fear of a wrong first step: where
+  the first action can be undone or changed afterwards, say so plainly,
+  and never imply that a wrong first choice carries lasting cost. Where
+  the first action cannot be undone, state what happens before the person
+  acts.
+- A load failure never reuses the genuinely-empty message: "nothing
+  here" and "nothing loaded" are different states with different words,
+  and the failure message names the failure. The same visual treatment
+  must not appear in both cases, since the person cannot tell them apart.
+- Keep the visual treatment calm: no error styling for first-use or
+  natural empty states; error styling only for failures.
+- Keep layout dimensions stable so the populated view does not shift.
+
+## Theme preference states
+
+Appearance mode (light, dark, automatic) is a persistent state, not a
+one-time read. Resolve it carefully at every load.
+
+- In automatic mode, re-read the live system preference on every page
+  load. Never store the resolved value as if the user had chosen it —
+  a frozen snapshot stops tracking the system setting.
+- The configured theme is authoritative over stored leftovers. A value
+  from an older version, another app on the same host, or a stale cookie
+  must not override the theme the app declares; ignore or repair foreign
+  and outdated values instead of applying them.
+- Keep the visible label, the stored value, and the applied theme in
+  agreement before the first paint, so the page never flashes the wrong
+  mode while the preference resolves.
+- A quick control in a header or toolbar fixes the appearance right
+  now: offer only the opposite of the current appearance, not a full
+  policy choice. Keep the three-way choice — follow the system, light,
+  or dark — in a dedicated settings view, where the person has arrived
+  to set a lasting policy.
+- Store nothing until the person chooses, so with no stored choice the
+  appearance follows the live system preference. When the person
+  toggles, store only the chosen light or dark value; when they toggle
+  back to the appearance that matches the system, clear the stored
+  value so the system preference governs again.
+- Never clear a stored choice on its own just because the system
+  preference later changes to match it; only the person's own action
+  clears or replaces a stored choice.
+
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] The seven-state table and the supporting-state table are complete and consistent.
+- [ ] Loading-state, empty-state, and error-state-group sections agree on wording.
+- [ ] Copy-rule examples read naturally in one line each.

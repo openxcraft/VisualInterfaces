@@ -1,0 +1,192 @@
+# Spatial Interfaces
+
+Interfaces placed in three-dimensional space around the viewer: panels at
+arm's length or across the room, arranged by depth as well as by plane. The
+viewer is treated as a body with a neck and a gaze, not as a cursor.
+
+## Classification
+
+- Category: trends / 2026 / spatial-interfaces
+
+When to use:
+
+- Head-worn or room-scale experiences where content lives at distance and
+  depth: dashboards around the viewer, object-anchored information,
+  multi-window workspaces.
+
+When to avoid:
+
+- Adding depth to a task that a flat panel does better; precision data,
+  forms, and keyboards stay on flat panels.
+- Assuming a window always gets a spatial panel; every component ships a
+  documented two-dimensional fallback.
+
+## Elements and components
+
+Comfort zones by gaze angle; distance placement tiers; flat, layered, and
+deep arrangements; capability tiers per component with two-dimensional
+fallbacks; high-contrast opaque alternatives to translucent panels.
+
+## Layout and responsive rules
+
+- Keep critical elements within the primary zone: roughly a 40-degree cone
+  around the centre gaze (about ±20° horizontal, ±15° vertical, with the
+  critical core within ~30° of forward gaze). Use the secondary zone,
+  20–40° off-axis, for contextual or ambient content — larger and simpler.
+- Place content at 1.2–1.5 m height for standing or sitting neutral gaze;
+  never force upward neck tilt beyond about 15°.
+- Tier by distance: arm's length for detailed interactive work, 1–3 m for
+  general viewing, beyond 3 m for ambient information only; let content
+  clarity adapt automatically by zone.
+- Choose the panel by task: flat panels for precision data, forms, and
+  keyboards (less distortion, easier ray or poke hits); curved panels for
+  panoramic dashboards with the radius matched to the focal distance
+  (2–3 m); never over-curve past about a 90° arc, which distorts edges.
+- Define capability tiers per component (full spatial, basic, 2D fallback)
+  and document which tier each component supports. Ordinary 2D surfaces run
+  by default as 2D panels inside 3D space; spatial dialogs fall back to
+  standard 2D dialogs.
+- In multi-window spatial systems, cap promoted panels and give each
+  window a fallback mode: inline (content stays in the main layout, nothing
+  disappears) or drop (renders nothing until a panel is available), with
+  priority ordering when slots run out.
+- Translucent multi-layer panels are the current spatial look, but they
+  fail legibility routinely: test all text on translucent backgrounds to a
+  minimum AA contrast, provide a user toggle to a high-contrast opaque
+  version, and profile blur effects for frame rate and power. Prefer
+  progressive disclosure (gaze-triggered detail) over filling the space
+  with panels.
+- Never layer translucent surfaces on each other: stacked glass blurs into
+  itself, burns performance, and turns text illegible; keep one
+  translucent layer per view and put everything else on opaque panels.
+- Translucency is conditional, not cosmetic: it disables automatically
+  under high-contrast settings, with a high-contrast opaque variant as
+  the default for that mode.
+- Keep translucent materials on navigation and controls, out of the
+  content layer: contrast shifts as content scrolls beneath a translucent
+  surface, so translucent chrome is acceptable for navigation bars and
+  controls, but text- and number-dense screens stay opaque. Respect the
+  user's reduce-transparency preference by swapping to opaque variants
+  there too.
+- Treat default translucency values as accessibility-tested: opacities and
+  blur radii measured for legibility stay fixed, and anyone overriding
+  them owns the resulting contrast evaluation.
+- Map content to proxemic rings around the viewer: intimate (0–0.5 m) for
+  highly personal lean-in items; personal (0.5–1.2 m, within arm's reach)
+  for objects the viewer manipulates; social (1.2–3.7 m) for lean-out and
+  shared content.
+- Keep interactive content inside the comfortable depth band of about
+  1.25–5 m: detailed frequent work near arm's length, general viewing at
+  1–3 m, ambient information only beyond 3 m.
+
+## Spatial interaction ergonomics
+
+- Treat the eyes as the targeting cursor: gaze aims, and a micro-gesture
+  such as a thumb-and-index pinch with the hands resting in the lap
+  commits. Eye movements are rapid and erratic, so every interactive
+  target answers gaze instantly with a clear hover state that confirms
+  intent before any gesture is executed — never let a gesture fire on a
+  target the person has not visibly focused.
+- Design for sustained comfort: never require prolonged raised-arm
+  interaction — the primary gesture stays small and lap-level, and
+  extended sessions fatigue the arms, neck, and eyes. Size targets to
+  tolerate natural eye drift (larger than the equivalent 2D control),
+  and keep separation between adjacent controls so rapid gaze
+  scanning does not misfire.
+- Anchor feedback in space: use positional audio to confirm actions and
+  to redirect attention toward events outside the central field of view,
+  since the person may not be looking at the change when it happens.
+  Audio is a redirect, not the message — pair it with a visible cue.
+
+## Spatial page patterns
+
+Multi-window spatial workspaces need an explicit panel contract.
+
+- Give every window a declared fallback mode: inline (the window's
+  content stays in the main layout, nothing disappears) or drop (renders
+  nothing until a panel is available).
+- Order windows by priority for when panel slots run out: centre the
+  primary window at natural eye level, push supplementary windows to the
+  periphery, and never let a secondary window occlude the full environment
+  or cover critical space.
+- Offer tiered viewing modes per window: a calm regular window for
+  everyday tasks, full immersion only for experiences that genuinely need
+  it, so the viewer can always step a window back instead of abandoning
+  it.
+- Reserve the peripheral field for larger, simpler, ambient elements;
+  keep critical controls and fine text within about 30 degrees of forward
+  gaze so they stay legible without eye strain.
+
+## Glasses and on-the-move placement
+
+Glasses differ from room-scale headsets: the wearer walks, the background
+is uncontrolled, and the display adds light to the real view rather than
+replacing it.
+
+- Anchor on-the-move content to the world or to the predicted path, not
+  to the head. Head-locked panels move with every step and head turn,
+  which makes text harder to read and targets harder to hold while
+  walking; panels fixed to the world, or floating ahead along the walking
+  path at a fixed distance and height, stay stable enough to read. A
+  head-following panel with a delay sits between the two and is still
+  worse than a world-fixed one. Reserve head-locked placement for brief
+  alerts only, and move anything that needs reading or tapping to a
+  world-fixed or path-following position.
+- Keep moving content stable in the plane perpendicular to the direction
+  of travel: stability in that plane is what keeps the gaze steady while
+  walking.
+- Design for an additive display: the display adds light to the real
+  view, so pure black renders as transparent and white is the brightest
+  colour available. Treat the colour space as inverted: light text on a
+  dark treatment reads best, and pure white backgrounds with dark text
+  are uncomfortable to read. Avoid large uniform colour regions, which
+  expose display variation; use subtle patterns or textures instead, and
+  avoid gradients with opacity.
+- Use depth for hierarchy, not just size and colour: nearer elements read
+  as more important. Guide attention with one saturated accent against a
+  muted world, with clear space around the focal element, or with a short
+  motion cue when something appears.
+- The background is uncontrolled: the same panel sits against a white
+  wall, a busy desk, or a sunset. Keep panels small, keep the real world
+  as the negative space, and never fill the view.
+- Use three-dimensional forms for buttons and interactive elements,
+  which invite touch and give feedback in depth; keep text and icons on
+  flat two-dimensional planes so they stay legible from any angle.
+- Treat audio-only glasses and display glasses as different surfaces:
+  the same task reaches the wearer through speech alone on one and
+  through speech plus a small visual on the other, so design each form
+  on its own terms rather than one surface with the visual removed.
+- On audio-only glasses, the spoken response is the whole interface:
+  keep each response short and self-contained, state the result before
+  the detail, confirm consequential actions aloud before carrying them
+  out, and offer a spoken repeat on request. Nothing the wearer needs
+  exists only in a visual form; the same app state that shows a screen
+  elsewhere speaks its content here.
+- On display glasses, pair the spoken response with a small,
+  high-contrast visual only when the visual carries something speech
+  cannot — a direction, a name, a short confirmation — and let it
+  disappear again once read. Visuals never persist, never fill the view,
+  and never hold the only copy of anything important.
+
+## States
+
+Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
+
+| State | Appearance | Behaviour |
+| --- | --- | --- |
+| Default | A spatial layout at rest, with full contrast and a clear label. | Ready for input or selection. |
+| Hover | Pointer-only highlight: subtle background or border change; gaze hover needs a dwell threshold before it counts. | No change on touch devices; hover never carries essential information alone. |
+| Active | Pressed or selected appearance while interaction is in progress. | Feedback appears within 100 ms of input. |
+| Disabled | Reduced contrast, no pointer response, still readable. | Explain why it is unavailable nearby when the reason is not obvious. |
+| Loading | Skeleton blocks or a progress indicator replace live content. | Keep layout dimensions stable so content does not shift. |
+| Empty | Show the layout structure with an explanation and one action that adds or finds content. | Offer one clear next action and, where relevant, a reset for filters. |
+| Error | Keep navigation in place, show the failure in the content area, and offer retry. | Keep entered data, place the message next to the problem, and offer a retry. |
+
+## Pre-publish checklist
+
+The canonical publishing checklist lives in `../../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Spatial page patterns, proxemic rings, and the comfort-zone band are documented.
+- [ ] Fallback modes and panel priority ordering are stated.
+- [ ] Translucent-panel rules cover legibility, no layering, high-contrast fallback, and tested opacity values.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

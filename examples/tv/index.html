@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Television Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="tv-page">
+  <nav class="tv-sections" aria-label="Sections">
+    <span class="tv-brand">Home screen</span>
+    <button type="button" class="tv-section is-focused">Browse</button>
+    <button type="button" class="tv-section">Films</button>
+    <button type="button" class="tv-section">Series</button>
+    <button type="button" class="tv-section">Live</button>
+    <button type="button" class="tv-section">Search</button>
+  </nav>
+  <p class="tv-back">Back goes to the home screen.</p>
+
+  <section class="tv-hero" aria-label="Featured">
+    <h1>Featured this evening</h1>
+    <p class="tv-hero-title">A quiet harbour town, one long summer.</p>
+    <p class="tv-hero-note">Two hours, captions available, audio description available.</p>
+    <p><button type="button" class="tv-primary">Play now</button>
+    <button type="button">More details</button></p>
+    <p class="tv-note">The primary action is reachable within a few presses from the home screen.</p>
+  </section>
+
+  <section class="tv-shelf" aria-label="Continue watching">
+    <h2>Continue watching</h2>
+    <div class="tv-rail">
+      <button type="button" class="tv-card is-focused">
+        <span class="tv-card-title">Harbour lights</span>
+        <span class="tv-card-meta">42 minutes left</span>
+      </button>
+      <button type="button" class="tv-card">
+        <span class="tv-card-title">Night train</span>
+        <span class="tv-card-meta">1 hour 10 left</span>
+      </button>
+      <button type="button" class="tv-card">
+        <span class="tv-card-title">The long field</span>
+        <span class="tv-card-meta">18 minutes left</span>
+      </button>
+      <button type="button" class="tv-card" disabled>
+        <span class="tv-card-title">River road</span>
+        <span class="tv-card-meta">Unavailable in your region</span>
+      </button>
+    </div>
+    <p class="tv-note">Left and right move within the row; up and down move to the next row keeping the column. The disabled card is skipped in focus order, and the reason is stated beside it.</p>
+  </section>
+
+  <section class="tv-shelf" aria-label="Browse by category">
+    <h2>Browse by category</h2>
+    <div class="tv-rail">
+      <button type="button" class="tv-card">
+        <span class="tv-card-title">Drama</span>
+        <span class="tv-card-meta">128 titles</span>
+      </button>
+      <button type="button" class="tv-card">
+        <span class="tv-card-title">Documentary</span>
+        <span class="tv-card-meta">64 titles</span>
+      </button>
+      <button type="button" class="tv-card">
+        <span class="tv-card-title">Comedy</span>
+        <span class="tv-card-meta">97 titles</span>
+      </button>
+    </div>
+    <p class="tv-note">Focus memory: leaving this shelf and coming back returns focus to the same card.</p>
+  </section>
+
+  <section class="tv-playback" aria-label="Playback screen">
+    <h2>Playback</h2>
+    <p>Playing: Harbour lights — 42 minutes left. Transport controls stay hidden until a button is pressed.</p>
+    <p class="tv-row">
+      <button type="button">Pause</button>
+      <button type="button">Subtitles: English</button>
+      <button type="button">Audio: described</button>
+    </p>
+    <p class="tv-note">Playback position is remembered if the viewer leaves and returns.</p>
+    <p class="tv-back">Back goes to Continue watching, on the same card.</p>
+  </section>
+
+  <section class="tv-demo" aria-label="State demonstrations">
+    <h2>State examples</h2>
+    <p class="tv-demo-row">
+      <button type="button">Default button</button>
+      <button type="button" disabled>Play (blocked: title unavailable)</button>
+    </p>
+    <p class="tv-demo-row">
+      <span class="tv-loading" aria-label="Loading example"></span>
+      <span>Loading example: a shelf shows skeleton cards in place; the layout does not shift.</span>
+    </p>
+    <p class="tv-empty">Empty example: nothing in this shelf yet. <button type="button">Browse all titles</button></p>
+    <p class="tv-failure">Error example: the title could not be loaded. <button type="button">Retry</button> Your place is kept.</p>
+  </section>
+</main>
+</body>
+</html>

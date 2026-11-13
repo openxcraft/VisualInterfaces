@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="checkout-page">
+  <h1>Checkout — Worked example</h1>
+  <p class="co-note">Placeholder items and prices stand in for a real basket. Nothing on this page submits a payment.</p>
+
+  <div class="co-layout">
+    <section class="co-form" aria-label="Checkout form">
+      <h2>Your details</h2>
+      <p class="co-row">
+        <label>Contact email
+          <input type="email" placeholder="Address for the order confirmation">
+        </label>
+      </p>
+      <fieldset class="co-choice">
+        <legend>Guest checkout</legend>
+        <p>
+          <label><input type="radio" name="account" checked> Continue as guest</label>
+        </p>
+        <p>
+          <label><input type="radio" name="account"> Create an account after ordering</label>
+        </p>
+        <p class="co-note">The order is kept either way; creating an account later attaches this order to it.</p>
+      </fieldset>
+
+      <fieldset class="co-choice">
+        <legend>Delivery slot</legend>
+        <p>
+          <label><input type="radio" name="slot" checked> Tomorrow, 9:00–12:00 — no charge</label>
+        </p>
+        <p>
+          <label><input type="radio" name="slot"> Tomorrow, 17:00–20:00 — no charge</label>
+        </p>
+        <p>
+          <label><input type="radio" name="slot"> Saturday, 9:00–12:00 — no charge</label>
+        </p>
+        <p class="co-note">Only windows the fulfilment side can keep are offered; a slot that cannot be kept is never listed.</p>
+      </fieldset>
+
+      <fieldset class="co-choice">
+        <legend>Payment method</legend>
+        <p>
+          <label><input type="radio" name="pay" checked> Card ending 4242 — chosen</label>
+        </p>
+        <p>
+          <label><input type="radio" name="pay"> Card ending 0017</label>
+        </p>
+        <p>
+          <label><input type="radio" name="pay"> Pay on delivery</label>
+        </p>
+        <p class="co-note">One saved method is chosen at a time; choosing another keeps the slot and the code already entered.</p>
+      </fieldset>
+
+      <fieldset class="co-choice">
+        <legend>Promo code</legend>
+        <p class="co-row">
+          <label>Code
+            <input type="text" value="WELCOME10">
+          </label>
+          <button type="button">Apply code</button>
+        </p>
+        <p class="co-note">A code that applies shows as a line item beside the recalculated total; a declined code names its reason and leaves the total unchanged.</p>
+      </fieldset>
+
+      <p class="co-row">
+        <button type="button" class="co-primary">Place order — £46.80</button>
+      </p>
+      <p class="co-note">The action stays unavailable until delivery, payment, and contact details are all chosen.</p>
+    </section>
+
+    <section class="co-summary" aria-label="Order summary">
+      <h2>Order summary</h2>
+      <ul>
+        <li>Notebook, lined — 2 × £12.00 <span>£24.00</span></li>
+        <li>Pen set — 1 × £18.00 <span>£18.00</span></li>
+        <li>Delivery — tomorrow 9:00–12:00 <span>£0.00</span></li>
+        <li>Promo code WELCOME10 <span>−£4.20</span></li>
+      </ul>
+      <p class="co-total">Total <span>£46.80</span></p>
+      <p class="co-note">Every change to a slot, a payment method, or a code recalculates this total in place.</p>
+    </section>
+  </div>
+
+  <section class="co-variants" aria-label="State variants">
+    <h2>State variants</h2>
+    <div class="co-variant">
+      <h3>Loading — slots</h3>
+      <p class="co-skeleton" aria-hidden="true"></p>
+      <p class="co-skeleton" aria-hidden="true"></p>
+      <p>Delivery slots are loading; the summary and the order total stay in place while they load.</p>
+    </div>
+    <div class="co-variant">
+      <h3>Empty — basket</h3>
+      <p>Your basket is empty, so there is nothing to check out.</p>
+      <p><button type="button">Continue shopping</button></p>
+    </div>
+    <div class="co-variant">
+      <h3>Error — payment failed</h3>
+      <p class="co-error">The payment did not go through: the card was declined. Your order, delivery slot, and promo code are unchanged.</p>
+      <p><button type="button">Try the payment again</button> <button type="button">Choose another payment method</button></p>
+    </div>
+    <div class="co-variant">
+      <h3>Error — code declined</h3>
+      <p class="co-error">Code EXPIRED99 was declined: it expired on 1 October. The total is unchanged.</p>
+      <p><button type="button">Try another code</button></p>
+    </div>
+    <div class="co-variant">
+      <h3>Disabled — place order</h3>
+      <p><button type="button" disabled>Place order — choose a delivery slot first</button></p>
+      <p>The action stays unavailable until delivery, payment, and contact details are chosen.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>
