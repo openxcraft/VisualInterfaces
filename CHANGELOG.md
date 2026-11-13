@@ -7,6 +7,36 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Music streaming playlist and queue row added to
+  `catalog/patterns.md`, completing roadmap action 321 — a now-playing
+  view with large artwork, a progress bar with elapsed and remaining
+  time, and transport controls in the thumb zone; a queue in three
+  labelled parts — now playing, next, and played — with a visible
+  indicator on the current item; primary controls in the order queue,
+  previous, play or pause, next, with further actions behind an
+  overflow control; drag handles and a remove control on every queued
+  track, with shuffle and repeat states kept across the session; a mini
+  player pinned above the tab bar while browsing; and per-track menus
+  with add to playlist, add to queue, and save to library as one action
+  each. Two new source records: the platform media-playback design
+  guides for the playback view and the queue. Coverage matrix updated
+  (Music streaming playlist and queue moved to Full; 435 pattern rows,
+  Partial 36).
+- Patterns catalogue: Digital wallet add-card and tap-to-pay setup row
+  in `catalog/patterns.md` extended with the pass-display element,
+  completing roadmap action 323 — a pass style chosen to match the use,
+  essential information kept visible where the pass is collapsed, a
+  contactless-compatible pass preferred with a barcode or QR code where
+  one is needed, the pass designed to look right on every device, and
+  text kept in pass fields rather than inside images. Two new source
+  records: the official platform pass design and creation guide and the
+  wallet getting-started guide (853 sources total).
+- Roadmap: three new improvement actions added (324 banking fraud alert,
+  325 digital health record patient portal, 326 audiobook library app),
+  each a genuine gap whose fresh sources stay below the
+  source-quality bar for want of a platform or standards source.
+  Podcast app playback interface added to the coverage matrix Partial
+  list, correcting an earlier omission.
 - Patterns catalogue: Digital wallet add-card and tap-to-pay setup row added to
   `catalog/patterns.md`, completing roadmap action 323 — adding a card by tapping it,
   scanning it, or typing the details by hand, issuer verification before the card is

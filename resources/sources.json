@@ -6793,6 +6793,38 @@
       "type": "guidance",
       "accessed": "2026-11-13",
       "notes": "Official platform help for tap-to-pay setup: check the device supports NFC and switch it on, set the wallet as the default payment app, add a card by camera or manual entry, accept the issuer terms, verify the card when asked, keep a screen lock set, and check tap-to-pay readiness in the wallet."
+    },
+    {
+      "title": "Customize playback controls",
+      "url": "https://developers.google.cn/cars/design/create-apps/media-apps/customize-playback-controls?hl=en&authuser=1",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-13",
+      "notes": "Platform design guidance for media apps: the playback view and the queue — show thumbnails, a now-playing indicator and previously played items in the queue, keep custom actions consistent, and use text at the largest readable size inside icons."
+    },
+    {
+      "title": "Playback view",
+      "url": "https://docs.partner.android.com/drivingux/android-auto/apps/playback-view?hl=en",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-13",
+      "notes": "Platform design guidance for the media playback view: metadata with elapsed time, a queue button, playback controls with a visual progress indicator, primary actions in the order queue, previous, play or pause, next, and secondary actions behind an overflow control."
+    },
+    {
+      "title": "Wallet Developer Guide: Pass Design and Creation",
+      "url": "https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/PassKit_PG/Creating.html",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-13",
+      "notes": "Official platform developer guidance for designing wallet passes: pass styles for boarding passes, store cards, coupons, event tickets and generic passes; field layout set by the style; barcode use; and designing for every device including a paired watch."
+    },
+    {
+      "title": "Getting Started with Apple Wallet",
+      "url": "https://developer.apple.com/wallet/get-started/",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-13",
+      "notes": "Official platform guidance for wallet passes: choose the pass style that matches the use, keep passes clear and readable on all devices, and use barcodes for scanning."
     }
   ]
 }
