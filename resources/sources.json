@@ -6825,6 +6825,62 @@
       "type": "guide",
       "accessed": "2026-11-13",
       "notes": "Official platform guidance for wallet passes: choose the pass style that matches the use, keep passes clear and readable on all devices, and use barcodes for scanning."
+    },
+    {
+      "title": "Carbon components v0.114.0 release notes",
+      "url": "https://newreleases.io/project/github/carbon-design-system/carbon-components-svelte/release/v0.114.0",
+      "category": "resources",
+      "type": "release-notes",
+      "accessed": "2026-11-13",
+      "notes": "Release notes for the current major line: renamed tokens, full right-to-left mirroring, a layer system replacing the light prop, a built-in calendar date picker, and 25 new components including a chat set and a content-labelling component."
+    },
+    {
+      "title": "Joint Statement on Suspicious Activity Report Confidentiality Considerations Regarding Communications with Customers",
+      "url": "https://www.federalreserve.gov/supervisionreg/srletters/SR2605a1.pdf",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "A bank may discuss the underlying facts of a suspicious transaction — dates, amounts, parties — with the customer, notify them that a delay, limitation, restriction or closure may relate to suspected fraud, ask about the purpose of a transaction or the source of funds, and provide fraud warnings; it must never reveal that a report exists or that a transaction has been reported."
+    },
+    {
+      "title": "Draft Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
+      "url": "https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4922",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "Draft directions, March 2026, to apply from 1 July 2026: instant text alerts for electronic transactions above ₹500 and email alerts wherever an address is held, in addition to push alerts; a number to text an objection to, carried in the alert itself; round-the-clock multi-channel fraud reporting; immediate acknowledgement with a complaint number and timestamp; immediate steps to prevent further unauthorised transactions; a response within 30 days including reversal details."
+    },
+    {
+      "title": "Building a patient portal for secondary care bookings",
+      "url": "https://digital.nhs.uk/services/patient-care-aggregator/building-a-patient-portal",
+      "category": "patterns",
+      "type": "guide",
+      "accessed": "2026-11-13",
+      "notes": "Patient portal guide: mobile-first layout, sign-in to a high assurance level, view, cancel and reschedule appointments as separate journeys, pending states shown until a request is fulfilled, and deep links to a specific appointment."
+    },
+    {
+      "title": "Proxy access",
+      "url": "https://www.england.nhs.uk/long-read/proxy-access/",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "Formal proxy access: the proxy has their own account and credentials, a level of access tailored to the person's wishes and different per proxy, explicit consent with a coercion check, sensitive information redacted, withdrawal at the person's request without affecting their own access, and routine review."
+    },
+    {
+      "title": "From Immediate Access to Meaningful Delivery: A Patient-Centered Approach to Delivering Test Results",
+      "url": "https://healthit.gov/blog/health-data/from-immediate-access-to-meaningful-delivery-a-patient-centered-approach-to-delivering-test-results/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-11-13",
+      "notes": "Only 66% of patients who saw results early understood what they meant, and only 28% were given a choice in how and when results were released; plain-language explanations belong beside the result, sensitive results may be delayed until a clinician has spoken to the patient, and release preferences should be honoured rather than defaulting to immediate alerts."
+    },
+    {
+      "title": "Manage a session timeout",
+      "url": "https://design-system.dwp.gov.uk/patterns/manage-a-session-timeout",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "Warn at least 2 minutes before a session times out, in a dialog that lets the person stay in the service and keep their work; if nothing is done, redirect to a timeout page that explains what happened and how to continue. Meets the extend condition of the timing-adjustable criterion."
     }
   ]
 }

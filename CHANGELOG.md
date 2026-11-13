@@ -7,6 +7,50 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Digital health record patient portal row added to
+  `catalog/patterns.md`, completing roadmap action 325 — a home showing
+  results, medicines, appointments, and messages as separate tasks; every
+  result opened with one plain-language sentence stating what it means,
+  whether action is needed, and when the care team will follow up, with a
+  route to a clinician from the result itself and a choice of how and when
+  new results are told; proxy access with its own credentials, a stated
+  scope per proxy, plain-language consent at the point it is given, and
+  withdrawal at any time without losing the person's own access; records
+  shared outward as a short summary agreed with the person first; and a
+  session-timeout warning at least 2 minutes before the end, with a way to
+  stay signed in. Four new source records: the patient portal building
+  guide, the proxy access guidance, the test-results delivery guidance,
+  and the session-timeout pattern. Coverage matrix updated (Banking fraud
+  alert and Digital health record patient portal moved to Full; Pet
+  grooming appointment booking, School lunch ordering, and Home solar
+  energy monitoring added to Partial; 437 pattern rows, Partial 37).
+- Patterns catalogue: Banking fraud alert row added to
+  `catalog/patterns.md`, completing roadmap action 324 — an alert sent
+  at the moment of the decision by text message and email as well as any
+  in-app or push alert, naming the exact transaction with its date,
+  amount, and parties; a plain statement that a delay, limit, restriction,
+  or closure may relate to suspected fraud; a direct reply path inside the
+  alert itself; round-the-clock reporting; immediate acknowledgement with
+  a reference number and timestamp; immediate steps to prevent further
+  unauthorised transactions; a response inside a stated window of no
+  longer than 30 days; and a rule never to state or imply that a report
+  exists or that a transaction has been reported. The three-way confirm,
+  deny, and unsure-freeze choice, keeping recurring payments flowing
+  while frozen, and merchant-name enrichment have no platform or standards
+  source and are not in the row. Two new source records: the joint
+  regulator statement on report confidentiality in customer
+  communications and the draft central-bank directions on customer
+  protection in electronic banking transactions (860 sources total).
+- Roadmap: three new improvement actions added (327 pet grooming
+  appointment booking, 328 school lunch ordering, 329 home solar energy
+  monitoring), each a genuine gap whose fresh sources stay below the
+  source-quality bar for want of a platform or standards source.
+  Audiobook library app (326) re-checked against deeper platform sources
+  and stays open: the sources found cover the generic player, chapter
+  navigation, and single-device resume, but the sleep timer, speed steps,
+  bookmarks, downloads, cross-device resume, and library organisation
+  have no platform or standards source.
+- Component libraries index: new entry in `resources/libraries.md` for a mature styled component set whose current major line renames its tokens, mirrors every component for right-to-left layouts, replaces the light prop with a layer system, and adds a chat set, a content-labelling component, and feedback and navigation components such as empty state, stepper, splitter, countdown, and table of contents; the date picker now ships a built-in calendar. One new source record: the release notes for the current major line (854 sources total).
 - Patterns catalogue: Music streaming playlist and queue row added to
   `catalog/patterns.md`, completing roadmap action 321 — a now-playing
   view with large artwork, a progress bar with elapsed and remaining
