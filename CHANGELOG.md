@@ -7,6 +7,113 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: Personal budgeting dashboard row added to
+  `catalog/patterns.md` — a period view with planned, spent, and
+  remaining amounts beside one safe-to-spend figure, category budgets
+  with spent-against-planned indicators, charts as labelled
+  navigational summaries with drill-down, posted, pending, forecast,
+  and manually entered values kept distinct with freshness stated,
+  and over-budget states in plain figures without judgement. 2 new
+  source records (842 total); coverage matrix updated (Personal
+  budgeting and expense tracking dashboard moved from Partial to
+  Full; 431 pattern rows, Partial 33).
+- Roadmap: five new improvement actions added (316 personal
+  budgeting and expense tracking dashboard, 317 shared family
+  calendar, 318 wedding planning app, 319 theme park virtual
+  queue reservation, 320 board game app interface), ordered by
+  coverage impact; coverage matrix Partial list updated with the
+  five new named items (430 pattern rows, all in Full; Partial
+  34).
+- Automotive layout: ambient visual feedback rule for in-car voice
+  assistants added to `layouts/automotive.md` — voice-assistant
+  state (listening, working, done) is shown as a soft ambient
+  colour change at the screen edge or around the display, in the
+  periphery rather than the centre of the glance zone; head-up
+  text stays to essential keywords only; colour is never the only
+  carrier of meaning; and the visual state is always paired with
+  an audio cue. Two new source records: the head-up display
+  feedback study and the ambient in-car voice feedback study.
+- Patterns catalogue: Flight search and booking row added to
+  `catalog/patterns.md` — the search is put first and kept
+  prominent with suggestions as the traveller types; the total
+  price is shown on every result with the comparable facts
+  beside it, and a lower base fare never hides charges that
+  appear later; the fare choice states what is included before
+  the fare is picked; passenger and payment forms keep to
+  purposeful fields with the booking details visible through
+  checkout; the loyalty balance and its value are shown on the
+  account and beside the booking with the history of points
+  earned and redeemed easy to reach; hotels, cars, insurance,
+  and parking are offered only after the flight is secure,
+  visible by default but never pushed aggressively; and the flow
+  ends with a review step showing the whole booking and its
+  total before payment, then a confirmation with the booking
+  reference and the next step. Two new source records: the
+  flight booking research library and its 2026 quantitative
+  study of 3,125 shoppers.
+- Patterns catalogue: Ballot row in `catalog/patterns.md`
+  extended with electronic ballot interface rules — a choice of
+  text sizes from about 3.5 mm to about 9 mm, with a default
+  near 5 mm, in a sans-serif face, with no horizontal scrolling
+  or panning when the text is enlarged; touch targets at least
+  about 13 mm across with at least about 2.5 mm between them;
+  and every function available in each display format and
+  interaction mode, with settings and selections carried across
+  when the person switches format mid-session. Three new source
+  records: the voting system guidelines handbook, the
+  application of those guidelines to remote ballot marking
+  systems, and the field guide to designing usable ballots.
+- Roadmap: three new improvement actions added (313 virtual
+  court hearing extension, 314 flight booking worked example,
+  315 remote ballot marking extension); coverage matrix updated
+  with the Flight search and booking row (430 pattern rows, all
+  in Full; Partial 29).
+- Patterns catalogue: Smartwatch workout tracking row added to
+  `catalog/patterns.md`, completing roadmap action 298 — the live
+  screen keeps only the figures the person is most likely to care
+  about for the workout, each large enough to read at a glance
+  while moving; session controls sit large and easy to find on
+  their own screen with the live figures on a dedicated screen
+  beside them; the active workout is marked plainly; nothing
+  irrelevant is shown during the workout; start, stop, pause, and
+  lap are confirmed with a haptic pulse as well as a visual
+  change; touch is locked while the workout runs; the workout
+  keeps running and visible when the person leaves the app and
+  keeps working without the phone; the watch shows a short
+  summary at the end with the fuller breakdown on the phone; and
+  a missing sensor figure is stated plainly rather than shown
+  blank or stale. The field-count, sport-specific-default,
+  zone-colouring, focus-page, smoothing, and split-card specifics
+  in the action as written have no platform source and are not in
+  the row. Three new source records (833 total): watch design
+  guidance, workout guidance, and watch development guidance.
+- Patterns catalogue: Hotel self check-in row in
+  `catalog/patterns.md` extended with wallet-pass key delivery
+  rules — the room key is offered as a wallet pass beside the
+  app-based key, added from a link or button at the end of online
+  check-in with no separate app download and ready on the phone
+  and paired watch; the key's state is shown and it becomes
+  active only once check-in is complete and the room is assigned;
+  it opens the door by holding the device near the lock without
+  waking or unlocking it, works without a connection at the door,
+  and on supported phones keeps working for a stated time after
+  the battery runs out, with the limit stated plainly where the
+  battery reserve does not apply; a physical card route is always
+  kept; and the key deactivates by itself when the stay ends. Two
+  new source records.
+- Patterns catalogue: Electric vehicle charging session row in
+  `catalog/patterns.md` extended with availability-freshness and
+  fault-report rules — the time the availability was last checked
+  is shown and a stale reading is never presented as live, and a
+  charger shown as available but out of service on arrival offers
+  a report route on the same screen. One new source record: the
+  public charge point rules on reliability and accurate,
+  real-time data.
+- Roadmap: three new improvement actions added (310 council tax
+  payment and discount application, 311 ferry booking, 312 energy
+  tariff comparison and switching); coverage matrix updated with
+  the Smartwatch workout tracking row moving from Partial to Full
+  (429 pattern rows, all in Full; Partial 29).
 - Agentic interfaces trend: agent-described screens section added to
   `trends/2026/agentic-ux.md` — the agent describes the screen and the
   app draws it with its own native components from a registered

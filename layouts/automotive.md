@@ -51,6 +51,14 @@ Stable information zones (speed, warnings, navigation each in a fixed place); gl
   responses. Voice always has a non-voice alternative, and a
   misunderstood command fails visibly with a retry rather than
   silently.
+- Show voice-assistant state in the periphery, not in the centre of
+  the glance zone: a soft ambient colour change at the screen edge
+  or around the display — listening, working, done — tells the
+  driver the assistant heard without demanding a look at text.
+  Keep head-up text to essential keywords only, never rely on
+  colour alone to carry meaning, and always pair the visual state
+  with an audio cue, since peripheral feedback supports but never
+  replaces spoken confirmation.
 - Head-up projections show only the highest-priority content — speed, the
   next manoeuvre, and critical warnings — and nothing else; overlays that
   annotate the road stay fixed to what they mark and never cover hazards

@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "sources": [
     {
       "title": "Design trends overview for 2026",
@@ -6617,6 +6617,126 @@
       "type": "article",
       "accessed": "2026-11-12",
       "notes": "First stable version of an open protocol for agent-described screens: the agent describes the surface and each app renders it with its own native components from a registered catalogue, private values are bound on the server, live facts are checked through two-way calls, and accessibility support is included."
+    },
+    {
+      "title": "The Public Charge Point Regulations 2023",
+      "url": "https://www.legislation.gov.uk/uksi/2023/1168/body/made",
+      "category": "patterns",
+      "type": "regulation",
+      "accessed": "2026-11-12",
+      "notes": "Public charge point rules: rapid-charge networks must be reliable for 99% of the time on average across each calendar year, with compliance published; charge point data must be accurate and operational status updated in real time, and availability, location, connector type, payment methods and price must be openly available."
+    },
+    {
+      "title": "Add a hotel room key to Apple Wallet on your iPhone",
+      "url": "https://support.apple.com/en-us/118273",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Platform support guidance for hotel room keys in a phone wallet: the key is added from the hotel app after booking, is added automatically to a paired watch, works by holding the device against the lock with Express Mode on by default, and is deactivated remotely when the stay ends."
+    },
+    {
+      "title": "How to publish FAQs for Wallet-based Digital Keys in Mews Operations",
+      "url": "https://help.mews.com/s/article/Wallet-based-Digital-Key-FAQs?language=en_US",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Vendor help page recording the approved wallet-key wording: the key is added from an Add to Wallet button at the end of online check-in, activates only once check-in is complete and a room is assigned, works without waking or unlocking the device, keeps working for a stated time after the battery runs out on supported phones, and a physical key card remains available where the key cannot be added."
+    },
+    {
+      "title": "Designing for watchOS",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-watchos",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Platform design guidance for watch apps: quick, glanceable, single-screen interactions that deliver critical information succinctly and let people act with a simple gesture or two; minimal navigation depth with the Digital Crown for vertical navigation; haptic feedback consistent with the interaction's purpose; minimal time spent interacting with the app."
+    },
+    {
+      "title": "Workouts",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/workouts",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Platform design guidance for watchOS fitness apps: during an active workout show the data people are most likely to care about, such as elapsed or remaining time, calories burned, or distance travelled, with lap or interval markers; keep large session controls on their own screen and metrics on a dedicated screen readable at a glance; use a distinct appearance for an active workout; use large type and high contrast for reading in motion; avoid irrelevant information during a workout; provide a summary at the end of a session and discard extremely brief sessions. No prescribed field count, sport-specific view, or single-measure focus is stated."
+    },
+    {
+      "title": "Principles of Wear OS development",
+      "url": "https://developer.android.com/training/wearables/principles",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-12",
+      "notes": "Platform development guidance for watch apps: design for critical tasks only on the wrist, completable within seconds; a fitness app focuses on data gathering while detailed post-workout analysis stays on the phone; support offline use for exercise without the phone; keep long-lived activities visible through ongoing activity; confirm start, stop, auto-pause, and auto-lap with haptics; disable touch while tracking a workout to prevent accidental input."
+    },
+    {
+      "title": "Flight Booking & Airlines research",
+      "url": "https://baymard.com/research/flight-booking-and-airlines",
+      "category": "patterns",
+      "type": "research",
+      "accessed": "2026-11-13",
+      "notes": "Research library for flight booking: 120+ tested guidelines with benchmark scores and implementation examples across search, fare selection, booking checkout, accounts and loyalty; qualitative usability testing plus a 2026 quantitative study of 3,125 shoppers."
+    },
+    {
+      "title": "Flight Booking & Airlines Quantitative UX Insights 2026",
+      "url": "https://baymard.com/research-articles/flight-booking-and-airlines-quantitative-ux-insights-2026",
+      "category": "patterns",
+      "type": "research",
+      "accessed": "2026-11-13",
+      "notes": "Three high-level findings from a 2026 survey of 3,125 shoppers: travellers search across several sources with airline sites most used; 78% belong to at least one loyalty programme; business travellers bundle hotels, cars, insurance and parking more often than leisure travellers; search discoverability and suggestions, clear comparable pricing, visible loyalty balances and contextual bundling follow from the findings."
+    },
+    {
+      "title": "Handbook for VVSG 2.0 Usability and Accessibility Test Strategies",
+      "url": "https://nvlpubs.nist.gov/nistpubs/vts/NIST.VTS.400-5.pdf",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "Test strategies for the usability and accessibility requirements in the voting system guidelines: text size and contrast, scrolling and gestures, plain language, and testing with voters; electronic text sizes from 3.5 mm to 25 mm with a larger default than the earlier version, and no horizontal scrolling or panning when zoomed to 200%."
+    },
+    {
+      "title": "Applying VVSG 2.0 requirements to remote ballot marking systems",
+      "url": "https://civicdesign.org/wp-content/uploads/2026/04/Applying-VVSG-2.0-to-remote-ballot-marking-systems-2021-04-29-1.pdf",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "How the voting system guidelines apply to remote ballot marking: default electronic text size 4.8 mm with a range of 3.5 mm to 9.0 mm, sans-serif text, touch areas at least 12.7 mm with 2.54 mm between them, plain language, and the same functions in every display format and interaction mode with settings and selections preserved across a format switch."
+    },
+    {
+      "title": "Field Guide Vol. 01: Designing usable ballots",
+      "url": "https://www.eac.gov/sites/default/files/eac_assets/1/28/Field-Guide-Vol-01-20130620.pdf",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "Ten design tips for usable ballots from the field guides to ensuring voter intent: readable type, consistent marking spaces, clearly separated contests in a single column, instructions at the start in plain language, and a review step before casting."
+    },
+    {
+      "title": "Evaluating Rich Visual Feedback on Head-Up Displays for In-Vehicle Voice Assistants: A User Study",
+      "url": "https://www.mdpi.com/2414-4088/9/11/114",
+      "category": "layouts",
+      "type": "study",
+      "accessed": "2026-11-13",
+      "notes": "Thirty-two participants compared three head-up display designs for in-vehicle voice assistant feedback: a minimal design showing essential keywords only scored highest on usability, and a layered augmented-reality design outperformed a flat scrolling list; distraction effects were not statistically significant."
+    },
+    {
+      "title": "Visual Feedback for In-Car Voice",
+      "url": "https://bazilinskyy.github.io/p/marinissen2026visual.pdf",
+      "category": "layouts",
+      "type": "study",
+      "accessed": "2026-11-13",
+      "notes": "Ambient colour feedback for an in-car voice assistant, evaluated by survey (151 respondents) and a lab study (24 participants): most participants preferred the ambient feedback over conventional or no visual feedback, with higher visibility and usefulness ratings, while auditory cues remained necessary; also notes the 2026 safety-rating rules for in-car interfaces."
+    },
+    {
+      "title": "14 Budget App Dashboard Design Examples",
+      "url": "https://screensdesign.com/articles/budget-app-dashboard-design/",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-11-13",
+      "notes": "Fourteen recorded budget dashboard screens: a useful dashboard explains the period, available amount, plan, actual spending, and the action that changes the outcome; start with period, currency, method, and one meaningful object; charts as navigational summaries with labelled values and drill-down; category budget cards with monthly amount, daily equivalent, actual spending, and percentage."
+    },
+    {
+      "title": "Data visualization guidelines - CFPB Design System",
+      "url": "https://cfpb.github.io/design-system/guidelines/data-visualization-guidelines",
+      "category": "patterns",
+      "type": "guidance",
+      "accessed": "2026-11-13",
+      "notes": "Choose the chart by what it must communicate: bars for comparisons of discrete items, lines for change over time with the axis starting at zero, pie slices adding to 100 percent; limit the number of data types in one chart; label every value and never carry meaning by colour alone."
     }
   ]
 }
