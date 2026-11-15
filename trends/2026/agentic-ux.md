@@ -172,6 +172,18 @@ An agent can answer with a screen instead of text: a form to confirm, a chart, a
 - The same rules as any other agent surface apply: a composed block is labelled as composed, a consequential action waits at a checkpoint, and the accessibility gate in the section above runs before the screen ships.
 - The A2UI protocol is one open implementation of this pattern; its first stable version shipped in November 2026, with renderers for the web, mobile, and desktop.
 
+## Site-registered agent tools
+
+A page can register named tools that an agent running in the browser can discover and call, instead of the agent guessing which control to press. Treat this as a draft capability, not a settled pattern: the proposal lives as a community-group draft, not a standard, and is not on the standards track. One browser runs a public trial from version 149 to 162; a second browser has trialled it since version 150; other browsers have not committed to it.
+
+- Register a tool from script, on the document object, with a name, a plain-language description, and an input schema; the tools belong to the page that registers them, and a page can restrict registration to its own origin.
+- The entry point moved from the navigator object to the document object in mid-2026, and one browser removed the old entry point in version 152, so code written for the early preview registers nothing on current builds; detect both entry points and prefer the document form.
+- The form-based declarative form was dropped from the draft in October 2026, so script registration is the only form the draft defines.
+- Where the entry point is absent, the page behaves as if the proposal never existed: no error, no dead control, and no change to the task the person came to do.
+- Register only tools that are safe to call without a person present. Anything irreversible, costly, or privacy-sensitive waits at a checkpoint, under the trust patterns above, and appears in the step trace and the post-action receipt.
+- Keep each tool description short, plain, and honest about what the tool does and what it needs; a tool that claims more than it does will be called for the wrong job.
+- Some storefront platforms switch the tools on by default for their stores, and a desktop chat application also reads the registered tools — the page still owns what it exposes, and nothing about the listing changes for people who never use an agent.
+
 ## States
 
 Every screen in this group defines all seven states. Missing states are treated as incomplete work.

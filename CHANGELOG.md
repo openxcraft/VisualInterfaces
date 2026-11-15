@@ -7,6 +7,168 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Roadmap: four new improvement actions added (349 neighbourhood
+  noticeboard, 350 digital business card sharing, 351 carpool
+  coordination, 352 home EV charger scheduling), ordered by
+  coverage impact, each a genuine gap with its source position
+  stated; no new pattern rows this review — all four candidates
+  stay below the source bar for want of a platform or standards
+  source. Coverage matrix updated (four new Gap items; 448
+  pattern rows, Partial 43). 0 new source records (901 total).
+- Patterns catalogue: Shared family calendar row added to
+  `catalog/patterns.md` — a week-at-a-glance default view, one
+  colour per person that never changes, the owner named in each
+  event title, claiming over assigning, preparation reminders tied
+  to a specific action, and a wall display mode that opens on
+  today. Five new source records: the family-calendar failure
+  analysis, two colour-coding guides, and the calendar colour
+  documentation.
+- Patterns catalogue: Peer-to-peer marketplace selling row added
+  to `catalog/patterns.md` — a short photo-first sell flow,
+  structured condition and attribute fields, a pricing suggestion
+  from comparable sales, every fee stated before publishing,
+  listing states with reasons for holds, trust signals on the item
+  page, and a seller dashboard. Five new source records: the
+  consumer-to-consumer design guides, the marketplace wireframe
+  template, and the marketplace interface studies.
+- Trends: Site-registered agent tools section added to
+  `trends/2026/agentic-ux.md` — script registration on the
+  document object, the entry-point move from the navigator object,
+  the dropped form-based form, behaviour where the entry point is
+  absent, and a checkpoint for anything irreversible, costly, or
+  privacy-sensitive. Five new source records: the implementation
+  guide and four explainers.
+- Roadmap: three new improvement actions added (343 crypto wallet
+  app, 344 drone and robot delivery tracking, 345 smart door lock
+  and keyless entry), ordered by coverage impact, each a genuine
+  gap with its source position stated; action 317 completed this
+  review. Coverage matrix updated (Shared family calendar moved
+  from Partial to Full, Peer-to-peer marketplace selling added to
+  Full; 448 pattern rows, Partial 43). 15 new source records (901
+  total).
+- Roadmap: three new improvement actions added (340 ATM interface,
+  341 public library borrowing, 342 energy tariff comparison and
+  switching), ordered by coverage impact, each a genuine gap with
+  its source position stated; actions 337, 338, and 339 completed
+  this review. Coverage matrix updated (Period and fertility
+  tracking, Airport lounge access, and Smart thermostat heating
+  schedule moved from Partial to Full; 446 pattern rows,
+  Partial 44). 8 new source records (886 total).
+- Patterns catalogue: Period and fertility tracking row added to
+  `catalog/patterns.md` — a prediction shown as a window drawn
+  from recent cycles rather than a single date, the window
+  widening for irregular cycles, no phase named without evidence
+  of ovulation, calm wording when a period is late, privacy by
+  default, and never diagnosing. Two new source records: the
+  cycle-app privacy guide and the platform health-data guideline.
+- Patterns catalogue: Airport lounge access row added to
+  `catalog/patterns.md` — a digital membership card with a
+  scannable code, entitlement and remaining visits stated before
+  entry, walk-in versus pre-booked entry, charges stated before
+  entry, and an offline card. Three new source records: the
+  shipped lounge membership case study, the wallet pass
+  reference, and the lounge programme enrolment guide.
+- Patterns catalogue: Smart thermostat heating schedule row
+  added to `catalog/patterns.md` — one target temperature with
+  the system choosing heat or cool, a vertical schedule timeline,
+  reusable named schedule events applied across days, and system
+  state first. Three new source records: the open-standard
+  thermostat cluster survey, the thermostat redesign case study,
+  and the smart-home standard explainer for heating and cooling.
+- Roadmap: three new improvement actions added (337 period and
+  fertility tracking, 338 airport lounge access, 339 smart
+  thermostat heating schedule), ordered by coverage impact, each
+  a genuine gap whose fresh sources stay below the source-quality
+  bar for want of a platform or standards source. Coverage matrix
+  updated (Train ticket booking, Public transport ticket
+  purchase, and Mental health journaling and mood tracking added
+  to Full; Period and fertility tracking, Airport lounge access,
+  and Smart thermostat heating schedule added to Partial; 443
+  pattern rows, Partial 47). 10 new source records (878 total).
+- Patterns catalogue: Train ticket booking row added to
+  `catalog/patterns.md` — fares, times, and class shown before
+  traveller details, the lowest fare highlighted, seat or berth
+  stated as preference, allocation, or confirmed choice, fare and
+  seat held to payment with the expiry shown and the price fixed,
+  live service status, and change and cancel routes with fees
+  stated in advance. Three new source records: the rail
+  passenger-rights regulation, national rail advance-ticket
+  terms, and a ticket vendor's hold guidance.
+- Patterns catalogue: Public transport ticket purchase row added
+  to `catalog/patterns.md` — ticket type, fare class, zones, and
+  dates before payment, activation kept separate from purchase, a
+  three-group ticket wallet, a scannable code at full brightness,
+  offline display of an activated ticket, and one-tap repurchase.
+  Four new source records: a sector fare-technology guidebook, a
+  transport authority's published purchase rules, the same
+  authority's validation rules, and platform wallet documentation
+  for transit passes.
+- Patterns catalogue: Mental health journaling and mood tracking
+  row added to `catalog/patterns.md` — a one-screen check-in in
+  three taps or fewer, feelings in plain words with text labels,
+  optional private journaling, progress that never punishes a gap,
+  privacy on by default, a fixed support button on every screen,
+  one suggested next step after saving, and the limits of the app
+  stated plainly. The mood-scale wording and the non-punitive
+  progress rule rest on the simplicity, acceptability, and care
+  principles rather than a direct prescription, and are framed as
+  such in the row. Three new source records: national guidelines
+  for digital mental-health applications, a health-service
+  standard, and an evidence standards framework for digital
+  health technologies.
+- Roadmap: action 316 corrected — the Personal budgeting
+  dashboard row already existed in `catalog/patterns.md` and is
+  now marked implemented (bookkeeping only).
+- Roadmap: four new improvement actions added (333 peer-to-peer
+  payment, 334 parcel sending and courier booking, 335 smart home
+  security camera, 336 food rescue and surplus food pickup),
+  ordered by coverage impact, each a genuine gap whose fresh
+  sources stay below the source-quality bar for want of a platform
+  or standards source. Coverage matrix Partial list corrected
+  (Council tax payment and discount application, Ferry booking,
+  and Energy tariff comparison and switching — open actions 310,
+  311, and 312 — and Meal kit delivery subscription and Volunteer
+  shift signup — open actions 330 and 332 — were missing from it
+  and are now listed; 440 pattern rows, Partial 44). No new source
+  records (868 total).
+- Patterns catalogue: Podcast app playback interface row added to
+  `catalog/patterns.md`, completing roadmap action 322 — a now-playing
+  view with chapter marks and a chapter list that follows playback, a
+  synced transcript with a search, skip back and forward in stated
+  seconds, speed in steps of a tenth, a sleep timer with an
+  end-of-episode or end-of-chapter choice, a mini player pinned above
+  the tab bar, a resume position kept across sessions, and playback
+  controllable from the lock screen, notification shade, headset
+  buttons, and keyboard media keys. Bookmarks at a position have no
+  platform or standards source and are not in the row. Three new
+  source records: the media session standard, its reference
+  documentation, and the podcast player controls article.
+- Patterns catalogue: Audiobook library app row added to
+  `catalog/patterns.md`, completing roadmap action 326 — a library
+  organised by book with the listening position kept per title, a
+  chapter list with durations taken from the table of contents, and a
+  player with skip, speed, and a sleep timer with an end-of-chapter
+  choice. Bookmarks with a note, downloads with size and a remove
+  control, and a resume position kept across devices have no platform
+  or standards source and are not in the row. One new source record:
+  the audiobook profile of the publication manifest.
+- Patterns catalogue: Student accommodation booking row added to
+  `catalog/patterns.md` — term-time search with the term total beside
+  the rent, the full cost stated on the room before booking starts,
+  accreditation under the recognised national code of practice shown
+  on the listing, contract terms, deposit protection, guarantor
+  requirement, and a named complaints route with independent review.
+  Three new source records: the national code of practice for larger
+  student developments, university accommodation guidance, and a
+  student housing costs article.
+- Roadmap: three new improvement actions added (330 meal kit delivery
+  subscription, 331 online ticket resale transfer extension, 332
+  volunteer shift signup), each a genuine gap whose fresh sources stay
+  below the source-quality bar for want of a platform or standards
+  source. Coverage matrix updated (Podcast app playback interface and
+  Audiobook library app moved from Partial to Full, Student
+  accommodation booking added to Full; 440 pattern rows, Partial 35).
+  Seven new source records (867 total).
 - Patterns catalogue: Digital health record patient portal row added to
   `catalog/patterns.md`, completing roadmap action 325 — a home showing
   results, medicines, appointments, and messages as separate tasks; every
@@ -5417,6 +5579,17 @@ version, with Added, Changed, and Fixed sections where they apply.
   variants, and rules for interfaces that show the steps of an automated
   task and its code, terminal output, logs, or diffs.
 - Source record for the October 2026 component release notes in
+  resources/sources.json.
+
+### Changed
+
+- Patterns catalogue: Passkey sign-in row in `catalog/patterns.md`
+  extended — where the platform supports it, the passkey is offered in
+  the username field's autofill suggestions, beside saved passwords,
+  rather than only as a separate control, so a returning person signs in
+  from the field itself; where autofill is not supported, the separate
+  control is kept, and the password route keeps working either way. One
+  new source record: the passkey authentication guidance in
   resources/sources.json.
 
 ### Fixed
