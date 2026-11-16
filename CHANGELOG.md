@@ -7,6 +7,192 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Patterns catalogue: five new pattern rows added to
+  `catalog/patterns.md` — Civic issue reporting (standard category
+  list with category-specific questions, location in one of three
+  forms, reference number with open or closed status, no mandatory
+  account); Freelancer invoicing (mandatory invoice fields, payment
+  means and terms, deposit and milestone billing through defined
+  invoice processes, credit notes, hybrid PDF output); Stock trading
+  and investing (prescribed risk warning kept prominent, 24-hour
+  cooling-off, personalised risk warning, appropriateness checks
+  that genuinely test understanding, positive friction before
+  high-risk trades, order review and confirm); Food delivery
+  courier/driver app (offer facts before acceptance, earnings net
+  of fees, in-motion lockout, report-issue route at every stage,
+  no undue pressure from timers or incentives); Grocery price
+  comparison (selling price and unit price for every product, one
+  unit per category, like-for-like matching, barcode scan by
+  product number, cheapest-store split). Roadmap action 371
+  completed. Coverage matrix updated (five rows to Full; 466
+  pattern rows, Partial 67). Matrix reconciliation this review:
+  Full 476 = 466 pattern rows plus 10 layout-level items
+  (dashboard, mobile navigation, checkout variants, voice hybrid
+  flows, stepper, landing, authentication, settings, commerce,
+  consent) that have no pattern row; every pattern row appears in
+  Full; no duplicates in either cell. 19 new source records
+  (963 total).
+
+- Roadmap: three new improvement actions added (373 water utility
+  bill payment, 374 pregnancy tracking, 375 restaurant waitlist
+  management), ordered by coverage impact, each a genuine gap with
+  its source position stated; no new pattern rows for these three
+  this review — all stay below the source bar for want of a
+  platform or standards source. Coverage matrix updated (three new
+  Partial items; 466 pattern rows, Partial 67). No new source
+  records for these three.
+
+- Patterns catalogue: one new pattern row added to
+  `catalog/patterns.md` — Appliance remote control (remote start
+  armed locally at the appliance and cancelled when the door
+  opens, remote stop and pause always available, heat sources
+  most restricted, live status with remaining time, cycle-end and
+  fault notices, finish-by scheduling, and a stated support period
+  with full local operation kept). Coverage matrix updated (one
+  row to Full; 461 pattern rows, Partial 65). 3 new source records
+  (944 total).
+
+- Roadmap: three new improvement actions added (370 restaurant
+  table reservation, 371 food delivery courier/driver app, 372
+  wedding invitation RSVP), ordered by coverage impact, each a
+  genuine gap with its source position stated; no new pattern rows
+  for these three this review — all stay below the source bar for
+  want of a platform or standards source. Matrix reconciliation
+  this review: measured counts correct a stale figure carried in
+  earlier notes (Partial 62, not 57, before this run). Coverage
+  matrix updated (three new Gap items; 461 pattern rows, Partial
+  65).
+
+- Roadmap: five new improvement actions added (365 fantasy sports
+  app, 366 house moving and removals booking, 367 baby feeding and
+  sleep tracking, 368 children's pocket money and allowance, 369
+  tradesperson and plumber booking), ordered by coverage impact, each
+  a genuine gap with its source position stated; no new pattern rows
+  for these five this review — all stay below the source bar for want
+  of a platform or standards source. Coverage matrix updated (five
+  new Gap items; 460 pattern rows, Partial 57).
+
+- Resources: Material Design 3 Expressive row added to
+  `resources/libraries.md` — the expressive layer for Compose
+  with 14 new or updated components, a token-driven motion
+  scheme, a 35-shape library with shape morphing, and the stable
+  1.4.0 line with 1.5.0-rc01 current; Chakra UI row updated with
+  the v3.38.0 Command component. 5 new source records (941
+  total).
+
+- Patterns catalogue: two new pattern rows added to
+  `catalog/patterns.md` — Age assurance flow (protective defaults
+  kept on for everyone until a check establishes an age band, a
+  band rather than a birth date, a certified check or a
+  device-held identity wallet, a supervised account route for
+  ages 13 to 14, and a challenge and retry route); Museum
+  timed-entry ticket booking (timed sessions with pre-defined
+  capacity, entry window and late-arrival rule stated before
+  payment and repeated on the ticket, accessibility and companion
+  tickets in each slot, and a stated share held for walk-ins).
+  Roadmap action 278 completed; actions 252, 259, and 344
+  re-checked with source positions updated. Coverage matrix
+  updated (two rows to Full; 460 pattern rows, Partial 54).
+  10 new source records (936 total).
+
+- Roadmap: three new improvement actions added (362 conversational
+  companion safeguards for minors, 363 spending controls for
+  minors, 364 car wash booking and membership), ordered by
+  coverage impact, each a genuine gap with its source position
+  stated; no new pattern rows for these three this review — all
+  stay below the source bar for want of a platform or standards
+  source. Coverage matrix updated (three new Gap items; 460
+  pattern rows, Partial 57).
+
+- Patterns catalogue: Parcel locker pickup row in
+  `catalog/patterns.md` extended with kiosk accessibility rules
+  — every function in visual text and audible speech, started
+  from a tactile control and heard through a headphone jack for
+  private listening, a tactile keypad alternative to the
+  touchscreen, and spoken guidance to the open compartment with
+  the position stated in words. 4 new source records (926
+  total).
+- Roadmap: three new improvement actions added (359 salon and
+  spa appointment booking, 360 meditation and mindfulness app,
+  361 smartwatch sensitive-notification reveal), ordered by
+  coverage impact, each a genuine gap with its source position
+  stated; home solar energy monitoring action 329 source
+  position updated with two corroborating homeowner guides, gap
+  stays open for want of a platform or standards source.
+  Coverage matrix updated (three new Gap items; 458 pattern
+  rows, Partial 52).
+
+- Patterns catalogue: three new pattern rows added to
+  `catalog/patterns.md` — Phone-side fitness workout logging
+  (three-second countdown, glance-readable live figures,
+  lock-screen and voice-assistant controls without unlocking,
+  heart rate only from a paired sensor, and session restore
+  after a crash); Digital loyalty card wallet pass (the reward
+  itself in the primary field, balance, tier, and expiry on the
+  pass face, and pass updates that change only the fields that
+  moved); Online therapy booking (self-referral online, a choice
+  of phone, video, messaging, or a guided programme, online
+  booking of first and follow-up appointments, and a stated
+  privacy and drop-out rule). Roadmap actions 353 and 354
+  completed. Coverage matrix updated (three rows to Full; 458
+  pattern rows, Partial 52). 5 new source records (922 total).
+- Roadmap: three new improvement actions added (356 smart fridge
+  and food inventory, 357 smart baby monitor, 358 smart garden
+  and plant care), ordered by coverage impact, each a genuine gap
+  with its source position stated; no new pattern rows for these
+  three this review — all stay below the source bar for want of a
+  platform or standards source. Coverage matrix updated (three
+  new Gap items; 458 pattern rows, Partial 52).
+- Primitives catalogue: Translucent control material row added to
+  `catalog/primitives.md` — a refractive translucent surface for the
+  control and navigation layer only (tab bars, toolbars, sidebars,
+  buttons, floating controls), never in the content layer, with
+  regular and clear variants, scroll-driven simplification of bars
+  and controls, contrast testing over moving content, reduce
+  transparency and increase contrast honoured, and a user clarity
+  control from translucent to opaque. 1 new source record (917
+  total).
+- Patterns catalogue: six new pattern rows added to
+  `catalog/patterns.md` — Self-service food ordering kiosk
+  (reach band, one-hand operation, target size, contrast, and
+  calorie disclosure for larger chains, with flow figures stated
+  as practical limits); Personalised news feed (ranking factors
+  stated in plain language, an in-feed preference control, a
+  non-personalised ordering, and follow/mute from the card);
+  Kids' launcher / curated home screen (approved-app list only,
+  age profiles, guardian approval from the guardian's own device,
+  time allowances and schedules, and monitoring disclosed to the
+  child); Real estate property search (total price on the card,
+  material facts with source and check date, and genuine trust
+  signals only); Smart lock guest access (per-person codes tied
+  to a stay window, instant revoke, an entry record, and unique
+  changeable codes, with one-tap lock and unlock, an offline
+  fallback statement, and a battery warning); Carpool coordination
+  (route, seats, and pickup agreed before departure, cost share
+  with no profit, identity and vehicle checks, no extra passenger
+  without agreement, live trip sharing, and stated cancellation
+  rules). Roadmap actions 345 and 351 completed. Coverage matrix
+  updated (six rows to Full; 455 pattern rows, Partial 49). 13
+  new source records (916 total).
+- Roadmap: three new improvement actions added (353 phone-side
+  fitness workout logging, 354 digital loyalty card wallet pass
+  presentation, 355 online discussion forum / community board),
+  ordered by coverage impact, each a genuine gap with its source
+  position stated. Coverage matrix reconciliation this review
+  corrected two stale counts carried in earlier notes (pattern
+  rows 449, not 448; Partial 50, not 43, before this run).
+- Patterns catalogue: Email list unsubscribe row added to
+  `catalog/patterns.md` — a one-click unsubscribe in every marketing
+  and subscribed message, honoured within two days with no sign-in,
+  survey, or confirmation email; a legible body link labelled
+  "unsubscribe" that stays working for at least 30 days; a preference
+  centre beside the unsubscribe, never a gate to it; confirmation on
+  a page naming the address and list removed; and a suppression
+  record so a removed address is never added back without a fresh,
+  explicit opt-in. Two new source records: the one-click unsubscribe
+  standard and the bulk-sender unsubscribe guide. Coverage matrix
+  updated (Email list unsubscribe added to Full; 449 pattern rows,
+  Partial 43). 2 new source records (903 total).
 - Roadmap: four new improvement actions added (349 neighbourhood
   noticeboard, 350 digital business card sharing, 351 carpool
   coordination, 352 home EV charger scheduling), ordered by

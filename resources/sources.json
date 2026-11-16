@@ -1,6 +1,6 @@
 {
  "version": "0.1.0",
- "updated": "2026-11-14",
+ "updated": "2026-11-16",
  "sources": [
   {
    "title": "Design trends overview for 2026",
@@ -7209,6 +7209,502 @@
    "type": "article",
    "accessed": "2026-11-14",
    "notes": "Verified profiles, listing quality, authentic visuals, and questions on listings before purchase."
+  },
+  {
+   "title": "Signaling One-Click Functionality for List Email Headers",
+   "url": "https://ftp.ripe.net/mirrors/rfc/inline-errata/rfc8058.html",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-11-15",
+   "notes": "One-click unsubscribe mechanism: the List-Unsubscribe header carries one HTTPS address and the List-Unsubscribe-Post header carries List-Unsubscribe=One-Click, so the mailbox provider can offer an unsubscribe control and send a POST that the sender honours without further action from the recipient; a valid DKIM signature must cover both headers."
+  },
+  {
+   "title": "Email Unsubscribe Best Practices: The Legal and Smart Way",
+   "url": "https://www.smtp2go.com/blog/15-email-unsubscribe-best-practices/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-15",
+   "notes": "Bulk senders above 5,000 messages a day must offer one-click unsubscribe honoured within two days; the body link uses the word unsubscribe, stays visible, and needs no sign-in or survey before the request is honoured; confirmation happens on a page rather than by another email; a preference centre offers frequency, topic, and pause choices beside the full unsubscribe."
+  },
+  {
+   "title": "Menu Labeling Requirements",
+   "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/menu-labeling-requirements",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-15",
+   "notes": "Chains of 20 or more locations must show calories for standard items on menus and menu boards and for self-service foods close to the item, display the 2,000-calorie daily-intake statement and the additional-nutrition-on-request statement, and provide full written nutrition information on request."
+  },
+  {
+   "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+   "url": "https://www.w3.org/TR/WCAG22/",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-11-15",
+   "notes": "Pointer targets at least 24 by 24 CSS pixels, text contrast at least 4.5:1, text resizable to 200%, and time limits that can be extended or warned about."
+  },
+  {
+   "title": "Digital Services Act, Article 27 — Recommender system transparency",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2065&qid=1689564975388",
+   "category": "patterns",
+   "type": "regulation",
+   "accessed": "2026-11-15",
+   "notes": "Recommender systems must state in plain language the main parameters used and their relative importance, explain why specific information is suggested, and offer a control to modify those parameters directly and easily accessible from the section where the information is prioritised; very large platforms must offer at least one option not based on profiling."
+  },
+  {
+   "title": "Set up parental controls to manage your child's iPhone or iPad",
+   "url": "https://support.apple.com/en-gb/105121",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-15",
+   "notes": "Separate child account in a family group, age-based defaults, approval flows for apps, purchases and websites decided from the guardian's own device, allowed and blocked lists, time allowances per app category, school, weekday and weekend schedules with a pause control, content restrictions by age rating, and a passcode gating settings changes."
+  },
+  {
+   "title": "Age Appropriate Design: A Code of Practice for Online Services — Code standards",
+   "url": "http://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/code-standards/",
+   "category": "patterns",
+   "type": "guidelines",
+   "accessed": "2026-11-15",
+   "notes": "Fifteen standards for services likely to be accessed by children, including age-appropriate application, high privacy by default, data minimisation, and parental controls that give the child age-appropriate information and show an obvious sign when activity or location is monitored."
+  },
+  {
+   "title": "Unfair commercial practices",
+   "url": "https://www.gov.uk/government/publications/unfair-commercial-practices-cma207/unfair-commercial-practices",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-15",
+   "notes": "Property for sale or lease is a product, so a listing with a price is an invitation to purchase; omitting material information is always unfair, the total price must include all mandatory charges with drip pricing prohibited, and fake reviews and misuse of trust marks are banned in all circumstances."
+  },
+  {
+   "title": "DoorLock trait — Matter standard reference",
+   "url": "https://developers.home.google.com/reference/kotlin/com/google/home/matter/standard/DoorLockTrait.Feature",
+   "category": "patterns",
+   "type": "reference",
+   "accessed": "2026-11-15",
+   "notes": "Per-user PIN credentials, a user database, weekday and year-day access schedules, on-lock logging, credentials sent over the air, and operation and programming notifications."
+  },
+  {
+   "title": "Cyber Security for Consumer IoT: Baseline Requirements (ETSI EN 303 645)",
+   "url": "https://docs.zephyrproject.org/3.7.0/security/standards/etsi-303645.html",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-11-15",
+   "notes": "Provision table: passwords unique per device or user-defined, a simple mechanism to change the authentication value, brute-force protection, and network access and security-relevant configuration changes only after authentication."
+  },
+  {
+   "title": "Regulations: consumer connectable product security",
+   "url": "https://www.gov.uk/guidance/regulations-consumer-connectable-product-security",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-15",
+   "notes": "Baseline security requirements for consumer connectable products, including a ban on universal default passwords, aligned with the consumer IoT baseline standard."
+  },
+  {
+   "title": "Securing Your Internet-Connected Devices at Home",
+   "url": "https://consumer.ftc.gov/articles/securing-your-internet-connected-devices-home",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-15",
+   "notes": "Change default credentials, use two-factor authentication where offered, and disable remote management that is not used."
+  },
+  {
+   "title": "Guidelines for Safety of Women Passengers Using App-Based and Digital Transport Mobility Services",
+   "url": "https://www.khaskhabar.com/en/ncw-issues-detailed-guidelines-to-states-and-uts-for-safety-of-women-passengers-using-app-based-and-digital-transport-services-1-25560-KKN.html",
+   "category": "patterns",
+   "type": "guidelines",
+   "accessed": "2026-11-15",
+   "notes": "Verbatim reproduction of the full guidelines text; the commission's own site copy was not located in search. Driver and vehicle must match the app display with penalty-free cancellation on mismatch, no unauthorised passenger may be added to a pooled ride, verified co-passenger details may be shown, route deviations and long stops raise real-time alerts, and grievance acknowledgement within 2 hours with resolution within 72 hours."
+  },
+  {
+   "title": "Motor Vehicles Aggregators Rules",
+   "url": "https://www.indialaw.in/blog/civil/motor-vehicles-aggregators-rules/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-15",
+   "notes": "Ride pooling permitted for riders travelling along the same route, passengers may choose to pool only with other women, cancellation without valid reason incurs a penalty of 10% of the fare capped at Rs. 100, and apps must offer live location sharing and 24x7 call centres."
+  },
+  {
+   "title": "Maharashtra aggregator policy — carpooling recognition",
+   "url": "http://indianexpress.com/article/cities/mumbai/maharashtra-implements-aggregator-policy-mandates-licensing-fare-safeguards-10790068/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-15",
+   "notes": "Gives legal recognition to carpooling, allows cost-sharing among passengers, and prohibits private vehicle owners from earning a profit."
+  },
+  {
+   "title": "Human Interface Guidelines — Materials",
+   "url": "https://developer.apple.com/design/human-interface-guidelines",
+   "category": "primitives",
+   "type": "guidance",
+   "accessed": "2026-11-15",
+   "notes": "Platform guidance for the translucent refractive control-layer material: reserved for the navigation and control layer floating above content (tab bars, toolbars, sidebars, buttons), never in the content layer; regular and clear variants; controls shrink or simplify on scroll; legibility over scrolling content and a user clarity control."
+  },
+  {
+   "title": "Track workouts with HealthKit on iOS and iPadOS",
+   "url": "https://developer.apple.com/videos/play/wwdc2025/322/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-15",
+   "notes": "Platform session on phone-side workout tracking: a three-second countdown before start so sensors connect, the start, pause, resume, and end lifecycle, live figures on the lock screen with duration only where health data is unavailable, voice-assistant start, pause, resume, and cancel without unlocking, heart rate only from a paired external sensor, crash recovery that restores the session, and post-workout summaries from saved workout statistics."
+  },
+  {
+   "title": "Loyalty cards | Google for Developers",
+   "url": "https://developers.google.com/wallet/retail/loyalty-cards/overview/add-to-google-wallet-flow",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-15",
+   "notes": "Wallet pass development flow for loyalty cards: a class defines the properties shared across passes, an object defines the pass for one person, and the issued pass is delivered with an add-to-wallet button or link."
+  },
+  {
+   "title": "Create Passes Classes and Passes Objects | Loyalty cards",
+   "url": "https://developers.google.com/wallet/retail/loyalty-cards/use-cases/create",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-15",
+   "notes": "Creating loyalty classes and objects: the class is the template for a programme, the object is the per-person pass, created through the wallet API or the business console."
+  },
+  {
+   "title": "Update Passes Classes and Passes Objects | Loyalty cards",
+   "url": "https://developers.google.com/wallet/retail/loyalty-cards/use-cases/updates",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-15",
+   "notes": "Keeping loyalty passes current: updating a class affects all holders, updating an object affects one person, with a full update or a patch of changed fields, and regular updates recommended so the pass reflects balance and tier changes."
+  },
+  {
+   "title": "NHS Talking Therapies for anxiety and depression",
+   "url": "https://www.england.nhs.uk/mental-health/adults/%20nhs-talking-therapies/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-15",
+   "notes": "Talking therapies access: self-referral into every service, a choice of in-person or remote delivery by phone, video, or online, guided programmes with practitioner support, therapies matched to the difficulty, and session-by-session outcome monitoring."
+  },
+  {
+   "title": "FetchAid: Making Parcel Lockers More Accessible to Blind and Low Vision People",
+   "url": "https://arxiv.org/html/2402.15723v1/",
+   "category": "patterns",
+   "type": "paper",
+   "accessed": "2026-11-15",
+   "notes": "Peer-reviewed locker accessibility study: fingertip and button detection on the locker touchscreen guides the person to reveal and scan the QR code, then audio guidance leads to the compartment door, with an error-recovery mechanism and real-time feedback; 12 blind and low-vision participants completed pickups faster with less effort and frustration."
+  },
+  {
+   "title": "Accessibility in parcel logistics: What the EAA means for parcel lockers",
+   "url": "https://www1.keba.com/en/news/logistics-solutions/accessible-parcel-lockers",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-15",
+   "notes": "European Accessibility Act and EN 301 549 require parcel stations to present information in more than one sensory channel: tactile elements, a speaker with audio guidance, and a guide to the box by audio signal or light; grip heights for ICT products follow EN 301 549."
+  },
+  {
+   "title": "ADA & EN 301 549 Kiosk Compliance Explained",
+   "url": "https://www.bestkiosk.com/accessibility-compliance-public-kiosks-ada-en-301-549/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-15",
+   "notes": "Public kiosks must be operable from a wheelchair, by a blind person, and with limited hand strength: reach range 15 to 48 inches, 4.5:1 contrast, speech output with private listening through a headphone jack, and tactile or audible alternatives to touch-only controls; the practical build is a hybrid of touchscreen, tactile keypad, and speech output."
+  },
+  {
+   "title": "Kiosk Accessibility Standards: CSA B651.2, ADA",
+   "url": "https://humankiosk.com/accessibility-standards/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-15",
+   "notes": "CSA/ASC B651.2:25 requires every function of a self-service device in visual text and audible speech, with volume control, a headphone jack, tactile input, and at least one mode operable with one hand without tight grasping, pinching, or twisting; an accessible enclosure running an inaccessible application is still an inaccessible kiosk."
+  },
+  {
+   "title": "Proposal for a Regulation: EU KIDS Act (COM(2026) 681 final)",
+   "url": "https://ec.europa.eu/newsroom/repository/document/2026-38/Proposal_for_EU_KIDS_Act__EU_Keeping_Internet_Digital_Spaces_Accountable_and_Trustworthy_wh7RxWPSibRG6UlfmCMgsZvcEgc_132530.pdf",
+   "category": "patterns",
+   "type": "regulation",
+   "accessed": "2026-11-16",
+   "notes": "Commission proposal adopted 17 September 2026; graduated account ages under 13, 13 to 14 supervised, 15 and over; safety-by-design defaults for all until age assurance establishes adulthood; typed age excluded as a check; not yet adopted law."
+  },
+  {
+   "title": "EU KIDS Act: helping children navigate a safer online world",
+   "url": "https://commission.europa.eu/news-and-media/news/eu-kids-act-helping-children-navigate-safer-online-world-2026-09-17_en",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-16",
+   "notes": "Official summary: gradual uptake of social media for children; proposal now examined by the Parliament and the Council before it becomes law."
+  },
+  {
+   "title": "Guidelines on measures to ensure a high level of privacy, safety and security for minors online",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:C_202505519",
+   "category": "patterns",
+   "type": "guidelines",
+   "accessed": "2026-11-16",
+   "notes": "Adopted 14 July 2025 under DSA Article 28(4); minors' accounts private by default, age assurance accurate, reliable, robust, non-intrusive and non-discriminatory, features encouraging excessive use disabled by default."
+  },
+  {
+   "title": "Statement 1/2025 on Age Assurance",
+   "url": "https://www.edpb.europa.eu/system/files/2025-04/edpb_statement_20250211ageassurance_v1-2_en.pdf",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Ten principles for age assurance; risk-based, proportionate and data-minimising; threshold-only answers where a range suffices; typed age unlikely to be robust."
+  },
+  {
+   "title": "U-space",
+   "url": "https://www.easa.europa.eu/en/domains/air-traffic-management/u-space",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Regulator framework for unmanned traffic management; mandatory services are flight authorisation, geo-awareness, network identification and traffic information; operator-facing, not consumer tracking."
+  },
+  {
+   "title": "Package Delivery by Drone (Part 135)",
+   "url": "https://www.faa.gov/uas/advanced_operations/package_delivery_drone",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Regulator page on certification of delivery operators; flights under 400 feet; no consumer tracking interface guidance."
+  },
+  {
+   "title": "CarPlay Developer Guide",
+   "url": "https://developer.apple.com/carplay/documentation/CarPlay-Developer-Guide.pdf",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-16",
+   "notes": "Quick food ordering rules: simplified ordering only, recent orders or favourites limited to 12 items, store selection and order confirmation; category covers drive-through and pickup ordering, not general retail curbside pickup."
+  },
+  {
+   "title": "UI/UX Design of Laundry Pick-Up and Delivery Application using Prototyping Method",
+   "url": "https://mail.ioinformatic.org/index.php/JAIEA/article/download/2253/1579/6831",
+   "category": "patterns",
+   "type": "research",
+   "accessed": "2026-11-16",
+   "notes": "Prototyping study of a laundry pickup and delivery application: order tracking, automatic cost calculation based on weight, service assessment module; covers scheduling, weight-based pricing and staged tracking, not per-item inventory, wash preferences, delivery window, or damage reporting."
+  },
+  {
+   "title": "Introduction to ticketing for museums and galleries",
+   "url": "https://www.museumsassociation.org/museums-journal/in-practice/2020/08/introduction-to-ticketing-for-museums-and-galleries/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Sector-body guide to introducing timed entry booking: timed sessions across dates and times, simple registration, pre-defined capacity numbers, late-arrival rule with 10-minute arrival and possible non-admittance, accessibility and companion tickets per slot, walk-in allocation, rules communicated on site, tickets and confirmation emails."
+  },
+  {
+   "title": "Museums, tourism and crowds",
+   "url": "https://thesis.eur.nl/pub/49342/",
+   "category": "patterns",
+   "type": "research",
+   "accessed": "2026-11-16",
+   "notes": "2019 university thesis, comparative case study of two museums: time-slotted online tickets spread visitors through the day and reduced queues, with reduced maximum capacity improving the visit."
+  },
+  {
+   "title": "Material Design 3",
+   "url": "https://m3.material.io/",
+   "category": "trends",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Expressive guidance: 14 new or updated components, token-driven motion physics, 35-shape library with shape morphing, updated design kit; Compose-first direction."
+  },
+  {
+   "title": "Compose Material 3 release notes",
+   "url": "https://developer.android.com/jetpack/androidx/releases/compose-material3?hl=en&authuser=5",
+   "category": "trends",
+   "type": "release-notes",
+   "accessed": "2026-11-16",
+   "notes": "Stable 1.4.0; 1.5.0-rc01 dated 4 November 2026; motion scheme, wavy progress indicators and expressive theme promoted during the 1.5.0 alpha series."
+  },
+  {
+   "title": "Gmail Material 3 Expressive settings redesign starts rolling out",
+   "url": "https://mobile.androidauthority.com/gmail-material-3-expressive-settings-redesign-rollout-3734964/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-11-16",
+   "notes": "Settings interface restyled with rounded cards, expressive switches and colour-coded icons, with writing settings grouped under one heading; rollout server-side and limited."
+  },
+  {
+   "title": "Gmail's Settings Page Is Getting a Colorful Material 3 Expressive Makeover",
+   "url": "https://www.androidheadlines.com/2026/11/gmails-settings-page-is-getting-a-colorful-material-3-expressive-makeover.html",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-11-16",
+   "notes": "Corroborates the Gmail settings redesign: rounded cards, redesigned switches, grouped writing settings; server-side rollout with unclear coverage."
+  },
+  {
+   "title": "Q2 & Q3 2026 Recap",
+   "url": "https://chakra-ui.com/blog/q2-q3-2026-recap",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-11-16",
+   "notes": "Chakra UI v3.38.0 shipped 3 November 2026 with a Command component for searchable command menus; FloatingPanel and DateInput landed earlier in 2026."
+  },
+  {
+   "title": "Appliance remote control",
+   "url": "https://webiano.digital/knowledge-base/smart-home/smart-appliances/appliance-remote-control/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-16",
+   "notes": "Safety-gated remote control: appliance safety standards such as the IEC 60335 family, remote start armed locally at the appliance and cancelled when the door opens, remote switch-off almost always allowed, heat sources most restricted, remote control as a convenience layer over full local operation."
+  },
+  {
+   "title": "Control Your Washing Machine Remotely with wifi",
+   "url": "https://shop.haierindia.com/blog/smart-washing-machine-remote-control/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-16",
+   "notes": "Vendor account of smart washer control: remote start and pause, live cycle monitoring, saved custom programmes, finish-by scheduling in off-peak hours, completion and maintenance notices."
+  },
+  {
+   "title": "Washing Machine User Manual — Remote Control Function",
+   "url": "https://manualstech.ams3.cdn.digitaloceanspaces.com/html/nl/grundig/gwpe-89e6168-ww/html/gwpe-89e6168-ww32.page",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-16",
+   "notes": "Manufacturer manual: remote control set up by holding the on/off and remote-control keys at the appliance, status notices at the end of a programme, all safety measures applying to remote operation."
+  },
+  {
+   "title": "Open311 GeoReport v2",
+   "url": "https://wiki.open311.org/GeoReport_v2",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-11-16",
+   "notes": "Frozen and finalised specification for reporting location-based non-emergency issues: service list with codes, groups and metadata, per-service definitions with required fields in stated order, location as coordinates, address text or address identifier, media by reference, reference number or token, open or closed status with notes, 4,000-character description, optional contact fields, ISO 8601 dates, HTTPS."
+  },
+  {
+   "title": "European legislation on eInvoicing",
+   "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108867/European+legislation+on+eInvoicing",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Directive 2014/55/EU and the EN 16931 standard define the common semantic data model for electronic invoices; public contracting authorities must receive and process compliant invoices."
+  },
+  {
+   "title": "Peppol BIS Billing 3.0",
+   "url": "https://docs.peppol.eu/poacc/billing/3.0/bis/",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-11-16",
+   "notes": "Core Invoice Usage Specification of EN 16931: invoice processes including pre-payment and payment in advance, payment means and instructions, pre-payment settled through a final invoice, buyer reference, credit notes for corrections."
+  },
+  {
+   "title": "Peppol BIS Billing 3.0 business rules",
+   "url": "https://docs.peppol.eu/poacc/billing/3.0/2024-Q4/rules/ubl-peppol/",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-11-16",
+   "notes": "Business rules for the billing profile: partial-invoice document type code 326 for milestone billing, mandatory buyer reference and electronic addresses."
+  },
+  {
+   "title": "Invoices: what they must include",
+   "url": "https://www.gov.uk/invoicing-and-taking-payment-from-customers/invoices-what-they-must-include",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Government guidance on invoice content: unique number, issue date, seller and buyer identity, line items with quantity and unit price, tax breakdown, totals."
+  },
+  {
+   "title": "Factur-X 1.08 / ZUGFeRD 2.4",
+   "url": "https://fnfe-mpe.org/wp-content/uploads/2025/12/2025-12-04_Factur-X_1.08_ZUGFeRD_2.4_Press_Release_EN.pdf",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-11-16",
+   "notes": "Hybrid invoice format, EN 16931-compliant: a human-readable PDF carrying the full structured invoice data embedded as XML, so one file serves both human reading and machine processing."
+  },
+  {
+   "title": "Financial promotions for high-risk investments: multi-firm review",
+   "url": "https://www.fca.org.uk/publications/multi-firm-reviews/financial-promotions-high-risk-investments/printable/print",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Regulator review of high-risk investment promotions: prescribed risk-warning wording and prominent placement, 24-hour cooling-off, personalised risk warning, no incentives, appropriateness assessments that genuinely test understanding."
+  },
+  {
+   "title": "Investor awareness messages on trading apps",
+   "url": "https://nsearchives.nseindia.com/content/circulars/COMP76720.pdf",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Regulator circular: brokers must display regulator-supplied investor awareness messages and risk disclosures on alternate days on the landing page of trading apps, in bilingual format, from 1 November 2026."
+  },
+  {
+   "title": "Gamification and retail investing",
+   "url": "https://www.osc.ca/en/investors/investor-research-and-reports/gamification-and-retail-investing-positive-use-cases-and-mitigation-techniques",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Regulator research: positive friction before high-risk trades (confirmation step, PIN re-entry, cool-down); gamified features opt-in with informed consent; labels stating persuasive intent."
+  },
+  {
+   "title": "Digital engagement practices: request for comment",
+   "url": "https://www.sec.gov/newsroom/press-releases/2021-167?ref=thisweekinfintech.com",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Regulator request for comment on behavioural prompts, gamification and design elements on digital platforms; a request for comment, not a rule."
+  },
+  {
+   "title": "Digital engagement practices: Federal Register text",
+   "url": "https://www.govinfo.gov/content/pkg/FR-2021-09-01/html/2021-18901.htm",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Federal Register text of the regulator request for comment on digital engagement practices on trading platforms."
+  },
+  {
+   "title": "Investment gamification and implications for capital markets",
+   "url": "https://www.cfainstitute.org/about/press-room/2022/investment-gamification-and-implications-for-capital-markets",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Standards-body report: move away from one-click transactions toward order, review and confirm; plain-language point-of-transaction disclosures; rewards tied to long-term outcomes, not transactions."
+  },
+  {
+   "title": "ESMA agrees to prohibit binary options and restrict CFDs",
+   "url": "https://www.esma.europa.eu/press-news/esma-news/esma-agrees-prohibit-binary-options-and-restrict-cfds-protect-retail-investors",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Product-intervention measures: leverage limits by asset class, margin close-out at 50% of minimum required margin, negative-balance protection, restriction on incentives, standardised risk warning including the percentage of retail accounts that lost money."
+  },
+  {
+   "title": "Directive (EU) 2024/2831 on improving working conditions in platform work",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024L2831-20241111",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Platform-work directive: automated decisions expressly include pricing of individual assignments and earnings; platforms must disclose the categories of automated decisions, the data and main parameters and their relative importance, in clear plain language; account restriction, suspension or termination must be taken by a human being; workers have a right to an explanation, a named contact and a reply within two weeks; automated systems must not put undue pressure on workers or risk safety; effective reporting channels required; no processing of emotional state, private conversations, off-duty data or biometric identity data."
+  },
+  {
+   "title": "Visual-Manual Driver Distraction Guidelines",
+   "url": "https://www.nhtsa.gov/sites/nhtsa.gov/files/strickland-distraction_guidelines_03122012.pdf",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Regulator safety guidance for in-vehicle and portable devices: a single eyes-off-road glance no more than 2 seconds, total eyes-off-road time no more than 12 seconds, operable with one hand, limited manual inputs and unnecessary visual information; lockouts while driving for manual text entry, internet browsing, navigation destination entry, 10-digit dialling, more than 30 characters of non-driving text, and automatically scrolling text."
+  },
+  {
+   "title": "NIST Special Publication 1181, Unit Pricing Guide",
+   "url": "https://www.nist.gov/publications/nist-sp-1181-unit-pricing-guide-best-practice-approach-unit-pricing-2025-ed",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-11-16",
+   "notes": "Standards-body best-practice guide to unit pricing, explicitly covering e-commerce sites as well as shelf labels: one unit of measure for each product category across brands and sizes, unit price shown for every price on offer including sale and multi-buy prices."
+  },
+  {
+   "title": "NIST Handbook 130, Uniform Unit Pricing Regulation",
+   "url": "https://www.nist.gov/document/2026-hb-130-section-iv-c",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-11-16",
+   "notes": "Model unit pricing regulation: uniform units by category (weight per ounce or pound, or per 100 g or kg; liquid per fluid ounce, pint, quart or gallon, or per litre or 100 mL; count per unit), with stated exemptions for very small packs, single-brand single-size lines, and variety and combination packs."
+  },
+  {
+   "title": "Directive 98/6/EC on the indication of prices",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:01998L0006-20220528",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-16",
+   "notes": "Consumer-protection directive on price indication: selling price and unit price must be unambiguous, easily identifiable and clearly legible; prices are final, including taxes; the unit price may be omitted only where identical to the selling price, and only the unit price is required for bulk products."
+  },
+  {
+   "title": "GS1 identification standards: GTIN",
+   "url": "https://mocdn.gs1.org/standards/id-keys",
+   "category": "patterns",
+   "type": "standard",
+   "accessed": "2026-11-16",
+   "notes": "Globally unique product identification: GTIN-12 in North America, GTIN-13 elsewhere, GTIN-8 for small packs, GTIN-14 for cases; the check digit catches misreads; a GTIN is never reassigned to a different product."
   }
  ]
 }
