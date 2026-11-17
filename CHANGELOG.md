@@ -7,6 +7,85 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Standards outlook: the EN 301 549 v4.1.1 note in
+  `trends/2026/standards-outlook.md` refreshed — Official Journal
+  citation now expected 22 January 2027 (moved from late November
+  2026), adoption 24 August 2026 and publication 2 September 2026
+  stated, with the new user-preference clause, the rewritten
+  information-about-products clause, and total-conversation
+  real-time communication noted. 2 new source records (975 total).
+
+- Roadmap: three new improvement actions added (382 tiered
+  permission gates and batch approval for the Agent checkpoint row,
+  383 appliance and device repair booking, 384 home care visit
+  booking), ordered by coverage impact, each a genuine gap with its
+  source position stated; no new pattern rows for these three this
+  review.
+
+### Fixed
+
+- Source records: `resources/sources.json` rebuilt from the
+  published branch (963 records) after a local loss, with the 10
+  records added since that publish re-derived from fresh searches
+  on the same grounding topics (2 open-protocol records for EV
+  charging reservation, 2 season-ticket records, 2 peer-to-peer
+  payment records, 2 driving-test booking records, 2 bag-drop
+  records); the re-derived records replace the lost ones and the
+  total is restored to 975 with the 2 new records above.
+
+- Roadmap: duplicate actions reconciled — 306 merged into 381
+  (video doorbell visitor interface), 311 into 379 (ferry
+  booking), 319 into 380 (theme park virtual queue reservation),
+  with each pair's substance combined into the surviving action;
+  the open-actions list now also drops 289 and 333, completed by
+  the season-ticket and peer-to-peer payment rows. Coverage matrix
+  re-checked (468 pattern rows, all in Full; Full 478; Partial
+  65; no duplicates, no overlap) and unchanged by this review.
+
+- Patterns catalogue: two new pattern rows added to
+  `catalog/patterns.md` — Public transport season ticket purchase
+  (route or zone choice before the price, weekly to annual periods
+  with a stated start date, flexible-day activation before
+  boarding, refund on surrender before expiry, photocard
+  remembered on renewal, automatic renewal stated with its cancel
+  route) and Peer-to-peer payment (contacts listed as recipients,
+  entered-name check against the account on record with match,
+  close-match, mismatch, and check-unavailable outcomes shown
+  before authorisation, device-check approval, sending limits
+  stated before the amount). Roadmap action 289 completed.
+  Coverage matrix updated (two rows to Full; 468 pattern rows,
+  Partial 65). Matrix reconciliation this review: Full 478 = 468
+  pattern rows plus 10 layout-level items (dashboard, mobile
+  navigation, checkout variants, voice hybrid flows, stepper,
+  landing, authentication, settings, commerce, consent); every
+  pattern row appears in Full; no duplicates in either cell. 8 new
+  source records (973 total).
+
+- Roadmap: three new improvement actions added (379 ferry booking,
+  380 theme park virtual queue reservation, 381 video doorbell
+  visitor interface), ordered by coverage impact, each a genuine
+  gap with its source position stated; no new pattern rows for
+  these three this review — all stay below the source bar for want
+  of a platform or standards source.
+
+- Patterns catalogue: the Electric vehicle charging session row
+  in `catalog/patterns.md` now covers advance reservation — query
+  future availability as well as live availability, book a named
+  charger for a stated window with the price shown before
+  commitment, present a check-in code or token at the charge
+  point, watch a countdown to the window end, and cancel and
+  rebook rather than letting a missed window lapse silently, with
+  no-show terms stated at booking. Grounded in the open protocol
+  specification for EV charging networks (reservation details in
+  its session records; a bounded authorisation token in its
+  confirm step). Coverage matrix re-verified against the catalogue
+  (466 pattern rows, all in Full; Full 476; Partial 67). Three new
+  roadmap actions added (376 concert and festival ticket booking,
+  377 dentist appointment booking, 378 online tutoring live
+  class); no new pattern rows for these three — all three stay
+  below the source bar for want of a platform or standards source.
+  2 new source records (965 total).
+
 - Patterns catalogue: five new pattern rows added to
   `catalog/patterns.md` — Civic issue reporting (standard category
   list with category-specific questions, location in one of three

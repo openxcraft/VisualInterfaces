@@ -1,6 +1,6 @@
 {
  "version": "0.1.0",
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "sources": [
   {
    "title": "Design trends overview for 2026",
@@ -7705,6 +7705,102 @@
    "type": "standard",
    "accessed": "2026-11-16",
    "notes": "Globally unique product identification: GTIN-12 in North America, GTIN-13 elsewhere, GTIN-8 for small packs, GTIN-14 for cases; the check digit catches misreads; a GTIN is never reassigned to a different product."
+  },
+  {
+   "title": "OCPP 2.0.1 explained: key benefits for the EV ecosystem",
+   "url": "https://www.virta.global/blog/ocpp-2.0.1-explained-key-benefits-for-the-ev-ecosystem",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Open protocol explainer: OCPP 2.0.1 reservation features let drivers book a charging station for a stated time slot, with automatic release of the reservation when the driver does not arrive within a stated window."
+  },
+  {
+   "title": "OCPI Commands: async remote control",
+   "url": "https://dheerajshukla.com/ocpi-commands-by-dheeraj-shukla.html",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "OCPI 2.2.1 commands guide: RESERVE_NOW holds a charge point for a token until an expiry time, CANCEL_RESERVATION releases it early, each command translating into the matching open-protocol message to the charge point."
+  },
+  {
+   "title": "Season Tickets | National Rail",
+   "url": "https://www.nationalrail.co.uk/tickets-railcards-and-offers/ticket-types/season-tickets/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Sector information page: season tickets offer unlimited travel between two stations, available weekly, monthly, annually and for any period from one month and one day up to one year, with Flexi Season giving 8 days of travel in 28 days, each travel day activated before use."
+  },
+  {
+   "title": "Season Tickets Terms and Conditions | National Rail",
+   "url": "https://www.nationalrail.co.uk/tickets-railcards-and-offers/ticket-types/season-tickets/season-tickets-terms-and-conditions/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Season ticket terms: refund from the retailer on surrender, worked out as price paid minus the cost of tickets for the period used, administration charge of no more than £10, at least seven days remaining on a monthly or longer ticket or three days on a 7-day ticket, annual tickets with no refund value after 10 months and 12 days, Flexi refunds within the 28-day validity period."
+  },
+  {
+   "title": "Send money (P2P)",
+   "url": "https://developer.mastercard.com/digital-first-experience-design-guide/documentation/design/use/send-money-p2p/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Platform design guide for sending money to a contact: recipients listed on the home screen, device-check approval for the transfer, and a short journey from contact to confirmation."
+  },
+  {
+   "title": "What Good Certainty of Payee Looks Like",
+   "url": "https://www.l1p.org/wp-content/uploads/2025/09/Design-Note-What-Good-Certainty-of-Payee-Looks-Like.pdf",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Design note on certainty of payee: the receiver's account name shown to the sender before the payment is initiated, standard account naming, and confirmation outcomes of match, close match, no match, and check unavailable."
+  },
+  {
+   "title": "Next steps for changes to the driving test booking service",
+   "url": "https://content.govdelivery.com/accounts/UKDVSA/bulletins/40ea316",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Transport-department consultation outcome: from 31 March 2026 a booked car driving test can be changed at most twice, from 12 May 2026 only the learner can book and manage their own test, and from 9 June 2026 a test can be moved only to one of the three nearest centres."
+  },
+  {
+   "title": "Update on driving test booking rules consultation and reducing waiting times",
+   "url": "https://content.govdelivery.com/accounts/UKDVSA/bulletins/3faf341",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Consultation outcome summary: 70.7% of respondents agreed only learner drivers should book and manage their own test, and the change limit was set at two, with the area a test can be moved to also limited once booked."
+  },
+  {
+   "title": "Checking in | British Airways",
+   "url": "https://www.britishairways.com/content/en/ca/information/checking-in-and-boarding/checking-in",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Operator check-in guide: with a boarding pass already held, go directly to the bag drop area with boarding pass, identification and travel documents; at staffed bag drop points get baggage tags and check the bag in, with overnight bag drop at selected airports the afternoon before departure."
+  },
+  {
+   "title": "British Airways Checking-in: A Step-by-Step Guide",
+   "url": "https://airadvisor.com/en/airline-check-in/british-airways",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Operator check-in guide: self-service kiosks print boarding pass and bag tags after confirming the booking by reference or passport, the tag is attached to the luggage and the bag is taken to the bag drop-off area; staffed desks remain available for help."
+  },
+  {
+   "title": "EN 301 549 v4.1.1 is final: what changed and what it means",
+   "url": "https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "EN 301 549 v4.1.1 adopted 24 August 2026 and published 2 September 2026: web, document and software clauses move to WCAG 2.2 Level AA, six new criteria, clause 10.7 on user preferences, clause 12 rewritten, real-time communication widened to total conversation; Official Journal citation expected 22 January 2027."
+  },
+  {
+   "title": "Modern Web Guidance 1.0: the web platform expertise your coding agent is missing",
+   "url": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Modern Web Guidance 1.0, stable 10 November 2026: 200+ expert-reviewed guides over 250 web platform features with Baseline compatibility data, a modernisation workflow that scans existing code, and cross-browser stewardship by Chrome, Edge, Firefox and MDN."
   }
  ]
 }
