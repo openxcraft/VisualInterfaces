@@ -7,6 +7,24 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Four new pattern rows in `catalog/patterns.md`: Smart-display voice
+  screen, Hotel room service ordering, Concert and festival ticket
+  booking, and Appliance and device repair booking — completing
+  roadmap actions 376 and 383. 13 new source records (989 total).
+
+- Roadmap: duplicate actions reconciled — 266 merged into 341 (public
+  library borrowing), 268 into 340 (ATM interface), 312 into 342
+  (energy tariff comparison and switching), with each pair's substance
+  combined into the surviving action; three new improvement actions
+  added (385 ticket resale listing, 386 repair information form, 387
+  recurring scheduled grocery order).
+
+- Component libraries: UI SDK row added to
+  `resources/libraries.md` — an unstyled agent-operable behaviour
+  library in beta at 0.1.0-beta.1 (November 2026), whose components
+  expose structured tools so an automated agent can read and operate
+  them. 1 new source record (976 total).
+
 - Standards outlook: the EN 301 549 v4.1.1 note in
   `trends/2026/standards-outlook.md` refreshed — Official Journal
   citation now expected 22 January 2027 (moved from late November

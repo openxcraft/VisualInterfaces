@@ -7801,6 +7801,118 @@
    "type": "guidance",
    "accessed": "2026-11-17",
    "notes": "Modern Web Guidance 1.0, stable 10 November 2026: 200+ expert-reviewed guides over 250 web platform features with Baseline compatibility data, a modernisation workflow that scans existing code, and cross-browser stewardship by Chrome, Edge, Firefox and MDN."
+  },
+  {
+   "title": "UI SDK compared with Base UI and Radix",
+   "url": "https://hextaui.com/blog/ui-sdk-vs-base-ui-vs-radix",
+   "category": "resources",
+   "type": "article",
+   "accessed": "2026-11-17",
+   "notes": "UI SDK 0.1.0-beta.1 (November 2026): headless component behaviours for React, Vue, Svelte, Solid, and web components, with structured tools so an automated agent can read and operate components; beta terms apply."
+  },
+  {
+   "title": "Multimodal design: introduction",
+   "url": "https://developer.amazon.com/en-US/alexa/alexa-haus/multimodal-introduction",
+   "category": "platform",
+   "type": "documentation",
+   "accessed": "2026-11-17",
+   "notes": "Voice-first design for screen-paired voice assistants: core functions usable without a screen, every touch target has a spoken equivalent, the screen never repeats the spoken answer, glanceable layouts readable at distance, contrast and privacy rules."
+  },
+  {
+   "title": "Design guidelines: conversational actions",
+   "url": "https://developers.google.com/assistant/interactivecanvas/design",
+   "category": "platform",
+   "type": "documentation",
+   "accessed": "2026-11-17",
+   "notes": "Design for smart displays: voice-forward design, critical path navigable by voice alone, voice output adapted rather than repeated for the screen, one touchpoint at a time, large text, no critical content at the bottom of the screen."
+  },
+  {
+   "title": "Smart displays",
+   "url": "https://developers.google.com/assistant/surfaces/displays",
+   "category": "platform",
+   "type": "documentation",
+   "accessed": "2026-11-17",
+   "notes": "Smart displays are voice-first even with a display; rich responses (cards, lists, tables, carousels, suggestion chips) support voice invocation."
+  },
+  {
+   "title": "Food and beverage ordering workgroup",
+   "url": "https://www.ahla.com/htng-completed-workgroups",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Standards-body workgroup standardising the exchange of menu and order information between a point-of-sale system and a guest ordering interface (television, tablet or website)."
+  },
+  {
+   "title": "Paying menu item transaction services",
+   "url": "https://docs.oracle.com/cd/F10429_01/doc.182/f10214/t_paying_menu_item_transaction_services.htm",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-17",
+   "notes": "Charging menu items to a room folio from a kiosk, mobile device or television, with room number, serving period and guest name on the posted charge."
+  },
+  {
+   "title": "Manage billing",
+   "url": "https://docs.oracle.com/en/industries/hospitality/opera-cloud/25.4/ocsuh/c_manage_billing_manage_billing.htm",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-17",
+   "notes": "Posting charges to guest folios, billing windows, and charge routing."
+  },
+  {
+   "title": "Allergen information for non-prepacked foods",
+   "url": "https://science.food.gov.uk/article/142304-allergen-information-for-non-prepacked-foods-key-findings-from-consumers-and-food-service-workers",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Written allergen information easily available; the recommendations apply to distance sellers as well as in-person ordering."
+  },
+  {
+   "title": "Providing clear and accurate information about prices: summary (CMA209)",
+   "url": "https://www.gov.uk/government/publications/price-transparency-cma209/providing-clear-and-accurate-information-about-prices-summary",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Total price up front including mandatory booking fees; running total through the purchase; theatre-production example with a per-transaction fee in the headline price."
+  },
+  {
+   "title": "STAR Code of Practice",
+   "url": "https://www.star.org.uk/wp-content/pdfs/STAR_Code_Of_Practice.pdf",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Sector code for ticket selling: clear pricing with face value and fees, refund of at least face value where an event is cancelled, transferability, cancellation and viewing restrictions highlighted before purchase."
+  },
+  {
+   "title": "Sale and resale of tickets",
+   "url": "https://www.bromley.gov.uk/leaflet/122608/4/675/d",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Trading-standards guidance: ticket price includes non-optional charges; timings, locations and seat numbers before purchase; restricted views flagged before purchase; transfer and entry terms stated before purchase."
+  },
+  {
+   "title": "Common rules promoting the repair of goods — Directive (EU) 2024/1799 summary",
+   "url": "https://eur-lex.europa.eu/EN/legal-content/summary/common-rules-promoting-the-repair-of-goods-and-amending-related-eu-legislation.html",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Standardised repair information form (repairer, work, cost, time) given free before a repair contract is signed and valid at least 30 days; duty to repair at a reasonable price within a reasonable time; guarantee extended by 12 months where repair is the remedy."
+  },
+  {
+   "title": "Consumer Rights Act 2015, section 23 — Right to repair or replacement",
+   "url": "https://www.legislation.gov.uk/ukpga/2015/15/section/23/2016-12-28/data.html",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Repair within a reasonable time and without significant inconvenience, with the trader bearing labour, materials and postage costs."
+  },
+  {
+   "title": "Ecodesign Regulations 2021, Schedule 6 — household dishwashers",
+   "url": "https://www.legislation.gov.uk/uksi/2021/745/schedule/6/made?view=plain",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-17",
+   "notes": "Spare parts available 7 years to professional repairers and 10 years for end-user parts, delivery within 15 working days, repair and maintenance information including diagnostic fault and error codes."
   }
  ]
 }
