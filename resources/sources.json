@@ -8113,6 +8113,78 @@
    "type": "article",
    "accessed": "2026-11-18",
    "notes": "Compose 1.13 stable released 18 November 2026 (BOM 2026.11.01): FlexBox and Grid stable for adaptive layouts, progressive blur and formatted text, polygon shapes and shape morphing, Material 3 1.5.0 stable; Material 2, legacy text-field APIs and ConstraintLayout for Compose deprecated; Navigation 3 version 1.2 with type-safe deep linking."
+  },
+  {
+   "title": "Early education and childcare (valid from 1 April 2026)",
+   "url": "https://www.gov.uk/government/publications/early-education-and-childcare--2/early-education-and-childcare-valid-from-1-april-2026",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-18",
+   "notes": "Statutory guidance for local authorities on funded early education and childcare: funded hours must be free at the point of use with no mandatory charges (A1.31-A1.38); charges for meals, consumables and optional activities are voluntary and can be declined without losing the place (A1.32-A1.36); invoices break down separately into funded hours, additional paid hours, food, non-food consumables and activities (A1.42); session standards of no session longer than 10 hours, no minimum length, not before 6am or after 8pm, and no artificial breaks inside funded hours (A2.4-A2.5)."
+  },
+  {
+   "title": "Sessions, fees, and invoicing checklist",
+   "url": "https://api.warwickshire.gov.uk/documents/WCCC-505288705-873",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-18",
+   "notes": "Local-authority checklist for settings offering funded hours: funded hours delivered free of charge without mandatory charges, itemised invoices separating funded hours from paid hours and extras, and the charging and transparency paragraphs of the statutory guidance."
+  },
+  {
+   "title": "Early years entitlement: additional charges, transparency and compliance",
+   "url": "https://schoolsnet.derbyshire.gov.uk/site-elements/documents/family-hub/funding-and-contracts/additional-charges-transparency-compliance-2026.pdf",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-18",
+   "notes": "Local-authority guidance on funded-hours charges: extras must be voluntary, parents must be able to opt out of chargeable extras, no mandatory charges in relation to funded hours, and costs published with a breakdown of funded hours and extras."
+  },
+  {
+   "title": "Classes and booking",
+   "url": "https://lifestylesadmin.liverpool.gov.uk/contact/classes-and-booking/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-18",
+   "notes": "Council leisure service class booking: classes bookable online 7 days in advance, cancellation through the online account, refund or credit where a paid booking is cancelled at least six hours ahead, and a waiting list offered on a first-come-first-served basis when a class is full."
+  },
+  {
+   "title": "Play Fair Policy",
+   "url": "https://www.activenottingham.com/play-fair-policy/",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-18",
+   "notes": "Council leisure waitlist and attendance policy: waitlist places allocated first-come-first-served after notification, cancellation at least 60 minutes before the activity to avoid a strike, and three strikes in a rolling 30-day period suspending advance booking privileges for 7 days."
+  },
+  {
+   "title": "Bookings and cancellation policy",
+   "url": "https://www.activestirling.org.uk/terms-and-conditions/bookings-and-cancellation-policy",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-18",
+   "notes": "Council leisure booking policy: two-hour cancellation notice, three-strikes non-attendance rule removing advance booking for 14 days, and a waiting list that notifies everyone when a place opens, with cancellation of the waitlist place through the online account."
+  },
+  {
+   "title": "Borrowing Policy (revised February 2026)",
+   "url": "https://tcplquincy.org/wp-content/uploads/Borrowing-Policy-Rev.-February-2026.pdf",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-18",
+   "notes": "Public library borrowing policy: a valid card may be physical or a virtual card in digital format; e-cards give access to online resources and holds; most items renew automatically where no one is waiting, with email or text notice on renewal."
+  },
+  {
+   "title": "Circulation Policy",
+   "url": "https://bakerlib.specialdistrict.org/files/1e6a73aa0/BCLD_Circulation_Policy_Board_2026-04-14.pdf",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-18",
+   "notes": "Public library circulation policy: loan periods and renewal limits per format, maximum holds per card, account suspension thresholds for outstanding balances, and borrowing by physical card, app, account number and PIN, or photo ID."
+  },
+  {
+   "title": "Borrowing Policies and Procedures",
+   "url": "https://www.washcolibrary.org/policies",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-18",
+   "notes": "Public library borrowing policy: loan periods and renewal limits per item type, automatic renewals up to three times where eligible, items with a hold not eligible for renewal, and borrowing privileges suspended at a stated fines threshold."
   }
  ]
 }

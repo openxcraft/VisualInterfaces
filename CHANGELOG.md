@@ -7,6 +7,33 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Childcare booking: new pattern row in `catalog/patterns.md` —
+  sessions booked by room and age group with capacity shown, a
+  waitlist that fills cancelled places in order, settling-in sessions
+  and a show-round visit before a regular place starts, funded hours
+  free at the point of use with no mandatory charge, an invoice that
+  breaks down separately into funded hours, additional paid hours,
+  food, non-food consumables, and activities, and a stated
+  cancellation and rescheduling notice period — completing roadmap
+  action 397. 3 new source records (1017 total).
+
+- Gym and fitness class booking: new pattern row in
+  `catalog/patterns.md` — booking window and class capacity shown,
+  a waitlist that fills places in order and stops promoting inside a
+  stated window before the class, the free-cancellation cutoff stated
+  at booking with cancellation through the same route as booking, a
+  stated consequence for late cancellation or no-show, a stated
+  minimum attendance for the class to run, and check-in before the
+  class starts — completing roadmap action 398. 3 new source records
+  (1020 total).
+
+- Public library borrowing: new pattern row in `catalog/patterns.md`
+  — holds with a place in line and a pickup window that expires,
+  automatic renewal where no one is waiting with the blockers stated,
+  a stated loan period per format with automatic return for digital
+  loans, and a digital library card with fines and fees shown —
+  completing roadmap action 399. 3 new source records (1023 total).
+
 - Compose Material 3 1.5.0 stable: `resources/libraries.md` row updated — the stable line moves from 1.4.0 to 1.5.0 with Compose 1.13, released 18 November 2026; FlexBox and Grid are now stable for adaptive layouts, progressive blur and polygon shape morphing are available, and the previous Material line, legacy text-field APIs, and the ConstraintLayout toolkit are deprecated. 1 new source record (1014 total).
 
 - Ride booking: pre-ride tipping and price-setting rules added to the
