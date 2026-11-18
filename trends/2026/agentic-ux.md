@@ -184,6 +184,17 @@ A page can register named tools that an agent running in the browser can discove
 - Keep each tool description short, plain, and honest about what the tool does and what it needs; a tool that claims more than it does will be called for the wrong job.
 - Some storefront platforms switch the tools on by default for their stores, and a desktop chat application also reads the registered tools — the page still owns what it exposes, and nothing about the listing changes for people who never use an agent.
 
+## Server-supplied interfaces in the conversation
+
+A connected server can answer a tool call with an interactive interface — a form, a chart, a table, a dashboard — that the host renders inside the conversation, instead of plain text. The server supplies the interface as a document; the host renders it in a sandboxed frame and mediates every message between the interface and the host. The open protocol extension that defines this is MCP Apps; its stable version shipped in January 2026.
+
+- Treat the supplied interface as untrusted content from the connected server, not as host interface: it runs in a sandbox with a deny-by-default content policy, and it reaches tools, resources, and the conversation only through the host-controlled channel.
+- Label the surface with its origin — which connected server supplied it — so a person can tell host controls from server-supplied controls at a glance.
+- Keep the tool useful where the host cannot render the interface: the same tool returns a plain result that works on its own, and the interface is an enhancement, never the only way to complete the task.
+- A consequential action taken inside the supplied interface waits at a checkpoint, under the trust patterns above, and appears in the step trace and the post-action receipt, exactly as if it had been taken in the host interface.
+- Anything the interface writes back into the conversation — a message, a value, a change to what the agent carries forward — is shown to the person as coming from that server, and is recorded in the step trace.
+- Distinct from agent-described screens above, where the agent describes the surface and the app draws it with its own native components: here the server draws the surface itself, and the host only contains it.
+
 ## States
 
 Every screen in this group defines all seven states. Missing states are treated as incomplete work.

@@ -7913,6 +7913,46 @@
    "type": "guidance",
    "accessed": "2026-11-17",
    "notes": "Spare parts available 7 years to professional repairers and 10 years for end-user parts, delivery within 15 working days, repair and maintenance information including diagnostic fault and error codes."
+  },
+  {
+   "title": "MCP Apps: How Interactive UI in MCP Works (2026 Guide)",
+   "url": "https://mcp.so/blog/mcp-apps-guide",
+   "category": "trends",
+   "type": "guide",
+   "accessed": "2026-11-17",
+   "notes": "Stable version 2026-01-26 of the MCP Apps extension (SEP-1865): a tool points to a ui:// resource holding an HTML document, rendered by the host in a sandboxed iframe with host-controlled JSON-RPC messaging; progressive enhancement, so the tool stays useful where the interface cannot render."
+  },
+  {
+   "title": "EAA & Self-Service Terminals: ATM & Kiosk Rules",
+   "url": "https://www.disabilityworld.org/articles/eaa-self-service-terminals/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-17",
+   "notes": "Self-service terminals in scope from 28 June 2025: cash machines, ticketing, check-in and information terminals; closed functionality, so the machine itself must supply text-to-speech, personal headsets, multi-sense time-limit warnings with extension, tactile keys, and an accessibility entry point usable without the feature it turns on."
+  },
+  {
+   "title": "10 Tips to Improve Restaurant Ordering UX",
+   "url": "https://www.wpslash.com/restaurant-ordering-ux-tips/",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-17",
+   "notes": "Fulfilment options stated up front with times and fees: pickup, delivery, curbside pickup, and schedule for later; numbered curbside spaces with a text arrival route; expected pickup time stated at checkout and a ready notification; long waits the most reported curbside frustration."
+  },
+  {
+   "title": "How to Implement Curbside Pickup for a Better Customer Experience",
+   "url": "https://www.upbizy.com/article/how-to-implement-curbside-pickup-for-a-better-customer-experience",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-17",
+   "notes": "Numbered pickup spaces with clear signage, two-way communication with the arriving customer, a 2-5 minute handoff target from arrival, and contactless handoff with pre-payment."
+  },
+  {
+   "title": "Moxi Booking Flow Enhancements Design Sprint Case Study",
+   "url": "https://lunarlab.io/portfolio/moxi-booking-flow/",
+   "category": "patterns",
+   "type": "case study",
+   "accessed": "2026-11-17",
+   "notes": "On-demand childcare booking: availability shown by day with a full-day, half-day, or extended-care filter; multi-child and multi-day booking in one action with per-child pricing; a membership prompt timed only once a booking reaches checkout without an active membership."
   }
  ]
 }

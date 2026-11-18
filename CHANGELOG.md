@@ -7,6 +7,29 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- ATM interface: new pattern row in `catalog/patterns.md` — one
+  transaction at a time with the amount, account, and any fee shown
+  before confirming, speech output and tactile keys for every step,
+  multi-sense session warnings with an extension, and headphone
+  privacy with the screen blanked — completing roadmap action 340.
+
+- Roadmap: actions 252 (drive-through and curbside pickup), 259
+  (laundry pickup and delivery), and 265 (childcare booking)
+  re-checked with source positions updated; all three stay open
+  for want of a platform or standards source. Three new
+  improvement actions added (388 smartwatch sensitive-notification
+  reveal, 389 pickup wait-time rules for the order tracking row,
+  390 multi-person, multi-day booking for the appointment
+  management row). 4 new source records (994 total).
+
+- Agentic interfaces: new "Server-supplied interfaces in the
+  conversation" section in `trends/2026/agentic-ux.md` — a connected
+  server can answer a tool call with an interactive interface that the
+  host renders in a sandboxed frame (MCP Apps, stable January 2026),
+  with rules for origin labelling, progressive enhancement, checkpoints
+  for consequential actions, and trace recording. 1 new source record
+  (990 total).
+
 - Four new pattern rows in `catalog/patterns.md`: Smart-display voice
   screen, Hotel room service ordering, Concert and festival ticket
   booking, and Appliance and device repair booking — completing
