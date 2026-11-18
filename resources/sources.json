@@ -8097,6 +8097,14 @@
    "type": "guidance",
    "accessed": "2026-11-18",
    "notes": "Section 504 web accessibility: the 2024 final rule sets WCAG 2.1 Level AA for the web content and mobile apps of health funding recipients, including patient portals, telehealth platforms, online scheduling and payment systems, and kiosks; the interim final rule effective 7 May 2026 extends the compliance dates to 11 May 2027 for recipients with 15 or more employees and 10 May 2028 for smaller recipients, with the standard unchanged."
+  },
+  {
+   "title": "CCPA fines Rapido Rs. 10 lakh for 'tipping prompts' dark pattern",
+   "url": "https://www.medianama.com/2026/09/223-ccpa-rapido-dark-pattern-tipping-prompts/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-18",
+   "notes": "Consumer protection order dated 31 August 2026 (case CCPA-2/53/2025-CCPA): pre-ride tipping prompts and a price-setting control that steered riders toward higher fares held to be deceptive design; voluntary tipping to be offered only after the journey is complete, under the 2025 aggregator guidelines; corroborated by multiple independent reports."
   }
  ]
 }

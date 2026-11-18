@@ -7,6 +7,15 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Ride booking: pre-ride tipping and price-setting rules added to the
+  pattern row in `catalog/patterns.md` — a voluntary tip is offered
+  only after the trip is complete, never before or during the ride,
+  with no prompt tying confirmation or a faster match to paying above
+  the fare already quoted; where the person sets their own price, the
+  control stays symmetric with equal steps up and down and no colour,
+  wording, or layout steering toward a higher price, and the fare
+  agreed at booking stays fixed. 1 new source record (1013 total).
+
 - United States Section 504 web and mobile accessibility deadlines: new
   note in `trends/2026/standards-outlook.md` — WCAG 2.1 Level AA as the
   technical standard for the web content and mobile applications of
