@@ -7,6 +7,8 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Compose Material 3 1.5.0 stable: `resources/libraries.md` row updated — the stable line moves from 1.4.0 to 1.5.0 with Compose 1.13, released 18 November 2026; FlexBox and Grid are now stable for adaptive layouts, progressive blur and polygon shape morphing are available, and the previous Material line, legacy text-field APIs, and the ConstraintLayout toolkit are deprecated. 1 new source record (1014 total).
+
 - Ride booking: pre-ride tipping and price-setting rules added to the
   pattern row in `catalog/patterns.md` — a voluntary tip is offered
   only after the trip is complete, never before or during the ride,

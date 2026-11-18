@@ -7503,8 +7503,8 @@
    "url": "https://developer.android.com/jetpack/androidx/releases/compose-material3?hl=en&authuser=5",
    "category": "trends",
    "type": "release-notes",
-   "accessed": "2026-11-16",
-   "notes": "Stable 1.4.0; 1.5.0-rc01 dated 4 November 2026; motion scheme, wavy progress indicators and expressive theme promoted during the 1.5.0 alpha series."
+   "accessed": "2026-11-18",
+   "notes": "Stable 1.5.0 with Compose 1.13, released 18 November 2026; motion scheme, wavy progress indicators and expressive theme promoted during the 1.5.0 alpha series."
   },
   {
    "title": "Gmail Material 3 Expressive settings redesign starts rolling out",
@@ -8105,6 +8105,14 @@
    "type": "article",
    "accessed": "2026-11-18",
    "notes": "Consumer protection order dated 31 August 2026 (case CCPA-2/53/2025-CCPA): pre-ride tipping prompts and a price-setting control that steered riders toward higher fares held to be deceptive design; voluntary tipping to be offered only after the journey is complete, under the 2025 aggregator guidelines; corroborated by multiple independent reports."
+  },
+  {
+   "title": "Build for every screen with the latest Jetpack Compose updates from Android Developer Summit",
+   "url": "https://developer.android.com/blog/posts/build-for-every-screen-jetpack-compose-updates",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-11-18",
+   "notes": "Compose 1.13 stable released 18 November 2026 (BOM 2026.11.01): FlexBox and Grid stable for adaptive layouts, progressive blur and formatted text, polygon shapes and shape morphing, Material 3 1.5.0 stable; Material 2, legacy text-field APIs and ConstraintLayout for Compose deprecated; Navigation 3 version 1.2 with type-safe deep linking."
   }
  ]
 }
