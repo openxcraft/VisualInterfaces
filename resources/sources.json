@@ -8001,6 +8001,102 @@
    "type": "article",
    "accessed": "2026-11-18",
    "notes": "Tracker summary of EN 301 549 v4.1.1: published 2 September 2026, adopted 24 August 2026; Official Journal citation expected around 16 December 2026 per the national disability authority cited, against a later expectation of late January 2027 in another tracker - the citation date is disputed between trackers."
+  },
+  {
+   "title": "Designing the first service patterns for local government",
+   "url": "https://designnotes.blog.gov.uk/2017/10/16/designing-the-first-service-patterns-for-local-government/",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-18",
+   "notes": "Platform service-pattern work: end-to-end patterns for applying for a resident's parking permit, built from Start page, Confirmation page and Check before you start patterns, with confirmation messages and reminders and a printable temporary permit for immediate use."
+  },
+  {
+   "title": "Online parking permit account",
+   "url": "https://www.brent.gov.uk/parking-roads-and-travel/parking/parking-permits/online-parking-account-guides",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-18",
+   "notes": "Council permit account flow: register an account, enter the vehicle registration number, upload proof of residency and proof of vehicle keeper, virtual permit valid from the entered date and time, automatic email reminder before expiry, visitor permits, and a phone or in-person route for residents without a computer or smartphone."
+  },
+  {
+   "title": "Digital parking permits for councils",
+   "url": "https://orikan.com/insights/technology/bayside-city-council-digital-parking-permits/",
+   "category": "patterns",
+   "type": "case study",
+   "accessed": "2026-11-18",
+   "notes": "Vendor platform case study: permits linked to the vehicle registration number with no physical display, automatic verification of the registration against the transport authority record, vehicle changes reflected within 15 minutes, and manual review where the automated process cannot resolve an application."
+  },
+  {
+   "title": "USPS API: OAuth, Prices, Labels & Tracking (v3) Guide",
+   "url": "https://freightapis.dev/guides/usps-api",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-18",
+   "notes": "Guide to the carrier's official API platform: address validation, prices and delivery standards, labels with barcodes, carrier pickup, drop-off locations, tracking and proof of delivery; labels need enrolment and a payment authorisation token."
+  },
+  {
+   "title": "Buy a Shipping Label in Under 2 Minutes Without a UPS or FedEx Account",
+   "url": "https://www.wearewarp.com/parcel-quote",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-18",
+   "notes": "Consumer parcel quote flow: origin and destination with box weight and dimensions, live rates compared across carriers with Standard and Express options, all-inclusive pricing, label on screen and in the inbox, pickup booking and one tracking timeline per shipment."
+  },
+  {
+   "title": "How to Send a Package in China: Real-Name Rules, and the Counter Routine",
+   "url": "http://todaychinese.com/how-to-send-a-package-in-china-guide/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-18",
+   "notes": "Counter and app sending routine: contents checked and weighed at the counter, pricing by weight, distance zone and volumetric weight with the total shown before payment, waybill details, pickup code for collection, tracking number and live link."
+  },
+  {
+   "title": "TV app quality",
+   "url": "https://developer.android.com/docs/quality-guidelines/tv-app-quality.html",
+   "category": "patterns",
+   "type": "guidelines",
+   "accessed": "2026-11-18",
+   "notes": "Platform quality criteria for television apps: five-way D-pad navigation, no dependence on a Menu button, centre button pauses and resumes with left and right seeking, media controls in the system interface where audio continues after leaving the app, and video paused when the app is left."
+  },
+  {
+   "title": "Use Plozz player controls, Continue Watching, and song identification",
+   "url": "https://docs.plozz.app/playback/",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-18",
+   "notes": "Player documentation: playback, audio and subtitle controls, chapters with intro and credits markers, continue watching to resume another title, playback speed, and autoplay settings."
+  },
+  {
+   "title": "Mux Robots, now in your living room",
+   "url": "https://www.test-mux.com/blog/mux-robots-now-in-your-living-room",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-18",
+   "notes": "Television player design notes: chapters navigated with the remote's directional buttons, summaries and key moments as shortcuts without leaving the player, translated audio and captions through the track menu."
+  },
+  {
+   "title": "School admissions: How to apply",
+   "url": "https://www.gov.uk/schools-admissions/how-to-apply",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-18",
+   "notes": "Government admissions guidance: apply through the local council even for a school in another area, list schools in order of preference, apply a year before the child can start, primary applications close 15 January and secondary applications close 31 October, with a paper form available from the council."
+  },
+  {
+   "title": "Step by step guide to applying online",
+   "url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/139439/Step-by-step-guide-for-applying-online-Education.pdf",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-18",
+   "notes": "Council online admissions guide: register with an email address, validation email with a login link, up to six school preferences, supporting evidence upload, application reference number on submission, and change and resubmit before the closing date."
+  },
+  {
+   "title": "The HHS Section 504 Deadline Moved to 2027. Your Obligations Did Not.",
+   "url": "https://www.pivotalaccessibility.com/2026/06/hhs-section-504-web-accessibility-deadline-extended/",
+   "category": "trends",
+   "type": "guidance",
+   "accessed": "2026-11-18",
+   "notes": "Section 504 web accessibility: the 2024 final rule sets WCAG 2.1 Level AA for the web content and mobile apps of health funding recipients, including patient portals, telehealth platforms, online scheduling and payment systems, and kiosks; the interim final rule effective 7 May 2026 extends the compliance dates to 11 May 2027 for recipients with 15 or more employees and 10 May 2028 for smaller recipients, with the standard unchanged."
   }
  ]
 }

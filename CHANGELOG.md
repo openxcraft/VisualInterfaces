@@ -7,6 +7,59 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- United States Section 504 web and mobile accessibility deadlines: new
+  note in `trends/2026/standards-outlook.md` — WCAG 2.1 Level AA as the
+  technical standard for the web content and mobile applications of
+  recipients of federal health funding, including patient portals,
+  telehealth platforms, online scheduling and payment systems, and
+  kiosks; interim final rule effective 7 May 2026 moves the compliance
+  dates to 11 May 2027 for recipients with 15 or more employees and
+  10 May 2028 for smaller recipients, with the standard itself
+  unchanged. 1 new source record (1012 total).
+
+- Digital parking permit application: new pattern row in
+  `catalog/patterns.md` — permit linked to the vehicle
+  registration number with no physical display, eligibility stated
+  before the form, automatic vehicle-record check with manual
+  review where it cannot resolve, proof of residency and
+  vehicle-keeper documents, visitor permits, expiry reminders with
+  renewal from the reminder, same-day issue where no documents are
+  needed, and a phone or in-person route without internet access —
+  completing roadmap action 396. 3 new source records (1003 total).
+
+- Parcel sending and courier booking: new pattern row in
+  `catalog/patterns.md` — quote by size, weight, and distance
+  before booking with the chargeable-weight basis stated, label as
+  a printable file or a code, drop-off point choice, pickup window
+  with access notes, pickup-code handover, live tracking as one
+  timeline, and proof of delivery — completing roadmap action 394.
+  3 new source records (1006 total).
+
+- Video streaming player interface: new pattern row in
+  `catalog/patterns.md` — five-way remote control with centre to
+  pause and resume and left and right to seek, controls that hide
+  during playback, chapters listed by name, audio and subtitle
+  tracks with playback speed in one menu, continue watching from
+  the saved position, skip-intro and skip-credits markers, and
+  picture-in-picture with a return action — closing a gap with no
+  action number. 3 new source records (1009 total).
+
+- School admissions application portal: new pattern row in
+  `catalog/patterns.md` — schools listed in order of preference
+  with admission criteria shown, side-by-side comparison that
+  never promises a place, closing and offer dates stated, changes
+  allowed until the closing date with resubmit, evidence asked
+  only where needed, application reference on submission, and a
+  paper form with the same deadlines — closing a gap with no
+  action number. 2 new source records (1011 total).
+
+- Roadmap: three new improvement actions added (397 childcare
+  booking, 398 gym and fitness class booking, 399 public library
+  borrowing), ordered by coverage impact, each a genuine gap with
+  its source position stated; actions 394 and 396 completed by the
+  new pattern rows, and the coverage matrix updated with the four
+  new rows (479 pattern rows, Full 489, Gap 60).
+
 - Roadmap: three new improvement actions added (394 parcel sending
   and courier booking, 395 laundry pickup and delivery, 396 digital
   parking permit application), ordered by coverage impact, each a
