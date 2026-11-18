@@ -8185,6 +8185,14 @@
    "type": "guidance",
    "accessed": "2026-11-18",
    "notes": "Public library borrowing policy: loan periods and renewal limits per item type, automatic renewals up to three times where eligible, items with a hold not eligible for renewal, and borrowing privileges suspended at a stated fines threshold."
+  },
+  {
+   "title": "Indian cenbank tightens rules to curb mis-selling by lenders, bans 'dark patterns'",
+   "url": "https://www.reuters.com/legal/government/indian-cenbank-tightens-rules-curb-mis-selling-by-lenders-bans-dark-patterns-2026-06-15/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-18",
+   "notes": "Final conduct directions issued 15 June 2026, effective 1 January 2027: dark patterns banned in banking and lending digital journeys, with an illustrative list of eleven named patterns; consent defaults to refusal and counts only once the terms have been shown; no compulsory bundling of third-party products; interfaces subject to user testing and periodic internal audit; corroborated by multiple independent reports."
   }
  ]
 }

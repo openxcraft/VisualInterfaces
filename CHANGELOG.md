@@ -7,6 +7,18 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Deceptive design patterns: banking and lending conduct layer
+  added to the row in `catalog/patterns.md` — from 1 January 2027,
+  eleven named patterns are prohibited in banking and lending
+  journeys (false urgency, basket sneaking, confirm shaming, forced
+  action, subscription trap, interface interference, bait and switch,
+  drip pricing, disguised advertisement, nagging, and trick wording),
+  consent defaults to refusal and counts only once the terms have
+  been shown, no third-party product is sold only as a bundle with
+  the lender's own product, and interfaces are checked by user
+  testing and periodic internal audit. 1 new source record
+  (1024 total).
+
 - Childcare booking: new pattern row in `catalog/patterns.md` —
   sessions booked by room and age group with capacity shown, a
   waitlist that fills cancelled places in order, settling-in sessions
