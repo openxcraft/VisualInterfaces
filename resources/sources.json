@@ -1,6 +1,6 @@
 {
  "version": "0.1.0",
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "sources": [
   {
    "title": "Design trends overview for 2026",
@@ -7953,6 +7953,54 @@
    "type": "case study",
    "accessed": "2026-11-17",
    "notes": "On-demand childcare booking: availability shown by day with a full-day, half-day, or extended-care filter; multi-child and multi-day booking in one action with per-child pricing; a membership prompt timed only once a booking reaches checkout without an active membership."
+  },
+  {
+   "title": "ETSI advances digital accessibility across Europe with two standards",
+   "url": "https://www.etsi.org/newsroom/press-releases/etsi-advances-digital-accessibility-across-europe-with-two-standards/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-11-18",
+   "notes": "Fourth edition of EN 301 549 (published 2 September 2026) announced alongside new EN 303 919 for accessible emergency communications, 17 November 2026: voice, real-time text and video in one session, covering user equipment, communication networks, relay services and public safety answering points; both support the European Accessibility Act."
+  },
+  {
+   "title": "FCA seeks improvement to digital loan processes",
+   "url": "https://www.fca.org.uk/news/press-releases/fca-seeks-improvement-digital-loan-processes",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-18",
+   "notes": "Regulator review of digital design in customers' online journeys (July 2025): deliberate pauses before consequential decisions, costs shown before commitment, routes to disclose vulnerability, human support routes, and tested comprehension; findings stated as relevant beyond consumer credit to any firm with a digital presence."
+  },
+  {
+   "title": "Digital design for financial products and services: Consumer impact of sludge, deceptive design, timeliness and simplification",
+   "url": "https://www.fca.org.uk/publication/research-notes/digital-design-financial-products-services.pdf?utm=pendiumai",
+   "category": "patterns",
+   "type": "research note",
+   "accessed": "2026-11-18",
+   "notes": "Regulator research note (July 2025): obscured information reduces comprehension, especially of product-specific facts; simplification and timely presentation tested experimentally; excessive friction and deceptive design named as risks to informed decisions."
+  },
+  {
+   "title": "Confirmation of Payee: How to check that you're paying the correct payee",
+   "url": "https://danskebank.co.uk/important-information/confirmation-of-payee",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-18",
+   "notes": "Recipient-name check before sending, as presented by a participating provider: four outcomes - match, close match, no match, unable to check - with the decision to proceed staying with the payer and a warning that a no match may mean the money cannot be recovered."
+  },
+  {
+   "title": "Decision on implementing the CMA's recommendation to remove the Whole of Market requirement",
+   "url": "https://www.ofgem.gov.uk/sites/default/files/docs/2018/07/decision_letter_-_confidence_code_wom_-_16_july.pdf",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-18",
+   "notes": "Regulator decision on the Confidence Code for energy price comparison sites (July 2018): accredited sites may show only switchable tariffs provided they display a clear link to a whole-of-market comparison; commission arrangements stated plainly; results must cover enough tariffs for a good comparison."
+  },
+  {
+   "title": "EN 301 549 v4.1.1: 6 Must-Fix WCAG 2.2 Changes",
+   "url": "https://halfaccessible.com/en-301-549-v4-1-1/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-11-18",
+   "notes": "Tracker summary of EN 301 549 v4.1.1: published 2 September 2026, adopted 24 August 2026; Official Journal citation expected around 16 December 2026 per the national disability authority cited, against a later expectation of late January 2027 in another tracker - the citation date is disputed between trackers."
   }
  ]
 }

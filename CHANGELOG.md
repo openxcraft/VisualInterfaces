@@ -7,6 +7,60 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Roadmap: three new improvement actions added (394 parcel sending
+  and courier booking, 395 laundry pickup and delivery, 396 digital
+  parking permit application), ordered by coverage impact, each a
+  genuine gap with its source position stated; no new pattern rows,
+  as each still needs a platform or standards source before the row
+  is written.
+
+- Standards outlook: the EN 301 549 v4.1.1 note in
+  `trends/2026/standards-outlook.md` corrected — the Official
+  Journal citation date is now recorded as disputed between
+  trackers (mid-December 2026 against late January 2027) rather
+  than a single expected date, and the EN 303 919 note now states
+  plainly that the companion standard was published 17 November
+  2026 and announced together with the fourth edition (published
+  2 September 2026). 1 new source record (1000 total).
+
+- Energy tariff comparison and switching: new pattern row in
+  `catalog/patterns.md` — compare by the annual cost at the
+  household's actual consumption with unit price and standing
+  charge side by side, state the scope of the results with a
+  route to the whole-market view, state commission plainly with
+  ranking never driven by it, and confirm a switch with the new
+  supplier, start date, cooling-off period, and meter readings —
+  completing roadmap action 342. 1 new source record (999 total).
+
+- Mobile banking app: new pattern row in `catalog/patterns.md` —
+  balance, one next action, and any fraud or security notice
+  first; device-check sign-in; deliberate pauses with amount,
+  recipient, and effect shown before irreversible or high-value
+  actions; fees before commitment; card freeze, limit changes,
+  and dispute reporting from the account view; support and a
+  vulnerability-disclosure route on every screen, including a
+  human route. 3 new source records (998 total).
+
+- Roadmap: coverage matrix repaired — the gap list moved from the
+  Partial column to the Gap column and the State row restored as
+  its own row — and updated with the two new rows (Mobile banking
+  app, Energy tariff comparison and switching) and one newly
+  named gap (School homework assignment tracking); three new
+  improvement actions added (391 school homework assignment
+  tracking, 392 worked mobile banking example, 393
+  total-conversation rules for the Emergency assistance request
+  row).
+
+- Standards outlook: new note in `trends/2026/standards-outlook.md` —
+  EN 303 919 for accessible emergency communications, published
+  17 November 2026 and announced together with the fourth edition
+  of the ICT accessibility standard (EN 301 549 V4.1.1, published
+  2 September 2026), setting accessibility and interoperability
+  requirements for emergency communications services — voice,
+  real-time text, and video in one session — across user equipment,
+  communication networks, relay services, and public safety answering
+  points. 1 new source record (995 total).
+
 - ATM interface: new pattern row in `catalog/patterns.md` — one
   transaction at a time with the amount, account, and any fee shown
   before confirming, speech output and tactile keys for every step,
