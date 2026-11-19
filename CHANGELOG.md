@@ -7,6 +7,13 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Title II web and mobile accessibility deadlines: new bullet in
+  `trends/2026/standards-outlook.md` — the rule sets WCAG 2.1 Level AA
+  for state and local government web content and mobile applications,
+  with the interim final rule of 20 April 2026 moving compliance to
+  26 April 2027 for entities serving 50,000 or more and 26 April 2028
+  for smaller entities and special district governments, the standard
+  itself unchanged. 1 new source record (1110 total).
 - Cinema ticket booking, Driving licence renewal, Ferry booking,
   Student loan application, and Travel insurance purchase: new
   pattern rows in `catalog/patterns.md` — the cinema row shows the
