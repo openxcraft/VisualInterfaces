@@ -71,6 +71,21 @@ Stable information zones (speed, warnings, navigation each in a fixed place); gl
 - Suppress distraction while moving: restrict games and browsing, mark
   unavailable features visually rather than hiding them, never use video
   or auto-scrolling text, and pause notifications mid-manoeuvre.
+- Adapt to the driver's state without moving anything while driving:
+  under higher cognitive load, touchscreen selections slow by about a
+  fifth and glances get shorter and more frequent, so the interface
+  should simplify rather than rearrange. Keep a few fixed anchors — the
+  controls the driver uses most — in the same place at all times.
+- Split adaptation in two: long-term layout follows the driver's own
+  use, with the most-used functions in the easiest places, chosen from
+  measured selection times; short-term changes under load only change
+  emphasis, never position — a likely next control gains a stronger
+  highlight, a small animation, or a clearer label, while everything
+  else stays where it was.
+- Larger targets help under load — selection is about 0.3 seconds
+  faster — but they take more pages, so enlarge only the controls
+  needed for the current task and keep the rest compact; never enlarge
+  by adding pages the driver must hunt through.
 - Gestures are one-handed; no driving-time gesture may require two hands,
   including map movement.
 

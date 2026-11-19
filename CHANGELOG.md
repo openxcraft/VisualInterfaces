@@ -7,6 +7,77 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Cinema ticket booking, Driving licence renewal, Ferry booking,
+  Student loan application, and Travel insurance purchase: new
+  pattern rows in `catalog/patterns.md` — the cinema row shows the
+  total price including mandatory fees first, makes accessible
+  seating purchasable on the same terms with a list-based
+  alternative to the seat map, and holds seats during payment with
+  a stated expiry; the licence row gates the online route with an
+  eligibility check, reuses a verified photo by default, separates
+  the medical declaration, and states the fee, delivery time, and
+  reminder; the ferry row prices the vehicle separately, asks exact
+  vehicle dimensions, states check-in times per passenger type, and
+  puts the assistance request inside the booking flow; the student
+  loan row checks eligibility first, collects household income as a
+  separate step, and compares repayment plans side by side; the
+  travel insurance row asks trip details first, makes medical
+  disclosure an explicit step, shows the excess per claim type, and
+  gives a standardised policy summary before payment — completing
+  roadmap actions 403, 410, 411, 412, and 414. The cruise booking
+  row stays open (413): no regulator, platform, or industry-body
+  guidance specific to cruise booking interfaces was found. 33 new
+  source records (1109 total).
+
+- Roadmap: three new improvement actions added (415 university
+  admissions application, 416 council tax payment and discount
+  application, 417 meal kit delivery subscription), ordered by
+  coverage impact, each a genuine gap with its source position
+  stated; coverage matrix updated with the five new rows (497
+  pattern rows; Full 507; Gap 49).
+
+- Driver-state adaptation in the automotive layout: three rules in
+  `layouts/automotive.md` — adapt to the driver's state without
+  moving anything while driving, split adaptation into long-term
+  layout following the driver's own use and short-term emphasis-only
+  changes under load, and enlarge only the controls needed for the
+  current task, since larger targets speed selection by about 0.3
+  seconds but cost extra pages. 1 new source record (1076 total).
+
+- Smart home security camera, Theme park virtual queue
+  reservation, Road toll and congestion charge payment, and
+  Agent-described interface: new pattern rows in
+  `catalog/patterns.md` — the camera row opens on one calm live view
+  with alerts ordered by severity and a two-step arm, and states
+  plainly what recording is kept, where, for how long, and who can
+  see it; the virtual queue row holds a boarding group with a stated
+  return window and a day plan in time order, with a stated rule for
+  a lost signal; the road toll row states the charge, the hours, and
+  the payment deadline before payment, with one-off payment by
+  registration number and a warning against unofficial payment sites;
+  the agent-described row lets an automated agent answer with a
+  screen the host app draws from a description, using only registered
+  components and checking live facts before showing them —
+  completing roadmap actions 407, 408, and 409. 16 new source
+  records (1075 total).
+
+- Adaptive quality on foldable and large-screen devices: a
+  standards-outlook paragraph records the app store's Tier 3
+  adaptive-ready enforcement — baseline and foldable screenshots from
+  April 2027, the next platform release as the target from August
+  2027 — and the tablet layout records the Tier 3 baseline as the
+  testable bar for foldable layouts, resolving the held
+  adaptive-quality item with the platform's developer blog post and
+  guideline page recorded as new source records.
+
+- Roadmap: three new improvement actions added (412 cinema ticket
+  booking, 413 cruise booking, 414 driving licence renewal), ordered
+  by coverage impact, each a genuine gap with its source position
+  stated; coverage matrix updated with the four new rows (492 pattern
+  rows; Full 502; Gap 52). Bag drop, home cleaning booking, and
+  driving test booking were checked and already carry open actions
+  (301, 402, 287), so no duplicate actions were created.
+
 - Drive-through and curbside pickup, Government citizen services
   portal, and Weather app interface: new pattern rows in
   `catalog/patterns.md` — the drive-through row states the pickup
