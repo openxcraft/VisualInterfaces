@@ -7,6 +7,17 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Concert and festival ticket booking: extended pattern row in
+  `catalog/patterns.md` — ask how many tickets are needed before the
+  seat map opens and mark sold-out dates and performances on the
+  listing, so a group buyer is not sent through seat map after seat
+  map to find only scattered single seats; keep the map and the
+  listings in step, so choosing a section filters the listings to
+  that section, and offer a view from the seat or section before
+  purchase — grounded in a qualitative study of event ticketing
+  sites (463 participant/site sessions, 2,800+ usability issues).
+  1 new source record (1041 total).
+
 - Laundry pickup and delivery: new pattern row in
   `catalog/patterns.md` — a pickup window in one-to-two-hour slots
   blocked once capacity is full, access notes for the driver carried

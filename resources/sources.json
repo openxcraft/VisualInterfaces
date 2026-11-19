@@ -8321,6 +8321,14 @@
       "type": "article",
       "accessed": "2026-11-19",
       "notes": "Weather dashboards must distinguish observed conditions, nowcasts, hourly and daily forecasts, radar estimates, and alerts, each with different sources, update intervals, and uncertainty; progressive disclosure keeps the first screen useful."
+    },
+    {
+      "title": "Event Ticketing UX Research: 3 Key Takeaways",
+      "url": "https://baymard.com/research-articles/event-ticketing-ux-research-launch",
+      "category": "patterns",
+      "type": "article",
+      "accessed": "2026-11-19",
+      "notes": "Qualitative study of event ticketing sites (463 participant/site sessions, 2,800+ usability issues, 370+ guidelines): mandatory fees withheld until the cart caused abandonment; group buyers need the party size asked before the seat map and sold-out dates flagged on the listing; a section chosen on the venue map must filter the listings, and a view from the seat helps the buyer decide."
     }
   ]
 }
