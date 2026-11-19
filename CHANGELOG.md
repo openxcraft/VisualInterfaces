@@ -7,6 +7,44 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Drive-through and curbside pickup, Government citizen services
+  portal, and Weather app interface: new pattern rows in
+  `catalog/patterns.md` — the drive-through row states the pickup
+  point and arrival signal before payment, a live wait with updates,
+  check-in and handover verification at the vehicle, a fix stated at
+  once for a wrong or missing item, and a non-voice route at the
+  order point; the portal row organises services by the task at hand
+  with plain service cards, a transaction begun before account
+  creation, one sign-on across services, and a visible progress view
+  with save-and-return; the weather row anchors the screen on one
+  answer with hourly and daily views, labelled radar frames, stated
+  uncertainty, and alerts carrying type, severity, area, issuer,
+  timing, and an action summary — completing roadmap actions 252,
+  347, and 348, and the duplicate actions 405 and 406 with them.
+  9 new source records (1059 total).
+
+- Roadmap: three new improvement actions added (409 road toll and
+  congestion charge payment, 410 student loan application, 411
+  travel insurance purchase), ordered by coverage impact, each a
+  genuine gap with its source position stated; eleven further open
+  actions reconciled as already implemented (259 laundry pickup and
+  delivery, 265 childcare booking, 277 dating app profile and
+  matching, 280 gym and fitness class booking, 286 hot-desk and
+  co-working booking, 292 digital parking permit application, 296
+  school admissions application portal, 334 parcel sending and
+  courier booking, 341 public library borrowing, 342 energy tariff
+  comparison and switching, 346 video streaming player interface),
+  and an incorrect implemented marker removed from action 290
+  (online will creation), which stays open; coverage matrix updated
+  with the three new rows (488 pattern rows; Full 498; Gap 51).
+
+- Roadmap: three new improvement actions added (406 government
+  citizen services portal, 407 smart home security camera, 408 theme
+  park virtual queue reservation), ordered by coverage impact, each
+  a genuine gap with its source position stated; no new pattern
+  rows, as each still needs a platform or standards source before
+  the row is written. 9 new source records (1050 total).
+
 - Concert and festival ticket booking: extended pattern row in
   `catalog/patterns.md` — ask how many tickets are needed before the
   seat map opens and mark sold-out dates and performances on the
