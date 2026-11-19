@@ -46,7 +46,9 @@ reference reachable in the product.
 - Context menus: appear at the pointer or on the focused element;
   contain only actions valid for the current selection; duplicate the
   most relevant menu-bar items rather than hiding them exclusively in
-  the context menu.
+  the context menu. Keep the list short: entries added by other
+  software accumulate, so let people remove entries they never use
+  and offer a way back to the full or earlier set.
 - Drag and drop: a progressive enhancement layered on an already
   keyboard-usable flow. Always provide a non-drag path (buttons or
   menu commands) for reordering, moving, and organising. Handle

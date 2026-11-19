@@ -7,6 +7,47 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Laundry pickup and delivery: new pattern row in
+  `catalog/patterns.md` — a pickup window in one-to-two-hour slots
+  blocked once capacity is full, access notes for the driver carried
+  forward to repeat orders, pricing by weight with the weighing basis
+  stated and any change at weighing shown before charging, one staged
+  timeline from scheduled to delivered with the expected return day
+  beside it, a repeat of a past order in a few actions, and reschedule
+  or cancel up to a stated cutoff with photo proof at handover —
+  completing roadmap action 395. 3 new source records (1028 total).
+
+- Dating app profile and matching: new pattern row in
+  `catalog/patterns.md` — profile creation as self-expression with
+  prompts, photo order, and a completion score naming the next step,
+  discovery by swipe cards, a browse list, or curated picks,
+  decision-ready cards with one personality signal and a trust cue,
+  likes that attach to a specific photo or prompt answer, a brief
+  match moment with one next step, plain no-more-profiles handling
+  with next steps, and verification, blocking, and reporting kept
+  central with location shown as an approximate distance —
+  completing roadmap action 400. 3 new source records (1031 total).
+
+- Hot-desk and co-working booking: new pattern row in
+  `catalog/patterns.md` — floor-plan and list views with the same
+  availability in both, filters by equipment and area with the first
+  available desk shown by default, one booking flow for every space
+  type with day-pass and hourly prices stated before confirming, an
+  account asked for only once a desk worth booking is found, a
+  colleague finder with visibility the colleague controls, door
+  access tied to the booked window, check-in on arrival with
+  unclaimed desks released after a stated grace period, and
+  cancellation through the same route as booking — completing
+  roadmap action 401. 3 new source records (1034 total).
+
+- Desktop context menus: the rule in `layouts/desktop.md` now
+  covers pruning — keep the list short, let people remove entries
+  they never use (including entries added by other software), and
+  offer a way back to the full or earlier set, following the
+  November 2026 platform update that cut the file-manager context
+  menu to eight entries with user control. 1 new source record
+  (1025 total).
+
 - Deceptive design patterns: banking and lending conduct layer
   added to the row in `catalog/patterns.md` — from 1 January 2027,
   eleven named patterns are prohibited in banking and lending
