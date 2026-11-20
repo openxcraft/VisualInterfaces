@@ -6615,7 +6615,75 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    option row, which repeats a single product rather than a weekly
    menu. Sources so far are none; a platform or standards source is
    still needed before the row is written. Done when the row passes
-   all quality gates.
+   all quality gates. Superseded by 330: the same row specified
+   twice, and 330 carries the fuller specification.
+
+418. Add a restaurant table reservation pattern row to
+   `catalog/patterns.md`: location, party size, date, and time chosen
+   in that order with only times that fit a free table offered, a
+   confirmation that states the hold length and the change-or-cancel
+   route, a stated deposit where one is taken with its refund rule,
+   and a no-show rule stated before booking — distinct from the
+   restaurant online ordering row, which orders one meal at a time,
+   from the restaurant waitlist management row, which queues walk-ins
+   rather than booking a table, and from the hotel booking row, which
+   books a room by the night rather than a table by the hour. Sources
+   so far are vendor reservation guides only; a platform or standards
+   source is still needed before the row is written. Done when the row
+   passes all quality gates.
+
+419. Add a tradesperson and plumber booking pattern row to
+   `catalog/patterns.md`: trade and job chosen first, the job
+   described with photos where they help, quotes compared side by
+   side with what each covers, an arrival window stated with a message
+   if it slips, and a stated guarantee and complaint route after the
+   work — distinct from the home cleaning service booking row, which
+   books a repeatable visit rather than a priced job, and from the
+   appliance and device repair booking row, which repairs one named
+   device rather than quoting a job. Sources so far are none; a
+   platform or standards source is still needed before the row is
+   written. Done when the row passes all quality gates.
+
+420. Add a salon and spa appointment booking pattern row to
+   `catalog/patterns.md`: service, practitioner, date, and time
+   chosen in that order with the duration and the full price stated
+   before booking, a deposit or cancellation window stated where one
+   applies, and a stated route to change or cancel with the
+   consequence named — distinct from the veterinary appointment
+   booking row, which books care for an animal rather than a person,
+   and from the gym and fitness class booking row, which books a
+   place in a class rather than a one-to-one appointment. Sources so
+   far are none; a platform or standards source is still needed before
+   the row is written. Done when the row passes all quality gates.
+
+421. Add a wedding invitation RSVP pattern row to
+   `catalog/patterns.md`: reply to a wedding invitation — the
+   invitation with the date, venue, and schedule shown first, a reply
+   that needs no account and no app install, attending, maybe, and
+   declining answers with plus-ones named at once, a stated reply
+   deadline with a reminder before it, and a stated route to change
+   the reply with the consequence named — distinct from the
+   invitation response row, which answers a general invitation rather
+   than a wedding with plus-ones and a meal choice, and from the
+   wedding planning app, which plans the event rather than replying
+   to an invitation. Sources so far are vendor invitation guides
+   only; a platform or standards source is still needed before the row
+   is written. Done when the row passes all quality gates.
+
+422. Add a water utility bill payment pattern row to
+   `catalog/patterns.md`: pay a water bill — the bill with the amount,
+   the due date, and the meter reading behind it shown first, usage
+   compared with the previous period so a change is explained,
+   payment by card or direct debit with the receipt issued at once, a
+   meter-reading submission route beside the bill, and a stated route
+   to dispute a charge with the response time named — distinct from
+   the road toll and congestion charge payment row, which pays for
+   road use rather than a metered household supply, and from the
+   energy tariff comparison and switching row, which compares tariffs
+   rather than paying a metered bill. Sources so far are
+   single-designer case studies and content-site guides only; a
+   platform or standards source is still needed before the row is
+   written. Done when the row passes all quality gates.
 
 - Completed this review (deep editorial 2026-11-16): two new
   pattern rows in `catalog/patterns.md` — Age assurance flow and
@@ -7934,3 +8002,44 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
   366, 367, 368, 369, 370, 372, 373, 374, 375, 377, 378, 379, 380,
   381, 382, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 402,
   404, 413, 415, 416, 417.
+
+- Completed this review (daily planning 2026-11-20): this run
+  also carries the publish of the status-announcement rule left
+  unpublished after the 2026-11-20T04:05Z light cycle, when the push
+  was interrupted twice by a service restart — prefer the platform
+  announcement call for one-off messages, match normal and high
+  priority to polite and assertive live regions, and combine several
+  updates into one message, with the live region kept as the
+  fallback. No new pattern rows in this run: the top improvement
+  (418 restaurant table reservation) is a pattern row that still
+  needs a platform or standards source before it is written, so
+  implementation stays with the deep cycle. Five new improvement
+  actions added (418 restaurant table reservation, 419 tradesperson
+  and plumber booking, 420 salon and spa appointment booking, 421
+  wedding invitation RSVP, 422 water utility bill payment), ordered
+  by coverage impact, each a genuine gap with its source position
+  stated; the restaurant table reservation action rests on
+  corroborated vendor reservation guides, the wedding invitation
+  RSVP action on vendor invitation guides, and the water utility
+  bill payment action on single-designer case studies and
+  content-site guides. Duplicate meal kit delivery subscription
+  actions consolidated: 417 superseded by 330, which carries the
+  fuller specification. Driving test booking (287) re-checked: the
+  national booking-rules consultation is still the latest government
+  source and states booking policy only, with no interface rules,
+  so the row stays open. Interface design patterns November 2026:
+  agency trend roundups restate covered material (prompt bars,
+  trust states for generated output, liquid glass control layers,
+  progressive blur, expressive shapes, physics-based motion,
+  command palettes, dark-first tokens, accessibility-first
+  component states; the third-party iOS 27 guide restates platform
+  guidance) — no new rule, no new source record. Coverage matrix
+  unchanged (the five names already sit in the Gap column; 497
+  pattern rows; Full 507; Gap 49). No new source records. Open
+  actions after this review: 279, 285, 287, 288, 290, 291, 294, 297,
+  299, 301, 302, 303, 304, 305, 307, 308, 309, 310, 313, 314, 315,
+  318, 327, 328, 329, 330, 331, 332, 333, 335, 336, 343, 344, 349,
+  350, 352, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365,
+  366, 367, 368, 369, 370, 372, 373, 374, 375, 377, 378, 379, 380,
+  381, 382, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 402,
+  404, 413, 415, 416, 418, 419, 420, 421, 422.

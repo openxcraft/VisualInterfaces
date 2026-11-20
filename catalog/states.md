@@ -193,6 +193,18 @@ technology what changed, in words, without moving focus.
 
 - Present the announcement region in the page from first load. A
   region added only at the moment of the update may be missed.
+- Prefer the platform announcement call for one-off messages:
+  `document.ariaNotify()` announces a message directly, without a
+  hidden live-region element whose content must change, and it works
+  even where nothing visible changes. Use it where it is supported
+  and keep the live region as the fallback.
+- Match the priority to the news: normal waits for the current
+  reading to finish, high interrupts it at once — the same as polite
+  and assertive live regions. A live-region announcement still takes
+  priority over a call made at the same moment.
+- Combine several updates into one message: only the most recent
+  announcement is reliably spoken, so quick successive calls can
+  lose the earlier ones.
 - Polite by default: wait for the current reading to finish.
   Reserve an interrupting announcement for time-critical news that
   demands action at once, such as a session about to end or an

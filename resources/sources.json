@@ -8881,6 +8881,14 @@
    "type": "guide",
    "accessed": "2026-11-20",
    "notes": "Guide reflecting the regulation text as of 8 November 2026: Title II web and mobile rule (28 CFR part 35, subpart H) sets WCAG 2.1 Level AA; interim final rule 91 FR 20902 (20 April 2026, doc 2026-07663) moved compliance dates one year to 26 April 2027 for entities serving 50,000 or more and 26 April 2028 for smaller entities and special district governments; standard, scope and exceptions unchanged."
+  },
+  {
+   "title": "Document: ariaNotify() method",
+   "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/ariaNotify",
+   "category": "states",
+   "type": "documentation",
+   "accessed": "2026-11-20",
+   "notes": "Programmatic screen reader announcements without a live-region element: announce at any time, message independent of page content, normal priority waits for current reading and high priority interrupts, matching polite and assertive live regions; combine several updates into one message since only the most recent is reliably spoken; live-region announcements take priority over calls made at the same moment."
   }
  ]
 }

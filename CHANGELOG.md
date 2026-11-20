@@ -7,6 +7,12 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Status announcements: new bullets in `catalog/states.md` — prefer
+  the platform announcement call `document.ariaNotify()` for one-off
+  messages, match normal and high priority to polite and assertive
+  live regions, and combine several updates into one message since
+  only the most recent is reliably spoken; the live region stays as
+  the fallback. 1 new source record (1111 total).
 - Title II web and mobile accessibility deadlines: new bullet in
   `trends/2026/standards-outlook.md` — the rule sets WCAG 2.1 Level AA
   for state and local government web content and mobile applications,
@@ -387,6 +393,18 @@ version, with Added, Changed, and Fixed sections where they apply.
   booking), ordered by coverage impact, each a genuine gap with its
   source position stated; no new pattern rows for these three this
   review.
+
+- Roadmap: five new improvement actions added (418 restaurant table
+  reservation, 419 tradesperson and plumber booking, 420 salon and
+  spa appointment booking, 421 wedding invitation RSVP, 422 water
+  utility bill payment), ordered by coverage impact, each a genuine
+  gap with its source position stated; duplicate meal kit delivery
+  subscription actions consolidated (417 superseded by 330, same row
+  specified twice); driving test booking (287) re-checked against
+  the national booking-rules consultation with no new interface
+  rule, so the row stays open; coverage matrix unchanged (the five
+  names already sit in the Gap column; 497 pattern rows; Full 507;
+  Gap 49). No new source records.
 
 ### Fixed
 
