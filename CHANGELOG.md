@@ -7,6 +7,17 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Roadmap: three new improvement actions added (429 split button, 430
+  guardian falling-behind alert, 431 bounded neighbourhood
+  noticeboard), ordered by coverage impact, each a genuine gap with its
+  source position stated; five open actions re-checked with source
+  positions updated (381 video doorbell visitor interface, 350 digital
+  business card sharing, 336 food rescue and surplus food pickup, 356
+  smart fridge and food inventory, 352 home EV charger scheduling);
+  coverage matrix updated (two new Gap items; 505 pattern rows; Full
+  507; Gap 57; one new primitives gap: split button). No new source
+  records.
+
 - Roadmap: three new improvement actions added (426 volunteer shift
   cover and substitute request, 427 cruise embarkation and onboard
   check-in, 428 sensitive lifecycle change in a health tracker),
