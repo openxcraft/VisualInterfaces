@@ -8889,6 +8889,14 @@
    "type": "documentation",
    "accessed": "2026-11-20",
    "notes": "Programmatic screen reader announcements without a live-region element: announce at any time, message independent of page content, normal priority waits for current reading and high priority interrupts, matching polite and assertive live regions; combine several updates into one message since only the most recent is reliably spoken; live-region announcements take priority over calls made at the same moment."
+  },
+  {
+   "title": "Customizable <select>: now in Chrome and Safari",
+   "url": "https://dev.to/richicodes/customizable-now-in-chrome-and-safari-3ck1",
+   "category": "primitives",
+   "type": "article",
+   "accessed": "2026-11-20",
+   "notes": "Native select styling with appearance: base-select in Chrome 135 and Safari 27 (September 2026): the picker list styles through ::picker(select), the chosen value through <selectedcontent>, and Safari 27.2 adds ::field-content for the picked text; support is limited, not Baseline, with the remaining engine behind preferences. Keep the native element for keyboard handling and form behaviour; gate styling behind a support check so other browsers show the classic control; keep meaning in text since the check mark and picker icon are not announced; give options an explicit value where they carry description text; the styled control no longer opens the mobile operating system's own picker and no longer sizes to the longest option."
   }
  ]
 }

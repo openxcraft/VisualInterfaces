@@ -7,6 +7,34 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Customizable native select: the Select row in `catalog/primitives.md`
+  now records that the native select is styleable in Chrome 135 and
+  Safari 27 with `appearance: base-select` — picker list through
+  `::picker(select)`, chosen value through `<selectedcontent>`, picked
+  text through `::field-content` from Safari 27.2 — with rules to
+  prefer the native control over a rebuilt list, gate the styling
+  behind a support check, keep meaning in text, give options an
+  explicit value where they carry description text, and set the width
+  deliberately since the styled control no longer opens the mobile
+  operating system's own picker or sizes to the longest option.
+  1 new source record (1112 total).
+
+- Roadmap: duplicate pattern-row actions consolidated (nine pairs
+  merged into the fuller original action with the distinctive rules
+  carried across — 402 into 294, 418 into 370, 420 into 359, 419 into
+  369, 415 into 279, 404 into 332, 422 into 373, 421 into 372, 416
+  into 310 — and three stale open actions closed as implemented
+  through their duplicate numbers — 335 through 407, 379 through 403,
+  380 through 408); two pattern rows extended with rules from the
+  consolidated actions (the camera row gains a multi-camera grid with
+  still previews and an event-kind filter; the theme park row gains an
+  accessible queuing route with the same wait as the standard queue);
+  three new improvement actions added (423 service-provider booking
+  intake, 424 multi-role availability, 425 book on behalf), ordered by
+  coverage impact, each a genuine gap with its source position stated;
+  coverage matrix updated (three new Gap items; 497 pattern rows; Full
+  507; Gap 52). No new source records.
+
 - Status announcements: new bullets in `catalog/states.md` — prefer
   the platform announcement call `document.ariaNotify()` for one-off
   messages, match normal and high priority to polite and assertive
