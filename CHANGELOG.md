@@ -7,6 +7,18 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Roadmap: three new improvement actions added (426 volunteer shift
+  cover and substitute request, 427 cruise embarkation and onboard
+  check-in, 428 sensitive lifecycle change in a health tracker),
+  ordered by coverage impact, each a genuine gap with its source
+  position stated; five open actions re-checked with source positions
+  updated (287 driving test booking gains the national booking
+  platform trial of July 2026 and the 12 November 2026 booking-rules
+  update, 413 cruise booking, 279 university admissions application,
+  332 volunteer shift signup, and 374 pregnancy tracking); coverage
+  matrix updated (three new Gap items; 497 pattern rows; Full 507;
+  Gap 55). No new source records.
+
 - Customizable native select: the Select row in `catalog/primitives.md`
   now records that the native select is styleable in Chrome 135 and
   Safari 27 with `appearance: base-select` — picker list through
