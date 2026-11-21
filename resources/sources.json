@@ -1,6 +1,6 @@
 {
  "version": "0.1.0",
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "sources": [
   {
    "title": "Design trends overview for 2026",
@@ -8897,6 +8897,30 @@
    "type": "article",
    "accessed": "2026-11-20",
    "notes": "Native select styling with appearance: base-select in Chrome 135 and Safari 27 (September 2026): the picker list styles through ::picker(select), the chosen value through <selectedcontent>, and Safari 27.2 adds ::field-content for the picked text; support is limited, not Baseline, with the remaining engine behind preferences. Keep the native element for keyboard handling and form behaviour; gate styling behind a support check so other browsers show the classic control; keep meaning in text since the check mark and picker icon are not announced; give options an explicit value where they carry description text; the styled control no longer opens the mobile operating system's own picker and no longer sizes to the longest option."
+  },
+  {
+   "title": "Agent Trust Patterns",
+   "url": "https://dbirman.com/patterns",
+   "category": "trends",
+   "type": "guide",
+   "accessed": "2026-11-21",
+   "notes": "Six interface patterns for agents that act for someone, v1 October 2026, updated November 2026: consent by example, interrupt on drift, questions with a shelf life, provenance before an irreversible step, show the track record before delegating, and design for the person on the receiving end; only consent graded Strong so far."
+  },
+  {
+   "title": "Trust",
+   "url": "https://www.xdriven.dev/trust",
+   "category": "trends",
+   "type": "guide",
+   "accessed": "2026-11-21",
+   "notes": "An agent earns each permission from its track record, one kind of action at a time: new agents start read-only, every write asks first, clean runs widen what runs without asking, only a person raises the level, and an incident sends the rule back to asking; irreversible actions always ask."
+  },
+  {
+   "title": "Three new ways to shape what you see on Home",
+   "url": "https://newsroom.spotify.com/2026-11-12/home-feed-updates/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-21",
+   "notes": "Home feed controls announced 12 November 2026: removing a tile or a Recents item clears that section only and does not change future recommendations, while the expanded 'Not interested' control asks for less from specific shows or authors and feeds into what is recommended next."
   }
  ]
 }

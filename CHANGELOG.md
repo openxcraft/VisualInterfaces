@@ -7,6 +7,31 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Personalised news feed: new rule separating a one-off removal from a
+  lasting preference signal — removal clears the item from the current
+  view only and changes nothing about what is recommended next, while a
+  preference signal changes what appears in future; the two actions must
+  stay visibly distinct and labelled. One new source record (1115 total).
+
+- Agentic interfaces: new "Show the track record before delegating"
+  section in `trends/2026/agentic-ux.md` — before a kind of task is
+  handed to an agent, show how often "done" was verified for that
+  kind of task, measured from what happened rather than the agent's
+  own report; permissions are earned one kind of action at a time,
+  only a person raises the level, irreversible actions always ask,
+  and an incident sends the rule back to asking. Two new source
+  records (1114 total).
+
+- Roadmap: three new improvement actions added (432 recipient-side
+  agent action, 433 free-agent pool placement, 434 multi-pet
+  appointment booking), ordered by coverage impact, each a genuine
+  new gap with its source position stated; five open actions
+  re-checked (307 community sports league team registration, 308
+  vehicle registration renewal and car tax payment, 327 pet grooming
+  appointment booking, 329 home solar energy monitoring, 332
+  volunteer shift signup); coverage matrix updated (three new Gap
+  items; 505 pattern rows; Full 507; Gap 60).
+
 - Roadmap: three new improvement actions added (429 split button, 430
   guardian falling-behind alert, 431 bounded neighbourhood
   noticeboard), ordered by coverage impact, each a genuine gap with its

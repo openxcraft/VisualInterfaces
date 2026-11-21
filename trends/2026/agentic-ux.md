@@ -149,6 +149,30 @@ Graduate autonomy with evidence, and report partial results honestly:
 - Inline overrides let the person redirect mid-task — change a target or
   a constraint — without starting the run over.
 
+## Show the track record before delegating
+
+Before a person hands a kind of task to an agent, show how often "done"
+was verified for that kind of task — measured from what actually
+happened, not from the agent's own report of its work:
+
+- Show the record at the moment of delegation, per kind of task, as
+  counts: how many runs completed and were verified, and how many ended
+  in an incident, a rejection, or a failure. A single overall score
+  hides the difference — a good record at drafting says nothing about
+  paying an invoice.
+- Permissions are earned one kind of action at a time. A new agent
+  starts read-only: every write asks first. After a run of clean runs —
+  runs that completed with no incident traced to them — the person may
+  widen what runs without asking. Only a person raises the level; the
+  agent never raises its own trust.
+- Irreversible actions always ask, whatever the record says: deleting
+  data, spending money, or changing something that cannot be undone.
+- When an incident is traced to an action a rule allowed, that rule goes
+  back to asking, and the person is told what changed and why.
+- Keep the record visible after delegation too: what ran without asking
+  and how each run ended, so the record stays honest and the person can
+  narrow it again at any time.
+
 ## Accessibility gate for generated interfaces
 
 When an agent produces interface markup, require a release-day accessibility pass before shipping. Generators optimise for visual density and fail accessibility in predictable ways: missing names, divs used as buttons, shrunken targets, and focus hidden under sticky layers.
