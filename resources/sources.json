@@ -8961,6 +8961,22 @@
    "type": "article",
    "accessed": "2026-11-21",
    "notes": "Accessibility standard v4.1.1 published 2 September 2026; citation in the Official Journal now expected 22 January 2027, moved from an earlier late-November estimate; until citation, the earlier version stays the cited reference and the new version carries no presumption of conformity."
+  },
+  {
+   "title": "Build with Spatial Containers",
+   "url": "https://developer.android.com/develop/xr/openxr/spatial-containers",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-11-21",
+   "notes": "OpenXR 1.1 spatial container extensions: a system-managed bounded three-dimensional volumetric region or an unbounded immersive mode; the system owns window controls and placement; each container reports its own visibility and focus state; floor locking with scene understanding; requires Spatial API Level 4 or higher."
+  },
+  {
+   "title": "37 design rule sets a founder without a designer can run",
+   "url": "https://makersclaw.com/blog/design-fundamentals-37-rule-sets",
+   "category": "states",
+   "type": "article",
+   "accessed": "2026-11-21",
+   "notes": "Comparison of the disabled control across eight design systems: the standard disabled control is skipped by keyboard navigation and its label falls to low contrast, so it cannot state why it is unavailable; the guidance is to reserve the fully disabled presentation for actions that cannot be attempted at all, such as a second submit while the first is sending, and otherwise keep the control reachable with the reason beside it."
   }
  ]
 }

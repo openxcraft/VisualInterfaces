@@ -142,6 +142,17 @@ failure's cause.
 - Disabled: where the reason is not obvious, place it in helper text beside
   the element, not only in a tooltip.
 
+## Disabled-state rules
+
+Reserve the fully disabled presentation for actions that cannot be
+attempted at all, such as a second submit while the first is still
+sending. Where the person needs to learn why an action is
+unavailable, keep the control reachable by keyboard and focusable,
+show it dimmed, and place the reason beside it in helper text — a
+control removed from keyboard order cannot explain itself, and a
+dimmed label on its own is often too faint to read. Never use
+dimming alone to carry the reason: pair it with words.
+
 ## Loading-state rules
 
 A skeleton previews the shape of arriving content; it is not decoration.

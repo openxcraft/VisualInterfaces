@@ -7,6 +7,38 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Disabled state: new rule in `catalog/states.md` — reserve the fully
+  disabled presentation for actions that cannot be attempted at all,
+  such as a second submit while the first is still sending; where the
+  person needs to learn why an action is unavailable, keep the control
+  reachable by keyboard and focusable, show it dimmed, and place the
+  reason beside it in helper text. One new source record (1122 total).
+
+- Roadmap: three new improvement actions added (441 energy supplier
+  account, 442 car insurance quote and purchase, 443 water utility
+  bill payment), ordered by coverage impact, each a genuine gap with
+  its source position stated; the energy supplier action rests on a
+  supplier app page, an agency guide, and two case studies, and the
+  car insurance action on two corroborating redesign case studies,
+  with a platform or standards source still needed before either row
+  is written. Coverage matrix updated (two new Gap items; 505 pattern
+  rows; Full 508; Gap 63). No further new source records.
+
+- Changelog: duplicate Personalised news feed entries in [Unreleased]
+  merged into one entry stating the rule, the row extension, and the
+  source record once.
+
+- Spatial interfaces: bounded volumetric container rules added to
+  `trends/2026/spatial-interfaces.md` — a system-managed
+  three-dimensional box of three-dimensional content, distinct from a
+  flat panel: the app suggests width, height, and depth and the system
+  allocates the box, owns placement and window controls, and clips
+  content outside the bounds; each container carries its own visibility
+  and focus state; the step from bounded to unbounded is deliberate and
+  reversible; containers can lock to a physical surface; runtime support
+  is checked with a flat-panel fallback. One new source record
+  (1121 total).
+
 - Overflow menu: extended with user-customisable menu rules — the
   person can switch built-in commands on or off, add hidden commands,
   place entries added by third-party extensions in the main menu or a
@@ -57,11 +89,13 @@ version, with Added, Changed, and Fixed sections where they apply.
   existing Full rows; 505 pattern rows; Full 507; Gap 60). No new
   source records.
 
-- Personalised news feed: new rule separating a one-off removal from a
-  lasting preference signal — removal clears the item from the current
-  view only and changes nothing about what is recommended next, while a
-  preference signal changes what appears in future; the two actions must
-  stay visibly distinct and labelled. One new source record (1115 total).
+- Personalised news feed: row extended with a rule separating a one-off
+  removal from a lasting preference signal — where a feed offers both
+  removing one item and asking for less of something, the two actions
+  stay visibly distinct and labelled: removal clears that item from the
+  current view only and changes nothing about what is recommended next,
+  while a preference signal changes what appears in future. One new
+  source record (1115 total).
 
 - Agentic interfaces: new "Show the track record before delegating"
   section in `trends/2026/agentic-ux.md` — before a kind of task is
@@ -71,13 +105,6 @@ version, with Added, Changed, and Fixed sections where they apply.
   only a person raises the level, irreversible actions always ask,
   and an incident sends the rule back to asking. Two new source
   records (1115 total).
-
-- Patterns catalogue: Personalised news feed row extended — where a
-  feed offers both removing one item and asking for less of something,
-  the two actions stay visibly distinct and labelled: removal clears
-  that item from the current view only and changes nothing about what
-  is recommended next, while a preference signal changes what appears
-  in future.
 
 - Roadmap: three new improvement actions added (432 recipient-side
   agent action, 433 free-agent pool placement, 434 multi-pet

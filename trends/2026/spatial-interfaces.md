@@ -24,7 +24,7 @@ When to avoid:
 ## Elements and components
 
 Comfort zones by gaze angle; distance placement tiers; flat, layered, and
-deep arrangements; capability tiers per component with two-dimensional
+deep arrangements; bounded volumetric containers; capability tiers per component with two-dimensional
 fallbacks; high-contrast opaque alternatives to translucent panels.
 
 ## Layout and responsive rules
@@ -117,6 +117,34 @@ Multi-window spatial workspaces need an explicit panel contract.
   keep critical controls and fine text within about 30 degrees of forward
   gaze so they stay legible without eye strain.
 
+## Bounded volumetric containers
+
+A bounded volumetric container is a system-managed three-dimensional box
+of three-dimensional content, distinct from a flat panel: the content
+inside is volumetric, while the system owns the box, its placement, and
+its window controls.
+
+- Treat the container as a box with edges: the app suggests width,
+  height, and depth, the system allocates the box in the user's space,
+  and anything outside the box is clipped in bounded mode, so keep
+  essential content inside the suggested bounds.
+- Let the system own placement and window controls: moving, minimising,
+  and closing the container behave the same across apps, and the app
+  only owns what happens inside the volume.
+- Give each container its own visibility and focus state: several
+  containers from different apps can share one environment, and the
+  person interacts with a subset at a time, so never assume one app owns
+  the whole visible scene.
+- Offer the step from bounded to unbounded as a deliberate, reversible
+  choice: bounded mode keeps the surroundings visible, while the
+  unbounded mode fills the view, so the change is announced and can be
+  stepped back.
+- Let a container lock to a physical surface where the platform offers
+  it, such as the floor, so a placed volume stays put instead of
+  drifting with the viewer.
+- Check container support at runtime and fall back to a flat panel or a
+  two-dimensional view where the platform does not offer it.
+
 ## Glasses and on-the-move placement
 
 Glasses differ from room-scale headsets: the wearer walks, the background
@@ -187,6 +215,7 @@ Every element and page in this group defines all seven states. Missing states ar
 The canonical publishing checklist lives in `../../CONTRIBUTING.md`; the checks below are specific to this file.
 
 - [ ] Spatial page patterns, proxemic rings, and the comfort-zone band are documented.
+- [ ] Bounded volumetric container rules cover bounds, system-owned controls, per-container state, and the bounded-to-unbounded step.
 - [ ] Fallback modes and panel priority ordering are stated.
 - [ ] Translucent-panel rules cover legibility, no layering, high-contrast fallback, and tested opacity values.
 - [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.
