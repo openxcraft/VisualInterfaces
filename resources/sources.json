@@ -8977,6 +8977,14 @@
    "type": "article",
    "accessed": "2026-11-21",
    "notes": "Comparison of the disabled control across eight design systems: the standard disabled control is skipped by keyboard navigation and its label falls to low contrast, so it cannot state why it is unavailable; the guidance is to reserve the fully disabled presentation for actions that cannot be attempted at all, such as a second submit while the first is sending, and otherwise keep the control reachable with the reason beside it."
+  },
+  {
+   "title": "New driving test booking rules take effect",
+   "url": "https://content.govdelivery.com/accounts/UKDVSA/bulletins/416babc",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-21",
+   "notes": "Transport-department bulletin announcing the new driving test booking rules in effect: booking through a third party is against the law, only the learner books and manages their own test, online access can be restricted where licence details are misused, and instructors can set the times they are available so learners are not shown times they cannot attend."
   }
  ]
 }

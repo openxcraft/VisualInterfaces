@@ -7,6 +7,23 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Roadmap: three new improvement actions added (444 medication
+  refill eligibility, 445 smart baby monitor alert triage, 446 prize
+  draw transparency), ordered by coverage impact, each a genuine gap
+  with its source position stated; the medication refill action
+  refines the request list so a blocked prescription stays visible
+  with its eligibility state and secondary actions, the baby monitor
+  action adds urgent-at-once and routine-to-digest alert triage, and
+  the prize draw action adds a published entry list, a stated draw
+  method with a verifiable trail, and a named winner-contact
+  fallback. Driving test booking (287) re-checked: the transport
+  department bulletin announcing the new rules now in effect adds
+  that booking through a third party is against the law and that
+  online access can be restricted where licence details are misused,
+  recorded as a new source record; the row stays open. Coverage
+  matrix unchanged (505 pattern rows; Full 508; Gap 63). One new
+  source record (1123 total).
+
 - Disabled state: new rule in `catalog/states.md` — reserve the fully
   disabled presentation for actions that cannot be attempted at all,
   such as a second submit while the first is still sending; where the

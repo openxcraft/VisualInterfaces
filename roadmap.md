@@ -4560,7 +4560,7 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    two changes, location changes limited to nearby centres — but
    no interface rules, so the row stays open; a platform or
    standards source is still needed before the row is written.
-   Done when the row passes all quality gates. Re-checked this run (deep editorial 2026-11-17): the transport department's consultation outcome now covers learner-only booking with a limit of two changes and one area move — recorded as a new source record; the licence check before dates, centre choice with distance and earliest date, waiting list, and confirmation contents still have no platform or standards source, so the row stays open. Re-checked this run (deep editorial 2026-11-20): the national booking platform trial of July 2026 tested payments, bookings, and scheduling with real learners, and the 12 November 2026 booking-rules update confirms learner-only booking with at most two changes and one area move — both state booking policy and trial process, with no interface rules published, so the row stays open. Re-checked this run (deep editorial 2026-11-21): the government booking-rules guidance page now states the change-counting rules in full and the ten-full-working-day refund cutoff, recorded as a new source record; the licence check before dates, centre choice with distance and earliest date, waiting list, and confirmation contents still have no platform or standards source, so the row stays open.
+   Done when the row passes all quality gates. Re-checked this run (deep editorial 2026-11-17): the transport department's consultation outcome now covers learner-only booking with a limit of two changes and one area move — recorded as a new source record; the licence check before dates, centre choice with distance and earliest date, waiting list, and confirmation contents still have no platform or standards source, so the row stays open. Re-checked this run (deep editorial 2026-11-20): the national booking platform trial of July 2026 tested payments, bookings, and scheduling with real learners, and the 12 November 2026 booking-rules update confirms learner-only booking with at most two changes and one area move — both state booking policy and trial process, with no interface rules published, so the row stays open. Re-checked this run (deep editorial 2026-11-21): the government booking-rules guidance page now states the change-counting rules in full and the ten-full-working-day refund cutoff, recorded as a new source record; the licence check before dates, centre choice with distance and earliest date, waiting list, and confirmation contents still have no platform or standards source, so the row stays open. Re-checked this run (deep editorial 2026-11-21): the transport department bulletin announcing the new rules now in effect adds that booking through a third party is against the law and that online access can be restricted where licence details are misused, recorded as a new source record; the licence check before dates, centre choice with distance and earliest date, waiting list, and confirmation contents still have no platform or standards source, so the row stays open.
 
 288. Add a home broadband installation and router setup pattern
    row to `catalog/patterns.md`: get a home internet connection
@@ -7072,6 +7072,57 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    needed before the row is written. Done when the row passes all
    quality gates.
 
+444. Extend the Medication refill request row in
+   `catalog/patterns.md` with eligibility-before-button rules: one
+   plain eligibility state per prescription — ready to request, too
+   early until a named date, needs a new prescription, out of stock
+   at this pharmacy, controlled fill in person or by phone, or an
+   insurance issue with a short reason — with the rule stated in one
+   line on the card, no primary refill action on a blocked
+   prescription, and secondary actions instead such as a readiness
+   notice, a renewal request, or a pharmacy change; order states
+   answer what happened, what happens next, and whether the person
+   must act; and the request list is revised so a blocked
+   prescription stays visible on its card with its eligibility state
+   and secondary actions, rather than appearing only in the history
+   — distinct from the Medication reminder row, which reminds the
+   person to take a dose, and from the Order tracking row, which
+   follows a parcel rather than a prescription. Sources so far are a
+   single-agency guide, a shipped-product case study, and a vendor
+   product update only; a platform or standards source is still
+   needed before the extension is written. Done when the extension
+   passes all quality gates.
+
+445. Extend the smart baby monitor app pattern row (action 357) in
+   `catalog/patterns.md` with alert triage rules: urgent alerts —
+   crying, movement, or a change in breathing — arrive at once with
+   what changed and what to do, routine events such as sleep
+   summaries and room-condition changes wait for a digest, each
+   alert states its urgency in words rather than by colour alone,
+   and a quiet-hours rule states plainly when it ends and which
+   urgent alerts still break through — distinct from the
+   notification preferences row, which sets channels and cadence
+   for any topic, and from the notification escalation row, which
+   raises the urgency of a message rather than sorting alerts by
+   urgency. Sources so far are a single-designer case study, an
+   award listing, and a vendor comparison site only; a platform or
+   standards source is still needed before the extension is written.
+   Done when the extension passes all quality gates.
+
+446. Extend the online prize draw and raffle entry pattern row
+   (action 302) in `catalog/patterns.md` with draw-transparency
+   rules: the entry list is published before the draw, the draw
+   method is stated with a verifiable trail, the winner is contacted
+   by a stated route within a stated time with the fallback named
+   where the winner does not reply, and the full terms are linked
+   before entry — distinct from the limited-time offer countdown row,
+   which times an offer rather than a draw, and from the
+   crowdfunding campaign page row, which funds a project. Sources so
+   far are a promoter's published draw terms and a draw operator's
+   public entry list and draw-trail description only; a platform or
+   standards source is still needed before the extension is written.
+   Done when the extension passes all quality gates.
+
 - Completed this review (deep editorial 2026-11-16): two new
   pattern rows in `catalog/patterns.md` — Age assurance flow and
   Museum timed-entry ticket booking — completing roadmap action
@@ -8704,3 +8755,45 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
   382, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 413, 423,
   424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 436, 437,
   438, 439, 440, 441, 442, 443.
+
+- Completed this review (deep editorial 2026-11-21): no new pattern
+  rows — the eight searches (driving test booking rules, pharmacy
+  prescription refill, pet grooming appointment booking, home
+  cleaning service booking, new interface types and design system
+  releases, online will creation, online prize draw and raffle entry,
+  smart baby monitor) all restate material already recorded or stay
+  below the bar, so no new row and no new pattern rule. Three new
+  improvement actions added (444 medication refill eligibility, 445
+  smart baby monitor alert triage, 446 prize draw transparency),
+  ordered by coverage impact, each a genuine gap with its source
+  position stated; the medication refill action refines the request
+  list so a blocked prescription stays visible with its eligibility
+  state and secondary actions, the baby monitor action adds
+  urgent-at-once and routine-to-digest alert triage, and the prize
+  draw action adds a published entry list, a stated draw method with
+  a verifiable trail, and a named winner-contact fallback. Driving
+  test booking (287) re-checked: the transport department bulletin
+  announcing the new rules now in effect adds that booking through a
+  third party is against the law and that online access can be
+  restricted where licence details are misused, recorded as a new
+  source record; the row stays open. Coverage matrix unchanged (505
+  pattern rows; Full 508; Gap 63). One new source record (1123
+  total). Checked and left as covered or held: the November 2026
+  platform update already assessed and closed as covered, with its
+  context-menu rule already published; the November 2026 single-vendor
+  release guides and design system changelogs already assessed are
+  releases of covered component classes with no new pattern rule;
+  pet grooming (327), home cleaning (294), and online will creation
+  (290) already carry the substance of the fresh sources, and the
+  prize draw free-route rules are already carried by action 302, so
+  no new action for those; the harmonised ICT accessibility standard
+  citation stays held, trackers still disagreeing on 16 December
+  2026 and 22 January 2027. Open actions after this review: 279,
+  285, 287, 288, 290, 291, 294, 297, 299, 301, 302, 303, 304, 305,
+  307, 308, 309, 310, 313, 314, 315, 318, 327, 328, 329, 330, 331,
+  332, 333, 336, 343, 344, 349, 350, 352, 355, 356, 357, 358, 359,
+  360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 372, 373,
+  374, 375, 377, 378, 381, 382, 384, 385, 386, 387, 388, 389, 390,
+  391, 392, 393, 413, 423, 424, 425, 426, 427, 428, 429, 430, 431,
+  432, 433, 434, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445,
+  446.
