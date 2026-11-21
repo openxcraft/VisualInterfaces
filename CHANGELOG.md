@@ -7,6 +7,38 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Overflow menu: extended with user-customisable menu rules — the
+  person can switch built-in commands on or off, add hidden commands,
+  place entries added by third-party extensions in the main menu or a
+  submenu, and show common commands as labelled text instead of icons;
+  the menu states which entries are built in and which come from an
+  add-on, and removing an entry never removes the underlying action,
+  which stays reachable; the one-action restore of the default layout
+  has no platform source and is not in the row. Two new source records
+  (1120 total).
+
+- Roadmap: three new improvement actions added (438 per-display
+  magnification rules, 439 connected-device prompt, 440 cloud device
+  recovery), ordered by coverage impact, each a genuine gap with its
+  source position stated; the per-display action extends an existing
+  Full row and rests on the platform release notes for the October 2026
+  preview update, while the other two name new Gap items. One open
+  action implemented (435 user-customisable menu rules); two open
+  actions re-checked (287 driving test booking, 436 booking
+  change-allowance rules) with the government booking-rules guidance
+  recorded as a new source record and the refund cutoff corrected to
+  ten full working days. Coverage matrix updated (two new Gap items;
+  505 pattern rows; Full 508; Gap 61; the previous review note's Full
+  507 and Gap 60 counts were stale — the matrix itself already held
+  Full 508 and Gap 59 after the food-rescue move). Five new source
+  records (1120 total).
+
+- Accessibility standards outlook: the citation-date sentence for the
+  harmonised ICT accessibility standard now names the two tracker
+  dates precisely — 16 December 2026 and 22 January 2027 — instead of
+  the approximate months; the dates still disagree, so the held item
+  stays held.
+
 - Food rescue and surplus food pickup: new layout page in
   `layouts/food-rescue.md` — nearby offers in map and list views ordered
   by pickup window, the window and price beside each offer, a plain

@@ -8921,6 +8921,46 @@
    "type": "article",
    "accessed": "2026-11-21",
    "notes": "Home feed controls announced 12 November 2026: removing a tile or a Recents item clears that section only and does not change future recommendations, while the expanded 'Not interested' control asks for less from specific shows or authors and feeds into what is recommended next."
+  },
+  {
+   "title": "October 28, 2026 — KB5127936 (OS Builds 26300.9818 and 26200.9818) Preview",
+   "url": "https://support.microsoft.com/en-au/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update",
+   "category": "patterns",
+   "type": "release-notes",
+   "accessed": "2026-11-21",
+   "notes": "Platform release notes, October 2026 preview: a faster, simpler, customisable context menu — built-in commands switched on or off, hidden commands added, third-party extensions placed in the main menu or a submenu, common commands shown as text instead of icons; a modernised device-connection dialog with dark mode, text scaling, and notifications kept in the notification centre; per-monitor magnification zoom with viewport locking and a contrast theme toggle; cloud rebuild reinstalling from a downloaded image with a data-loss confirmation and a choice to remove or sanitise files."
+  },
+  {
+   "title": "November 10, 2026 — KB5132061 (OS Builds 26300.9974, 26200.9974 and 26100.9974)",
+   "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/11/kb5132061-windows-11-24h2-25h2-26h2-security-update",
+   "category": "patterns",
+   "type": "release-notes",
+   "accessed": "2026-11-21",
+   "notes": "Platform release notes, November 2026 security update: includes the improvements from the October 2026 preview, so the customisable context menu and the other October changes reach the monthly update; applies to versions 25H2 and 26H2 in all editions."
+  },
+  {
+   "title": "Changes to driving test booking rules in 2026",
+   "url": "https://www.gov.uk/guidance/changes-to-driving-test-booking-rules-in-2026",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-21",
+   "notes": "Government booking-rules guidance: at most two changes to a booked car driving test, only the learner books and manages, moves limited to the three nearest centres; changing the date, the centre, or swapping with another learner each counts as one change, changing several at once still counts as one, updating contact details does not count, and a change made by the agency resets the allowance to two; full refund on cancellation at least ten full working days before the test."
+  },
+  {
+   "title": "I tested Windows 11 November 2026 update, here's what's new, improved, and fixed",
+   "url": "https://www.windowslatest.com/2026/11/10/i-tested-windows-11-november-2026-update-heres-whats-new-improved-and-fixed/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-21",
+   "notes": "Hands-on test of the November 2026 desktop operating-system update: the redesigned context menu holds eight entries and appears fully loaded at once, third-party extensions load only from their submenu, and the settings page lets the person turn built-in commands on or off, place extensions in the main menu or a submenu, show common commands as text, and move properties to the bottom."
+  },
+  {
+   "title": "EN 301 549 v4.1.1 is final! What changed, what it means, and what you should do.",
+   "url": "https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do/",
+   "category": "trends",
+   "type": "article",
+   "accessed": "2026-11-21",
+   "notes": "Accessibility standard v4.1.1 published 2 September 2026; citation in the Official Journal now expected 22 January 2027, moved from an earlier late-November estimate; until citation, the earlier version stays the cited reference and the new version carries no presumption of conformity."
   }
  ]
 }
