@@ -7,6 +7,15 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Roadmap: three new improvement actions added (435 user-customizable
+  menu rules, 436 booking change-allowance rules, 437 discreet decline
+  for supervised payments), ordered by coverage impact, each a genuine
+  gap with its source position stated; two open actions re-checked
+  (287 driving test booking, 368 children's pocket money and
+  allowance); coverage matrix unchanged (the three actions extend
+  existing Full rows; 505 pattern rows; Full 507; Gap 60). No new
+  source records.
+
 - Personalised news feed: new rule separating a one-off removal from a
   lasting preference signal — removal clears the item from the current
   view only and changes nothing about what is recommended next, while a
@@ -20,7 +29,14 @@ version, with Added, Changed, and Fixed sections where they apply.
   own report; permissions are earned one kind of action at a time,
   only a person raises the level, irreversible actions always ask,
   and an incident sends the rule back to asking. Two new source
-  records (1114 total).
+  records (1115 total).
+
+- Patterns catalogue: Personalised news feed row extended — where a
+  feed offers both removing one item and asking for less of something,
+  the two actions stay visibly distinct and labelled: removal clears
+  that item from the current view only and changes nothing about what
+  is recommended next, while a preference signal changes what appears
+  in future.
 
 - Roadmap: three new improvement actions added (432 recipient-side
   agent action, 433 free-agent pool placement, 434 multi-pet

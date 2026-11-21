@@ -6915,6 +6915,53 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    standards source is still needed before the row is written. Done
    when the row passes all quality gates.
 
+435. Extend the Overflow menu row in `catalog/patterns.md` with
+   user-customizable menu rules: the person can remove entries they
+   never use, manage entries added by third-party extensions, and
+   restore the default layout in one action; the menu states which
+   entries are built in and which come from an add-on, and removing
+   an entry never removes the underlying action, which stays
+   reachable elsewhere — distinct from the profile and account menu
+   row, which lists account actions rather than a customisable
+   command set, and from the command palette row, which executes
+   typed commands. Sources so far are secondary tech-news reports
+   of a November 2026 desktop operating-system update only; a
+   primary platform source is still needed before the rule is
+   written, so implementation stays with the deep cycle. Done when
+   the extended row passes all quality gates.
+
+436. Extend the Appointment management row in `catalog/patterns.md`
+   with booking change-allowance rules: where a booking allows only
+   a stated number of changes or moves, the booking itself shows
+   how many changes remain and where a move may go before any
+   change is attempted, and states the fee or forfeiture
+   consequence of cancelling inside the cutoff — distinct from the
+   order editing row, which changes a placed order rather than a
+   booked time, and from the payment failure recovery row, which
+   handles a failed payment rather than a change limit. Sources so
+   far are a 2026 government booking-rules update stating the policy
+   — only the named person books and manages, at most two changes,
+   moves limited to nearby centres, a three-working-day
+   cancellation cutoff — with no interface rules, plus a
+   single-designer redesign noting manual cancellation hunting; a
+   platform or standards source is still needed before the rule is
+   written. Done when the extended row passes all quality gates.
+
+437. Extend the Payment failure recovery row in
+   `catalog/patterns.md` with a discreet-decline rule for
+   supervised payments: when a payment is declined on a supervised
+   account — a child's card at a till, a shared household card —
+   the decline is shown quietly to the payer only, without an alarm
+   or a reason others nearby can read, and the detail goes to the
+   supervising account instead — distinct from the spending controls
+   for minors row, which caps money inside a service, and from the
+   children's pocket money row, which covers the allowance and
+   approval flow rather than the decline itself. Sources so far are
+   two shipped-product case studies of one family-finance product
+   and a vendor product page only; a second independent source is
+   still needed before the rule is written. Done when the extended
+   row passes all quality gates.
+
 - Completed this review (deep editorial 2026-11-16): two new
   pattern rows in `catalog/patterns.md` — Age assurance flow and
   Museum timed-entry ticket booking — completing roadmap action
@@ -8391,7 +8438,7 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
   back to asking. The section rests on two corroborating sources: a
   six-pattern guide (v1, updated November 2026) and a trust-ladder
   guide with the same earned-permission rule. 2 new source records
-  (1114 total). Three new improvement actions added (432
+  (1115 total). Three new improvement actions added (432
   recipient-side agent action, 433 free-agent pool placement, 434
   multi-pet appointment booking), ordered by coverage impact, each a
   genuine new gap with its source position stated; the recipient-side
@@ -8423,3 +8470,48 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
   367, 368, 369, 370, 372, 373, 374, 375, 377, 378, 381, 382, 384,
   385, 386, 387, 388, 389, 390, 391, 392, 393, 413, 423, 424, 425,
   426, 427, 428, 429, 430, 431, 432, 433, 434.
+
+- Completed this review (daily planning 2026-11-21): no new pattern
+  rows — the four searches (new interface types and UI updates
+  November 2026, design-system component library releases November
+  2026, driving test booking, children's pocket money and allowance)
+  returned only material already assessed, held, or below the
+  source-quality bar, so no new rule and no new source record. The
+  November 2026 desktop operating-system update stays held pending a
+  primary platform source, with secondary tech-news reports only;
+  the single-vendor dashboard release and the single-developer
+  game-authoring tool release are already assessed as covered
+  classes with no new pattern rule; the design-system changelogs
+  are already assessed as single-vendor releases of covered
+  component classes with no new pattern rule, and the component
+  library whose free components went open source on 21 November
+  stays held as beta. Three new improvement actions added (435
+  user-customizable menu rules, 436 booking change-allowance rules,
+  437 discreet decline for supervised payments), ordered by coverage
+  impact, each a genuine gap with its source position stated; the
+  menu action rests on secondary reports of the November 2026
+  operating-system update, the change-allowance action on the 2026
+  government booking-rules update, and the discreet-decline action
+  on shipped-product case studies of one family-finance product
+  plus a vendor product page. The top improvement (435) is an
+  extension that rests on secondary sources only, so implementation
+  stays with the deep cycle. Re-checked: driving test booking (287)
+  stays open — the booking-rules update and the official social
+  posts state booking policy only, with no interface rules, and the
+  student redesign adds notification and multi-centre search pain
+  from a single-designer project only; children's pocket money and
+  allowance (368) stays open — shipped-product case studies now
+  corroborate parent authority, money-by-purpose rails, goal
+  release on parental approval, and a quiet decline at the till,
+  and a vendor product page corroborates schedule, category, and
+  rollover controls, but the material is still one product plus a
+  vendor page, below the bar. Coverage matrix unchanged (the three
+  actions extend existing Full rows; 505 pattern rows; Full 507;
+  Gap 60). No new source records. Open actions after this review:
+  279, 285, 287, 288, 290, 291, 294, 297, 299, 301, 302, 303, 304,
+  305, 307, 308, 309, 310, 313, 314, 315, 318, 327, 328, 329, 330,
+  331, 332, 333, 336, 343, 344, 349, 350, 352, 355, 356, 357, 358,
+  359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 372,
+  373, 374, 375, 377, 378, 381, 382, 384, 385, 386, 387, 388, 389,
+  390, 391, 392, 393, 413, 423, 424, 425, 426, 427, 428, 429, 430,
+  431, 432, 433, 434, 435, 436, 437.
