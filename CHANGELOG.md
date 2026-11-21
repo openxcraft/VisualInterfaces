@@ -7,6 +7,15 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Food rescue and surplus food pickup: new layout page in
+  `layouts/food-rescue.md` — nearby offers in map and list views ordered
+  by pickup window, the window and price beside each offer, a plain
+  statement that the contents are a surprise assortment, a reserve step
+  that repeats place, window, and full price before payment, a handover
+  code for collection, a stated rule for a missed window, and favourites
+  with alerts; coverage matrix updated (food rescue and surplus food
+  pickup moves from Gap to Full; 505 pattern rows; Full 508; Gap 59).
+
 - Roadmap: three new improvement actions added (435 user-customizable
   menu rules, 436 booking change-allowance rules, 437 discreet decline
   for supervised payments), ordered by coverage impact, each a genuine
