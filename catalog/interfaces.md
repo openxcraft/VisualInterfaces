@@ -22,10 +22,13 @@ When to avoid:
 | Web application | Pointer, keyboard | Arm's length | Medium to high | Browser chrome, variable window sizes |
 | Mobile application | Touch | Handheld | Low to medium | One-handed reach, interruptions, variable connectivity |
 | Tablet application | Touch, pointer | Handheld to arm's length | Medium | Split views, orientation change |
-| Desktop application | Pointer, keyboard | Arm's length | High | Multiple windows, shortcuts, context menus |
+| Desktop application | Pointer, keyboard | Arm's length | High | Multiple windows, shortcuts, context menus — see `layouts/desktop.md` |
 | Kiosk | Touch | Standing distance | Low | Large targets, idle timeout, session reset, no personal data retained |
 | Wearable | Touch, voice, crown or bezel | Glanceable | Very low | Two actions per screen at most, short text |
+| Screenless sensor | None on the device; companion phone app | Companion screen | Very low | Passive sensing only; the companion app carries the whole interface; alerts arrive as haptics alone |
 | Television | Remote, voice | Room distance | Low | Focus-based navigation, 10-foot legibility, overscan margins |
+| Game | Controller, keyboard, touch | Handheld to room distance | Very low | HUD read at a glance, scalable text, remappable controls, safe zones |
+| Automotive HMI | Physical controls, voice, touch | Road distance, glanceable | Very low | Two-second glance and twelve-second task budgets; essential functions stay on physical controls |
 | Conversational | Text, voice | Varies | Low | Turn-taking, repair of misunderstood input, fallback to structured controls |
 | Spatial | Gesture, gaze, voice | Room scale | Low | Depth cues, physical comfort, clear exit to a flat view |
 | Embedded display | Touch, physical controls | Arm's length | Low | Fixed size, offline operation, high contrast in bright light |
@@ -38,9 +41,292 @@ When to avoid:
 - Compact screens show one task per view; expanded screens may combine a list and a detail view.
 - Every interface type defines keyboard or focus order, even when touch is primary.
 - Respect safe areas, overscan margins, and physical control placement on fixed devices.
-- Wearable surfaces follow glanceable rules: one glance per screen, at most two actions, text short enough to read in seconds; design ambient (always-on) and active display states separately. Where hands are busy, a voice action covers the same two options; every voice action states what it understood before confirming.
+- Wearable surfaces follow glanceable rules: one glance per screen, at most two actions, text short enough to read in seconds; design ambient (always-on) and active display states separately. Where hands are busy, a voice action covers the same two options; every voice action states what it understood before confirming. For voice paired with a screen, follow the channel-assignment rules in `trends/2026/conversational-interfaces.md`.
 - Design for states, not devices, on folding surfaces: closed, half-open, fully open, and tent. The fold is a seam, not a wall — content flows across it while interactive elements reposition away from the hinge; transitions never reload and restore scroll and focus exactly.
 - Across surfaces, one task continues where it stopped: navigation migrates from bottom bars on compact surfaces to side rails on expanded ones without changing order, and components morph from terse to detailed while the underlying action stays the same.
+
+## Gesture-only input
+
+For surfaces where gestures are the only input — gesture-first screens,
+motion sensing, and gesture-first wearables — gestures replace buttons, so
+the design must teach them and tolerate mistakes.
+
+- Keep the gesture set small: a few consistent gestures across the whole
+  surface, each with one meaning everywhere it appears.
+- Teach without a manual: pair every essential gesture with a visual hint,
+  an animated affordance, or a visible button alternative until it is
+  learned.
+- Tolerate variation: accept gestures performed at different speeds and
+  angles; set clear thresholds — minimum movement for a drag, minimum hold
+  for a long press, clear velocity cutoffs for a fling — and never treat a
+  near miss as a command.
+- Give immediate feedback when a gesture is recognised: highlight, motion,
+  or a haptic pulse that matches the action.
+- Make errors cheap: every gesture is reversible or confirmable; an
+  unrecognised gesture states what was seen and how to retry, never a dead
+  end.
+- Respect the body: avoid gestures that tire quickly or demand precision
+  repeated many times; offer a non-gesture alternative for every essential
+  task.
+- Every multipoint or path-based gesture (pinch, swipe, drag) is also
+  operable with a single pointer — tap or click — unless the gesture itself
+  is essential; never restrict a task to one input modality.
+
+### Worked example: swipe-to-archive in a gesture-first list
+
+One surface, one worked example, to show how the rules compose.
+
+- Discoverability: the row edge shows a drag handle and the next row peeks
+  from the side; the first time the list appears, a one-time coach mark
+  points at a row and says "swipe to archive"; archive also appears as a
+  visible control in the row's detail view.
+- Progressive teaching: swiping a few pixels reveals the archive action
+  beneath the row, teaching the gesture through the interaction itself.
+- Thresholds: movement under about 8 px is a tap, not a drag; around 24 px
+  begins revealing the row action; a drag commits to a direction after
+  about 10 px of hysteresis, then tracks the finger one-to-one.
+- Feedback: the row highlights on touch-down instantly; the gesture is
+  tracked continuously so the archive tint deepens as the swipe extends —
+  the surface never waits for the gesture to finish before responding.
+- Recovery: committing happens on lift-off, not on touch-down; dragging
+  away and back cancels; after commit, an inline undo stays available, and
+  a swiped-near-miss is never treated as a command.
+- Seven states for the example: default shows the list with the hint
+  affordance; hover has no pointer equivalent and is not used; active
+  tracks the finger with the archive tint; disabled dims archive where
+  items cannot be archived, with the reason stated; loading is not
+  gestured — a spinner row replaces nothing; empty shows the list empty
+  state from `catalog/states.md` with the first-use variant; error keeps
+  the item in place and states what failed with a retry.
+
+## Remote-control input
+
+For room-distance screens where a remote is the primary control: design
+directional-pad first, then enhance. For display-side television rules —
+type minimums, safe margins, and focus drawing — see `layouts/tv.md`.
+
+- Treat the directional pad (up, down, left, right, select, back) as the
+  common denominator: every task must be completable with it alone.
+- Pointer remotes add a cursor on top of focus order; never require a
+  precise pointer action that the directional pad cannot perform.
+- Touch-surface remotes send velocity, not position: keep the underlying
+  focus behaviour so the same navigation works, and keep focus movement
+  predictable per flick rather than per pixel.
+- Scroll-wheel remotes map to one-dimensional focus movement; horizontal
+  wheels move within the current row, vertical wheels move between rows.
+- Keep remote fatigue low: predictable focus order, short paths to the
+  most-used content, no focus traps, and focus memory that survives
+  back-and-forth navigation.
+
+## Spatial interfaces
+
+For head-worn and room-scale surfaces: content placed in depth, read at
+room distances, and always escapable back to a flat view. For the full
+treatment — comfort zones by gaze angle, distance tiers, panel choice, and
+capability tiers with two-dimensional fallbacks — see
+`trends/2026/spatial-interfaces.md`.
+
+- Three depth arrangements cover most surfaces: flat (all content on one plane
+  at a comfortable distance — dashboards and reference panels), layered
+  (gentle near/mid/far stacking — glanceable context with drill-down
+  detail), deep (nested rooms or portals — guided focus through a
+  sequence).
+- Place primary actions closer than supporting content; depth contrast
+  creates the focal order, so distance is never decorative.
+- Comfort zone: content lives between roughly 1.25 m and 5 m. Detailed,
+  frequent interaction sits at arm's length; general viewing between 1
+  and 3 m; beyond 3 m is ambient information only. Closer invades personal
+  space and risks collisions; farther is hard to read.
+- Keep content inside the central field of view so the neck and body do
+  not rotate to read it; never fully obscure the environment, and keep
+  peripheral zones for large, simple supplementary content.
+- Scale windows so type stays legible at any distance (dynamic scaling);
+  use fixed scaling only for objects that should behave like physical
+  things and appear smaller when farther away.
+- Always offer a home zone at body-centre height so the user can reorient
+  when spatial memory fails; back off-screen targets with positional audio
+  cues and time-limited gaze rays.
+- Every spatial surface offers a clear exit to a flat two-dimensional
+  view; the exit control is reachable without navigating depth.
+- Seven states for spatial: default is the home zone with content at its
+  assigned depths; hover is replaced by a gaze or focus highlight with a
+  dwell confirmation, never motion alone; active confirms selection
+  within 100 ms; disabled dims with the reason stated; loading anchors a
+  progress indicator at a readable distance and never moves placed
+  content; empty shows the first-use or naturally-empty variant in place;
+  error brings a plain-language panel to the primary zone with retry and
+  a flat-view exit.
+
+## Embedded displays
+
+For fixed panels in appliances, machinery, and wall-mounted controls,
+see `layouts/embedded.md`: fixed-size canvases, bright-light contrast
+rules, offline-first operation, and refresh constraints.
+
+## Extension interfaces
+
+For browser extensions and other add-on surfaces that act on host pages:
+the classic click-the-icon, see-a-dropdown, interact, click-away flow is
+giving way to the inline overlay: a floating panel anchored to the cursor
+or to the page element being acted on, behaving as part of the page's own
+interface rather than a separate layer.
+
+- Anchor the overlay to the cursor position or the target element, not to
+  the toolbar; keep the user inside their current task and context.
+- Show results next to their source: translated text beside the original
+  sentence, highlights on the text they annotate, previews where the change
+  will apply. Closing the overlay never forces reorientation — the
+  underlying page stays exactly where it was.
+- Dismissal is cheap: one action closes the overlay and returns focus to
+  the anchor; focus never leaks into the host page underneath.
+- Build the overlay as a web component with a closed shadow root for style
+  isolation. Avoid iframes: they complicate focus management and keyboard
+  navigation.
+- Defend against the host page deliberately: handle shadow DOM, z-index
+  conflicts, and scroll events so the overlay behaves on arbitrary pages.
+- Size to content, not to the toolbar: the old narrow dropdown panels
+  forced squinting; give the overlay room up to sensible maximum bounds.
+- Full keyboard access to every overlay control, in a documented order;
+  never require pointer-only interaction.
+
+## Assistant-rendered interactive components
+
+Conversational interfaces increasingly answer with interactive components
+rendered in place — buttons that act, calculators tuned to the question,
+charts the reader can adjust, forms that capture the structured reply —
+instead of flat text alone. The component is the answer, not a decoration.
+
+- Render one component per idea; never stack several competing widgets in
+  a single response.
+- Match the component to the task: a diagram for how a mechanism works, a
+  calculator for a planning question, a map for a route — never a widget
+  for a question plain text already answers.
+- Keep every rendered component fully operable by keyboard and by
+  assistive technology: named controls, exposed states, documented focus
+  order.
+- Supply a text equivalent for anything shown only inside a widget — chart
+  values, calculator inputs and results — so the response still reads on
+  a screen reader or a text-only surface.
+- Announce the arrival of a component politely; never steal focus
+  mid-conversation.
+- Prefer platform-native controls over bespoke widgets; when a custom
+  control is unavoidable, own its focus behaviour on activation and
+  dismissal.
+- Size the component to the task, not to spectacle: it must earn its space
+  by shortening the path to the answer.
+
+## Wearable interfaces
+
+For wrist-worn and other tiny screens: glanceable, single-action surfaces
+with the phone app as the overflow.
+
+- Glanceability is a structural constraint, not a style choice: design for
+  a 2–5 second task window; put one primary piece of information per
+  screen; move anything requiring more than two taps to the paired phone
+  app.
+- Treat information surfaces such as tiles as non-scrollable: they are
+  meant to be read in a glance, with a tap leading to more detail on
+  another surface.
+- Size touch targets and gestures to the finger: minimum targets around
+  38–48dp spaced at least 8pt apart; favour full-screen swipes for
+  navigation, long-press for context menus, edge-based gestures, and
+  rotating bezels or crowns as the primary scroll mechanism over fine
+  swipe scrolling.
+- Confirm actions with haptic feedback first, so the person gets
+  confirmation without needing to look at the screen.
+- Design for the round case first with larger margins: round displays
+  offer roughly 22% less usable space than square ones.
+- Ship a simplified ambient, always-on state alongside the active state:
+  low brightness, no animation, critical data visible; prefer dark
+  interfaces and minimal background work to protect battery life.
+
+## Screenless sensor interfaces
+
+For devices with no screen of their own — a ring or band that senses
+continuously while the paired phone app carries the whole interface.
+
+- The device is a passive sensor, not a surface: all reading, review, and
+  configuration happen in the companion app, so the app must stand alone
+  as the interface and never assume the person can see or touch the device
+  to check anything.
+- The only channel from the device to the person is haptics, and its
+  bandwidth is very low: intensity, duration, rhythm, and pattern are all
+  it can carry, so reserve it for health alerts and time-critical
+  reminders, never for social notifications, and give every pattern one
+  fixed meaning that the companion app states in words.
+- The companion app answers one question first — how the person is doing
+  today — with a small set of daily scores (sleep, readiness, activity),
+  each shown with its value, a plain-language reason, and a next step, so
+  a number is never left without its meaning or its action.
+- Pair what the device measures with how the person feels: a short daily
+  check-in records the felt state beside the measured one, and the two are
+  shown together rather than letting the measured number speak alone.
+- Keep the few on-device gestures minimal and fixed — a tap, a double
+  pinch, a long press — each mapped to one phone action such as dismissing
+  an alarm or taking a photo, and state the mapping in the companion app
+  so a gesture is never a guess.
+- Treat health data as sensitive by default: detailed history and
+  configuration stay in the companion app, and nothing the device reports
+  is shown where others can read it without the person choosing so.
+
+## Automotive HMI
+
+For driver-facing surfaces where attention is a safety resource: glanceable
+tasks only, and essential functions never touchscreen-only.
+
+- Attention budgets are hard rules, not aspirations: a single glance away
+  from the road stays under two seconds; a complete task stays under twelve
+  seconds. Design every screen against the budget first, then polish.
+- Essential functions — signals, wipers, hazard warnings — live on tactile
+  physical controls with real feedback; the screen is never the only route
+  to a safety-critical action.
+- Practise contextual minimalism: disclose information progressively by
+  driving conditions; while the vehicle moves, show only what the current
+  task needs and defer everything else.
+- Voice carries secondary tasks as the hands-free channel; pair every
+  voice action with a confirmation of what was understood before acting.
+- Adapt to driving context instead of showing everything at once: the same
+  surface narrows its content as attention demands rise and restores it
+  when the vehicle is parked.
+
+## Game interfaces
+
+For play surfaces where the interface competes with the game itself for
+attention: the heads-up display is read at a glance, peripherally, while
+play continues.
+
+- Show only what the player needs this second — health, resources,
+  objective, threat direction — and push the rest into menus; a
+  persistent display earns its place by being needed constantly.
+- Test readability under motion, not on a still frame: keep display
+  elements in stable positions, rank them by urgency, and give text a
+  treatment that survives any background — a scrim, outline, or shadow —
+  so labels stay readable over bright or busy scenes.
+- Size text for the viewing distance first: defaults are larger on
+  room-distance screens than on handheld ones, and the player can scale
+  text and interface elements up to at least twice the default, with
+  icons and glyphs scaling alongside the text.
+- Hold text and meaningful graphics to 4.5:1 contrast, and 3:1 for large
+  text and large interface elements, measured against the
+  lowest-contrast part of the background behind them.
+- Never carry essential information by colour alone: pair colour with
+  shape, icon, label, or pattern, and offer colour-vision-deficiency
+  modes that change the palette rather than simulate the deficiency.
+- Subtitles are on by default, with speaker names, adjustable size, and
+  a readable background; speech is never the only way to receive
+  essential information.
+- Let the player remap every control, choose hold versus toggle for
+  sustained actions, and reach every part of the interface with the same
+  input method used for play.
+- Offer controls to reduce motion — camera shake, motion blur, flashing
+  — and avoid large, high-contrast flashes.
+- Keep critical elements inside the safe area on room-distance screens:
+  roughly the inner 90% of the picture, anchored to the edges with a
+  safe-zone offset so nothing essential is lost to overscan.
+- The same readability rules apply to every kind of game surface:
+  in-world displays, overlay displays, displays placed in the game
+  space, and screens outside play such as menus and lobbies; in-world
+  text needs scaling and contrast options like any other screen.
 
 ## States
 
@@ -58,12 +344,11 @@ Every element and page in this group defines all seven states. Missing states ar
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Every interface type in the table has a primary input, viewing distance, density, and constraints.
+- [ ] The remote-control input section covers directional-pad, pointer, touch-surface, and scroll-wheel variants.
+- [ ] Wearable, spatial, and embedded sections link to their full treatments.
+- [ ] Automotive HMI glance budgets, physical-control rules, and contextual minimalism are documented.
+- [ ] Game interface HUD readability, text scaling, remapping, and safe-zone rules are documented.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

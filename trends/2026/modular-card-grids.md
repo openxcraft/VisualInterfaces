@@ -23,31 +23,38 @@ Cards in two or three fixed sizes; a grid with consistent gaps; card header with
 - Cards keep a fixed internal order: title, summary, action.
 - The grid reflows by moving whole cards, never by resizing text inside a card.
 - Compact: one card per row, ordered by importance.
+- Offer cards in two or three fixed size tiers (for example 1×1, 2×1, 2×2); the tier follows the card's importance and content, never decoration — a large tile must carry proportionally more value, not just more air.
+- Density is a grid property, not a per-card choice: cards per row change at breakpoints, while every card keeps its internal proportions. Never shrink tiles to fit more in; overflow goes to a "view all" surface with the same card treatment.
 - Tile markup is written in priority order; named placement areas rearrange tiles at each breakpoint without changing source order, so assistive technology and keyboard focus follow the same sequence at every size.
+- When people can reorder tiles, dragging gives immediate position feedback and the move is announced as plain text ("Weather moved to position 2 of 8"); the new order persists across sessions and breakpoints.
 - Empty cards are replaced by a single placeholder card with one next action, not a blank space.
+- Cards load, fail, and refresh independently: one card's failure never
+  empties the grid or blocks the others; a failed card shows its own
+  retry in place and the rest of the grid keeps working.
+- Stale data states its age: a card whose data is older than its refresh
+  interval shows when it was last updated and offers a refresh; stale
+  figures are never presented as current.
+- Refresh is per-card and cheap: refreshing one card never reloads the
+  whole grid, and a grid-wide refresh keeps scroll position and card
+  order.
 
 ## States
 
-Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
+Canonical state definitions live in `../../catalog/states.md`. Notes specific to card grids:
 
-| State | Appearance | Behaviour |
-| --- | --- | --- |
-| Default | The pattern in use at rest, with full contrast and a clear label. | Ready for input or selection. |
-| Hover | Pointer-only highlight: subtle background or border change. | No change on touch devices; hover never carries essential information alone. |
-| Active | Pressed or selected appearance while interaction is in progress. | Feedback appears within 100 ms of input. |
-| Disabled | Reduced contrast, no pointer response, still readable. | Explain why it is unavailable nearby when the reason is not obvious. |
-| Loading | Skeleton blocks or a progress indicator replace live content. | Keep layout dimensions stable so content does not shift. |
-| Empty | Show a neutral starting prompt or placeholder with one example action. | Offer one clear next action and, where relevant, a reset for filters. |
-| Error | State what could not be completed and offer the structured fallback or a retry. | Keep entered data, place the message next to the problem, and offer a retry. |
+| State | Card-grid note |
+| --- | --- |
+| Default | Cards at rest in the grid, full contrast, labels clear. |
+| Hover | Pointer-only lift or border change on the card. |
+| Active | Pressed-card feedback within 100 ms. |
+| Disabled | Card dimmed but readable; the reason stated on the card. |
+| Loading | Skeleton cards matching the grid's card shape. |
+| Empty | One explanatory card with the single next action. |
+| Error | The failed card names the problem and offers retry in place. |
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Grid composition and responsive card rules are complete.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

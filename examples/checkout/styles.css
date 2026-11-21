@@ -1,0 +1,129 @@
+/* Checkout example: framework-free styles demonstrating the ecommerce layout and checkout rows. */
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #111;
+  background: #e8e8e8;
+}
+.checkout-page {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 4rem;
+}
+.checkout-page h1 { font-size: 1.5rem; margin: 0.5rem 0; }
+.checkout-page h2 { font-size: 1.125rem; margin: 0 0 0.5rem; }
+.checkout-page h3 { font-size: 1rem; margin: 0 0 0.5rem; }
+.checkout-page button {
+  min-height: 2.5rem;
+  padding: 0 0.9rem;
+  font-size: 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  color: #111;
+  background: #fff;
+  border: 1px solid #666;
+}
+.checkout-page button:disabled {
+  color: #777;
+  background: #f0f0f0;
+  border-color: #aaa;
+  cursor: not-allowed;
+}
+.checkout-page input[type="email"],
+.checkout-page input[type="text"] {
+  min-height: 2.5rem;
+  padding: 0 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #666;
+  border-radius: 0.375rem;
+  background: #fff;
+  color: #111;
+}
+.co-primary {
+  color: #fff;
+  background: #0b5fff;
+  border-color: #0b5fff;
+}
+.co-note { color: #333; font-size: 0.925rem; }
+.co-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+@media (min-width: 48rem) {
+  .co-layout { grid-template-columns: 2fr 1fr; }
+}
+.co-form,
+.co-summary,
+.co-variant {
+  background: #fff;
+  border: 1px solid #888;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.co-form { display: grid; gap: 1rem; }
+.co-choice {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid #888;
+  border-radius: 0.5rem;
+}
+.co-choice legend { font-weight: 600; padding: 0 0.25rem; }
+.co-choice p { margin: 0.35rem 0; }
+.co-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.5rem;
+  margin: 0;
+}
+.co-row label {
+  display: grid;
+  gap: 0.25rem;
+  font-weight: 600;
+}
+.co-summary ul {
+  list-style: none;
+  margin: 0 0 0.75rem;
+  padding: 0;
+}
+.co-summary li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #ddd;
+}
+.co-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin: 0.5rem 0;
+}
+.co-variants {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+@media (min-width: 48rem) {
+  .co-variants { grid-template-columns: 1fr 1fr; }
+}
+.co-skeleton {
+  height: 2.5rem;
+  margin: 0.5rem 0;
+  background: #e0e0e0;
+  border-radius: 0.375rem;
+}
+.co-error {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #b00020;
+  border-left-width: 0.375rem;
+  border-radius: 0.375rem;
+  background: #fdecea;
+}
