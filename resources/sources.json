@@ -9065,6 +9065,158 @@
    "type": "case study",
    "accessed": "2026-11-22",
    "notes": "Centralised search across verified shelters; trust indicators and source transparency; browsing without an account; filters by type, breed, age, size and organisation; a clear path to contact the organisation."
+  },
+  {
+   "title": "Booking for Someone Else: Proxy Bookings on AI Calls",
+   "url": "https://stage.nextlevel.ai/blog/booking-on-behalf-of-someone-else/",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-22",
+   "notes": "Proxy bookings keep the caller and the attendee apart: booker name and contact, relationship, attendee name, confirmation contact, on-the-day contact, and who may change or cancel, with the confirmation sent to the chosen contact."
+  },
+  {
+   "title": "Mobile: Booking on Behalf of Someone",
+   "url": "https://support.ricohspaces.app/en/articles/300696-mobile-booking-on-behalf-of-someone",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-22",
+   "notes": "Booking on behalf shows a banner while booking for another person, limits the choice to people the booker may book for, and places the booking in the other person's calendar."
+  },
+  {
+   "title": "SuperSaaS Act on Behalf Feature: A Complete Guide for Admins and Staff",
+   "url": "https://blog.supersaas.com/act_as",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-22",
+   "notes": "Staff act on behalf of customers under the customer's own login details, with the booking linked to the customer and a full overview of who each booking is for."
+  },
+  {
+   "title": "GreenCharge \u2014 EV Charging",
+   "url": "https://nikhiljadhav.com/work/GreenCharge",
+   "category": "patterns",
+   "type": "case study",
+   "accessed": "2026-11-22",
+   "notes": "Home charging scheduled by cost and emissions: a 24-hour forecast view, a departure time, charging parameters, and a preferred schedule sent to the vehicle."
+  },
+  {
+   "title": "Smart Tasks: Schedule EV Charging & Heating by a Deadline",
+   "url": "https://pels.barelysufficient.org/smart-tasks.html",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-22",
+   "notes": "A charging task names a device, a target battery level, and a ready-by time; the plan previews the scheduled periods and the estimated cost before the task is created."
+  },
+  {
+   "title": "Features \u00b7 Well Stockd",
+   "url": "https://www.wellstockd.com/features",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-22",
+   "notes": "Fridge, freezer, and pantry inventory with estimated expiry dates, a use-soon list, barcode and voice entry, and a shopping list that follows the kitchen."
+  },
+  {
+   "title": "Designing PantryPulse: Turning Forgotten Groceries into Effortless Meals",
+   "url": "https://medium.com/@fredslasher/designing-pantrypulse-turning-forgotten-groceries-into-effortless-meals-5d74ee784ed5",
+   "category": "patterns",
+   "type": "case study",
+   "accessed": "2026-11-22",
+   "notes": "One-tap shelf life by storage place with quick day adjustments, and recipe cards ranked by ingredient urgency with the ingredients on hand shown."
+  },
+  {
+   "title": "Case Study \u2014 Redesigning a Pregnancy App for Trust",
+   "url": "https://www.bmakanbi.com/case-study-pregnancy-app.html",
+   "category": "patterns",
+   "type": "case study",
+   "accessed": "2026-11-22",
+   "notes": "Forced sign-up walls, opaque data sharing, intrusive ads, and no pregnancy-loss path are the high-severity failures; guest access and a private way to end pregnancy mode are the fixes."
+  },
+  {
+   "title": "How to Develop a Women's Health Tracking App",
+   "url": "https://www.agnotic.com/blogs/how-to-develop-womens-health-tracking-app",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-22",
+   "notes": "Pregnancy replaces cycle predictions with a timeline from the due date; moving between life stages needs its own design, including ending pregnancy mode privately with content and reminders stopping at once."
+  },
+  {
+   "title": "Astryx design system",
+   "url": "https://github.com/meta/astryx",
+   "category": "resources",
+   "type": "reference",
+   "accessed": "2026-11-22",
+   "notes": "Open-source design system under the MIT licence: 150+ accessible components for React 19, seven ready-made themes with dark mode, ready-to-ship templates, and a CLI; currently in beta."
+  },
+  {
+   "title": "Carnival Cruise App: Book, Track & Manage Your Dream Cruise Effortlessly",
+   "url": "https://alaskacruisingandtours.com/carnival-cruise-app-book-track-manage-your-dream-cruise-effortlessly",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-22",
+   "notes": "Cruise booking and onboard companion: cabin and dining reservations, shore excursions, digital cruise card, daily planner, deck maps, linked travel party."
+  },
+  {
+   "title": "My Kind of Cruise",
+   "url": "https://apps.apple.com/gb/app/my-kind-of-cruise/id1577520217",
+   "category": "patterns",
+   "type": "reference",
+   "accessed": "2026-11-22",
+   "notes": "Cruise search and booking: dates, ports, ships and lines, cabin choice, quotes, excursions, documents and check-in, live booking countdown."
+  },
+  {
+   "title": "Simplifying Appointment Booking for Solo Pet Groomers",
+   "url": "https://john-buladaco.vercel.app/case-study/pawbook",
+   "category": "patterns",
+   "type": "case-study",
+   "accessed": "2026-11-22",
+   "notes": "Groomer booking flow: manual and message-based intake, one shared calendar, automated reminders, client and pet history, one-handed use."
+  },
+  {
+   "title": "Dog Grooming Apps: 7 Scheduling Tools Compared",
+   "url": "https://tryteddy.com/blog/7-best-dog-grooming-scheduling-apps",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-22",
+   "notes": "Grooming scheduling: request-based online booking, automated reminders, pet profiles, coat-aware durations, two-way messaging."
+  },
+  {
+   "title": "Best Volunteer Scheduling Software 2026: 6 Tools Compared",
+   "url": "https://hackceleration.com/labs/best/volunteer-scheduling-software",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-22",
+   "notes": "Volunteer shift scheduling: open shift publishing, swaps, reminders, check-in, no-account signup via one link, rest-time warnings."
+  },
+  {
+   "title": "Online Sign-up Sheets & Volunteer Scheduling, No Ads",
+   "url": "https://www.fieldcommandevents.com/volunteer-events",
+   "category": "patterns",
+   "type": "reference",
+   "accessed": "2026-11-22",
+   "notes": "Volunteer sign-up sheets: shifts with places left, sign up with others, no account, confirmation with calendar invite, reminder, check-in."
+  },
+  {
+   "title": "TalkTalk set up guide",
+   "url": "https://help-centre.talktalk.co.uk/Setting_up_my_service/New_order/TalkTalk_set_up_guide",
+   "category": "patterns",
+   "type": "reference",
+   "accessed": "2026-11-22",
+   "notes": "Broadband setup: self-install versus engineer visit, activation date, router light states, coverage check through a companion app."
+  },
+  {
+   "title": "Online Will Builder \u2014 7 Guided Document Types",
+   "url": "https://www.legacysuite.com/wills/will-builder",
+   "category": "patterns",
+   "type": "reference",
+   "accessed": "2026-11-22",
+   "notes": "Will drafting wizard: step registry sized to the document type, per-step validation, local-first saving, resume at the furthest step, plain review summary before generating the document."
+  },
+  {
+   "title": "Add a countdown timer to your store's checkout",
+   "url": "https://support.squarespace.com/hc/en-us/articles/46551637041293-Add-a-countdown-timer-to-your-store-s-checkout",
+   "category": "patterns",
+   "type": "reference",
+   "accessed": "2026-11-22",
+   "notes": "Timed cart hold: temporary item reservation with a countdown, stock returned to inventory on expiry, 5\u201320 minute windows."
   }
  ]
 }

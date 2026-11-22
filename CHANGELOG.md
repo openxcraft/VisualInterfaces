@@ -7,6 +7,31 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Worked examples: tablet and landing examples added under
+  `examples/tablet/` and `examples/landing/` (each a README, a working
+  page, and a stylesheet, all seven states shown), closing roadmap
+  actions 454 and 455 — the tablet example demonstrates width-band
+  navigation switching from bottom bar to rail to permanent drawer,
+  list-detail side by side at or above 600dp with a supporting pane at
+  roughly a 70/30 split at expanded widths, orientation-change continuity
+  and posture-aware foldable arrangements; the landing example
+  demonstrates an outcome-first hero with one primary action and a proof
+  point before the first scroll, decision-ordered sections, a three-field
+  lead form, and a compact sticky action bar. Roadmap: three new
+  improvement actions added (456 cruise booking, 457 pet grooming
+  appointment booking, 458 volunteer shift signup), ordered by coverage
+  impact, each a genuine gap with its source position stated; the cruise
+  action rests on a content-site guide and app-store listings, the
+  grooming action on a single-designer case study, a commissioned
+  comparison and a vendor blog, and the volunteer action on two
+  commissioned comparisons, a tool-builder page and a vendor page.
+  Coverage matrix updated (worked-examples row gains tablet and landing;
+  498 pattern rows; Full 509; Gap 62). 9 new source records (1152 total).
+
+- Component libraries: Astryx row added to `resources/libraries.md` — an open-source styled set under the MIT licence with 150+ accessible components, seven ready-made themes with dark mode, ready-to-ship templates, and a CLI; currently in beta. One new source record (1143 total).
+
+- Roadmap: duplicate pattern-row actions consolidated (447 superseded by 279 university admissions application, 450 superseded by 310 council tax payment and discount application, 451 superseded by 285 wedding registry and gift list, 452 superseded by 304 pet adoption application, 443 superseded by 373 water utility bill payment), each twin's unique points folded into the surviving action so no substance is lost; three new improvement actions added (453 book on behalf, 454 tablet worked example, 455 landing worked example), ordered by coverage impact, each a genuine gap with its source position stated; the book on behalf action rests on vendor help pages and a vendor proxy-booking guide, and the two worked-example actions close the tablet and landing example gaps. Coverage matrix unchanged (the book on behalf name already sits in the Gap column; 498 pattern rows; Full 509; Gap 62). 9 new source records (1142 total).
+
 - Roadmap: three new improvement actions added (450 council tax
   payment and discount application, 451 wedding registry and gift
   list, 452 pet adoption application), ordered by coverage impact,

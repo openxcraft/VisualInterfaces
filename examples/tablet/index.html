@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tablet Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="tablet-page">
+  <h1>Tablet — Worked example</h1>
+  <p class="ta-note">Placeholder entries stand in for real content. Resize the window across the 600dp and 840dp bands: navigation switches from a bottom bar to a rail to a permanent drawer, and the list joins its detail pane.</p>
+
+  <div class="ta-shell">
+    <nav class="ta-nav" aria-label="Sections">
+      <h2>Sections</h2>
+      <ul>
+        <li><a href="#ta-list" aria-current="true">List</a></li>
+        <li><a href="#ta-detail">Detail</a></li>
+        <li><a href="#ta-support">Supporting pane</a></li>
+        <li><a href="#ta-fold">Foldable posture</a></li>
+      </ul>
+    </nav>
+
+    <div class="ta-main">
+      <section class="ta-list" id="ta-list" aria-label="List">
+        <h2>List</h2>
+        <ul>
+          <li><a href="#ta-detail" aria-current="true">First entry — selected</a></li>
+          <li><a href="#ta-detail">Second entry</a></li>
+          <li><a href="#ta-detail">Third entry</a></li>
+        </ul>
+        <p class="ta-note">Below about 600dp this list is a full screen on its own; at or above it, the list and the detail sit side by side.</p>
+      </section>
+
+      <section class="ta-detail" id="ta-detail" aria-label="Detail">
+        <h2>Detail — first entry</h2>
+        <p>The detail for the selected entry. The supporting pane joins it at expanded widths at roughly a 70/30 split.</p>
+        <p class="ta-field">
+          <label>Note kept across orientation changes
+            <input type="text" value="Keep this note when the device rotates">
+          </label>
+        </p>
+        <p class="ta-note">Rotating, folding, or resizing preserves scroll position, entered input, and selection; the note above keeps its value.</p>
+        <p class="ta-field">
+          <button type="button">Save note</button>
+          <button type="button" disabled>Share entry</button>
+          <span class="ta-scope">Sharing stays unavailable until the entry is saved.</span>
+        </p>
+      </section>
+
+      <aside class="ta-support" id="ta-support" aria-label="Supporting pane">
+        <h2>Supporting pane</h2>
+        <p>Related facts for the selected entry: status, date, and the next step, kept beside the detail at expanded widths.</p>
+      </aside>
+    </div>
+  </div>
+
+  <section class="ta-fold" id="ta-fold" aria-label="Foldable posture">
+    <h2>Foldable posture — half-open, vertical fold</h2>
+    <p class="ta-note">The two halves act as left and right pages. The marked crease carries no interactive element, dialog, or text.</p>
+    <div class="ta-fold-halves">
+      <div class="ta-half">
+        <h3>Left page</h3>
+        <p>Viewing content for the selected entry.</p>
+        <p><button type="button">Open full detail</button></p>
+      </div>
+      <div class="ta-crease" aria-hidden="true">Crease — keep clear</div>
+      <div class="ta-half">
+        <h3>Right page</h3>
+        <p>Controls for the entry, kept on this side of the crease.</p>
+        <p><button type="button">Next entry</button></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ta-variants" aria-label="State variants">
+    <h2>State variants</h2>
+    <div class="ta-variant">
+      <h3>Loading — a detail pane</h3>
+      <p class="ta-skeleton" aria-hidden="true"></p>
+      <p class="ta-skeleton" aria-hidden="true"></p>
+      <p>The detail is loading; the pane keeps its size while it loads.</p>
+    </div>
+    <div class="ta-variant">
+      <h3>Empty — a list with no entries</h3>
+      <p>No entries yet. Add the first one to see it here.</p>
+      <p><button type="button">Add an entry</button></p>
+    </div>
+    <div class="ta-variant">
+      <h3>Error — detail did not load</h3>
+      <p class="ta-error">The detail did not load: the connection dropped. Navigation stays in place and your note is kept.</p>
+      <p><button type="button">Try loading again</button></p>
+    </div>
+    <div class="ta-variant">
+      <h3>Disabled — an action</h3>
+      <p><button type="button" disabled>Share entry</button></p>
+      <p>The action stays unavailable until the entry is saved, with the reason stated beside it.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>
