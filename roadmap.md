@@ -7169,6 +7169,55 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    needed before the row is written. Done when the row passes all
    quality gates.
 
+450. Add a council tax payment and discount application pattern
+    row to `catalog/patterns.md`: the bill states the band, the
+    yearly amount, and the instalment plan up front, eligibility
+    for each discount is checked before the application starts so
+    ineligible applicants are not asked for evidence, the
+    application runs as a signed-in self-service task with a
+    stated decision time, instalments already shown on the bill
+    stay payable while the application is assessed, a successful
+    application produces a revised bill with any refund stated,
+    and a change of circumstances carries a stated reporting duty
+    with its deadline and penalty — distinct from the government
+    citizen services portal row, which organises many services
+    into tasks, and from the water utility bill payment row, which
+    explains a metered bill with usage comparison. Sources so far
+    are council service pages only; a platform or standards
+    source is still needed before the row is written. Done when
+    the row passes all quality gates.
+
+451. Add a wedding registry and gift list pattern row to
+    `catalog/patterns.md`: gifts are shown as cards with price,
+    link, notes, and availability status, a guest reserves or
+    claims a gift so the same item is not bought twice, the list
+    is shared through one link with no account needed to view it,
+    the couple adds and edits items in short tasks across devices,
+    and a purchased gift stays visible as given with a thank-you
+    route attached — distinct from the gift option row, which adds
+    a gift message and wrapping to one purchase at checkout, and
+    from the shared shopping list row, which coordinates household
+    buying without reservations. Sources so far are a vendor
+    tutorial, an agency case study of one registry service, and a
+    single-designer project only; a platform or standards source
+    is still needed before the row is written. Done when the row
+    passes all quality gates.
+
+452. Add a pet adoption application pattern row to
+    `catalog/patterns.md`: browsing needs no account, each pet
+    profile states health records, vaccination status, and
+    availability beside the shelter's verification mark, filters
+    run on lifestyle and compatibility rather than looks alone, a
+    meet-and-greet is booked from the profile with its time and
+    place stated, and the steps, documents, and fees are explained
+    before the application is started so the applicant knows what
+    happens next — distinct from the veterinary appointment booking
+    row, which books a visit for a pet already owned, and from the
+    appointment management row, which tracks bookings already
+    made. Sources so far are single-designer case studies only; a
+    platform or standards source is still needed before the row is
+    written. Done when the row passes all quality gates.
+
 - Completed this review (deep editorial 2026-11-16): two new
   pattern rows in `catalog/patterns.md` — Age assurance flow and
   Museum timed-entry ticket booking — completing roadmap action
@@ -8875,3 +8924,37 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
   388, 389, 390, 391, 392, 393, 413, 423, 424, 425, 426, 427, 428,
   429, 430, 431, 432, 433, 434, 436, 437, 438, 439, 440, 441, 442,
   443, 444, 445, 446, 447, 448, 449.
+
+- Completed this review (daily planning 2026-11-22): no new pattern
+  rows — the five searches (new interface types and UI updates
+  November 2026, design-system component library releases November
+  2026, wedding registry and gift list, council tax payment and
+  discount application, pet adoption application) returned only
+  material already assessed, held, or below the source-quality bar
+  for a row, so no new rule. The November 2026 desktop
+  operating-system update stays closed as covered, with its
+  context-menu rule already published; the single-vendor dashboard
+  release and the single-developer game-authoring tool release are
+  already assessed as covered classes with no new pattern rule; the
+  design-system changelogs are already assessed as single-vendor
+  releases of covered component classes with no new pattern rule.
+  Three new improvement actions added (450 council tax payment and
+  discount application, 451 wedding registry and gift list, 452 pet
+  adoption application), ordered by coverage impact, each a genuine
+  gap with its source position stated; the council tax action rests
+  on council service pages, the registry action on a vendor
+  tutorial, an agency case study of one registry service, and a
+  single-designer project, and the pet adoption action on
+  single-designer case studies. The top improvement (450) still
+  needs a platform or standards source before the row is written,
+  so implementation stays with the deep cycle. 7 new source records
+  (1133 total). Coverage matrix unchanged (the three names already
+  sit in the Gap column; 498 pattern rows; Full 509; Gap 62). Open
+  actions after this review: 279, 285, 287, 288, 290, 291, 294, 297,
+  299, 301, 302, 303, 304, 305, 307, 308, 309, 310, 313, 314, 315,
+  318, 327, 328, 329, 330, 331, 332, 333, 336, 343, 344, 349, 350,
+  352, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366,
+  367, 368, 369, 370, 372, 373, 374, 375, 377, 378, 381, 382, 384,
+  385, 386, 387, 388, 389, 390, 391, 392, 393, 413, 423, 424, 425,
+  426, 427, 428, 429, 430, 431, 432, 433, 434, 436, 437, 438, 439,
+  440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452.

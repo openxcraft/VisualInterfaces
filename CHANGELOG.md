@@ -7,6 +7,19 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Roadmap: three new improvement actions added (450 council tax
+  payment and discount application, 451 wedding registry and gift
+  list, 452 pet adoption application), ordered by coverage impact,
+  each a genuine gap with its source position stated; the council
+  tax action rests on council service pages, the registry action
+  on a vendor tutorial, an agency case study of one registry
+  service, and a single-designer project, and the pet adoption
+  action on single-designer case studies, with a platform or
+  standards source still needed before any of the three rows is
+  written. Coverage matrix unchanged by the actions (the three
+  names already sit in the Gap column). 7 new source records
+  (1133 total).
+
 - Multiplayer game lobby and matchmaking: new pattern row in
   `catalog/patterns.md` — matchmaking gathers players and the lobby
   coordinates them before play, with named lobby states

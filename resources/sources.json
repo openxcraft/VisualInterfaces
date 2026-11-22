@@ -440,7 +440,7 @@
    "category": "trends",
    "type": "reading-list",
    "accessed": "2026-10-22",
-   "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered — content revealed by scroll position must remain available to them rather than gated behind scroll alone."
+   "notes": "Reading list covering scroll-triggered animation as the missing piece for scrollytelling on the web; the substantive rule is that users relying on assistive technology such as screen readers must be considered \u2014 content revealed by scroll position must remain available to them rather than gated behind scroll alone."
   },
   {
    "title": "Design Trends That Will Influence Extensions in 2026",
@@ -448,7 +448,7 @@
    "category": "interfaces",
    "type": "article",
    "accessed": "2026-10-22",
-   "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay — a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
+   "notes": "Design trends for browser extensions in 2026: the classic popup-centric model is giving way to the inline overlay \u2014 a floating panel anchored to the cursor or a page element, behaving as part of the page interface. Rules: anchor to cursor/element not the toolbar, show results next to their source, cheap dismissal returning focus to the anchor, web component with closed shadow root preferred over iframes for focus and keyboard reasons, handle shadow DOM/z-index/scroll on arbitrary host pages, size to content, full keyboard access."
   },
   {
    "title": "Validation gate for generated interface trees",
@@ -1456,7 +1456,7 @@
    "category": "states",
    "type": "article",
    "accessed": "2026-10-23",
-   "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters — corroborates pre-populated suggestion states that disclose their nature."
+   "notes": "Ambient adaptation with visible, reversible, explainable change indicators; confidence indicators for outputs where factual accuracy matters \u2014 corroborates pre-populated suggestion states that disclose their nature."
   },
   {
    "title": "The Empty State Is Your Best Growth Surface and Nobody Designs It",
@@ -1928,7 +1928,7 @@
    "category": "patterns",
    "type": "article",
    "accessed": "2026-10-25",
-   "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type — free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
+   "notes": "Point-by-point chart explorer entered from the plot area: arrow keys move between data points, legend selection, zoom and search stay keyboard-reachable, the focused region stays visible when zoomed, and movement geometry follows chart type \u2014 free for scatter plots and maps, along one axis and within series for line, area and stacked charts, along the horizontal axis only for waterfall, small-multiple and grouped-column charts."
   },
   {
    "title": "Paywall trial-offer guidance",
@@ -3552,7 +3552,7 @@
    "category": "patterns",
    "type": "article",
    "accessed": "2026-10-31",
-   "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain — full price or deposit with the balance due on release — and manage expectations with updates when dates change."
+   "notes": "Preorder product pages state the release date and shipping timeline beside a distinct preorder action, keep payment terms plain \u2014 full price or deposit with the balance due on release \u2014 and manage expectations with updates when dates change."
   },
   {
    "title": "Tooltip best practices: remove friction, guide users",
@@ -4627,7 +4627,7 @@
    "notes": "Focus mode schedules: named modes per activity with their own allowlists of people and apps, schedules by time, location, or app launch with days stated, a visible state while on, an automatic reply to senders, sync across devices, and separate exception lists per mode so a mode that allows everything is a label rather than a boundary."
   },
   {
-   "title": "Toggle UX: switch, toggle button or checkbox — how to pick",
+   "title": "Toggle UX: switch, toggle button or checkbox \u2014 how to pick",
    "url": "https://uxpickle.com/effective-toggle-buttons/",
    "category": "primitives",
    "type": "article",
@@ -4683,7 +4683,7 @@
    "notes": "Bottom tab bar or a row under the header over a hidden burger; open menu puts search first, large rows, contacts at the bottom; header hides on scroll down and returns slimmer on scroll up; breadcrumbs shrink to one step back on a phone."
   },
   {
-   "title": "Your CAPTCHA Might Violate WCAG 2.2 — Here's What an Accessible Alternative Looks Like",
+   "title": "Your CAPTCHA Might Violate WCAG 2.2 \u2014 Here's What an Accessible Alternative Looks Like",
    "url": "https://www.wcag.world/blog/captcha-accessible-alternatives-wcag",
    "category": "patterns",
    "type": "article",
@@ -4912,7 +4912,7 @@
    "category": "patterns",
    "type": "guide",
    "accessed": "2026-11-06",
-   "notes": "Notification inbox triage: read, done, and following are separate dimensions — reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
+   "notes": "Notification inbox triage: read, done, and following are separate dimensions \u2014 reading never resolves, done removes from the active queue without changing read state, following controls future updates; badge counts unread threads in the active queue excluding done items; unsubscribe consequences stated plainly."
   },
   {
    "title": "Activity rings are harder to read than bar charts",
@@ -5075,12 +5075,12 @@
    "notes": "Revised 2026 safety-rating protocols require physical controls for indicators, wipers, hazard lights, horn, and emergency call; touchscreen-only cars score poorly on primary driving controls; physical controls allow operation without extended attention away from the road."
   },
   {
-   "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them — Guidelines 03/2022, version 2.0",
+   "title": "Deceptive design patterns in social media platform interfaces: how to recognise and avoid them \u2014 Guidelines 03/2022, version 2.0",
    "url": "https://www.datenschutzstelle.li/download_file/view/804/403",
    "category": "patterns",
    "type": "guidelines",
    "accessed": "2026-11-07",
-   "notes": "Six deceptive design pattern categories — overloading, skipping, stirring, obstructing, fickle, left in the dark — with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
+   "notes": "Six deceptive design pattern categories \u2014 overloading, skipping, stirring, obstructing, fickle, left in the dark \u2014 with concrete examples per use case and best practices: objective neutral presentation, least invasive option as the default, shortcuts and bulk options to data settings."
   },
   {
    "title": "Criteria for websites (from end of 2026)",
@@ -5112,7 +5112,7 @@
    "category": "patterns",
    "type": "guidance",
    "accessed": "2026-11-07",
-   "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon — the common positions on cookie banner practices."
+   "notes": "Adopted 17 January 2023: no reject option on the first layer, pre-ticked boxes, reject as a link without visual support, deceptive button colours and contrast, a basis other than consent claimed for cookie purposes, inaccurately classified essential cookies, and no withdraw icon \u2014 the common positions on cookie banner practices."
   },
   {
    "title": "Public Charge Point Regulations 2023 guidance",
@@ -5363,7 +5363,7 @@
    "notes": "One-tap bid for the next step above the current price; a maximum bid that bids in steps up to the stated cap and never past it; a sudden-death clock that tops back up on every bid and drops to 5 seconds at last call; the server clock decides the winner; every bid is a binding offer to buy."
   },
   {
-   "title": "How to Run an Online Auction — Complete Operator's Guide",
+   "title": "How to Run an Online Auction \u2014 Complete Operator's Guide",
    "url": "https://www.auction-rabbit.com/en/auction-system/operations/how-to-run-an-online-auction",
    "category": "patterns",
    "type": "guide",
@@ -5680,10 +5680,10 @@
    "category": "patterns",
    "type": "documentation",
    "accessed": "2026-11-10",
-   "notes": "Government guidance for landlords on rental listings: informative listings answering the renter's questions, photos of every room, pre-screening, and the essentials of a tenant application — verifiable income and employment, references, identification shown but not copied, credit check only with written approval — with the same documented criteria for every applicant."
+   "notes": "Government guidance for landlords on rental listings: informative listings answering the renter's questions, photos of every room, pre-screening, and the essentials of a tenant application \u2014 verifiable income and employment, references, identification shown but not copied, credit check only with written approval \u2014 with the same documented criteria for every applicant."
   },
   {
-   "title": "Rules of Operation — rental agencies",
+   "title": "Rules of Operation \u2014 rental agencies",
    "url": "https://codelibrary.amlegal.com/codes/cleveland/latest/cleveland_oh/0-0-0-37349",
    "category": "patterns",
    "type": "documentation",
@@ -5699,7 +5699,7 @@
    "notes": "Regulator guide to making an insurance claim: notify as soon as practical, ask what is needed, how much time there is to file, and how long processing takes; claim reference number; acknowledgement within three working days; assessor visit within three working days; settlement windows by claim size."
   },
   {
-   "title": "Getting ready for Self Assessment — a 10 point step-by-step guide",
+   "title": "Getting ready for Self Assessment \u2014 a 10 point step-by-step guide",
    "url": "https://www.gov.uk/government/publications/submit-your-self-assessment-tax-return-early/top-tips-for-filing-your-tax-return",
    "category": "patterns",
    "type": "documentation",
@@ -6096,7 +6096,7 @@
    "category": "patterns",
    "type": "paper",
    "accessed": "2026-11-11",
-   "notes": "Peer-reviewed analysis of how interfaces mediate access to public benefits: a five-fold typology of interface design elements in the benefits context — structuring data input, interaction architecture, operative controls, prompting and priming, and integrations."
+   "notes": "Peer-reviewed analysis of how interfaces mediate access to public benefits: a five-fold typology of interface design elements in the benefits context \u2014 structuring data input, interaction architecture, operative controls, prompting and priming, and integrations."
   },
   {
    "title": "Practitioner and Litigant Guide to Electronic Hearings",
@@ -6296,7 +6296,7 @@
    "category": "patterns",
    "type": "guidance",
    "accessed": "2026-11-12",
-   "notes": "Platform design-system pattern guidance, checked November 2026: contact a GP surgery online through a form or questionnaire; two routes — describe a health problem and receive the practice's decision on the next step, or book a directly available slot where the practice offers one; label the problem route by what the person does; replies arrive in the messages area; document requests sit in the same entry point; availability depends on the person's own practice."
+   "notes": "Platform design-system pattern guidance, checked November 2026: contact a GP surgery online through a form or questionnaire; two routes \u2014 describe a health problem and receive the practice's decision on the next step, or book a directly available slot where the practice offers one; label the problem route by what the person does; replies arrive in the messages area; document requests sit in the same entry point; availability depends on the person's own practice."
   },
   {
    "title": "Learning analytics dashboards and student commitment in a large online course",
@@ -6584,7 +6584,7 @@
    "category": "patterns",
    "type": "report",
    "accessed": "2026-11-12",
-   "notes": "Public-health report on vaccine credential design criteria: a scannable code as the quickest verification, privacy through codes that need not be human-readable, the code prominent for fast access, and three presentation scenarios — scanned at an establishment, scanned from a printed code, and additional information beyond the code."
+   "notes": "Public-health report on vaccine credential design criteria: a scannable code as the quickest verification, privacy through codes that need not be human-readable, the code prominent for fast access, and three presentation scenarios \u2014 scanned at an establishment, scanned from a printed code, and additional information beyond the code."
   },
   {
    "title": "Self-service terminals and kiosks",
@@ -6800,7 +6800,7 @@
    "category": "patterns",
    "type": "guide",
    "accessed": "2026-11-13",
-   "notes": "Platform design guidance for media apps: the playback view and the queue — show thumbnails, a now-playing indicator and previously played items in the queue, keep custom actions consistent, and use text at the largest readable size inside icons."
+   "notes": "Platform design guidance for media apps: the playback view and the queue \u2014 show thumbnails, a now-playing indicator and previously played items in the queue, keep custom actions consistent, and use text at the largest readable size inside icons."
   },
   {
    "title": "Playback view",
@@ -6840,7 +6840,7 @@
    "category": "patterns",
    "type": "guidance",
    "accessed": "2026-11-13",
-   "notes": "A bank may discuss the underlying facts of a suspicious transaction — dates, amounts, parties — with the customer, notify them that a delay, limitation, restriction or closure may relate to suspected fraud, ask about the purpose of a transaction or the source of funds, and provide fraud warnings; it must never reveal that a report exists or that a transaction has been reported."
+   "notes": "A bank may discuss the underlying facts of a suspicious transaction \u2014 dates, amounts, parties \u2014 with the customer, notify them that a delay, limitation, restriction or closure may relate to suspected fraud, ask about the purpose of a transaction or the source of funds, and provide fraud warnings; it must never reveal that a report exists or that a transaction has been reported."
   },
   {
    "title": "Draft Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Third Amendment Directions, 2026",
@@ -6848,7 +6848,7 @@
    "category": "patterns",
    "type": "guidance",
    "accessed": "2026-11-13",
-   "notes": "Draft directions, March 2026, to apply from 1 July 2026: instant text alerts for electronic transactions above ₹500 and email alerts wherever an address is held, in addition to push alerts; a number to text an objection to, carried in the alert itself; round-the-clock multi-channel fraud reporting; immediate acknowledgement with a complaint number and timestamp; immediate steps to prevent further unauthorised transactions; a response within 30 days including reversal details."
+   "notes": "Draft directions, March 2026, to apply from 1 July 2026: instant text alerts for electronic transactions above \u20b9500 and email alerts wherever an address is held, in addition to push alerts; a number to text an objection to, carried in the alert itself; round-the-clock multi-channel fraud reporting; immediate acknowledgement with a complaint number and timestamp; immediate steps to prevent further unauthorised transactions; a response within 30 days including reversal details."
   },
   {
    "title": "Building a patient portal for secondary care bookings",
@@ -7032,7 +7032,7 @@
    "category": "patterns",
    "type": "guide",
    "accessed": "2026-11-14",
-   "notes": "Cycle apps collect cycle dates, symptoms, moods, sexual activity, pregnancy status and test results; the 2024 amendments to the Health Breach Notification Rule name fertility and sexual health apps explicitly, and treat an unauthorised disclosure — including health data passed to analytics or advertising kits — as a breach; data kept only on the device or end-to-end encrypted is reachable mainly through the device."
+   "notes": "Cycle apps collect cycle dates, symptoms, moods, sexual activity, pregnancy status and test results; the 2024 amendments to the Health Breach Notification Rule name fertility and sexual health apps explicitly, and treat an unauthorised disclosure \u2014 including health data passed to analytics or advertising kits \u2014 as a breach; data kept only on the device or end-to-end encrypted is reachable mainly through the device."
   },
   {
    "title": "App Store Guideline 5.1.3: No Health Data for Ads or iCloud",
@@ -7043,7 +7043,7 @@
    "notes": "Quotes the platform review guideline for health data: health, fitness, and medical data may not be used or disclosed to third parties for advertising, marketing, or other use-based data mining; false or inaccurate data must not be written into the health store; personal health information must not be stored in the cloud; the specific health data collected from the device must be disclosed."
   },
   {
-   "title": "Priority Pass — airport lounge membership app redesign",
+   "title": "Priority Pass \u2014 airport lounge membership app redesign",
    "url": "https://www.alexpoyzer.com/work/priority-pass",
    "category": "patterns",
    "type": "study",
@@ -7056,7 +7056,7 @@
    "category": "patterns",
    "type": "reference",
    "accessed": "2026-11-14",
-   "notes": "Documents the wallet pass field model — header, primary, secondary, and auxiliary fields — and the platform pass design guides: a generic pass suits membership cards and access badges, a store card suits loyalty and gift cards; passes show relevance information on the lock screen and support QR, Aztec, and barcode formats."
+   "notes": "Documents the wallet pass field model \u2014 header, primary, secondary, and auxiliary fields \u2014 and the platform pass design guides: a generic pass suits membership cards and access badges, a store card suits loyalty and gift cards; passes show relevance information on the lock screen and support QR, Aztec, and barcode formats."
   },
   {
    "title": "Enroll in the Visa Airport Companion program",
@@ -7075,12 +7075,12 @@
    "notes": "The open standard's thermostat cluster: local temperature, setpoint limits, system mode, running mode, start of week, setpoint hold duration, programming operation mode, setpoint presets, events, and enhanced schedules; mandatory for thermostat device types."
   },
   {
-   "title": "Simplifying smart temperature control — Nest thermostat redesign",
+   "title": "Simplifying smart temperature control \u2014 Nest thermostat redesign",
    "url": "https://www.yczhang.design/work/nest-thermostat",
    "category": "patterns",
    "type": "study",
    "accessed": "2026-11-14",
-   "notes": "Redesign of a thermostat ecosystem: one target temperature with the system choosing heat or cool, no separate heating and cooling thresholds; system state — current temperature, active mode, eco status — first in the hierarchy; a vertical schedule timeline replacing a horizontal drag timeline; named schedule events applied across days; the same interaction logic on the wall device and the phone."
+   "notes": "Redesign of a thermostat ecosystem: one target temperature with the system choosing heat or cool, no separate heating and cooling thresholds; system state \u2014 current temperature, active mode, eco status \u2014 first in the hierarchy; a vertical schedule timeline replacing a horizontal drag timeline; named schedule events applied across days; the same interaction logic on the wall device and the phone."
   },
   {
    "title": "Matter Protocol and HVAC: How the Universal Smart Home Standard Connects Thermostats, Sensors, and HVAC Systems",
@@ -7243,7 +7243,7 @@
    "notes": "Pointer targets at least 24 by 24 CSS pixels, text contrast at least 4.5:1, text resizable to 200%, and time limits that can be extended or warned about."
   },
   {
-   "title": "Digital Services Act, Article 27 — Recommender system transparency",
+   "title": "Digital Services Act, Article 27 \u2014 Recommender system transparency",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2065&qid=1689564975388",
    "category": "patterns",
    "type": "regulation",
@@ -7259,7 +7259,7 @@
    "notes": "Separate child account in a family group, age-based defaults, approval flows for apps, purchases and websites decided from the guardian's own device, allowed and blocked lists, time allowances per app category, school, weekday and weekend schedules with a pause control, content restrictions by age rating, and a passcode gating settings changes."
   },
   {
-   "title": "Age Appropriate Design: A Code of Practice for Online Services — Code standards",
+   "title": "Age Appropriate Design: A Code of Practice for Online Services \u2014 Code standards",
    "url": "http://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/code-standards/",
    "category": "patterns",
    "type": "guidelines",
@@ -7275,7 +7275,7 @@
    "notes": "Property for sale or lease is a product, so a listing with a price is an invitation to purchase; omitting material information is always unfair, the total price must include all mandatory charges with drip pricing prohibited, and fake reviews and misuse of trust marks are banned in all circumstances."
   },
   {
-   "title": "DoorLock trait — Matter standard reference",
+   "title": "DoorLock trait \u2014 Matter standard reference",
    "url": "https://developers.home.google.com/reference/kotlin/com/google/home/matter/standard/DoorLockTrait.Feature",
    "category": "patterns",
    "type": "reference",
@@ -7323,7 +7323,7 @@
    "notes": "Ride pooling permitted for riders travelling along the same route, passengers may choose to pool only with other women, cancellation without valid reason incurs a penalty of 10% of the fare capped at Rs. 100, and apps must offer live location sharing and 24x7 call centres."
   },
   {
-   "title": "Maharashtra aggregator policy — carpooling recognition",
+   "title": "Maharashtra aggregator policy \u2014 carpooling recognition",
    "url": "http://indianexpress.com/article/cities/mumbai/maharashtra-implements-aggregator-policy-mandates-licensing-fare-safeguards-10790068/",
    "category": "patterns",
    "type": "article",
@@ -7331,7 +7331,7 @@
    "notes": "Gives legal recognition to carpooling, allows cost-sharing among passengers, and prohibits private vehicle owners from earning a profit."
   },
   {
-   "title": "Human Interface Guidelines — Materials",
+   "title": "Human Interface Guidelines \u2014 Materials",
    "url": "https://developer.apple.com/design/human-interface-guidelines",
    "category": "primitives",
    "type": "guidance",
@@ -7547,7 +7547,7 @@
    "notes": "Vendor account of smart washer control: remote start and pause, live cycle monitoring, saved custom programmes, finish-by scheduling in off-peak hours, completion and maintenance notices."
   },
   {
-   "title": "Washing Machine User Manual — Remote Control Function",
+   "title": "Washing Machine User Manual \u2014 Remote Control Function",
    "url": "https://manualstech.ams3.cdn.digitaloceanspaces.com/html/nl/grundig/gwpe-89e6168-ww/html/gwpe-89e6168-ww32.page",
    "category": "patterns",
    "type": "documentation",
@@ -7736,7 +7736,7 @@
    "category": "patterns",
    "type": "guidance",
    "accessed": "2026-11-17",
-   "notes": "Season ticket terms: refund from the retailer on surrender, worked out as price paid minus the cost of tickets for the period used, administration charge of no more than £10, at least seven days remaining on a monthly or longer ticket or three days on a 7-day ticket, annual tickets with no refund value after 10 months and 12 days, Flexi refunds within the 28-day validity period."
+   "notes": "Season ticket terms: refund from the retailer on surrender, worked out as price paid minus the cost of tickets for the period used, administration charge of no more than \u00a310, at least seven days remaining on a monthly or longer ticket or three days on a 7-day ticket, annual tickets with no refund value after 10 months and 12 days, Flexi refunds within the 28-day validity period."
   },
   {
    "title": "Send money (P2P)",
@@ -7891,7 +7891,7 @@
    "notes": "Trading-standards guidance: ticket price includes non-optional charges; timings, locations and seat numbers before purchase; restricted views flagged before purchase; transfer and entry terms stated before purchase."
   },
   {
-   "title": "Common rules promoting the repair of goods — Directive (EU) 2024/1799 summary",
+   "title": "Common rules promoting the repair of goods \u2014 Directive (EU) 2024/1799 summary",
    "url": "https://eur-lex.europa.eu/EN/legal-content/summary/common-rules-promoting-the-repair-of-goods-and-amending-related-eu-legislation.html",
    "category": "patterns",
    "type": "guidance",
@@ -7899,7 +7899,7 @@
    "notes": "Standardised repair information form (repairer, work, cost, time) given free before a repair contract is signed and valid at least 30 days; duty to repair at a reasonable price within a reasonable time; guarantee extended by 12 months where repair is the remedy."
   },
   {
-   "title": "Consumer Rights Act 2015, section 23 — Right to repair or replacement",
+   "title": "Consumer Rights Act 2015, section 23 \u2014 Right to repair or replacement",
    "url": "https://www.legislation.gov.uk/ukpga/2015/15/section/23/2016-12-28/data.html",
    "category": "patterns",
    "type": "guidance",
@@ -7907,7 +7907,7 @@
    "notes": "Repair within a reasonable time and without significant inconvenience, with the trader bearing labour, materials and postage costs."
   },
   {
-   "title": "Ecodesign Regulations 2021, Schedule 6 — household dishwashers",
+   "title": "Ecodesign Regulations 2021, Schedule 6 \u2014 household dishwashers",
    "url": "https://www.legislation.gov.uk/uksi/2021/745/schedule/6/made?view=plain",
    "category": "patterns",
    "type": "guidance",
@@ -8243,7 +8243,7 @@
    "notes": "Decision-ready profile cards, thumb-friendly like and pass actions, brief match celebration with one next step, empty states with next steps, and safety actions within one or two taps."
   },
   {
-   "title": "Best Dating App Designs 2026 — UI & UX Patterns",
+   "title": "Best Dating App Designs 2026 \u2014 UI & UX Patterns",
    "url": "https://gummble.com/blog/best-dating-app-designs-2026",
    "category": "patterns",
    "type": "article",
@@ -8923,15 +8923,15 @@
    "notes": "Home feed controls announced 12 November 2026: removing a tile or a Recents item clears that section only and does not change future recommendations, while the expanded 'Not interested' control asks for less from specific shows or authors and feeds into what is recommended next."
   },
   {
-   "title": "October 28, 2026 — KB5127936 (OS Builds 26300.9818 and 26200.9818) Preview",
+   "title": "October 28, 2026 \u2014 KB5127936 (OS Builds 26300.9818 and 26200.9818) Preview",
    "url": "https://support.microsoft.com/en-au/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update",
    "category": "patterns",
    "type": "release-notes",
    "accessed": "2026-11-21",
-   "notes": "Platform release notes, October 2026 preview: a faster, simpler, customisable context menu — built-in commands switched on or off, hidden commands added, third-party extensions placed in the main menu or a submenu, common commands shown as text instead of icons; a modernised device-connection dialog with dark mode, text scaling, and notifications kept in the notification centre; per-monitor magnification zoom with viewport locking and a contrast theme toggle; cloud rebuild reinstalling from a downloaded image with a data-loss confirmation and a choice to remove or sanitise files."
+   "notes": "Platform release notes, October 2026 preview: a faster, simpler, customisable context menu \u2014 built-in commands switched on or off, hidden commands added, third-party extensions placed in the main menu or a submenu, common commands shown as text instead of icons; a modernised device-connection dialog with dark mode, text scaling, and notifications kept in the notification centre; per-monitor magnification zoom with viewport locking and a contrast theme toggle; cloud rebuild reinstalling from a downloaded image with a data-loss confirmation and a choice to remove or sanitise files."
   },
   {
-   "title": "November 10, 2026 — KB5132061 (OS Builds 26300.9974, 26200.9974 and 26100.9974)",
+   "title": "November 10, 2026 \u2014 KB5132061 (OS Builds 26300.9974, 26200.9974 and 26100.9974)",
    "url": "https://support.microsoft.com/en-us/servicing/os/windows-11/2026/11/kb5132061-windows-11-24h2-25h2-26h2-security-update",
    "category": "patterns",
    "type": "release-notes",
@@ -9000,7 +9000,7 @@
    "category": "patterns",
    "type": "article",
    "accessed": "2026-11-22",
-   "notes": "Lobby as a state machine — assembling, staging, queued, launching — with explicit error states and rollback at every transition; party formation by invite and join-by-code; keeping the party together across queue transitions."
+   "notes": "Lobby as a state machine \u2014 assembling, staging, queued, launching \u2014 with explicit error states and rollback at every transition; party formation by invite and join-by-code; keeping the party together across queue transitions."
   },
   {
    "title": "Matchmaking and lobby systems",
@@ -9009,6 +9009,62 @@
    "type": "article",
    "accessed": "2026-11-22",
    "notes": "Matchmaking flow from queue to lobby: mode choice, search, match found, lobby creation, preparation, ready check, and match start; queue, matchmaker, lobby, and session components."
+  },
+  {
+   "title": "Council Tax",
+   "url": "https://www.worcester.gov.uk/council-tax",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-22",
+   "notes": "Single person discount at 25% with an online application; e-billing sign-up; discounts, exemptions and support listed beside the bill, with email and text used for bills and reminders."
+  },
+  {
+   "title": "Council Tax",
+   "url": "https://www.staffordbc.gov.uk/council-tax",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-22",
+   "notes": "Self-service account for discounts, exemptions, moving address, e-billing and evidence upload; single person discount and low-income reduction with the application routes stated."
+  },
+  {
+   "title": "Claim a Council Tax discount or exemption",
+   "url": "https://www.somerset.gov.uk/council-tax/claim-a-council-tax-discount-or-exemption/",
+   "category": "patterns",
+   "type": "guide",
+   "accessed": "2026-11-22",
+   "notes": "Online discount and exemption applications with a secure account; balance, bills and recent payments visible; keep paying current instalments while the application is assessed; revised bill and refund where the application succeeds."
+  },
+  {
+   "title": "Build an interactive gift wishlist",
+   "url": "https://www.hostinger.com/in/tutorials/create-interactive-gift-wishlist/",
+   "category": "patterns",
+   "type": "tutorial",
+   "accessed": "2026-11-22",
+   "notes": "Gift cards with price, link, notes and availability status; reserve, claim and purchased states so guests coordinate and duplicates are reduced; one shareable link."
+  },
+  {
+   "title": "Customer interviews drove a UX strategy for wedding planning",
+   "url": "https://everydayindustries.com/casestudy/zola/?pg=2",
+   "category": "patterns",
+   "type": "case study",
+   "accessed": "2026-11-22",
+   "notes": "Registry and planning work happens in short tasks across devices through the day; a single home for registry, guest list and website with a clear hierarchy of the most-used tasks and in-line guidance for building the registry."
+  },
+  {
+   "title": "FurEver \u2014 pet adoption platform",
+   "url": "https://www.yjlong.com/ux-design/furever",
+   "category": "patterns",
+   "type": "case study",
+   "accessed": "2026-11-22",
+   "notes": "Verified shelters, health records and vaccination status shown early; lifestyle and compatibility filters; meet-and-greet scheduling; the documents and adoption steps explained before the user commits."
+  },
+  {
+   "title": "Adopt, don't scroll",
+   "url": "https://www.billiaspinwall.com/projects/adopt-don-t-scroll/adopt-don-t-scroll",
+   "category": "patterns",
+   "type": "case study",
+   "accessed": "2026-11-22",
+   "notes": "Centralised search across verified shelters; trust indicators and source transparency; browsing without an account; filters by type, breed, age, size and organisation; a clear path to contact the organisation."
   }
  ]
 }
