@@ -7,6 +7,32 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Multiplayer game lobby and matchmaking: new pattern row in
+  `catalog/patterns.md` — matchmaking gathers players and the lobby
+  coordinates them before play, with named lobby states
+  (assembling, staging, queued, launching), a ready check with a
+  stated response time, owner removal and matchmaking replacement
+  of players who do not confirm, party formation by invite and
+  join-by-code with the party kept together across queue
+  transitions, replacement of disconnected players through
+  matchmaking, and return to the lobby after the match. Coverage
+  matrix updated (one row to Full; pattern rows re-based on a
+  direct count of table data rows, 498 after this review, where
+  earlier notes carried 505; Full 509; Gap 62). Three new source
+  records (1126 total).
+
+- Roadmap: three new improvement actions added (447 university
+  admissions application, 448 airport self-service bag drop, 449
+  home broadband installation and router setup), ordered by
+  coverage impact, each a genuine gap with its source position
+  stated; the university admissions action rests on a
+  single-designer case study and agency guides, the bag drop
+  action on vendor product pages, and the broadband action on a
+  vendor setup guide and content blogs, with a platform or
+  standards source still needed before any of the three rows is
+  written. Coverage matrix unchanged by the actions (the three
+  names already sit in the Gap column).
+
 - Roadmap: three new improvement actions added (444 medication
   refill eligibility, 445 smart baby monitor alert triage, 446 prize
   draw transparency), ordered by coverage impact, each a genuine gap
@@ -584,6 +610,9 @@ version, with Added, Changed, and Fixed sections where they apply.
   Gap 49). No new source records.
 
 ### Fixed
+
+- Loyalty rewards: fixed a missing closing table cell in
+  `catalog/patterns.md` — the row ended without its final pipe.
 
 - Source records: `resources/sources.json` rebuilt from the
   published branch (963 records) after a local loss, with the 10

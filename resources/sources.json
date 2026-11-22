@@ -1,6 +1,6 @@
 {
  "version": "0.1.0",
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "sources": [
   {
    "title": "Design trends overview for 2026",
@@ -8985,6 +8985,30 @@
    "type": "guidance",
    "accessed": "2026-11-21",
    "notes": "Transport-department bulletin announcing the new driving test booking rules in effect: booking through a third party is against the law, only the learner books and manages their own test, online access can be restricted where licence details are misused, and instructors can set the times they are available so learners are not shown times they cannot attend."
+  },
+  {
+   "title": "Use lobby and matchmaking together",
+   "url": "https://docs.xbox.com/services/playfab/multiplayer/lobby/lobby-and-matchmaking",
+   "category": "patterns",
+   "type": "guidance",
+   "accessed": "2026-11-22",
+   "notes": "Platform multiplayer documentation: matchmaking gathers players looking for a game and the lobby gives them a place to coordinate before play; arranged lobbies, a ready check with a stated response time, removal and replacement of players who do not confirm, backfill for a player who disconnects, and return to the lobby after the match."
+  },
+  {
+   "title": "Multiplayer lobby systems: party management, host migration, and more",
+   "url": "https://www.multiplayguide.com/blog/multiplayer-lobby-systems-party-management/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-22",
+   "notes": "Lobby as a state machine — assembling, staging, queued, launching — with explicit error states and rollback at every transition; party formation by invite and join-by-code; keeping the party together across queue transitions."
+  },
+  {
+   "title": "Matchmaking and lobby systems",
+   "url": "https://gamineai.com/courses/multiplayer-battle-royale/lessons/lesson-9-matchmaking-lobby-systems",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-22",
+   "notes": "Matchmaking flow from queue to lobby: mode choice, search, match found, lobby creation, preparation, ready check, and match start; queue, matchmaker, lobby, and session components."
   }
  ]
 }
