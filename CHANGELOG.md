@@ -7,6 +7,64 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Four new pattern rows added to `catalog/patterns.md` — Agent run
+  controls, Recommendation feedback, Note-taking app, and Job search
+  discovery — completing roadmap actions 465 and 466; the overflow
+  menu row extended with a one-action restore to the earlier layout,
+  completing action 463; the electric vehicle charging session row
+  extended with plug-and-charge rules, and the audiobook library app
+  row extended with cross-device position sync, with the podcast app
+  playback interface row pointing to the same rules.
+
+- Worked examples: automotive example added under
+  `examples/automotive/`, demonstrating the driver-state adaptation
+  rules, glanceable controls sized for the current task,
+  emphasis-only change under load, and all seven states, completing
+  roadmap action 464.
+
+- Roadmap: three new improvement actions added (468 app-free parking
+  checkout, 469 real-estate map keyboard rules, 470 EN 301 549
+  citation re-check), ordered by coverage impact, each a genuine gap
+  with its source position stated; the app-free checkout action rests
+  on five convergent vendor pages, the map keyboard action on a
+  vendor component page and an accessibility guide grounding the rules
+  in WCAG criteria, and the citation action on the trackers already
+  recorded. The Section 504 paragraph in
+  `trends/2026/standards-outlook.md` refreshed to record that the
+  comment period closed 6 July 2026 and the extension faces a court
+  challenge. The EN 301 549 citation date was re-checked against
+  fresh tracker results and stays disputed between 16 December 2026
+  and 22 January 2027; the Title II dates were re-checked against the
+  published regulation text and match the outlook as written.
+  Coverage matrix updated (two Gap items to Full and two further new
+  rows; 503 pattern rows; Full 514; Gap 63). 14 new source records
+  (1201 total).
+
+- Wizard: in accordion-style multi-step flows, each completed step
+  collapses into a short summary of the values entered, with an edit
+  control beside it, so earlier steps can be reviewed without opening
+  each one; drawn from a 2026 checkout usability benchmark covering
+  44,000+ scored flows across desktop, mobile, and app checkouts.
+
+- Roadmap: three new improvement actions added (465 agent run
+  controls, 466 recommendation feedback with two-intent dismissal,
+  467 smart home stale-state rules), ordered by coverage impact,
+  each a genuine gap with its source position stated; the run-controls
+  action rests on a control-plane design essay drawing on a published
+  research interface for observing and steering long-running agents,
+  a vendor guide to steering a running turn, and a component
+  library's run-controls component, the dismissal action on a
+  published research paper on recommendation feedback, a platform
+  rollout separating the two intents, and a design guide citing
+  platform help centres and accessibility guidance, and the
+  stale-state action on four convergent single-author guides, with a
+  platform or standards source still needed before the row is
+  extended. Two held topics re-checked: the disabled-button reason
+  restates the disabled-state rules already in `catalog/states.md`,
+  and university admissions rests on vendor help pages only.
+  Coverage matrix updated (two new Gap items; 499 pattern rows;
+  Full 510; Gap 65). 12 new source records (1187 total).
+
 - Roadmap: three new improvement actions added (462 home care
   coordinator rostering, 463 overflow menu restore-earlier-layout
   rule, 464 worked automotive example), ordered by coverage impact,

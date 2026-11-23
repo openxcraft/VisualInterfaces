@@ -9401,6 +9401,214 @@
    "type": "reference",
    "accessed": "2026-11-23",
    "notes": "Asking price between fifty and one hundred percent of face value, changeable while listed; identity and phone verification before listing; sale paid in platform credit with cash-out; ticket transfers automatically and the seller loses access."
+  },
+  {
+   "title": "AI Agent Control-Plane UI: Observe, Interrupt, and Replay Runs",
+   "url": "https://www.trae.it.com/topics/ai-agent-control-plane-ui/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Treat an agent workbench as a control plane: finite run states with timestamps and owners, what changed in the world, pending versus used authority, consumption, and intervention and recovery; steering notes drawn into the answer where they landed; research interface for observing and steering concurrent long-running agents."
+  },
+  {
+   "title": "Run, steer and coordinate AI coding agents",
+   "url": "https://unstoppable.ai/blog/categories/ai-agents/article/running-and-steering-agents",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Steer hands a message to a running turn and interrupt stops the turn and sends the message next, with completed work kept; queued messages wait for the turn to end; approval modes govern what the agent does without asking."
+  },
+  {
+   "title": "Run Controls - React component",
+   "url": "https://affectui.vercel.app/components/run-controls",
+   "category": "patterns",
+   "type": "reference",
+   "accessed": "2026-11-23",
+   "notes": "Stop, resume from the word it stopped at, retry or dismiss, steer mid-answer or queue what is next, with chat or act modes, permissions, and context fullness; running shows stop, stopped and error show resume, retry and dismiss; status changes announced in a polite live region, streamed words not announced; Esc stops, Enter steers while running."
+  },
+  {
+   "title": "Harness Engineering",
+   "url": "https://design.babushkai.com/17-llm-systems/09-harness-engineering",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "A retry creates a new attempt but retains the logical action identity as the idempotency key; persist transitions before they become externally visible; a crash is a resume point rather than a reason to repeat an uncertain side effect; never replay a payment, deployment, or email merely because the process restarted."
+  },
+  {
+   "title": "Beyond Explicit and Implicit: How Users Provide Feedback to Shape Personalized Recommendation Content",
+   "url": "https://pdfs.assets.alphaxiv.org/2502.09869v1.pdf",
+   "category": "patterns",
+   "type": "research",
+   "accessed": "2026-11-23",
+   "notes": "Published research on how people shape recommendation feeds: explicit feedback for feed customisation, unintentional implicit feedback linked to consumption, and intentional implicit feedback such as deliberate searches and 'not interested' taps used to break repetitive suggestions."
+  },
+  {
+   "title": "Platform moves, UX patterns: Apple TV, Spotify, Google",
+   "url": "https://sajinprakash.medium.com/platform-moves-ux-patterns-apple-tv-spotify-google-769fab10ac42",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Two kinds of hide in a recommendation feed: remove an item from a section, which tidies the view without changing future recommendations, and 'not interested', which changes what is suggested; any recommendation feed should offer both and tell people which is which."
+  },
+  {
+   "title": "Recommendation System Controls: Design Feedback Users Can Trust",
+   "url": "http://umatechnology.org/how-to-add-user-controls-and-feedback-to-a-recommendation-system/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Place feedback controls beside the recommendation; hiding an item may affect only the current display while a topic preference may influence future ranking; state the scope in the label or confirmation; keep persistent choices reviewable and resettable; store deliberate feedback separately from inferred behaviour."
+  },
+  {
+   "title": "Smart Home UI Design: Room-First Panels and Device States",
+   "url": "https://artofstyleframe.com/blog/smart-home-dashboard-ui-design/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Devices have four states — on, off, unavailable, stale — each marked by more than colour; staleness is derived from timestamps, measured from the last report rather than the last change, and the age is shown on the card."
+  },
+  {
+   "title": "Designing Smart Home Apps That Handle Failure Well",
+   "url": "http://dev.to/elite_homefurniturehub_/designing-smart-home-apps-that-handle-failure-well-13kl",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Separate the requested state from the reported state; show a waiting state until fresh information arrives; where no confirmation arrives, state the uncertainty plainly; give old information a visible age."
+  },
+  {
+   "title": "Home Assistant Stale Entity Alerts: Monitor Sensors That Stop Updating",
+   "url": "https://rottenwifi.com/how-to-monitor-home-assistant-entities-that-stop-updating/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Detect silence from the age of the right timestamp: last_changed for a changed value, last_updated for state or attribute changes, last_reported for each report even with an identical value; set the timeout from the entity's normal reporting interval."
+  },
+  {
+   "title": "REST API Practice: Protocol Review - Application Protocols",
+   "url": "https://iotclass.org/app-protocols/rest-protocol-review.html",
+   "category": "patterns",
+   "type": "reference",
+   "accessed": "2026-11-23",
+   "notes": "An offline device with cached data returns the reading with freshness metadata so the client can display 'last updated' without treating it as an error; offline devices are expected, not an error condition."
+  },
+  {
+   "title": "Checkout UX Best Practices 2026",
+   "url": "https://baymard.com/research-articles/current-state-of-checkout-ux",
+   "category": "patterns",
+   "type": "research",
+   "accessed": "2026-11-23",
+   "notes": "Benchmark of 44,000+ checkout usability scores across desktop, mobile and app flows; completed accordion steps collapse into summaries of the entered values so earlier steps can be reviewed without opening each one."
+  },
+  {
+   "title": "Note One App UI Design Patterns for Faster Mobile UX",
+   "url": "https://www.appthetics.com/blog/note-one-app-ui-design-patterns",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Capture-first home screen, organisation optional after capture, visible sync state, search across titles, body text, tags, dates and attachments, six MVP screens: home, capture, editor, organisation, search and settings."
+  },
+  {
+   "title": "Note-Taking in 2026: The Features That Became Table Stakes",
+   "url": "https://listicler.com/blog/note-taking-2026-features-became-table-stakes",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Instant sync across every device including a usable mobile app for capture, bidirectional links and backlinks, full-text search including inside PDFs and images, offline access that does not break on reconnect, clean export to an open format."
+  },
+  {
+   "title": "Notes/docs/DESIGN.md",
+   "url": "https://forgejo.thelinuxcast.org/thelinuxcast/Notes/src/branch/main/docs/DESIGN.md",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-23",
+   "notes": "Open-source note app design document: slash menu, wiki-link autocomplete and peek, tag manager, vault identity and health, quick capture, labelled nav rail with persistent note list and tabs."
+  },
+  {
+   "title": "Web Design For Recruiters | Recruitment & Job Search Websites Design",
+   "url": "https://celerart.com/industries/recruitment-job-search-websites-design",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Saved searches and job alerts, transparent salary and benefits display, candidate status tracking, guest browsing with conversion at save, alert or apply."
+  },
+  {
+   "title": "5 UX Improvements Job Portals Must Implement in 2026",
+   "url": "https://www.webmoghuls.com/5-ux-improvements-job-portals-2026/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Explainable filters naming role, skill, salary, time zone and modality with live result counts, semantic search with typo tolerance, saved searches and resume state, transparent personalisation with the reason shown."
+  },
+  {
+   "title": "How to Choose a Job: Tests and Job Search Apps That Help",
+   "url": "https://bestjobsearchapps.com/articles/en/how-to-decide-what-job-is-best-for-you-the-ultimate-2026-guide-to-your-dream-career",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Save three to five searches, set alerts so new postings arrive, track skills, licences, remote options and salary transparency, use boards as research tools before applying."
+  },
+  {
+   "title": "Scan to Pay Parking System | QR Payments",
+   "url": "https://parkingchief.com/features/scan-to-pay",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Scan a QR code, no app or account, enter plate and duration, pay by phone; timed sessions support reminder texts with a short link to extend remotely."
+  },
+  {
+   "title": "LotPass — Park in 30 seconds. Scan, pay, done.",
+   "url": "https://lotpass.app/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Three taps from sign to paid pass, no download, no account, no ticket machine; live pass with countdown, one-tap extend, reminders before time runs out."
+  },
+  {
+   "title": "Pay by Phone Parking, No App: Contactless",
+   "url": "https://parkgraph.com/contactless-parking-payment",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "QR sign opens the payment page in the browser, wallet pay in under 30 seconds, reminder fifteen minutes before expiry, extend from the phone, leave early and pay less."
+  },
+  {
+   "title": "California Energy Commission statement on Plug & Charge implementation in California",
+   "url": "https://efiling.energy.ca.gov/GetDocument.aspx?tn=268559",
+   "category": "patterns",
+   "type": "reference",
+   "accessed": "2026-11-23",
+   "notes": "Plug & Charge removes the need to interact with an app, credit card, phone number, or the charger beyond plugging in the connector; charging starts and bills automatically, and automating session initiation removes the authentication and payment steps where sessions fail."
+  },
+  {
+   "title": "Plug&Charge",
+   "url": "https://www.hubject.com/offerings/core-capabilities/plug-charge",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Driver plugs in and the session runs on its own from plug-in to payment, no app or card; the credential identifying the charging contract lives inside the car; under AFIR, new and renovated public charge points must support ISO 15118-2 from 2026 and ISO 15118-20 from 2027."
+  },
+  {
+   "title": "Play a book",
+   "url": "https://docs.audiosilo.app/users/listening/playback",
+   "category": "patterns",
+   "type": "documentation",
+   "accessed": "2026-11-23",
+   "notes": "Position saved to the server every 15 seconds while listening and at once on pause, seek or stop; player shows Synced or Saved on this device, will sync; a book never silently restarts from the beginning, Retry instead; an earlier position cannot overwrite progress by accident, the player asks which to keep; picking up another device's place jumps to the newer place with Undo."
+  },
+  {
+   "title": "How ABS+ keeps your Audiobookshelf listening position in sync, even offline",
+   "url": "http://dev.to/backmeupplz/how-abs-keeps-your-audiobookshelf-listening-position-in-sync-even-offline-1gd1",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Write the listening position to the device before any network request, ask the server what it already has before writing, retry failed sends with a delay growing from one second to five minutes, one entry per title holding only the latest value."
+  },
+  {
+   "title": "HHS Section 504 deadline 11 May 2027: WCAG 2.1 AA plan",
+   "url": "https://ecorpit.com/hhs-section-504-wcag-2-1-may-2027/",
+   "category": "accessibility",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Recipients with 15 or more employees conform from 11 May 2027, fewer than 15 from 10 May 2028; comments on the interim final rule closed 6 July 2026; the eCFR current to 10 November 2026 shows the 2027 and 2028 dates, and a pending lawsuit asks a federal court to vacate the extension."
   }
  ]
 }
