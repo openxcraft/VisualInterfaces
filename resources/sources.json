@@ -9609,6 +9609,14 @@
    "type": "article",
    "accessed": "2026-11-23",
    "notes": "Recipients with 15 or more employees conform from 11 May 2027, fewer than 15 from 10 May 2028; comments on the interim final rule closed 6 July 2026; the eCFR current to 10 November 2026 shows the 2027 and 2028 dates, and a pending lawsuit asks a federal court to vacate the extension."
+  },
+  {
+   "title": "Material 3 Expressive adds scrolling time picker",
+   "url": "https://9to5google.com/2026/11/17/material-3-expressive-scrolling-time-picker/",
+   "category": "patterns",
+   "type": "article",
+   "accessed": "2026-11-23",
+   "notes": "Scrolling time picker: hours and minutes chosen by vertical scroll, a compact form best placed inline with other content; the same scrolling field form selects measured units such as distance, weight or temperature; input and dial variants gain higher contrast and expressive shape and colour."
   }
  ]
 }

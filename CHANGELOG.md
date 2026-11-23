@@ -7,6 +7,13 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Time picker row in `catalog/patterns.md` extended with a scrolling
+  picker variant: hours and minutes chosen by vertical scroll, suited
+  to inline placement among other fields, with typed entry kept
+  beside it; the same scrolling field form selects a measured unit —
+  distance, weight, temperature — where the value set is short and
+  ordered. One new source record added to `resources/sources.json`.
+
 - Four new pattern rows added to `catalog/patterns.md` — Agent run
   controls, Recommendation feedback, Note-taking app, and Job search
   discovery — completing roadmap actions 465 and 466; the overflow
