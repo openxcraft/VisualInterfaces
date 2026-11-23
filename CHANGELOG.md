@@ -7,6 +7,25 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Roadmap: three new improvement actions added (462 home care
+  coordinator rostering, 463 overflow menu restore-earlier-layout
+  rule, 464 worked automotive example), ordered by coverage impact,
+  each a genuine gap with its source position stated; the rostering
+  action rests on three vendor scheduling pages with tightly
+  convergent rules and names a new Gap item, the restore rule rests
+  on the platform release notes for the November 2026 update, which
+  now record the customisable menu with a restore to the earlier
+  layout, and the automotive example closes the worked-example gap
+  for the automotive layout. Three open actions re-checked with
+  source positions updated (378 online tutoring live class, 384
+  home care visit booking, 385 ticket resale listing): the tutoring
+  action gains three convergent vendor platforms, the home care
+  action gains three convergent vendor scheduling pages, and the
+  resale action gains three convergent vendor ticketing platforms.
+  Implementation of the new actions is left to the deep cycle.
+  Coverage matrix updated (one new Gap item; 499 pattern rows;
+  Full 510; Gap 63). 9 new source records (1175 total).
+
 - Roadmap: three new improvement actions added (459 connected-device
   prompt, 460 multi-pet appointment booking, 461 smart baby monitor),
   ordered by coverage impact, each a genuine gap with its source
