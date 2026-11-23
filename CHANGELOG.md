@@ -7,6 +7,22 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Roadmap: three new improvement actions added (459 connected-device
+  prompt, 460 multi-pet appointment booking, 461 smart baby monitor),
+  ordered by coverage impact, each a genuine gap with its source
+  position stated; the connected-device action rests on the device
+  authorisation standard with convergent vendor help pages, the
+  multi-pet action on four booking-platform help pages with tightly
+  convergent rules, and the baby monitor action on vendor pages only,
+  with a platform or standards source still needed before any of the
+  three rows is written. The smartwatch sensitive-notification reveal
+  topic was already open as action 388, so no duplicate action was
+  added: the prepared draft action was folded into 388 with a
+  source-position update instead, and the re-check confirms the rules
+  388 already states. Coverage matrix unchanged (the three names
+  already sit in the Gap column; 499 pattern rows; Full 510; Gap 62).
+  13 new source records (1166 total).
+
 - Agent-placed call pattern row added to `catalog/patterns.md`: when an
   agent places a routine call on the person's behalf, state the task and
   its limits before dialling, show a live transcript as the call runs,

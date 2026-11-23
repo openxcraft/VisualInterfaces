@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "sources": [
     {
       "title": "Design trends overview for 2026",
@@ -9225,6 +9225,110 @@
       "type": "reference",
       "accessed": "2026-11-22",
       "notes": "Agent-placed calls in public beta: an agent places routine calls, navigates recorded menus and hold time, with live transcripts and manual take-over; conversational call screening with a live transcript on phone and watch."
+    },
+    {
+      "title": "Device Authorization",
+      "url": "https://www.ory.com/docs/oauth2-oidc/device-authorization",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "OAuth 2.0 Device Authorization Grant (RFC 8628): a device with limited input shows a short user code and a verification address; the person opens the address on a second device, checks the code matches, and approves or rejects; the verification screen must still ask for confirmation when the code arrives pre-filled."
+    },
+    {
+      "title": "Device approvals",
+      "url": "https://robinhood.com/us/en/support/articles/device-approvals/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "A sign-in from a new device sends a prompt to a trusted device; approve completes the sign-in, deny blocks it and secures the account; an unexpected prompt means deny, change the password, and review associated devices."
+    },
+    {
+      "title": "How do I verify a login from a new or unrecognised device?",
+      "url": "https://help.wamo.io/en/articles/15841259-how-do-i-verify-a-login-from-a-new-or-unrecognised-device",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "Email verification for a login from an unrecognised device shows the device, date and time, and network address; approve the login or update the password; approval is one-off per device."
+    },
+    {
+      "title": "Appointments FAQ",
+      "url": "https://help.petboost.com/en/articles/12665061-appointments-faq",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "Multiple pets in one appointment share one calendar card, one itemised invoice and one payment; each pet has its own services, times and team member; scheduling modes Best Fit, All Pets Together and Clustered Start; a merge-with-existing-booking prompt when a pet already has a booking that day."
+    },
+    {
+      "title": "Book an Appointment",
+      "url": "https://help.cuddlesapp.com/kb/guide/en/book-an-appointment-KzB4cHxzTU/Steps/6109769",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "Multiple pets and services in the same booking; add pets, services and add-ons per pet; each appointment appears separately in the booking summary."
+    },
+    {
+      "title": "Booking Appointments for Multiple Pets Online",
+      "url": "https://mytime.freshdesk.com/support/solutions/articles/31000177223-booking-appointments-for-multiple-pets-online",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "Clients schedule appointments for multiple pets in a single online booking, choosing a start time for each appointment; each pet tab shows a checkmark when a service is selected and a circle while one is still required."
+    },
+    {
+      "title": "How to hide sensitive notifications on Apple Watch",
+      "url": "https://www.xda-developers.com/how-to-hide-sensitive-notifications-on-apple-watch/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "Tap to Show Full Notification hides full details until tapped; Show Summary When Locked off shows only a short summary; per-app control of what shows on wrist down."
+    },
+    {
+      "title": "How to make Apple Watch notifications private",
+      "url": "https://www.idownloadblog.com/2018/10/15/apple-watch-notifications-privacy/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "Tap to Show Full Notification: new notifications show only the app name and icon until tapped; turning it off shows the full notification on wrist raise."
+    },
+    {
+      "title": "Can anyone tell me what the privacy setting under notifications is for and what the different options there mean?",
+      "url": "https://forums.garmin.com/sports-fitness/healthandwellness/f/venu-3-series/396850/can-anyone-tell-me-what-the-privacy-setting-under-notifications-is-for-and-what-the-different-options-there-mean",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "Wearable notification privacy setting: content hidden until a button press or a wrist gesture; the app name shows first and the content stays hidden until the wearer asks for it."
+    },
+    {
+      "title": "Manage lock screen notifications",
+      "url": "https://help.motorola.com/hc/3406/50/cn/en-us/T1410114651.html",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "Lock-screen choice: show all notification content, hide sensitive content for all apps or for marked apps only, or show no notifications at all."
+    },
+    {
+      "title": "Guide to Nanit Notifications",
+      "url": "https://www.Nanit.com/blogs/parent-confidently/nanit-notification-guide",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "Notification categories by stage: temperature and humidity ranges, motion and sound alerts with a video clip, cry detection, baby standing; sensitivity adjustable per category."
+    },
+    {
+      "title": "Cradlewise's new-and-improved Baby Alerts",
+      "url": "https://cradlewise.com/en-IN/blog/cradlewise-new-and-improved-baby-alerts",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "Five alert categories (crying, waking, stirring, dozing, in/outs) toggled per category; direct actionable alerts stating sleep transitions; a muted category still lists in-app without a banner or sound."
+    },
+    {
+      "title": "How it Works: Annie Baby Monitor App",
+      "url": "https://www.anniebabymonitor.com/how-annie-baby-monitor-app-keeps-your-baby-safe-and-sound/",
+      "category": "patterns",
+      "type": "reference",
+      "accessed": "2026-11-23",
+      "notes": "Noise and motion sensitivity levels; notification filters for disconnection, low battery, sound and motion detection; automatic video recording when motion is detected."
     }
   ]
 }

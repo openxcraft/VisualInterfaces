@@ -6264,9 +6264,13 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    changeable — distinct from the notification preferences row,
    which chooses which updates arrive, and from the app lock row,
    which locks the whole app rather than hiding one notification.
-   Sources so far are content-site security guides only; a platform
-   or standards source is still needed before the row is written.
-   Done when the row passes all quality gates.
+   Re-checked 2026-11-23: guides to wearable notification-privacy
+   settings across several systems converge on the same rules — tap
+   to reveal the full notification, summary only while locked,
+   per-app sensitivity, and nothing shown on wrist-down — and the
+   rules in this action already state them; a platform or standards
+   source is still needed before the row is written. Done when the
+   row passes all quality gates.
 
 389. Extend the order tracking row in `catalog/patterns.md` with
    pickup wait-time rules: a pickup order states its expected
@@ -7327,6 +7331,52 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
    two commissioned comparisons, a tool-builder page, and a vendor page
    only; a platform or standards source is still needed before the row is
    written. Done when the row passes all quality gates.
+
+459. Add a connected-device prompt pattern row to
+   `catalog/patterns.md`: when a new device asks to sign in, the trusted
+   device shows what asked — device, place, time, and network address —
+   with a short code shown on both sides to compare, approve and deny
+   equally visible, a deny that blocks the sign-in and offers a password
+   change, a request that expires within a short window, and an approval
+   screen that lists in plain words what the device receives and how
+   long it stays connected — distinct from the signed-in device
+   management row, which lists devices already trusted, from the QR
+   sign-in row, which signs in by scanning a code, from the second-factor
+   sign-in row, which proves identity with a code, and from the device
+   pairing row, which links two devices for use. Sources so far are the
+   device authorisation standard and several vendor help pages with
+   convergent rules. Done when the row passes all quality gates.
+
+460. Add a multi-pet appointment booking pattern row to
+   `catalog/patterns.md`: one booking with one invoice and one payment,
+   each pet with its own service, time, and staff member, a one-tap
+   booking for the same service across all pets, scheduling modes that
+   place pets together, with clustered starts, or by best fit, a
+   merge-with-existing-visit prompt when a pet already has a booking
+   that day, per-pet tabs showing completion state, and no mixing of
+   multi-day and same-day services in one booking — distinct from the
+   veterinary appointment booking row, which books medical care for one
+   animal, from the pet grooming appointment booking action, which books
+   care for one animal, and from the appointment management row, which
+   manages bookings already made. Sources so far are four
+   booking-platform help pages with tightly convergent rules; a platform
+   or standards source is still needed before the row is written. Done
+   when the row passes all quality gates.
+
+461. Add a smart baby monitor pattern row to `catalog/patterns.md`:
+   alerts split by category — crying, waking, stirring, dozing, and
+   in and out of the crib — each toggled on its own, sensitivity levels
+   for sound and motion, a distinct sound per detection type so a
+   critical alert is told apart from a routine one, a tap on an alert
+   that opens the live view, and connection and low-battery alerts that
+   arrive before monitoring fails — distinct from the baby feeding and
+   sleep tracking gap, which logs care rather than monitoring, from the
+   notification preferences row, which chooses which updates arrive,
+   and from the smartwatch sensitive-notification reveal action, which
+   hides content rather than surfacing alerts. Sources so far are
+   vendor pages only; a platform or standards source is still needed
+   before the row is written. Done when the row passes all quality
+   gates.
 
 - Completed this review (deep editorial 2026-11-16): two new
   pattern rows in `catalog/patterns.md` — Age assurance flow and
@@ -9124,3 +9174,34 @@ The canonical publishing checklist lives in `CONTRIBUTING.md`; the checks below 
   382, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 413, 423, 424,
   425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 436, 437, 438, 439,
   440, 441, 442, 444, 445, 446, 448, 449, 453, 456, 457, 458.
+
+- Completed this review (deep editorial 2026-11-23): no new pattern
+  rows — the six searches (connected-device prompt, smartwatch
+  sensitive-notification reveal, multi-pet appointment booking, device
+  authorisation grant, smart baby monitor, salon and spa appointment
+  booking) returned only material already covered, held, or below the
+  source-quality bar for a row, so no new rule. The connected-device
+  prompt rests on the device authorisation standard with convergent
+  vendor help pages, and the multi-pet booking rests on four
+  booking-platform help pages with tightly convergent rules; both are
+  genuine gaps recorded as actions below. The smartwatch topic was
+  already open as action 388, so the prepared duplicate was not added
+  as a new action: its substance was folded into 388 with a
+  source-position update, and the re-check confirms the rules 388
+  already states. The baby monitor topic rests on vendor pages only
+  and the salon topic on a booking-app template and agency guides
+  only, with no platform or standards source for either. Three new
+  improvement actions added (459 connected-device prompt, 460
+  multi-pet appointment booking, 461 smart baby monitor), ordered by
+  coverage impact, each a genuine gap with its source position stated.
+  Coverage matrix unchanged (the three names already sit in the Gap
+  column; 499 pattern rows; Full 510; Gap 62). 13 new source records
+  (1166 total). Open actions after this review: 279, 285, 287, 288,
+  290, 291, 294, 297, 299, 301, 302, 303, 304, 305, 307, 308, 309,
+  310, 313, 314, 315, 318, 327, 328, 329, 330, 331, 332, 333, 336,
+  343, 344, 349, 350, 352, 355, 356, 357, 358, 359, 360, 361, 362,
+  363, 364, 365, 366, 367, 368, 369, 370, 372, 373, 374, 375, 377,
+  378, 381, 382, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393,
+  413, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434,
+  436, 437, 438, 439, 440, 441, 442, 444, 445, 446, 448, 449, 453,
+  456, 457, 458, 459, 460, 461.
