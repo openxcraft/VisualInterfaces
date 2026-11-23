@@ -7,6 +7,16 @@ version, with Added, Changed, and Fixed sections where they apply.
 
 ### Added
 
+- Agent-placed call pattern row added to `catalog/patterns.md`: when an
+  agent places a routine call on the person's behalf, state the task and
+  its limits before dialling, show a live transcript as the call runs,
+  keep a take-over control visible throughout, let the agent navigate
+  recorded menus and hold time on its own, pause before any commitment
+  and return the decision to the person, and state the outcome in plain
+  words afterwards with the transcript kept for reading. Coverage matrix
+  updated (499 pattern rows; Full 510; Gap 62). 1 new source record
+  (1153 total).
+
 - Worked examples: tablet and landing examples added under
   `examples/tablet/` and `examples/landing/` (each a README, a working
   page, and a stylesheet, all seven states shown), closing roadmap
