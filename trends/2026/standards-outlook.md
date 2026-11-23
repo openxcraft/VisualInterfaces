@@ -1,0 +1,68 @@
+# Standards Outlook
+
+Where accessibility standards are heading, so today's work stays compatible with tomorrow's conformance approach. A horizon note, not a rule set.
+
+## Classification
+
+- Category: trends / 2026 / standards-outlook
+
+When to use:
+
+- Planning new work that will live for several years: design-system foundations, design tokens, component libraries, and conformance reporting.
+
+When to avoid:
+
+- Treating the draft as a conformance target today; it is not final and has no testable criteria yet.
+
+## Elements and components
+
+The current stable guidelines (2.x) as the build target; the draft 3.0 direction as the planning horizon; a conformance report that records both.
+
+## Layout and responsive rules
+
+- Keep building and testing to the current 2.x success criteria at AA: nothing in the draft deprecates 2.x, and 2.x remains the testable standard.
+- Plan for the European harmonised standard for ICT accessibility moving its baseline: version 4.1.1, adopted 24 August 2026 and published 2 September 2026, points the web and software clauses at WCAG 2.2 Level AA instead of 2.1. Until it is cited in the Official Journal — trackers disagree on the date, one expecting 16 December 2026 and another 22 January 2027, after the date already moved once from late November 2026 — the earlier version stays the legal reference, so treat 2.2 as good practice today rather than an obligation. The move adds six criteria: help that stays in the same place across pages, no repeated entry of the same information, focus never fully hidden behind sticky headers or banners, a single-pointer alternative for any dragging interaction, a 24-pixel minimum target size, and sign-in that does not depend on remembering or retyping a puzzle; one old parsing criterion is removed. Two further changes reach interface work directly: documents must not block presentation according to the person's preference settings or override platform accessibility settings, and the information-about-products clause now applies to whichever digital form the information takes rather than exempting a single format. Real-time communication requirements widen from two-way voice towards total conversation, with voice, real-time text, and video operating together in one session. Practical stance: build to 2.2 AA now, since it covers the 2.1 requirements too.
+- Plan for the United States Section 504 web and mobile accessibility deadlines: the rule under Section 504 of the Rehabilitation Act sets WCAG 2.1 Level AA as the technical standard for the web content and mobile applications of recipients of federal health funding, including patient portals, telehealth platforms, online scheduling and payment systems, and kiosks, whether built in-house or supplied by a vendor. An interim final rule effective 7 May 2026 moved the compliance dates by one year, to 11 May 2027 for recipients with 15 or more employees and 10 May 2028 for smaller recipients, while the underlying non-discrimination duty and the 2.1 AA standard itself did not change. Practical stance: building to 2.2 AA already covers the 2.1 criteria, so treat the dates as a conformance-reporting deadline for affected services rather than a new design target, and confirm the current dates against the regulation itself (45 CFR 84.84) before relying on them, since the comment period closed 6 July 2026 and the extension faces a court challenge.
+- Plan for the United States Title II web and mobile accessibility deadlines: the rule sets WCAG 2.1 Level AA as the technical standard for the web content and mobile applications of state and local government entities, including service portals, payment systems, and published documents. An interim final rule effective 20 April 2026 moved the compliance dates by one year, to 26 April 2027 for entities serving a population of 50,000 or more and 26 April 2028 for smaller entities and special district governments, while the 2.1 AA standard itself did not change. Practical stance: building to 2.2 AA already covers the 2.1 criteria, so treat the dates as a conformance-reporting deadline for affected services rather than a new design target, and confirm the current dates against the regulation itself (28 CFR 35.200) before relying on them, since the extension is subject to a pending court challenge.
+- A companion standard for accessible emergency communications, EN 303 919, was published 17 November 2026 and announced together with the fourth edition of the ICT accessibility standard (EN 301 549 V4.1.1, published 2 September 2026). It sets accessibility and interoperability requirements for emergency communications services — voice, real-time text, and video operating together in one session — covering user equipment, communication networks, relay services, and public safety answering points. Where an interface touches emergency contact, treat it as the reference: the total-conversation direction above now has testable requirements behind it for the emergency case.
+- Plan for the app store's adaptive-quality enforcement on foldable and large-screen devices: from April 2027, new apps and updates must meet the Tier 3 adaptive-ready baseline — fill the display without letterboxing or compatibility modes, preserve state across rotation, folding, unfolding, and resizing, and support multi-window use — and must include three foldable screenshots with the listing, in addition to the standard phone screenshots. From August 2027, new and updated apps must target the next platform release (API level 37), which removes developer opt-outs for orientation and resizability limits on large screens. Games follow a separate calendar, with foldable screenshots from April 2027 and the Tier 3 large-screen baseline from August 2027. Practical stance: run the Tier 3 checks — scroll, play, enter text, then rotate, fold, and resize and confirm nothing is lost — on every app that ships to the store, and treat the baseline as the floor, since the framework rises through two higher tiers that add multi-pane layouts, external input support, and posture-aware features.
+- The 3.0 draft is at Working Draft status, with a final recommendation not expected before 2028; treat its details as direction, not requirements.
+- The September 2026 draft restructures conformance: one conformance level — meeting every core requirement — with six numbered reporting tiers around it: Avoid physical harm, Foundational access, Conformance, Bronze, Silver, and Gold. Each core requirement carries one of four impact tags — physical harm, risk, barrier, or friction — so a report can show which failures stop people and which only slow them down; the first two tiers are progress markers below conformance, and the last three measure practice above it through supplemental requirements and assertions. Treat this as direction, not requirements: the draft warns its details will change substantially, and it explicitly advises meeting 2.2 success criteria today as the best preparation. Design and test for outcomes — can people complete the task — rather than for checkbox compliance alone.
+- Structure work so outcomes are measurable: instrument task completion, error recovery, and assistive-technology use now, so a future scoring scheme has data to score.
+- Watch the perceptual-contrast direction: the proposed lightness-contrast
+  score (roughly 0–120) factors in text size, weight, and polarity, where
+  the old fixed ratios treat light-on-dark the same as dark-on-light and
+  thin type the same as bold. Proposed thresholds sit near 90 for body
+  text, 75 for large or bold text, 60 as a floor, and 45 for non-text
+  components. Practical stance today: keep meeting the current 2.x AA
+  baseline, and test new palettes against both systems — a pair that
+  passes both is robust, while one that passes the old ratios but fails
+  the perceptual score is a future risk.
+- Treat entry points to assistive features as regulated surface, not
+  decoration: a speech mode or help path that itself requires the
+  ability it replaces fails conformance in spirit and, on regulated
+  terminals, in letter. Test the assistive path with the people who
+  need it, not only the software layer.
+- Avoid locking designs to criterion numbers that may be renumbered or replaced; name the underlying user need in the design record instead.
+- Treat design tokens as machine-readable infrastructure: the W3C Design Tokens Format Module (v2025.10) formalises token architecture — names, colour mathematics, and alias mapping — into a single platform-agnostic JSON format. Author the token set in that standard form so tooling consumes one deterministic source instead of CSS variables exported once per sprint; automated assembly and restyling then read the same aliases and values the design record documents, and cannot silently drift away from the accessibility constraints that travel with the tokens.
+
+## States
+
+Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
+
+| State | Appearance | Behaviour |
+| --- | --- | --- |
+| Default | The standards note at rest, with full contrast and a clear label. | Ready for input or selection. |
+| Hover | Pointer-only highlight: subtle background or border change. | No change on touch devices; hover never carries essential information alone. |
+| Active | Pressed or selected appearance while interaction is in progress. | Feedback appears within 100 ms of input. |
+| Disabled | Reduced contrast, no pointer response, still readable. | Explain why it is unavailable nearby when the reason is not obvious. |
+| Loading | Skeleton blocks or a progress indicator replace live content. | Keep layout dimensions stable so content does not shift. |
+| Empty | Show the layout structure with an explanation and one action that adds or finds content. | Offer one clear next action and, where relevant, a reset for filters. |
+| Error | Keep navigation in place, show the failure in the content area, and offer retry. | Keep entered data, place the message next to the problem, and offer a retry. |
+
+## Pre-publish checklist
+
+The canonical publishing checklist lives in `../../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] The draft status and the no-deprecation statement are accurate as written.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

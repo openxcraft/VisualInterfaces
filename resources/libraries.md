@@ -25,13 +25,21 @@ When to avoid:
 | Radix UI | Unstyled accessible primitives | Dialogs, menus, popovers, and form controls with keyboard and focus behaviour included; styling is supplied by the project. |
 | Headless UI | Unstyled accessible components | Interactive components for common interface patterns, designed to be styled by the project. |
 | shadcn/ui | Copy-in component set | Components copied into the project codebase and owned there; built on unstyled primitives and utility styling. |
-| MUI | Styled component set | A comprehensive styled set for application interfaces with dense data components. |
+| UI SDK | Unstyled agent-operable behaviour library | Headless behaviours for React, Vue, Svelte, Solid, and plain web components, in beta at 0.1.0-beta.1 (November 2026); components expose structured tools so an automated agent can read and operate them, in addition to the usual focus, keyboard, and role behaviour. Check the current version and beta terms before adopting. |
+| MUI | Styled component set | A comprehensive styled set for application interfaces with dense data components. The current direction pairs a stable unstyled-primitives layer — focus, keyboard, and role behaviour without styling — with token-based theming; new form controls such as a number field are built on those primitives, and the advanced data line adds grid-chart integration and server-side pivoting. Compare with the headless behaviour primitive pattern in `../catalog/primitives.md`. |
 | Mantine | Styled component set | A broad set including form, date, and notification components with theming support. |
 | Ant Design | Styled component set | A mature set with dense tables, trees, and forms suited to administration interfaces. |
-| Chakra UI | Styled component set | Accessible components with style properties and a theming system. |
+| Carbon | Styled component set | A mature styled set with a token system and dense data components. The current major line (v11) renames tokens to match the current design kit, mirrors every component for right-to-left layouts, replaces the light prop with a layer system, and adds a chat set (message log, message, day divider, button), a label component that marks content produced by an automated system and opens an explanation on activation, and feedback and navigation components such as empty state, stepper, splitter, countdown, and table of contents. The date picker now ships a built-in calendar with keyboard navigation by day and week. Check the current version and its migration notes before adopting; a new major line may drop support for the previous one. |
+| Chakra UI | Styled component set | Accessible components with style properties and a theming system. The current line (v3.38.0, November 2026) adds a Command component for searchable command menus, alongside FloatingPanel and DateInput from earlier in 2026. Check the current version before adopting. |
+| Astryx | Styled component set | An open-source styled set under the MIT licence: 150+ accessible components built on React 19, seven ready-made themes with dark mode, ready-to-ship templates, and a CLI; themes are plain custom-property overrides and components are composed from exported building blocks. Currently in beta, so check the current version and beta terms before adopting. |
 | daisyUI | Utility-class component themes | Semantic component classes added to utility styling, with built-in themes and no scripting dependency. |
 | Flowbite | Utility-class component set | Components for several frameworks built on utility styling. |
 | Bootstrap | Styled framework set | A long-standing responsive grid and component set for plain markup and server-rendered pages. |
+| Web Awesome | Web-component library | A current web-components set succeeding an earlier one: dozens of components, multiple colour palettes, native element styles, cascade layers, and server-side rendering support, with commercial additions such as combobox, file input, date picker, video, sparklines, charts, and a data grid on the way. |
+| Accessible Components Library | Accessibility-documented component set | A small v1.0.0 set (accordion, breadcrumbs, dialog, disclosure, pagination, tabs, text input, textarea) where each component ships with documented accessibility requirements mapped to WCAG 2.2 success criteria at levels A, AA, and AAA, plus working examples, test scenarios, assistive-technology compatibility notes, and usability recommendations the standard does not cover, such as high-contrast theme behaviour. Requirements are grouped into ten themes (adaptability, animation and movement, assistive technologies and semantics, colour and contrast, consistency and predictability, images and media, input assistance, keyboard, navigation, pointer and touch). Test it in your product before relying on it; it is a reference, not a production-ready design system. |
+| Maz-UI | Styled Vue component set | A Vue set whose current major line ships logical direction by default: every directional prop, slot, and style hook uses `start`/`end` instead of `left`/`right`, so layouts mirror correctly under right-to-left settings without per-component fixes. The same line overhauls theming on a perceptually uniform colour scale with honest token names and per-component token overrides. Check the current version and its migration notes before adopting; a new major line may drop support for the previous one. |
+| GOV.UK Frontend | Public-service design system | A design system for form-heavy public services; new components ship under lifecycle statuses such as "Trial" while usage guidance is gathered before they become established. The current line (v6.6.0, October 2026) refines established components such as character count. Check the current version before adopting. |
+| Material Design 3 Expressive | Styled component set | The expressive layer of Material Design 3 for Compose: 14 new or updated components (toolbars, split button, button groups, floating action button menu, loading indicator, wavy progress indicators), a token-driven motion scheme based on spring physics, a 35-shape library with built-in shape morphing, and larger sizes with stronger colour and shape contrast. The expressive theme, wavy progress indicators, and motion scheme graduated from experimental during the 1.5.0 alpha series; the stable Compose Material 3 line is 1.5.0, released with Compose 1.13 on 18 November 2026. The same release makes FlexBox and Grid stable for adaptive layouts, adds progressive blur with a gradient blur radius and backdrop blur for frosted-glass effects, and adds polygon shape morphing; the previous Material line, legacy text-field APIs, and the ConstraintLayout toolkit are deprecated. Use where an expressive, motion-led feel is the product direction and reduced-motion preferences are honoured; use classic Material 3 where a calmer baseline, web delivery, or stable-only APIs are required — the current guidance positions Compose as the implementation route. Check the current version and migration notes before adopting. |
 
 ## Layout and responsive rules
 
@@ -54,12 +62,8 @@ When to avoid:
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Every listing points at a real, maintained library; external links are allowed in this file only.
+- [ ] Entries are grouped by use case with one-line descriptions.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

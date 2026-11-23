@@ -1,0 +1,121 @@
+/* Automotive example: framework-free styles demonstrating the automotive layout rules. */
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background: #f4f4f4;
+}
+.auto-page {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 1rem 1rem 4rem;
+}
+.auto-page h1 { font-size: 2rem; margin: 1rem 0 0.25rem; }
+.auto-page h2 { font-size: 1.5rem; margin: 2rem 0 0.5rem; }
+.ap-intro { font-size: 1.25rem; color: #333; margin-top: 0; }
+.ap-note { color: #333; font-size: 1.1rem; }
+/* Head-up strip: highest-priority content only. */
+.ap-hud {
+  background: #111;
+  color: #fff;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+}
+.ap-hud h2 { color: #fff; margin-top: 0; }
+.ap-hud-row { display: flex; gap: 1rem; align-items: baseline; }
+.ap-hud-speed { font-size: 2.5rem; font-weight: 700; }
+.ap-hud-unit { font-size: 1.25rem; }
+.ap-hud-next { font-size: 1.5rem; font-weight: 600; margin-left: auto; }
+.ap-hud .ap-note { color: #ddd; }
+/* Cluster zone: speed always in the same place. */
+.ap-cluster {
+  background: #fff;
+  border: 2px solid #555;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin-top: 1rem;
+}
+.ap-speed { font-size: 3rem; font-weight: 700; margin: 0; }
+.ap-speed span { font-size: 1.5rem; font-weight: 400; }
+.ap-speed-label { font-size: 1.25rem; color: #333; margin: 0.25rem 0 0; }
+/* Centre-stack cards: one glance, one question. */
+.ap-stack { margin-top: 1rem; }
+.ap-card {
+  background: #fff;
+  border: 2px solid #555;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.ap-card-label { font-size: 1.25rem; color: #333; margin: 0; }
+.ap-card-main { font-size: 2rem; font-weight: 700; margin: 0.25rem 0; }
+.ap-card-sub { font-size: 1.25rem; color: #333; margin: 0 0 1rem; }
+.ap-primary, .ap-secondary {
+  min-width: 76px;
+  min-height: 76px;
+  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  margin-right: 1rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+.ap-primary {
+  color: #fff;
+  background: #005a9c;
+  border: 2px solid #005a9c;
+}
+.ap-secondary {
+  color: #1a1a1a;
+  background: #fff;
+  border: 2px solid #555;
+}
+.ap-primary:disabled, .ap-secondary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+/* Emphasis-only variant under load: stronger highlight, same positions. */
+.ap-emphasis { border-width: 4px; border-color: #005a9c; }
+.ap-strong { outline: 4px solid #ffbf47; outline-offset: 2px; }
+/* Night theme: light text on dark surfaces, same layout. */
+.ap-night-card {
+  background: #111;
+  color: #fff;
+  border-color: #888;
+}
+.ap-night-card .ap-card-label, .ap-night-card .ap-card-sub { color: #ddd; }
+.ap-night-card .ap-primary { background: #4da3ff; border-color: #4da3ff; color: #111; }
+/* State demonstrations. */
+.ap-demo-row { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+.ap-demo-row button {
+  min-height: 76px;
+  font-size: 1.25rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+.ap-demo-row button:disabled { opacity: 0.55; cursor: not-allowed; }
+.ap-loading {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border: 4px solid #999;
+  border-top-color: #005a9c;
+  border-radius: 50%;
+}
+.ap-empty, .ap-failure {
+  font-size: 1.25rem;
+  padding: 1rem;
+  border-radius: 0.75rem;
+}
+.ap-empty { background: #fff; border: 2px solid #555; }
+.ap-failure { background: #fff3f3; border: 2px solid #b00020; }
+.ap-empty button, .ap-failure button {
+  min-height: 76px;
+  font-size: 1.25rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}

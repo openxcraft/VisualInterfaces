@@ -24,6 +24,9 @@ Short transitions of 100 to 300 ms; shared-element moves between list and detail
 - No animation blocks input for longer than its own duration.
 - Reduced-motion settings replace movement with fades or instant change.
 - Looping motion is limited to loading indicators.
+- Content revealed by scroll-triggered animation stays available to
+  screen-reader and keyboard users; scroll position never gates content
+  alone.
 
 ## Motion values
 
@@ -44,28 +47,80 @@ matching easing curve: a responsive decelerating curve for feedback, a
 - Ship motion tokens (durations, easings, keyframes) so custom components
   reuse the same values instead of inventing their own.
 
+## Native platform capabilities
+
+Three platform capabilities are converging toward cross-browser parity, so
+design systems can drop scripted equivalents:
+
+- Anchor overlays to their trigger (tooltips, menus, popovers) with anchor
+  positioning instead of a scripted positioning library; keep a static
+  placement behind a support check so the overlay stays visible and aligned
+  where anchors are unsupported.
+- Default anchored popups to the trigger's width; widen only when the
+  content genuinely needs the room, and re-anchor after resize so the
+  overlay stays aligned with its trigger.
+- Drive scroll-linked motion with scroll-driven animation timelines, not
+  scroll listeners; animate transform and opacity only, so the motion stays
+  off the main thread; content starts visible and readable, with the
+  enhancement added only where supported.
+- Run document-to-document transitions with view transitions instead of
+  scripted page fades; navigation works identically without them.
+- Use native dialog and popover semantics for overlays: a dismiss-on-outside
+  action, a subordinate hint popover for tooltips, and keyboard handling that
+  ships with the platform.
+
+## Reduced motion: swap, do not delete
+
+Reduced motion is a substitution, not a removal: every effect ships a
+deliberate final static state.
+
+- Guard every effect with the operating system's reduced-motion setting and
+  ship the resting state per effect: progress bars at full, reveals at full
+  opacity, parallax removed.
+- Swap movement for calm: keep the fade, drop the travel; keep state
+  changes, remove bounce.
+- Disable the physics, not only the duration: expressive components carry
+  spring and bounce tokens, and shape morphing built into the component,
+  that stay alive when only the duration is zeroed; the reduced-motion
+  variant must switch the physics intensity and the shape morph off itself
+  and settle on the static resting shape.
+- Keep essential feedback: spinners run slower (around 1.5 s) rather than
+  vanishing; remove parallax backgrounds, scroll reveals, and infinite
+  pulsing; retain small contained motion such as icon rotations and button
+  presses.
+- Offer a visible "pause animations" control alongside the system setting,
+  so the choice is discoverable in the product itself.
+- Split motion into informational and decorative: a spinner that reports
+  work in progress, a progress bar, or a focus indicator keeps moving;
+  parallax, swooping transitions, and autoplay decoration stop. Where
+  informational motion is kept, remove the large transforms — translate,
+  scale, and 3D moves — that trigger vestibular reactions.
+- Fail closed: gate decorative motion behind a no-preference check, so
+  when the preference is unknown the static or fading alternative ships
+  by default.
+- Auto-playing or looping content longer than five seconds always gets a
+  visible pause control on the page; the system reduced-motion setting
+  alone does not satisfy this.
+
 ## States
 
-Every element and page in this group defines all seven states. Missing states are treated as incomplete work.
+Canonical state definitions live in `../../catalog/states.md`. Notes specific to functional motion:
 
-| State | Appearance | Behaviour |
-| --- | --- | --- |
-| Default | The pattern in use at rest, with full contrast and a clear label. | Ready for input or selection. |
-| Hover | Pointer-only highlight: subtle background or border change. | No change on touch devices; hover never carries essential information alone. |
-| Active | Pressed or selected appearance while interaction is in progress. | Feedback appears within 100 ms of input. |
-| Disabled | Reduced contrast, no pointer response, still readable. | Explain why it is unavailable nearby when the reason is not obvious. |
-| Loading | Skeleton blocks or a progress indicator replace live content. | Keep layout dimensions stable so content does not shift. |
-| Empty | Show a neutral starting prompt or placeholder with one example action. | Offer one clear next action and, where relevant, a reset for filters. |
-| Error | State what could not be completed and offer the structured fallback or a retry. | Keep entered data, place the message next to the problem, and offer a retry. |
+| State | Motion note |
+| --- | --- |
+| Default | Motion at rest; the settled layout is the reference frame. |
+| Hover | Pointer-only micro-motion; never the only signal. |
+| Active | The transition in flight; completes within about 100–300 ms. |
+| Disabled | No motion on unavailable controls; contrast carries the state. |
+| Loading | Static progress under reduced motion; skeletons otherwise. |
+| Empty | Motion introduces the message once, then settles. |
+| Error | Motion never substitutes for a readable message. |
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Functional-motion purposes and reduced-motion swap rules are documented.
+- [ ] Scroll-triggered animation availability rules are present.
+- [ ] Informational-versus-decorative motion rules, the fail-closed pattern, and the pause-control requirement are documented.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.

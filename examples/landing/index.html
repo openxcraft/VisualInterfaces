@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Landing Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="landing-page">
+  <header class="la-header">
+    <p class="la-brand">Study Planner — worked example</p>
+    <nav aria-label="Page sections">
+      <ul>
+        <li><a href="#la-benefits">Benefits</a></li>
+        <li><a href="#la-how">How it works</a></li>
+        <li><a href="#la-questions">Questions</a></li>
+      </ul>
+    </nav>
+    <p><a class="la-primary" href="#la-form">Start planning</a></p>
+  </header>
+
+  <section class="la-hero" aria-label="Introduction">
+    <h1>Plan a study week in ten minutes, and keep to it</h1>
+    <p>For learners juggling work and study: one plan for the week, built around the hours you actually have.</p>
+    <p><a class="la-primary" href="#la-form">Start planning</a></p>
+    <p class="la-proof">Used by 12,000 learners last month — no card required to try it.</p>
+    <p class="la-motion-note">This static demo carries no looping motion; the live page must pause or fade looping hero media when reduced motion is requested, and the offer above stays readable with motion off.</p>
+  </section>
+
+  <div class="la-sticky" role="note">
+    <span>Plan a study week in ten minutes</span>
+    <a class="la-primary" href="#la-form">Start planning</a>
+  </div>
+
+  <section class="la-proof-strip" aria-label="Social proof">
+    <h2>What learners say in plain terms</h2>
+    <p>“The plan fits around shift work.” — a learner, quoted with permission.</p>
+    <p>“I stopped missing deadlines in the first month.” — a learner, quoted with permission.</p>
+  </section>
+
+  <section class="la-benefits" id="la-benefits" aria-label="Benefits">
+    <h2>Why it works</h2>
+    <div class="la-benefit">
+      <h3>Hours you actually have</h3>
+      <p>The plan starts from your free hours, not from an ideal week.</p>
+    </div>
+    <div class="la-benefit">
+      <h3>One next step at a time</h3>
+      <p>Each day names a single next step, so you never wonder what to do first.</p>
+    </div>
+    <div class="la-benefit">
+      <h3>Slips handled plainly</h3>
+      <p>A missed day moves its work to the next free slot instead of piling up.</p>
+    </div>
+  </section>
+
+  <section class="la-how" id="la-how" aria-label="How it works">
+    <h2>How it works</h2>
+    <ol>
+      <li>Enter your free hours and your deadline.</li>
+      <li>Review the week the planner builds.</li>
+      <li>Follow one step a day; adjust when life changes.</li>
+    </ol>
+  </section>
+
+  <section class="la-proof-deep" aria-label="Deeper proof">
+    <h2>The numbers behind it</h2>
+    <p class="la-skeleton" aria-hidden="true"></p>
+    <p>Proof numbers load here; the block keeps its size while they load. Placeholder figures stand in for measured results.</p>
+  </section>
+
+  <section class="la-objections" aria-label="Objections">
+    <h2>Before you decide</h2>
+    <p><strong>Price:</strong> the first plan is free; paid plans are listed in full before you choose.</p>
+    <p><strong>Privacy:</strong> your plan stays on your account; nothing is shared without your say-so.</p>
+  </section>
+
+  <section class="la-questions" id="la-questions" aria-label="Questions">
+    <h2>Questions</h2>
+    <p class="la-field">
+      <label>Search the questions
+        <input type="text" value="zebra" aria-describedby="la-search-note">
+      </label>
+    </p>
+    <p id="la-search-note">No question matches “zebra”. The search above keeps the page structure with an explanation and one action.</p>
+    <p><button type="button">Show all questions</button></p>
+    <details>
+      <summary>Can I change the plan mid-week?</summary>
+      <p>Yes — change any day and the rest of the week adjusts around it.</p>
+    </details>
+  </section>
+
+  <section class="la-form-section" id="la-form" aria-label="Lead form">
+    <h2>Get your first plan</h2>
+    <p>Three fields only. The form states what happens next before you send it.</p>
+    <form>
+      <p class="la-field">
+        <label>Your name
+          <input type="text" value="Example member">
+        </label>
+      </p>
+      <p class="la-field">
+        <label>Your email address
+          <input type="email" value="">
+        </label>
+      </p>
+      <p class="la-field">
+        <label>Your deadline
+          <input type="text" value="End of next month">
+        </label>
+      </p>
+      <p class="la-error">Sending did not work: the connection dropped. Your entries are kept — try sending again.</p>
+      <p class="la-field">
+        <button type="submit">Send my plan request</button>
+        <button type="button" disabled>Send and pay</button>
+        <span class="la-scope">Paying stays unavailable until a plan is chosen.</span>
+      </p>
+    </form>
+  </section>
+
+  <section class="la-closing" aria-label="Closing action">
+    <h2>Ready when you are</h2>
+    <p><a class="la-primary" href="#la-form">Start planning</a></p>
+  </section>
+
+  <footer class="la-footer">
+    <p>Placeholder footer. Nothing on this page is stored anywhere.</p>
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automotive Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="auto-page">
+  <h1>Automotive example</h1>
+  <p class="ap-intro">Fixed zones, glance-sized cards, emphasis-only change under load. One glance answers one question.</p>
+
+  <section class="ap-hud" aria-label="Head-up strip">
+    <h2>Head-up strip</h2>
+    <p class="ap-hud-row"><span class="ap-hud-speed">52</span><span class="ap-hud-unit">km/h</span><span class="ap-hud-next">Turn left in 300 m</span></p>
+    <p class="ap-note">Only speed, the next manoeuvre, and critical warnings appear here. Nothing else.</p>
+  </section>
+
+  <section class="ap-cluster" aria-label="Cluster zone">
+    <h2>Cluster zone</h2>
+    <p class="ap-speed">52 <span>km/h</span></p>
+    <p class="ap-speed-label">Speed, always in the same place.</p>
+  </section>
+
+  <section class="ap-stack" aria-label="Centre stack">
+    <h2>Centre stack</h2>
+    <div class="ap-card">
+      <p class="ap-card-label">Next manoeuvre</p>
+      <p class="ap-card-main">Turn left in 300 m</p>
+      <p class="ap-card-sub">Main Street, then continue for 2 km</p>
+      <button type="button" class="ap-primary">End guidance</button>
+      <button type="button" class="ap-secondary">Mute prompts</button>
+    </div>
+    <div class="ap-card">
+      <p class="ap-card-label">Media</p>
+      <p class="ap-card-main">Now playing: Morning briefing</p>
+      <p class="ap-card-sub">Paused while the navigation prompt speaks; resumes after it.</p>
+      <button type="button" class="ap-primary">Play</button>
+      <button type="button" class="ap-secondary">Next</button>
+    </div>
+    <p class="ap-note">Touch targets are at least 76 by 76 dp. Primary text is at least 32 dp.</p>
+  </section>
+
+  <section class="ap-load" aria-label="Driver-state variant under load">
+    <h2>Under higher load: emphasis only</h2>
+    <div class="ap-card ap-emphasis">
+      <p class="ap-card-label">Next manoeuvre</p>
+      <p class="ap-card-main">Turn left in 300 m</p>
+      <p class="ap-card-sub">Main Street, then continue for 2 km</p>
+      <button type="button" class="ap-primary ap-strong">End guidance</button>
+      <button type="button" class="ap-secondary">Mute prompts</button>
+    </div>
+    <p class="ap-note">The likely next control gains a stronger highlight and a clearer label. Nothing moved: speed, manoeuvre, and warnings sit in the same places as above.</p>
+  </section>
+
+  <section class="ap-night" aria-label="Night theme variant">
+    <h2>Night theme</h2>
+    <div class="ap-card ap-night-card">
+      <p class="ap-card-label">Next manoeuvre</p>
+      <p class="ap-card-main">Turn left in 300 m</p>
+      <button type="button" class="ap-primary">End guidance</button>
+    </div>
+    <p class="ap-note">Light text on dark surfaces, contrast at least 4.5:1, same layout as the day variant.</p>
+  </section>
+
+  <section class="ap-demo" aria-label="State demonstrations">
+    <h2>State examples</h2>
+    <p class="ap-demo-row">
+      <button type="button">Default button</button>
+      <button type="button" disabled>End guidance (blocked: no route is active)</button>
+    </p>
+    <p class="ap-demo-row">
+      <span class="ap-loading" aria-label="Loading example"></span>
+      <span>Loading example: the screen shows it is responding, never a dead screen.</span>
+    </p>
+    <p class="ap-empty">Empty example: no destination is set. <button type="button">Set a destination</button></p>
+    <p class="ap-failure">Error example: guidance could not start. <button type="button">Retry</button> Your destination is kept.</p>
+  </section>
+</main>
+</body>
+</html>

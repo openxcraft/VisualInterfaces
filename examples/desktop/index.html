@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desktop Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="desktop-page">
+  <h1>Notes — Desktop example</h1>
+
+  <nav class="dp-menubar" aria-label="Menu bar">
+    <button type="button"><u>F</u>ile</button>
+    <button type="button"><u>E</u>dit</button>
+    <button type="button"><u>V</u>iew</button>
+    <button type="button"><u>W</u>indow</button>
+    <button type="button"><u>H</u>elp</button>
+    <span class="dp-menubar-note">Every menu opens from the keyboard; shortcuts sit beside each menu label.</span>
+  </nav>
+
+  <p class="dp-windows" aria-label="Open windows">
+    <strong>Windows:</strong>
+    <button type="button" class="dp-active-window">Quarterly plan — active</button>
+    <button type="button">Meeting notes</button>
+    <button type="button">Reading list</button>
+  </p>
+
+  <section class="dp-toolbar" aria-label="Toolbar">
+    <h2>Toolbar</h2>
+    <p class="dp-row">
+      <button type="button">New</button>
+      <button type="button">Open</button>
+      <button type="button">Save</button>
+      <button type="button">Command list</button>
+      <button type="button">Shortcut reference</button>
+    </p>
+    <p class="dp-note">The dozen most frequent actions live here; the command list complements the menu bar and never replaces it.</p>
+  </section>
+
+  <div class="dp-panes">
+    <section class="dp-pane" aria-label="Document list">
+      <h2>Documents</h2>
+      <ul>
+        <li><button type="button">Quarterly plan</button></li>
+        <li><button type="button">Meeting notes</button></li>
+        <li><button type="button">Reading list</button></li>
+      </ul>
+      <p class="dp-note">Drag a document into the other pane, or use Move to pane from the menu — the same move, without a pointer.</p>
+      <p class="dp-row">
+        <button type="button">Move to pane</button>
+        <button type="button" disabled>Delete (select a document first)</button>
+      </p>
+    </section>
+
+    <section class="dp-pane dp-document" aria-label="Open document">
+      <h2>Quarterly plan</h2>
+      <p>One paragraph of placeholder text stands in for the document body. The document keeps its undo history even when a save fails.</p>
+      <p class="dp-row">
+        <button type="button" class="dp-primary">Save</button>
+        <button type="button">Revert</button>
+      </p>
+      <p class="dp-failure">Error example: the save could not reach the store. <button type="button">Retry</button> Your text is kept.</p>
+    </section>
+  </div>
+
+  <p class="dp-status" aria-label="Status bar">Quarterly plan · 2 paragraphs selected · Saved 09:41 · 3 windows open</p>
+
+  <section class="dp-demo" aria-label="State demonstrations">
+    <h2>State examples</h2>
+    <p class="dp-demo-row">
+      <button type="button">Default button</button>
+      <button type="button" disabled>Save (blocked: nothing changed)</button>
+    </p>
+    <p class="dp-demo-row">
+      <span class="dp-loading" aria-label="Loading example"></span>
+      <span>Loading example: the document skeletonises in place; the menu bar never blocks on content loading.</span>
+    </p>
+    <p class="dp-empty">Empty example: no documents match that filter. <button type="button">Clear filter</button></p>
+    <p class="dp-note">Active example: press a toolbar button — feedback appears within 100 ms and the active window stays distinct from the rest.</p>
+  </section>
+</main>
+</body>
+</html>

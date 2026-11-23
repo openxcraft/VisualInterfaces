@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kiosk Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="kiosk-page">
+  <h1>Check-in terminal</h1>
+  <p class="kp-intro">One task per screen. Your session ends when you finish, and nothing you entered is kept.</p>
+
+  <section class="kp-first" aria-label="First screen options">
+    <h2>Before you start</h2>
+    <p class="kp-row">
+      <button type="button">English</button>
+      <button type="button">Larger text</button>
+      <button type="button">High contrast</button>
+      <button type="button">Spoken guidance</button>
+    </p>
+    <p class="kp-note">Language and accessibility options sit on the first screen. Spoken guidance starts from a labelled control at the top, so it can be found without vision.</p>
+  </section>
+
+  <section class="kp-step" aria-label="Check-in step">
+    <h2>Step 1 of 3: Find your booking</h2>
+    <p class="kp-steps" aria-label="Progress">Step 1 of 3</p>
+    <label class="kp-field">Booking reference
+      <input type="text" inputmode="text" autocomplete="off" placeholder="e.g. AB12CD">
+    </label>
+    <p class="kp-row">
+      <button type="button" class="kp-primary">Continue</button>
+      <button type="button">Start over</button>
+    </p>
+    <p class="kp-note">One task per screen. The start-over control stays visible on every step.</p>
+  </section>
+
+  <section class="kp-session" aria-label="Session timer">
+    <h2>Your session</h2>
+    <p><strong>Session ends in 04:30.</strong> <button type="button">Add 2 minutes</button> <button type="button">End session now</button></p>
+    <p class="kp-note">The timer stays visible throughout. If the screen is left alone, a countdown warns in text and tone before the session resets and clears what was entered.</p>
+  </section>
+
+  <section class="kp-done" aria-label="End of session">
+    <h2>Session closed</h2>
+    <p>Check-in complete. Your booking reference, confirmation code, and any printed receipt details were cleared when this session closed. Nothing carries over to the next person.</p>
+  </section>
+
+  <section class="kp-demo" aria-label="State demonstrations">
+    <h2>State examples</h2>
+    <p class="kp-demo-row">
+      <button type="button">Default button</button>
+      <button type="button" disabled>Continue (blocked: enter a booking reference first)</button>
+    </p>
+    <p class="kp-demo-row">
+      <span class="kp-loading" aria-label="Loading example"></span>
+      <span>Loading example: the booking lookup shows a progress indicator in place; the layout does not shift.</span>
+    </p>
+    <p class="kp-empty">Empty example: no booking matches that reference. <button type="button">Try again</button></p>
+    <p class="kp-failure">Error example: the booking could not be found. <button type="button">Retry</button> What you entered is kept.</p>
+  </section>
+</main>
+</body>
+</html>

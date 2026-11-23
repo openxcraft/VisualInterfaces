@@ -37,6 +37,28 @@ confirmation that states what was done and that the session is closed.
   receipts, and loyalty entries are cleared on completion or timeout.
 - Accessibility controls (text size, contrast, audio guidance) sit on the
   first screen, not in a settings page.
+- The way into assistive features must itself be usable without vision:
+  a spoken mode hidden behind an on-screen button fails the people who
+  need it, because they cannot find the button.
+- Time-limit alerts arrive through more than one sense, and the person
+  can extend the time; a countdown alone is not enough.
+- Keep operating controls within reach: nothing essential below about
+  800 mm or above about 1600 mm from the floor; keep sensitive input
+  out of sight lines to prevent shoulder-surfing.
+- One-tap session reset is always available; the terminal moves between
+  steps in under about two seconds and ships an offline fallback mode
+  rather than a dead end.
+- Printed information needed to verify the transaction — receipts,
+  tickets, confirmation codes — is also available through speech.
+- Offer a socket for a personal headset, and run spoken output
+  through it where one is plugged in; while spoken output is in
+  use, blank the screen so bystanders cannot read what is being
+  spoken, and keep the spoken route private by default.
+- Where the terminal has physical keys, make them tactilely
+  discernible, and offer a non-biometric route beside any biometric
+  check, so no one is locked out by a check their body cannot pass;
+  keep spoken output working with hearing aids where the terminal
+  uses audio.
 
 ## States
 
@@ -54,12 +76,9 @@ Every element and page in this group defines all seven states. Missing states ar
 
 ## Pre-publish checklist
 
-- [ ] Title and short description are present and accurate.
-- [ ] Classification and when-to-use guidance are present.
-- [ ] Elements, layout, and responsive rules are complete.
-- [ ] All seven states are defined: default, hover, active, disabled, loading, empty, error.
-- [ ] Text is neutral, short, and free of names of persons and organisations in editorial prose.
-- [ ] No references appear outside the resources files.
-- [ ] No secrets, contact details, local filenames, or system paths are present.
-- [ ] Visuals, if any, are abstract shapes only.
-- [ ] Internal links resolve and headings follow a consistent order.
+The canonical publishing checklist lives in `../CONTRIBUTING.md`; the checks below are specific to this file.
+
+- [ ] Idle timeout, session reset, and no-retained-data rules are documented.
+- [ ] Headset, privacy-mode, tactile-key, and non-biometric-route rules are documented.
+- [ ] Large-target and standing-distance guidance is present.
+- [ ] All seven states appear by name: default, hover, active, disabled, loading, empty, error.
